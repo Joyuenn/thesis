@@ -150,7 +150,7 @@ print(f'Fine-tuned result filepath is {finetuned_result_fp}\n')
 # use_checkpoint = True  -----> pretrained_mod = checkpoint_dir
 pretrained_mod = 'facebook/wav2vec2-base'
 if use_checkpoint:
-    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/model_OGI_American_20230528/checkpoint-17000'
+    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/model_OGI_American_20230528/checkpoint-34000'
     pretrained_mod = checkpoint_dir
     print(f'Checkpoint directory is {checkpoint_dir}\n')
 print(f'Pretrained model is {pretrained_mod}\n')
