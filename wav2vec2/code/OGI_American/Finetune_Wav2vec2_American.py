@@ -5,7 +5,6 @@
 
 from datetime import date
 from datetime import datetime
-
 now = datetime.now()
 # Print out dd/mm/YY H:M:S
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
@@ -122,39 +121,21 @@ set_greater_is_better = False               # Optional
 print("greater_is_better:", set_greater_is_better)
 
 
-print("\n------------------ Experiment arguments... ------------------\n")
-use_checkpoint = True
-print('use_checkpoint:', use_checkpoint)
-
-training = True
-print('training:', training)
-
-
 print("\n------------------ Loading files... ------------------\n")
+
 train_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/OGI_scripted_train_dataframe.csv'
-print(f'Training dataset is stored at {train_df_fp}\n')
 dev_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/OGI_scripted_dev_dataframe.csv'
-print(f'Development dataset is stored at {dev_df_fp}\n')
 test_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/OGI_scripted_test_dataframe.csv'
-print(f'Testing dataset is stored at {test_df_fp}\n')
-cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune'
-print(f'Cache filepath is {cache_fp}\n')
+cache_fp = '/srv/scratch/chacmod/.cache/huggingfacse/datasets/Jordan-OGI-finetune'
 model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/model_OGI_American_20230528'
-print(f'Model filepath is {model_fp}\n')
 vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/vocab_OGI_American_20230528.json'
+
+print(f'Training dataset is stored at {train_df_fp}\n')
+print(f'Development dataset is stored at {dev_df_fp}\n')
+print(f'Testing dataset is stored at {test_df_fp}\n')
+print(f'Cache filepath is {cache_fp}\n')
+print(f'Model filepath is {model_fp}\n')
 print(f'Vocab filepath is {vocab_fp}\n')
-finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/result_OGI_American_20230528.csv'
-print(f'Fine-tuned result filepath is {finetuned_result_fp}\n')
-
-# use_checkpoint = False -----> pretrained_mod = 'facebook/wav2vec2-base'
-# use_checkpoint = True  -----> pretrained_mod = checkpoint_dir
-pretrained_mod = 'facebook/wav2vec2-base'
-if use_checkpoint:
-    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/model_OGI_American_20230528/checkpoint-17000'
-    pretrained_mod = checkpoint_dir
-    print(f'Checkpoint directory is {checkpoint_dir}\n')
-print(f'Pretrained model is {pretrained_mod}\n')
-
 
 
 print("\n------------------ Loading datasets... ------------------\n")
@@ -214,7 +195,6 @@ feature_extractor = Wav2Vec2FeatureExtractor(feature_size=1, sampling_rate=16000
 
 print("\n------------------ Creating processor... ------------------\n")
 processor = Wav2Vec2Processor(feature_extractor=feature_extractor, tokenizer=tokenizer)
-processor.save_pretrained(model_fp)
 
 
 def process_dataset(batch):
@@ -363,7 +343,7 @@ def compute_metrics(pred):
 
 print('\n------------------ Loading a pretrained checkpount... ------------------\n')
 model = Wav2Vec2ForCTC.from_pretrained(
-    pretrained_mod, 
+    "facebook/wav2vec2-base", 
     pad_token_id=processor.tokenizer.pad_token_id,
     hidden_dropout=set_hidden_dropout,
     activation_dropout=set_activation_dropout,
@@ -422,90 +402,13 @@ trainer = Trainer(
     tokenizer=processor.feature_extractor,
 )
 
-
-if training:
-    print('\n------------------ Starting training... ------------------\n')
-    torch.cuda.empty_cache()
-    if use_checkpoint:
-        trainer.train(resume_from_checkpoint=checkpoint_dir)
-    else:
-        trainer.train()
-    model.save_pretrained(model_fp)
-    
-       
-    now = datetime.now()
-    # dd/mm/YY H:M:S
-    dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-    print("Training Finished:", dt_string)
-    print('\n------------------ Training finished... ------------------\n')
-    
-
-print('\n------------------ Evaluation starts... ------------------\n')
-processor = Wav2Vec2Processor.from_pretrained(model_fp)
-model = Wav2Vec2ForCTC.from_pretrained(model_fp)
-
-
-# Now, we will make use of the map(...) function to predict the transcription of every test sample and to save the prediction 
-# in the dataset itself. We will call the resulting dictionary "results".
-
-# Note: we evaluate the test data set with batch_size=1 on purpose due to this issue. Since padded inputs don't yield the 
-# exact same output as non-padded inputs, a better WER can be achieved by not padding the input at all.
-
-print('\n------------------ Generating fine-tuned results... ------------------\n')
-def map_to_result(batch):
-    model.to("cuda")
-    input_values = processor(
-      batch["speech"], 
-      sampling_rate=batch["sampling_rate"], 
-      return_tensors="pt"
-    ).input_values.to("cuda")
-
-    with torch.no_grad():
-        logits = model(input_values).logits
-
-    pred_ids = torch.argmax(logits, dim=-1)
-    batch["pred_str"] = processor.batch_decode(pred_ids)[0]
-  
-    return batch
-
-
-results = dataset["test"].map(map_to_result)
-print('results are:', results)
-
-results_df = results.to_pandas()
-results_df = results_df.drop(columns=["speech", "sampling_rate", "input_values", "input_length", "labels"])
-results_df.to_csv(finetuned_result_fp)
-print('Fine-tuned results are saved to:', finetuned_result_fp)
-
-
-print('\n------------------ Generating WER result on test dataset... ------------------\n')
-print("Fine-tuned Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], references=results["target_text"])))
-
-
-print('\n------------------ Showing some random prediction errors... ------------------\n')
-show_random_elements(results.remove_columns(["speech", "sampling_rate", "input_values", "input_length", "labels"]), num_examples=10)
-
-
-print('\n------------------ Generating the exact output of the model... ------------------\n')
-
-model.to("cuda")
-input_values = processor(
-      dataset["test"][0]["speech"], 
-      sampling_rate=dataset["test"][0]["sampling_rate"], 
-      return_tensors="pt"
-  ).input_values.to("cuda")
-
-with torch.no_grad():
-    logits = model(input_values).logits
-
-pred_ids = torch.argmax(logits, dim=-1)
-
-# convert ids to tokens
-print(" ".join(processor.tokenizer.convert_ids_to_tokens(pred_ids[0].tolist())))
-
+print('\n------------------ Starting training... ------------------\n')
+torch.cuda.empty_cache()
+trainer.train()
+model.save_pretrained(model_fp)
+print('\n------------------ Training finished... ------------------\n')
 
 now = datetime.now()
 # dd/mm/YY H:M:S
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-print("Evaluation Finished:", dt_string)
-print('\n------------------ Evaluation finished... ------------------\n')
+print("Finished:", dt_string)
