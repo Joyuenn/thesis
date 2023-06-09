@@ -126,7 +126,7 @@ print("\n------------------ Experiment arguments... ------------------\n")
 use_checkpoint = False
 print('use_checkpoint:', use_checkpoint)
 
-training = False
+training = True
 print('training:', training)
 
 
