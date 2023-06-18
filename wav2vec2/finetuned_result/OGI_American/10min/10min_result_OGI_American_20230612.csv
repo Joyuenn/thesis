@@ -1,35 +1,35 @@
 ,target_text,pred_str
-0,crenshaw,
-1,easier,
-2,the flood took a car down the street,
-3,logic,
-4,iceberg,
-5,athlete,
-6,spoons,
-7,i collect stamps from vietnam,
-8,grandmother played football last year,
-9,the young emperor could not spell,
-10,mabel grows tomatoes in the courtyard,
-11,behind,
-12,will you sing this song,
-13,a feather was in the birdcage,
-14,push,
-15,gumshoe,
-16,chair,
-17,napkin,
-18,boomerang,
-19,mohawk,
-20,five,
-21,the illusion looked like a giraffe,
-22,kingpin,
-23,mcdonald,
-24,design,
-25,ethnic,
-26,that person eats pancakes,
-27,they put my computer next to the books,
-28,nuclear,
-29,civilized,
-30,advantage,
-31,homemaking,
-32,matthew has a horse from the desert,
-33,we watched television during dinner,
+0,crenshaw,a
+1,easier,i
+2,the flood took a car down the street,a
+3,logic,o
+4,iceberg,o
+5,athlete,a
+6,spoons,i
+7,i collect stamps from vietnam,a
+8,grandmother played football last year,a
+9,the young emperor could not spell,a
+10,mabel grows tomatoes in the courtyard,o
+11,behind,a
+12,will you sing this song,a
+13,a feather was in the birdcage,a
+14,push,a
+15,gumshoe,o
+16,chair,a
+17,napkin,a
+18,boomerang,a
+19,mohawk,a
+20,five,a
+21,the illusion looked like a giraffe,a
+22,kingpin,a
+23,mcdonald,o
+24,design,a
+25,ethnic,a
+26,that person eats pancakes,i
+27,they put my computer next to the books,a
+28,nuclear,a
+29,civilized,i
+30,advantage,i
+31,homemaking,o
+32,matthew has a horse from the desert,a
+33,we watched television during dinner,i

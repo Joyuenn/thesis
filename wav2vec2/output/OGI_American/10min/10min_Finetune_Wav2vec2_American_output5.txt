@@ -1,0 +1,1795 @@
+Thu Jun 15 03:31:01 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+Started: 15/06/2023 03:31:04
+
+------------ Importing libraries... ------------
+
+pandas version: 2.0.1
+json version: 2.0.9
+librosa version: 0.10.0.post2
+Numpy version: 1.23.1
+Transformers version: 4.29.2
+Torch version: 2.0.1+cu117
+Test cuda_device_count 4
+Test cuda_is_available True
+Test get_device_name Tesla V100-SXM2-32GB
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.075
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: False
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 5e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 100
+max_steps: -1
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 25
+save_strategy: steps
+save_steps: 25
+save_total_limit: 50
+fp16: True
+eval_steps: 25
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------------------ Experiment arguments... ------------------
+
+use_checkpoint: False
+training: True
+
+------------------ Loading files... ------------------
+
+Training dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_train_dataframe_10min.csv
+
+Development dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_dev_dataframe_10min.csv
+
+Testing dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_test_dataframe_10min.csv
+
+Cache filepath is /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune
+
+Model filepath is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2
+
+Vocab filepath is /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+Fine-tuned result filepath is /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230614_2.csv
+
+Pretrained model is facebook/wav2vec2-base
+
+
+------------------ Loading datasets... ------------------
+
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 346.16it/s]
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+})
+
+------------------ Showing some random elements... ------------------
+
+                     transcription
+0                       stepfather
+1                           beyond
+2                           endure
+3                         allowing
+4                           breath
+5  nine nine six nine six one zero
+6    who will the soldier vote for
+7                             push
+8                             push
+9                       background
+
+------------------ Extracting individual characters... ------------------
+
+Map:   0%|          | 0/170 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-92a618ba60f8ebea_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-d1ada4a4056406dc_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-8297073cc15f55e5_*_of_00004.arrow
+vocabs is: DatasetDict({
+    train: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    dev: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    test: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+})
+vocab_dict is: {'h': 0, 's': 1, 'n': 2, 'f': 3, 'p': 4, 'c': 5, 'r': 6, 'u': 7, 'g': 8, 'w': 9, 'x': 10, 'm': 11, 't': 12, 'o': 13, 'y': 14, 'z': 15, 'v': 16, 'j': 17, 'a': 18, ' ': 19, 'd': 20, 'k': 21, 'l': 22, 'b': 23, 'q': 24, "'": 25, 'i': 26, 'e': 27}
+The lendth of vocab_list is 30
+Successfully created vocab.json file at: /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+------------------ Creating tokenizer... ------------------
+
+
+------------------ Creating feature extractor... ------------------
+
+
+------------------ Creating processor... ------------------
+
+
+------------------ Obtaining speech arrays, sampling rates, and target texts... ------------------
+
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------Ckech sampling rates of training datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckeck sampling rates of development datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckech sampling rates of testing datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------ Verifying some ramdom samples... ------------------
+
+Target text: thursday
+Input array shape: (31495,)
+Sampling rate: 16000
+
+
+Target text: snake
+Input array shape: (37425,)
+Sampling rate: 16000
+
+
+Target text: the flood took a car down the street
+Input array shape: (105526,)
+Sampling rate: 16000
+
+
+Target text: oasis
+Input array shape: (50479,)
+Sampling rate: 16000
+
+
+Target text: don't leave so soon
+Input array shape: (65460,)
+Sampling rate: 16000
+
+
+Target text: the flood took a car down the street
+Input array shape: (105612,)
+Sampling rate: 16000
+
+
+
+------------------ Obtaining input values, input length, and labels... ------------------
+
+Map (num_proc=4):   0%|          | 0/170 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   3%|▎         | 5/170 [00:00<00:03, 44.47 examples/s]Map (num_proc=4):  11%|█         | 19/170 [00:00<00:01, 96.86 examples/s]Map (num_proc=4):  25%|██▍       | 42/170 [00:00<00:00, 149.07 examples/s]Map (num_proc=4):  37%|███▋      | 63/170 [00:00<00:00, 169.74 examples/s]Map (num_proc=4):  52%|█████▏    | 89/170 [00:00<00:00, 184.05 examples/s]Map (num_proc=4):  64%|██████▎   | 108/170 [00:00<00:00, 184.88 examples/s]Map (num_proc=4):  75%|███████▌  | 128/170 [00:00<00:00, 183.89 examples/s]Map (num_proc=4):  87%|████████▋ | 148/170 [00:00<00:00, 180.97 examples/s]Map (num_proc=4):  99%|█████████▉| 168/170 [00:01<00:00, 138.20 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  26%|██▋       | 9/34 [00:00<00:00, 68.88 examples/s]Map (num_proc=4):  82%|████████▏ | 28/34 [00:00<00:00, 128.59 examples/s]                                                                         Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  24%|██▎       | 8/34 [00:00<00:00, 64.65 examples/s]Map (num_proc=4):  79%|███████▉  | 27/34 [00:00<00:00, 121.75 examples/s]                                                                         /srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py:368: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/configuration_utils.py:380: UserWarning: Passing `gradient_checkpointing` to a config initialization is deprecated and will be removed in v5 Transformers. Using `model.gradient_checkpointing_enable()` instead, or if you are using the `Trainer` API, pass `gradient_checkpointing=True` in your `TrainingArguments`.
+  warnings.warn(
+Some weights of the model checkpoint at facebook/wav2vec2-base were not used when initializing Wav2Vec2ForCTC: ['project_hid.weight', 'quantizer.weight_proj.bias', 'project_q.bias', 'project_q.weight', 'quantizer.weight_proj.weight', 'quantizer.codevectors', 'project_hid.bias']
+- This IS expected if you are initializing Wav2Vec2ForCTC from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Wav2Vec2ForCTC from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['lm_head.bias', 'lm_head.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------ Setting up the padding data collator... ------------------
+
+
+------------------ Setting up WER metric... ------------------
+
+
+------------------ Loading a pretrained checkpount... ------------------
+
+
+------------------ Setting TrainingArguments... ------------------
+
+
+------------------ Setting Trainer... ------------------
+
+
+------------------ Starting training... ------------------
+
+  0%|          | 0/600 [00:00<?, ?it/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  0%|          | 1/600 [00:08<1:23:00,  8.31s/it]  0%|          | 2/600 [00:09<42:59,  4.31s/it]    0%|          | 3/600 [00:11<29:45,  2.99s/it]  1%|          | 4/600 [00:12<23:41,  2.39s/it]  1%|          | 5/600 [00:14<20:24,  2.06s/it]  1%|          | 6/600 [00:15<17:10,  1.73s/it]  1%|          | 7/600 [00:16<16:06,  1.63s/it]  1%|▏         | 8/600 [00:18<15:41,  1.59s/it]  2%|▏         | 9/600 [00:19<14:55,  1.51s/it]  2%|▏         | 10/600 [00:21<14:49,  1.51s/it]  2%|▏         | 11/600 [00:22<14:51,  1.51s/it]  2%|▏         | 12/600 [00:23<13:08,  1.34s/it]  2%|▏         | 13/600 [00:24<13:23,  1.37s/it]  2%|▏         | 14/600 [00:26<13:43,  1.41s/it]  2%|▎         | 15/600 [00:27<14:00,  1.44s/it]  3%|▎         | 16/600 [00:29<13:42,  1.41s/it]  3%|▎         | 17/600 [00:30<13:54,  1.43s/it]  3%|▎         | 18/600 [00:31<12:35,  1.30s/it]  3%|▎         | 19/600 [00:33<13:22,  1.38s/it]  3%|▎         | 20/600 [00:34<13:28,  1.39s/it]  4%|▎         | 21/600 [00:36<13:36,  1.41s/it]  4%|▎         | 22/600 [00:37<13:49,  1.43s/it]  4%|▍         | 23/600 [00:39<14:01,  1.46s/it]  4%|▍         | 24/600 [00:40<12:45,  1.33s/it]  4%|▍         | 25/600 [00:41<13:36,  1.42s/it]                                                  4%|▍         | 25/600 [00:41<13:36,  1.42s/it]{'loss': 122.9779, 'learning_rate': 1.5833333333333333e-05, 'epoch': 4.17}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A
+100%|██████████| 2/2 [00:00<00:00, 10.34it/s][A                                                
+                                             [A  4%|▍         | 25/600 [00:42<13:36,  1.42s/it]
+100%|██████████| 2/2 [00:00<00:00, 10.34it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  4%|▍         | 26/600 [00:46<23:32,  2.46s/it]  4%|▍         | 27/600 [00:48<20:17,  2.13s/it]  5%|▍         | 28/600 [00:49<18:25,  1.93s/it]  5%|▍         | 29/600 [00:51<16:57,  1.78s/it]  5%|▌         | 30/600 [00:51<14:32,  1.53s/it]  5%|▌         | 31/600 [00:53<14:05,  1.49s/it]  5%|▌         | 32/600 [00:55<14:36,  1.54s/it]  6%|▌         | 33/600 [00:56<14:22,  1.52s/it]  6%|▌         | 34/600 [00:57<14:11,  1.50s/it]  6%|▌         | 35/600 [00:59<14:10,  1.50s/it]  6%|▌         | 36/600 [01:00<12:25,  1.32s/it]  6%|▌         | 37/600 [01:02<13:19,  1.42s/it]  6%|▋         | 38/600 [01:03<13:13,  1.41s/it]  6%|▋         | 39/600 [01:04<13:25,  1.44s/it]  7%|▋         | 40/600 [01:06<13:45,  1.47s/it]  7%|▋         | 41/600 [01:08<13:59,  1.50s/it]  7%|▋         | 42/600 [01:08<12:16,  1.32s/it]  7%|▋         | 43/600 [01:10<12:45,  1.37s/it]  7%|▋         | 44/600 [01:11<13:08,  1.42s/it]  8%|▊         | 45/600 [01:13<13:20,  1.44s/it]  8%|▊         | 46/600 [01:14<13:05,  1.42s/it]  8%|▊         | 47/600 [01:16<12:58,  1.41s/it]  8%|▊         | 48/600 [01:17<11:40,  1.27s/it]  8%|▊         | 49/600 [01:18<12:03,  1.31s/it]  8%|▊         | 50/600 [01:20<12:54,  1.41s/it]                                                  8%|▊         | 50/600 [01:20<12:54,  1.41s/it]{'eval_loss': 73.908447265625, 'eval_wer': 1.0, 'eval_runtime': 1.0206, 'eval_samples_per_second': 33.312, 'eval_steps_per_second': 1.96, 'epoch': 4.17}
+{'loss': 42.5699, 'learning_rate': 3.6666666666666666e-05, 'epoch': 8.33}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                
+                                     [A  8%|▊         | 50/600 [01:21<12:54,  1.41s/it]
+100%|██████████| 2/2 [00:00<00:00, 18.78it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  8%|▊         | 51/600 [01:25<22:38,  2.47s/it]  9%|▊         | 52/600 [01:26<20:01,  2.19s/it]  9%|▉         | 53/600 [01:28<17:52,  1.96s/it]  9%|▉         | 54/600 [01:29<15:00,  1.65s/it]  9%|▉         | 55/600 [01:30<14:42,  1.62s/it]  9%|▉         | 56/600 [01:31<14:06,  1.56s/it] 10%|▉         | 57/600 [01:33<13:55,  1.54s/it] 10%|▉         | 58/600 [01:34<13:42,  1.52s/it] 10%|▉         | 59/600 [01:36<13:59,  1.55s/it] 10%|█         | 60/600 [01:37<12:21,  1.37s/it] 10%|█         | 61/600 [01:39<12:38,  1.41s/it] 10%|█         | 62/600 [01:40<12:50,  1.43s/it] 10%|█         | 63/600 [01:41<12:48,  1.43s/it] 11%|█         | 64/600 [01:43<13:00,  1.46s/it] 11%|█         | 65/600 [01:44<12:37,  1.42s/it] 11%|█         | 66/600 [01:45<11:28,  1.29s/it] 11%|█         | 67/600 [01:47<12:11,  1.37s/it] 11%|█▏        | 68/600 [01:48<12:36,  1.42s/it] 12%|█▏        | 69/600 [01:50<12:27,  1.41s/it] 12%|█▏        | 70/600 [01:51<12:32,  1.42s/it] 12%|█▏        | 71/600 [01:53<12:38,  1.43s/it] 12%|█▏        | 72/600 [01:54<11:15,  1.28s/it] 12%|█▏        | 73/600 [01:55<12:10,  1.39s/it] 12%|█▏        | 74/600 [01:57<12:23,  1.41s/it] 12%|█▎        | 75/600 [01:58<12:37,  1.44s/it]                                                 12%|█▎        | 75/600 [01:58<12:37,  1.44s/it]{'eval_loss': 7.270849704742432, 'eval_wer': 1.0, 'eval_runtime': 0.9485, 'eval_samples_per_second': 35.846, 'eval_steps_per_second': 2.109, 'epoch': 8.33}
+{'loss': 9.2868, 'learning_rate': 4.9166666666666665e-05, 'epoch': 12.5}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                
+                                     [A 12%|█▎        | 75/600 [01:59<12:37,  1.44s/it]
+100%|██████████| 2/2 [00:00<00:00, 18.86it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 13%|█▎        | 76/600 [02:03<21:10,  2.42s/it] 13%|█▎        | 77/600 [02:05<19:08,  2.20s/it] 13%|█▎        | 78/600 [02:05<15:45,  1.81s/it] 13%|█▎        | 79/600 [02:07<14:46,  1.70s/it] 13%|█▎        | 80/600 [02:08<14:13,  1.64s/it] 14%|█▎        | 81/600 [02:10<13:48,  1.60s/it] 14%|█▎        | 82/600 [02:11<13:28,  1.56s/it] 14%|█▍        | 83/600 [02:13<13:00,  1.51s/it] 14%|█▍        | 84/600 [02:14<11:23,  1.32s/it] 14%|█▍        | 85/600 [02:15<11:51,  1.38s/it] 14%|█▍        | 86/600 [02:17<12:17,  1.44s/it] 14%|█▍        | 87/600 [02:18<12:24,  1.45s/it] 15%|█▍        | 88/600 [02:20<12:24,  1.45s/it] 15%|█▍        | 89/600 [02:21<12:01,  1.41s/it] 15%|█▌        | 90/600 [02:22<10:41,  1.26s/it] 15%|█▌        | 91/600 [02:24<11:36,  1.37s/it] 15%|█▌        | 92/600 [02:25<11:58,  1.42s/it] 16%|█▌        | 93/600 [02:26<11:43,  1.39s/it] 16%|█▌        | 94/600 [02:28<12:10,  1.44s/it] 16%|█▌        | 95/600 [02:29<12:12,  1.45s/it] 16%|█▌        | 96/600 [02:30<11:03,  1.32s/it] 16%|█▌        | 97/600 [02:32<11:35,  1.38s/it] 16%|█▋        | 98/600 [02:33<11:38,  1.39s/it] 16%|█▋        | 99/600 [02:35<11:47,  1.41s/it] 17%|█▋        | 100/600 [02:36<12:15,  1.47s/it]                                                  17%|█▋        | 100/600 [02:36<12:15,  1.47s/it]{'eval_loss': 4.605012893676758, 'eval_wer': 1.0, 'eval_runtime': 0.8995, 'eval_samples_per_second': 37.799, 'eval_steps_per_second': 2.223, 'epoch': 12.5}
+{'loss': 5.1213, 'learning_rate': 4.685185185185185e-05, 'epoch': 16.67}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 17%|█▋        | 100/600 [02:37<12:15,  1.47s/it]
+100%|██████████| 2/2 [00:00<00:00, 18.42it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 17%|█▋        | 101/600 [02:41<20:26,  2.46s/it] 17%|█▋        | 102/600 [02:42<16:36,  2.00s/it] 17%|█▋        | 103/600 [02:44<15:22,  1.86s/it] 17%|█▋        | 104/600 [02:45<14:45,  1.78s/it] 18%|█▊        | 105/600 [02:47<13:44,  1.67s/it] 18%|█▊        | 106/600 [02:48<12:59,  1.58s/it] 18%|█▊        | 107/600 [02:50<12:46,  1.56s/it] 18%|█▊        | 108/600 [02:51<11:19,  1.38s/it] 18%|█▊        | 109/600 [02:52<11:30,  1.41s/it] 18%|█▊        | 110/600 [02:54<11:45,  1.44s/it] 18%|█▊        | 111/600 [02:55<11:54,  1.46s/it] 19%|█▊        | 112/600 [02:57<12:04,  1.49s/it] 19%|█▉        | 113/600 [02:58<11:39,  1.44s/it] 19%|█▉        | 114/600 [02:59<10:46,  1.33s/it] 19%|█▉        | 115/600 [03:00<11:02,  1.37s/it] 19%|█▉        | 116/600 [03:02<11:20,  1.41s/it] 20%|█▉        | 117/600 [03:03<11:22,  1.41s/it] 20%|█▉        | 118/600 [03:05<11:33,  1.44s/it] 20%|█▉        | 119/600 [03:06<12:00,  1.50s/it] 20%|██        | 120/600 [03:07<10:19,  1.29s/it] 20%|██        | 121/600 [03:09<10:44,  1.35s/it] 20%|██        | 122/600 [03:10<11:12,  1.41s/it] 20%|██        | 123/600 [03:12<11:32,  1.45s/it] 21%|██        | 124/600 [03:13<11:38,  1.47s/it] 21%|██        | 125/600 [03:15<11:28,  1.45s/it]                                                  21%|██        | 125/600 [03:15<11:28,  1.45s/it]{'eval_loss': 3.8973805904388428, 'eval_wer': 1.0, 'eval_runtime': 0.9281, 'eval_samples_per_second': 36.633, 'eval_steps_per_second': 2.155, 'epoch': 16.67}
+{'loss': 4.2607, 'learning_rate': 4.4537037037037036e-05, 'epoch': 20.83}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 21%|██        | 125/600 [03:16<11:28,  1.45s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.64it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 21%|██        | 126/600 [03:19<18:16,  2.31s/it] 21%|██        | 127/600 [03:21<16:30,  2.10s/it] 21%|██▏       | 128/600 [03:22<15:03,  1.91s/it] 22%|██▏       | 129/600 [03:24<13:45,  1.75s/it] 22%|██▏       | 130/600 [03:25<12:55,  1.65s/it] 22%|██▏       | 131/600 [03:27<12:44,  1.63s/it] 22%|██▏       | 132/600 [03:28<11:30,  1.48s/it] 22%|██▏       | 133/600 [03:29<11:41,  1.50s/it] 22%|██▏       | 134/600 [03:31<11:22,  1.46s/it] 22%|██▎       | 135/600 [03:32<11:33,  1.49s/it] 23%|██▎       | 136/600 [03:34<11:24,  1.48s/it] 23%|██▎       | 137/600 [03:35<11:14,  1.46s/it] 23%|██▎       | 138/600 [03:36<10:02,  1.30s/it] 23%|██▎       | 139/600 [03:37<10:30,  1.37s/it] 23%|██▎       | 140/600 [03:39<10:17,  1.34s/it] 24%|██▎       | 141/600 [03:40<10:48,  1.41s/it] 24%|██▎       | 142/600 [03:42<10:58,  1.44s/it] 24%|██▍       | 143/600 [03:43<11:01,  1.45s/it] 24%|██▍       | 144/600 [03:44<09:44,  1.28s/it] 24%|██▍       | 145/600 [03:46<10:41,  1.41s/it] 24%|██▍       | 146/600 [03:47<10:46,  1.42s/it] 24%|██▍       | 147/600 [03:49<10:40,  1.41s/it] 25%|██▍       | 148/600 [03:50<10:44,  1.43s/it] 25%|██▍       | 149/600 [03:52<10:46,  1.43s/it] 25%|██▌       | 150/600 [03:53<09:39,  1.29s/it]                                                  25%|██▌       | 150/600 [03:53<09:39,  1.29s/it]{'eval_loss': 3.6589248180389404, 'eval_wer': 1.0, 'eval_runtime': 0.9008, 'eval_samples_per_second': 37.743, 'eval_steps_per_second': 2.22, 'epoch': 20.83}
+{'loss': 4.1649, 'learning_rate': 4.222222222222222e-05, 'epoch': 25.0}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 25%|██▌       | 150/600 [03:54<09:39,  1.29s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.42it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 25%|██▌       | 151/600 [03:57<17:18,  2.31s/it] 25%|██▌       | 152/600 [03:59<15:25,  2.07s/it] 26%|██▌       | 153/600 [04:00<13:55,  1.87s/it] 26%|██▌       | 154/600 [04:02<13:20,  1.79s/it] 26%|██▌       | 155/600 [04:03<12:30,  1.69s/it] 26%|██▌       | 156/600 [04:04<10:44,  1.45s/it] 26%|██▌       | 157/600 [04:06<10:38,  1.44s/it] 26%|██▋       | 158/600 [04:07<10:40,  1.45s/it] 26%|██▋       | 159/600 [04:09<10:57,  1.49s/it] 27%|██▋       | 160/600 [04:10<10:59,  1.50s/it] 27%|██▋       | 161/600 [04:12<10:55,  1.49s/it] 27%|██▋       | 162/600 [04:13<09:43,  1.33s/it] 27%|██▋       | 163/600 [04:14<10:12,  1.40s/it] 27%|██▋       | 164/600 [04:16<10:08,  1.40s/it] 28%|██▊       | 165/600 [04:17<10:17,  1.42s/it] 28%|██▊       | 166/600 [04:19<10:30,  1.45s/it] 28%|██▊       | 167/600 [04:20<10:26,  1.45s/it] 28%|██▊       | 168/600 [04:21<09:22,  1.30s/it] 28%|██▊       | 169/600 [04:22<09:46,  1.36s/it] 28%|██▊       | 170/600 [04:24<09:57,  1.39s/it] 28%|██▊       | 171/600 [04:25<10:03,  1.41s/it] 29%|██▊       | 172/600 [04:27<10:22,  1.45s/it] 29%|██▉       | 173/600 [04:28<10:18,  1.45s/it] 29%|██▉       | 174/600 [04:29<09:24,  1.33s/it] 29%|██▉       | 175/600 [04:31<09:56,  1.40s/it]                                                  29%|██▉       | 175/600 [04:31<09:56,  1.40s/it]{'eval_loss': 3.5760817527770996, 'eval_wer': 1.0, 'eval_runtime': 0.9244, 'eval_samples_per_second': 36.78, 'eval_steps_per_second': 2.164, 'epoch': 25.0}
+{'loss': 3.7916, 'learning_rate': 3.990740740740741e-05, 'epoch': 29.17}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 29%|██▉       | 175/600 [04:32<09:56,  1.40s/it]
+100%|██████████| 2/2 [00:00<00:00, 17.61it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 29%|██▉       | 176/600 [04:36<16:57,  2.40s/it] 30%|██▉       | 177/600 [04:37<15:12,  2.16s/it] 30%|██▉       | 178/600 [04:39<13:45,  1.96s/it] 30%|██▉       | 179/600 [04:40<12:36,  1.80s/it] 30%|███       | 180/600 [04:41<10:42,  1.53s/it] 30%|███       | 181/600 [04:43<10:44,  1.54s/it] 30%|███       | 182/600 [04:44<10:37,  1.53s/it] 30%|███       | 183/600 [04:46<10:30,  1.51s/it] 31%|███       | 184/600 [04:47<10:19,  1.49s/it] 31%|███       | 185/600 [04:49<10:26,  1.51s/it] 31%|███       | 186/600 [04:50<09:18,  1.35s/it] 31%|███       | 187/600 [04:51<09:31,  1.38s/it] 31%|███▏      | 188/600 [04:53<09:43,  1.42s/it] 32%|███▏      | 189/600 [04:54<09:49,  1.43s/it] 32%|███▏      | 190/600 [04:56<10:00,  1.46s/it] 32%|███▏      | 191/600 [04:57<09:49,  1.44s/it] 32%|███▏      | 192/600 [04:58<08:53,  1.31s/it] 32%|███▏      | 193/600 [04:59<09:12,  1.36s/it] 32%|███▏      | 194/600 [05:01<09:30,  1.41s/it] 32%|███▎      | 195/600 [05:02<09:37,  1.43s/it] 33%|███▎      | 196/600 [05:04<09:32,  1.42s/it] 33%|███▎      | 197/600 [05:05<09:40,  1.44s/it] 33%|███▎      | 198/600 [05:06<08:44,  1.30s/it] 33%|███▎      | 199/600 [05:08<09:10,  1.37s/it] 33%|███▎      | 200/600 [05:09<09:14,  1.39s/it]                                                  33%|███▎      | 200/600 [05:09<09:14,  1.39s/it]{'eval_loss': 3.4043006896972656, 'eval_wer': 1.0, 'eval_runtime': 0.9274, 'eval_samples_per_second': 36.663, 'eval_steps_per_second': 2.157, 'epoch': 29.17}
+{'loss': 3.4969, 'learning_rate': 3.759259259259259e-05, 'epoch': 33.33}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 33%|███▎      | 200/600 [05:10<09:14,  1.39s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.16it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 34%|███▎      | 201/600 [05:14<16:51,  2.54s/it] 34%|███▎      | 202/600 [05:16<14:34,  2.20s/it] 34%|███▍      | 203/600 [05:17<13:14,  2.00s/it] 34%|███▍      | 204/600 [05:18<11:01,  1.67s/it] 34%|███▍      | 205/600 [05:20<10:32,  1.60s/it] 34%|███▍      | 206/600 [05:21<10:10,  1.55s/it] 34%|███▍      | 207/600 [05:23<10:09,  1.55s/it] 35%|███▍      | 208/600 [05:24<09:57,  1.52s/it] 35%|███▍      | 209/600 [05:26<09:45,  1.50s/it] 35%|███▌      | 210/600 [05:27<08:35,  1.32s/it] 35%|███▌      | 211/600 [05:28<09:03,  1.40s/it] 35%|███▌      | 212/600 [05:30<09:19,  1.44s/it] 36%|███▌      | 213/600 [05:31<09:21,  1.45s/it] 36%|███▌      | 214/600 [05:33<09:11,  1.43s/it] 36%|███▌      | 215/600 [05:34<09:14,  1.44s/it] 36%|███▌      | 216/600 [05:35<08:24,  1.31s/it] 36%|███▌      | 217/600 [05:36<08:39,  1.36s/it] 36%|███▋      | 218/600 [05:38<08:53,  1.40s/it] 36%|███▋      | 219/600 [05:39<08:56,  1.41s/it] 37%|███▋      | 220/600 [05:41<09:10,  1.45s/it] 37%|███▋      | 221/600 [05:42<09:16,  1.47s/it] 37%|███▋      | 222/600 [05:43<08:15,  1.31s/it] 37%|███▋      | 223/600 [05:45<08:36,  1.37s/it] 37%|███▋      | 224/600 [05:46<08:50,  1.41s/it] 38%|███▊      | 225/600 [05:48<08:55,  1.43s/it]                                                  38%|███▊      | 225/600 [05:48<08:55,  1.43s/it]{'eval_loss': 3.397677183151245, 'eval_wer': 1.0, 'eval_runtime': 0.9247, 'eval_samples_per_second': 36.769, 'eval_steps_per_second': 2.163, 'epoch': 33.33}
+{'loss': 3.4929, 'learning_rate': 3.527777777777778e-05, 'epoch': 37.5}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 38%|███▊      | 225/600 [05:49<08:55,  1.43s/it]
+100%|██████████| 2/2 [00:00<00:00, 19.80it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 38%|███▊      | 226/600 [05:53<15:18,  2.46s/it] 38%|███▊      | 227/600 [05:54<13:15,  2.13s/it] 38%|███▊      | 228/600 [05:55<11:00,  1.77s/it] 38%|███▊      | 229/600 [05:57<10:41,  1.73s/it] 38%|███▊      | 230/600 [05:58<10:18,  1.67s/it] 38%|███▊      | 231/600 [06:00<09:53,  1.61s/it] 39%|███▊      | 232/600 [06:01<09:31,  1.55s/it] 39%|███▉      | 233/600 [06:03<09:16,  1.52s/it] 39%|███▉      | 234/600 [06:03<08:08,  1.33s/it] 39%|███▉      | 235/600 [06:05<08:19,  1.37s/it] 39%|███▉      | 236/600 [06:06<08:26,  1.39s/it] 40%|███▉      | 237/600 [06:08<08:40,  1.43s/it] 40%|███▉      | 238/600 [06:09<08:56,  1.48s/it] 40%|███▉      | 239/600 [06:11<08:46,  1.46s/it] 40%|████      | 240/600 [06:12<07:45,  1.29s/it] 40%|████      | 241/600 [06:13<08:05,  1.35s/it] 40%|████      | 242/600 [06:15<08:24,  1.41s/it] 40%|████      | 243/600 [06:16<08:22,  1.41s/it] 41%|████      | 244/600 [06:18<08:27,  1.42s/it] 41%|████      | 245/600 [06:19<08:32,  1.44s/it] 41%|████      | 246/600 [06:20<07:44,  1.31s/it] 41%|████      | 247/600 [06:22<08:08,  1.38s/it] 41%|████▏     | 248/600 [06:23<08:22,  1.43s/it] 42%|████▏     | 249/600 [06:25<08:18,  1.42s/it] 42%|████▏     | 250/600 [06:26<08:20,  1.43s/it]                                                  42%|████▏     | 250/600 [06:26<08:20,  1.43s/it]{'eval_loss': 3.3063466548919678, 'eval_wer': 1.0, 'eval_runtime': 0.9054, 'eval_samples_per_second': 37.551, 'eval_steps_per_second': 2.209, 'epoch': 37.5}
+{'loss': 3.3569, 'learning_rate': 3.2962962962962964e-05, 'epoch': 41.67}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 42%|████▏     | 250/600 [06:27<08:20,  1.43s/it]
+100%|██████████| 2/2 [00:00<00:00, 21.01it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 42%|████▏     | 251/600 [06:31<15:10,  2.61s/it] 42%|████▏     | 252/600 [06:32<12:10,  2.10s/it] 42%|████▏     | 253/600 [06:34<10:53,  1.88s/it] 42%|████▏     | 254/600 [06:35<10:04,  1.75s/it] 42%|████▎     | 255/600 [06:37<09:51,  1.71s/it] 43%|████▎     | 256/600 [06:38<09:24,  1.64s/it] 43%|████▎     | 257/600 [06:40<09:13,  1.61s/it] 43%|████▎     | 258/600 [06:41<08:07,  1.43s/it] 43%|████▎     | 259/600 [06:42<08:23,  1.48s/it] 43%|████▎     | 260/600 [06:44<08:21,  1.47s/it] 44%|████▎     | 261/600 [06:45<08:15,  1.46s/it] 44%|████▎     | 262/600 [06:47<08:10,  1.45s/it] 44%|████▍     | 263/600 [06:48<08:21,  1.49s/it] 44%|████▍     | 264/600 [06:49<07:33,  1.35s/it] 44%|████▍     | 265/600 [06:51<07:46,  1.39s/it] 44%|████▍     | 266/600 [06:52<07:46,  1.40s/it] 44%|████▍     | 267/600 [06:54<07:53,  1.42s/it] 45%|████▍     | 268/600 [06:55<07:52,  1.42s/it] 45%|████▍     | 269/600 [06:57<08:02,  1.46s/it] 45%|████▌     | 270/600 [06:58<07:01,  1.28s/it] 45%|████▌     | 271/600 [06:59<07:22,  1.34s/it] 45%|████▌     | 272/600 [07:01<07:33,  1.38s/it] 46%|████▌     | 273/600 [07:02<07:57,  1.46s/it] 46%|████▌     | 274/600 [07:04<07:55,  1.46s/it] 46%|████▌     | 275/600 [07:05<07:46,  1.44s/it]                                                  46%|████▌     | 275/600 [07:05<07:46,  1.44s/it]{'eval_loss': 3.28780460357666, 'eval_wer': 1.0, 'eval_runtime': 0.9403, 'eval_samples_per_second': 36.159, 'eval_steps_per_second': 2.127, 'epoch': 41.67}
+{'loss': 3.8608, 'learning_rate': 3.064814814814815e-05, 'epoch': 45.83}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 46%|████▌     | 275/600 [07:06<07:46,  1.44s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.64it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 46%|████▌     | 276/600 [07:09<11:51,  2.20s/it] 46%|████▌     | 277/600 [07:11<10:55,  2.03s/it] 46%|████▋     | 278/600 [07:12<09:51,  1.84s/it] 46%|████▋     | 279/600 [07:13<09:05,  1.70s/it] 47%|████▋     | 280/600 [07:15<08:40,  1.63s/it] 47%|████▋     | 281/600 [07:16<08:23,  1.58s/it] 47%|████▋     | 282/600 [07:17<07:28,  1.41s/it] 47%|████▋     | 283/600 [07:19<07:31,  1.43s/it] 47%|████▋     | 284/600 [07:20<07:34,  1.44s/it] 48%|████▊     | 285/600 [07:22<07:30,  1.43s/it] 48%|████▊     | 286/600 [07:23<07:27,  1.43s/it] 48%|████▊     | 287/600 [07:25<07:45,  1.49s/it] 48%|████▊     | 288/600 [07:26<06:50,  1.32s/it] 48%|████▊     | 289/600 [07:27<07:00,  1.35s/it] 48%|████▊     | 290/600 [07:29<07:19,  1.42s/it] 48%|████▊     | 291/600 [07:30<07:31,  1.46s/it] 49%|████▊     | 292/600 [07:32<07:33,  1.47s/it] 49%|████▉     | 293/600 [07:33<07:26,  1.46s/it] 49%|████▉     | 294/600 [07:34<06:37,  1.30s/it] 49%|████▉     | 295/600 [07:36<07:11,  1.42s/it] 49%|████▉     | 296/600 [07:37<07:12,  1.42s/it] 50%|████▉     | 297/600 [07:39<07:13,  1.43s/it] 50%|████▉     | 298/600 [07:40<06:58,  1.39s/it] 50%|████▉     | 299/600 [07:41<07:11,  1.43s/it] 50%|█████     | 300/600 [07:42<06:34,  1.31s/it]                                                  50%|█████     | 300/600 [07:42<06:34,  1.31s/it]{'eval_loss': 3.2912912368774414, 'eval_wer': 1.0, 'eval_runtime': 0.9033, 'eval_samples_per_second': 37.639, 'eval_steps_per_second': 2.214, 'epoch': 45.83}
+{'loss': 3.3144, 'learning_rate': 2.8333333333333335e-05, 'epoch': 50.0}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 50%|█████     | 300/600 [07:43<06:34,  1.31s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.39it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 50%|█████     | 301/600 [07:47<11:29,  2.30s/it] 50%|█████     | 302/600 [07:49<10:10,  2.05s/it] 50%|█████     | 303/600 [07:50<09:15,  1.87s/it] 51%|█████     | 304/600 [07:52<08:46,  1.78s/it] 51%|█████     | 305/600 [07:53<08:21,  1.70s/it] 51%|█████     | 306/600 [07:54<07:14,  1.48s/it] 51%|█████     | 307/600 [07:55<07:06,  1.45s/it] 51%|█████▏    | 308/600 [07:57<07:15,  1.49s/it] 52%|█████▏    | 309/600 [07:58<07:10,  1.48s/it] 52%|█████▏    | 310/600 [08:00<07:08,  1.48s/it] 52%|█████▏    | 311/600 [08:01<07:07,  1.48s/it] 52%|█████▏    | 312/600 [08:02<06:12,  1.29s/it] 52%|█████▏    | 313/600 [08:04<06:41,  1.40s/it] 52%|█████▏    | 314/600 [08:05<06:36,  1.38s/it] 52%|█████▎    | 315/600 [08:07<06:39,  1.40s/it] 53%|█████▎    | 316/600 [08:08<06:37,  1.40s/it] 53%|█████▎    | 317/600 [08:10<06:50,  1.45s/it] 53%|█████▎    | 318/600 [08:11<06:03,  1.29s/it] 53%|█████▎    | 319/600 [08:12<06:25,  1.37s/it] 53%|█████▎    | 320/600 [08:14<06:23,  1.37s/it] 54%|█████▎    | 321/600 [08:15<06:24,  1.38s/it] 54%|█████▎    | 322/600 [08:17<06:39,  1.44s/it] 54%|█████▍    | 323/600 [08:18<06:37,  1.44s/it] 54%|█████▍    | 324/600 [08:19<05:56,  1.29s/it] 54%|█████▍    | 325/600 [08:20<05:59,  1.31s/it]                                                  54%|█████▍    | 325/600 [08:20<05:59,  1.31s/it]{'eval_loss': 3.286449909210205, 'eval_wer': 1.0, 'eval_runtime': 0.8919, 'eval_samples_per_second': 38.119, 'eval_steps_per_second': 2.242, 'epoch': 50.0}
+{'loss': 3.2751, 'learning_rate': 2.601851851851852e-05, 'epoch': 54.17}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 54%|█████▍    | 325/600 [08:21<05:59,  1.31s/it]
+100%|██████████| 2/2 [00:00<00:00, 21.25it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 54%|█████▍    | 326/600 [08:26<11:44,  2.57s/it] 55%|█████▍    | 327/600 [08:27<10:15,  2.25s/it] 55%|█████▍    | 328/600 [08:29<09:03,  2.00s/it] 55%|█████▍    | 329/600 [08:30<08:20,  1.85s/it] 55%|█████▌    | 330/600 [08:31<07:16,  1.62s/it] 55%|█████▌    | 331/600 [08:33<06:57,  1.55s/it] 55%|█████▌    | 332/600 [08:34<06:54,  1.55s/it] 56%|█████▌    | 333/600 [08:36<06:43,  1.51s/it] 56%|█████▌    | 334/600 [08:37<06:40,  1.51s/it] 56%|█████▌    | 335/600 [08:39<06:39,  1.51s/it] 56%|█████▌    | 336/600 [08:39<05:41,  1.29s/it] 56%|█████▌    | 337/600 [08:41<05:55,  1.35s/it] 56%|█████▋    | 338/600 [08:42<05:55,  1.36s/it] 56%|█████▋    | 339/600 [08:44<06:09,  1.42s/it] 57%|█████▋    | 340/600 [08:45<06:15,  1.45s/it] 57%|█████▋    | 341/600 [08:47<06:15,  1.45s/it] 57%|█████▋    | 342/600 [08:48<05:39,  1.32s/it] 57%|█████▋    | 343/600 [08:49<05:51,  1.37s/it] 57%|█████▋    | 344/600 [08:51<06:08,  1.44s/it] 57%|█████▊    | 345/600 [08:52<06:13,  1.46s/it] 58%|█████▊    | 346/600 [08:54<06:13,  1.47s/it] 58%|█████▊    | 347/600 [08:55<06:09,  1.46s/it] 58%|█████▊    | 348/600 [08:56<05:28,  1.30s/it] 58%|█████▊    | 349/600 [08:58<05:46,  1.38s/it] 58%|█████▊    | 350/600 [08:59<05:43,  1.37s/it]                                                  58%|█████▊    | 350/600 [08:59<05:43,  1.37s/it]{'eval_loss': 3.2639963626861572, 'eval_wer': 1.0, 'eval_runtime': 0.9218, 'eval_samples_per_second': 36.883, 'eval_steps_per_second': 2.17, 'epoch': 54.17}
+{'loss': 3.2596, 'learning_rate': 2.3703703703703707e-05, 'epoch': 58.33}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 58%|█████▊    | 350/600 [09:00<05:43,  1.37s/it]
+100%|██████████| 2/2 [00:00<00:00, 18.90it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 58%|█████▊    | 351/600 [09:04<10:12,  2.46s/it] 59%|█████▊    | 352/600 [09:06<08:55,  2.16s/it] 59%|█████▉    | 353/600 [09:07<08:05,  1.97s/it] 59%|█████▉    | 354/600 [09:08<06:51,  1.67s/it] 59%|█████▉    | 355/600 [09:10<06:32,  1.60s/it] 59%|█████▉    | 356/600 [09:11<06:16,  1.54s/it] 60%|█████▉    | 357/600 [09:13<06:17,  1.55s/it] 60%|█████▉    | 358/600 [09:14<06:09,  1.53s/it] 60%|█████▉    | 359/600 [09:15<05:58,  1.49s/it] 60%|██████    | 360/600 [09:16<05:20,  1.34s/it] 60%|██████    | 361/600 [09:18<05:32,  1.39s/it] 60%|██████    | 362/600 [09:20<05:45,  1.45s/it] 60%|██████    | 363/600 [09:21<05:46,  1.46s/it] 61%|██████    | 364/600 [09:23<05:46,  1.47s/it] 61%|██████    | 365/600 [09:24<05:44,  1.46s/it] 61%|██████    | 366/600 [09:25<05:10,  1.32s/it] 61%|██████    | 367/600 [09:27<05:24,  1.39s/it] 61%|██████▏   | 368/600 [09:28<05:27,  1.41s/it] 62%|██████▏   | 369/600 [09:29<05:23,  1.40s/it] 62%|██████▏   | 370/600 [09:31<05:19,  1.39s/it] 62%|██████▏   | 371/600 [09:32<05:34,  1.46s/it] 62%|██████▏   | 372/600 [09:33<04:58,  1.31s/it] 62%|██████▏   | 373/600 [09:35<04:59,  1.32s/it] 62%|██████▏   | 374/600 [09:36<05:07,  1.36s/it] 62%|██████▎   | 375/600 [09:38<05:25,  1.44s/it]                                                  62%|██████▎   | 375/600 [09:38<05:25,  1.44s/it]{'eval_loss': 3.2640132904052734, 'eval_wer': 1.0, 'eval_runtime': 0.9242, 'eval_samples_per_second': 36.789, 'eval_steps_per_second': 2.164, 'epoch': 58.33}
+{'loss': 3.2304, 'learning_rate': 2.138888888888889e-05, 'epoch': 62.5}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 62%|██████▎   | 375/600 [09:39<05:25,  1.44s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.33it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 63%|██████▎   | 376/600 [09:42<09:01,  2.42s/it] 63%|██████▎   | 377/600 [09:44<07:56,  2.14s/it] 63%|██████▎   | 378/600 [09:45<06:35,  1.78s/it] 63%|██████▎   | 379/600 [09:46<06:18,  1.71s/it] 63%|██████▎   | 380/600 [09:48<05:57,  1.63s/it] 64%|██████▎   | 381/600 [09:49<05:43,  1.57s/it] 64%|██████▎   | 382/600 [09:51<05:29,  1.51s/it] 64%|██████▍   | 383/600 [09:52<05:27,  1.51s/it] 64%|██████▍   | 384/600 [09:53<04:53,  1.36s/it] 64%|██████▍   | 385/600 [09:55<05:00,  1.40s/it] 64%|██████▍   | 386/600 [09:56<04:59,  1.40s/it] 64%|██████▍   | 387/600 [09:57<05:00,  1.41s/it] 65%|██████▍   | 388/600 [09:59<05:12,  1.47s/it] 65%|██████▍   | 389/600 [10:01<05:08,  1.46s/it] 65%|██████▌   | 390/600 [10:02<04:36,  1.32s/it] 65%|██████▌   | 391/600 [10:03<04:44,  1.36s/it] 65%|██████▌   | 392/600 [10:05<04:58,  1.44s/it] 66%|██████▌   | 393/600 [10:06<04:58,  1.44s/it] 66%|██████▌   | 394/600 [10:08<05:02,  1.47s/it] 66%|██████▌   | 395/600 [10:09<05:00,  1.47s/it] 66%|██████▌   | 396/600 [10:10<04:26,  1.31s/it] 66%|██████▌   | 397/600 [10:12<04:46,  1.41s/it] 66%|██████▋   | 398/600 [10:13<04:48,  1.43s/it] 66%|██████▋   | 399/600 [10:14<04:44,  1.41s/it] 67%|██████▋   | 400/600 [10:16<04:40,  1.40s/it]                                                  67%|██████▋   | 400/600 [10:16<04:40,  1.40s/it]{'eval_loss': 3.257699966430664, 'eval_wer': 1.0, 'eval_runtime': 0.9135, 'eval_samples_per_second': 37.219, 'eval_steps_per_second': 2.189, 'epoch': 62.5}
+{'loss': 3.3417, 'learning_rate': 1.9074074074074075e-05, 'epoch': 66.67}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 67%|██████▋   | 400/600 [10:17<04:40,  1.40s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.59it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 67%|██████▋   | 401/600 [10:21<08:34,  2.59s/it] 67%|██████▋   | 402/600 [10:22<06:49,  2.07s/it] 67%|██████▋   | 403/600 [10:24<06:13,  1.90s/it] 67%|██████▋   | 404/600 [10:25<05:49,  1.78s/it] 68%|██████▊   | 405/600 [10:27<05:28,  1.68s/it] 68%|██████▊   | 406/600 [10:28<05:16,  1.63s/it] 68%|██████▊   | 407/600 [10:29<04:59,  1.55s/it] 68%|██████▊   | 408/600 [10:30<04:23,  1.37s/it] 68%|██████▊   | 409/600 [10:32<04:26,  1.40s/it] 68%|██████▊   | 410/600 [10:33<04:36,  1.46s/it] 68%|██████▊   | 411/600 [10:35<04:34,  1.45s/it] 69%|██████▊   | 412/600 [10:36<04:30,  1.44s/it] 69%|██████▉   | 413/600 [10:38<04:27,  1.43s/it] 69%|██████▉   | 414/600 [10:39<03:58,  1.28s/it] 69%|██████▉   | 415/600 [10:40<04:07,  1.34s/it] 69%|██████▉   | 416/600 [10:42<04:11,  1.37s/it] 70%|██████▉   | 417/600 [10:43<04:19,  1.42s/it] 70%|██████▉   | 418/600 [10:44<04:17,  1.41s/it] 70%|██████▉   | 419/600 [10:46<04:16,  1.41s/it] 70%|███████   | 420/600 [10:47<03:54,  1.30s/it] 70%|███████   | 421/600 [10:48<04:05,  1.37s/it] 70%|███████   | 422/600 [10:50<04:05,  1.38s/it] 70%|███████   | 423/600 [10:51<04:02,  1.37s/it] 71%|███████   | 424/600 [10:53<04:09,  1.42s/it] 71%|███████   | 425/600 [10:54<04:14,  1.45s/it]                                                  71%|███████   | 425/600 [10:54<04:14,  1.45s/it]{'eval_loss': 3.2573134899139404, 'eval_wer': 1.0, 'eval_runtime': 0.9261, 'eval_samples_per_second': 36.713, 'eval_steps_per_second': 2.16, 'epoch': 66.67}
+{'loss': 3.2443, 'learning_rate': 1.675925925925926e-05, 'epoch': 70.83}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 71%|███████   | 425/600 [10:55<04:14,  1.45s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.91it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 71%|███████   | 426/600 [10:59<06:43,  2.32s/it] 71%|███████   | 427/600 [11:00<06:00,  2.09s/it] 71%|███████▏  | 428/600 [11:02<05:26,  1.90s/it] 72%|███████▏  | 429/600 [11:03<05:06,  1.79s/it] 72%|███████▏  | 430/600 [11:04<04:42,  1.66s/it] 72%|███████▏  | 431/600 [11:06<04:32,  1.61s/it] 72%|███████▏  | 432/600 [11:07<03:55,  1.40s/it] 72%|███████▏  | 433/600 [11:08<03:56,  1.42s/it] 72%|███████▏  | 434/600 [11:10<04:00,  1.45s/it] 72%|███████▎  | 435/600 [11:11<03:57,  1.44s/it] 73%|███████▎  | 436/600 [11:13<03:58,  1.45s/it] 73%|███████▎  | 437/600 [11:14<03:51,  1.42s/it] 73%|███████▎  | 438/600 [11:15<03:30,  1.30s/it] 73%|███████▎  | 439/600 [11:17<03:40,  1.37s/it] 73%|███████▎  | 440/600 [11:18<03:42,  1.39s/it] 74%|███████▎  | 441/600 [11:20<03:45,  1.42s/it] 74%|███████▎  | 442/600 [11:21<03:48,  1.45s/it] 74%|███████▍  | 443/600 [11:23<03:56,  1.51s/it] 74%|███████▍  | 444/600 [11:24<03:27,  1.33s/it] 74%|███████▍  | 445/600 [11:25<03:32,  1.37s/it] 74%|███████▍  | 446/600 [11:27<03:33,  1.39s/it] 74%|███████▍  | 447/600 [11:28<03:38,  1.43s/it] 75%|███████▍  | 448/600 [11:30<03:46,  1.49s/it] 75%|███████▍  | 449/600 [11:31<03:41,  1.47s/it] 75%|███████▌  | 450/600 [11:32<03:19,  1.33s/it]                                                  75%|███████▌  | 450/600 [11:32<03:19,  1.33s/it]{'eval_loss': 3.262158155441284, 'eval_wer': 1.0, 'eval_runtime': 0.9327, 'eval_samples_per_second': 36.452, 'eval_steps_per_second': 2.144, 'epoch': 70.83}
+{'loss': 3.2411, 'learning_rate': 1.4444444444444444e-05, 'epoch': 75.0}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 75%|███████▌  | 450/600 [11:33<03:19,  1.33s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.88it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 75%|███████▌  | 451/600 [11:37<05:40,  2.29s/it] 75%|███████▌  | 452/600 [11:38<04:58,  2.02s/it] 76%|███████▌  | 453/600 [11:40<04:33,  1.86s/it] 76%|███████▌  | 454/600 [11:41<04:11,  1.72s/it] 76%|███████▌  | 455/600 [11:42<03:58,  1.65s/it] 76%|███████▌  | 456/600 [11:44<03:33,  1.48s/it] 76%|███████▌  | 457/600 [11:45<03:31,  1.48s/it] 76%|███████▋  | 458/600 [11:46<03:24,  1.44s/it] 76%|███████▋  | 459/600 [11:48<03:29,  1.49s/it] 77%|███████▋  | 460/600 [11:49<03:29,  1.50s/it] 77%|███████▋  | 461/600 [11:51<03:25,  1.48s/it] 77%|███████▋  | 462/600 [11:52<03:03,  1.33s/it] 77%|███████▋  | 463/600 [11:53<03:09,  1.38s/it] 77%|███████▋  | 464/600 [11:55<03:19,  1.47s/it] 78%|███████▊  | 465/600 [11:56<03:12,  1.42s/it] 78%|███████▊  | 466/600 [11:58<03:14,  1.45s/it] 78%|███████▊  | 467/600 [11:59<03:13,  1.45s/it] 78%|███████▊  | 468/600 [12:00<02:50,  1.29s/it] 78%|███████▊  | 469/600 [12:02<03:03,  1.40s/it] 78%|███████▊  | 470/600 [12:03<03:03,  1.41s/it] 78%|███████▊  | 471/600 [12:05<03:03,  1.43s/it] 79%|███████▊  | 472/600 [12:06<03:02,  1.43s/it] 79%|███████▉  | 473/600 [12:08<03:02,  1.44s/it] 79%|███████▉  | 474/600 [12:09<02:47,  1.33s/it] 79%|███████▉  | 475/600 [12:10<02:49,  1.36s/it]                                                  79%|███████▉  | 475/600 [12:10<02:49,  1.36s/it]{'eval_loss': 3.238306999206543, 'eval_wer': 1.0, 'eval_runtime': 0.8995, 'eval_samples_per_second': 37.798, 'eval_steps_per_second': 2.223, 'epoch': 75.0}
+{'loss': 3.254, 'learning_rate': 1.212962962962963e-05, 'epoch': 79.17}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 79%|███████▉  | 475/600 [12:11<02:49,  1.36s/it]
+100%|██████████| 2/2 [00:00<00:00, 18.17it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 79%|███████▉  | 476/600 [12:15<04:48,  2.33s/it] 80%|███████▉  | 477/600 [12:16<04:17,  2.09s/it] 80%|███████▉  | 478/600 [12:18<03:53,  1.92s/it] 80%|███████▉  | 479/600 [12:19<03:33,  1.76s/it] 80%|████████  | 480/600 [12:20<03:00,  1.50s/it] 80%|████████  | 481/600 [12:22<02:58,  1.50s/it] 80%|████████  | 482/600 [12:23<02:54,  1.48s/it] 80%|████████  | 483/600 [12:25<02:53,  1.49s/it] 81%|████████  | 484/600 [12:26<02:51,  1.48s/it] 81%|████████  | 485/600 [12:27<02:47,  1.45s/it] 81%|████████  | 486/600 [12:28<02:28,  1.30s/it] 81%|████████  | 487/600 [12:30<02:36,  1.39s/it] 81%|████████▏ | 488/600 [12:31<02:39,  1.42s/it] 82%|████████▏ | 489/600 [12:33<02:36,  1.41s/it] 82%|████████▏ | 490/600 [12:34<02:37,  1.43s/it] 82%|████████▏ | 491/600 [12:36<02:34,  1.42s/it] 82%|████████▏ | 492/600 [12:37<02:22,  1.32s/it] 82%|████████▏ | 493/600 [12:38<02:26,  1.37s/it] 82%|████████▏ | 494/600 [12:40<02:28,  1.40s/it] 82%|████████▎ | 495/600 [12:41<02:25,  1.39s/it] 83%|████████▎ | 496/600 [12:43<02:29,  1.43s/it] 83%|████████▎ | 497/600 [12:44<02:25,  1.41s/it] 83%|████████▎ | 498/600 [12:45<02:08,  1.26s/it] 83%|████████▎ | 499/600 [12:46<02:13,  1.32s/it] 83%|████████▎ | 500/600 [12:48<02:19,  1.40s/it]                                                  83%|████████▎ | 500/600 [12:48<02:19,  1.40s/it]{'eval_loss': 3.2434499263763428, 'eval_wer': 1.0, 'eval_runtime': 0.9484, 'eval_samples_per_second': 35.852, 'eval_steps_per_second': 2.109, 'epoch': 79.17}
+{'loss': 3.2141, 'learning_rate': 9.814814814814815e-06, 'epoch': 83.33}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 83%|████████▎ | 500/600 [12:49<02:19,  1.40s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.28it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 84%|████████▎ | 501/600 [12:52<03:47,  2.29s/it] 84%|████████▎ | 502/600 [12:54<03:24,  2.09s/it] 84%|████████▍ | 503/600 [12:55<03:05,  1.92s/it] 84%|████████▍ | 504/600 [12:57<02:38,  1.65s/it] 84%|████████▍ | 505/600 [12:58<02:30,  1.59s/it] 84%|████████▍ | 506/600 [12:59<02:24,  1.54s/it] 84%|████████▍ | 507/600 [13:01<02:17,  1.48s/it] 85%|████████▍ | 508/600 [13:02<02:18,  1.50s/it] 85%|████████▍ | 509/600 [13:04<02:17,  1.51s/it] 85%|████████▌ | 510/600 [13:05<02:01,  1.35s/it] 85%|████████▌ | 511/600 [13:06<02:04,  1.40s/it] 85%|████████▌ | 512/600 [13:08<02:02,  1.39s/it] 86%|████████▌ | 513/600 [13:09<02:04,  1.43s/it] 86%|████████▌ | 514/600 [13:11<02:07,  1.48s/it] 86%|████████▌ | 515/600 [13:12<02:05,  1.47s/it] 86%|████████▌ | 516/600 [13:13<01:50,  1.32s/it] 86%|████████▌ | 517/600 [13:15<01:52,  1.36s/it] 86%|████████▋ | 518/600 [13:16<01:55,  1.41s/it] 86%|████████▋ | 519/600 [13:18<01:53,  1.40s/it] 87%|████████▋ | 520/600 [13:19<01:54,  1.43s/it] 87%|████████▋ | 521/600 [13:21<01:53,  1.43s/it] 87%|████████▋ | 522/600 [13:21<01:39,  1.27s/it] 87%|████████▋ | 523/600 [13:23<01:45,  1.37s/it] 87%|████████▋ | 524/600 [13:24<01:44,  1.38s/it] 88%|████████▊ | 525/600 [13:26<01:45,  1.41s/it]                                                  88%|████████▊ | 525/600 [13:26<01:45,  1.41s/it]{'eval_loss': 3.244392156600952, 'eval_wer': 1.0, 'eval_runtime': 0.9139, 'eval_samples_per_second': 37.201, 'eval_steps_per_second': 2.188, 'epoch': 83.33}
+{'loss': 3.2155, 'learning_rate': 7.5e-06, 'epoch': 87.5}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 88%|████████▊ | 525/600 [13:27<01:45,  1.41s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.33it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 88%|████████▊ | 526/600 [13:30<02:53,  2.35s/it] 88%|████████▊ | 527/600 [13:32<02:35,  2.13s/it] 88%|████████▊ | 528/600 [13:33<02:08,  1.78s/it] 88%|████████▊ | 529/600 [13:35<02:00,  1.69s/it] 88%|████████▊ | 530/600 [13:36<01:51,  1.60s/it] 88%|████████▊ | 531/600 [13:38<01:50,  1.61s/it] 89%|████████▊ | 532/600 [13:39<01:47,  1.58s/it] 89%|████████▉ | 533/600 [13:41<01:44,  1.56s/it] 89%|████████▉ | 534/600 [13:41<01:29,  1.36s/it] 89%|████████▉ | 535/600 [13:43<01:29,  1.38s/it] 89%|████████▉ | 536/600 [13:44<01:32,  1.44s/it] 90%|████████▉ | 537/600 [13:46<01:31,  1.45s/it] 90%|████████▉ | 538/600 [13:47<01:30,  1.45s/it] 90%|████████▉ | 539/600 [13:49<01:29,  1.46s/it] 90%|█████████ | 540/600 [13:50<01:18,  1.32s/it] 90%|█████████ | 541/600 [13:51<01:18,  1.34s/it] 90%|█████████ | 542/600 [13:53<01:19,  1.38s/it] 90%|█████████ | 543/600 [13:54<01:18,  1.38s/it] 91%|█████████ | 544/600 [13:56<01:21,  1.46s/it] 91%|█████████ | 545/600 [13:57<01:19,  1.45s/it] 91%|█████████ | 546/600 [13:58<01:09,  1.29s/it] 91%|█████████ | 547/600 [14:00<01:12,  1.36s/it] 91%|█████████▏| 548/600 [14:01<01:12,  1.39s/it] 92%|█████████▏| 549/600 [14:03<01:15,  1.47s/it] 92%|█████████▏| 550/600 [14:04<01:11,  1.44s/it]                                                  92%|█████████▏| 550/600 [14:04<01:11,  1.44s/it]{'eval_loss': 3.2360973358154297, 'eval_wer': 1.0, 'eval_runtime': 0.8998, 'eval_samples_per_second': 37.788, 'eval_steps_per_second': 2.223, 'epoch': 87.5}
+{'loss': 3.1903, 'learning_rate': 5.185185185185185e-06, 'epoch': 91.67}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 92%|█████████▏| 550/600 [14:05<01:11,  1.44s/it]
+100%|██████████| 2/2 [00:00<00:00, 21.31it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 92%|█████████▏| 551/600 [14:08<01:51,  2.28s/it] 92%|█████████▏| 552/600 [14:09<01:29,  1.87s/it] 92%|█████████▏| 553/600 [14:11<01:24,  1.79s/it] 92%|█████████▏| 554/600 [14:12<01:17,  1.68s/it] 92%|█████████▎| 555/600 [14:14<01:12,  1.62s/it] 93%|█████████▎| 556/600 [14:15<01:09,  1.58s/it] 93%|█████████▎| 557/600 [14:17<01:06,  1.54s/it] 93%|█████████▎| 558/600 [14:18<00:58,  1.38s/it] 93%|█████████▎| 559/600 [14:19<00:58,  1.42s/it] 93%|█████████▎| 560/600 [14:21<00:57,  1.45s/it] 94%|█████████▎| 561/600 [14:22<00:56,  1.44s/it] 94%|█████████▎| 562/600 [14:24<00:56,  1.48s/it] 94%|█████████▍| 563/600 [14:25<00:54,  1.47s/it] 94%|█████████▍| 564/600 [14:26<00:46,  1.30s/it] 94%|█████████▍| 565/600 [14:28<00:47,  1.36s/it] 94%|█████████▍| 566/600 [14:29<00:47,  1.41s/it] 94%|█████████▍| 567/600 [14:30<00:46,  1.41s/it] 95%|█████████▍| 568/600 [14:32<00:45,  1.43s/it] 95%|█████████▍| 569/600 [14:33<00:44,  1.44s/it] 95%|█████████▌| 570/600 [14:34<00:39,  1.30s/it] 95%|█████████▌| 571/600 [14:36<00:40,  1.38s/it] 95%|█████████▌| 572/600 [14:37<00:39,  1.39s/it] 96%|█████████▌| 573/600 [14:39<00:37,  1.40s/it] 96%|█████████▌| 574/600 [14:40<00:37,  1.43s/it] 96%|█████████▌| 575/600 [14:42<00:36,  1.44s/it]                                                  96%|█████████▌| 575/600 [14:42<00:36,  1.44s/it]{'eval_loss': 3.2382588386535645, 'eval_wer': 1.0, 'eval_runtime': 0.8836, 'eval_samples_per_second': 38.477, 'eval_steps_per_second': 2.263, 'epoch': 91.67}
+{'loss': 3.204, 'learning_rate': 2.8703703703703706e-06, 'epoch': 95.83}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 96%|█████████▌| 575/600 [14:43<00:36,  1.44s/it]
+100%|██████████| 2/2 [00:00<00:00, 18.36it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 96%|█████████▌| 576/600 [14:46<00:52,  2.18s/it] 96%|█████████▌| 577/600 [14:47<00:45,  1.96s/it] 96%|█████████▋| 578/600 [14:49<00:39,  1.81s/it] 96%|█████████▋| 579/600 [14:50<00:35,  1.70s/it] 97%|█████████▋| 580/600 [14:52<00:32,  1.65s/it] 97%|█████████▋| 581/600 [14:53<00:30,  1.60s/it] 97%|█████████▋| 582/600 [14:54<00:25,  1.40s/it] 97%|█████████▋| 583/600 [14:55<00:24,  1.42s/it] 97%|█████████▋| 584/600 [14:57<00:23,  1.49s/it] 98%|█████████▊| 585/600 [14:59<00:22,  1.47s/it] 98%|█████████▊| 586/600 [15:00<00:20,  1.48s/it] 98%|█████████▊| 587/600 [15:01<00:18,  1.46s/it] 98%|█████████▊| 588/600 [15:02<00:15,  1.30s/it] 98%|█████████▊| 589/600 [15:04<00:15,  1.37s/it] 98%|█████████▊| 590/600 [15:05<00:13,  1.40s/it] 98%|█████████▊| 591/600 [15:07<00:12,  1.40s/it] 99%|█████████▊| 592/600 [15:08<00:11,  1.40s/it] 99%|█████████▉| 593/600 [15:10<00:10,  1.45s/it] 99%|█████████▉| 594/600 [15:11<00:07,  1.29s/it] 99%|█████████▉| 595/600 [15:12<00:06,  1.32s/it] 99%|█████████▉| 596/600 [15:13<00:05,  1.33s/it]100%|█████████▉| 597/600 [15:15<00:04,  1.34s/it]100%|█████████▉| 598/600 [15:16<00:02,  1.37s/it]100%|█████████▉| 599/600 [15:18<00:01,  1.41s/it]100%|██████████| 600/600 [15:19<00:00,  1.27s/it]                                                 100%|██████████| 600/600 [15:19<00:00,  1.27s/it]{'eval_loss': 3.2373290061950684, 'eval_wer': 1.0, 'eval_runtime': 0.9235, 'eval_samples_per_second': 36.817, 'eval_steps_per_second': 2.166, 'epoch': 95.83}
+{'loss': 3.1982, 'learning_rate': 5.555555555555556e-07, 'epoch': 100.0}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A100%|██████████| 600/600 [15:20<00:00,  1.27s/it]
+100%|██████████| 2/2 [00:00<00:00, 19.68it/s][A
+                                             [A                                                 100%|██████████| 600/600 [15:32<00:00,  1.27s/it]100%|██████████| 600/600 [15:32<00:00,  1.55s/it]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+{'eval_loss': 3.2390034198760986, 'eval_wer': 1.0, 'eval_runtime': 0.9393, 'eval_samples_per_second': 36.198, 'eval_steps_per_second': 2.129, 'epoch': 100.0}
+{'train_runtime': 932.4956, 'train_samples_per_second': 18.231, 'train_steps_per_second': 0.643, 'train_loss': 10.356808420817057, 'epoch': 100.0}
+Training Finished: 15/06/2023 03:47:16
+
+------------------ Training finished... ------------------
+
+
+------------------ Evaluation starts... ------------------
+
+Traceback (most recent call last):
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 446, in load_state_dict
+    return torch.load(checkpoint_file, map_location="cpu")
+  File "/home/z5313567/.local/lib/python3.10/site-packages/torch/serialization.py", line 815, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/torch/serialization.py", line 1033, in _legacy_load
+    magic_number = pickle_module.load(f, **pickle_load_args)
+EOFError: Ran out of input
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 457, in load_state_dict
+    raise ValueError(
+ValueError: Unable to locate the file /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/pytorch_model.bin which is necessary to load this pretrained model. Make sure you have saved the model properly.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py", line 479, in <module>
+    model = Wav2Vec2ForCTC.from_pretrained(model_fp)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2542, in from_pretrained
+    state_dict = load_state_dict(resolved_archive_file)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 462, in load_state_dict
+    raise OSError(
+OSError: Unable to load weights from pytorch checkpoint file for '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/pytorch_model.bin' at '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/pytorch_model.bin'. If you tried to load a PyTorch model from a TF 2.0 checkpoint, please set from_tf=True.
+Thu Jun 15 09:00:37 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+Started: 15/06/2023 09:00:38
+
+------------ Importing libraries... ------------
+
+pandas version: 2.0.1
+json version: 2.0.9
+librosa version: 0.10.0.post2
+Numpy version: 1.23.1
+Transformers version: 4.29.2
+Torch version: 2.0.1+cu117
+Test cuda_device_count 4
+Test cuda_is_available True
+Test get_device_name NVIDIA A100-PCIE-40GB
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.075
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: False
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 5e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 100
+max_steps: -1
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 25
+save_strategy: steps
+save_steps: 25
+save_total_limit: 50
+fp16: True
+eval_steps: 25
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------------------ Experiment arguments... ------------------
+
+use_checkpoint: True
+training: True
+
+------------------ Loading files... ------------------
+
+Training dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_train_dataframe_10min.csv
+
+Development dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_dev_dataframe_10min.csv
+
+Testing dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_test_dataframe_10min.csv
+
+Cache filepath is /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune
+
+Model filepath is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2
+
+Vocab filepath is /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+Fine-tuned result filepath is /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230614_2.csv
+
+Checkpoint directory is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-600
+
+Pretrained model is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-600
+
+
+------------------ Loading datasets... ------------------
+
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 149.47it/s]
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+})
+
+------------------ Showing some random elements... ------------------
+
+                                  transcription
+0                silver robot toys are the best
+1  the herd became angry and started a stampede
+2                       will you sing this song
+3                                        spoons
+4          the flood took a car down the street
+5                  the bird sang a sweet melody
+6                                     lethargic
+7                                           sir
+8                                          join
+9          stewart has five friends in richmond
+
+------------------ Extracting individual characters... ------------------
+
+Map:   0%|          | 0/170 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-92a618ba60f8ebea_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-d1ada4a4056406dc_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-8297073cc15f55e5_*_of_00004.arrow
+vocabs is: DatasetDict({
+    train: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    dev: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    test: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+})
+vocab_dict is: {'j': 0, 'k': 1, "'": 2, 'z': 3, 'i': 4, 'a': 5, 'q': 6, 'x': 7, 'v': 8, 'c': 9, 'o': 10, 't': 11, 'b': 12, 'p': 13, 'w': 14, 'f': 15, 'd': 16, 'g': 17, 'm': 18, 's': 19, ' ': 20, 'h': 21, 'y': 22, 'n': 23, 'e': 24, 'r': 25, 'l': 26, 'u': 27}
+The lendth of vocab_list is 30
+Successfully created vocab.json file at: /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+------------------ Creating tokenizer... ------------------
+
+
+------------------ Creating feature extractor... ------------------
+
+
+------------------ Creating processor... ------------------
+
+
+------------------ Obtaining speech arrays, sampling rates, and target texts... ------------------
+
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------Ckech sampling rates of training datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckeck sampling rates of development datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckech sampling rates of testing datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------ Verifying some ramdom samples... ------------------
+
+Target text: biology
+Input array shape: (65477,)
+Sampling rate: 16000
+
+
+Target text: it can only be a good circus with elephants
+Input array shape: (85498,)
+Sampling rate: 16000
+
+
+Target text: two six four zero two four six
+Input array shape: (97513,)
+Sampling rate: 16000
+
+
+Target text: thanks
+Input array shape: (33415,)
+Sampling rate: 16000
+
+
+Target text: spoons
+Input array shape: (37420,)
+Sampling rate: 16000
+
+
+Target text: one
+Input array shape: (44741,)
+Sampling rate: 16000
+
+
+
+------------------ Obtaining input values, input length, and labels... ------------------
+
+Map (num_proc=4):   0%|          | 0/170 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   5%|▍         | 8/170 [00:00<00:03, 53.92 examples/s]Map (num_proc=4):  19%|█▉        | 32/170 [00:00<00:01, 136.12 examples/s]Map (num_proc=4):  32%|███▏      | 55/170 [00:00<00:00, 173.06 examples/s]Map (num_proc=4):  46%|████▋     | 79/170 [00:00<00:00, 193.71 examples/s]Map (num_proc=4):  60%|██████    | 102/170 [00:00<00:00, 184.91 examples/s]Map (num_proc=4):  75%|███████▌  | 128/170 [00:00<00:00, 197.37 examples/s]Map (num_proc=4):  89%|████████▉ | 151/170 [00:00<00:00, 192.32 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  26%|██▋       | 9/34 [00:00<00:00, 76.81 examples/s]Map (num_proc=4):  82%|████████▏ | 28/34 [00:00<00:00, 125.87 examples/s]                                                                         Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  24%|██▎       | 8/34 [00:00<00:00, 66.16 examples/s]Map (num_proc=4):  79%|███████▉  | 27/34 [00:00<00:00, 125.61 examples/s]                                                                         /srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py:368: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------ Setting up the padding data collator... ------------------
+
+
+------------------ Setting up WER metric... ------------------
+
+
+------------------ Loading a pretrained checkpount... ------------------
+
+Traceback (most recent call last):
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 446, in load_state_dict
+    return torch.load(checkpoint_file, map_location="cpu")
+  File "/home/z5313567/.local/lib/python3.10/site-packages/torch/serialization.py", line 815, in load
+    return _legacy_load(opened_file, map_location, pickle_module, **pickle_load_args)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/torch/serialization.py", line 1033, in _legacy_load
+    magic_number = pickle_module.load(f, **pickle_load_args)
+EOFError: Ran out of input
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 457, in load_state_dict
+    raise ValueError(
+ValueError: Unable to locate the file /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-600/pytorch_model.bin which is necessary to load this pretrained model. Make sure you have saved the model properly.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py", line 387, in <module>
+    model = Wav2Vec2ForCTC.from_pretrained(
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 2542, in from_pretrained
+    state_dict = load_state_dict(resolved_archive_file)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/modeling_utils.py", line 462, in load_state_dict
+    raise OSError(
+OSError: Unable to load weights from pytorch checkpoint file for '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-600/pytorch_model.bin' at '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-600/pytorch_model.bin'. If you tried to load a PyTorch model from a TF 2.0 checkpoint, please set from_tf=True.
+Thu Jun 15 09:10:01 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+Started: 15/06/2023 09:10:01
+
+------------ Importing libraries... ------------
+
+pandas version: 2.0.1
+json version: 2.0.9
+librosa version: 0.10.0.post2
+Numpy version: 1.23.1
+Transformers version: 4.29.2
+Torch version: 2.0.1+cu117
+Test cuda_device_count 4
+Test cuda_is_available True
+Test get_device_name NVIDIA A100-PCIE-40GB
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.075
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: False
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 5e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 100
+max_steps: -1
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 25
+save_strategy: steps
+save_steps: 25
+save_total_limit: 50
+fp16: True
+eval_steps: 25
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------------------ Experiment arguments... ------------------
+
+use_checkpoint: True
+training: True
+
+------------------ Loading files... ------------------
+
+Training dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_train_dataframe_10min.csv
+
+Development dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_dev_dataframe_10min.csv
+
+Testing dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_test_dataframe_10min.csv
+
+Cache filepath is /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune
+
+Model filepath is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2
+
+Vocab filepath is /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+Fine-tuned result filepath is /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230614_2.csv
+
+Checkpoint directory is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-425
+
+Pretrained model is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-425
+
+
+------------------ Loading datasets... ------------------
+
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 524.94it/s]
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+})
+
+------------------ Showing some random elements... ------------------
+
+                       transcription
+0                              rugby
+1                         stepfather
+2  san diego is very green this year
+3                           offshore
+4                                sir
+5               honey can get sticky
+6      who will the soldier vote for
+7                             toyota
+8                          hawthorne
+9                            thrower
+
+------------------ Extracting individual characters... ------------------
+
+Map:   0%|          | 0/170 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-92a618ba60f8ebea_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-d1ada4a4056406dc_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-8297073cc15f55e5_*_of_00004.arrow
+vocabs is: DatasetDict({
+    train: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    dev: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    test: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+})
+vocab_dict is: {'s': 0, 'h': 1, 'w': 2, 'i': 3, 'r': 4, 'y': 5, 'j': 6, ' ': 7, 't': 8, 'c': 9, 'x': 10, 'u': 11, 'p': 12, 'b': 13, 'd': 14, 'l': 15, 'f': 16, "'": 17, 'n': 18, 'e': 19, 'z': 20, 'k': 21, 'g': 22, 'm': 23, 'a': 24, 'o': 25, 'v': 26, 'q': 27}
+The lendth of vocab_list is 30
+Successfully created vocab.json file at: /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+------------------ Creating tokenizer... ------------------
+
+
+------------------ Creating feature extractor... ------------------
+
+
+------------------ Creating processor... ------------------
+
+
+------------------ Obtaining speech arrays, sampling rates, and target texts... ------------------
+
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------Ckech sampling rates of training datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckeck sampling rates of development datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckech sampling rates of testing datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------ Verifying some ramdom samples... ------------------
+
+Target text: edgar does not have a job
+Input array shape: (79490,)
+Sampling rate: 16000
+
+
+Target text: will you sing this song
+Input array shape: (82234,)
+Sampling rate: 16000
+
+
+Target text: nothing
+Input array shape: (42016,)
+Sampling rate: 16000
+
+
+Target text: push
+Input array shape: (50611,)
+Sampling rate: 16000
+
+
+Target text: fragment
+Input array shape: (50508,)
+Sampling rate: 16000
+
+
+Target text: san diego is very green this year
+Input array shape: (129405,)
+Sampling rate: 16000
+
+
+
+------------------ Obtaining input values, input length, and labels... ------------------
+
+Map (num_proc=4):   0%|          | 0/170 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   5%|▌         | 9/170 [00:00<00:02, 64.06 examples/s]Map (num_proc=4):  18%|█▊        | 30/170 [00:00<00:01, 129.44 examples/s]Map (num_proc=4):  34%|███▍      | 58/170 [00:00<00:00, 178.58 examples/s]Map (num_proc=4):  49%|████▉     | 83/170 [00:00<00:00, 196.00 examples/s]Map (num_proc=4):  63%|██████▎   | 107/170 [00:00<00:00, 197.55 examples/s]Map (num_proc=4):  78%|███████▊  | 133/170 [00:00<00:00, 211.86 examples/s]Map (num_proc=4):  91%|█████████ | 155/170 [00:00<00:00, 191.82 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  29%|██▉       | 10/34 [00:00<00:00, 81.49 examples/s]Map (num_proc=4):  85%|████████▌ | 29/34 [00:00<00:00, 131.79 examples/s]                                                                         Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  26%|██▋       | 9/34 [00:00<00:00, 84.64 examples/s]Map (num_proc=4):  74%|███████▎  | 25/34 [00:00<00:00, 126.34 examples/s]                                                                         /srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py:368: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------ Setting up the padding data collator... ------------------
+
+
+------------------ Setting up WER metric... ------------------
+
+
+------------------ Loading a pretrained checkpount... ------------------
+
+
+------------------ Setting TrainingArguments... ------------------
+
+
+------------------ Setting Trainer... ------------------
+
+
+------------------ Starting training... ------------------
+
+Traceback (most recent call last):
+  File "/srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py", line 464, in <module>
+    trainer.train(resume_from_checkpoint=checkpoint_dir)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1664, in train
+    return inner_training_loop(
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1772, in _inner_training_loop
+    self._load_optimizer_and_scheduler(resume_from_checkpoint)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2529, in _load_optimizer_and_scheduler
+    torch.load(os.path.join(checkpoint, OPTIMIZER_NAME), map_location=map_location)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/torch/serialization.py", line 797, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/home/z5313567/.local/lib/python3.10/site-packages/torch/serialization.py", line 283, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+Thu Jun 15 09:14:22 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+Started: 15/06/2023 09:14:22
+
+------------ Importing libraries... ------------
+
+pandas version: 2.0.1
+json version: 2.0.9
+librosa version: 0.10.0.post2
+Numpy version: 1.23.1
+Transformers version: 4.29.2
+Torch version: 2.0.1+cu117
+Test cuda_device_count 4
+Test cuda_is_available True
+Test get_device_name NVIDIA A100-PCIE-40GB
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.075
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: False
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 5e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 100
+max_steps: -1
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 25
+save_strategy: steps
+save_steps: 25
+save_total_limit: 50
+fp16: True
+eval_steps: 25
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------------------ Experiment arguments... ------------------
+
+use_checkpoint: True
+training: True
+
+------------------ Loading files... ------------------
+
+Training dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_train_dataframe_10min.csv
+
+Development dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_dev_dataframe_10min.csv
+
+Testing dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_test_dataframe_10min.csv
+
+Cache filepath is /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune
+
+Model filepath is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2
+
+Vocab filepath is /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+Fine-tuned result filepath is /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230614_2.csv
+
+Checkpoint directory is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-425
+
+Pretrained model is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-425
+
+
+------------------ Loading datasets... ------------------
+
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 544.67it/s]
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+})
+
+------------------ Showing some random elements... ------------------
+
+                          transcription
+0                                   six
+1      every month i eat some chocolate
+2                                singer
+3                                woolen
+4                              fragment
+5                             handshake
+6                              subtract
+7  the angry chef cooked his vegetables
+8    you can save water in your bathtub
+9     turn the volume on the radio down
+
+------------------ Extracting individual characters... ------------------
+
+Map:   0%|          | 0/170 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-92a618ba60f8ebea_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-d1ada4a4056406dc_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-8297073cc15f55e5_*_of_00004.arrow
+vocabs is: DatasetDict({
+    train: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    dev: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    test: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+})
+vocab_dict is: {'s': 0, 'h': 1, 'm': 2, 'b': 3, 'q': 4, 'j': 5, 'z': 6, 'y': 7, 'd': 8, 'a': 9, 't': 10, 'l': 11, 'e': 12, 'g': 13, 'k': 14, 'o': 15, 'u': 16, 'x': 17, 'v': 18, "'": 19, 'i': 20, ' ': 21, 'f': 22, 'c': 23, 'n': 24, 'p': 25, 'r': 26, 'w': 27}
+The lendth of vocab_list is 30
+Successfully created vocab.json file at: /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+------------------ Creating tokenizer... ------------------
+
+
+------------------ Creating feature extractor... ------------------
+
+
+------------------ Creating processor... ------------------
+
+
+------------------ Obtaining speech arrays, sampling rates, and target texts... ------------------
+
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------Ckech sampling rates of training datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckeck sampling rates of development datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckech sampling rates of testing datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------ Verifying some ramdom samples... ------------------
+
+Target text: because my leg is sore
+Input array shape: (105466,)
+Sampling rate: 16000
+
+
+Target text: childhood
+Input array shape: (42006,)
+Sampling rate: 16000
+
+
+Target text: will you sing this song
+Input array shape: (82216,)
+Sampling rate: 16000
+
+
+Target text: hourly
+Input array shape: (41858,)
+Sampling rate: 16000
+
+
+Target text: childhood
+Input array shape: (42006,)
+Sampling rate: 16000
+
+
+Target text: is that girl chewing gum
+Input array shape: (82222,)
+Sampling rate: 16000
+
+
+
+------------------ Obtaining input values, input length, and labels... ------------------
+
+Map (num_proc=4):   0%|          | 0/170 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   5%|▍         | 8/170 [00:00<00:02, 76.02 examples/s]Map (num_proc=4):  15%|█▍        | 25/170 [00:00<00:01, 128.78 examples/s]Map (num_proc=4):  30%|███       | 51/170 [00:00<00:00, 183.90 examples/s]Map (num_proc=4):  43%|████▎     | 73/170 [00:00<00:00, 194.55 examples/s]Map (num_proc=4):  56%|█████▌    | 95/170 [00:00<00:00, 198.81 examples/s]Map (num_proc=4):  68%|██████▊   | 115/170 [00:00<00:00, 196.80 examples/s]Map (num_proc=4):  84%|████████▎ | 142/170 [00:00<00:00, 212.19 examples/s]Map (num_proc=4):  96%|█████████▋| 164/170 [00:00<00:00, 162.17 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  29%|██▉       | 10/34 [00:00<00:00, 81.14 examples/s]Map (num_proc=4):  91%|█████████ | 31/34 [00:00<00:00, 136.06 examples/s]                                                                         Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  29%|██▉       | 10/34 [00:00<00:00, 97.23 examples/s]Map (num_proc=4):  74%|███████▎  | 25/34 [00:00<00:00, 124.16 examples/s]                                                                         /srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py:368: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------ Setting up the padding data collator... ------------------
+
+
+------------------ Setting up WER metric... ------------------
+
+
+------------------ Loading a pretrained checkpount... ------------------
+
+
+------------------ Setting TrainingArguments... ------------------
+
+
+------------------ Setting Trainer... ------------------
+
+
+------------------ Starting training... ------------------
+
+Traceback (most recent call last):
+  File "/srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py", line 464, in <module>
+    trainer.train(resume_from_checkpoint=checkpoint_dir)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1664, in train
+    return inner_training_loop(
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/trainer.py", line 1772, in _inner_training_loop
+    self._load_optimizer_and_scheduler(resume_from_checkpoint)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/transformers/trainer.py", line 2529, in _load_optimizer_and_scheduler
+    torch.load(os.path.join(checkpoint, OPTIMIZER_NAME), map_location=map_location)
+  File "/home/z5313567/.local/lib/python3.10/site-packages/torch/serialization.py", line 797, in load
+    with _open_zipfile_reader(opened_file) as opened_zipfile:
+  File "/home/z5313567/.local/lib/python3.10/site-packages/torch/serialization.py", line 283, in __init__
+    super().__init__(torch._C.PyTorchFileReader(name_or_buffer))
+RuntimeError: PytorchStreamReader failed reading zip archive: failed finding central directory
+Thu Jun 15 19:35:33 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+Started: 15/06/2023 19:35:34
+
+------------ Importing libraries... ------------
+
+pandas version: 2.0.1
+json version: 2.0.9
+librosa version: 0.10.0.post2
+Numpy version: 1.23.1
+Transformers version: 4.29.2
+Torch version: 2.0.1+cu117
+Test cuda_device_count 4
+Test cuda_is_available True
+Test get_device_name Tesla V100-SXM2-32GB
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.075
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: False
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 5e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 100
+max_steps: -1
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 25
+save_strategy: steps
+save_steps: 25
+save_total_limit: 50
+fp16: True
+eval_steps: 25
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------------------ Experiment arguments... ------------------
+
+use_checkpoint: True
+training: True
+
+------------------ Loading files... ------------------
+
+Training dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_train_dataframe_10min.csv
+
+Development dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_dev_dataframe_10min.csv
+
+Testing dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_test_dataframe_10min.csv
+
+Cache filepath is /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune
+
+Model filepath is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2
+
+Vocab filepath is /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+Fine-tuned result filepath is /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230614_2.csv
+
+Checkpoint directory is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-400
+
+Pretrained model is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230614_2/checkpoint-400
+
+
+------------------ Loading datasets... ------------------
+
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 241.65it/s]
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+})
+
+------------------ Showing some random elements... ------------------
+
+                          transcription
+0                                   tab
+1               will you sing this song
+2                               stooges
+3  stewart has five friends in richmond
+4             the briefcase is open now
+5          the bird sang a sweet melody
+6       his car thundered down the road
+7                             lethargic
+8                                beyond
+9             edgar does not have a job
+
+------------------ Extracting individual characters... ------------------
+
+Map:   0%|          | 0/170 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-92a618ba60f8ebea_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-d1ada4a4056406dc_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-8297073cc15f55e5_*_of_00004.arrow
+vocabs is: DatasetDict({
+    train: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    dev: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    test: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+})
+vocab_dict is: {'f': 0, 'y': 1, 'n': 2, 's': 3, 'i': 4, 'c': 5, 'v': 6, 'o': 7, 't': 8, 'x': 9, 'p': 10, 'e': 11, 'j': 12, 'g': 13, 'q': 14, 'r': 15, 'k': 16, 'a': 17, 'w': 18, 'm': 19, 'b': 20, 'z': 21, 'd': 22, "'": 23, 'l': 24, 'h': 25, 'u': 26, ' ': 27}
+The lendth of vocab_list is 30
+Successfully created vocab.json file at: /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230614_2.json
+
+------------------ Creating tokenizer... ------------------
+
+
+------------------ Creating feature extractor... ------------------
+
+
+------------------ Creating processor... ------------------
+
+
+------------------ Obtaining speech arrays, sampling rates, and target texts... ------------------
+
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------Ckech sampling rates of training datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckeck sampling rates of development datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckech sampling rates of testing datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------ Verifying some ramdom samples... ------------------
+
+Target text: handshake
+Input array shape: (65465,)
+Sampling rate: 16000
+
+
+Target text: the angry chef cooked his vegetables
+Input array shape: (73583,)
+Sampling rate: 16000
+
+
+Target text: spoons
+Input array shape: (50472,)
+Sampling rate: 16000
+
+
+Target text: scrapbook
+Input array shape: (65473,)
+Sampling rate: 16000
+
+
+Target text: jason likes playing with garfield
+Input array shape: (97522,)
+Sampling rate: 16000
+
+
+Target text: edgar does not have a job
+Input array shape: (79490,)
+Sampling rate: 16000
+
+
+
+------------------ Obtaining input values, input length, and labels... ------------------
+
+Map (num_proc=4):   0%|          | 0/170 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   3%|▎         | 5/170 [00:00<00:03, 46.48 examples/s]Map (num_proc=4):  11%|█         | 19/170 [00:00<00:01, 98.42 examples/s]Map (num_proc=4):  25%|██▍       | 42/170 [00:00<00:00, 145.37 examples/s]Map (num_proc=4):  41%|████      | 69/170 [00:00<00:00, 173.52 examples/s]Map (num_proc=4):  55%|█████▍    | 93/170 [00:00<00:00, 187.78 examples/s]Map (num_proc=4):  67%|██████▋   | 114/170 [00:00<00:00, 192.08 examples/s]Map (num_proc=4):  82%|████████▏ | 139/170 [00:00<00:00, 198.21 examples/s]Map (num_proc=4):  94%|█████████▍| 160/170 [00:00<00:00, 175.10 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  26%|██▋       | 9/34 [00:00<00:00, 76.88 examples/s]Map (num_proc=4):  85%|████████▌ | 29/34 [00:00<00:00, 136.65 examples/s]                                                                         Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  24%|██▎       | 8/34 [00:00<00:00, 67.89 examples/s]Map (num_proc=4):  79%|███████▉  | 27/34 [00:00<00:00, 131.84 examples/s]                                                                         /srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py:368: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------ Setting up the padding data collator... ------------------
+
+
+------------------ Setting up WER metric... ------------------
+
+
+------------------ Loading a pretrained checkpount... ------------------
+
+
+------------------ Setting TrainingArguments... ------------------
+
+
+------------------ Setting Trainer... ------------------
+
+
+------------------ Starting training... ------------------
+
+  0%|          | 0/600 [00:00<?, ?it/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 67%|██████▋   | 401/600 [00:52<00:26,  7.62it/s] 67%|██████▋   | 402/600 [00:53<00:26,  7.43it/s] 67%|██████▋   | 403/600 [00:55<00:27,  7.07it/s] 67%|██████▋   | 404/600 [00:56<00:29,  6.61it/s] 68%|██████▊   | 405/600 [00:58<00:32,  6.06it/s] 68%|██████▊   | 406/600 [00:59<00:35,  5.44it/s] 68%|██████▊   | 407/600 [01:01<00:40,  4.81it/s] 68%|██████▊   | 408/600 [01:02<00:43,  4.40it/s] 68%|██████▊   | 409/600 [01:03<00:52,  3.64it/s] 68%|██████▊   | 410/600 [01:04<01:04,  2.95it/s] 68%|██████▊   | 411/600 [01:06<01:19,  2.36it/s] 69%|██████▊   | 412/600 [01:07<01:35,  1.96it/s] 69%|██████▉   | 413/600 [01:09<01:54,  1.63it/s] 69%|██████▉   | 414/600 [01:10<02:02,  1.52it/s] 69%|██████▉   | 415/600 [01:11<02:26,  1.26it/s] 69%|██████▉   | 416/600 [01:13<02:48,  1.09it/s] 70%|██████▉   | 417/600 [01:14<03:10,  1.04s/it] 70%|██████▉   | 418/600 [01:16<03:25,  1.13s/it] 70%|██████▉   | 419/600 [01:17<03:37,  1.20s/it] 70%|███████   | 420/600 [01:18<03:29,  1.16s/it] 70%|███████   | 421/600 [01:20<03:47,  1.27s/it] 70%|███████   | 422/600 [01:21<03:53,  1.31s/it] 70%|███████   | 423/600 [01:22<03:55,  1.33s/it] 71%|███████   | 424/600 [01:24<04:08,  1.41s/it] 71%|███████   | 425/600 [01:25<04:07,  1.42s/it]                                                  71%|███████   | 425/600 [01:25<04:07,  1.42s/it]{'loss': 4.0496, 'learning_rate': 1.675925925925926e-05, 'epoch': 70.83}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A
+100%|██████████| 2/2 [00:00<00:00, 10.77it/s][A                                                 
+                                             [A 71%|███████   | 425/600 [01:27<04:07,  1.42s/it]
+100%|██████████| 2/2 [00:00<00:00, 10.77it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 71%|███████   | 426/600 [01:29<06:11,  2.14s/it] 71%|███████   | 427/600 [01:31<05:35,  1.94s/it] 71%|███████▏  | 428/600 [01:32<05:13,  1.82s/it] 72%|███████▏  | 429/600 [01:34<04:51,  1.70s/it] 72%|███████▏  | 430/600 [01:35<04:31,  1.60s/it] 72%|███████▏  | 431/600 [01:37<04:24,  1.57s/it] 72%|███████▏  | 432/600 [01:38<03:51,  1.38s/it] 72%|███████▏  | 433/600 [01:39<04:00,  1.44s/it] 72%|███████▏  | 434/600 [01:41<03:58,  1.43s/it] 72%|███████▎  | 435/600 [01:42<03:55,  1.42s/it] 73%|███████▎  | 436/600 [01:43<03:57,  1.45s/it] 73%|███████▎  | 437/600 [01:45<03:49,  1.41s/it] 73%|███████▎  | 438/600 [01:46<03:33,  1.32s/it] 73%|███████▎  | 439/600 [01:47<03:38,  1.36s/it] 73%|███████▎  | 440/600 [01:49<03:42,  1.39s/it] 74%|███████▎  | 441/600 [01:50<03:45,  1.42s/it] 74%|███████▎  | 442/600 [01:52<03:52,  1.47s/it] 74%|███████▍  | 443/600 [01:53<03:52,  1.48s/it] 74%|███████▍  | 444/600 [01:54<03:24,  1.31s/it] 74%|███████▍  | 445/600 [01:56<03:28,  1.34s/it] 74%|███████▍  | 446/600 [01:57<03:34,  1.40s/it] 74%|███████▍  | 447/600 [01:59<03:34,  1.40s/it] 75%|███████▍  | 448/600 [02:00<03:42,  1.46s/it] 75%|███████▍  | 449/600 [02:02<03:37,  1.44s/it] 75%|███████▌  | 450/600 [02:03<03:16,  1.31s/it]                                                  75%|███████▌  | 450/600 [02:03<03:16,  1.31s/it]{'eval_loss': 3.721414566040039, 'eval_wer': 1.0, 'eval_runtime': 1.0088, 'eval_samples_per_second': 33.702, 'eval_steps_per_second': 1.982, 'epoch': 70.83}
+{'loss': 3.6896, 'learning_rate': 1.4444444444444444e-05, 'epoch': 75.0}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 75%|███████▌  | 450/600 [02:04<03:16,  1.31s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.36it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 75%|███████▌  | 451/600 [02:07<05:37,  2.27s/it] 75%|███████▌  | 452/600 [02:09<04:56,  2.00s/it] 76%|███████▌  | 453/600 [02:10<04:32,  1.86s/it] 76%|███████▌  | 454/600 [02:11<04:11,  1.73s/it] 76%|███████▌  | 455/600 [02:13<04:03,  1.68s/it] 76%|███████▌  | 456/600 [02:14<03:32,  1.48s/it] 76%|███████▌  | 457/600 [02:16<03:30,  1.47s/it] 76%|███████▋  | 458/600 [02:17<03:23,  1.43s/it] 76%|███████▋  | 459/600 [02:19<03:31,  1.50s/it] 77%|███████▋  | 460/600 [02:20<03:25,  1.47s/it] 77%|███████▋  | 461/600 [02:21<03:22,  1.46s/it] 77%|███████▋  | 462/600 [02:22<03:01,  1.31s/it] 77%|███████▋  | 463/600 [02:24<03:08,  1.37s/it] 77%|███████▋  | 464/600 [02:25<03:16,  1.44s/it] 78%|███████▊  | 465/600 [02:27<03:10,  1.41s/it] 78%|███████▊  | 466/600 [02:28<03:11,  1.43s/it] 78%|███████▊  | 467/600 [02:30<03:11,  1.44s/it] 78%|███████▊  | 468/600 [02:31<02:51,  1.30s/it] 78%|███████▊  | 469/600 [02:32<02:59,  1.37s/it] 78%|███████▊  | 470/600 [02:34<02:59,  1.38s/it] 78%|███████▊  | 471/600 [02:35<03:01,  1.40s/it] 79%|███████▊  | 472/600 [02:37<03:02,  1.43s/it] 79%|███████▉  | 473/600 [02:38<02:59,  1.41s/it] 79%|███████▉  | 474/600 [02:39<02:41,  1.28s/it] 79%|███████▉  | 475/600 [02:40<02:45,  1.33s/it]                                                  79%|███████▉  | 475/600 [02:40<02:45,  1.33s/it]{'eval_loss': 3.5150928497314453, 'eval_wer': 1.0, 'eval_runtime': 0.9673, 'eval_samples_per_second': 35.151, 'eval_steps_per_second': 2.068, 'epoch': 75.0}
+{'loss': 3.5311, 'learning_rate': 1.212962962962963e-05, 'epoch': 79.17}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 79%|███████▉  | 475/600 [02:41<02:45,  1.33s/it]
+100%|██████████| 2/2 [00:00<00:00, 20.78it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 79%|███████▉  | 476/600 [02:45<04:41,  2.27s/it] 80%|███████▉  | 477/600 [02:46<04:14,  2.07s/it] 80%|███████▉  | 478/600 [02:48<03:50,  1.89s/it] 80%|███████▉  | 479/600 [02:49<03:28,  1.73s/it] 80%|████████  | 480/600 [02:50<02:54,  1.45s/it] 80%|████████  | 481/600 [02:52<02:56,  1.49s/it] 80%|████████  | 482/600 [02:53<02:52,  1.46s/it] 80%|████████  | 483/600 [02:54<02:49,  1.45s/it] 81%|████████  | 484/600 [02:56<02:47,  1.44s/it] 81%|████████  | 485/600 [02:57<02:41,  1.40s/it] 81%|████████  | 486/600 [02:58<02:27,  1.29s/it] 81%|████████  | 487/600 [03:00<02:30,  1.33s/it] 81%|████████▏ | 488/600 [03:01<02:35,  1.38s/it] 82%|████████▏ | 489/600 [03:03<02:35,  1.40s/it] 82%|████████▏ | 490/600 [03:04<02:38,  1.44s/it] 82%|████████▏ | 491/600 [03:06<02:37,  1.45s/it] 82%|████████▏ | 492/600 [03:07<02:21,  1.31s/it] 82%|████████▏ | 493/600 [03:08<02:27,  1.38s/it] 82%|████████▏ | 494/600 [03:10<02:33,  1.44s/it] 82%|████████▎ | 495/600 [03:11<02:30,  1.43s/it] 83%|████████▎ | 496/600 [03:13<02:29,  1.44s/it] 83%|████████▎ | 497/600 [03:14<02:24,  1.41s/it] 83%|████████▎ | 498/600 [03:15<02:08,  1.26s/it] 83%|████████▎ | 499/600 [03:16<02:14,  1.33s/it] 83%|████████▎ | 500/600 [03:18<02:18,  1.38s/it]                                                  83%|████████▎ | 500/600 [03:18<02:18,  1.38s/it]{'eval_loss': 3.4376332759857178, 'eval_wer': 1.0, 'eval_runtime': 0.8884, 'eval_samples_per_second': 38.27, 'eval_steps_per_second': 2.251, 'epoch': 79.17}
+{'loss': 3.418, 'learning_rate': 9.814814814814815e-06, 'epoch': 83.33}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 83%|████████▎ | 500/600 [03:19<02:18,  1.38s/it]
+100%|██████████| 2/2 [00:00<00:00, 21.43it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 84%|████████▎ | 501/600 [03:22<03:42,  2.25s/it] 84%|████████▎ | 502/600 [03:24<03:20,  2.05s/it] 84%|████████▍ | 503/600 [03:25<03:05,  1.91s/it] 84%|████████▍ | 504/600 [03:26<02:35,  1.62s/it] 84%|████████▍ | 505/600 [03:28<02:27,  1.56s/it] 84%|████████▍ | 506/600 [03:29<02:22,  1.51s/it] 84%|████████▍ | 507/600 [03:30<02:15,  1.46s/it] 85%|████████▍ | 508/600 [03:32<02:18,  1.51s/it] 85%|████████▍ | 509/600 [03:33<02:14,  1.48s/it] 85%|████████▌ | 510/600 [03:34<01:59,  1.33s/it] 85%|████████▌ | 511/600 [03:36<02:04,  1.40s/it] 85%|████████▌ | 512/600 [03:37<02:05,  1.42s/it] 86%|████████▌ | 513/600 [03:39<02:05,  1.44s/it] 86%|████████▌ | 514/600 [03:40<02:04,  1.44s/it] 86%|████████▌ | 515/600 [03:42<02:03,  1.45s/it] 86%|████████▌ | 516/600 [03:43<01:51,  1.33s/it] 86%|████████▌ | 517/600 [03:44<01:54,  1.38s/it] 86%|████████▋ | 518/600 [03:46<01:53,  1.39s/it] 86%|████████▋ | 519/600 [03:47<01:53,  1.40s/it] 87%|████████▋ | 520/600 [03:49<01:53,  1.42s/it] 87%|████████▋ | 521/600 [03:50<01:54,  1.45s/it] 87%|████████▋ | 522/600 [03:51<01:40,  1.29s/it] 87%|████████▋ | 523/600 [03:53<01:43,  1.34s/it] 87%|████████▋ | 524/600 [03:54<01:42,  1.35s/it] 88%|████████▊ | 525/600 [03:55<01:43,  1.38s/it]                                                  88%|████████▊ | 525/600 [03:55<01:43,  1.38s/it]{'eval_loss': 3.4021310806274414, 'eval_wer': 1.0, 'eval_runtime': 0.9005, 'eval_samples_per_second': 37.758, 'eval_steps_per_second': 2.221, 'epoch': 83.33}
+{'loss': 3.3938, 'learning_rate': 7.5e-06, 'epoch': 87.5}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 88%|████████▊ | 525/600 [03:56<01:43,  1.38s/it]
+100%|██████████| 2/2 [00:00<00:00, 21.37it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 88%|████████▊ | 526/600 [04:00<02:52,  2.33s/it] 88%|████████▊ | 527/600 [04:01<02:31,  2.07s/it] 88%|████████▊ | 528/600 [04:02<02:05,  1.74s/it] 88%|████████▊ | 529/600 [04:04<01:58,  1.67s/it] 88%|████████▊ | 530/600 [04:05<01:52,  1.61s/it] 88%|████████▊ | 531/600 [04:07<01:49,  1.58s/it] 89%|████████▊ | 532/600 [04:08<01:46,  1.56s/it] 89%|████████▉ | 533/600 [04:10<01:43,  1.54s/it] 89%|████████▉ | 534/600 [04:11<01:31,  1.38s/it] 89%|████████▉ | 535/600 [04:12<01:30,  1.39s/it] 89%|████████▉ | 536/600 [04:14<01:29,  1.40s/it] 90%|████████▉ | 537/600 [04:15<01:29,  1.42s/it] 90%|████████▉ | 538/600 [04:17<01:28,  1.42s/it] 90%|████████▉ | 539/600 [04:18<01:29,  1.47s/it] 90%|█████████ | 540/600 [04:19<01:17,  1.30s/it] 90%|█████████ | 541/600 [04:21<01:18,  1.34s/it] 90%|█████████ | 542/600 [04:22<01:19,  1.37s/it] 90%|█████████ | 543/600 [04:23<01:20,  1.42s/it] 91%|█████████ | 544/600 [04:25<01:20,  1.44s/it] 91%|█████████ | 545/600 [04:26<01:17,  1.42s/it] 91%|█████████ | 546/600 [04:27<01:08,  1.26s/it] 91%|█████████ | 547/600 [04:29<01:12,  1.37s/it] 91%|█████████▏| 548/600 [04:30<01:12,  1.39s/it] 92%|█████████▏| 549/600 [04:32<01:12,  1.43s/it] 92%|█████████▏| 550/600 [04:33<01:10,  1.40s/it]                                                  92%|█████████▏| 550/600 [04:33<01:10,  1.40s/it]{'eval_loss': 3.350243330001831, 'eval_wer': 1.0, 'eval_runtime': 0.8982, 'eval_samples_per_second': 37.852, 'eval_steps_per_second': 2.227, 'epoch': 87.5}
+{'loss': 3.3485, 'learning_rate': 5.185185185185185e-06, 'epoch': 91.67}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 92%|█████████▏| 550/600 [04:34<01:10,  1.40s/it]
+100%|██████████| 2/2 [00:00<00:00, 21.35it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 92%|█████████▏| 551/600 [04:38<01:54,  2.34s/it] 92%|█████████▏| 552/600 [04:39<01:31,  1.91s/it] 92%|█████████▏| 553/600 [04:40<01:23,  1.78s/it] 92%|█████████▏| 554/600 [04:41<01:16,  1.67s/it] 92%|█████████▎| 555/600 [04:43<01:12,  1.61s/it] 93%|█████████▎| 556/600 [04:45<01:10,  1.61s/it] 93%|█████████▎| 557/600 [04:46<01:07,  1.57s/it] 93%|█████████▎| 558/600 [04:47<00:57,  1.37s/it] 93%|█████████▎| 559/600 [04:48<00:57,  1.40s/it] 93%|█████████▎| 560/600 [04:50<00:57,  1.45s/it] 94%|█████████▎| 561/600 [04:51<00:56,  1.44s/it] 94%|█████████▎| 562/600 [04:53<00:55,  1.45s/it] 94%|█████████▍| 563/600 [04:54<00:54,  1.46s/it] 94%|█████████▍| 564/600 [04:55<00:46,  1.30s/it] 94%|█████████▍| 565/600 [04:57<00:48,  1.38s/it] 94%|█████████▍| 566/600 [04:58<00:47,  1.39s/it] 94%|█████████▍| 567/600 [05:00<00:46,  1.41s/it] 95%|█████████▍| 568/600 [05:01<00:45,  1.44s/it] 95%|█████████▍| 569/600 [05:03<00:45,  1.47s/it] 95%|█████████▌| 570/600 [05:04<00:39,  1.32s/it] 95%|█████████▌| 571/600 [05:05<00:39,  1.37s/it] 95%|█████████▌| 572/600 [05:07<00:38,  1.38s/it] 96%|█████████▌| 573/600 [05:08<00:37,  1.40s/it] 96%|█████████▌| 574/600 [05:10<00:37,  1.45s/it] 96%|█████████▌| 575/600 [05:11<00:35,  1.43s/it]                                                  96%|█████████▌| 575/600 [05:11<00:35,  1.43s/it]{'eval_loss': 3.3422186374664307, 'eval_wer': 1.0, 'eval_runtime': 0.911, 'eval_samples_per_second': 37.32, 'eval_steps_per_second': 2.195, 'epoch': 91.67}
+{'loss': 3.335, 'learning_rate': 2.8703703703703706e-06, 'epoch': 95.83}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A 96%|█████████▌| 575/600 [05:12<00:35,  1.43s/it]
+100%|██████████| 2/2 [00:00<00:00, 21.59it/s][A
+                                             [A/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+ 96%|█████████▌| 576/600 [05:15<00:51,  2.16s/it] 96%|█████████▌| 577/600 [05:16<00:44,  1.96s/it] 96%|█████████▋| 578/600 [05:18<00:39,  1.82s/it] 96%|█████████▋| 579/600 [05:19<00:35,  1.70s/it] 97%|█████████▋| 580/600 [05:21<00:32,  1.63s/it] 97%|█████████▋| 581/600 [05:22<00:29,  1.58s/it] 97%|█████████▋| 582/600 [05:23<00:25,  1.41s/it] 97%|█████████▋| 583/600 [05:25<00:24,  1.43s/it] 97%|█████████▋| 584/600 [05:26<00:23,  1.45s/it] 98%|█████████▊| 585/600 [05:28<00:21,  1.42s/it] 98%|█████████▊| 586/600 [05:29<00:20,  1.44s/it] 98%|█████████▊| 587/600 [05:31<00:18,  1.46s/it] 98%|█████████▊| 588/600 [05:31<00:15,  1.30s/it] 98%|█████████▊| 589/600 [05:33<00:14,  1.33s/it] 98%|█████████▊| 590/600 [05:34<00:13,  1.36s/it] 98%|█████████▊| 591/600 [05:36<00:12,  1.40s/it] 99%|█████████▊| 592/600 [05:37<00:11,  1.40s/it] 99%|█████████▉| 593/600 [05:39<00:09,  1.42s/it] 99%|█████████▉| 594/600 [05:40<00:07,  1.26s/it] 99%|█████████▉| 595/600 [05:41<00:06,  1.31s/it] 99%|█████████▉| 596/600 [05:42<00:05,  1.35s/it]100%|█████████▉| 597/600 [05:44<00:04,  1.36s/it]100%|█████████▉| 598/600 [05:45<00:02,  1.36s/it]100%|█████████▉| 599/600 [05:47<00:01,  1.41s/it]100%|██████████| 600/600 [05:48<00:00,  1.27s/it]                                                 100%|██████████| 600/600 [05:48<00:00,  1.27s/it]{'eval_loss': 3.33251690864563, 'eval_wer': 1.0, 'eval_runtime': 0.8793, 'eval_samples_per_second': 38.669, 'eval_steps_per_second': 2.275, 'epoch': 95.83}
+{'loss': 3.3515, 'learning_rate': 5.555555555555556e-07, 'epoch': 100.0}
+
+  0%|          | 0/2 [00:00<?, ?it/s][A                                                 
+                                     [A100%|██████████| 600/600 [05:49<00:00,  1.27s/it]
+100%|██████████| 2/2 [00:00<00:00, 21.24it/s][A
+                                             [A                                                 100%|██████████| 600/600 [05:52<00:00,  1.27s/it]100%|██████████| 600/600 [05:52<00:00,  1.70it/s]
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+{'eval_loss': 3.331345558166504, 'eval_wer': 1.0, 'eval_runtime': 0.8792, 'eval_samples_per_second': 38.671, 'eval_steps_per_second': 2.275, 'epoch': 100.0}
+{'train_runtime': 352.5741, 'train_samples_per_second': 48.217, 'train_steps_per_second': 1.702, 'train_loss': 1.171539535522461, 'epoch': 100.0}
+Training Finished: 15/06/2023 19:41:54
+
+------------------ Training finished... ------------------
+
+
+------------------ Evaluation starts... ------------------
+
+
+------------------ Generating fine-tuned results... ------------------
+
+Map:   0%|          | 0/34 [00:00<?, ? examples/s]Map:   3%|▎         | 1/34 [00:00<00:04,  7.35 examples/s]Map:  18%|█▊        | 6/34 [00:00<00:01, 23.27 examples/s]Map:  29%|██▉       | 10/34 [00:00<00:01, 23.10 examples/s]Map:  41%|████      | 14/34 [00:00<00:00, 23.07 examples/s]Map:  53%|█████▎    | 18/34 [00:00<00:00, 25.35 examples/s]Map:  65%|██████▍   | 22/34 [00:00<00:00, 27.26 examples/s]Map:  76%|███████▋  | 26/34 [00:01<00:00, 28.37 examples/s]Map:  88%|████████▊ | 30/34 [00:01<00:00, 26.36 examples/s]Map:  97%|█████████▋| 33/34 [00:01<00:00, 26.29 examples/s]                                                           results are: Dataset({
+    features: ['speech', 'sampling_rate', 'target_text', 'pred_str'],
+    num_rows: 34
+})
+Fine-tuned results are saved to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230614_2.csv
+
+------------------ Generating WER result on test dataset... ------------------
+
+Fine-tuned Test WER: 1.000
+
+------------------ Showing some random prediction errors... ------------------
+
+                              target_text pred_str
+0           i collect stamps from vietnam     pupw
+1                                  easier        u
+2                                  napkin         
+3                                 gumshoe       uu
+4                                    push      ufu
+5   grandmother played football last year       ua
+6                                  spoons      uuf
+7                                 athlete      uuu
+8  they put my computer next to the books         
+9    the flood took a car down the street  uuufuuu
+
+------------------ Generating the exact output of the model... ------------------
+
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] u f [PAD] [PAD] [PAD] [PAD] f [PAD] u u [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] u [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] n u [PAD] f u [PAD] [PAD] [PAD] u [PAD] [PAD] u u f f f [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+Evaluation Finished: 15/06/2023 19:41:58
+
+------------------ Evaluation finished... ------------------
+

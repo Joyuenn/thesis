@@ -1,0 +1,260 @@
+Sun Jun 18 11:30:48 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+Started: 18/06/2023 11:30:48
+
+------------ Importing libraries... ------------
+
+pandas version: 2.0.1
+json version: 2.0.9
+librosa version: 0.10.0.post2
+Numpy version: 1.23.1
+Transformers version: 4.29.2
+Torch version: 2.0.1+cu117
+Test cuda_device_count 4
+Test cuda_is_available True
+Test get_device_name Tesla V100-SXM2-32GB
+
+------------------ Model arguments... ------------------
+
+ctc_loss_reduction: mean
+
+------------------ Training arguments... ------------------
+
+group_by_length: True
+per_device_train_batch_size: 32
+evaluation_strategy: steps
+max_steps: 12000
+fp16: True
+gradient_checkpointing: True
+save_steps: 500
+eval_steps: 500
+logging_steps: 500
+learning_rate: 0.0001
+weight_decay: 0.005
+warmup_ratio: 0.4
+save_total_limit: 2
+
+------------------ Experiment arguments... ------------------
+
+use_checkpoint: False
+training: True
+
+------------------ Loading files... ------------------
+
+Training dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_train_dataframe_10min.csv
+
+Development dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_dev_dataframe_10min.csv
+
+Testing dataset is stored at /srv/scratch/z5313567/thesis/OGI_local/10min_datasets/OGI_scripted_test_dataframe_10min.csv
+
+Cache filepath is /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune
+
+Model filepath is /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230618_3
+
+Vocab filepath is /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230618_3.json
+
+Fine-tuned result filepath is /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230618_3.csv
+
+Pretrained model is facebook/wav2vec2-base
+
+
+------------------ Loading datasets... ------------------
+
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 280.22it/s]
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['filepath', 'duration', 'speaker_id', 'transcription'],
+        num_rows: 34
+    })
+})
+
+------------------ Showing some random elements... ------------------
+
+                          transcription
+0                              moisture
+1                                spoons
+2      every month i eat some chocolate
+3                            stepfather
+4  the flood took a car down the street
+5                              digested
+6                  honey can get sticky
+7                                  real
+8                             childhood
+9                              thursday
+
+------------------ Extracting individual characters... ------------------
+
+Map:   0%|          | 0/170 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/34 [00:00<?, ? examples/s]                                                  Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-92a618ba60f8ebea_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-d1ada4a4056406dc_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune/csv/default-579e7edb07087a41/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-8297073cc15f55e5_*_of_00004.arrow
+vocabs is: DatasetDict({
+    train: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    dev: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+    test: Dataset({
+        features: ['vocab', 'all_text'],
+        num_rows: 1
+    })
+})
+vocab_dict is: {'d': 0, 'g': 1, 's': 2, 'q': 3, 'x': 4, 'j': 5, 'z': 6, 'h': 7, 'p': 8, 'r': 9, "'": 10, 'b': 11, 'l': 12, 'o': 13, 'e': 14, 'v': 15, 'f': 16, ' ': 17, 'i': 18, 'w': 19, 'k': 20, 'm': 21, 'y': 22, 'u': 23, 'c': 24, 'a': 25, 'n': 26, 't': 27}
+The lendth of vocab_list is 30
+Successfully created vocab.json file at: /srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230618_3.json
+
+------------------ Creating tokenizer... ------------------
+
+
+------------------ Creating feature extractor... ------------------
+
+
+------------------ Creating processor... ------------------
+
+
+------------------ Obtaining speech arrays, sampling rates, and target texts... ------------------
+
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------Ckech sampling rates of training datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckeck sampling rates of development datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------Ckech sampling rates of testing datasets... ------------------
+
+MATCH!: The sampling rate used for fine-tuning Wav2vec2.0 matches the sampling rate used for pretraining
+
+------------------ Verifying some ramdom samples... ------------------
+
+Target text: archrival
+Input array shape: (65474,)
+Sampling rate: 16000
+
+
+Target text: the herd became angry and started a stampede
+Input array shape: (97524,)
+Sampling rate: 16000
+
+
+Target text: the bird sang a sweet melody
+Input array shape: (73560,)
+Sampling rate: 16000
+
+
+Target text: beyond
+Input array shape: (37424,)
+Sampling rate: 16000
+
+
+Target text: thursday
+Input array shape: (31495,)
+Sampling rate: 16000
+
+
+Target text: he breathed a sigh of relief
+Input array shape: (89509,)
+Sampling rate: 16000
+
+
+
+------------------ Obtaining input values, input length, and labels... ------------------
+
+Map (num_proc=4):   0%|          | 0/170 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   4%|▎         | 6/170 [00:00<00:03, 42.50 examples/s]Map (num_proc=4):  18%|█▊        | 30/170 [00:00<00:01, 125.67 examples/s]Map (num_proc=4):  30%|███       | 51/170 [00:00<00:00, 158.11 examples/s]Map (num_proc=4):  41%|████      | 70/170 [00:00<00:00, 161.39 examples/s]Map (num_proc=4):  54%|█████▍    | 92/170 [00:00<00:00, 176.94 examples/s]Map (num_proc=4):  68%|██████▊   | 115/170 [00:00<00:00, 177.63 examples/s]Map (num_proc=4):  83%|████████▎ | 141/170 [00:00<00:00, 187.36 examples/s]Map (num_proc=4):  94%|█████████▍| 160/170 [00:00<00:00, 164.09 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  24%|██▎       | 8/34 [00:00<00:00, 62.12 examples/s]Map (num_proc=4):  82%|████████▏ | 28/34 [00:00<00:00, 123.97 examples/s]                                                                         Map (num_proc=4):   0%|          | 0/34 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  24%|██▎       | 8/34 [00:00<00:00, 64.07 examples/s]Map (num_proc=4):  76%|███████▋  | 26/34 [00:00<00:00, 114.44 examples/s]                                                                         /srv/scratch/z5313567/thesis/wav2vec2/code/OGI_American/Finetune_Wav2vec2_American_10min_3.py:411: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/configuration_utils.py:380: UserWarning: Passing `gradient_checkpointing` to a config initialization is deprecated and will be removed in v5 Transformers. Using `model.gradient_checkpointing_enable()` instead, or if you are using the `Trainer` API, pass `gradient_checkpointing=True` in your `TrainingArguments`.
+  warnings.warn(
+Some weights of the model checkpoint at facebook/wav2vec2-base were not used when initializing Wav2Vec2ForCTC: ['project_q.bias', 'quantizer.weight_proj.weight', 'quantizer.codevectors', 'project_q.weight', 'project_hid.bias', 'quantizer.weight_proj.bias', 'project_hid.weight']
+- This IS expected if you are initializing Wav2Vec2ForCTC from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing Wav2Vec2ForCTC from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/wav2vec2-base and are newly initialized: ['lm_head.bias', 'lm_head.weight']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+dataset is: DatasetDict({
+    train: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 170
+    })
+    dev: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+    test: Dataset({
+        features: ['speech', 'sampling_rate', 'target_text'],
+        num_rows: 34
+    })
+})
+
+------------------ Setting up the padding data collator... ------------------
+
+
+------------------ Setting up WER metric... ------------------
+
+
+------------------ Loading a pretrained checkpount... ------------------
+
+
+------------------ Setting TrainingArguments... ------------------
+
+
+------------------ Setting Trainer... ------------------
+
+
+------------------ Starting training... ------------------
+
+  0%|          | 0/12000 [00:00<?, ?it/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/torch/nn/parallel/_functions.py:68: UserWarning: Was asked to gather along dimension 0, but all input tensors were scalars; will instead unsqueeze and return a vector.
+  warnings.warn('Was asked to gather along dimension 0, but all '
+  0%|          | 1/12000 [00:12<40:15:08, 12.08s/it]  0%|          | 2/12000 [00:14<20:34:36,  6.17s/it]  0%|          | 3/12000 [00:19<18:42:58,  5.62s/it]  0%|          | 4/12000 [00:20<13:46:25,  4.13s/it]  0%|          | 5/12000 [00:25<14:48:20,  4.44s/it]  0%|          | 6/12000 [00:28<12:13:20,  3.67s/it]  0%|          | 7/12000 [00:32<13:28:42,  4.05s/it]  0%|          | 8/12000 [00:35<11:27:51,  3.44s/it]  0%|          | 9/12000 [00:40<13:06:52,  3.94s/it]  0%|          | 10/12000 [00:42<11:13:26,  3.37s/it]  0%|          | 11/12000 [00:46<12:31:57,  3.76s/it]  0%|          | 12/12000 [00:48<10:53:48,  3.27s/it]  0%|          | 13/12000 [00:53<12:37:32,  3.79s/it]  0%|          | 14/12000 [00:56<11:02:44,  3.32s/it]  0%|          | 15/12000 [01:01<12:38:52,  3.80s/it]  0%|          | 16/12000 [01:03<10:58:03,  3.29s/it]  0%|          | 17/12000 [01:08<12:41:57,  3.82s/it]  0%|          | 18/12000 [01:10<11:06:06,  3.34s/it]  0%|          | 19/12000 [01:15<12:35:32,  3.78s/it]  0%|          | 20/12000 [01:17<11:04:23,  3.33s/it]  0%|          | 21/12000 [01:22<12:58:27,  3.90s/it]  0%|          | 22/12000 [01:24<11:13:55,  3.38s/it]  0%|          | 23/12000 [01:29<12:01:37,  3.62s/it]  0%|          | 24/12000 [01:31<10:27:25,  3.14s/it]  0%|          | 25/12000 [01:35<11:57:53,  3.60s/it]  0%|          | 26/12000 [01:38<10:43:17,  3.22s/it]  0%|          | 27/12000 [01:43<12:25:30,  3.74s/it]  0%|          | 28/12000 [01:45<10:42:04,  3.22s/it]  0%|          | 29/12000 [01:50<12:25:59,  3.74s/it]  0%|          | 30/12000 [01:52<10:52:03,  3.27s/it]  0%|          | 31/12000 [01:57<12:37:15,  3.80s/it]  0%|          | 32/12000 [01:59<10:53:32,  3.28s/it]  0%|          | 33/12000 [02:03<12:09:30,  3.66s/it]  0%|          | 34/12000 [02:06<10:43:16,  3.23s/it]  0%|          | 35/12000 [02:10<12:19:31,  3.71s/it]  0%|          | 36/12000 [02:13<10:51:39,  3.27s/it]  0%|          | 37/12000 [02:18<12:42:54,  3.83s/it]  0%|          | 38/12000 [02:20<11:06:15,  3.34s/it]  0%|          | 39/12000 [02:25<12:33:30,  3.78s/it]  0%|          | 40/12000 [02:27<11:01:51,  3.32s/it]  0%|          | 41/12000 [02:32<12:39:20,  3.81s/it]  0%|          | 42/12000 [02:34<11:16:11,  3.39s/it]  0%|          | 43/12000 [02:39<12:41:37,  3.82s/it]  0%|          | 44/12000 [02:42<11:08:20,  3.35s/it]  0%|          | 45/12000 [02:46<12:10:08,  3.66s/it]  0%|          | 46/12000 [02:48<10:27:31,  3.15s/it]  0%|          | 47/12000 [02:52<11:32:28,  3.48s/it]  0%|          | 48/12000 [02:54<10:01:59,  3.02s/it]  0%|          | 49/12000 [02:58<11:19:05,  3.41s/it]  0%|          | 50/12000 [03:00<9:52:41,  2.98s/it]   0%|          | 51/12000 [03:05<11:08:18,  3.36s/it]  0%|          | 52/12000 [03:06<9:38:49,  2.91s/it]   0%|          | 53/12000 [03:11<11:05:19,  3.34s/it]  0%|          | 54/12000 [03:13<9:37:10,  2.90s/it]   0%|          | 55/12000 [03:17<11:02:09,  3.33s/it]  0%|          | 56/12000 [03:19<9:32:28,  2.88s/it]   0%|          | 57/12000 [03:23<10:50:59,  3.27s/it]  0%|          | 58/12000 [03:25<9:33:25,  2.88s/it]   0%|          | 59/12000 [03:29<11:00:18,  3.32s/it]  0%|          | 60/12000 [03:31<9:32:39,  2.88s/it] 
