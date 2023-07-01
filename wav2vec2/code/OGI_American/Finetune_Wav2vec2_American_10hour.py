@@ -11,6 +11,10 @@ now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 print("Started:", dt_string)
 
+import os 
+current_file = os.path.basename(__file__)
+print("Currently executing file:", current_file)
+
 print("\n------------ Importing libraries... ------------\n")
 import pandas as pd
 import random
@@ -41,7 +45,84 @@ print("Test cuda_device_count", torch.cuda.device_count())
 print("Test cuda_is_available", torch.cuda.is_available())
 print("Test get_device_name", torch.cuda.get_device_name(0))
 
+print("\n------> MODEL ARGUMENTS... -------------------------------------------\n")
+# For setting model = Wav2Vec2ForCTC.from_pretrained()
 
+set_hidden_dropout = 0.1                    # Default = 0.1
+print("hidden_dropout:", set_hidden_dropout)
+set_activation_dropout = 0.1                # Default = 0.1
+print("activation_dropout:", set_activation_dropout)
+set_attention_dropout = 0.1                 # Default = 0.1
+print("attention_dropoutput:", set_attention_dropout)
+set_feat_proj_dropout = 0.1                 # Default = 0.1
+print("feat_proj_dropout:", set_feat_proj_dropout)
+set_layerdrop = 0.01                        # Default = 0.1
+print("layerdrop:", set_layerdrop)
+set_mask_time_prob = 0.065                  # Default = 0.05
+print("mask_time_prob:", set_mask_time_prob)
+set_mask_time_length = 10                   # Default = 10
+print("mask_time_length:", set_mask_time_length)
+set_ctc_loss_reduction = "mean"             # Default = "sum"
+print("ctc_loss_reduction:", set_ctc_loss_reduction)
+set_ctc_zero_infinity = True               # Default = False
+print("ctc_zero_infinity:", set_ctc_zero_infinity)
+set_gradient_checkpointing = True           # Default = False
+print("gradient_checkpointing:", set_gradient_checkpointing)
+
+print("\n------> TRAINING ARGUMENTS... ----------------------------------------\n")
+# For setting training_args = TrainingArguments()
+
+set_evaluation_strategy = "steps"           # Default = "no"
+print("evaluation strategy:", set_evaluation_strategy)
+set_per_device_train_batch_size = 8         # Default = 8
+print("per_device_train_batch_size:", set_per_device_train_batch_size)
+set_gradient_accumulation_steps = 1         # Default = 1
+print("gradient_accumulation_steps:", set_gradient_accumulation_steps)
+set_learning_rate = 0.00005                 # Default = 0.00005
+print("learning_rate:", set_learning_rate)
+set_weight_decay = 0.01                     # Default = 0
+print("weight_decay:", set_weight_decay)
+set_adam_beta1 = 0.9                        # Default = 0.9
+print("adam_beta1:", set_adam_beta1)
+set_adam_beta2 = 0.98                       # Default = 0.999
+print("adam_beta2:", set_adam_beta2)
+set_adam_epsilon = 0.00000001               # Default = 0.00000001
+print("adam_epsilon:", set_adam_epsilon)
+#set_num_train_epochs = 63                   # Default = 3.0
+set_num_train_epochs = 59                   # Default = 3.0
+print("num_train_epochs:", set_num_train_epochs)
+#set_max_steps = 20000                       # Default = -1, overrides epochs
+set_max_steps = 15000                       # Default = -1, overrides epochs
+print("max_steps:", set_max_steps)
+set_lr_scheduler_type = "linear"            # Default = "linear"
+print("lr_scheduler_type:", set_lr_scheduler_type )
+set_warmup_ratio = 0.1                      # Default = 0.0
+print("warmup_ratio:", set_warmup_ratio)
+set_logging_strategy = "steps"              # Default = "steps"
+print("logging_strategy:", set_logging_strategy)
+set_logging_steps = 1000                      # Default = 500
+print("logging_steps:", set_logging_steps)
+set_save_strategy = "steps"                 # Default = "steps"
+print("save_strategy:", set_save_strategy)
+set_save_steps = 1000                         # Default = 500
+print("save_steps:", set_save_steps)
+set_save_total_limit = 2                   # Optional                 
+print("save_total_limit:", set_save_total_limit)
+set_fp16 = True                             # Default = False
+print("fp16:", set_fp16)
+set_eval_steps = 1000                         # Optional
+print("eval_steps:", set_eval_steps)
+set_load_best_model_at_end = True           # Default = False
+print("load_best_model_at_end:", set_load_best_model_at_end)
+set_metric_for_best_model = "wer"           # Optional
+print("metric_for_best_model:", set_metric_for_best_model)
+set_greater_is_better = False               # Optional
+print("greater_is_better:", set_greater_is_better)
+set_group_by_length = True                  # Default = False
+print("group_by_length:", set_group_by_length)
+
+
+'''
 print("\n------------------ Model arguments... ------------------\n")
 # For setting model = Wav2Vec2ForCTC.from_pretrained()
 
@@ -53,9 +134,9 @@ set_attention_dropout = 0.1                 # Default = 0.1
 print("attention_dropout:", set_attention_dropout)
 set_feat_proj_dropout = 0.0                 # Default = 0.1
 print("feat_proj_dropout:", set_feat_proj_dropout)
-set_layerdrop = 0.05                        # Default = 0.1
+set_layerdrop = 0.01                        # Default = 0.1
 print("layerdrop:", set_layerdrop)
-set_mask_time_prob = 0.065                  # Default = 0.05
+set_mask_time_prob = 0.075                  # Default = 0.05
 print("mask_time_prob:", set_mask_time_prob)
 set_mask_time_length = 10                   # Default = 10
 print("mask_time_length:", set_mask_time_length)
@@ -68,7 +149,7 @@ print("ctc_zero_infinity:", set_ctc_zero_infinity)
 print("\n------------------ Training arguments... ------------------\n")
 # For setting training_args = TrainingArguments()
 
-set_per_device_train_batch_size = 8         # Default = 8
+set_per_device_train_batch_size = 4         # Default = 8
 print("per_device_train_batch_size:", set_per_device_train_batch_size)
 set_group_by_length = True                  # Default = False
 print("group_by_length:", set_group_by_length)
@@ -81,7 +162,7 @@ print("weight_decay:", set_weight_decay)
 set_fp16 = True                             # Default = False
 print("fp16:", set_fp16)
 
-set_learning_rate = 0.00005                 # Default = 0.00005
+set_learning_rate = 0.00001                 # Default = 0.00005
 print("learning_rate:", set_learning_rate)
 set_lr_scheduler_type = "linear"            # Default = "linear"
 print("lr_scheduler_type:", set_lr_scheduler_type )
@@ -91,12 +172,12 @@ set_adam_beta2 = 0.98                       # Default = 0.999
 print("adam_beta2:", set_adam_beta2)
 set_adam_epsilon = 0.00000001               # Default = 0.00000001
 print("adam_epsilon:", set_adam_epsilon)
-set_warmup_ratio = 0.1                      # Default = 0.0
+set_warmup_ratio = 0.2                     # Default = 0.0
 print("warmup_ratio:", set_warmup_ratio)
 
-set_num_train_epochs = 63                 # Default = 3.0
+set_num_train_epochs = 2000                 # Default = 3.0
 print("num_train_epochs:", set_num_train_epochs)
-set_max_steps = 20000                       # Default = -1, overrides epochs
+set_max_steps = 12000                       # Default = -1, overrides epochs
 print("max_steps:", set_max_steps)
 
 set_logging_strategy = "steps"              # Default = "steps"
@@ -120,7 +201,45 @@ set_metric_for_best_model = "wer"           # Optional
 print("metric_for_best_model:", set_metric_for_best_model)
 set_greater_is_better = False               # Optional
 print("greater_is_better:", set_greater_is_better)
+'''
 
+'''
+print("\n------------------ Model arguments... ------------------\n")
+# For setting model = Wav2Vec2ForCTC.from_pretrained()
+set_ctc_loss_reduction = "mean"
+print('ctc_loss_reduction:', set_ctc_loss_reduction)
+
+print("\n------------------ Training arguments... ------------------\n")
+# For setting training_args = TrainingArguments()
+set_group_by_length = True
+print('group_by_length:', set_group_by_length)
+set_per_device_train_batch_size = 32
+print('per_device_train_batch_size:', set_per_device_train_batch_size)
+set_warmup_ratio = 0.1
+print('warmup_ratio:', set_warmup_ratio)
+set_learning_rate = 0.0001
+print('learning_rate:', set_learning_rate)
+set_max_steps = 12000
+print('max_steps:', set_max_steps)
+set_weight_decay = 0.005
+print('weight_decay:', set_weight_decay)
+set_evaluation_strategy = 'steps'
+print('evaluation_strategy:', set_evaluation_strategy)
+#set_num_train_epochs = 30
+#print('num_train_epochs:', set_num_train_epochs)
+set_fp16 = True
+print('fp16:', set_fp16)
+set_gradient_checkpointing = True
+print('gradient_checkpointing:', set_gradient_checkpointing)
+set_save_steps = 500
+print('save_steps:', set_save_steps)
+set_eval_steps = 500
+print('eval_steps:', set_eval_steps)
+set_logging_steps = 500
+print('logging_steps:', set_logging_steps)
+set_save_total_limit = 2
+print('save_total_limit:', set_save_total_limit)
+'''
 
 print("\n------------------ Experiment arguments... ------------------\n")
 use_checkpoint = False
@@ -131,27 +250,27 @@ print('training:', training)
 
 
 print("\n------------------ Loading files... ------------------\n")
-train_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/10hour_datasets/OGI_scripted_train_dataframe_10hour.csv'
+train_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10hour_datasets/10hour_OGI_scripted_train_dataframe.csv'
 print(f'Training dataset is stored at {train_df_fp}\n')
-dev_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/10hour_datasets/OGI_scripted_dev_dataframe_10hour.csv'
+dev_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10hour_datasets/10hour_OGI_scripted_dev_dataframe.csv'
 print(f'Development dataset is stored at {dev_df_fp}\n')
-test_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/10hour_datasets/OGI_scripted_test_dataframe_10hour.csv'
+test_df_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10hour_datasets/10hour_OGI_scripted_test_dataframe.csv'
 print(f'Testing dataset is stored at {test_df_fp}\n')
 
 cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune'
 print(f'Cache filepath is {cache_fp}\n')
-model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10hour/10hour_model_OGI_American_20230613'
+model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10hour/10hour_model_OGI_American_20230624'
 print(f'Model filepath is {model_fp}\n')
-vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10hour/10hour_vocab_OGI_American_20230613.json'
+vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10hour/10hour_vocab_OGI_American_20230624.json'
 print(f'Vocab filepath is {vocab_fp}\n')
-finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10hour/10hour_result_OGI_American_20230613.csv'
+finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10hour/10hour_result_OGI_American_20230624.csv'
 print(f'Fine-tuned result filepath is {finetuned_result_fp}\n')
 
 # use_checkpoint = False -----> pretrained_mod = 'facebook/wav2vec2-base'
 # use_checkpoint = True  -----> pretrained_mod = checkpoint_dir
 pretrained_mod = 'facebook/wav2vec2-base'
 if use_checkpoint:
-    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/model_OGI_American_20230609/checkpoint-18000'
+    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230618_7/checkpoint-18500'
     pretrained_mod = checkpoint_dir
     print(f'Checkpoint directory is {checkpoint_dir}\n')
 print(f'Pretrained model is {pretrained_mod}\n')
@@ -312,6 +431,7 @@ class DataCollatorCTCWithPadding:
               different lengths).
     """
 
+    '''
     processor: Wav2Vec2Processor
     padding: Union[bool, str] = True
     
@@ -322,13 +442,13 @@ class DataCollatorCTCWithPadding:
     max_length_labels: Optional[int] = None
     pad_to_multiple_of: Optional[int] = None
     pad_to_multiple_of_labels: Optional[int] = None
-    '''
+    
     
     def __call__(self, features: List[Dict[str, Union[List[int], torch.Tensor]]]) -> Dict[str, torch.Tensor]:
         # split inputs and labels since they have to be of different lenghts and need different padding methods
         input_features = [{"input_values": feature["input_values"]} for feature in features]
         label_features = [{"input_ids": feature["labels"]} for feature in features]
-        
+        '''
         batch = self.processor.pad(
             input_features,
             padding=self.padding,
@@ -356,7 +476,7 @@ class DataCollatorCTCWithPadding:
                 pad_to_multiple_of=self.pad_to_multiple_of_labels,
                 return_tensors="pt",
             )
-        '''
+        
         # replace label ids of padding tokens with -100 so that those tokens are not taken into account when computing the loss
         labels = labels_batch["input_ids"].masked_fill(labels_batch.attention_mask.ne(1), -100)
 
@@ -405,9 +525,17 @@ model = Wav2Vec2ForCTC.from_pretrained(
 )
 
 
+'''
+print('\n------------------ Loading a pretrained checkpount... ------------------\n')
+model = Wav2Vec2ForCTC.from_pretrained(
+    pretrained_mod, 
+    ctc_loss_reduction=set_ctc_loss_reduction,
+    pad_token_id=processor.tokenizer.pad_token_id    
+)
+
 # CNN layers of Wav2vec2.0 model is sufficiently trained, hence they do not need to be finetuned anymore
 model.freeze_feature_encoder()
-
+'''
 
 print('\n------------------ Setting TrainingArguments... ------------------\n')
 training_args = TrainingArguments(
@@ -438,6 +566,25 @@ training_args = TrainingArguments(
     greater_is_better=set_greater_is_better
 )
 
+'''
+print('\n------------------ Setting TrainingArguments... ------------------\n')
+training_args = TrainingArguments(
+    output_dir=model_fp,
+    group_by_length = set_group_by_length,
+    per_device_train_batch_size = set_per_device_train_batch_size,
+    evaluation_strategy = set_evaluation_strategy,
+    max_steps = set_max_steps,
+    fp16 = set_fp16,
+    gradient_checkpointing = set_gradient_checkpointing,
+    save_steps = set_save_steps,
+    eval_steps = set_eval_steps,
+    logging_steps = set_logging_steps,
+    learning_rate = set_learning_rate,
+    weight_decay = set_weight_decay,
+    warmup_ratio = set_warmup_ratio,
+    save_total_limit = set_save_total_limit,
+)
+'''
 
 print('\n------------------ Setting Trainer... ------------------\n')
 '''
@@ -575,3 +722,6 @@ now = datetime.now()
 dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 print("Evaluation Finished:", dt_string)
 print('\n------------------ Evaluation finished... ------------------\n')
+
+
+

@@ -42,6 +42,7 @@ print("Test cuda_is_available", torch.cuda.is_available())
 print("Test get_device_name", torch.cuda.get_device_name(0))
 
 
+'''
 print("\n------------------ Model arguments... ------------------\n")
 # For setting model = Wav2Vec2ForCTC.from_pretrained()
 
@@ -68,7 +69,7 @@ print("ctc_zero_infinity:", set_ctc_zero_infinity)
 print("\n------------------ Training arguments... ------------------\n")
 # For setting training_args = TrainingArguments()
 
-set_per_device_train_batch_size = 16         # Default = 8
+set_per_device_train_batch_size = 4         # Default = 8
 print("per_device_train_batch_size:", set_per_device_train_batch_size)
 set_group_by_length = True                  # Default = False
 print("group_by_length:", set_group_by_length)
@@ -81,7 +82,7 @@ print("weight_decay:", set_weight_decay)
 set_fp16 = True                             # Default = False
 print("fp16:", set_fp16)
 
-set_learning_rate = 0.00005                 # Default = 0.00005
+set_learning_rate = 0.00001                 # Default = 0.00005
 print("learning_rate:", set_learning_rate)
 set_lr_scheduler_type = "linear"            # Default = "linear"
 print("lr_scheduler_type:", set_lr_scheduler_type )
@@ -91,12 +92,12 @@ set_adam_beta2 = 0.98                       # Default = 0.999
 print("adam_beta2:", set_adam_beta2)
 set_adam_epsilon = 0.00000001               # Default = 0.00000001
 print("adam_epsilon:", set_adam_epsilon)
-set_warmup_ratio = 0.1                      # Default = 0.0
+set_warmup_ratio = 0.2                     # Default = 0.0
 print("warmup_ratio:", set_warmup_ratio)
 
-set_num_train_epochs = 590                 # Default = 3.0
+set_num_train_epochs = 2000                 # Default = 3.0
 print("num_train_epochs:", set_num_train_epochs)
-set_max_steps = 25000                       # Default = -1, overrides epochs
+set_max_steps = 12000                       # Default = -1, overrides epochs
 print("max_steps:", set_max_steps)
 
 set_logging_strategy = "steps"              # Default = "steps"
@@ -120,6 +121,43 @@ set_metric_for_best_model = "wer"           # Optional
 print("metric_for_best_model:", set_metric_for_best_model)
 set_greater_is_better = False               # Optional
 print("greater_is_better:", set_greater_is_better)
+'''
+
+print("\n------------------ Model arguments... ------------------\n")
+# For setting model = Wav2Vec2ForCTC.from_pretrained()
+set_ctc_loss_reduction = "mean"
+print('ctc_loss_reduction:', set_ctc_loss_reduction)
+
+print("\n------------------ Training arguments... ------------------\n")
+# For setting training_args = TrainingArguments()
+set_group_by_length = True
+print('group_by_length:', set_group_by_length)
+set_per_device_train_batch_size = 2
+print('per_device_train_batch_size:', set_per_device_train_batch_size)
+set_warmup_ratio = 0.1
+print('warmup_ratio:', set_warmup_ratio)
+set_learning_rate = 0.00001
+print('learning_rate:', set_learning_rate)
+set_max_steps = 12000
+print('max_steps:', set_max_steps)
+set_weight_decay = 0.005
+print('weight_decay:', set_weight_decay)
+set_evaluation_strategy = 'steps'
+print('evaluation_strategy:', set_evaluation_strategy)
+#set_num_train_epochs = 30
+#print('num_train_epochs:', set_num_train_epochs)
+set_fp16 = True
+print('fp16:', set_fp16)
+set_gradient_checkpointing = True
+print('gradient_checkpointing:', set_gradient_checkpointing)
+set_save_steps = 500
+print('save_steps:', set_save_steps)
+set_eval_steps = 500
+print('eval_steps:', set_eval_steps)
+set_logging_steps = 500
+print('logging_steps:', set_logging_steps)
+set_save_total_limit = 2
+print('save_total_limit:', set_save_total_limit)
 
 
 print("\n------------------ Experiment arguments... ------------------\n")
@@ -140,18 +178,18 @@ print(f'Testing dataset is stored at {test_df_fp}\n')
 
 cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune'
 print(f'Cache filepath is {cache_fp}\n')
-model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/1hour/1hour_model_OGI_American_20230614'
+model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/1hour/1hour_model_OGI_American_20230619'
 print(f'Model filepath is {model_fp}\n')
-vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/1hour/1hour_vocab_OGI_American_20230614.json'
+vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/1hour/1hour_vocab_OGI_American_20230619.json'
 print(f'Vocab filepath is {vocab_fp}\n')
-finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/1hour/1hour_result_OGI_American_20230614.csv'
+finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/1hour/1hour_result_OGI_American_20230619.csv'
 print(f'Fine-tuned result filepath is {finetuned_result_fp}\n')
 
 # use_checkpoint = False -----> pretrained_mod = 'facebook/wav2vec2-base'
 # use_checkpoint = True  -----> pretrained_mod = checkpoint_dir
 pretrained_mod = 'facebook/wav2vec2-base'
 if use_checkpoint:
-    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/model_OGI_American_20230609/checkpoint-18000'
+    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/1hour/1hour_model_OGI_American_20230618/checkpoint-10000'
     pretrained_mod = checkpoint_dir
     print(f'Checkpoint directory is {checkpoint_dir}\n')
 print(f'Pretrained model is {pretrained_mod}\n')
@@ -311,8 +349,7 @@ class DataCollatorCTCWithPadding:
             * :obj:`False` or :obj:`'do_not_pad'` (default): No padding (i.e., can output a batch with sequences of
               different lengths).
     """
-
-        '''
+    '''
     processor: Wav2Vec2Processor
     padding: Union[bool, str] = True
     
@@ -357,7 +394,7 @@ class DataCollatorCTCWithPadding:
                 pad_to_multiple_of=self.pad_to_multiple_of_labels,
                 return_tensors="pt",
             )
-
+        
         # replace label ids of padding tokens with -100 so that those tokens are not taken into account when computing the loss
         labels = labels_batch["input_ids"].masked_fill(labels_batch.attention_mask.ne(1), -100)
 
@@ -389,6 +426,7 @@ def compute_metrics(pred):
     return {"wer": wer}
 
 
+'''
 print('\n------------------ Loading a pretrained checkpount... ------------------\n')
 model = Wav2Vec2ForCTC.from_pretrained(
     pretrained_mod, 
@@ -404,12 +442,21 @@ model = Wav2Vec2ForCTC.from_pretrained(
     ctc_loss_reduction=set_ctc_loss_reduction,
     ctc_zero_infinity=set_ctc_zero_infinity    
 )
+'''
+
+print('\n------------------ Loading a pretrained checkpount... ------------------\n')
+model = Wav2Vec2ForCTC.from_pretrained(
+    pretrained_mod, 
+    ctc_loss_reduction=set_ctc_loss_reduction,
+    pad_token_id=processor.tokenizer.pad_token_id    
+)
 
 
 # CNN layers of Wav2vec2.0 model is sufficiently trained, hence they do not need to be finetuned anymore
 model.freeze_feature_encoder()
 
 
+'''
 print('\n------------------ Setting TrainingArguments... ------------------\n')
 training_args = TrainingArguments(
     output_dir=model_fp,
@@ -438,7 +485,24 @@ training_args = TrainingArguments(
     metric_for_best_model=set_metric_for_best_model,
     greater_is_better=set_greater_is_better
 )
-
+'''
+print('\n------------------ Setting TrainingArguments... ------------------\n')
+training_args = TrainingArguments(
+    output_dir = model_fp,
+    group_by_length = set_group_by_length,
+    per_device_train_batch_size = set_per_device_train_batch_size,
+    evaluation_strategy = set_evaluation_strategy,
+    max_steps = set_max_steps,
+    fp16 = set_fp16,
+    gradient_checkpointing = set_gradient_checkpointing,
+    save_steps = set_save_steps,
+    eval_steps = set_eval_steps,
+    logging_steps = set_logging_steps,
+    learning_rate = set_learning_rate,
+    weight_decay = set_weight_decay,
+    warmup_ratio = set_warmup_ratio,
+    save_total_limit = set_save_total_limit,
+)
 
 print('\n------------------ Setting Trainer... ------------------\n')
 '''

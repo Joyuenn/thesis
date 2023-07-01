@@ -25,8 +25,8 @@ print('Importing librosa')
 import librosa
 print('Importing torch')
 import torch
-
-
+print('Importing praatio')
+from praatio import tgio
 
  
 print('Importing transformers')

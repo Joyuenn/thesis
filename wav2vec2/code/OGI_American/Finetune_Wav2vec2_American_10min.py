@@ -133,12 +133,18 @@ set_group_by_length = True
 print('group_by_length:', set_group_by_length)
 set_per_device_train_batch_size = 32
 print('per_device_train_batch_size:', set_per_device_train_batch_size)
+set_warmup_ratio = 0.1
+print('warmup_ratio:', set_warmup_ratio)
+set_learning_rate = 0.000005
+print('learning_rate:', set_learning_rate)
+set_max_steps = 25000
+print('max_steps:', set_max_steps)
+set_weight_decay = 0.005
+print('weight_decay:', set_weight_decay)
 set_evaluation_strategy = 'steps'
 print('evaluation_strategy:', set_evaluation_strategy)
 #set_num_train_epochs = 30
 #print('num_train_epochs:', set_num_train_epochs)
-set_max_steps = 12000
-print('max_steps:', set_max_steps)
 set_fp16 = True
 print('fp16:', set_fp16)
 set_gradient_checkpointing = True
@@ -149,18 +155,11 @@ set_eval_steps = 500
 print('eval_steps:', set_eval_steps)
 set_logging_steps = 500
 print('logging_steps:', set_logging_steps)
-set_learning_rate = 0.000005
-print('learning_rate:', set_learning_rate)
-set_weight_decay = 0.005
-print('weight_decay:', set_weight_decay)
-set_warmup_ratio = 0.1
-print('warmup_ratio:', set_warmup_ratio)
 set_save_total_limit = 2
 print('save_total_limit:', set_save_total_limit)
 
-
 print("\n------------------ Experiment arguments... ------------------\n")
-use_checkpoint = False
+use_checkpoint = True
 print('use_checkpoint:', use_checkpoint)
 
 training = True
@@ -177,18 +176,18 @@ print(f'Testing dataset is stored at {test_df_fp}\n')
 
 cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune'
 print(f'Cache filepath is {cache_fp}\n')
-model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230618'
+model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230618_7'
 print(f'Model filepath is {model_fp}\n')
-vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230618.json'
+vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/10min/10min_vocab_OGI_American_20230618_7.json'
 print(f'Vocab filepath is {vocab_fp}\n')
-finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230618.csv'
+finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/10min/10min_result_OGI_American_20230618_7.csv'
 print(f'Fine-tuned result filepath is {finetuned_result_fp}\n')
 
 # use_checkpoint = False -----> pretrained_mod = 'facebook/wav2vec2-base'
 # use_checkpoint = True  -----> pretrained_mod = checkpoint_dir
 pretrained_mod = 'facebook/wav2vec2-base'
 if use_checkpoint:
-    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/model_OGI_American_20230609/checkpoint-18000'
+    checkpoint_dir = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/10min/10min_model_OGI_American_20230618_7/checkpoint-21000'
     pretrained_mod = checkpoint_dir
     print(f'Checkpoint directory is {checkpoint_dir}\n')
 print(f'Pretrained model is {pretrained_mod}\n')
