@@ -1,0 +1,177 @@
+Tue Jul 11 21:25:44 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-41bde6becaaa26d7/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_AusKidTalk_spontaneous.py
+Started: 11/07/2023 21:25:44
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+training: False
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_20230711_3
+cache_name: AusKidTalk-eval
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/finetune_20230708_2
+use_pretrained_tokenizer: True
+pretrained_tokenizer: facebook/wav2vec2-base-960h
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/finetune_20230708_2
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: False
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_1050_task3_test.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_1050_task3_test.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_20230711_3_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_20230711_3
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_20230711_3_baseline_result.csv
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_20230711_3_finetuned_result.csv
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/finetune_20230708_2
+--> pretrained_tokenizer: facebook/wav2vec2-base-960h
+
+------> PREPARING DATASET... ------------------------------------
+
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 508.65it/s]
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-41bde6becaaa26d7/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-48c08e44f613f712.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-41bde6becaaa26d7/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-f82d1a5ff91306e3.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-41bde6becaaa26d7/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-52aec94158bd8e54_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-41bde6becaaa26d7/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-fbd973694f975fd6_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-41bde6becaaa26d7/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-a9bc66cfb1bf7a93_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-41bde6becaaa26d7/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-5c6e5753b32becb3_*_of_00004.arrow
+/srv/scratch/z5313567/thesis/wav2vec2/code/eval_AusKidTalk_spontaneous.py:599: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-41bde6becaaa26d7/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-bcbd823a02a552fd.arrow
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 14
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 14
+    })
+})
+--> Printing some random samples...
+                                            filepath                                transcription_clean
+0  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the green baby is holding the bottle of milk w...
+1  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the green baby stuffs his bowl of milk into th...
+2  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the green baby is holding the bottle of milk w...
+3  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the green baby is holding the bottle of milk w...
+4  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the green baby is holding the bottle of milk w...
+5  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the green baby has second thoughts about playi...
+6  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the green baby goes over to the green dinosaur...
+7  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  bouncing off the dinosaur egg holding the bott...
+8  /srv/scratch/chacmod/auskidtalk_spontaneous/10...      the green dinosaur is on the ground being sad
+9  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the green baby is holding the bottle of milk a...
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+--> Verifying data with a random sample...
+Target text: THE GREEN BABY HAS SECOND THOUGHTS ABOUT PLAYING WITH THE DINOSAUR
+Input array shape: (77433,)
+Sampling rate: 16000
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_20230711_3_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER: 0.946
+--> Showing some fine-tuned prediction errors...
+                                         target_text                                           pred_str
+0  THE GREEN BABY HAS SECOND THOUGHTS ABOUT PLAYI...    THGREN BABY HAS SEON THOUTOUTPLAYN WOTHDINOSAUR
+1                           THE GREEN SKINED BABY IS                               THEGRHANSCUBETE EARS
+2  THE GREEN SKINED BABY IS RIDING A SKATEBOARD H...      THE GREN SABABIY ERSRIDING OSCOPEBORHOLNBMILK
+3  THE GREEN BABY GOES OVER TO THE GREEN DINOSAUR...                THGRENGEBI GOS OVER TOHDINOSAUR CPO
+4  THE GREEN BABY IS HOLDING THE BOTTLE OF MILK W...                 GREEN BBE HOING BELLDINOSAUR EGGAC
+5  THE GREEN BABY IS HOLDING THE BOTTLE OF MILK W...     THEGREENE BABY SHOLDIN BALLMLOU SIDE THEDINOSE
+6  BOUNCING OFF THE DINOSAUR EGG HOLDING THE BOTT...                   DINCING ELDINOSAUR EGGHOHEBTERMI
+7   THE GREEN DINOSAUR IS LOOKING FOR THE GREEN BABY                        GRENDINOSAUROSLOCINGFOGETTI
+8      THE GREEN DINOSAUR IS ON THE GROUND BEING SAD                     GRHIDINOSAUR SON HO GROUNDBEAD
+9  THE GREEN BABY IS HOLDING THE BOTTLE OF MILK W...  TH GREENE BEY HOONGBALLLERGREEN DINOSAUR OOTOE...
+--> Taking a deeper look...
+<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> T T H H <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> E E E E <pad> | | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> G <pad> <pad> <pad> R R <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> E <pad> N N <pad> <pad> | | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> S <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> A <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> B <pad> <pad> <pad> <pad> <pad> <pad> <pad> A A <pad> <pad> <pad> B B <pad> <pad> <pad> <pad> I Y <pad> | | | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> E E E E E R R R <pad> <pad> <pad> S S S <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> R R <pad> <pad> <pad> <pad> <pad> <pad> I I I <pad> D <pad> <pad> <pad> I N G | | <pad> <pad> <pad> O <pad> <pad> <pad> <pad> <pad> <pad> <pad> S <pad> <pad> <pad> <pad> <pad> C <pad> <pad> <pad> O <pad> P P E <pad> <pad> <pad> <pad> <pad> <pad> B <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> O O R R <pad> <pad> <pad> <pad> <pad> <pad> <pad> H H H <pad> <pad> <pad> <pad> O <pad> <pad> L L <pad> <pad> <pad> <pad> N <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> B <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> M M <pad> I I L L L K <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 11/07/2023 21:25:56

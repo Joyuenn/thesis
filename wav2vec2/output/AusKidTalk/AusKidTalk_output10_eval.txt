@@ -1,0 +1,384 @@
+Mon Jul 10 22:28:50 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_AusKidTalk.py
+Started: 10/07/2023 22:28:51
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+training: False
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_20230710_2
+cache_name: AusKidTalk-eval
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/finetune_20230708
+use_pretrained_tokenizer: True
+pretrained_tokenizer: facebook/wav2vec2-base-960h
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/finetune_20230708
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: True
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test_only_transcription_filepath.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test_only_transcription_filepath.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_20230710_2_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_20230710_2
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_20230710_2_baseline_result.csv
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_20230710_2_finetuned_result.csv
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/finetune_20230708
+--> pretrained_tokenizer: facebook/wav2vec2-base-960h
+
+------> PREPARING DATASET... ------------------------------------
+
+
+  0%|          | 0/2 [00:00<?, ?it/s]
+100%|██████████| 2/2 [00:00<00:00, 98.91it/s]
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-e26a6fd90a7c31e4.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-dd705be8573df0b3.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-c753ee8a63c8a4d1_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-26b1a909f64c1808_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-24add4d0a4650d6d_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-6ae2a032f79c87e9_*_of_00004.arrow
+/srv/scratch/z5313567/thesis/wav2vec2/code/eval_AusKidTalk.py:599: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 1774
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 1774
+    })
+})
+--> Printing some random samples...
+                                            filepath transcription_clean
+0  /srv/scratch/chacmod/auskidtalk_audio/251_task...              carpet
+1  /srv/scratch/chacmod/auskidtalk_audio/135_task...           australia
+2  /srv/scratch/chacmod/auskidtalk_audio/135_task...                 yes
+3  /srv/scratch/chacmod/auskidtalk_audio/166_task...                nine
+4  /srv/scratch/chacmod/auskidtalk_audio/349_task...                four
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+--> Verifying data with a random sample...
+Target text: SNAKE
+Input array shape: (13920,)
+Sampling rate: 16000
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+
+Map:   0%|          | 0/1774 [00:00<?, ? examples/s]
+Map:   0%|          | 1/1774 [00:01<41:57,  1.42s/ examples]
+Map:   0%|          | 7/1774 [00:01<04:54,  6.00 examples/s]
+Map:   1%|          | 13/1774 [00:01<02:26, 12.03 examples/s]
+Map:   1%|          | 19/1774 [00:01<01:35, 18.38 examples/s]
+Map:   1%|▏         | 26/1774 [00:01<01:06, 26.26 examples/s]
+Map:   2%|▏         | 34/1774 [00:01<00:50, 34.56 examples/s]
+Map:   2%|▏         | 42/1774 [00:02<00:40, 42.82 examples/s]
+Map:   3%|▎         | 49/1774 [00:02<00:36, 47.74 examples/s]
+Map:   3%|▎         | 57/1774 [00:02<00:31, 54.01 examples/s]
+Map:   4%|▎         | 66/1774 [00:02<00:29, 58.47 examples/s]
+Map:   4%|▍         | 74/1774 [00:02<00:27, 62.22 examples/s]
+Map:   5%|▍         | 82/1774 [00:02<00:26, 63.86 examples/s]
+Map:   5%|▌         | 92/1774 [00:02<00:24, 68.99 examples/s]
+Map:   6%|▌         | 100/1774 [00:02<00:23, 70.43 examples/s]
+Map:   6%|▌         | 108/1774 [00:03<00:23, 71.36 examples/s]
+Map:   7%|▋         | 117/1774 [00:03<00:22, 74.12 examples/s]
+Map:   7%|▋         | 126/1774 [00:03<00:21, 76.67 examples/s]
+Map:   8%|▊         | 134/1774 [00:03<00:21, 74.85 examples/s]
+Map:   8%|▊         | 143/1774 [00:03<00:21, 75.89 examples/s]
+Map:   9%|▊         | 155/1774 [00:03<00:22, 71.54 examples/s]
+Map:   9%|▉         | 165/1774 [00:03<00:21, 75.01 examples/s]
+Map:  10%|▉         | 174/1774 [00:03<00:20, 76.28 examples/s]
+Map:  10%|█         | 183/1774 [00:04<00:20, 77.27 examples/s]
+Map:  11%|█         | 192/1774 [00:04<00:20, 78.98 examples/s]
+Map:  11%|█▏        | 200/1774 [00:04<00:20, 76.59 examples/s]
+Map:  12%|█▏        | 208/1774 [00:04<00:20, 76.39 examples/s]
+Map:  12%|█▏        | 219/1774 [00:04<00:21, 73.58 examples/s]
+Map:  13%|█▎        | 229/1774 [00:04<00:19, 77.98 examples/s]
+Map:  13%|█▎        | 239/1774 [00:04<00:19, 80.30 examples/s]
+Map:  14%|█▍        | 248/1774 [00:04<00:19, 79.65 examples/s]
+Map:  15%|█▍        | 258/1774 [00:04<00:18, 80.88 examples/s]
+Map:  15%|█▌        | 267/1774 [00:05<00:18, 79.78 examples/s]
+Map:  16%|█▌        | 276/1774 [00:05<00:19, 77.52 examples/s]
+Map:  16%|█▌        | 286/1774 [00:05<00:18, 79.21 examples/s]
+Map:  17%|█▋        | 296/1774 [00:05<00:18, 82.10 examples/s]
+Map:  17%|█▋        | 305/1774 [00:05<00:18, 81.47 examples/s]
+Map:  18%|█▊        | 314/1774 [00:05<00:18, 79.97 examples/s]
+Map:  18%|█▊        | 323/1774 [00:05<00:17, 81.52 examples/s]
+Map:  19%|█▊        | 332/1774 [00:05<00:17, 82.16 examples/s]
+Map:  19%|█▉        | 341/1774 [00:05<00:17, 80.36 examples/s]
+Map:  20%|█▉        | 350/1774 [00:06<00:17, 81.19 examples/s]
+Map:  20%|██        | 360/1774 [00:06<00:16, 83.62 examples/s]
+Map:  21%|██        | 372/1774 [00:06<00:17, 79.25 examples/s]
+Map:  21%|██▏       | 381/1774 [00:06<00:18, 75.67 examples/s]
+Map:  22%|██▏       | 391/1774 [00:06<00:17, 78.85 examples/s]
+Map:  22%|██▏       | 399/1774 [00:06<00:17, 78.22 examples/s]
+Map:  23%|██▎       | 409/1774 [00:06<00:17, 79.80 examples/s]
+Map:  24%|██▎       | 419/1774 [00:06<00:16, 81.84 examples/s]
+Map:  24%|██▍       | 428/1774 [00:07<00:16, 81.47 examples/s]
+Map:  25%|██▍       | 438/1774 [00:07<00:16, 82.98 examples/s]
+Map:  25%|██▌       | 447/1774 [00:07<00:15, 83.34 examples/s]
+Map:  26%|██▌       | 457/1774 [00:07<00:15, 84.51 examples/s]
+Map:  26%|██▋       | 466/1774 [00:07<00:16, 81.66 examples/s]
+Map:  27%|██▋       | 475/1774 [00:07<00:15, 82.72 examples/s]
+Map:  27%|██▋       | 484/1774 [00:07<00:15, 84.04 examples/s]
+Map:  28%|██▊       | 494/1774 [00:07<00:14, 85.46 examples/s]
+Map:  29%|██▊       | 506/1774 [00:08<00:15, 81.67 examples/s]
+Map:  29%|██▉       | 518/1774 [00:08<00:15, 80.34 examples/s]
+Map:  30%|██▉       | 527/1774 [00:08<00:15, 79.22 examples/s]
+Map:  30%|███       | 537/1774 [00:08<00:15, 81.47 examples/s]
+Map:  31%|███       | 547/1774 [00:08<00:14, 85.35 examples/s]
+Map:  31%|███▏      | 556/1774 [00:08<00:14, 82.39 examples/s]
+Map:  32%|███▏      | 566/1774 [00:08<00:14, 83.73 examples/s]
+Map:  32%|███▏      | 576/1774 [00:08<00:14, 84.07 examples/s]
+Map:  33%|███▎      | 585/1774 [00:08<00:14, 82.30 examples/s]
+Map:  33%|███▎      | 594/1774 [00:09<00:14, 83.15 examples/s]
+Map:  34%|███▍      | 603/1774 [00:09<00:14, 81.74 examples/s]
+Map:  34%|███▍      | 612/1774 [00:09<00:14, 82.25 examples/s]
+Map:  35%|███▌      | 621/1774 [00:09<00:13, 82.71 examples/s]
+Map:  36%|███▌      | 630/1774 [00:09<00:13, 82.25 examples/s]
+Map:  36%|███▌      | 643/1774 [00:09<00:13, 82.64 examples/s]
+Map:  37%|███▋      | 652/1774 [00:09<00:13, 82.07 examples/s]
+Map:  37%|███▋      | 661/1774 [00:09<00:13, 81.87 examples/s]
+Map:  38%|███▊      | 671/1774 [00:10<00:13, 83.35 examples/s]
+Map:  38%|███▊      | 680/1774 [00:10<00:13, 82.33 examples/s]
+Map:  39%|███▉      | 690/1774 [00:10<00:12, 84.41 examples/s]
+Map:  39%|███▉      | 700/1774 [00:10<00:12, 86.00 examples/s]
+Map:  40%|███▉      | 709/1774 [00:10<00:12, 84.91 examples/s]
+Map:  40%|████      | 718/1774 [00:10<00:12, 83.71 examples/s]
+Map:  41%|████      | 728/1774 [00:10<00:12, 83.71 examples/s]
+Map:  42%|████▏     | 737/1774 [00:10<00:12, 82.76 examples/s]
+Map:  42%|████▏     | 747/1774 [00:10<00:12, 84.70 examples/s]
+Map:  43%|████▎     | 756/1774 [00:11<00:12, 83.87 examples/s]
+Map:  43%|████▎     | 767/1774 [00:11<00:12, 77.56 examples/s]
+Map:  44%|████▎     | 776/1774 [00:11<00:12, 79.03 examples/s]
+Map:  44%|████▍     | 785/1774 [00:11<00:12, 80.48 examples/s]
+Map:  45%|████▍     | 795/1774 [00:11<00:11, 81.86 examples/s]
+Map:  45%|████▌     | 804/1774 [00:11<00:12, 80.60 examples/s]
+Map:  46%|████▌     | 817/1774 [00:11<00:12, 79.34 examples/s]
+Map:  47%|████▋     | 826/1774 [00:11<00:11, 79.70 examples/s]
+Map:  47%|████▋     | 836/1774 [00:12<00:11, 82.87 examples/s]
+Map:  48%|████▊     | 845/1774 [00:12<00:11, 82.42 examples/s]
+Map:  48%|████▊     | 855/1774 [00:12<00:10, 83.80 examples/s]
+Map:  49%|████▉     | 865/1774 [00:12<00:10, 84.89 examples/s]
+Map:  49%|████▉     | 875/1774 [00:12<00:10, 84.05 examples/s]
+Map:  50%|████▉     | 884/1774 [00:12<00:10, 83.21 examples/s]
+Map:  51%|█████     | 897/1774 [00:12<00:10, 82.96 examples/s]
+Map:  51%|█████     | 907/1774 [00:12<00:10, 83.32 examples/s]
+Map:  52%|█████▏    | 917/1774 [00:12<00:10, 85.02 examples/s]
+Map:  52%|█████▏    | 926/1774 [00:13<00:10, 84.71 examples/s]
+Map:  53%|█████▎    | 938/1774 [00:13<00:10, 77.92 examples/s]
+Map:  53%|█████▎    | 946/1774 [00:13<00:10, 77.42 examples/s]
+Map:  54%|█████▍    | 955/1774 [00:13<00:10, 78.25 examples/s]
+Map:  54%|█████▍    | 965/1774 [00:13<00:10, 80.71 examples/s]
+Map:  55%|█████▍    | 974/1774 [00:13<00:09, 81.12 examples/s]
+Map:  55%|█████▌    | 983/1774 [00:13<00:09, 80.06 examples/s]
+Map:  56%|█████▌    | 992/1774 [00:13<00:09, 79.55 examples/s]
+Map:  56%|█████▋    | 1000/1774 [00:14<00:22, 34.56 examples/s]
+Map:  57%|█████▋    | 1009/1774 [00:14<00:18, 41.75 examples/s]
+Map:  57%|█████▋    | 1019/1774 [00:14<00:14, 50.37 examples/s]
+Map:  58%|█████▊    | 1028/1774 [00:14<00:13, 56.43 examples/s]
+Map:  58%|█████▊    | 1037/1774 [00:14<00:11, 62.35 examples/s]
+Map:  59%|█████▉    | 1047/1774 [00:15<00:10, 68.55 examples/s]
+Map:  60%|█████▉    | 1056/1774 [00:15<00:10, 71.48 examples/s]
+Map:  60%|██████    | 1066/1774 [00:15<00:09, 77.35 examples/s]
+Map:  61%|██████    | 1076/1774 [00:15<00:08, 79.84 examples/s]
+Map:  61%|██████    | 1086/1774 [00:15<00:08, 82.33 examples/s]
+Map:  62%|██████▏   | 1098/1774 [00:15<00:07, 87.54 examples/s]
+Map:  62%|██████▏   | 1108/1774 [00:15<00:07, 87.23 examples/s]
+Map:  63%|██████▎   | 1117/1774 [00:15<00:07, 86.58 examples/s]
+Map:  64%|██████▎   | 1127/1774 [00:15<00:07, 88.29 examples/s]
+Map:  64%|██████▍   | 1137/1774 [00:16<00:07, 89.80 examples/s]
+Map:  65%|██████▍   | 1147/1774 [00:16<00:06, 89.84 examples/s]
+Map:  65%|██████▌   | 1157/1774 [00:16<00:06, 90.37 examples/s]
+Map:  66%|██████▌   | 1167/1774 [00:16<00:06, 89.99 examples/s]
+Map:  66%|██████▋   | 1177/1774 [00:16<00:06, 89.01 examples/s]
+Map:  67%|██████▋   | 1187/1774 [00:16<00:06, 89.32 examples/s]
+Map:  67%|██████▋   | 1197/1774 [00:16<00:06, 88.88 examples/s]
+Map:  68%|██████▊   | 1206/1774 [00:16<00:06, 84.81 examples/s]
+Map:  69%|██████▊   | 1219/1774 [00:17<00:06, 82.39 examples/s]
+Map:  69%|██████▉   | 1229/1774 [00:17<00:06, 83.41 examples/s]
+Map:  70%|██████▉   | 1238/1774 [00:17<00:06, 83.15 examples/s]
+Map:  70%|███████   | 1248/1774 [00:17<00:06, 85.29 examples/s]
+Map:  71%|███████   | 1258/1774 [00:17<00:05, 87.43 examples/s]
+Map:  71%|███████▏  | 1268/1774 [00:17<00:05, 87.90 examples/s]
+Map:  72%|███████▏  | 1278/1774 [00:17<00:05, 88.85 examples/s]
+Map:  73%|███████▎  | 1287/1774 [00:17<00:05, 87.29 examples/s]
+Map:  73%|███████▎  | 1297/1774 [00:17<00:05, 89.33 examples/s]
+Map:  74%|███████▎  | 1306/1774 [00:18<00:05, 86.21 examples/s]
+Map:  74%|███████▍  | 1316/1774 [00:18<00:05, 85.14 examples/s]
+Map:  75%|███████▍  | 1329/1774 [00:18<00:05, 81.90 examples/s]
+Map:  75%|███████▌  | 1338/1774 [00:18<00:05, 81.48 examples/s]
+Map:  76%|███████▌  | 1347/1774 [00:18<00:05, 81.26 examples/s]
+Map:  76%|███████▋  | 1356/1774 [00:18<00:05, 82.70 examples/s]
+Map:  77%|███████▋  | 1365/1774 [00:18<00:04, 83.86 examples/s]
+Map:  78%|███████▊  | 1375/1774 [00:18<00:04, 86.61 examples/s]
+Map:  78%|███████▊  | 1385/1774 [00:18<00:04, 87.38 examples/s]
+Map:  79%|███████▊  | 1395/1774 [00:19<00:04, 88.73 examples/s]
+Map:  79%|███████▉  | 1405/1774 [00:19<00:04, 89.90 examples/s]
+Map:  80%|███████▉  | 1415/1774 [00:19<00:03, 91.40 examples/s]
+Map:  80%|████████  | 1425/1774 [00:19<00:03, 87.71 examples/s]
+Map:  81%|████████  | 1435/1774 [00:19<00:03, 88.39 examples/s]
+Map:  81%|████████▏ | 1445/1774 [00:19<00:03, 88.40 examples/s]
+Map:  82%|████████▏ | 1454/1774 [00:19<00:03, 84.43 examples/s]
+Map:  83%|████████▎ | 1464/1774 [00:19<00:03, 84.40 examples/s]
+Map:  83%|████████▎ | 1474/1774 [00:20<00:03, 82.61 examples/s]
+Map:  84%|████████▍ | 1487/1774 [00:20<00:03, 77.44 examples/s]
+Map:  84%|████████▍ | 1496/1774 [00:20<00:03, 79.43 examples/s]
+Map:  85%|████████▍ | 1506/1774 [00:20<00:03, 82.89 examples/s]
+Map:  85%|████████▌ | 1516/1774 [00:20<00:03, 85.72 examples/s]
+Map:  86%|████████▌ | 1526/1774 [00:20<00:02, 86.37 examples/s]
+Map:  87%|████████▋ | 1536/1774 [00:20<00:02, 85.83 examples/s]
+Map:  87%|████████▋ | 1546/1774 [00:20<00:02, 87.70 examples/s]
+Map:  88%|████████▊ | 1559/1774 [00:21<00:02, 84.52 examples/s]
+Map:  88%|████████▊ | 1569/1774 [00:21<00:02, 85.24 examples/s]
+Map:  89%|████████▉ | 1579/1774 [00:21<00:02, 87.36 examples/s]
+Map:  90%|████████▉ | 1588/1774 [00:21<00:02, 82.99 examples/s]
+Map:  90%|█████████ | 1599/1774 [00:21<00:02, 86.72 examples/s]
+Map:  91%|█████████ | 1609/1774 [00:21<00:01, 85.30 examples/s]
+Map:  91%|█████████▏| 1622/1774 [00:21<00:01, 82.99 examples/s]
+Map:  92%|█████████▏| 1633/1774 [00:21<00:01, 85.12 examples/s]
+Map:  93%|█████████▎| 1642/1774 [00:22<00:01, 84.79 examples/s]
+Map:  93%|█████████▎| 1651/1774 [00:22<00:01, 85.27 examples/s]
+Map:  94%|█████████▎| 1661/1774 [00:22<00:01, 87.15 examples/s]
+Map:  94%|█████████▍| 1671/1774 [00:22<00:01, 87.82 examples/s]
+Map:  95%|█████████▍| 1680/1774 [00:22<00:01, 85.50 examples/s]
+Map:  95%|█████████▌| 1690/1774 [00:22<00:00, 85.83 examples/s]
+Map:  96%|█████████▌| 1700/1774 [00:22<00:00, 85.87 examples/s]
+Map:  96%|█████████▋| 1709/1774 [00:22<00:00, 85.39 examples/s]
+Map:  97%|█████████▋| 1718/1774 [00:22<00:00, 83.98 examples/s]
+Map:  97%|█████████▋| 1728/1774 [00:23<00:00, 84.40 examples/s]
+Map:  98%|█████████▊| 1739/1774 [00:23<00:00, 87.51 examples/s]
+Map:  99%|█████████▊| 1751/1774 [00:23<00:00, 80.69 examples/s]
+Map:  99%|█████████▉| 1761/1774 [00:23<00:00, 83.52 examples/s]
+Map: 100%|█████████▉| 1771/1774 [00:23<00:00, 84.71 examples/s]
+                                                               
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/wav2vec2-base-960h and are newly initialized: ['wav2vec2.masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-92409c81798e7e50.arrow
+Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_20230710_2_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER: 0.035
+--> Showing some fine-tuned prediction errors...
+   target_text     pred_str
+0         TAIL         TAIL
+1   RHINOCEROS   RHINOCEROS
+2  ONE O CLOCK  ONE O CLOCK
+3      BALLOON      BALLOON
+4        CANOE        CANOE
+5         RIDE         RIDE
+6  GRASSHOPPER  GRASSHOPPER
+7         CARD          PID
+8        BEARD        BEARD
+9         BOAT         BOAT
+--> Taking a deeper look...
+B <pad> <pad> <pad> A <pad> <pad> L <pad> <pad> <pad> <pad> <pad> L <pad> <pad> <pad> <pad> <pad> <pad>
+
+------> EVALUATING BASELINE MODEL... ------------------------------------------ 
+
+Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_20230710_2_baseline_result.csv
+--> Getting baseline test results...
+Baseline Test WER: 0.782
+--> Showing some baseline prediction errors...
+   target_text     pred_str
+0        STRAW        STRAW
+1        SHELL         SHOW
+2         HAIR            H
+3       SPLASH        SPUSH
+4    AUSTRALIA    AUSTRALIA
+5         CARD          GOD
+6  TWO O CLOCK  TWO O'CLOCK
+7        THREE         IRTY
+8      SAUSAGE      SAUSAGE
+9         DUCK         DOUT
+--> Taking a deeper look...
+<pad> B <pad> R <pad> <pad> <pad> <pad> <pad> <pad> O A <pad> R <pad> <pad> | | | <pad>
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 10/07/2023 22:29:36

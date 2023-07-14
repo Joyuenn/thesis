@@ -240,7 +240,7 @@ print('save_total_limit:', set_save_total_limit)
 '''
 
 print("\n------------------ Experiment arguments... ------------------\n")
-use_checkpoint = True
+use_checkpoint = False
 print('use_checkpoint:', use_checkpoint)
 
 training = True
@@ -257,11 +257,11 @@ print(f'Testing dataset is stored at {test_df_fp}\n')
 
 cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/Jordan-OGI-finetune'
 print(f'Cache filepath is {cache_fp}\n')
-model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230620'
+model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702'
 print(f'Model filepath is {model_fp}\n')
-vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/full/full_vocab_OGI_American_20230620.json'
+vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/full/full_vocab_OGI_American_20230702.json'
 print(f'Vocab filepath is {vocab_fp}\n')
-finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/full/full_result_OGI_American_20230620.csv'
+finetuned_result_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/full/full_result_OGI_American_20230702.csv'
 print(f'Fine-tuned result filepath is {finetuned_result_fp}\n')
 
 # use_checkpoint = False -----> pretrained_mod = 'facebook/wav2vec2-base'

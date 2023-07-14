@@ -1,0 +1,195 @@
+Mon Jul 10 22:53:44 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_AusKidTalk.py
+Started: 10/07/2023 22:53:44
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+training: False
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_20230710_4
+cache_name: AusKidTalk-eval
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016_2-base-myST-OGI-TLT17
+use_pretrained_tokenizer: True
+pretrained_tokenizer: facebook/wav2vec2-base-960h
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016_2-base-myST-OGI-TLT17
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: True
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test_only_transcription_filepath.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test_only_transcription_filepath.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_20230710_4_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_20230710_4
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_20230710_4_baseline_result.csv
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_20230710_4_finetuned_result.csv
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016_2-base-myST-OGI-TLT17
+--> pretrained_tokenizer: facebook/wav2vec2-base-960h
+
+------> PREPARING DATASET... ------------------------------------
+
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 508.37it/s]
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-e26a6fd90a7c31e4.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-dd705be8573df0b3.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-c753ee8a63c8a4d1_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-26b1a909f64c1808_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-24add4d0a4650d6d_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-6ae2a032f79c87e9_*_of_00004.arrow
+/srv/scratch/z5313567/thesis/wav2vec2/code/eval_AusKidTalk.py:599: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-051ca7a43d0c2d7d.arrow
+Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/wav2vec2-base-960h and are newly initialized: ['wav2vec2.masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b97ce43eb2de0033/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-92409c81798e7e50.arrow
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 1774
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 1774
+    })
+})
+--> Printing some random samples...
+                                            filepath transcription_clean
+0  /srv/scratch/chacmod/auskidtalk_audio/389_task...           moustache
+1  /srv/scratch/chacmod/auskidtalk_audio/166_task...        hippopotamus
+2  /srv/scratch/chacmod/auskidtalk_audio/232_task...           four eggs
+3  /srv/scratch/chacmod/auskidtalk_audio/351_task...                hill
+4  /srv/scratch/chacmod/auskidtalk_audio/251_task...         stethoscope
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+--> Verifying data with a random sample...
+Target text: CHEESE
+Input array shape: (14189,)
+Sampling rate: 16000
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_20230710_4_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER: 0.830
+--> Showing some fine-tuned prediction errors...
+   target_text     pred_str
+0         TAIL           TI
+1   RHINOCEROS      I NOSOS
+2  ONE O CLOCK      ONE I A
+3      BALLOON     A LEARNE
+4        CANOE        CONNO
+5         RIDE        WHITE
+6  GRASSHOPPER  GRAPH POPPA
+7         CARD           OT
+8        BEARD            B
+9         BOAT         BOTS
+--> Taking a deeper look...
+<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+------> EVALUATING BASELINE MODEL... ------------------------------------------ 
+
+Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_20230710_4_baseline_result.csv
+--> Getting baseline test results...
+Baseline Test WER: 0.782
+--> Showing some baseline prediction errors...
+   target_text     pred_str
+0        STRAW        STRAW
+1        SHELL         SHOW
+2         HAIR            H
+3       SPLASH        SPUSH
+4    AUSTRALIA    AUSTRALIA
+5         CARD          GOD
+6  TWO O CLOCK  TWO O'CLOCK
+7        THREE         IRTY
+8      SAUSAGE      SAUSAGE
+9         DUCK         DOUT
+--> Taking a deeper look...
+<pad> B <pad> R <pad> <pad> <pad> <pad> <pad> <pad> O A <pad> R <pad> <pad> | | | <pad>
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 10/07/2023 22:53:58
