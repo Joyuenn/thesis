@@ -1,3 +1,112 @@
-﻿filepath,transcription_clean
-/srv/scratch/chacmod/auskidtalk_spontaneous/task3_samples/255_task3.wav,next one please you can just watch on the door
-/srv/scratch/chacmod/auskidtalk_spontaneous/task3_samples/228_task3.wav,empty
+filepath,duration,speaker_id,transcription
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_1.wav,4.944889237746381,819,hulk was riding backwards on a skateboard and he hits an egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_2.wav,3.8514028722600244,819,he's curious to see what's inside the egg and listens to the egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_3.wav,6.164227891156443,819,the egg starts cracking near the top and hulk is scared by this
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_4.wav,2.7601126518983676,819,a dinosaur jumps out and hulk is scared
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_5.wav,6.175596836458155,819,the dinosaur tries to play with hulk but hulk is very scared
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_6.wav,4.815207430194292,819,hulk tries to hide from the dinosaur and is still very scared
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_7.wav,3.3600081802191255,819,the dinosaur is looking around for hulk and he can't find hulk
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_8.wav,1.6748456216033674,819,the dinosaur is sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_9.wav,3.936609395895104,819,hulk looks at the dinosaur and feels bad about this
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_10.wav,2.61716235827663,819,hulk feeds the dinosaur the milk
+/srv/scratch/chacmod/auskidtalk_spontaneous/819_11.wav,2.8566387781166043,819,laughing while the dinosuar is drinking the milk
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_1.wav,7.8241559255281246,1050,the green skined baby is riding a skateboard holding a bottle of milk
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_2.wav,10.357318270165209,1050,the green skined baby is bouncing off the dinosaur egg holding the bottle of milk
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_3.wav,5.458414858006705,1050,the green baby is holding the bottle of milk while listening inside the dinosaur egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_4.wav,4.918727017502519,1050,the green baby is holding the bottle of milk while the dinosaur egg is hatching
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_5.wav,8.416265759637199,1050,the green baby is holding the bottle of milk while the dinosaur is poking his head out of the egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_6.wav,7.226385067607268,1050,the green baby is holding the bottle of milk while the green dinosaur has jumped out of the egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_7.wav,4.460931746992571,1050,the green baby is holding the bottle of milk and hiding behind the tree from the dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_8.wav,2.4991097156811293,1050,the green dinosaur is looking for the green baby
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_9.wav,3.420210678210651,1050,the green dinosaur is on the ground being sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_10.wav,4.187994042646324,1050,the green baby has second thoughts about playing with the dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_11.wav,3.9289942795299737,1050,the green baby goes over to the green dinosaur and comforts him
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_12.wav,3.997101914840016,1050,the green baby stuffs his bottle of milk into the green dinosaur's mouth
+/srv/scratch/chacmod/auskidtalk_spontaneous/1050_13.wav,4.171997444480439,1050,the green baby is laughing while the green dinosaur has a bottle of milk in his mouth
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_1.wav,2.5020256991685557,255,there wasn't any girl in the video
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_2.wav,1.763102947845809,255,he's skateboarding
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_3.wav,1.9386016628873648,255,and then he finds an egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_4.wav,2.5623204837490476,255,he bumps into the egg and feels sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_5.wav,2.3445165028974486,255,he hears what's inside the egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_6.wav,2.410663265306127,255,the egg was cracking
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_7.wav,3.022263794406655,255,he was surprised because the dinosaur came out
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_8.wav,3.5431783824640775,255,he was sad that there was a dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_9.wav,2.1275170068027194,255,he hide behind the tree
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_10.wav,4.635978835978847,255,the dinosaur looks around for human feel sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_11.wav,2.4455102040816143,255,the dinosaur lies on the floor
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_12.wav,2.314179894179887,255,the baby feel sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_13.wav,2.2367649281935087,255,the baby wants to pet him
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_14.wav,2.3783144368858586,255,and then he feeds him his milk
+/srv/scratch/chacmod/auskidtalk_spontaneous/255_15.wav,2.1565476190476147,255,the baby feel happy
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_1.wav,2.516935374149668,651,he was on a skateboard
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_2.wav,1.8920181405895846,651,he bumped into a egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_3.wav,1.4026560514315634,651,the egg is hatching
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_4.wav,1.5594920634920726,651,there's a dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_5.wav,3.157736205593338,651,there's a dinosaur near him
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_6.wav,1.770910997732443,651,he went away and hinding
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_7.wav,2.245682539682548,651,he's hiding behind a tree
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_8.wav,1.2156651549508695,651,he's sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_9.wav,1.256606198034774,651,he's lonely
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_10.wav,4.05788101205394,651,the boy said that he made him sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_11.wav,3.967463556851328,651,he's calm making him calm down
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_12.wav,3.176311413454272,651,put his bottle in his mouth
+/srv/scratch/chacmod/auskidtalk_spontaneous/651_13.wav,1.0332885632885507,651,he's laughing
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_1.wav,2.677108303638917,516,there was a dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_2.wav,3.014501133786851,516,he was on the skateboard
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_3.wav,3.3165511621315176,516,he was listening to the egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_4.wav,2.0678840231744857,516,the egg was cracking
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_5.wav,2.978563869992456,516,the dinosaur poked out his head
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_6.wav,3.2025514739229095,516,the dinosaur was about to lick him
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_7.wav,1.7195369797750715,516,he was hiding
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_8.wav,3.7126485947914603,516,the dinosaur was sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_9.wav,3.108717790146386,516,and the dinosaur was lying down
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_10.wav,3.509775819418678,516,and he was looking at the dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_11.wav,2.671110950745202,516,he was touching the dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_12.wav,3.491330366733166,516,and he feed the dinosaur his milk
+/srv/scratch/chacmod/auskidtalk_spontaneous/516_13.wav,1.7368464348702446,516,and then he laugh
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_1.wav,2.2541572184429413,228,he is riding his skateboard
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_2.wav,4.27342403628117,228,he crashes into the egg the dinosaur egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_3.wav,1.7203854875283184,228,and then he got upset
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_4.wav,3.349070294784582,228,then he listened to the egg when he fell off
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_5.wav,2.4459183673469624,228,and the egg started hatching
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_6.wav,1.526818918043432,228,it started cracking and then
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_7.wav,1.2359540006478937,228,he was shocked
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_8.wav,5.420487528344665,228,and then a little like dinosaur popped out of it
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_9.wav,3.5744860166288674,228,scared and worried and he was confused
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_10.wav,6.122380952380951,228,and then the dinosaur just were hopped out of the egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_11.wav,3.4399992441420864,228,the boy's like startled to the ground
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_12.wav,4.1067346938775415,228,and he ran and hid from the dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_13.wav,1.7742517006802814,228,cuz he thought the dinosaur would eat him
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_14.wav,4.808548752834469,228,but the dinosaur looked around and then he got sad that the guy left
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_15.wav,4.906306122448996,228,and that's him lying on the groung like being upset because
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_16.wav,1.6984882842025684,228,he can't find his friend
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_17.wav,1.7050226757369558,228,and then the boy felt sorry
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_18.wav,3.1578987150415685,228,well he was hiding because the dinosaur was sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_19.wav,2.407732426303852,228,and so he went over and petted the dinosaur
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_20.wav,2.3221088435374213,228,and gave the dinosaur some of his milk
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_21.wav,1.3650793650793673,228,he started laughing
+/srv/scratch/chacmod/auskidtalk_spontaneous/228_22.wav,2.8491865079365084,228,because the dinosaur looked funny
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_1.wav,4.805110544217698,1150,baby hulk was riding on a skateboard and then he crashed into an egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_2.wav,1.6460738581146757,1150,he hurt the egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_3.wav,1.4407135298563816,1150,he put his ear up to it
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_4.wav,1.8595068027210857,1150,the egg started cracking
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_5.wav,3.8804603174603045,1150,and the egg cracked and the dino baby dinosaur came out
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_6.wav,3.2494897959183646,1150,the baby dinosaur was excited when a
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_7.wav,2.995264550264551,1150,and went up to baby hulk but he was scared
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_8.wav,3.2726597379692492,1150,so he ran and hid behind a tree
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_9.wav,2.892422524565376,1150,and the baby dinosaur didn't know where he was
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_10.wav,1.3585034013605508,1150,and then he was sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_11.wav,4.1258231292517,1150,the baby dino being sad made baby hulk sad
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_12.wav,4.151095993953135,1150,so he went up to the dinosaur and petted him on the head
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_13.wav,1.9813197278911616,1150,then gave him his bottle
+/srv/scratch/chacmod/auskidtalk_spontaneous/1150_14.wav,2.0336009070294665,1150,and then he found it funny
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_1.wav,2.1354024943310606,1075,the boy is on skateboard
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_2.wav,3.298357505360414,1075,the boy snare a dinosaur egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_3.wav,4.861351190476185,1075,the boy's touching the dinosaur egg
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_4.wav,3.640401154401161,1075,the dinosaur egg is cracking open
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_5.wav,4.067308913308906,1075,the dinosaur egg is opened
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_6.wav,3.5545185185185346,1075,the boy is hiding behind a tree
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_7.wav,9.515755285279084,1075,dinosaur is in there by himself
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_8.wav,4.571170416884684,1075,the dinosaur is still there by himself but on the floor
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_9.wav,3.3277739984882544,1075,the boy is hiding behind a tree
+/srv/scratch/chacmod/auskidtalk_spontaneous/1075_10.wav,3.7199018718598325,1075,the boy is pet the dinosaur on the head
