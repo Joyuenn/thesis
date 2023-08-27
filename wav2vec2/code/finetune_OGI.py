@@ -82,10 +82,6 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-# Perform Training (True/False)
-# If false, this will go straight to model evaluation 
-training = True
-print("training:", training)
 
 # Experiment ID
 # For 1) naming vocab.json file and
@@ -137,9 +133,13 @@ print('dataset_name:', dataset_name)
 experiment_id = 'finetune_full_20230704_3'
 print('experiment_id:', experiment_id)
 
-cache_name = 'Jordan-OGI-finetune'
+cache_name = 'OGI-finetune'
 print('cache_name:', cache_name)
 
+# Perform Training (True/False)
+# If false, this will go straight to model evaluation 
+training = True
+print("training:", training)
 
 # Resume training from/ use checkpoint (True/False)
 # Set to True for:
@@ -188,34 +188,6 @@ print("baseline_model:", baseline_model)
 eval_baseline = False
 print("eval_baseline:", eval_baseline)
 
-# ------------------------------------------
-#        Generating file paths
-# ------------------------------------------
-print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
-# Path to dataframe csv for train dataset
-# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_datasets/full_OGI_scripted_train_only_transcription_filepath.csv'
-print("--> data_train_fp:", data_train_fp)
-
-# Path to dataframe csv for test dataset
-data_dev_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_datasets/full_OGI_scripted_dev_only_transcription_filepath.csv'
-print("--> data_dev_fp:", data_dev_fp)
-
-# Path to dataframe csv for test dataset
-#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_datasets/full_OGI_scripted_test_only_transcription_filepath.csv'
-print("--> data_test_fp:", data_test_fp)
-
-# Dataframe file 
-# |-----------|---------------------|----------|---------|
-# | file path | transcription_clean | duration | spkr_id |
-# |-----------|---------------------|----------|---------|
-# |   ...     |      ...            |  ..secs  | ......  |
-# |-----------|---------------------|----------|---------|
-# NOTE: The spkr_id column may need to be removed beforehand if
-#       there appears to be a mixture between numerical and string ID's
-#       due to this issue: https://github.com/apache/arrow/issues/4168
-#       when calling load_dataset()
 
 
 print("\n------> MODEL ARGUMENTS... -------------------------------------------\n")
@@ -292,6 +264,35 @@ print("greater_is_better:", set_greater_is_better)
 set_group_by_length = True                  # Default = False
 print("group_by_length:", set_group_by_length)
 
+
+# ------------------------------------------
+#        Generating file paths
+# ------------------------------------------
+print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
+# Path to dataframe csv for train dataset
+# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
+data_train_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_datasets/full_OGI_scripted_train_only_transcription_filepath.csv'
+print("--> data_train_fp:", data_train_fp)
+
+# Path to dataframe csv for test dataset
+data_dev_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_datasets/full_OGI_scripted_dev_only_transcription_filepath.csv'
+print("--> data_dev_fp:", data_dev_fp)
+
+# Path to dataframe csv for test dataset
+#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
+data_test_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_datasets/full_OGI_scripted_test_only_transcription_filepath.csv'
+print("--> data_test_fp:", data_test_fp)
+
+# Dataframe file 
+# |-----------|---------------------|----------|---------|
+# | file path | transcription_clean | duration | spkr_id |
+# |-----------|---------------------|----------|---------|
+# |   ...     |      ...            |  ..secs  | ......  |
+# |-----------|---------------------|----------|---------|
+# NOTE: The spkr_id column may need to be removed beforehand if
+#       there appears to be a mixture between numerical and string ID's
+#       due to this issue: https://github.com/apache/arrow/issues/4168
+#       when calling load_dataset()
 
 # Path to datasets cache
 # data_cache_fp = base_cache_fp + datasetdict_id

@@ -82,11 +82,6 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-# Perform Training (True/False)
-# If false, this will go straight to model evaluation 
-training = True
-print("training:", training)
-
 # Experiment ID
 # For 1) naming vocab.json file and
 #     2) naming model output directory
@@ -140,6 +135,11 @@ print('experiment_id:', experiment_id)
 cache_name = 'AusKidTalk-finetune'
 print('cache_name:', cache_name)
 
+
+# Perform Training (True/False)
+# If false, this will go straight to model evaluation 
+training = True
+print("training:", training)
 
 # Resume training from/ use checkpoint (True/False)
 # Set to True for:

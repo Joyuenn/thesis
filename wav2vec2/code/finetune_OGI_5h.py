@@ -14,9 +14,7 @@
 #pip install transformers
 #pip install soundfile
 #pip install jiwer
-print("------------------------------------------------------------------------")
-print("                 run_finetune_kids.py                                   ")
-print("------------------------------------------------------------------------")
+
 # ------------------------------------------
 #       Import required packages
 # ------------------------------------------
@@ -82,10 +80,6 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-# Perform Training (True/False)
-# If false, this will go straight to model evaluation 
-training = True
-print("training:", training)
 
 # Experiment ID
 # For 1) naming vocab.json file and
@@ -141,17 +135,23 @@ cache_name = 'OGI-finetune'
 print('cache_name:', cache_name)
 
 
+# Perform Training (True/False)
+# If false, this will go straight to model evaluation 
+training = True
+print("training:", training)
+
+
 # Resume training from/ use checkpoint (True/False)
 # Set to True for:
 # 1) resuming from a saved checkpoint if training stopped midway through
 # 2) for using an existing finetuned model for evaluation 
 # If 2), then must also set eval_pretrained = True
-use_checkpoint = False
+use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
 
 # Set checkpoint if resuming from/using checkpoint
 #checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016-base-myST-OGI-TLT17/checkpoint-20000"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American_5h/finetune_5h_20230714_2/checkpoint-17000"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -627,7 +627,7 @@ model = Wav2Vec2ForCTC.from_pretrained(
     mask_time_length=set_mask_time_length,
     ctc_loss_reduction=set_ctc_loss_reduction,
     ctc_zero_infinity=set_ctc_zero_infinity,
-    gradient_checkpointing=set_gradient_checkpointing,
+    #gradient_checkpointing=set_gradient_checkpointing,
     pad_token_id=processor.tokenizer.pad_token_id
 )
 
@@ -675,7 +675,8 @@ training_args = TrainingArguments(
   load_best_model_at_end=set_load_best_model_at_end,
   metric_for_best_model=set_metric_for_best_model,
   greater_is_better=set_greater_is_better,
-  group_by_length=set_group_by_length
+  group_by_length=set_group_by_length,
+  gradient_checkpointing=set_gradient_checkpointing
 )
 # All instances can be passed to Trainer and 
 # we are ready to start training!

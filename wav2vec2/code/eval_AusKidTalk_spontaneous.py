@@ -120,10 +120,6 @@ print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- 
 #print("evaluation_name:", evaluation_name)
 #print("evaluation_filename:", evaluation_filename)
 
-# Perform Training (True/False)
-# If false, this will go straight to model evaluation 
-training = False
-print("training:", training)
 
 base_fp = '/srv/scratch/z5313567/thesis/'
 print('base_fp:', base_fp)
@@ -134,11 +130,17 @@ print('model:', model)
 dataset_name = 'AusKidTalk'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'eval_20230711_4'
+experiment_id = 'eval_20230720_2'
 print('experiment_id:', experiment_id)
 
 cache_name = 'AusKidTalk-eval'
 print('cache_name:', cache_name)
+
+
+# Perform Training (True/False)
+# If false, this will go straight to model evaluation 
+training = False
+print("training:", training)
 
 # Resume training from/ use checkpoint (True/False)
 # Set to True for:
@@ -149,7 +151,7 @@ use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
 # Set checkpoint if resuming from/using checkpoint
 #checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/finetune_20230708_2"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -264,11 +266,11 @@ print("group_by_length:", set_group_by_length)
 print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
 # Path to dataframe csv for train dataset
 # data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_1050_1150_1075_228_task3_test.csv'
+data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous/AusKidTalk_spontaneous_test_only_transcription_filepath.csv'
 print("--> data_train_fp:", data_train_fp)
 # Path to dataframe csv for test dataset
 #data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '//srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_1050_1150_1075_228_task3_test.csv'
+data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous/AusKidTalk_spontaneous_test_only_transcription_filepath.csv'
 print("--> data_test_fp:", data_test_fp)
 
 # Dataframe file 
@@ -632,7 +634,7 @@ model = Wav2Vec2ForCTC.from_pretrained(
     ctc_zero_infinity=set_ctc_zero_infinity,
     #gradient_checkpointing=set_gradient_checkpointing,
     pad_token_id=processor.tokenizer.pad_token_id,
-    ignore_mismatched_sizes=True
+    #ignore_mismatched_sizes=True
 )
 
 # The first component of Wav2Vec2 consists of a stack of CNN layers
@@ -679,7 +681,8 @@ training_args = TrainingArguments(
   load_best_model_at_end=set_load_best_model_at_end,
   metric_for_best_model=set_metric_for_best_model,
   greater_is_better=set_greater_is_better,
-  group_by_length=set_group_by_length
+  group_by_length=set_group_by_length,
+  gradient_checkpointing=set_gradient_checkpointing
 )
 # All instances can be passed to Trainer and 
 # we are ready to start training!

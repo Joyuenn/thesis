@@ -14,6 +14,7 @@
 #pip install transformers
 #pip install soundfile
 #pip install jiwer
+
 # ------------------------------------------
 #       Import required packages
 # ------------------------------------------
@@ -79,7 +80,6 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-
 # Experiment ID
 # For 1) naming vocab.json file and
 #     2) naming model output directory
@@ -124,13 +124,13 @@ print('base_fp:', base_fp)
 model = 'wav2vec2'
 print('model:', model)
 
-dataset_name = 'OGI_American_10min'
+dataset_name = 'AusKidTalk_scripted_spontaneous_combined'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'finetune_10min_20230714'
+experiment_id = 'finetune_20230718'
 print('experiment_id:', experiment_id)
 
-cache_name = 'OGI-finetune'
+cache_name = 'AusKidTalk-finetune'
 print('cache_name:', cache_name)
 
 
@@ -139,18 +139,17 @@ print('cache_name:', cache_name)
 training = True
 print("training:", training)
 
-
 # Resume training from/ use checkpoint (True/False)
 # Set to True for:
 # 1) resuming from a saved checkpoint if training stopped midway through
 # 2) for using an existing finetuned model for evaluation 
 # If 2), then must also set eval_pretrained = True
-use_checkpoint = True
+use_checkpoint = False
 print("use_checkpoint:", use_checkpoint)
 
 # Set checkpoint if resuming from/using checkpoint
 #checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American_10min/finetune_10min_20230714/checkpoint-8000"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016-base-myST-OGI-TLT17/checkpoint-20000"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -188,36 +187,6 @@ eval_baseline = False
 print("eval_baseline:", eval_baseline)
 
 
-# ------------------------------------------
-#        Generating file paths
-# ------------------------------------------
-print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
-# Path to dataframe csv for train dataset
-# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10min_datasets/10min_OGI_scripted_train_only_transcription_filepath.csv'
-print("--> data_train_fp:", data_train_fp)
-
-# Path to dataframe csv for test dataset
-data_dev_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10min_datasets/10min_OGI_scripted_dev_only_transcription_filepath.csv'
-print("--> data_dev_fp:", data_dev_fp)
-
-# Path to dataframe csv for test dataset
-#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10min_datasets/10min_OGI_scripted_test_only_transcription_filepath.csv'
-print("--> data_test_fp:", data_test_fp)
-
-# Dataframe file 
-# |-----------|---------------------|----------|---------|
-# | file path | transcription_clean | duration | spkr_id |
-# |-----------|---------------------|----------|---------|
-# |   ...     |      ...            |  ..secs  | ......  |
-# |-----------|---------------------|----------|---------|
-# NOTE: The spkr_id column may need to be removed beforehand if
-#       there appears to be a mixture between numerical and string ID's
-#       due to this issue: https://github.com/apache/arrow/issues/4168
-#       when calling load_dataset()
-
-
 print("\n------> MODEL ARGUMENTS... -------------------------------------------\n")
 # For setting model = Wav2Vec2ForCTC.from_pretrained()
 
@@ -229,7 +198,7 @@ set_attention_dropout = 0.1                 # Default = 0.1
 print("attention_dropoutput:", set_attention_dropout)
 set_feat_proj_dropout = 0.0                 # Default = 0.1
 print("feat_proj_dropout:", set_feat_proj_dropout)
-set_layerdrop = 0.1                         # Default = 0.1
+set_layerdrop = 0.01                         # Default = 0.1
 print("layerdrop:", set_layerdrop)
 set_mask_time_prob = 0.075                  # Default = 0.05
 print("mask_time_prob:", set_mask_time_prob)
@@ -247,13 +216,13 @@ print("\n------> TRAINING ARGUMENTS... ----------------------------------------\
 
 set_evaluation_strategy = "steps"           # Default = "no"
 print("evaluation strategy:", set_evaluation_strategy)
-set_per_device_train_batch_size = 24         # Default = 8
+set_per_device_train_batch_size = 8         # Default = 8
 print("per_device_train_batch_size:", set_per_device_train_batch_size)
-set_gradient_accumulation_steps = 2         # Default = 1
+set_gradient_accumulation_steps = 1         # Default = 1
 print("gradient_accumulation_steps:", set_gradient_accumulation_steps)
-set_learning_rate = 0.0000442184                 # Default = 0.00005
+set_learning_rate = 0.00005                 # Default = 0.00005
 print("learning_rate:", set_learning_rate)
-set_weight_decay = 0.0354792                     # Default = 0
+set_weight_decay = 0.01                     # Default = 0
 print("weight_decay:", set_weight_decay)
 set_adam_beta1 = 0.9                        # Default = 0.9
 print("adam_beta1:", set_adam_beta1)
@@ -261,27 +230,27 @@ set_adam_beta2 = 0.98                       # Default = 0.999
 print("adam_beta2:", set_adam_beta2)
 set_adam_epsilon = 0.00000001               # Default = 0.00000001
 print("adam_epsilon:", set_adam_epsilon)
-set_num_train_epochs = 30                   # Default = 3.0
+set_num_train_epochs = 590                   # Default = 3.0
 print("num_train_epochs:", set_num_train_epochs)
-set_max_steps = 12000                          # Default = -1, overrides epochs
+set_max_steps = 13000                          # Default = -1, overrides epochs
 print("max_steps:", set_max_steps)
 set_lr_scheduler_type = "linear"            # Default = "linear"
 print("lr_scheduler_type:", set_lr_scheduler_type )
-set_warmup_ratio = 0.05                      # Default = 0.0
+set_warmup_ratio = 0.1                      # Default = 0.0
 print("warmup_ratio:", set_warmup_ratio)
 set_logging_strategy = "steps"              # Default = "steps"
 print("logging_strategy:", set_logging_strategy)
-set_logging_steps = 500                      # Default = 500
+set_logging_steps = 1000                      # Default = 500
 print("logging_steps:", set_logging_steps)
 set_save_strategy = "steps"                 # Default = "steps"
 print("save_strategy:", set_save_strategy)
-set_save_steps = 500                         # Default = 500
+set_save_steps = 1000                         # Default = 500
 print("save_steps:", set_save_steps)
 set_save_total_limit = 2                   # Optional                 
 print("save_total_limit:", set_save_total_limit)
 set_fp16 = True                             # Default = False
 print("fp16:", set_fp16)
-set_eval_steps = 500                         # Optional
+set_eval_steps = 1000                         # Optional
 print("eval_steps:", set_eval_steps)
 set_load_best_model_at_end = True           # Default = False
 print("load_best_model_at_end:", set_load_best_model_at_end)
@@ -289,9 +258,37 @@ set_metric_for_best_model = "wer"           # Optional
 print("metric_for_best_model:", set_metric_for_best_model)
 set_greater_is_better = False               # Optional
 print("greater_is_better:", set_greater_is_better)
-set_group_by_length = False                  # Default = False
+set_group_by_length = True                  # Default = False
 print("group_by_length:", set_group_by_length)
 
+# ------------------------------------------
+#        Generating file paths
+# ------------------------------------------
+print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
+# Path to dataframe csv for train dataset
+# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
+data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/combined_scripted_spontaneous/AusKidTalk_combined_scripted_spontaneous_train_only_transcription_filepath.csv'
+print("--> data_train_fp:", data_train_fp)
+
+# Path to dataframe csv for test dataset
+data_dev_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/combined_scripted_spontaneous/AusKidTalk_combined_scripted_spontaneous_dev_only_transcription_filepath.csv'
+print("--> data_dev_fp:", data_dev_fp)
+
+# Path to dataframe csv for test dataset
+#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
+data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/combined_scripted_spontaneous/AusKidTalk_combined_scripted_spontaneous_test_only_transcription_filepath.csv'
+print("--> data_test_fp:", data_test_fp)
+
+# Dataframe file 
+# |-----------|---------------------|----------|---------|
+# | file path | transcription_clean | duration | spkr_id |
+# |-----------|---------------------|----------|---------|
+# |   ...     |      ...            |  ..secs  | ......  |
+# |-----------|---------------------|----------|---------|
+# NOTE: The spkr_id column may need to be removed beforehand if
+#       there appears to be a mixture between numerical and string ID's
+#       due to this issue: https://github.com/apache/arrow/issues/4168
+#       when calling load_dataset()
 
 # Path to datasets cache
 # data_cache_fp = base_cache_fp + datasetdict_id
@@ -626,7 +623,7 @@ model = Wav2Vec2ForCTC.from_pretrained(
     mask_time_length=set_mask_time_length,
     ctc_loss_reduction=set_ctc_loss_reduction,
     ctc_zero_infinity=set_ctc_zero_infinity,
-    # gradient_checkpointing=set_gradient_checkpointing,
+    gradient_checkpointing=set_gradient_checkpointing,
     pad_token_id=processor.tokenizer.pad_token_id
 )
 
@@ -674,8 +671,7 @@ training_args = TrainingArguments(
   load_best_model_at_end=set_load_best_model_at_end,
   metric_for_best_model=set_metric_for_best_model,
   greater_is_better=set_greater_is_better,
-  group_by_length=set_group_by_length,
-  gradient_checkpointing=set_gradient_checkpointing
+  group_by_length=set_group_by_length
 )
 # All instances can be passed to Trainer and 
 # we are ready to start training!

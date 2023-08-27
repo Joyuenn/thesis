@@ -14,6 +14,9 @@
 #pip install transformers
 #pip install soundfile
 #pip install jiwer
+print("------------------------------------------------------------------------")
+print("                 run_finetune_kids.py                                   ")
+print("------------------------------------------------------------------------")
 # ------------------------------------------
 #       Import required packages
 # ------------------------------------------
@@ -56,6 +59,7 @@ from transformers import Wav2Vec2CTCTokenizer
 from transformers import Wav2Vec2ForCTC
 from transformers import Wav2Vec2FeatureExtractor
 from transformers import Wav2Vec2Processor
+from transformers import Wav2Vec2ProcessorWithLM
 # Loading audio files
 print("-->Importing soundfile...")
 import soundfile as sf
@@ -78,7 +82,6 @@ print("-->SUCCESS! All packages imported.")
 #      Setting experiment arguments
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
-
 
 # Experiment ID
 # For 1) naming vocab.json file and
@@ -118,27 +121,38 @@ print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- 
 #print("evaluation_name:", evaluation_name)
 #print("evaluation_filename:", evaluation_filename)
 
+
 base_fp = '/srv/scratch/z5313567/thesis/'
 print('base_fp:', base_fp)
 
 model = 'wav2vec2'
 print('model:', model)
 
-dataset_name = 'OGI_American_10min'
+dataset_name = 'AusKidTalk'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'finetune_10min_20230714'
+experiment_id = 'eval_20230727_14'
 print('experiment_id:', experiment_id)
 
-cache_name = 'OGI-finetune'
+cache_name = 'AusKidTalk-eval'
 print('cache_name:', cache_name)
 
 
+
+#eval_lm = 'patrickvonplaten/wav2vec2-base-100h-with-lm'
+LM_1 = '/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718_with_lm_3'
+print("Language model 1:", LM_1)
+LM_pretrained = "patrickvonplaten/wav2vec2-base-100h-with-lm"
+print("Language model 2:", LM_pretrained)
+weight_model_1 = 0
+print("wright_model_1:", weight_model_1)
+weight_model_pretrained = 1-weight_model_1;
+print("wright_model_2:", weight_model_pretrained)
+
 # Perform Training (True/False)
 # If false, this will go straight to model evaluation 
-training = True
+training = False
 print("training:", training)
-
 
 # Resume training from/ use checkpoint (True/False)
 # Set to True for:
@@ -147,10 +161,9 @@ print("training:", training)
 # If 2), then must also set eval_pretrained = True
 use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
-
 # Set checkpoint if resuming from/using checkpoint
 #checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American_10min/finetune_10min_20230714/checkpoint-8000"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -159,7 +172,6 @@ if use_checkpoint:
 #     False: Use custom tokenizer (if custom dataset has different vocab)
 use_pretrained_tokenizer = True
 print("use_pretrained_tokenizer:", use_pretrained_tokenizer)
-
 # Set tokenizer
 pretrained_tokenizer = "facebook/wav2vec2-base-960h"
 if use_pretrained_tokenizer:
@@ -168,9 +180,8 @@ if use_pretrained_tokenizer:
 # Evaluate existing model instead of newly trained model (True/False)
 #     True: use the model in the filepath set by 'eval_model' for eval
 #     False: use the model trained from this script for eval
-eval_pretrained = False
+eval_pretrained = True
 print("eval_pretrained:", eval_pretrained)
-
 # Set existing model to evaluate, if evaluating on existing model
 eval_model = checkpoint
 if eval_pretrained:
@@ -187,37 +198,6 @@ print("baseline_model:", baseline_model)
 eval_baseline = False
 print("eval_baseline:", eval_baseline)
 
-
-# ------------------------------------------
-#        Generating file paths
-# ------------------------------------------
-print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
-# Path to dataframe csv for train dataset
-# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10min_datasets/10min_OGI_scripted_train_only_transcription_filepath.csv'
-print("--> data_train_fp:", data_train_fp)
-
-# Path to dataframe csv for test dataset
-data_dev_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10min_datasets/10min_OGI_scripted_dev_only_transcription_filepath.csv'
-print("--> data_dev_fp:", data_dev_fp)
-
-# Path to dataframe csv for test dataset
-#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_10min_datasets/10min_OGI_scripted_test_only_transcription_filepath.csv'
-print("--> data_test_fp:", data_test_fp)
-
-# Dataframe file 
-# |-----------|---------------------|----------|---------|
-# | file path | transcription_clean | duration | spkr_id |
-# |-----------|---------------------|----------|---------|
-# |   ...     |      ...            |  ..secs  | ......  |
-# |-----------|---------------------|----------|---------|
-# NOTE: The spkr_id column may need to be removed beforehand if
-#       there appears to be a mixture between numerical and string ID's
-#       due to this issue: https://github.com/apache/arrow/issues/4168
-#       when calling load_dataset()
-
-
 print("\n------> MODEL ARGUMENTS... -------------------------------------------\n")
 # For setting model = Wav2Vec2ForCTC.from_pretrained()
 
@@ -231,7 +211,7 @@ set_feat_proj_dropout = 0.0                 # Default = 0.1
 print("feat_proj_dropout:", set_feat_proj_dropout)
 set_layerdrop = 0.1                         # Default = 0.1
 print("layerdrop:", set_layerdrop)
-set_mask_time_prob = 0.075                  # Default = 0.05
+set_mask_time_prob = 0.05                  # Default = 0.05
 print("mask_time_prob:", set_mask_time_prob)
 set_mask_time_length = 10                   # Default = 10
 print("mask_time_length:", set_mask_time_length)
@@ -247,13 +227,13 @@ print("\n------> TRAINING ARGUMENTS... ----------------------------------------\
 
 set_evaluation_strategy = "steps"           # Default = "no"
 print("evaluation strategy:", set_evaluation_strategy)
-set_per_device_train_batch_size = 24         # Default = 8
+set_per_device_train_batch_size = 8         # Default = 8
 print("per_device_train_batch_size:", set_per_device_train_batch_size)
-set_gradient_accumulation_steps = 2         # Default = 1
+set_gradient_accumulation_steps = 1         # Default = 1
 print("gradient_accumulation_steps:", set_gradient_accumulation_steps)
-set_learning_rate = 0.0000442184                 # Default = 0.00005
+set_learning_rate = 0.00003                 # Default = 0.00005
 print("learning_rate:", set_learning_rate)
-set_weight_decay = 0.0354792                     # Default = 0
+set_weight_decay = 0.01                     # Default = 0
 print("weight_decay:", set_weight_decay)
 set_adam_beta1 = 0.9                        # Default = 0.9
 print("adam_beta1:", set_adam_beta1)
@@ -261,27 +241,27 @@ set_adam_beta2 = 0.98                       # Default = 0.999
 print("adam_beta2:", set_adam_beta2)
 set_adam_epsilon = 0.00000001               # Default = 0.00000001
 print("adam_epsilon:", set_adam_epsilon)
-set_num_train_epochs = 30                   # Default = 3.0
+set_num_train_epochs = 14                   # Default = 3.0
 print("num_train_epochs:", set_num_train_epochs)
-set_max_steps = 12000                          # Default = -1, overrides epochs
+set_max_steps = 60000                          # Default = -1, overrides epochs
 print("max_steps:", set_max_steps)
 set_lr_scheduler_type = "linear"            # Default = "linear"
 print("lr_scheduler_type:", set_lr_scheduler_type )
-set_warmup_ratio = 0.05                      # Default = 0.0
+set_warmup_ratio = 0.1                      # Default = 0.0
 print("warmup_ratio:", set_warmup_ratio)
 set_logging_strategy = "steps"              # Default = "steps"
 print("logging_strategy:", set_logging_strategy)
-set_logging_steps = 500                      # Default = 500
+set_logging_steps = 1000                      # Default = 500
 print("logging_steps:", set_logging_steps)
 set_save_strategy = "steps"                 # Default = "steps"
 print("save_strategy:", set_save_strategy)
-set_save_steps = 500                         # Default = 500
+set_save_steps = 1000                         # Default = 500
 print("save_steps:", set_save_steps)
-set_save_total_limit = 2                   # Optional                 
+set_save_total_limit = 3                   # Optional                 
 print("save_total_limit:", set_save_total_limit)
 set_fp16 = True                             # Default = False
 print("fp16:", set_fp16)
-set_eval_steps = 500                         # Optional
+set_eval_steps = 1000                         # Optional
 print("eval_steps:", set_eval_steps)
 set_load_best_model_at_end = True           # Default = False
 print("load_best_model_at_end:", set_load_best_model_at_end)
@@ -289,9 +269,54 @@ set_metric_for_best_model = "wer"           # Optional
 print("metric_for_best_model:", set_metric_for_best_model)
 set_greater_is_better = False               # Optional
 print("greater_is_better:", set_greater_is_better)
-set_group_by_length = False                  # Default = False
+set_group_by_length = True                  # Default = False
 print("group_by_length:", set_group_by_length)
 
+# ------------------------------------------
+#        Generating file paths
+# ------------------------------------------
+print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
+# Path to dataframe csv for train dataset
+# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
+data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous/AusKidTalk_spontaneous_test_only_transcription_filepath.csv'
+print("--> data_train_fp:", data_train_fp)
+# Path to dataframe csv for test dataset
+#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
+data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous/AusKidTalk_spontaneous_test_only_transcription_filepath.csv'
+print("--> data_test_fp:", data_test_fp)
+
+# Dataframe file 
+# |-----------|---------------------|----------|---------|
+# | file path | transcription_clean | duration | spkr_id |
+# |-----------|---------------------|----------|---------|
+# |   ...     |      ...            |  ..secs  | ......  |
+# |-----------|---------------------|----------|---------|
+# NOTE: The spkr_id column may need to be removed beforehand if
+#       there appears to be a mixture between numerical and string ID's
+#       due to this issue: https://github.com/apache/arrow/issues/4168
+#       when calling load_dataset()
+
+'''
+# Path to datasets cache
+# data_cache_fp = base_cache_fp + datasetdict_id
+data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/baseline-960h-eval/eval_on_AusKidTalk'
+print("--> data_cache_fp:", data_cache_fp)
+# Path to save model output
+#model_fp = base_fp + train_name + "_local/" + experiment_id
+model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016_2-base-myST-OGI-TLT17'
+print("--> model_fp:", model_fp)
+# Path to save vocab.json
+# vocab_fp = base_fp + train_name + "_local/vocab_" + experiment_id + ".json"
+vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/vocab_AusKidTalk_20230704.json'
+print("--> vocab_fp:", vocab_fp)
+# Path to save results output
+# baseline_results_fp = base_fp + train_name + "_local/" + experiment_id + "_baseline_results.csv" 
+baseline_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/baseline_result_AusKidTalk_20230704.csv'
+print("--> baseline_results_fp:", baseline_results_fp)
+# finetuned_results_fp = base_fp + train_name + "_local/" + experiment_id + "_finetuned_results.csv"
+finetuned_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/finetuned_result_AusKidTalk_20230704.csv'
+print("--> finetuned_results_fp:", finetuned_results_fp)
+'''
 
 # Path to datasets cache
 # data_cache_fp = base_cache_fp + datasetdict_id
@@ -348,7 +373,6 @@ print("\n------> PREPARING DATASET... ------------------------------------\n")
 # load as a DatasetDict 
 data = load_dataset('csv', 
                     data_files={'train': data_train_fp,
-                                'dev' : data_dev_fp,
                                 'test': data_test_fp},
                     cache_dir=data_cache_fp)
 # Remove the "duration" and "spkr_id" column
@@ -368,7 +392,7 @@ def show_random_elements(dataset, num_examples=10):
         picks.append(pick)
     df = pd.DataFrame(dataset[picks])
     print(df)
-show_random_elements(data["train"], num_examples=5)
+show_random_elements(data["train"], num_examples=10)
 print("SUCCESS: Prepared dataset.")
 # ------------------------------------------
 #       Processing transcription
@@ -455,21 +479,15 @@ print("\n------> PRE-PROCESSING DATA... ----------------------------------------
 # We want to store both audio values and sampling rate
 # in the dataset. 
 # We write a map(...) function accordingly.
-
-# def speech_file_to_array_fn(batch):
-#    speech_array, sampling_rate = sf.read(batch["filepath"])
-#    batch["speech"] = speech_array
-#    batch["sampling_rate"] = sampling_rate
-#    batch["target_text"] = batch["transcription_clean"]
-#    return batch
 def speech_file_to_array_fn(batch):
     #speech_array, sampling_rate = sf.read(batch["filepath"])
     speech_array, sampling_rate = librosa.load(batch['filepath'], sr=feature_extractor.sampling_rate)
     batch["speech"] = speech_array
     batch["sampling_rate"] = sampling_rate
     batch["target_text"] = batch["transcription_clean"]
+    
+    
     return batch
-
 data = data.map(speech_file_to_array_fn, remove_columns=data.column_names["train"], num_proc=4)
 # Check a few rows of data to verify data properly loaded
 print("--> Verifying data with a random sample...")
@@ -626,8 +644,9 @@ model = Wav2Vec2ForCTC.from_pretrained(
     mask_time_length=set_mask_time_length,
     ctc_loss_reduction=set_ctc_loss_reduction,
     ctc_zero_infinity=set_ctc_zero_infinity,
-    # gradient_checkpointing=set_gradient_checkpointing,
-    pad_token_id=processor.tokenizer.pad_token_id
+    #gradient_checkpointing=set_gradient_checkpointing,
+    pad_token_id=processor.tokenizer.pad_token_id,
+    #ignore_mismatched_sizes=True
 )
 
 # The first component of Wav2Vec2 consists of a stack of CNN layers
@@ -685,7 +704,7 @@ trainer = Trainer(
     args=training_args,
     compute_metrics=compute_metrics,
     train_dataset=data_prepared["train"],
-    eval_dataset=data_prepared["dev"],
+    eval_dataset=data_prepared["test"],
     tokenizer=processor.feature_extractor,
 )
 
@@ -715,8 +734,15 @@ print("\n------> EVALUATING MODEL... ------------------------------------------ 
 torch.cuda.empty_cache()
 
 if eval_pretrained:
-    processor = Wav2Vec2Processor.from_pretrained(eval_model)
-    model = Wav2Vec2ForCTC.from_pretrained(eval_model)
+    processor = Wav2Vec2Processor.from_pretrained(eval_model, cache_dir = data_cache_fp)
+    model = Wav2Vec2ForCTC.from_pretrained(eval_model, cache_dir = data_cache_fp)
+    
+    processor_LM_1 = Wav2Vec2ProcessorWithLM.from_pretrained(LM_1, cache_dir = data_cache_fp)
+    model_LM_1 = Wav2Vec2ForCTC.from_pretrained(LM_1, cache_dir = data_cache_fp)
+    
+    processor_LM_pretrained = Wav2Vec2ProcessorWithLM.from_pretrained(LM_pretrained, cache_dir = data_cache_fp)
+    model_LM_pretrained = Wav2Vec2ForCTC.from_pretrained(LM_pretrained, cache_dir = data_cache_fp)
+    
 else:
     processor = Wav2Vec2Processor.from_pretrained(model_fp)
     model = Wav2Vec2ForCTC.from_pretrained(model_fp)
@@ -730,18 +756,43 @@ else:
 # a better WER can be achieved by not padding the input at all.
 def map_to_result(batch):
   model.to("cuda")
+  model_LM_1.to("cuda")
+  model_LM_pretrained.to("cuda")
+  
+  
   input_values = processor(
       batch["speech"], 
       sampling_rate=batch["sampling_rate"], 
       return_tensors="pt"
+  ).input_values.to("cuda")  
+  
+  input_values_LM_1 = processor_LM_1(
+      batch["speech"], 
+      sampling_rate=batch["sampling_rate"], 
+      return_tensors="pt"
   ).input_values.to("cuda")
-
+  
+  input_values_LM_pretrained = processor_LM_pretrained(
+      batch["speech"], 
+      sampling_rate=batch["sampling_rate"], 
+      return_tensors="pt"
+  ).input_values.to("cuda")
+  
+  
   with torch.no_grad():
     logits = model(input_values).logits
+    logits_LM_1 = model_LM_1(input_values_LM_1).logits
+    logits_LM_pretrained  = model_LM_pretrained(input_values_LM_pretrained).logits
 
-  pred_ids = torch.argmax(logits, dim=-1)
-  batch["pred_str"] = processor.batch_decode(pred_ids)[0]
+  combined_logits = weight_model_1 * logits_LM_1 + weight_model_pretrained * logits_LM_pretrained
   
+  pred_ids = torch.argmax(logits, dim=-1)
+  pred_ids_LM = torch.argmax(combined_logits, dim=-1)
+  
+  batch["pred_str_without_LM"] = processor.batch_decode(pred_ids)[0]
+  batch["pred_str_with_LM"] = processor_LM_1.batch_decode(pred_ids_LM)[0]
+  
+  #batch["pred_str_with_LM"] = processor_LM.batch_decode(logits.cpu().numpy()).text[0]
   return batch
 
 results = data["test"].map(map_to_result)
@@ -753,7 +804,9 @@ print("Saved results to:", finetuned_results_fp)
 
 # Getting the WER
 print("--> Getting fine-tuned test results...")
-print("Fine-tuned Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
+print("Fine-tuned Test WER Without Language Model: {:.3f}".format(wer_metric.compute(predictions=results["pred_str_without_LM"], 
+      references=results["target_text"])))
+print("Fine-tuned Test WER With Language Model: {:.3f}".format(wer_metric.compute(predictions=results["pred_str_with_LM"], 
       references=results["target_text"])))
 # Showing prediction errors
 print("--> Showing some fine-tuned prediction errors...")

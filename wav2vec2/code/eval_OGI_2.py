@@ -120,11 +120,6 @@ print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- 
 #print("evaluation_name:", evaluation_name)
 #print("evaluation_filename:", evaluation_filename)
 
-# Perform Training (True/False)
-# If false, this will go straight to model evaluation 
-training = False
-print("training:", training)
-
 base_fp = '/srv/scratch/z5313567/thesis/'
 print('base_fp:', base_fp)
 
@@ -134,11 +129,17 @@ print('model:', model)
 dataset_name = 'OGI_American'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'eval_20230709_2'
+experiment_id = 'eval_20230727_4'
 print('experiment_id:', experiment_id)
 
 cache_name = 'OGI-eval'
 print('cache_name:', cache_name)
+
+
+# Perform Training (True/False)
+# If false, this will go straight to model evaluation 
+training = False
+print("training:", training)
 
 # Resume training from/ use checkpoint (True/False)
 # Set to True for:
@@ -149,7 +150,7 @@ use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
 # Set checkpoint if resuming from/using checkpoint
 #checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/finetune_20230708_2"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American_10h/finetune_10h_20230723"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -679,7 +680,8 @@ training_args = TrainingArguments(
   load_best_model_at_end=set_load_best_model_at_end,
   metric_for_best_model=set_metric_for_best_model,
   greater_is_better=set_greater_is_better,
-  group_by_length=set_group_by_length
+  group_by_length=set_group_by_length,
+  gradient_checkpointing=set_gradient_checkpointing
 )
 # All instances can be passed to Trainer and 
 # we are ready to start training!
