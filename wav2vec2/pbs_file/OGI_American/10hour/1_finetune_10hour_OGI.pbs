@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #PBS -l select=1:ncpus=32:ngpus=4:mem=184gb
-#PBS -l walltime=5:00:00
+#PBS -l walltime=25:00:00
 #PBS -M yuenyuen.chan@student.unsw.edu.au
 #PBS -m ae
 #PBS -j oe
@@ -13,11 +13,11 @@ cd /srv/scratch/z5313567
 
 source anaconda3/bin/activate py3.10
 
-echo ""$(date)"" 2>&1 | tee -a /srv/scratch/z5313567/thesis/wav2vec2/output/AusKidTalk/AusKidTalk_output22_eval.txt
+echo ""$(date)"" 2>&1 | tee -a /srv/scratch/z5313567/thesis/wav2vec2/output/OGI_American/10hour/10hour_Finetune_Wav2vec2_American_output9.txt
 
 cd /srv/scratch/z5313567/thesis/wav2vec2/code
 
-python eval_AusKidTalk_spontaneous.py 2>&1 | tee -a /srv/scratch/z5313567/thesis/wav2vec2/output/AusKidTalk/AusKidTalk_output22_eval.txt
+python finetune_OGI_10h.py 2>&1 | tee -a /srv/scratch/z5313567/thesis/wav2vec2/output/OGI_American/10hour/10hour_Finetune_Wav2vec2_American_output9.txt
 
 conda deactivate
 conda deactivate
