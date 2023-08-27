@@ -1,0 +1,184 @@
+Fri Jul 28 02:09:01 AEST 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-c29da4653c6396a5/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_2.py
+Started: 28/07/2023 02:09:02
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_20230727_4
+cache_name: AusKidTalk-eval
+Language model 1: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718_with_lm_3
+Language model 2: patrickvonplaten/wav2vec2-base-100h-with-lm
+wright_model_1: 0.2
+wright_model_2: 0.8
+training: False
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718
+use_pretrained_tokenizer: True
+pretrained_tokenizer: facebook/wav2vec2-base-960h
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: False
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous/AusKidTalk_spontaneous_test_only_transcription_filepath.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous/AusKidTalk_spontaneous_test_only_transcription_filepath.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_20230727_4_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_20230727_4
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_20230727_4_baseline_result.csv
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_20230727_4_finetuned_result.csv
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718
+--> pretrained_tokenizer: facebook/wav2vec2-base-960h
+
+------> PREPARING DATASET... ------------------------------------
+
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 438.23it/s]
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-c29da4653c6396a5/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-b37eb1ea19f9e255.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-c29da4653c6396a5/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-45f3f0ec11a0e7da.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-c29da4653c6396a5/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-38777acb7ebf1f80_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-c29da4653c6396a5/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-4dee1081e471f7cd_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-c29da4653c6396a5/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-52e325084870d91b_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-c29da4653c6396a5/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-c603dc6577907dbb_*_of_00004.arrow
+/srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_2.py:613: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 24
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 24
+    })
+})
+--> Printing some random samples...
+                                            filepath                                transcription_clean
+0  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                  and he feed the dinosaur his milk
+1  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                               the dinosaur was sad
+2  /srv/scratch/chacmod/auskidtalk_spontaneous/81...  the dinosaur is looking around for hulk and he...
+3  /srv/scratch/chacmod/auskidtalk_spontaneous/81...  hulk looks at the dinosaur and feels bad about...
+4  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                    and the dinosaur was lying down
+5  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                                  and then he laugh
+6  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                                      he was hiding
+7  /srv/scratch/chacmod/auskidtalk_spontaneous/81...            a dinosaur jumps out and hulk is scared
+8  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                 and he was looking at the dinosaur
+9  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                               there was a dinosaur
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+--> Verifying data with a random sample...
+Target text: THE DINOSAUR IS LOOKING AROUND FOR HULK AND HE CAN'T FIND HULK
+Input array shape: (53761,)
+Sampling rate: 16000
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Fetching 4 files:   0%|          | 0/4 [00:00<?, ?it/s]Fetching 4 files: 100%|██████████| 4/4 [00:00<00:00, 1540.04it/s]
+Map:   0%|          | 0/24 [00:00<?, ? examples/s]Map:   4%|▍         | 1/24 [00:00<00:15,  1.46 examples/s]Map:  12%|█▎        | 3/24 [00:00<00:04,  4.37 examples/s]Map:  21%|██        | 5/24 [00:00<00:02,  6.94 examples/s]Map:  29%|██▉       | 7/24 [00:01<00:01,  8.69 examples/s]Map:  38%|███▊      | 9/24 [00:01<00:01, 10.26 examples/s]Map:  46%|████▌     | 11/24 [00:01<00:01, 12.08 examples/s]Map:  54%|█████▍    | 13/24 [00:01<00:00, 11.85 examples/s]Map:  62%|██████▎   | 15/24 [00:01<00:00, 13.01 examples/s]Map:  71%|███████   | 17/24 [00:01<00:00, 13.04 examples/s]Map:  79%|███████▉  | 19/24 [00:01<00:00, 13.53 examples/s]Map:  88%|████████▊ | 21/24 [00:02<00:00, 14.13 examples/s]Map: 100%|██████████| 24/24 [00:02<00:00, 14.41 examples/s]                                                           Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_20230727_4_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER Without Language Model: 0.691
+Fine-tuned Test WER With Language Model: 0.573
+--> Showing some fine-tuned prediction errors...
+                                         target_text  ...                                   pred_str_with_LM
+0                    AND THE DINOSAUR WAS LYING DOWN  ...                           AND THE DNSA WA FRN DOWN
+1                               THERE WAS A DINOSAUR  ...                                   THE HA A AT DISA
+2                           HE WAS ON THE SKATEBOARD  ...                                   WFN THE GATE BOT
+3  HULK WAS RIDING BACKWARDS ON A SKATEBOARD AND ...  ...  HOK WAS RIDING BACKWARDS ON THE SCAEBOR AND HE...
+4                 AND HE WAS LOOKING AT THE DINOSAUR  ...                 ND HE WAS FLOKING AT THE DIN ISSOU
+5                  AND HE FEED THE DINOSAUR HIS MILK  ...                             N HFAT THE IN FALLA OK
+6   LAUGHING WHILE THE DINOSUAR IS DRINKING THE MILK  ...   LAUGHING WHILE THE DINASOUR IS DRINKING THE MILK
+7                 THE DINOSAUR WAS ABOUT TO LICK HIM  ...                        TE DIN SO WAV ABOT O LAK IM
+8                   HULK FEEDS THE DINOSAUR THE MILK  ...                    HOWFEETS THO DINASSORD THE MILK
+9            A DINOSAUR JUMPS OUT AND HULK IS SCARED  ...                  I DIN SOR DRUMPS OT AND HOLIS KED
+
+[10 rows x 3 columns]
+--> Taking a deeper look...
+<pad> <pad> P <pad> <pad> <pad> <pad> <pad> <pad> E E <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> Y Y <pad> K K <pad> <pad> <pad> <pad> W W W <pad> <pad> A <pad> <pad> <pad> <pad> <pad> S S S | | | | O O O <pad> <pad> <pad> N N N | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> T T H H E O S S S S <pad> <pad> <pad> <pad> <pad> <pad> <pad> K K <pad> A A <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> T T E E E | B B <pad> <pad> <pad> O O O A A R R R R <pad> <pad> <pad> <pad> <pad> <pad> D D <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 28/07/2023 02:09:23
