@@ -1,0 +1,228 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF: the green skined baby is  riding     a skateboard holding a bottle of milk
+HYP: the green  skind baby is wriding askae      board holding a bottle of milk
+                    S               S     S          S                         
+
+sentence 2
+REF: the green skined baby is bouncing off the dinosaur egg holding the bottle  of milk
+HYP: the grain   skin baby is bouncing off the dinosaur egg holding the  buttr oth milk
+             S      S                                                        S   S     
+
+sentence 3
+REF: the green baby is holding the bottle of milk while listening inside the dinosaur egg
+HYP: the green baby is hurding the   bule of milk   for listening inside the dinosaur  eg
+                             S          S             S                                 S
+
+sentence 4
+REF: the green baby is holding the bottle of milk while the dinosaur egg is hatching
+HYP: the green baby is holding the buddle of milk while the dinosaur  eg is hatching
+                                        S                              S            
+
+sentence 5
+REF: the green baby is holding the bottle of milk while the dinosaur is poking his head out of the egg
+HYP: the green baby is holding the boddle of milk   why the dinosaur is puking his head out of the egg
+                                        S             S                      S                        
+
+sentence 6
+REF: the green   baby       is holding the bottle of milk while the green dinosaur has jumped out of the egg
+HYP: the green bibies houlding ******* the  bullr of milk cloud the green dinosaur has jumped out of the egg
+                    S        S       D          S             S                                             
+
+sentence 7
+REF: the green baby is holding the bottle of milk and hiding behind the tree from the dinosaur
+HYP: the green baby is  hating the  budle of milk and hiding behind the tree from the dinosaur
+                             S          S                                                     
+
+sentence 8
+REF: the green dinosaur  is looking for the green baby
+HYP: the green dinosaur was looking for the green biby
+                          S                          S
+
+sentence 9
+REF: the green dinosaur is on the ground being sad
+HYP: the green dinosaur is on the ground being sad
+                                                  
+
+sentence 10
+REF: the green baby has second thoughts about playing with the dinosaur
+HYP: the green baby has second thoughts about playing with the dinosaul
+                                                                      S
+
+sentence 11
+REF: the green baby goes over to the green dinosaur and comforts him
+HYP: the green baby goes over to the green  dinisar and comforts him
+                                                  S                 
+
+sentence 12
+REF: the green baby stuffs his bottle of milk into the green dinosaur's mouth
+HYP: the green baby stuffs his   bull of milk into the green  dinasau's mouth
+                                    S                                 S      
+
+sentence 13
+REF: the green   baby is laughing while the green dinosaur has a bottle of milk in his mouth
+HYP: the green babies ** laughing whire the green  dnisaur has a    bul of milk in his mouth
+                    S  D              S                  S            S                     
+
+number of sentences: 13
+substitutions=33 deletions=2 insertions=0 hits=150
+
+mer=18.92%
+wil=33.54%
+wip=66.46%
+wer=18.92%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF: the green skined baby is riding a skateboard holding a bottle of milk
+HYP: the green skined baby is riding a skateboard holding a bottle of milk
+                                                                          
+
+sentence 2
+REF: the green skined baby is bouncing off the dinosaur egg holding the bottle of milk
+HYP: the grain   skin baby is bouncing off the dinosaur egg holding the bottle of milk
+             S      S                                                                 
+
+sentence 3
+REF: the green baby is holding the bottle of milk while listening inside the dinosaur egg
+HYP: the green baby is holding the   bull of milk   for listening inside the dinosaur egg
+                                        S             S                                  
+
+sentence 4
+REF: the green baby is holding the bottle of milk while the dinosaur egg is hatching
+HYP: the green baby is holding the buddle of milk while the dinosaur egg is hatching
+                                        S                                           
+
+sentence 5
+REF: the green baby is holding the bottle of milk while the dinosaur is poking his head out of the egg
+HYP: the green baby is holding the bottle of milk   why the dinosaur is poking his head out of the egg
+                                                      S                                               
+
+sentence 6
+REF: the green   baby is holding the bottle of milk while the green dinosaur has jumped out of the egg
+HYP: the green babies ** holding the   bull of milk cloud the green dinosaur has jumped out of the egg
+                    S  D                  S             S                                             
+
+sentence 7
+REF: the green baby is holding the bottle of milk and hiding behind the tree from the dinosaur
+HYP: the green baby is  hating the buddle of milk and hiding behind the tree from the dinosaur
+                             S          S                                                     
+
+sentence 8
+REF: the green dinosaur  is looking for the green baby
+HYP: the green dinosaur was looking for the green baby
+                          S                           
+
+sentence 9
+REF: the green dinosaur is on the ground being sad
+HYP: the green dinosaur is on the ground being sad
+                                                  
+
+sentence 10
+REF: the green baby has second thoughts about playing with the dinosaur
+HYP: the green baby has second thoughts about playing with the dinosaur
+                                                                       
+
+sentence 11
+REF: the green baby goes over to the green dinosaur and comforts him
+HYP: the green baby goes over to the green dinosaur and comforts him
+                                                                    
+
+sentence 12
+REF: the green baby stuffs his bottle of milk into the green dinosaur's mouth
+HYP: the green baby stuffs his   bull of milk into the green dinosaur's mouth
+                                    S                                        
+
+sentence 13
+REF: the green   baby is laughing while the green dinosaur has a bottle of milk in his mouth
+HYP: the green babies ** laughing while the green dinosaur has a     bu of milk in his mouth
+                    S  D                                              S                     
+
+number of sentences: 13
+substitutions=15 deletions=2 insertions=0 hits=168
+
+mer=9.19%
+wil=16.63%
+wip=83.37%
+wer=9.19%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF: the green skined baby is riding     a skateboard holding a bottle of milk
+HYP: the green   skin baby is riding skate      board holding a bottle of milk
+                    S                    S          S                         
+
+sentence 2
+REF: the green skined baby is bouncing off the dinosaur egg holding the bottle of milk
+HYP: the grain   skin baby is bouncing off the dinosaur egg holding the bottle of milk
+             S      S                                                                 
+
+sentence 3
+REF: the green baby is holding the bottle of milk while listening inside the dinosaur egg
+HYP: the green baby is hurting the   bull of milk   for listening inside the dinosaur egg
+                             S          S             S                                  
+
+sentence 4
+REF: the green baby is holding the bottle of milk while the dinosaur egg is hatching
+HYP: the green baby is holding the buddle of milk while the dinosaur egg is hatching
+                                        S                                           
+
+sentence 5
+REF: the green baby is holding the bottle of milk while the dinosaur is poking his head out of the egg
+HYP: the green baby is holding the bottle of milk   why the dinosaur is poking his head out of the egg
+                                                      S                                               
+
+sentence 6
+REF: the green   baby is holding the bottle of milk while the green dinosaur has jumped out of the egg
+HYP: the green babies ** holding the   bull of milk cloud the green dinosaur has jumped out of the egg
+                    S  D                  S             S                                             
+
+sentence 7
+REF: the green baby is holding the bottle of milk and hiding behind the tree from the dinosaur
+HYP: the green baby is  hating the buddle of milk and hiding behind the tree from the dinosaur
+                             S          S                                                     
+
+sentence 8
+REF: the green dinosaur  is looking for the green baby
+HYP: the green dinosaur was looking for the green baby
+                          S                           
+
+sentence 9
+REF: the green dinosaur is on the ground being sad
+HYP: the green dinosaur is on the ground being sad
+                                                  
+
+sentence 10
+REF: the green baby has second thoughts about playing with the dinosaur
+HYP: the green baby has second thoughts about playing with the dinosaur
+                                                                       
+
+sentence 11
+REF: the green baby goes over to the green dinosaur and comforts him
+HYP: the green baby goes over to the green dinosaur and comforts him
+                                                                    
+
+sentence 12
+REF: the green baby stuffs his bottle of milk into the green dinosaur's mouth
+HYP: the green baby stuffs his   bull of milk into the green  dinosaurs mouth
+                                    S                                 S      
+
+sentence 13
+REF: the green   baby is laughing while the green dinosaur has a bottle of milk in his mouth
+HYP: the green babies ** laughing while the green dinosaur has a    bur of milk in his mouth
+                    S  D                                              S                     
+
+number of sentences: 13
+substitutions=20 deletions=2 insertions=0 hits=163
+
+mer=11.89%
+wil=21.52%
+wip=78.48%
+wer=11.89%

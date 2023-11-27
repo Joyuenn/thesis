@@ -1,0 +1,243 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF:          arrive very good  so now i want you to tell me what happens in      each picture
+HYP: iaioaaeiiieiiow what   yu did *** * **** *** ** tell me what happens in eachpeach *******
+                   S    S    S   S   D D    D   D  D                                 S       D
+
+sentence 2
+REF:  the the boy got   touch the egg on ***   the skateboard
+HYP: that the boy got touched the egg on his scate       bard
+        S                   S              I     S          S
+
+sentence 3
+REF: the boy hugs the egg
+HYP: the boy hugg jig ***
+                S   S   D
+
+sentence 4
+REF: the boy hugged the egg
+HYP: the boy hugged the  eg
+                          S
+
+sentence 5
+REF: and it cracked
+HYP:  an ** cracked
+       S  D        
+
+sentence 6
+REF: the      dinosaur camed out
+HYP: the dionshulrcame douwn ***
+                     S     S   D
+
+sentence 7
+REF: the dinosaur was licking the boy
+HYP: the jaiisaur was licking the boy
+                S                    
+
+sentence 8
+REF: *******  the boy was hiding
+HYP: thetthe yong boy was hiding
+           I    S               
+
+sentence 9
+REF:      the dinosaur is upset
+HYP: diarsals    opset ** *****
+            S        S  D     D
+
+sentence 10
+REF: the dinosaur is crying
+HYP: the  dosal's ** crying
+                S  D       
+
+sentence 11
+REF: the boy was * laughing
+HYP: the boy was m loughing
+                 I        S
+
+sentence 12
+REF: the  boy was  patting the dinosaur
+HYP: dam blue   s touching the dinosaur
+       S    S   S        S             
+
+sentence 13
+REF: the boy gave the his milk bottle to the dinosaur
+HYP:  de boy gave *** his milk  boled to the  dinosal
+       S            D               S               S
+
+sentence 14
+REF: the the boys are  laughing
+HYP: the the  boy saw laugthing
+                S   S         S
+
+number of sentences: 14
+substitutions=31 deletions=13 insertions=3 hits=42
+
+mer=52.81%
+wil=73.01%
+wip=26.99%
+wer=54.65%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF: arrive very good so now i * * * * * * *** want you  to tell me what happens in each picture
+HYP:      a    i    i  i   i i i i i i i i now what you did tell me what happens in each    each
+          S    S    S  S   S   I I I I I I   I    S       S                                    S
+
+sentence 2
+REF:  the the boy got   touch the egg on the skateboard
+HYP: that the boy got touched the egg on his skateboard
+        S                   S              S           
+
+sentence 3
+REF: the boy hugs the egg
+HYP: the boy  hug  eg ***
+                S   S   D
+
+sentence 4
+REF: the boy hugged the egg
+HYP: the boy hugged the egg
+                           
+
+sentence 5
+REF: and it cracked
+HYP: and ** cracked
+          D        
+
+sentence 6
+REF: the dinosaur camed  out
+HYP: the dinosaur  came down
+                      S    S
+
+sentence 7
+REF: the dinosaur was licking the boy
+HYP: the  jaisaur was licking the boy
+                S                    
+
+sentence 8
+REF: the *** ***** boy was hiding
+HYP: the the young boy was hiding
+           I     I               
+
+sentence 9
+REF:   the dinosaur is upset
+HYP: dears ******** ** upset
+         S        D  D      
+
+sentence 10
+REF: the dinosaur is crying
+HYP: the    dials ** crying
+                S  D       
+
+sentence 11
+REF: the boy was laughing
+HYP: the boy was laughing
+                         
+
+sentence 12
+REF: the  boy was  patting the dinosaur
+HYP: dan blue  is touching the dinosaur
+       S    S   S        S             
+
+sentence 13
+REF: the boy gave the his milk bottle to the dinosaur
+HYP:   d boy gave *** his milk boiled to the dinosaur
+       S            D               S                
+
+sentence 14
+REF: the the boys are laughing
+HYP: the the  boy saw laughing
+                S   S         
+
+number of sentences: 14
+substitutions=26 deletions=6 insertions=9 hits=54
+
+mer=43.16%
+wil=61.90%
+wip=38.10%
+wer=47.67%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF: arrive very good so now i * * * *** want you  to tell me what happens in each picture
+HYP:      i    i    i  i   i i i i i now what you did tell me what happens in each    each
+          S    S    S  S   S   I I I   I    S       S                                    S
+
+sentence 2
+REF:  the the boy got   touch the egg on ***   the skateboard
+HYP: that the boy got touched the egg on his skate      board
+        S                   S              I     S          S
+
+sentence 3
+REF: the boy hugs the egg
+HYP: the boy  hug jig ***
+                S   S   D
+
+sentence 4
+REF: the boy hugged the egg
+HYP: the boy hugged the  eg
+                          S
+
+sentence 5
+REF: and it cracked
+HYP: and ** cracked
+          D        
+
+sentence 6
+REF: the dinosaur camed  out
+HYP: the dinosaur  came down
+                      S    S
+
+sentence 7
+REF: the dinosaur was licking the boy
+HYP: the  jaisaur was licking the boy
+                S                    
+
+sentence 8
+REF: the *** ***** boy was hiding
+HYP: the the young boy was hiding
+           I     I               
+
+sentence 9
+REF:     the dinosaur is upset
+HYP: disease ******** ** *****
+           S        D  D     D
+
+sentence 10
+REF: the dinosaur is crying
+HYP: the    dials ** crying
+                S  D       
+
+sentence 11
+REF: the boy was laughing
+HYP: the boy was laughing
+                         
+
+sentence 12
+REF: the  boy was  patting the dinosaur
+HYP: dan blue  is touching the dinosaur
+       S    S   S        S             
+
+sentence 13
+REF: the boy gave the his milk bottle to the dinosaur
+HYP:  de boy gave *** his milk boiled to the dinosaur
+       S            D               S                
+
+sentence 14
+REF: the the boys are laughing
+HYP: the the  boy saw laughing
+                S   S         
+
+number of sentences: 14
+substitutions=28 deletions=7 insertions=7 hits=51
+
+mer=45.16%
+wil=64.83%
+wip=35.17%
+wer=48.84%

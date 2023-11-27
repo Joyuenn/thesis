@@ -1,0 +1,258 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF: the boy is on the ****** skateboard and he's rolling around the and is about to see the    egg
+HYP: the boy is on the escape       bard and   is rolling around the and is about to see the eggurd
+                            I          S        S                                                 S
+
+sentence 2
+REF: the the boy bumped into the egg
+HYP: the the boy bumped into the  eg
+                                   S
+
+sentence 3
+REF: the boy is listening to see if there is anything in the egg
+HYP: the boy is  lisening to see if there is anything in the ank
+                        S                                      S
+
+sentence 4
+REF: the egg is opening and the boy is surprised
+HYP: the  eg is opening and the boy is surprised
+           S                                    
+
+sentence 5
+REF: the boy is really surprised that a **** dinosaur came out of the egg
+HYP: the boy is really surprised that a dino     saul came out of the  eg
+                                           I        S                   S
+
+sentence 6
+REF: the boy is scared of the dinosaur
+HYP: the boy is    skn of the tynosaul
+                     S               S
+
+sentence 7
+REF: the boy is hiding from the dinosaur
+HYP: the boy is hiding from the  dinosal
+                                       S
+
+sentence 8
+REF: the dinosaur is  is the  boy   the dinosaur is sad that the boy has ****** *** has run away from him or her
+HYP: the dinosaur is sis the boin ththe dinosaur is sad that the  by has henhis run has run away from him  r ***
+                       S        S     S                            S          I   I                        S   D
+
+sentence 9
+REF: the the the dinosaur  is really sad and is lying   down
+HYP: the dte  de dinosaur i's really sad and is lying drdown
+           S   S            S                              S
+
+sentence 10
+REF: and
+HYP:  an
+       S
+
+sentence 11
+REF: the * the boy is thinking  whether he should go over and say *** hello to the dinosaur
+HYP: the r the boy is thinking wheather he should go over and say how   low to the   dinosa
+         I                            S                             I     S               S
+
+sentence 12
+REF: really
+HYP: really
+           
+
+sentence 13
+REF: *** the the boy went to meet the dine * dinosaur and see if it's * ok
+HYP: and the the boy went to meet the dine d dinosaur and see if it's a ok
+       I                                   I                          I   
+
+sentence 14
+REF: the boy is ******* giving  the dinosaur it's his baby bottle
+HYP: the boy is gifting   thet dnar     sawr it's his baby bottle
+                      I      S    S        S                     
+
+sentence 15
+REF: the boy think ** thinks it's funny when the dinosaur is sucking from it
+HYP: the boy think it thinks it's funny when the dinosair is sucking from it
+                    I                                   S                   
+
+number of sentences: 15
+substitutions=29 deletions=1 insertions=11 hits=131
+
+mer=23.84%
+wil=37.67%
+wip=62.33%
+wer=25.47%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF: the boy is on the ****** skateboard and he's rolling around the and is about to see the egg
+HYP: the boy is on the escape      board and   is rolling around the and is about to see the egg
+                            I          S        S                                               
+
+sentence 2
+REF: the the boy bumped into the egg
+HYP: the the boy bumped into the egg
+                                    
+
+sentence 3
+REF: the boy is listening to see if there is anything in the egg
+HYP: the boy is listening to see if there is anything in the ink
+                                                               S
+
+sentence 4
+REF: the egg is opening and the boy is surprised
+HYP: the egg is opening and the boy is surprised
+                                                
+
+sentence 5
+REF: the boy is really surprised that a **** dinosaur came out of the egg
+HYP: the boy is really surprised that a dino     saul came out of the egg
+                                           I        S                    
+
+sentence 6
+REF: the boy is scared of the dinosaur
+HYP: the boy is   skin of the dinosaur
+                     S                
+
+sentence 7
+REF: the boy is hiding from the dinosaur
+HYP: the boy is hiding from the dinosaur
+                                        
+
+sentence 8
+REF: the dinosaur is is the *** boy the dinosaur is sad that the boy has ** *** *** has run away from him or her
+HYP: the dinosaur is is the bin  th the dinosaur is sad that the boy has he his run has run away from him ** ***
+                              I   S                                       I   I   I                        D   D
+
+sentence 9
+REF: the the the dinosaur is really sad and is lying down
+HYP: the *** *** dinosaur is really sad and is lying down
+           D   D                                         
+
+sentence 10
+REF: and
+HYP:   a
+       S
+
+sentence 11
+REF: the * the boy is thinking whether he should go over and say *** hello to the dinosaur
+HYP: the r the boy is thinking whether he should go over and say how   low to the dinosaur
+         I                                                         I     S                
+
+sentence 12
+REF: really
+HYP: really
+           
+
+sentence 13
+REF: *** the the boy went to meet the dine * dinosaur and see if it's * ok
+HYP: and the the boy went to meet the dine a dinosaur and see if it's a ok
+       I                                   I                          I   
+
+sentence 14
+REF: the boy is  giving the *** dinosaur it's his baby bottle
+HYP: the boy is gifting the dna      saw it's his baby bottle
+                      S       I        S                     
+
+sentence 15
+REF: the boy think ** thinks it's funny when the dinosaur is sucking from it
+HYP: the boy think it thinks it's funny when the dinosaur is sucking from it
+                    I                                                       
+
+number of sentences: 15
+substitutions=10 deletions=4 insertions=13 hits=147
+
+mer=15.52%
+wil=21.05%
+wip=78.95%
+wer=16.77%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF: the boy is on the ****** skateboard and he's rolling around the and is about to see the egg
+HYP: the boy is on the escape      board and   is rolling around the and is about to see the egg
+                            I          S        S                                               
+
+sentence 2
+REF: the the boy bumped into the egg
+HYP: the the boy bumped into the egg
+                                    
+
+sentence 3
+REF: the boy is listening to see if there is anything in the egg
+HYP: the boy is listening to see if there is anything in the ink
+                                                               S
+
+sentence 4
+REF: the egg is opening and the boy is surprised
+HYP: the egg is opening and the boy is surprised
+                                                
+
+sentence 5
+REF: the boy is really surprised that a **** dinosaur came out of the egg
+HYP: the boy is really surprised that a dino     saul came out of the egg
+                                           I        S                    
+
+sentence 6
+REF: the boy is scared of the dinosaur
+HYP: the boy is   scan of the dinosaur
+                     S                
+
+sentence 7
+REF: the boy is hiding from the dinosaur
+HYP: the boy is hiding from the dinosaur
+                                        
+
+sentence 8
+REF: the dinosaur is is the boy the dinosaur is sad that the boy has ** *** *** has run away from him or her
+HYP: the dinosaur is is the bin the dinosaur is sad that the boy has he his run has run away from him ** ***
+                              S                                       I   I   I                        D   D
+
+sentence 9
+REF: the the the dinosaur is really sad and is lying down
+HYP: the *** *** dinosaur is really sad and is lying down
+           D   D                                         
+
+sentence 10
+REF: and
+HYP: ***
+       D
+
+sentence 11
+REF: the * the boy is thinking whether he should go over and say *** hello to the dinosaur
+HYP: the r the boy is thinking whether he should go over and say how   low to the dinosaur
+         I                                                         I     S                
+
+sentence 12
+REF: really
+HYP: really
+           
+
+sentence 13
+REF: *** the the boy went to meet the dine * dinosaur and see if it's ok
+HYP: and the the boy went to meet the dine a dinosaur and see if it's ok
+       I                                   I                            
+
+sentence 14
+REF: the boy is  giving the *** dinosaur it's his baby bottle
+HYP: the boy is gifting the dna      saw it's his baby bottle
+                      S       I        S                     
+
+sentence 15
+REF: the boy think ** thinks it's funny when the dinosaur is sucking from it
+HYP: the boy think it thinks it's funny when the dinosaur is sucking from it
+                    I                                                       
+
+number of sentences: 15
+substitutions=9 deletions=5 insertions=11 hits=147
+
+mer=14.53%
+wil=19.63%
+wip=80.37%
+wer=15.53%

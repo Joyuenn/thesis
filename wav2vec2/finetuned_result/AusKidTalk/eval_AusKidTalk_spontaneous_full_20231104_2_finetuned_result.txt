@@ -1,0 +1,772 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: *** **** ** ** ** * ARRIVE   VERY GOOD   SO NOW   I WANT YOU  TO TELL ME WHAT HAPPENS IN EACH PICTURE
+HYP: the loku ad tn it b      y atarit very good say now what you did tell me what happens in each   peach
+       I    I  I  I  I I      S      S    S    S   S   S    S   S   S    S  S    S       S  S    S       S
+
+sentence 2
+REF: **** THE THE BOY    GOT TOUCH   THE EGG ON   THE SKATEBOARD
+HYP: that the boy got tuched   the egger  or  e scape        boy
+        I   S   S   S      S     S     S   S  S     S          S
+
+sentence 3
+REF: THE BOY    HUGS THE EGG
+HYP: the boy hugdsag *** ***
+       S   S       S   D   D
+
+sentence 4
+REF: THE BOY HUGGED THE EGG
+HYP: the boy  huged the  eg
+       S   S      S   S   S
+
+sentence 5
+REF: AND IT CRACKED
+HYP:  an it cracked
+       S  S       S
+
+sentence 6
+REF: THE   DINOSAUR CAMED  OUT
+HYP: the doranshule  came down
+       S          S     S    S
+
+sentence 7
+REF: THE DINOSAUR WAS LICKING THE BOY
+HYP: the  jiyonsa was licking the boy
+       S        S   S       S   S   S
+
+sentence 8
+REF: *** ** * ***   THE BOY WAS HIDING
+HYP: the th t the young boy was hiding
+       I  I I   I     S   S   S      S
+
+sentence 9
+REF:       THE DINOSAUR IS UPSET
+HYP: dasarsils     ousa ** *****
+             S        S  D     D
+
+sentence 10
+REF: THE DINOSAUR     IS CRYING
+HYP: the   josl's crying ******
+       S        S      S      D
+
+sentence 11
+REF:    THE BOY WAS LAUGHING
+HYP: theboy was uhm waughing
+          S   S   S        S
+
+sentence 12
+REF: THE   BOY      WAS PATTING      THE DINOSAUR
+HYP: jam blues tutching     the dinosawl ********
+       S     S        S       S        S        D
+
+sentence 13
+REF: THE BOY  GAVE  THE HIS  MILK BOTTLE TO THE DINOSAUR
+HYP: jam boy gaved he's   a noake buddle to the  donisal
+       S   S     S    S   S     S      S  S   S        S
+
+sentence 14
+REF: THE THE BOYS ARE LAUGHING
+HYP: the the  boy saw  lowhing
+       S   S    S   S        S
+
+sentence 15
+REF: *** THE BOY  WAS   JUST RIDING     HIS SKATEBOARD
+HYP: the boy was just riding     he escaped       bord
+       I   S   S    S      S      S       S          S
+
+sentence 16
+REF: *** ****** THE WHILE THE    BOY WAS RIDING  THE SKATEBOARD   HE FELL OFF  AND BOUNCED INTO AN EGG
+HYP: the wheill the   boy was riding  tn  scape woee         he fell  off and bacs   thine   to an  eg
+       I      I   S     S   S      S   S      S    S          S    S    S   S    S       S    S  S   S
+
+sentence 17
+REF: HE LOOKED TO SEE WHAT WAS INSIDE OF THE EGG EGG
+HYP: he looked to say what was inside of the eeg ***
+      S      S  S   S    S   S      S  S   S   S   D
+
+sentence 18
+REF: WHILE DOING THAT THE EGG CRACKED OPEN AND HE WAS LIKE SHOCKED
+HYP: whill doing that the  eg crecked open  an he was like shocked
+         S     S    S   S   S       S    S   S  S   S    S       S
+
+sentence 19
+REF: ** A DINOSAUR APPEARED FROM THE EGG AND YEAH
+HYP: uh a dinosawl   apeaed from the  eg and   ye
+      I S        S        S    S   S   S   S    S
+
+sentence 20
+REF: THE BOY   FELL   OVER THE DINOSAUR CAME    OUT  OF THE EGG AND THE BOY FELL OVER
+HYP: the boy fellik theuhm the  dinosoa came nading the  eg and the boy far lave  for
+       S   S      S      S   S        S    S      S   S   S   S   S   S   S    S    S
+
+sentence 21
+REF: THE BOY HID FROM THE DINOSAUR BEHIND THE TREE
+HYP: the boy hid from the  dinosal behind the tree
+       S   S   S    S   S        S      S   S    S
+
+sentence 22
+REF: DINOSAUR WAS LOOKING FOR THE BOY
+HYP:  dinosaw was looking for the boy
+            S   S       S   S   S   S
+
+sentence 23
+REF: AND THEN GOT SAD BECAUSE HE COULDN'T FIND THE BOY
+HYP: and then got sad   cause he couldn't find the boy
+       S    S   S   S       S  S        S    S   S   S
+
+sentence 24
+REF: AND THEN THE BOY LOOKED AT THE DINOSAUR
+HYP: and then the boy looked at the dinosaul
+       S    S   S   S      S  S   S        S
+
+sentence 25
+REF: AND THEY   PATTED HIM ON THE HEAD
+HYP: and they padden't him on the heid
+       S    S        S   S  S   S    S
+
+sentence 26
+REF:  AND THEY FED HIM  HIS MILK
+HYP: they  fed him his milk ****
+        S    S   S   S    S    D
+
+sentence 27
+REF:  AND  THEY      STOP LAUGHING  AT       THE DINOSAUR
+HYP: they stopd laugghing       at the dinoasale ********
+        S     S         S        S   S         S        D
+
+sentence 28
+REF: *** THE BOY IS  ON    THE SKATEBOARD AND HE'S ROLLING AROUND THE AND IS ABOUT TO SEE THE   EGG
+HYP: the boy  is on the escape      board and  his rolling around the and is about to see the egude
+       I   S   S  S   S      S          S   S    S       S      S   S   S  S     S  S   S   S     S
+
+sentence 29
+REF: *** THE THE BOY BUMPED INTO THE EGG
+HYP: the   b the boy bumped into the  eg
+       I   S   S   S      S    S   S   S
+
+sentence 30
+REF: THE BOY IS LISTENING TO SEE IF THERE IS ANYTHING IN THE EGG
+HYP: the boy is listening to see if there is anything in the ank
+       S   S  S         S  S   S  S     S  S        S  S   S   S
+
+sentence 31
+REF: THE EGG IS OPENING AND THE BOY IS SURPRISED
+HYP: the  eg is opening and the boy is surprized
+       S   S  S       S   S   S   S  S         S
+
+sentence 32
+REF: *** THE BOY     IS    REALLY SURPRISED THAT     A DINOSAUR CAME OUT OF THE EGG
+HYP: the boy  is really surprized      that    a dinar      sal came out of the  eg
+       I   S   S      S         S         S    S     S        S    S   S  S   S   S
+
+sentence 33
+REF: THE BOY IS SCARED OF THE DINOSAUR
+HYP: the boy is scaned of the tynoscal
+       S   S  S      S  S   S        S
+
+sentence 34
+REF: THE BOY IS HIDING FROM THE DINOSAUR
+HYP: the boy is hiding  rom the  dinosal
+       S   S  S      S    S   S        S
+
+sentence 35
+REF: ***     THE DINOSAUR IS  IS  THE BOY     THE DINOSAUR  IS  SAD THAT THE BOY HAS     HAS RUN AWAY FROM  HIM   OR HER
+HYP: the dinosau       is is the boin the dinosal       is sad that  the boy has   h angrhis run  has  run away from him
+       I       S        S  S   S    S   S       S        S   S    S    S   S   S   S       S   S    S    S    S    S   S
+
+sentence 36
+REF: *** **** ** THE THE   THE DINOSAUR  IS REALLY SAD AND IS LYING   DOWN
+HYP: the dthe do  of the dinou      saw i's really sad and is lying drdown
+       I    I  I   S   S     S        S   S      S   S   S  S     S      S
+
+sentence 37
+REF: AND
+HYP: ***
+       D
+
+sentence 38
+REF: *** *** THE THE      BOY       IS THINKING WHETHER HE SHOULD  GO OVER AND SAY HELLO  TO    THE DINOSAUR
+HYP: the the boy  is thinking wheather       he  should go   over and ysay how low    to the dinous      sal
+       I   I   S   S        S        S        S       S  S      S   S    S   S   S     S   S      S        S
+
+sentence 39
+REF: REALLY
+HYP:   reit
+          S
+
+sentence 40
+REF: * *** *** *** **** THE  THE BOY WENT TO MEET THE     DINE DINOSAUR AND SEE  IF IT'S   OK
+HYP: a the the boy went  to meat the dine  a    d   a dinosaur      and  se  if its    a okay
+     I   I   I   I    I   S    S   S    S  S    S   S        S        S   S   S   S    S    S
+
+sentence 41
+REF: *** *** THE     BOY   IS GIVING THE DINOSAUR IT'S HIS BABY BOTTLE
+HYP: the boy  is gifting that   dona saw      it' uirm his baby bottle
+       I   I   S       S    S      S   S        S    S   S    S      S
+
+sentence 42
+REF: *** THE   BOY THINK THINKS IT'S FUNNY WHEN THE DINOSAUR IS  SUCKING FROM IT
+HYP: the boy think    it thinks it's funny when the dinosaur is saucking from it
+       I   S     S     S      S    S     S    S   S        S  S        S    S  S
+
+sentence 43
+REF: HULK WAS RIDING BACKWARDS ON   A SKATEBOARD AND   HE HITS AN EGG
+HYP: halk was liding  backwads on the  scapbeard any hits   an eg ***
+        S   S      S         S  S   S          S   S    S    S  S   D
+
+sentence 44
+REF: ****    HE'S CURIOUS  TO   SEE WHAT'S INSIDE THE EGG AND  LISTENS TO THE EGG
+HYP: he's curious      to see whats  insid    the  eg and   a litsence to the  eg
+        I       S       S   S     S      S      S   S   S   S        S  S   S   S
+
+sentence 45
+REF: THE EGG    STARTS CRACKING NEAR THE  TOP AND HULK IS SCARED BY THIS
+HYP: the  eg stal'sare cracking near the tolp and  hok is  scard by this
+       S   S         S        S    S   S    S   S    S  S      S  S    S
+
+sentence 46
+REF: A  DINOSAUR JUMPS OUT AND HULK  IS SCARED
+HYP: a dinousale jumps out and halk his   skid
+     S         S     S   S   S    S   S      S
+
+sentence 47
+REF: THE DINOSAUR TRIES   TO PLAY WITH HULK BUT HULK IS VERY SCARED
+HYP: the  dinasar tryes said play with halk but halk is very  scard
+       S        S     S    S    S    S    S   S    S  S    S      S
+
+sentence 48
+REF: HULK TRIES TO HIDE FROM THE DINOSAUR AND IS STILL VERY SCARED
+HYP: halk tries to hide from the dinosawl and is still very scared
+        S     S  S    S    S   S        S   S  S     S    S      S
+
+sentence 49
+REF: THE DINOSAUR  IS LOOKING AROUND  FOR HULK AND HE CAN'T FIND HULK
+HYP: but  dinosaw was looking around full help and he can't find help
+       S        S   S       S      S    S    S   S  S     S    S    S
+
+sentence 50
+REF: THE   DINOSAUR  IS SAD
+HYP:   h dinousalys sad ***
+       S          S   S   D
+
+sentence 51
+REF: HULK LOOKS AT THE DINOSAUR AND  FEELS BAD ABOUT THIS
+HYP: hoak looks at the dinosaul and feiels bad about this
+        S     S  S   S        S   S      S   S     S    S
+
+sentence 52
+REF: ****  HULK FEEDS      THE DINOSAUR THE MILK
+HYP: halk feeds   the dinosawy       of the milk
+        I     S     S        S        S   S    S
+
+sentence 53
+REF: LAUGHING WHILE THE DINOSUAR  IS DRINKING THE MILK
+HYP:  lothing whell the dinosawr was dranking the milk
+            S     S   S        S   S        S   S    S
+
+sentence 54
+REF: THE GREEN SKINED BABY IS RIDING      A SKATEBOARD HOLDING A BOTTLE OF MILK
+HYP: the green skined baby is riding askape       bord holding a bottle of milk
+       S     S      S    S  S      S      S          S       S S      S  S    S
+
+sentence 55
+REF: THE GREEN SKINED BABY         IS BOUNCING OFF      THE DINOSAUR     EGG HOLDING   THE BOTTLE   OF MILK
+HYP: the grean  skine baby isbouncing      off the dinosaur       eg holding     the butdl     of milk ****
+       S     S      S    S          S        S   S        S        S       S       S     S      S    S    D
+
+sentence 56
+REF: THE GREEN BABY IS  HOLDING THE BOTTLE OF MILK WHILE LISTENING INSIDE THE DINOSAUR EGG
+HYP: the green baby is houlding the   bull of milk while listening inside the dionisal  eg
+       S     S    S  S        S   S      S  S    S     S         S      S   S        S   S
+
+sentence 57
+REF: THE  GREEN BABY IS HOLDING THE BOTTLE OF MILK  WHILE THE DINOSAUR EGG IS HATCHING
+HYP: the greean bybe is holding the bubdle of milk wheall the dinosaus  eg is hatching
+       S      S    S  S       S   S      S  S    S      S   S        S   S  S        S
+
+sentence 58
+REF: ***   THE GREEN BABY      IS HOLDING    THE BOTTLE   OF MILK WHILE  THE DINOSAUR IS  POKING HIS HEAD OUT OF THE EGG
+HYP: the green  baby   is holding     the bottle     of milk  why   the dina      saw is pulking his head out of the  eg
+       I     S     S    S       S       S      S      S    S    S     S    S        S  S       S   S    S   S  S   S   S
+
+sentence 59
+REF: THE GREEN    BABY      IS HOLDING  THE BOTTLE   OF MILK WHILE   THE GREEN DINOSAUR HAS JUMPED OUT OF THE EGG
+HYP: the green buabies holding     the bull     of milk clob   the green  dina      saw has jumped out of the  eg
+       S     S       S       S       S    S      S    S    S     S     S     S        S   S      S   S  S   S   S
+
+sentence 60
+REF: THE GREEN BABY IS    HOLDING   THE BOTTLE   OF MILK    AND    HIDING BEHIND  THE TREE    FROM THE DINOSAUR
+HYP: the green babe is holdingthe buldl     of milk  and hiding behindthe   trea from  the dinosau *** ********
+       S     S    S  S          S     S      S    S    S      S         S      S    S    S       S   D        D
+
+sentence 61
+REF: THE GREEN DINOSAUR  IS LOOKING FOR THE GREEN   BABY
+HYP: the green  donosaw was looking for the green biybey
+       S     S        S   S       S   S   S     S      S
+
+sentence 62
+REF: THE GREEN DINOSAUR IS ON THE GROUND BEING SAD
+HYP: the green dinosaul is on the ground being sad
+       S     S        S  S  S   S      S     S   S
+
+sentence 63
+REF: THE GREEN BABY HAS SECOND THOUGHTS ABOUT PLAYING WITH THE DINOSAUR
+HYP: the  gren baby has second thoughts about playing with the  dinosal
+       S     S    S   S      S        S     S       S    S   S        S
+
+sentence 64
+REF: THE GREEN BABY  GOES OVER TO THE GREEN DINOSAUR AND COMFORTS HIM
+HYP: the green baby gowes over to the green  dinisal and comfurts him
+       S     S    S     S    S  S   S     S        S   S        S   S
+
+sentence 65
+REF: *** ******  THE GREEN BABY STUFFS HIS BOTTLE   OF MILK   INTO  THE GREEN DINOSAUR'S MOUTH
+HYP: the greean baby stufs  his   bull  of   milk into  the greean dana   saw       hi's mouth
+       I      I    S     S    S      S   S      S    S    S      S    S     S          S     S
+
+sentence 66
+REF: THE GREEN    BABY       IS LAUGHING WHILE   THE   GREEN DINOSAUR HAS    A BOTTLE   OF MILK  IN  HIS MOUTH
+HYP: the green biybies loughing   wheall   the green donisal      has   a bull     of milk   in his mout *****
+       S     S       S        S        S     S     S       S        S   S    S      S    S    S   S    S     D
+
+sentence 67
+REF: ** ***** HE'S SKATEBOARDING
+HYP: he scepd  fhe        woding
+      I     I    S             S
+
+sentence 68
+REF: AND THEN HE FINDS AN EGG
+HYP: and then he finds  a   a
+       S    S  S     S  S   S
+
+sentence 69
+REF: HE BUMPS INTO THE EGG AND FEELS SAD
+HYP: he bumps into the  ag and  feel sad
+      S     S    S   S   S   S     S   S
+
+sentence 70
+REF: HE HEARS WHAT'S INSIDE  THE EGG
+HYP: he hears  woo's inside here ***
+      S     S      S      S    S   D
+
+sentence 71
+REF: THE EGG WAS CRACKING
+HYP: the  ag was cracking
+       S   S   S        S
+
+sentence 72
+REF: **  HE       WAS SURPRISED BECAUSE   THE DINOSAUR CAME OUT
+HYP: he was surprised   because      it dinis       so came nou
+      I   S         S         S       S     S        S    S   S
+
+sentence 73
+REF: **  HE WAS  SAD  THAT THERE WAS    A DINOSAUR
+HYP: he was sad that theyr   was  ta dine     sole
+      I   S   S    S     S     S   S    S        S
+
+sentence 74
+REF: HE HIDE BEHIND THE TREE
+HYP: he  hid behind the tree
+      S    S      S   S    S
+
+sentence 75
+REF: *** **** THE DINOSAUR  LOOKS AROUND FOR HUMAN FEEL SAD
+HYP: the dini sol    looks around    for him   and feel sad
+       I    I   S        S      S      S   S     S    S   S
+
+sentence 76
+REF: THE DINOSAUR LIES ON THE  FLOOR
+HYP: the    dinos lyes on the flooer
+       S        S    S  S   S      S
+
+sentence 77
+REF: THE  BABY  FEEL SAD
+HYP: the baiby shels sad
+       S     S     S   S
+
+sentence 78
+REF: THE BABY WANTS    TO PET   HIM
+HYP: the bade    be wonce  to patin
+       S    S     S     S   S     S
+
+sentence 79
+REF: AND THEN HE   FEEDS HIM  HIS MILK
+HYP: and then he feedsim his milk ****
+       S    S  S       S   S    S    D
+
+sentence 80
+REF: THE   BABY  FEEL HAPPY
+HYP: the bigbea feell happy
+       S      S     S     S
+
+sentence 81
+REF: HE WAS ON A SKATEBOARD
+HYP: he was on a  scartbord
+      S   S  S S          S
+
+sentence 82
+REF:  HE BUMPED INTO   A EGG
+HYP: hey bumped into the  eg
+       S      S    S   S   S
+
+sentence 83
+REF:      THE      EGG IS HATCHING
+HYP: begger's hatching ** ********
+            S        S  D        D
+
+sentence 84
+REF: **** THERE'S     A DINOSAUR
+HYP: does       a dinou     sole
+        I       S     S        S
+
+sentence 85
+REF: THERE'S A DINOSAUR NEAR HIM
+HYP:     tis a  dinosal fead him
+           S S        S    S   S
+
+sentence 86
+REF: HE WENT AWAY AND HIDING
+HYP: he want  run and hiding
+      S    S    S   S      S
+
+sentence 87
+REF: HE'S HIDING BEHIND   A TREE
+HYP:   is  hoing behind the tree
+        S      S      S   S    S
+
+sentence 88
+REF: HE'S SAD
+HYP:   hi sad
+        S   S
+
+sentence 89
+REF: *** HE'S LONELY
+HYP: his  own     na
+       I    S      S
+
+sentence 90
+REF: THE  BOY'S SAD THAT HE   MADE HIM SAD
+HYP: the bullys sad that he miyged him sad
+       S      S   S    S  S      S   S   S
+
+sentence 91
+REF: HE'S CALM MAKING HIM CALM DOWN
+HYP:  his  coh maggin   i come down
+        S    S      S   S    S    S
+
+sentence 92
+REF: PUT HIS BOTTLE IN HIS MOUTH
+HYP: put his bottle in his mouth
+       S   S      S  S   S     S
+
+sentence 93
+REF: HE'S LAUGHING
+HYP:  his   ophing
+        S        S
+
+sentence 94
+REF: *** THERE   WAS  A DINOSAUR
+HYP: the    ha whats at     diso
+       I     S     S  S        S
+
+sentence 95
+REF: **  HE WAS  ON   THE SKATEBOARD
+HYP: he was  on the scayt      board
+      I   S   S   S     S          S
+
+sentence 96
+REF:   HE WAS  LISTENING TO THE EGG
+HYP: have was wastending to the   a
+        S   S          S  S   S   S
+
+sentence 97
+REF: THE     EGG      WAS CRACKING
+HYP: the aggrust cracking ********
+       S       S        S        D
+
+sentence 98
+REF: ***   THE DINOSAUR POKE OUT HIS HEAD
+HYP: the dines      sop   po cat  if  had
+       I     S        S    S   S   S    S
+
+sentence 99
+REF: THE DINOSAUR WAS ABOUT TO LICK HIM
+HYP: the   dinoso was about to lick him
+       S        S   S     S  S    S   S
+
+sentence 100
+REF: HE WAS HIDING
+HYP: he was hiding
+      S   S      S
+
+sentence 101
+REF: **** *** THE DINOSAUR WAS SAD
+HYP: that don the    sille was fat
+        I   I   S        S   S   S
+
+sentence 102
+REF: AND THE DINOSAUR WAS LYING DOWN
+HYP: and the  donsalw was flang down
+       S   S        S   S     S    S
+
+sentence 103
+REF: *** ** ***    AND HE WAS LOOKING AT THE DINOSAUR
+HYP: and he was loking at the      do in   i      soa
+       I  I   I      S  S   S       S  S   S        S
+
+sentence 104
+REF: ***  HE     WAS TOUCHING   THE DINOSAUR
+HYP: kdy was taching      the donas       so
+       I   S       S        S     S        S
+
+sentence 105
+REF: *** AND HE FEED  THE DINOSAUR HIS MILK
+HYP: uhm  hi fg  the down     fill  as mute
+       I   S  S    S    S        S   S    S
+
+sentence 106
+REF: AND THEN HE  LAUGH
+HYP: and then he loshed
+       S    S  S      S
+
+sentence 107
+REF:  HE     IS RIDING   HIS SKATEBOARD
+HYP: hes riding    his scape      board
+       S      S      S     S          S
+
+sentence 108
+REF: **       HE CRASHES INTO THE EGG THE DINOSAUR EGG
+HYP: he croushes      in trow the  eg the     dnis leg
+      I        S       S    S   S   S   S        S   S
+
+sentence 109
+REF: ***  AND THEN  HE GOT UPSET
+HYP: and then   he got  up   set
+       I    S    S   S   S     S
+
+sentence 110
+REF: THEN HE LISTENED TO THE EGG WHEN HE FELL OFF
+HYP: then he liscened to the  eg when he fall off
+        S  S        S  S   S   S    S  S    S   S
+
+sentence 111
+REF: AND THE       EGG  STARTED HATCHING
+HYP: and the egsatters hatching ********
+       S   S         S        S        D
+
+sentence 112
+REF:        IT  STARTED CRACKING  AND THEN
+HYP: itcounted cracking      and then ****
+             S        S        S    S    D
+
+sentence 113
+REF: HE WAS SHOCKED
+HYP: he was shocked
+      S   S       S
+
+sentence 114
+REF: ***  AND THEN      A LITTLE  LIKE DINOSAUR POPPED OUT OF IT
+HYP: and then    a little   like diona    saull  poped out of it
+       I    S    S      S      S     S        S      S   S  S  S
+
+sentence 115
+REF:    SCARED    AND WORRIED AND  HE      WAS CONFUSED
+HYP: scardened waried      in  he was comfused ********
+             S      S       S   S   S        S        D
+
+sentence 116
+REF: ***  AND THEN  THE DINOSAUR JUST WAS HOPPED OUT OF THE EGG
+HYP: and then  the dina    saurs just was holped out of the  eg
+       I    S    S    S        S    S   S      S   S  S   S   S
+
+sentence 117
+REF: THE BOY'S   LIKE STARTLED TO THE GROUND
+HYP: the   boy sliked startled to the ground
+       S     S      S        S  S   S      S
+
+sentence 118
+REF: AND HE RAN AND HID FROM THE DINOSAUR
+HYP: and he run and hid from the dinosoul
+       S  S   S   S   S    S   S        S
+
+sentence 119
+REF:   CUZ HE THOUGHT THE DINOSAUR WOULD EAT HIM
+HYP: cause he    felt tha dinosalr would  at him
+         S  S       S   S        S     S   S   S
+
+sentence 120
+REF: *** BUT   THE DINOSAUR LOOKED AROUND AND THEN HE GOT SAD THAT THE GUY LEFT
+HYP: but the dinou     sall looked around and then he got sad that the  gy left
+       I   S     S        S      S      S   S    S  S   S   S    S   S   S    S
+
+sentence 121
+REF: AND THAT'S HIM LYING ON THE GROUNG LIKE BEING UPSET BECAUSE
+HYP: and that's him lying on the ground like being upset because
+       S      S   S     S  S   S      S    S     S     S       S
+
+sentence 122
+REF:  HE CAN'T FIND HIS  FRIEND
+HYP: het caome find his friends
+       S     S    S   S       S
+
+sentence 123
+REF: AND THEN THE BOY FELT SORRY
+HYP: and then the boy felt  sory
+       S    S   S   S    S     S
+
+sentence 124
+REF: **** WELL  HE    WAS  HIDING BECAUSE     THE DINOSAUR  WAS SAD
+HYP: well   he was hiding because     the dinauss       al ways sad
+        I    S   S      S       S       S       S        S    S   S
+
+sentence 125
+REF: *** AND SO    HE WENT OVER AND PETTED THE DINOSAUR
+HYP: and  so he wento over  and pat     of the dinousal
+       I   S  S     S    S    S   S      S   S        S
+
+sentence 126
+REF: AND GAVE THE DINOSAUR SOME OF HIS MILK
+HYP: and gave the donousal some of his milk
+       S    S   S        S    S  S   S    S
+
+sentence 127
+REF: **      HE STARTED LAUGHING
+HYP: he thaught       o  lowhing
+      I       S       S        S
+
+sentence 128
+REF: ******* BECAUSE  THE DINOSAUR LOOKED FUNNY
+HYP: because     the dino      sul looked funny
+           I       S    S        S      S     S
+
+sentence 129
+REF: BABY HULK WAS RIDING ON   A SKATEBOARD AND THEN HE CRASHED INTO AN EGG
+HYP: baby hoke was riding on the   scabuled and then he crushed into an  eg
+        S    S   S      S  S   S          S   S    S  S       S    S  S   S
+
+sentence 130
+REF: HE HURT THE EGG
+HYP: he hugd the  eg
+      S    S   S   S
+
+sentence 131
+REF: HE PUT HIS EAR UP TO IT
+HYP: he put his ear up to it
+      S   S   S   S  S  S  S
+
+sentence 132
+REF: THE EGG STARTED CRACKING
+HYP: the  eg started cracking
+       S   S       S        S
+
+sentence 133
+REF: AND  THE EGG CRACKED AND THE DINO BABY DINOSAUR CAME  OUT
+HYP: and they  eg cracked and   a dina baby  dinosal came outs
+       S    S   S       S   S   S    S    S        S    S    S
+
+sentence 134
+REF: THE BABY DINOSAUR WAS EXCITED  WHEN  A
+HYP: the baby  dinosal was excited whene of
+       S    S        S   S       S     S  S
+
+sentence 135
+REF: AND WENT UP TO       BABY HULK BUT  HE    WAS SCARED
+HYP: and went up to beybehoged  but  he was scared ******
+       S    S  S  S          S    S   S   S      S      D
+
+sentence 136
+REF: SO HE RAN AND HID BEHIND A TREE
+HYP: so he ran and hid behind a tree
+      S  S   S   S   S      S S    S
+
+sentence 137
+REF: *** ***  AND  THE BABY DINOSAUR DIDN'T KNOW WHERE HE WAS
+HYP: and the baby dino  saw     din'      t know where he was
+       I   I    S    S    S        S      S    S     S  S   S
+
+sentence 138
+REF: AND THEN HE WAS SAD
+HYP: and then he was sad
+       S    S  S   S   S
+
+sentence 139
+REF: THE BABY DINO BEING SAD MADE BABY  HULK SAD
+HYP: the baby dina being sad made baby hoake sad
+       S    S    S     S   S    S    S     S   S
+
+sentence 140
+REF: ** SO   HE WENT UP  TO  THE DINOSAUR AND PETTED HIM ON THE HEAD
+HYP: so he went   up to the dino   saulle and patted him on the head
+      I  S    S    S  S   S    S        S   S      S   S  S   S    S
+
+sentence 141
+REF: THEN GAVE HIM HIS BOTTLE
+HYP: then gave him his bottle
+        S    S   S   S      S
+
+sentence 142
+REF: AND THEN HE FOUND IT FUNNY
+HYP: and then he found it funny
+       S    S  S     S  S     S
+
+sentence 143
+REF: THE  BOY IS   ON SKATEBOARD
+HYP: the boys on skay       bard
+       S    S  S    S          S
+
+sentence 144
+REF: *** ****  THE BOY SNARE   A DINOSAUR EGG
+HYP: the boys snak and  down the      ful   g
+       I    I    S   S     S   S        S   S
+
+sentence 145
+REF: ***    THE   BOY'S TOUCHING  THE DINOSAUR EGG
+HYP: the boye's taotson      the dawn        s  wa
+       I      S       S        S    S        S   S
+
+sentence 146
+REF: *** **** **   THE DINOSAUR   EGG IS CRACKING OPEN
+HYP: the done so adedd       is coact an      noy  pan
+       I    I  I     S        S     S  S        S    S
+
+sentence 147
+REF:    THE DINOSAUR EGG       IS OPENED
+HYP: tthnso      agd   a loyopend ******
+          S        S   S        S      D
+
+sentence 148
+REF: *** THE BOY   IS HIDING BEHIND A TREE
+HYP: the boy  is hard     in behond a tway
+       I   S   S    S      S      S S    S
+
+sentence 149
+REF: DINOSAUR   IS       IN THERE    BY HIMSELF
+HYP:   damsol isin dhethere    by hesou *******
+            S    S        S     S     S       D
+
+sentence 150
+REF: ***       THE DINOSAUR     IS STILL THERE BY HIMSELF BUT ON THE FLOOR
+HYP: the dinosaull       is stille  near    by it      so but on the     o
+       I         S        S      S     S     S  S       S   S  S   S     S
+
+sentence 151
+REF: THE BOY IS HIDING  BEHIND A TREE
+HYP: the boy is harddn bahoing a tway
+       S   S  S      S       S S    S
+
+sentence 152
+REF: *** THE BOY     IS PET   THE DINOSAUR ON THE HEAD
+HYP: the boy  is puying the dotor       so on the  hat
+       I   S   S      S   S     S        S  S   S    S
+
+number of sentences: 152
+substitutions=1188 deletions=27 insertions=76 hits=0
+
+mer=100.00%
+wil=100.00%
+wip=0.00%
+wer=106.26%
+
+
+

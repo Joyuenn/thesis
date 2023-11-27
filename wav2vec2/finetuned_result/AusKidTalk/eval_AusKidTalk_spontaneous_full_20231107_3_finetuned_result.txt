@@ -1,0 +1,228 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF: he was on a *** skateboard
+HYP: he was on a sky       burd
+                   I          S
+
+sentence 2
+REF: he bumped into   a egg
+HYP: he bumped into the  eg
+                      S   S
+
+sentence 3
+REF: the egg is hatching
+HYP: teg *** is hatching
+       S   D            
+
+sentence 4
+REF: there's a dinosaur
+HYP:     dos a dinosaur
+           S           
+
+sentence 5
+REF: ** there's a dinosaur near him
+HYP: di tnnisar a ******** **** him
+      I       S          D    D    
+
+sentence 6
+REF:    he went away and hiding
+HYP: human regd **** and  hotty
+         S    S    D          S
+
+sentence 7
+REF: he's  hiding behind   a tree
+HYP:    s hotting behind the tree
+        S       S          S     
+
+sentence 8
+REF:  he's sad
+HYP: hosad ***
+         S   D
+
+sentence 9
+REF: he's lonely
+HYP:  his lonely
+        S       
+
+sentence 10
+REF: the **** boy's sad that he  made him sad
+HYP: the bull     s sad that he metde hem sad
+            I     S                 S   S    
+
+sentence 11
+REF: he's calm making him calm down
+HYP:  his   cu making him come down
+        S    S               S     
+
+sentence 12
+REF: put his bottle in his mouth
+HYP: put his bottle in his mouth
+                                
+
+sentence 13
+REF: he's laughing
+HYP:   hi   lauing
+        S        S
+
+number of sentences: 13
+substitutions=22 deletions=5 insertions=3 hits=31
+
+mer=49.18%
+wil=70.41%
+wip=29.59%
+wer=51.72%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF: he was on a *** skateboard
+HYP: he was on a sky       burd
+                   I          S
+
+sentence 2
+REF: he bumped into   a egg
+HYP: he bumped into the egg
+                      S    
+
+sentence 3
+REF: the egg is hatching
+HYP: leg *** is hatching
+       S   D            
+
+sentence 4
+REF: there's a dinosaur
+HYP:    does a dinosaur
+           S           
+
+sentence 5
+REF: there's    a dinosaur near him
+HYP:     the tour ******** **** him
+           S    S        D    D    
+
+sentence 6
+REF:    he went away and hiding
+HYP: human  red **** and    hot
+         S    S    D          S
+
+sentence 7
+REF: he's  hiding behind   a tree
+HYP:   is hitting behind the tree
+        S       S          S     
+
+sentence 8
+REF: he's sad
+HYP: **** sad
+        D    
+
+sentence 9
+REF: he's lonely
+HYP:  his lonely
+        S       
+
+sentence 10
+REF: the **** boy's sad that he made him sad
+HYP: the bull     s sad that he made him sad
+            I     S                         
+
+sentence 11
+REF: he's calm making him calm down
+HYP:  his   ca making him come down
+        S    S               S     
+
+sentence 12
+REF: put his bottle in his mouth
+HYP: put his bottle in his mouth
+                                
+
+sentence 13
+REF: he's laughing
+HYP:  his     lung
+        S        S
+
+number of sentences: 13
+substitutions=19 deletions=5 insertions=2 hits=34
+
+mer=43.33%
+wil=63.76%
+wip=36.24%
+wer=44.83%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF: he was on a *** skateboard
+HYP: he was on a sky       burd
+                   I          S
+
+sentence 2
+REF: he bumped into   a egg
+HYP: he bumped into the egg
+                      S    
+
+sentence 3
+REF: the egg is hatching
+HYP: tag *** is hatching
+       S   D            
+
+sentence 4
+REF: there's a dinosaur
+HYP:    does a dinosaur
+           S           
+
+sentence 5
+REF: there's    a dinosaur near him
+HYP:     the tour ******** **** him
+           S    S        D    D    
+
+sentence 6
+REF:    he went away and hiding
+HYP: human  red **** and    hot
+         S    S    D          S
+
+sentence 7
+REF: he's  hiding behind   a tree
+HYP:   is hitting behind the tree
+        S       S          S     
+
+sentence 8
+REF: he's  sad
+HYP:   he said
+        S    S
+
+sentence 9
+REF: he's lonely
+HYP:  his lonely
+        S       
+
+sentence 10
+REF: the **** boy's sad that he made him sad
+HYP: the bull     s sad that he made him sad
+            I     S                         
+
+sentence 11
+REF: he's calm making him calm down
+HYP:  his  car making him come down
+        S    S               S     
+
+sentence 12
+REF: put his bottle in his mouth
+HYP: put his bottle in his mouth
+                                
+
+sentence 13
+REF: he's laughing
+HYP:  his     lung
+        S        S
+
+number of sentences: 13
+substitutions=21 deletions=4 insertions=2 hits=33
+
+mer=45.00%
+wil=66.47%
+wip=33.53%
+wer=46.55%

@@ -1,0 +1,228 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF: the boy was just riding his ****** skateboard
+HYP: the boy was just riding his iscape       bard
+                                      I          S
+
+sentence 2
+REF: the while the boy was riding the skateboard he fell off and **** bounced into an egg
+HYP: the while the boy was riding his  capebourd he fell off and bans    thin   to an  eg
+                                    S          S                    I       S    S      S
+
+sentence 3
+REF: he looked to see what was inside of the egg egg
+HYP: he looked to sey what was inside of the  et  eg
+                    S                          S   S
+
+sentence 4
+REF: while doing that the egg cracked open and he was like shocked
+HYP: while doing that the  eg crecked open and he was  lik shocked
+                            S       S                    S        
+
+sentence 5
+REF: a *  dinosaur appeared from the egg and yeah
+HYP: a a dinosauur  appered from the egg and    e
+       I         S        S                     S
+
+sentence 6
+REF: the boy fell **** over the dinosaur came  out of the egg and the boy fell over
+HYP: the  by fell othe    m the dinosaur came outo ** the egg and the boy fell over
+           S         I    S                      S  D                              
+
+sentence 7
+REF: the boy  hid from the dinosaur behind the tree
+HYP: the boy hete from the dinosaur behind the tree
+                S                                  
+
+sentence 8
+REF: dinosaur was looking for the boy
+HYP: dinosaur was looking for the boy
+                                     
+
+sentence 9
+REF: and then got sad because he couldn't find the boy
+HYP: and then got sad  bcause he couldn't find the boy
+                            S                         
+
+sentence 10
+REF: and then the boy looked at the dinosaur
+HYP: and then the boy looked at the dinosaur
+                                            
+
+sentence 11
+REF: and they patted him on the head
+HYP: and they padn't him on the head
+                   S                
+
+sentence 12
+REF: and they fed him his milk
+HYP:  nd they fed him his milk
+       S                      
+
+sentence 13
+REF: and they  stop laughing at the  dinosaur
+HYP: and they stoed laughing at the dianosaur
+                  S                         S
+
+number of sentences: 13
+substitutions=24 deletions=1 insertions=4 hits=98
+
+mer=22.83%
+wil=38.03%
+wip=61.97%
+wer=23.58%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF: the boy was just riding his ****** skateboard
+HYP: the boy was just riding his escape      board
+                                      I          S
+
+sentence 2
+REF: the while the boy was riding ***  the skateboard he fell off and ***** bounced into an egg
+HYP: the while the boy was riding his cape      board he fell off and banks    thin   to an egg
+                                    I    S          S                     I       S    S       
+
+sentence 3
+REF: he looked to see what was inside of the egg egg
+HYP: he looked to say what was inside of the eeg ***
+                    S                          S   D
+
+sentence 4
+REF: while doing that the egg cracked open and he was like shocked
+HYP: while doing that the egg cracked open and he was like shocked
+                                                                  
+
+sentence 5
+REF: a dinosaur appeared from the egg and yeah
+HYP: a dinosaur appeared from the egg and ****
+                                             D
+
+sentence 6
+REF: the boy fell over the dinosaur came out of the egg and the boy fell over
+HYP: the boy fell  the the dinosaur came out of the egg and the boy fell over
+                     S                                                       
+
+sentence 7
+REF: the boy  hid from the dinosaur behind the tree
+HYP: the boy hide from the dinosaur behind the tree
+                S                                  
+
+sentence 8
+REF: dinosaur was looking for the boy
+HYP: dinosaur was looking for the boy
+                                     
+
+sentence 9
+REF: and then got sad because he couldn't find the boy
+HYP: and then got sad because he couldn't find the boy
+                                                      
+
+sentence 10
+REF: and then the boy looked at the dinosaur
+HYP: and then the boy looked at the dinosaur
+                                            
+
+sentence 11
+REF: and they patted him on the head
+HYP: and they hadn't him on the head
+                   S                
+
+sentence 12
+REF: and they fed him his milk
+HYP: and they fed him his milk
+                              
+
+sentence 13
+REF: and they stop laughing at the dinosaur
+HYP: and they stop laughing at the dinosaur
+                                           
+
+number of sentences: 13
+substitutions=10 deletions=2 insertions=3 hits=111
+
+mer=11.90%
+wil=19.22%
+wip=80.78%
+wer=12.20%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF: the boy was just riding his ****** skateboard
+HYP: the boy was just riding his escape      board
+                                      I          S
+
+sentence 2
+REF: the while the boy was riding ***  the skateboard he fell off and ***** bounced into an egg
+HYP: the while the boy was riding his cape      board he fell off and banks    thin   to an egg
+                                    I    S          S                     I       S    S       
+
+sentence 3
+REF: he looked to see what was inside of the egg egg
+HYP: he looked to say what was inside of the eeg ***
+                    S                          S   D
+
+sentence 4
+REF: while doing that the egg cracked open and he was like shocked
+HYP: while doing that the egg cracked open and he was like shocked
+                                                                  
+
+sentence 5
+REF: a dinosaur appeared from the egg and yeah
+HYP: a dinosaur appeared from the egg and ****
+                                             D
+
+sentence 6
+REF: the boy fell over the dinosaur came out of the egg and the boy fell over
+HYP: the boy fell  the the dinosaur came out of the egg and the boy fell over
+                     S                                                       
+
+sentence 7
+REF: the boy  hid from the dinosaur behind the tree
+HYP: the boy hide from the dinosaur behind the tree
+                S                                  
+
+sentence 8
+REF: dinosaur was looking for the boy
+HYP: dinosaur was looking for the boy
+                                     
+
+sentence 9
+REF: and then got sad because he couldn't find the boy
+HYP: and then got sad because he couldn't find the boy
+                                                      
+
+sentence 10
+REF: and then the boy looked at the dinosaur
+HYP: and then the boy looked at the dinosaur
+                                            
+
+sentence 11
+REF: and they patted him on the head
+HYP: and they hadn't him on the head
+                   S                
+
+sentence 12
+REF: and they fed him his milk
+HYP: and they fed him his milk
+                              
+
+sentence 13
+REF: and they stop laughing at the dinosaur
+HYP: and they stop laughing at the dinosaur
+                                           
+
+number of sentences: 13
+substitutions=10 deletions=2 insertions=3 hits=111
+
+mer=11.90%
+wil=19.22%
+wip=80.78%
+wer=12.20%

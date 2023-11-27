@@ -1,0 +1,198 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF:  hulk was riding backwards on   a skateboard and he hits  an egg
+HYP: haurk was hiding backwards on the    skabard and he hits and egg
+         S          S                S          S               S    
+
+sentence 2
+REF: he's curious to see what's inside the egg and listens to the egg
+HYP: he's curious to see  whats inside the egg  en litsens to the  eg
+                              S                  S       S          S
+
+sentence 3
+REF: the egg starts cracking near the  top and hulk is  scared by this
+HYP: the  eg  stars cracking near the tolp and  huk is skcared by this
+           S      S                      S        S          S        
+
+sentence 4
+REF: a dinosaur jumps out and  hulk  is scared
+HYP: a dinosaur jumps out and healk his    kid
+                                  S   S      S
+
+sentence 5
+REF: the dinosaur tries   to play with   hulk but  hulk is very scared
+HYP: the dinosaur tryes said play with healke but healk is very  skart
+                      S    S                S         S              S
+
+sentence 6
+REF:  hulk tries to hide from the dinosaur and is still very scared
+HYP: healk tryes to hide from the dinosaur and is still very scared
+         S     S                                                   
+
+sentence 7
+REF: the dinosaur  is looking  around for  hulk and he  can't find hulk
+HYP: but  dinosar was looking atround  fu healp and he coun't find help
+       S        S   S               S   S     S             S         S
+
+sentence 8
+REF: the dinosaur is sad
+HYP: the dinosaur ** sad
+                   D    
+
+sentence 9
+REF: hulk looks at the dinosaur and feels bad about this
+HYP: hauk looks at the dinosaur and feels bad about this
+        S                                               
+
+sentence 10
+REF:   hulk feeds the dinosaur ** the milk
+HYP: heaurk feeds the dinosaur of the milk
+          S                     I         
+
+sentence 11
+REF: laughing while the dinosuar  is drinking the milk
+HYP:  lauhing while the dinosaur was drinking the milk
+            S                  S   S                  
+
+number of sentences: 11
+substitutions=37 deletions=1 insertions=1 hits=72
+
+mer=35.14%
+wil=57.16%
+wip=42.84%
+wer=35.45%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF: hulk was riding backwards on   a skateboard and he hits  an egg
+HYP: hulk was riding backwards on the skateboard and he hits and egg
+                                    S                          S    
+
+sentence 2
+REF: he's curious to see what's inside the egg    and listens to the egg
+HYP: he's curious to see what's inside the egg aliens ******* to the egg
+                                                    S       D           
+
+sentence 3
+REF: the egg starts cracking near the top and hulk is scared by this
+HYP: the egg starts cracking near the top and hulk is scared by this
+                                                                    
+
+sentence 4
+REF: a dinosaur jumps out and hulk  is scared
+HYP: a dinosaur jumps out and hulk his    kid
+                                     S      S
+
+sentence 5
+REF: the dinosaur tries   to play with   hulk but hulk is very scared
+HYP: the dinosaur tries said play with healke but heal is very   scar
+                           S                S        S              S
+
+sentence 6
+REF: hulk tries to hide from the dinosaur and is still very scared
+HYP: hark tries to hide from the dinosaur and is still very scared
+        S                                                         
+
+sentence 7
+REF: the dinosaur  is looking around for hulk and he can't find hulk
+HYP: but dinosaur was looking around fur help and he can't find help
+       S            S                  S    S                      S
+
+sentence 8
+REF: the dinosaur   is sad
+HYP: the dinosaur said ***
+                     S   D
+
+sentence 9
+REF: hulk looks at the dinosaur and feels bad about this
+HYP: hulk looks at the dinosaur and feels bad about this
+                                                        
+
+sentence 10
+REF: hulk feeds the dinosaur ** the milk
+HYP: hulk feeds the dinosaur of the milk
+                              I         
+
+sentence 11
+REF: laughing while the dinosuar  is drinking the milk
+HYP: laughing while the dinosaur was drinking the milk
+                               S   S                  
+
+number of sentences: 11
+substitutions=18 deletions=2 insertions=1 hits=90
+
+mer=18.92%
+wil=32.44%
+wip=67.56%
+wer=19.09%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF: hulk was riding backwards on   a skateboard and he hits  an egg
+HYP:   he was hiding backwards on the skateboard and he hits and egg
+        S          S                S                          S    
+
+sentence 2
+REF: ** he's curious to see what's inside the egg    and listens to the egg
+HYP: he   's curious to see what's inside the egg aliens ******* to the egg
+      I    S                                           S       D           
+
+sentence 3
+REF: the egg starts cracking near the top and hulk is scared by this
+HYP: the egg  stars cracking near the top and hulk is scared by this
+                  S                                                 
+
+sentence 4
+REF: a dinosaur jumps out and hulk  is scared
+HYP: a dinosaur jumps out and  elk his    kid
+                                 S   S      S
+
+sentence 5
+REF: the dinosaur tries   to play with   hulk but hulk is very scared
+HYP: the dinosaur tries said play with healke but heal is very   scat
+                           S                S        S              S
+
+sentence 6
+REF:  hulk tries to hide from the dinosaur and is still very scared
+HYP: healk tries to hide from the dinosaur and is still very scared
+         S                                                         
+
+sentence 7
+REF: the dinosaur  is looking around  for hulk and he can't find hulk
+HYP: but dinosaur was looking around four help and he can't find help
+       S            S                   S    S                      S
+
+sentence 8
+REF: the dinosaur   is sad
+HYP: the dinosaur said ***
+                     S   D
+
+sentence 9
+REF: hulk looks at the dinosaur and feels bad about this
+HYP:  all looks at the dinosaur and feels bad about this
+        S                                               
+
+sentence 10
+REF: hulk feeds the dinosaur ** the milk
+HYP: hark feeds the dinosaur of the milk
+        S                     I         
+
+sentence 11
+REF: laughing while the dinosuar  is drinking the milk
+HYP: laughing while the dinosaur was drinking the milk
+                               S   S                  
+
+number of sentences: 11
+substitutions=25 deletions=2 insertions=2 hits=83
+
+mer=25.89%
+wil=43.07%
+wip=56.93%
+wer=26.36%

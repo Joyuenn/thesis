@@ -1,0 +1,2313 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF:               arrive very good so now i want you to tell me what happens in each picture
+HYP: eeeeeemooaeditewaepp **** **** ** *** * **** *** ** **** ** **** ******* ** **** *******
+                        S    D    D  D   D D    D   D  D    D  D    D       D  D    D       D
+
+sentence 2
+REF:    the         the      boy got touch the egg on the skateboard
+HYP: cotboy cutocheeggo scapebad *** ***** *** *** ** *** **********
+          S           S        S   D     D   D   D  D   D          D
+
+sentence 3
+REF:  the   boy hugs the egg
+HYP: eboy hugeg **** *** ***
+        S     S    D   D   D
+
+sentence 4
+REF:   the    boy hugged the egg
+HYP: teboy hueegg ****** *** ***
+         S      S      D   D   D
+
+sentence 5
+REF: and     it cracked
+HYP:  en crackt *******
+       S      S       D
+
+sentence 6
+REF:             the dinosaur camed out
+HYP: cedinosucameune ******** ***** ***
+                   S        D     D   D
+
+sentence 7
+REF:                  the dinosaur was licking the boy
+HYP: bediosaurwaleciteboy ******** *** ******* *** ***
+                        S        D   D       D   D   D
+
+sentence 8
+REF:           the boy was hiding
+HYP: opeubwashaing *** *** ******
+                 S   D   D      D
+
+sentence 9
+REF:           the dinosaur is upset
+HYP: dessauopcerte ******** ** *****
+                 S        D  D     D
+
+sentence 10
+REF:          the dinosaur is crying
+HYP: dodisaucrine ******** ** ******
+                S        D  D      D
+
+sentence 11
+REF:            the boy was laughing
+HYP: gebyaumlauthin *** *** ********
+                  S   D   D        D
+
+sentence 12
+REF:                the boy was patting the dinosaur
+HYP: jambcucibedinosaur *** *** ******* *** ********
+                      S   D   D       D   D        D
+
+sentence 13
+REF:                         the boy gave the his milk bottle to the dinosaur
+HYP: gmboaygvehismobultotoiosaur *** **** *** *** **** ****** ** *** ********
+                               S   D    D   D   D    D      D  D   D        D
+
+sentence 14
+REF:             the the boys are laughing
+HYP: texeboyxylathen *** **** *** ********
+                   S   D    D   D        D
+
+sentence 15
+REF:                       the boy was just riding his skateboard
+HYP: bebywascusridinioscapebat *** *** **** ****** *** **********
+                             S   D   D    D      D   D          D
+
+sentence 16
+REF:                                      the while the boy was riding the skateboard he fell off and bounced into an egg
+HYP: urwhilceboywaritinucahefellothobeintoaeg ***** *** *** *** ****** *** ********** ** **** *** *** ******* **** ** ***
+                                            S     D   D   D   D      D   D          D  D    D   D   D       D    D  D   D
+
+sentence 17
+REF: he  looked          to     see what was inside of the egg egg
+HYP: he lotocee wutwasincid opeeegg **** *** ****** ** *** *** ***
+              S           S       S    D   D      D  D   D   D   D
+
+sentence 18
+REF:       while doing   that             the egg cracked open and he was like shocked
+HYP: urwheldoing   tet eecrec opennealichocke *** ******* **** *** ** *** **** *******
+               S     S      S               S   D       D    D   D  D   D    D       D
+
+sentence 19
+REF:                        a dinosaur appeared from the egg and yeah
+HYP: erdinosauropeafhomeegane ******** ******** **** *** *** *** ****
+                            S        D        D    D   D   D   D    D
+
+sentence 20
+REF:                                           the boy fell over the dinosaur came out of the egg and the boy fell over
+HYP: thebfelloverumedinocaurcumtteegatebayfellever *** **** **** *** ******** **** *** ** *** *** *** *** *** **** ****
+                                                 S   D    D    D   D        D    D   D  D   D   D   D   D   D    D    D
+
+sentence 21
+REF:                           the boy hid from the dinosaur behind the tree
+HYP: bebayhifomedinosaurbehidetree *** *** **** *** ******** ****** *** ****
+                                 S   D   D    D   D        D      D   D    D
+
+sentence 22
+REF:               dinosaur was looking for the boy
+HYP: dinosaraslocingfeteboy *** ******* *** *** ***
+                          S   D       D   D   D   D
+
+sentence 23
+REF:                      and then got sad because he couldn't find the boy
+HYP: engutcecashcountpindeboy **** *** *** ******* ** ******** **** *** ***
+                            S    D   D   D       D  D        D    D   D   D
+
+sentence 24
+REF:                  and then the boy looked at the dinosaur
+HYP: athenboyloeedinosaur **** *** *** ****** ** *** ********
+                        S    D   D   D      D  D   D        D
+
+sentence 25
+REF:               and they patted him on the head
+HYP: amepetaimoterheag **** ****** *** ** *** ****
+                     S    D      D   D  D   D    D
+
+sentence 26
+REF:            and they fed him his milk
+HYP: teveahimhimike **** *** *** *** ****
+                  S    D   D   D   D    D
+
+sentence 27
+REF:                       and they stop laughing at the dinosaur
+HYP: teystatlauthingaedinosaur **** **** ******** ** *** ********
+                             S    D    D        D  D   D        D
+
+sentence 28
+REF:   the boy             is                       on the skateboard and he's rolling around the and is about to see the egg
+HYP: erboy  so scappateroling erouereisebouttoseeeeggp *** ********** *** **** ******* ****** *** *** ** ***** ** *** *** ***
+         S   S              S                        S   D          D   D    D       D      D   D   D  D     D  D   D   D   D
+
+sentence 29
+REF:               the the boy bumped into the egg
+HYP: uboybumpintoteegg *** *** ****** **** *** ***
+                     S   D   D      D    D   D   D
+
+sentence 30
+REF:                                the boy is listening to see if there is anything in the egg
+HYP: bboyeliscanigtoceethersenyphnginee *** ** ********* ** *** ** ***** ** ******** ** *** ***
+                                      S   D  D         D  D   D  D     D  D        D  D   D   D
+
+sentence 31
+REF:                        the egg is opening and the boy is surprised
+HYP: eregsophaningaboyicurprise *** ** ******* *** *** *** ** *********
+                              S   D  D       D   D   D   D  D         D
+
+sentence 32
+REF:                                the       boy is really surprised that a dinosaur came out of the egg
+HYP: heboyereallycurprisbeedinocaurcame outoteegg ** ****** ********* **** * ******** **** *** ** *** ***
+                                      S         S  D      D         D    D D        D    D   D  D   D   D
+
+sentence 33
+REF:                   the boy is scared of the dinosaur
+HYP: theboyascenoetinosaur *** ** ****** ** *** ********
+                         S   D  D      D  D   D        D
+
+sentence 34
+REF:                      the boy is hiding from the dinosaur
+HYP: beboyehidingfhomedinosar *** ** ****** **** *** ********
+                            S   D  D      D    D   D        D
+
+sentence 35
+REF:               the                     dinosaur            is is the boy the dinosaur is sad that the boy has has run away from him or her
+HYP: bedinosauricsebin btdinosauracthpeashahiroerun ewaythomhimor ** *** *** *** ******** ** *** **** *** *** *** *** *** **** **** *** ** ***
+                     S                            S             S  D   D   D   D        D  D   D    D   D   D   D   D   D    D    D   D  D   D
+
+sentence 36
+REF:                                the the the dinosaur is really sad and is lying down
+HYP: beediedinosaurisrealyscaaislindown *** *** ******** ** ****** *** *** ** ***** ****
+                                      S   D   D        D  D      D   D   D  D     D    D
+
+sentence 37
+REF: and
+HYP:  an
+       S
+
+sentence 38
+REF:                                              the the boy is thinking whether he should go over and say hello to the dinosaur
+HYP: erooboyichincinghaterhecugooveaseholocobodinosar *** *** ** ******** ******* ** ****** ** **** *** *** ***** ** *** ********
+                                                    S   D   D  D        D       D  D      D  D    D   D   D     D  D   D        D
+
+sentence 39
+REF: really
+HYP: brelyt
+          S
+
+sentence 40
+REF:                                     the the boy went to meet the dine dinosaur and see if it's ok
+HYP: thboywentomatethedineduinosaeracpitsoke *** *** **** ** **** *** **** ******** *** *** ** **** **
+                                           S   D   D    D  D    D   D    D        D   D   D  D    D  D
+
+sentence 41
+REF:                                  the boy is giving the dinosaur it's his baby bottle
+HYP: teboyigtinbugilosauritpehisbebybutto *** ** ****** *** ******** **** *** **** ******
+                                        S   D  D      D   D        D    D   D    D      D
+
+sentence 42
+REF:                                       the boy think thinks it's funny when the dinosaur is sucking from it
+HYP: teboychiethisetfunywhonedinocericecgfrome *** ***** ****** **** ***** **** *** ******** ** ******* **** **
+                                             S   D     D      D    D     D    D   D        D  D       D    D  D
+
+sentence 43
+REF:          hulk             was riding backwards on a skateboard and he hits an egg
+HYP: howaiingbecwa oascepopeehipse ****** ********* ** * ********** *** ** **** ** egg
+                 S               S      D         D  D D          D   D  D    D  D    
+
+sentence 44
+REF:                                 he's curious to see what's inside the egg and listens to the egg
+HYP: hscurotcewhatsincideegevmicnstoteegg ******* ** *** ****** ****** *** *** *** ******* ** *** ***
+                                        S       D  D   D      D      D   D   D   D       D  D   D   D
+
+sentence 45
+REF: the                          egg starts cracking near the top and hulk is scared by this
+HYP:   i estocrechootopadhocisscebiis ****** ******** **** *** *** *** **** ** ****** ** ****
+       S                            S      D        D    D   D   D   D    D  D      D  D    D
+
+sentence 46
+REF:                       a dinosaur jumps out and hulk is scared
+HYP: dinosaurcumsoutaohisceb ******** ***** *** *** **** ** ******
+                           S        D     D   D   D    D  D      D
+
+sentence 47
+REF:                                    the dinosaur tries to play with hulk but hulk is very scared
+HYP: dinosaurtrysceplawheacbuheocusveryscet ******** ***** ** **** **** **** *** **** ** **** ******
+                                          S        D     D  D    D    D    D   D    D  D    D      D
+
+sentence 48
+REF:                                 hulk tries to hide from the dinosaur and is still very scared
+HYP: hectrytohidthoedinosauradstiveryscep ***** ** **** **** *** ******** *** ** ***** **** ******
+                                        S     D  D    D    D   D        D   D  D     D    D      D
+
+sentence 49
+REF:              the            dinosaur is looking around for hulk and he can't find hulk
+HYP: budinoserasmocig eruforepaecopfhidep ** ******* ****** *** **** *** ** ***** **** ****
+                    S                   S  D       D      D   D    D   D  D     D    D    D
+
+sentence 50
+REF:          the dinosaur is sad
+HYP: dinosaurosad ******** ** ***
+                S        D  D   D
+
+sentence 51
+REF:                            hulk looks at the dinosaur and feels bad about this
+HYP: hoclosetedinocauradflbadboutcis ***** ** *** ******** *** ***** *** ***** ****
+                                   S     D  D   D        D   D     D   D     D    D
+
+sentence 52
+REF:                hulk feeds the dinosaur the milk
+HYP: hecgstdinosauroomik ***** *** ******** *** ****
+                       S     D   D        D   D    D
+
+sentence 53
+REF:                      laughing while the dinosuar is drinking the milk
+HYP: mauphonhiedinosauradrincoemok ***** *** ******** ** ******** *** ****
+                                 S     D   D        D  D        D   D    D
+
+sentence 54
+REF:    the            green        skined   baby    is riding a skateboard holding a bottle of milk
+HYP: urgren skebeabyesriting uscebadhoting bouttl omilk ****** * ********** ******* * ****** ** ****
+          S                S             S      S     S      D D          D       D D      D  D    D
+
+sentence 55
+REF:              the       green                    skined  baby is bouncing off the dinosaur egg holding the bottle of milk
+HYP: tergrinskinbebiy esbounching otedinoscaureghotinerbott omilk ** ******** *** *** ******** *** ******* *** ****** ** ****
+                    S           S                         S     S  D        D   D   D        D   D       D   D      D  D    D
+
+sentence 56
+REF:                 the                              green baby is holding the bottle of milk while listening inside the dinosaur egg
+HYP: grenbabyshotinebotl omiflowuerlitoninginscieedinosareg **** ** ******* *** ****** ** **** ***** ********* ****** *** ******** ***
+                       S                                  S    D  D       D   D      D  D    D     D         D      D   D        D   D
+
+sentence 57
+REF:                    the                     green baby is holding the bottle of milk while the dinosaur egg is hatching
+HYP: egrenbabyushotingbebut omililedinosaureiscatchin **** ** ******* *** ****** ** **** ***** *** ******** *** ** ********
+                          S                         S    D  D       D   D      D  D    D     D   D        D   D  D        D
+
+sentence 58
+REF:                    the                     green     baby is holding the bottle of milk while the dinosaur is poking his head out of the egg
+HYP: egreenbebyishotiebottl omicudinosaurespocingishe utoeregg ** ******* *** ****** ** **** ***** *** ******** ** ****** *** **** *** ** *** ***
+                          S                         S        S  D       D   D      D  D    D     D   D        D  D      D   D    D   D  D   D   D
+
+sentence 59
+REF:                  the           green               baby is holding the bottle of milk while the green dinosaur has jumped out of the egg
+HYP: turreebebeshtineboll omoclouburgreen dinosaurasjumpouoe eg ******* *** ****** ** **** ***** *** ***** ******** *** ****** *** ** *** ***
+                        S               S                  S  S       D   D      D  D    D     D   D     D        D   D      D   D  D   D   D
+
+sentence 60
+REF:                                                 the green baby is holding the bottle of milk and hiding behind the tree from the dinosaur
+HYP: egreenbaytotiebuloomilkahitinbehinetreethomdinosaur ***** **** ** ******* *** ****** ** **** *** ****** ****** *** **** **** *** ********
+                                                       S     D    D  D       D   D      D  D    D   D      D      D   D    D    D   D        D
+
+sentence 61
+REF:                        the green dinosaur is looking for the green baby
+HYP: egreedinosarlokibogrenbabi ***** ******** ** ******* *** *** ***** ****
+                              S     D        D  D       D   D   D     D    D
+
+sentence 62
+REF:                          the green dinosaur is on the ground being sad
+HYP: egredinosaurasongroudbingcad ***** ******** ** ** *** ****** ***** ***
+                                S     D        D  D  D   D      D     D   D
+
+sentence 63
+REF:                                          the green baby has second thoughts about playing with the dinosaur
+HYP: bgrenbabyhacecothoutseboutplayingwoedinosaur ***** **** *** ****** ******** ***** ******* **** *** ********
+                                                S     D    D   D      D        D     D       D    D   D        D
+
+sentence 64
+REF:                         the       green baby goes over to the green dinosaur and comforts him
+HYP: tegrebebygosvetoegredinocar acumpotshim **** **** **** ** *** ***** ******** *** ******** ***
+                               S           S    D    D    D  D   D     D        D   D        D   D
+
+sentence 65
+REF:                                          the green baby stuffs his bottle of milk into the green dinosaur's mouth
+HYP: tegreenbabiystushibolomiitotegredinosaumouth ***** **** ****** *** ****** ** **** **** *** ***** ********** *****
+                                                S     D    D      D   D      D  D    D    D   D     D          D     D
+
+sentence 66
+REF:                                                  the green baby is laughing while the green dinosaur has a bottle of milk in his mouth
+HYP: tegreenbabilauthinwhitegreedinosaurhaebolomocaismout ***** **** ** ******** ***** *** ***** ******** *** * ****** ** **** ** *** *****
+                                                        S     D    D  D        D     D   D     D        D   D D      D  D    D  D   D     D
+
+sentence 67
+REF:        he's skateboarding
+HYP: hiscetpaten *************
+               S             D
+
+sentence 68
+REF:     and then he finds an egg
+HYP: eenhepi   eg ** ***** ** ***
+           S    S  D     D  D   D
+
+sentence 69
+REF:                  he bumps into the egg and feels sad
+HYP: hebumpitoteeggapcab ***** **** *** *** *** ***** ***
+                       S     D    D   D   D   D     D   D
+
+sentence 70
+REF:             he hears what's inside the egg
+HYP: heheswatincide ***** ****** ****** *** ***
+                  S     D      D      D   D   D
+
+sentence 71
+REF: the          egg was cracking
+HYP:  te egascracchin *** ********
+       S            S   D        D
+
+sentence 72
+REF:                          he was surprised because the dinosaur came out
+HYP: hewacurpisbocasidinocaucmup *** ********* ******* *** ******** **** ***
+                               S   D         D       D   D        D    D   D
+
+sentence 73
+REF:                   he was sad that there was a dinosaur
+HYP: hewaclauteraodinosau *** *** **** ***** *** * ********
+                        S   D   D    D     D   D D        D
+
+sentence 74
+REF:              he hide behind the tree
+HYP: hecadbuineetree **** ****** *** ****
+                   S    D      D   D    D
+
+sentence 75
+REF:                      the dinosaur looks around for human feel sad
+HYP: bedinossaurloseroudvohim  afeecsa ***** ****** *** ***** **** ***
+                            S        S     D      D   D     D    D   D
+
+sentence 76
+REF:                  the dinosaur lies on the floor
+HYP: edinosaurlysonteflor ******** **** ** *** *****
+                        S        D    D  D   D     D
+
+sentence 77
+REF:        the baby feel sad
+HYP: debappheta **** **** ***
+              S    D    D   D
+
+sentence 78
+REF:             the baby wants to pet him
+HYP: tebebewattopuim **** ***** ** *** ***
+                   S    D     D  D   D   D
+
+sentence 79
+REF:           and then he feeds him his milk
+HYP: tenevaihismok **** ** ***** *** *** ****
+                 S    D  D     D   D   D    D
+
+sentence 80
+REF:           the baby feel happy
+HYP: tebetpyfhappy **** **** *****
+                 S    D    D     D
+
+sentence 81
+REF:      he     was on a skateboard
+HYP: hewason oscibat ** * **********
+           S       S  D D          D
+
+sentence 82
+REF:           he bumped into a egg
+HYP: hebumpitomeg ****** **** * ***
+                S      D    D D   D
+
+sentence 83
+REF:       the egg is hatching
+HYP: degiatche *** ** ********
+             S   D  D        D
+
+sentence 84
+REF:      there's a dinosaur
+HYP: desidinosaur * ********
+                S D        D
+
+sentence 85
+REF:           there's a dinosaur near him
+HYP: tocitinocaurahimb * ******** **** ***
+                     S D        D    D   D
+
+sentence 86
+REF:           he went away and hiding
+HYP: humomreehate **** **** *** ******
+                S    D    D   D      D
+
+sentence 87
+REF:             he's hiding behind a tree
+HYP: scotinbeineetree ****** ****** * ****
+                    S      D      D D    D
+
+sentence 88
+REF: he's sad
+HYP: ocad ***
+        S   D
+
+sentence 89
+REF:  he's lonely
+HYP: hxony ******
+         S      D
+
+sentence 90
+REF:                 the boy's sad that he made him sad
+HYP: teballcethehmetemca ***** *** **** ** **** *** ***
+                       S     D   D    D  D    D   D   D
+
+sentence 91
+REF:              he's calm making him calm down
+HYP: hiscumeehicumdown **** ****** *** **** ****
+                     S    D      D   D    D    D
+
+sentence 92
+REF:                 put his bottle in his mouth
+HYP: puhisbotainhismouth *** ****** ** *** *****
+                       S   D      D  D   D     D
+
+sentence 93
+REF:     he's laughing
+HYP: himarpan ********
+            S        D
+
+sentence 94
+REF:         there was a dinosaur
+HYP: deawaedinocar *** * ********
+                 S   D D        D
+
+sentence 95
+REF:            he was on the skateboard
+HYP: eoncosceeboad *** ** *** **********
+                 S   D  D   D          D
+
+sentence 96
+REF:             he was listening to the egg
+HYP: hewasupaitoeeg *** ********* ** *** ***
+                  S   D         D  D   D   D
+
+sentence 97
+REF:          the egg was cracking
+HYP: deegwaclocin *** *** ********
+                S   D   D        D
+
+sentence 98
+REF:               the dinosaur poke out his head
+HYP: dudinocapocuishea ******** **** *** *** ****
+                     S        D    D   D   D    D
+
+sentence 99
+REF:                        the dinosaur was about to lick him
+HYP: tedinosaurwasebouttolochim ******** *** ***** ** **** ***
+                              S        D   D     D  D    D   D
+
+sentence 100
+REF:        he was hiding
+HYP: hewamidin *** ******
+             S   D      D
+
+sentence 101
+REF:            the dinosaur was sad
+HYP: dedinosauraset ******** *** ***
+                  S        D   D   D
+
+sentence 102
+REF:            and the dinosaur was lying down
+HYP: eedioseraandin *** ******** *** ***** ****
+                  S   D        D   D     D    D
+
+sentence 103
+REF:        and        he was looking at the dinosaur
+HYP: ehwalocing eedinocap *** ******* ** *** ********
+              S         S   D       D  D   D        D
+
+sentence 104
+REF:                  he was touching the dinosaur
+HYP: hwatachenbedinosaur *** ******** *** ********
+                       S   D        D   D        D
+
+sentence 105
+REF:              and he feed the dinosaur his milk
+HYP: ehethegeetieosmo ** **** *** ******** *** ****
+                    S  D    D   D        D   D    D
+
+sentence 106
+REF:         and then he laugh
+HYP: atenhemauth **** ** *****
+               S    D  D     D
+
+sentence 107
+REF:                he is riding his skateboard
+HYP: herhidingiscpebad ** ****** *** **********
+                     S  D      D   D          D
+
+sentence 108
+REF:            he crashes      into the egg the dinosaur egg
+HYP: hecrachsintwo       t egudusegg *** *** *** ******** ***
+                 S       S         S   D   D   D        D   D
+
+sentence 109
+REF:             and then he got upset
+HYP: ethenhecocupset **** ** *** *****
+                   S    D  D   D     D
+
+sentence 110
+REF:                           then he listened to the egg when he fell off
+HYP: vhenhlistanetomeegghanefelloff ** ******** ** *** *** **** ** **** ***
+                                  S  D        D  D   D   D    D  D    D   D
+
+sentence 111
+REF:             and the egg started hatching
+HYP: aneesatehatchen *** *** ******* ********
+                   S   D   D       D        D
+
+sentence 112
+REF:                it started cracking and then
+HYP: itsoutcrckengamen ******* ******** *** ****
+                     S       D        D   D    D
+
+sentence 113
+REF:          he was shocked
+HYP: hewaschoccd *** *******
+               S   D       D
+
+sentence 114
+REF:   and                        then a little like dinosaur popped out of it
+HYP: ethen elittllikedinosaurpoppoutoe * ****** **** ******** ****** *** ** **
+         S                           S D      D    D        D      D   D  D  D
+
+sentence 115
+REF:                 scared and worried and he was confused
+HYP: sctdaworidahiwacompuse *** ******* *** ** *** ********
+                          S   D       D   D  D   D        D
+
+sentence 116
+REF:  and                    then the dinosaur just was hopped out of the egg
+HYP: ahen therdinosaurjwahopoutoe *** ******** **** *** ****** *** ** *** egg
+        S                       S   D        D    D   D      D   D  D   D    
+
+sentence 117
+REF:                    the boy's like startled to the ground
+HYP: turboyslihstottotecoun ***** **** ******** ** *** ******
+                          S     D    D        D  D   D      D
+
+sentence 118
+REF:                    and he ran and hid from the dinosaur
+HYP: aheranahitromedinosaur ** *** *** *** **** *** ********
+                          S  D   D   D   D    D   D        D
+
+sentence 119
+REF:                    cuz he thought the dinosaur would eat him
+HYP: cohefepbedinosarwudaem ** ******* *** ******** ***** *** ***
+                          S  D       D   D        D     D   D   D
+
+sentence 120
+REF:                                        but the dinosaur looked around and then he got sad that the guy left
+HYP: buttedinmosaurloeroudathenhegotsaopecaleat *** ******** ****** ****** *** **** ** *** *** **** *** *** ****
+                                              S   D        D      D      D   D    D  D   D   D    D   D   D    D
+
+sentence 121
+REF:            and that's          him      lying on the groung like being upset because
+HYP: athatshemlying   oner grounlikbing upcepbecas ** *** ****** **** ***** ***** *******
+                  S      S            S          S  D   D      D    D     D     D       D
+
+sentence 122
+REF:               he can't find his friend
+HYP: piecumpiteifrieg ***** **** *** ******
+                    S     D    D   D      D
+
+sentence 123
+REF:               and then the boy felt sorry
+HYP: ethenteboyfetsory **** *** *** **** *****
+                     S    D   D   D    D     D
+
+sentence 124
+REF:                           well he was hiding because the dinosaur was sad
+HYP: wellhewacidingbecasidinosarwca ** *** ****** ******* *** ******** *** ***
+                                  S  D   D      D       D   D        D   D   D
+
+sentence 125
+REF:                   and so he went over and petted the dinosaur
+HYP: acewanverapeoodinosar ** ** **** **** *** ****** *** ********
+                         S  D  D    D    D   D      D   D        D
+
+sentence 126
+REF:                       and gave the dinosaur some of his milk
+HYP: engevetedinosarcomohismik **** *** ******** **** ** *** ****
+                             S    D   D        D    D  D   D    D
+
+sentence 127
+REF:           he started laughing
+HYP: hexatlauphan ******* ********
+                S       D        D
+
+sentence 128
+REF:                because the dinosaur looked funny
+HYP: becausbdinosauroctfuny *** ******** ****** *****
+                          S   D        D      D     D
+
+sentence 129
+REF:            baby                   hulk was riding on a skateboard and then he crashed into an egg
+HYP: bebyhocwasriing onscepoetnhecruchinton *** ****** ** * ********** *** **** ** ******* **** ** egg
+                   S                      S   D      D  D D          D   D    D  D       D    D  D    
+
+sentence 130
+REF: he  hurt the egg
+HYP: he heade  eg ***
+            S   S   D
+
+sentence 131
+REF:             he put his ear up to it
+HYP: heputisearupto *** *** *** ** ** it
+                  S   D   D   D  D  D   
+
+sentence 132
+REF:              the egg started cracking
+HYP: teegstatecracken *** ******* ********
+                    S   D       D        D
+
+sentence 133
+REF:                             and the egg cracked and the dino baby dinosaur came out
+HYP: ecrecsaedinobabydinosaurcameout *** *** ******* *** *** **** **** ******** **** ***
+                                   S   D   D       D   D   D    D    D        D    D   D
+
+sentence 134
+REF:                          the baby dinosaur was excited when a
+HYP: bhebeabydinosaurwasexcitoone    o ******** *** ******* **** *
+                                S    S        D   D       D    D D
+
+sentence 135
+REF:   and                 went up to baby hulk but he was scared
+HYP: awent uptobebcocbuhewascet ** ** **** **** *** ** *** ******
+         S                    S  D  D    D    D   D  D   D      D
+
+sentence 136
+REF:                    so he ran and hid behind a tree
+HYP: soheranehibemineatree ** *** *** *** ****** * ****
+                         S  D   D   D   D      D D    D
+
+sentence 137
+REF:                        and the baby dinosaur didn't know where he was
+HYP: uebabydinocaurdinowhehewas *** **** ******** ****** **** ***** ** ***
+                              S   D    D        D      D    D     D  D   D
+
+sentence 138
+REF:        and then he was sad
+HYP: atanheacap **** ** *** ***
+              S    D  D   D   D
+
+sentence 139
+REF:                           the baby dino being sad made baby hulk sad
+HYP: bebebydinobingcemadebebyhocad **** **** ***** *** **** **** **** ***
+                                 S    D    D     D   D    D    D    D   D
+
+sentence 140
+REF:                                   so he went up to the dinosaur and petted him on the head
+HYP: sohewantuptotodinosaurapetoimoneheag ** **** ** ** *** ******** *** ****** *** ** *** ****
+                                        S  D    D  D  D   D        D   D      D   D  D   D    D
+
+sentence 141
+REF:             then gave him his bottle
+HYP: tengvhimhisbutto **** *** *** ******
+                    S    D   D   D      D
+
+sentence 142
+REF:          and then he found it funny
+HYP: eenheboubpuy **** ** ***** ** *****
+                S    D  D     D  D     D
+
+sentence 143
+REF:          the boy is on skateboard
+HYP: ebysoscetbat *** ** ** **********
+                S   D  D  D          D
+
+sentence 144
+REF:              the boy snare a dinosaur egg
+HYP: thebsnedinosareg *** ***** * ******** ***
+                    S   D     D D        D   D
+
+sentence 145
+REF: the         boy's touching the dinosaur egg
+HYP: teb cecaedinocare ******** *** ******** ***
+       S             S        D   D        D   D
+
+sentence 146
+REF:               the dinosaur egg is cracking open
+HYP: edinosaueisceeopo ******** *** ** ******** ****
+                     S        D   D  D        D    D
+
+sentence 147
+REF:         the dinosaur egg is opened
+HYP: emcegelopan ******** *** ** ******
+               S        D   D  D      D
+
+sentence 148
+REF:               the boy is hiding behind a tree
+HYP: teboyescotobeietw *** ** ****** ****** * ****
+                     S   D  D      D      D D    D
+
+sentence 149
+REF:               dinosaur is in there by himself
+HYP: dinosaisittherbhuselfe ** ** ***** ** *******
+                          S  D  D     D  D       D
+
+sentence 150
+REF:                the   dinosaur is still there by himself but on the floor
+HYP: bdinoscarastelmeby selbuoroar ** ***** ***** ** ******* *** ** *** *****
+                      S          S  D     D     D  D       D   D  D   D     D
+
+sentence 151
+REF:                  the boy is hiding behind a tree
+HYP: teboyacotobecotetwey *** ** ****** ****** * ****
+                        S   D  D      D      D D    D
+
+sentence 152
+REF:                       the boy is pet the dinosaur on the head
+HYP: teboyespalodilocaronbehea *** ** *** *** ******** ** *** ****
+                             S   D  D   D   D        D  D   D    D
+
+number of sentences: 152
+substitutions=204 deletions=1005 insertions=0 hits=6
+
+mer=99.51%
+wil=99.99%
+wip=0.01%
+wer=99.51%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF:      arrive very good so now i want you to tell me what happens in each picture
+HYP: eeroteahepp **** **** ** *** * **** *** ** **** ** **** ******* ** **** *******
+               S    D    D  D   D D    D   D  D    D  D    D       D  D    D       D
+
+sentence 2
+REF: the the boy        got    touch the egg on the skateboard
+HYP: but *** boy cutocheegg scapebad *** *** ** *** **********
+       S   D              S        S   D   D  D   D          D
+
+sentence 3
+REF: the boy hugs the egg
+HYP: *** boy huge *** ***
+       D        S   D   D
+
+sentence 4
+REF: the  boy hugged the egg
+HYP:  to huge ****** *** ***
+       S    S      D   D   D
+
+sentence 5
+REF: and    it cracked
+HYP:   a crack *******
+       S     S       D
+
+sentence 6
+REF:             the dinosaur camed out
+HYP: cedinosucameune ******** ***** ***
+                   S        D     D   D
+
+sentence 7
+REF: the dinosaur       was licking the boy
+HYP: *** dinosaur alecieboy ******* *** ***
+       D                  S       D   D   D
+
+sentence 8
+REF:          the boy was hiding
+HYP: oeubwashaing *** *** ******
+                S   D   D      D
+
+sentence 9
+REF:          the dinosaur is upset
+HYP: dessaopcerte ******** ** *****
+                S        D  D     D
+
+sentence 10
+REF: the dinosaur    is crying
+HYP: *** dinosaur crane ******
+       D              S      D
+
+sentence 11
+REF:           the boy was laughing
+HYP: beyaumlauthin *** *** ********
+                 S   D   D        D
+
+sentence 12
+REF:                the boy was patting the dinosaur
+HYP: jambcucibedinosaur *** *** ******* *** ********
+                      S   D   D       D   D        D
+
+sentence 13
+REF:                      the boy gave the his milk bottle to the dinosaur
+HYP: gmbygvhismobultotoiosaur *** **** *** *** **** ****** ** *** ********
+                            S   D    D   D   D    D      D  D   D        D
+
+sentence 14
+REF:           the the boys are laughing
+HYP: teboyxylathen *** **** *** ********
+                 S   D    D   D        D
+
+sentence 15
+REF:               the boy was just riding his skateboard
+HYP: bywacuridinisceat *** *** **** ****** *** **********
+                     S   D   D    D      D   D          D
+
+sentence 16
+REF:                    the      while the boy was riding the skateboard he fell off and bounced into an egg
+HYP: uhilceboyaritinchefell otobeitoeg *** *** *** ****** *** ********** ** **** *** *** ******* **** ** ***
+                          S          S   D   D   D      D   D          D  D    D   D   D       D    D  D   D
+
+sentence 17
+REF: he looked to see what was inside       of the egg egg
+HYP: he  loose ** *** what was inside opereegg *** *** ***
+             S  D   D                        S   D   D   D
+
+sentence 18
+REF: while doing      that       the   egg cracked open and he was like shocked
+HYP: while doing teteecrec openneali shock ******* **** *** ** *** **** *******
+                         S         S     S       D    D   D  D   D    D       D
+
+sentence 19
+REF: a dinosaur    appeared from the egg and yeah
+HYP: * dinosaur opeafhomeeg   ae *** *** *** ****
+     D                    S    S   D   D   D    D
+
+sentence 20
+REF:                                    the  boy fell over the dinosaur came out of the egg and the boy fell over
+HYP: thebfeloverumdinocaurcumteegatebayfell ever **** **** *** ******** **** *** ** *** *** *** *** *** **** ****
+                                          S    S    D    D   D        D    D   D  D   D   D   D   D   D    D    D
+
+sentence 21
+REF:                           the boy hid from the dinosaur behind the tree
+HYP: bebayhifomedinosaurbehidetree *** *** **** *** ******** ****** *** ****
+                                 S   D   D    D   D        D      D   D    D
+
+sentence 22
+REF:     dinosaur     was looking for the boy
+HYP: dinosaursing feteboy ******* *** *** ***
+                S       S       D   D   D   D
+
+sentence 23
+REF:                    and then got sad because he couldn't find the boy
+HYP: engucecascountpindeboy **** *** *** ******* ** ******** **** *** ***
+                          S    D   D   D       D  D        D    D   D   D
+
+sentence 24
+REF:                  and then the boy looked at the dinosaur
+HYP: athenboyloeedinosaur **** *** *** ****** ** *** ********
+                        S    D   D   D      D  D   D        D
+
+sentence 25
+REF:           and they patted him on the head
+HYP: epatimoteheag **** ****** *** ** *** ****
+                 S    D      D   D  D   D    D
+
+sentence 26
+REF:            and they fed him his milk
+HYP: teveahimhimike **** *** *** *** ****
+                  S    D   D   D   D    D
+
+sentence 27
+REF:             and       they stop laughing at the dinosaur
+HYP: theystatlauhing aedinosaur **** ******** ** *** ********
+                   S          S    D        D  D   D        D
+
+sentence 28
+REF: the boy is           on         the skateboard and he's rolling around the and is about to see the egg
+HYP:  er boy so scepteroling roueeboutto ********** *** **** ******* ****** *** *** ** ***** ** see *** egg
+       S      S            S           S          D   D    D       D      D   D   D  D     D  D       D    
+
+sentence 29
+REF:            the the boy bumped into the egg
+HYP: uboybumpintote *** *** ****** **** *** egg
+                  S   D   D      D    D   D    
+
+sentence 30
+REF:            the         boy is listening to see if there is anything in the egg
+HYP: boylisanigtoce tersenhngie ** ********* ** *** ** ***** ** ******** ** *** ***
+                  S           S  D         D  D   D  D     D  D        D  D   D   D
+
+sentence 31
+REF:       the           egg is opening and the boy is surprised
+HYP: reopening aboyacurprise ** ******* *** *** *** ** *********
+             S             S  D       D   D   D   D  D         D
+
+sentence 32
+REF: the boy            is      really surprised that a dinosaur came out     of the egg
+HYP: *** boy erealycurpris beedinocaur ********* **** * ******** came out oteegg *** ***
+       D                 S           S         D    D D        D               S   D   D
+
+sentence 33
+REF:                the boy is scared of the dinosaur
+HYP: theboyascoetinosar *** ** ****** ** *** ********
+                      S   D  D      D  D   D        D
+
+sentence 34
+REF:                     the boy is hiding from the dinosaur
+HYP: beboyehidinfhomedinosar *** ** ****** **** *** ********
+                           S   D  D      D    D   D        D
+
+sentence 35
+REF: the dinosaur             is           is         the boy the dinosaur is sad that the boy has has run away from him or her
+HYP: *** dinosaur serontdinosaur octahiroerun wayfomhimor *** *** ******** ** *** **** *** *** *** *** *** **** **** *** ** ***
+       D                       S            S           S   D   D        D  D   D    D   D   D   D   D   D    D    D   D  D   D
+
+sentence 36
+REF:                           the the the dinosaur is really sad and is lying down
+HYP: ediedinosaurisrealysaslindown *** *** ******** ** ****** *** *** ** ***** ****
+                                 S   D   D        D  D      D   D   D  D     D    D
+
+sentence 37
+REF: and
+HYP:  an
+       S
+
+sentence 38
+REF:                                       the the boy is thinking whether he should go over and say hello to the dinosaur
+HYP: eroboicincingatehecugooveaseolocobdinosar *** *** ** ******** ******* ** ****** ** **** *** *** ***** ** *** ********
+                                             S   D   D  D        D       D  D      D  D    D   D   D     D  D   D        D
+
+sentence 39
+REF: really
+HYP:   belt
+          S
+
+sentence 40
+REF:               the       the     boy went to meet the dine dinosaur and see if it's ok
+HYP: thboywentomatedin eduinosar acetoke **** ** **** *** **** ******** *** *** ** **** **
+                     S         S       S    D  D    D   D    D        D   D   D  D    D  D
+
+sentence 41
+REF:                              the boy is giving the dinosaur it's his baby bottle
+HYP: teboyigtinbugosaritpehisbeybutto *** ** ****** *** ******** **** *** **** ******
+                                    S   D  D      D   D        D    D   D    D      D
+
+sentence 42
+REF:           the               boy    think thinks it's funny when the dinosaur is sucking from it
+HYP: teboychiethis ifunywhonedinocer icecrome ****** **** ***** **** *** ******** ** ******* **** **
+                 S                 S        S      D    D     D    D   D        D  D       D    D  D
+
+sentence 43
+REF: hulk     was      riding backwards on a skateboard and he hits an egg
+HYP:   he waiting bwaoscepope      ipsa ** * ********** *** ** **** ** egg
+        S       S           S         S  D D          D   D  D    D  D    
+
+sentence 44
+REF:               he's    curious to see what's inside the egg and listens to the egg
+HYP: hscurotceatsincide eeocnstote ** *** ****** ****** *** *** *** ******* ** *** egg
+                      S          S  D   D      D      D   D   D   D       D  D   D    
+
+sentence 45
+REF: the          egg      starts cracking near the top and hulk is scared by this
+HYP:  he etocrechotop adhociscbis ******** **** *** *** *** **** ** ****** ** ****
+       S            S           S        D    D   D   D   D    D  D      D  D    D
+
+sentence 46
+REF:                      a dinosaur jumps out and hulk is scared
+HYP: dinosaurcumsutaohisceb ******** ***** *** *** **** ** ******
+                          S        D     D   D   D    D  D      D
+
+sentence 47
+REF: the dinosaur tries        to         play with hulk but hulk is very scared
+HYP: *** dinosaur   try ceplawhec butheeryscet **** **** *** **** ** **** ******
+       D              S         S            S    D    D   D    D  D    D      D
+
+sentence 48
+REF:                    hulk        tries to hide from the dinosaur and is still very scared
+HYP: hetrystohidthoedinosaur esteveryscep ** **** **** *** ******** *** ** ***** **** ******
+                           S            S  D    D    D   D        D   D  D     D    D      D
+
+sentence 49
+REF:              the        dinosaur is looking around for hulk and he can't find hulk
+HYP: budinoserasmocig euoepaecopfidep ** ******* ****** *** **** *** ** ***** **** ****
+                    S               S  D       D      D   D    D   D  D     D    D    D
+
+sentence 50
+REF:         the dinosaur is sad
+HYP: dinosaursad ******** ** ***
+               S        D  D   D
+
+sentence 51
+REF:            hulk        looks at the dinosaur and feels bad about this
+HYP: closetedinocaur adfbadbutcis ** *** ******** *** ***** *** ***** ****
+                   S            S  D   D        D   D     D   D     D    D
+
+sentence 52
+REF:             hulk feeds the dinosaur the milk
+HYP: ecgdinosauroomik ***** *** ******** *** ****
+                    S     D   D        D   D    D
+
+sentence 53
+REF:                  laughing while the dinosuar is drinking the milk
+HYP: mouthedinosauradrincoemok ***** *** ******** ** ******** *** ****
+                             S     D   D        D  D        D   D    D
+
+sentence 54
+REF: the green skined baby    is        riding a skateboard holding a bottle of milk
+HYP: her green   skin baby swing uscapadhoting * ********** ******* * bottle of milk
+       S            S          S             S D          D       D D               
+
+sentence 55
+REF: the         green      skined             baby          is bouncing off the dinosaur egg holding the bottle of milk
+HYP: the grinskinbebiy esbounching otedinosarehotin erbottomilk ******** *** *** ******** *** ******* *** ****** ** ****
+                     S           S                S           S        D   D   D        D   D       D   D      D  D    D
+
+sentence 56
+REF: the green      baby                   is       holding the bottle of milk while listening inside the dinosaur egg
+HYP: *** green bayshotin ebolomillourlitoning incitedinosar *** ****** ** **** ***** ********* ****** *** ******** egg
+       D               S                    S             S   D      D  D    D     D         D      D   D        D    
+
+sentence 57
+REF:            the green            baby        is holding the bottle of milk while the dinosaur egg is hatching
+HYP: grenbabyhoting   but omilhiedinosaur escatchin ******* *** ****** ** **** ***** *** ******** *** ** ********
+                  S     S               S         S       D   D      D  D    D     D   D        D   D  D        D
+
+sentence 58
+REF: the green baby is      holding the bottle of milk while the dinosaur           is   poking his head out of the egg
+HYP: *** green baby is hoibotlomicu *** ****** ** **** ***** *** dinosaur espocingishe utoeregg *** **** *** ** *** ***
+       D                          S   D      D  D    D     D   D                     S        S   D    D   D  D   D   D
+
+sentence 59
+REF:   the         green          baby is holding the bottle of milk while the green dinosaur        has jumped out of the egg
+HYP: there bebehtineboll omoclobugreen ** ******* *** ****** ** **** ***** *** ***** dinosaur asjumpouoe     eg *** ** *** ***
+         S             S             S  D       D   D      D  D    D     D   D     D                   S      S   D  D   D   D
+
+sentence 60
+REF:        the     green           baby               is holding the bottle of milk and hiding behind the tree from the dinosaur
+HYP: egreenbeby totiebulo omicahiinbehin etrethomdinosaur ******* *** ****** ** **** *** ****** ****** *** **** **** *** ********
+              S         S              S                S       D   D      D  D    D   D      D      D   D    D    D   D        D
+
+sentence 61
+REF:              the  green dinosaur is looking for the green baby
+HYP: egreedinosarloki pogrom ******** ** ******* *** *** ***** ****
+                    S      S        D  D       D   D   D     D    D
+
+sentence 62
+REF: the green dinosaur           is on the ground being sad
+HYP: *** green dinosaur isoroudbeing ca *** ****** ***** ***
+       D                           S  S   D      D     D   D
+
+sentence 63
+REF:                         the       green baby has second thoughts about playing with the dinosaur
+HYP: grebabyhcecothoutsebutplyin woedinosaur **** *** ****** ******** ***** ******* **** *** ********
+                               S           S    D   D      D        D     D       D    D   D        D
+
+sentence 64
+REF:          the         green        baby goes over to the green dinosaur and comforts him
+HYP: tegrebebygos vetogrdinocar acumpotshim **** **** ** *** ***** ******** *** ******** ***
+                S             S           S    D    D  D   D     D        D   D        D   D
+
+sentence 65
+REF:                the                 green baby stuffs his bottle of milk into the green dinosaur's mouth
+HYP: tegreenbabystusbol omittegredinosaumouth **** ****** *** ****** ** **** **** *** ***** ********** *****
+                      S                     S    D      D   D      D  D    D    D   D     D          D     D
+
+sentence 66
+REF:                                     the  green baby is laughing while the green dinosaur has a bottle of milk in his mouth
+HYP: tegebabilauthinwhitegredinosaaebolomoca ismout **** ** ******** ***** *** ***** ******** *** * ****** ** **** ** *** *****
+                                           S      S    D  D        D     D   D     D        D   D D      D  D    D  D   D     D
+
+sentence 67
+REF:        he's skateboarding
+HYP: hiscetpaten *************
+               S             D
+
+sentence 68
+REF:        and then he finds an egg
+HYP: eenhepiseg **** ** ***** ** ***
+              S    D  D     D  D   D
+
+sentence 69
+REF:          he   bumps into the egg and feels sad
+HYP: hebumpitote eggpcab **** *** *** *** ***** ***
+               S       S    D   D   D   D     D   D
+
+sentence 70
+REF:           he hears what's inside the egg
+HYP: hehewatincie ***** ****** ****** *** ***
+                S     D      D      D   D   D
+
+sentence 71
+REF: the         egg was cracking
+HYP: the egacracchin *** ********
+                   S   D        D
+
+sentence 72
+REF:                        he was surprised because the dinosaur came out
+HYP: hewacurpisbocasidinocaucm  up ********* ******* *** ******** **** ***
+                             S   S         D       D   D        D    D   D
+
+sentence 73
+REF:                  he was sad that there was a dinosaur
+HYP: heaclauteraodinosau *** *** **** ***** *** * ********
+                       S   D   D    D     D   D D        D
+
+sentence 74
+REF:             he hide behind the tree
+HYP: hecabuineetree **** ****** *** ****
+                  S    D      D   D    D
+
+sentence 75
+REF: the dinosaur looks     around    for human feel sad
+HYP: the dinosaur   los eroudvohim aversa ***** **** ***
+                      S          S      S     D    D   D
+
+sentence 76
+REF:              the dinosaur lies on the floor
+HYP: dinosaurysonflor ******** **** ** *** *****
+                    S        D    D  D   D     D
+
+sentence 77
+REF:     the baby feel sad
+HYP: bacheta **** **** ***
+           S    D    D   D
+
+sentence 78
+REF:             the baby wants to pet him
+HYP: tebebewattopuim **** ***** ** *** ***
+                   S    D     D  D   D   D
+
+sentence 79
+REF:       and then he feeds him his milk
+HYP: enveiimok **** ** ***** *** *** ****
+             S    D  D     D   D   D    D
+
+sentence 80
+REF:           the baby feel happy
+HYP: tebetpyfhappy **** **** *****
+                 S    D    D     D
+
+sentence 81
+REF:            he was on a skateboard
+HYP: hewaonoscibat *** ** * **********
+                 S   D  D D          D
+
+sentence 82
+REF:           he bumped into a egg
+HYP: hebumpitomeg ****** **** * ***
+                S      D    D D   D
+
+sentence 83
+REF:       the egg is hatching
+HYP: degeatche *** ** ********
+             S   D  D        D
+
+sentence 84
+REF:      there's a dinosaur
+HYP: desidinosaur * ********
+                S D        D
+
+sentence 85
+REF:       there's a dinosaur near him
+HYP: ticitinocaura * ******** **** him
+                 S D        D    D    
+
+sentence 86
+REF:          he went away and hiding
+HYP: humoreehate **** **** *** ******
+               S    D    D   D      D
+
+sentence 87
+REF:            he's hiding behind a tree
+HYP: cotinbeineetree ****** ****** * ****
+                   S      D      D D    D
+
+sentence 88
+REF: he's sad
+HYP: **** sad
+        D    
+
+sentence 89
+REF:  he's lonely
+HYP: honey ******
+         S      D
+
+sentence 90
+REF:             the boy's sad that he made him sad
+HYP: teballcethehmet   msa *** **** ** **** *** ***
+                   S     S   D    D  D    D   D   D
+
+sentence 91
+REF:            he's calm making him calm down
+HYP: hicumeehicmdown **** ****** *** **** ****
+                   S    D      D   D    D    D
+
+sentence 92
+REF:         put      his bottle in his mouth
+HYP: puhisbotain hismouth ****** ** *** *****
+               S        S      D  D   D     D
+
+sentence 93
+REF:     he's laughing
+HYP: himarpan ********
+            S        D
+
+sentence 94
+REF:         there was a dinosaur
+HYP: dehaaedinocar *** * ********
+                 S   D D        D
+
+sentence 95
+REF: he was on   the skateboard
+HYP:  a *** on tesco **********
+      S   D        S          D
+
+sentence 96
+REF:         he was listening to the egg
+HYP: heapitoeeg *** ********* ** *** ***
+              S   D         D  D   D   D
+
+sentence 97
+REF:         the egg was cracking
+HYP: deegaclocin *** *** ********
+               S   D   D        D
+
+sentence 98
+REF:              the dinosaur poke out his head
+HYP: dudinocapocuihea ******** **** *** *** ****
+                    S        D    D   D   D    D
+
+sentence 99
+REF: the dinosaur            was about to lick him
+HYP: the dinosaur waebuttolochim ***** ** **** ***
+                               S     D  D    D   D
+
+sentence 100
+REF: he was hiding
+HYP: he was hiding
+                  
+
+sentence 101
+REF:          the dinosaur was sad
+HYP: dinosauraset ******** *** ***
+                S        D   D   D
+
+sentence 102
+REF:    and the dinosaur was lying down
+HYP: edison *** ******** *** ***** ****
+          S   D        D   D     D    D
+
+sentence 103
+REF:        and        he was looking at the dinosaur
+HYP: ehealocing eedinocap *** ******* ** *** ********
+              S         S   D       D  D   D        D
+
+sentence 104
+REF:                he was touching the dinosaur
+HYP: watachenbdinosaur *** ******** *** ********
+                     S   D        D   D        D
+
+sentence 105
+REF:         and he feed the dinosaur his milk
+HYP: hethetieomo ** **** *** ******** *** ****
+               S  D    D   D        D   D    D
+
+sentence 106
+REF:        and then he laugh
+HYP: ebenemauth **** ** *****
+              S    D  D     D
+
+sentence 107
+REF:              he is riding his skateboard
+HYP: hridingiscpebad ** ****** *** **********
+                   S  D      D   D          D
+
+sentence 108
+REF: he crashes into the     egg the dinosaur egg
+HYP: he crashes into the edusegg *** ******** ***
+                               S   D        D   D
+
+sentence 109
+REF: and then        he got upset
+HYP:   a then hecuupset *** *****
+       S              S   D     D
+
+sentence 110
+REF:        then             he listened to the egg when he fell off
+HYP: venhlistane tomeeghanefell ******** ** *** *** **** ** **** off
+               S              S        D  D   D   D    D  D    D    
+
+sentence 111
+REF:          and the egg started hatching
+HYP: aneestatchen *** *** ******* ********
+                S   D   D       D        D
+
+sentence 112
+REF:           it started cracking and then
+HYP: isoutcrckeng     men ******** *** ****
+                S       S        D   D    D
+
+sentence 113
+REF: he was shocked
+HYP: he was    choc
+                  S
+
+sentence 114
+REF:            and then a little like dinosaur     popped out of it
+HYP: ethenelitllike **** * ****** **** dinosaur poppoutoet *** ** **
+                  S    D D      D    D                   S   D  D  D
+
+sentence 115
+REF:               scared and worried and he was confused
+HYP: staworidahiwacompuse *** ******* *** ** *** ********
+                        S   D       D   D  D   D        D
+
+sentence 116
+REF: and then the dinosaur       just was hopped out of the egg
+HYP:   a then the dinosaur jacopoutoe *** ****** *** ** *** egg
+       S                            S   D      D   D  D   D    
+
+sentence 117
+REF:        the boy's like startled to the ground
+HYP: turboyslih start **** ******** to the ground
+              S     S    D        D              
+
+sentence 118
+REF:                    and he ran and hid from the dinosaur
+HYP: aheranahitromedinosaur ** *** *** *** **** *** ********
+                          S  D   D   D   D    D   D        D
+
+sentence 119
+REF:                   cuz he thought the dinosaur would eat him
+HYP: cohefepbedinosarwuaem ** ******* *** ******** ***** *** ***
+                         S  D       D   D        D     D   D   D
+
+sentence 120
+REF:           but          the        dinosaur looked around and then he got sad that the guy left
+HYP: buttedimosaur loeroudathen hegotsaopealeat ****** ****** *** **** ** *** *** **** *** *** ****
+                 S            S               S      D      D   D    D  D   D   D    D   D   D    D
+
+sentence 121
+REF:        and that's         him      lying on the groung like being upset because
+HYP: attemlying    one grounikbing upcepbecas ** *** ****** **** ***** ***** *******
+              S      S           S          S  D   D      D    D     D     D       D
+
+sentence 122
+REF:            he can't find his friend
+HYP: pecpiteifrieg ***** **** *** ******
+                 S     D    D   D      D
+
+sentence 123
+REF:               and then the boy felt sorry
+HYP: ethenteboyfetsory **** *** *** **** *****
+                     S    D   D   D    D     D
+
+sentence 124
+REF:                           well he was hiding because the dinosaur was sad
+HYP: wellhewacidingbecasidinosarwca ** *** ****** ******* *** ******** *** ***
+                                  S  D   D      D       D   D        D   D   D
+
+sentence 125
+REF:                   and so he went over and petted the dinosaur
+HYP: acewaverapeoodinosaur ** ** **** **** *** ****** *** ********
+                         S  D  D    D    D   D      D   D        D
+
+sentence 126
+REF:               and   gave the dinosaur some of his milk
+HYP: engevtedinosarcom ohsmik *** ******** **** ** *** ****
+                     S      S   D        D    D  D   D    D
+
+sentence 127
+REF:          he started laughing
+HYP: hecatlaphan ******* ********
+               S       D        D
+
+sentence 128
+REF:        because the dinosaur looked funny
+HYP: becausdinosaur oct ******** ****** funny
+                  S   S        D      D      
+
+sentence 129
+REF:            baby        hulk       was riding on a skateboard and then he crashed into an egg
+HYP: bebyhocwasriing oscepoetnhe crushinto ****** ** * ********** *** **** ** ******* **** ** egg
+                   S           S         S      D  D D          D   D    D  D       D    D  D    
+
+sentence 130
+REF: he hurt the egg
+HYP: he  had the egg
+           S        
+
+sentence 131
+REF: he put his ear   up to it
+HYP: he put his ear upto ** it
+                       S  D   
+
+sentence 132
+REF: the    egg started cracking
+HYP: the estate ******* cracking
+              S       D         
+
+sentence 133
+REF:                          and the egg cracked and the dino baby dinosaur came out
+HYP: ecrecsaedinobabydinosaurcame *** *** ******* *** *** **** **** ******** **** out
+                                S   D   D       D   D   D    D    D        D    D    
+
+sentence 134
+REF:               the       baby dinosaur was excited when a
+HYP: berbaydinosaurwas excitooneo ******** *** ******* **** *
+                     S          S        D   D       D    D D
+
+sentence 135
+REF:  and                 went up to baby hulk but he was scared
+HYP: ewan uptobebcocbuhewascet ** ** **** **** *** ** *** ******
+        S                    S  D  D    D    D   D  D   D      D
+
+sentence 136
+REF:              so    he ran and hid behind a tree
+HYP: soheranhibemine etree *** *** *** ****** * ****
+                   S     S   D   D   D      D D    D
+
+sentence 137
+REF:                     and the baby dinosaur didn't know where he was
+HYP: ubabydiocardinowhehewas *** **** ******** ****** **** ***** ** ***
+                           S   D    D        D      D    D     D  D   D
+
+sentence 138
+REF:        and then he was sad
+HYP: atanheacap **** ** *** ***
+              S    D  D   D   D
+
+sentence 139
+REF:                          the baby dino being sad made baby hulk sad
+HYP: bebebyinobingcemadebebyhocad **** **** ***** *** **** **** **** ***
+                                S    D    D     D   D    D    D    D   D
+
+sentence 140
+REF:                     so             he went up to the dinosaur and petted him on the head
+HYP: sohewantuptotodinosaur apetoimoneheag **** ** ** *** ******** *** ****** *** ** *** ****
+                          S              S    D  D  D   D        D   D      D   D  D   D    D
+
+sentence 141
+REF:             then gave him his bottle
+HYP: tengvhimhisbutto **** *** *** ******
+                    S    D   D   D      D
+
+sentence 142
+REF:       and then he found it funny
+HYP: eenheboub  bay ** ***** ** *****
+             S    S  D     D  D     D
+
+sentence 143
+REF:         the boy is on skateboard
+HYP: ebooscetbat *** ** ** **********
+               S   D  D  D          D
+
+sentence 144
+REF:          the boy snare a dinosaur egg
+HYP: tbsdinosareg *** ***** * ******** ***
+                S   D     D D        D   D
+
+sentence 145
+REF: the        boy's touching the dinosaur egg
+HYP: deb cecedinocare ******** *** ******** ***
+       S            S        D   D        D   D
+
+sentence 146
+REF:         the dinosaur egg is cracking open
+HYP: dinosaeeopo ******** *** ** ******** ****
+               S        D   D  D        D    D
+
+sentence 147
+REF:        the dinosaur egg is opened
+HYP: mcregelpan ******** *** ** ******
+              S        D   D  D      D
+
+sentence 148
+REF: the boy      is hiding behind a tree
+HYP: *** boy isotope ****** ****** * ****
+       D           S      D      D D    D
+
+sentence 149
+REF:     dinosaur       is in there by himself
+HYP: dinosaitther bhuselfe ** ***** ** *******
+                S        S  D     D  D       D
+
+sentence 150
+REF: the dinosaur               is still there by himself but on the floor
+HYP: *** dinosaur stenebyselbuoroa ***** ***** ** ******* *** ** *** *****
+       D                         S     D     D  D       D   D  D   D     D
+
+sentence 151
+REF:     the boy is hiding behind a tree
+HYP: boycott *** ** ****** ****** * ****
+           S   D  D      D      D D    D
+
+sentence 152
+REF:                   the boy is pet the dinosaur on the head
+HYP: boyespaodilocaonbehea *** ** *** *** ******** ** *** ****
+                         S   D  D   D   D        D  D   D    D
+
+number of sentences: 152
+substitutions=243 deletions=893 insertions=0 hits=79
+
+mer=93.50%
+wil=98.40%
+wip=1.60%
+wer=93.50%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF:      arrive very good so now i want you to tell me what happens in each picture
+HYP: eeroteahepp **** **** ** *** * **** *** ** **** ** **** ******* ** **** *******
+               S    D    D  D   D D    D   D  D    D  D    D       D  D    D       D
+
+sentence 2
+REF: the the boy         got    touch the egg on the skateboard
+HYP: but *** boy cutocheeggo scapebad *** *** ** *** **********
+       S   D               S        S   D   D  D   D          D
+
+sentence 3
+REF: the boy hugs the egg
+HYP: *** boy huge *** ***
+       D        S   D   D
+
+sentence 4
+REF: the  boy hugged the egg
+HYP:  to huge ****** *** ***
+       S    S      D   D   D
+
+sentence 5
+REF: and    it cracked
+HYP:   a crack *******
+       S     S       D
+
+sentence 6
+REF:             the dinosaur camed out
+HYP: cedinosucameune ******** ***** ***
+                   S        D     D   D
+
+sentence 7
+REF: the dinosaur       was licking the boy
+HYP: *** dinosaur alecieboy ******* *** ***
+       D                  S       D   D   D
+
+sentence 8
+REF:          the boy was hiding
+HYP: oeubwashaing *** *** ******
+                S   D   D      D
+
+sentence 9
+REF:          the dinosaur is upset
+HYP: dessaopcerte ******** ** *****
+                S        D  D     D
+
+sentence 10
+REF: the dinosaur    is crying
+HYP: *** dinosaur crane ******
+       D              S      D
+
+sentence 11
+REF:           the boy was laughing
+HYP: beyaumlauthin *** *** ********
+                 S   D   D        D
+
+sentence 12
+REF:                the boy was patting the dinosaur
+HYP: jambcucibedinosaur *** *** ******* *** ********
+                      S   D   D       D   D        D
+
+sentence 13
+REF:                      the boy gave the his milk bottle to the dinosaur
+HYP: gmbygvhismobultotoiosaur *** **** *** *** **** ****** ** *** ********
+                            S   D    D   D   D    D      D  D   D        D
+
+sentence 14
+REF:           the the boys are laughing
+HYP: teboyxylathen *** **** *** ********
+                 S   D    D   D        D
+
+sentence 15
+REF:               the boy was just riding his skateboard
+HYP: bywacuridinisceat *** *** **** ****** *** **********
+                     S   D   D    D      D   D          D
+
+sentence 16
+REF:                    the      while the boy was riding the skateboard he fell off and bounced into an egg
+HYP: uhilceboyaritinchefell otobeitoeg *** *** *** ****** *** ********** ** **** *** *** ******* **** ** ***
+                          S          S   D   D   D      D   D          D  D    D   D   D       D    D  D   D
+
+sentence 17
+REF: he looked to see what was inside       of the egg egg
+HYP: he  loose ** *** what was inside opereegg *** *** ***
+             S  D   D                        S   D   D   D
+
+sentence 18
+REF: while doing      that       the   egg cracked open and he was like shocked
+HYP: while doing teteecrec openneali shock ******* **** *** ** *** **** *******
+                         S         S     S       D    D   D  D   D    D       D
+
+sentence 19
+REF: a dinosaur    appeared from the egg and yeah
+HYP: * dinosaur opeafhomeeg   ae *** *** *** ****
+     D                    S    S   D   D   D    D
+
+sentence 20
+REF:                                    the  boy fell over the dinosaur came out of the egg and the boy fell over
+HYP: thebfeloverumdinocaurcumteegatebayfell ever **** **** *** ******** **** *** ** *** *** *** *** *** **** ****
+                                          S    S    D    D   D        D    D   D  D   D   D   D   D   D    D    D
+
+sentence 21
+REF:                           the boy hid from the dinosaur behind the tree
+HYP: bebayhifomedinosaurbehidetree *** *** **** *** ******** ****** *** ****
+                                 S   D   D    D   D        D      D   D    D
+
+sentence 22
+REF:     dinosaur     was looking for the boy
+HYP: dinosaursing feteboy ******* *** *** ***
+                S       S       D   D   D   D
+
+sentence 23
+REF:                    and then got sad because he couldn't find the boy
+HYP: engucecascountpindeboy **** *** *** ******* ** ******** **** *** ***
+                          S    D   D   D       D  D        D    D   D   D
+
+sentence 24
+REF:                  and then the boy looked at the dinosaur
+HYP: athenboyloeedinosaur **** *** *** ****** ** *** ********
+                        S    D   D   D      D  D   D        D
+
+sentence 25
+REF:           and they patted him on the head
+HYP: epatimoteheag **** ****** *** ** *** ****
+                 S    D      D   D  D   D    D
+
+sentence 26
+REF:            and they fed him his milk
+HYP: teveahimhimike **** *** *** *** ****
+                  S    D   D   D   D    D
+
+sentence 27
+REF:             and       they stop laughing at the dinosaur
+HYP: theystatlauhing aedinosaur **** ******** ** *** ********
+                   S          S    D        D  D   D        D
+
+sentence 28
+REF: the boy is           on         the skateboard and he's rolling around the and is about to see the egg
+HYP:  er boy so scepteroling roueeboutto ********** *** **** ******* ****** *** *** ** ***** ** see *** egg
+       S      S            S           S          D   D    D       D      D   D   D  D     D  D       D    
+
+sentence 29
+REF:            the the boy bumped into the egg
+HYP: uboybumpintote *** *** ****** **** *** egg
+                  S   D   D      D    D   D    
+
+sentence 30
+REF:            the         boy is listening to see if there is anything in the egg
+HYP: boylisanigtoce tersenhngie ** ********* ** *** ** ***** ** ******** ** *** ***
+                  S           S  D         D  D   D  D     D  D        D  D   D   D
+
+sentence 31
+REF:       the           egg is opening and the boy is surprised
+HYP: reopening aboyacurprise ** ******* *** *** *** ** *********
+             S             S  D       D   D   D   D  D         D
+
+sentence 32
+REF: the boy            is      really surprised that a dinosaur came out     of the egg
+HYP: *** boy erealycurpris beedinocaur ********* **** * ******** came out oteegg *** ***
+       D                 S           S         D    D D        D               S   D   D
+
+sentence 33
+REF:                the boy is scared of the dinosaur
+HYP: theboyascoetinosar *** ** ****** ** *** ********
+                      S   D  D      D  D   D        D
+
+sentence 34
+REF:                     the boy is hiding from the dinosaur
+HYP: beboyehidinfhomedinosar *** ** ****** **** *** ********
+                           S   D  D      D    D   D        D
+
+sentence 35
+REF: the dinosaur             is           is         the boy the dinosaur is sad that the boy has has run away from him or her
+HYP: *** dinosaur serontdinosaur octahiroerun wayfomhimor *** *** ******** ** *** **** *** *** *** *** *** **** **** *** ** ***
+       D                       S            S           S   D   D        D  D   D    D   D   D   D   D   D    D    D   D  D   D
+
+sentence 36
+REF:                           the the the dinosaur is really sad and is lying down
+HYP: ediedinosaurisrealysaslindown *** *** ******** ** ****** *** *** ** ***** ****
+                                 S   D   D        D  D      D   D   D  D     D    D
+
+sentence 37
+REF: and
+HYP:  an
+       S
+
+sentence 38
+REF:                                       the the boy is thinking whether he should go over and say hello to the dinosaur
+HYP: eroboicincingatehecugooveaseolocobdinosar *** *** ** ******** ******* ** ****** ** **** *** *** ***** ** *** ********
+                                             S   D   D  D        D       D  D      D  D    D   D   D     D  D   D        D
+
+sentence 39
+REF: really
+HYP:   belt
+          S
+
+sentence 40
+REF:               the       the     boy went to meet the dine dinosaur and see if it's ok
+HYP: thboywentomatedin eduinosar acetoke **** ** **** *** **** ******** *** *** ** **** **
+                     S         S       S    D  D    D   D    D        D   D   D  D    D  D
+
+sentence 41
+REF:                              the boy is giving the dinosaur it's his baby bottle
+HYP: teboyigtinbugosaritpehisbeybutto *** ** ****** *** ******** **** *** **** ******
+                                    S   D  D      D   D        D    D   D    D      D
+
+sentence 42
+REF:           the               boy    think thinks it's funny when the dinosaur is sucking from it
+HYP: teboychiethis ifunywhonedinocer icecrome ****** **** ***** **** *** ******** ** ******* **** **
+                 S                 S        S      D    D     D    D   D        D  D       D    D  D
+
+sentence 43
+REF: hulk     was      riding backwards on a skateboard and he hits an egg
+HYP:   he waiting bwaoscepope      ipsa ** * ********** *** ** **** ** egg
+        S       S           S         S  D D          D   D  D    D  D    
+
+sentence 44
+REF:               he's    curious to see what's inside the egg and listens to the egg
+HYP: hscurotceatsincide eeocnstote ** *** ****** ****** *** *** *** ******* ** *** egg
+                      S          S  D   D      D      D   D   D   D       D  D   D    
+
+sentence 45
+REF: the           egg      starts cracking near the top and hulk is scared by this
+HYP:   i estocrechotop adhociscbis ******** **** *** *** *** **** ** ****** ** ****
+       S             S           S        D    D   D   D   D    D  D      D  D    D
+
+sentence 46
+REF:                      a dinosaur jumps out and hulk is scared
+HYP: dinosaurcumsutaohisceb ******** ***** *** *** **** ** ******
+                          S        D     D   D   D    D  D      D
+
+sentence 47
+REF: the dinosaur tries        to         play with hulk but hulk is very scared
+HYP: *** dinosaur   try ceplawhec butheeryscet **** **** *** **** ** **** ******
+       D              S         S            S    D    D   D    D  D    D      D
+
+sentence 48
+REF:                    hulk        tries to hide from the dinosaur and is still very scared
+HYP: hetrystohidthoedinosaur esteveryscep ** **** **** *** ******** *** ** ***** **** ******
+                           S            S  D    D    D   D        D   D  D     D    D      D
+
+sentence 49
+REF:              the        dinosaur is looking around for hulk and he can't find hulk
+HYP: budinoserasmocig euoepaecopfidep ** ******* ****** *** **** *** ** ***** **** ****
+                    S               S  D       D      D   D    D   D  D     D    D    D
+
+sentence 50
+REF:         the dinosaur is sad
+HYP: dinosaursad ******** ** ***
+               S        D  D   D
+
+sentence 51
+REF:            hulk        looks at the dinosaur and feels bad about this
+HYP: closetedinocaur adfbadbutcis ** *** ******** *** ***** *** ***** ****
+                   S            S  D   D        D   D     D   D     D    D
+
+sentence 52
+REF:             hulk feeds the dinosaur the milk
+HYP: ecgdinosauroomik ***** *** ******** *** ****
+                    S     D   D        D   D    D
+
+sentence 53
+REF:                  laughing while the dinosuar is drinking the milk
+HYP: mouthedinosauradrincoemok ***** *** ******** ** ******** *** ****
+                             S     D   D        D  D        D   D    D
+
+sentence 54
+REF: the green skined baby    is        riding a skateboard holding a bottle of milk
+HYP: her green   skin baby swing uscapadhoting * ********** ******* * bottle of milk
+       S            S          S             S D          D       D D               
+
+sentence 55
+REF: the         green      skined             baby          is bouncing off the dinosaur egg holding the bottle of milk
+HYP: the grinskinbebiy esbounching otedinosarehotin erbottomilk ******** *** *** ******** *** ******* *** ****** ** ****
+                     S           S                S           S        D   D   D        D   D       D   D      D  D    D
+
+sentence 56
+REF: the green baby         is         holding           the bottle of milk while listening inside the dinosaur egg
+HYP: *** green baby shotinebol omilourlitoning incitedinosar ****** ** **** ***** ********* ****** *** ******** egg
+       D                     S               S             S      D  D    D     D         D      D   D        D    
+
+sentence 57
+REF:            the green            baby        is holding the bottle of milk while the dinosaur egg is hatching
+HYP: grenbabyhoting   but omilhiedinosaur escatchin ******* *** ****** ** **** ***** *** ******** *** ** ********
+                  S     S               S         S       D   D      D  D    D     D   D        D   D  D        D
+
+sentence 58
+REF: the green baby is      holding the bottle of milk while the dinosaur           is   poking his head out of the egg
+HYP: *** green baby is hoibotlomicu *** ****** ** **** ***** *** dinosaur espocingishe utoeregg *** **** *** ** *** ***
+       D                          S   D      D  D    D     D   D                     S        S   D    D   D  D   D   D
+
+sentence 59
+REF:   the         green          baby is holding the bottle of milk while the green dinosaur        has jumped out of the egg
+HYP: there bebehtineboll omoclobugreen ** ******* *** ****** ** **** ***** *** ***** dinosaur asjumpouoe     eg *** ** *** ***
+         S             S             S  D       D   D      D  D    D     D   D     D                   S      S   D  D   D   D
+
+sentence 60
+REF:        the     green           baby               is holding the bottle of milk and hiding behind the tree from the dinosaur
+HYP: egreenbeby totiebulo omicahiinbehin etrethomdinosaur ******* *** ****** ** **** *** ****** ****** *** **** **** *** ********
+              S         S              S                S       D   D      D  D    D   D      D      D   D    D    D   D        D
+
+sentence 61
+REF:              the  green dinosaur is looking for the green baby
+HYP: egreedinosarloki pogrom ******** ** ******* *** *** ***** ****
+                    S      S        D  D       D   D   D     D    D
+
+sentence 62
+REF: the green dinosaur           is on the ground being sad
+HYP: *** green dinosaur isoroudbeing ca *** ****** ***** ***
+       D                           S  S   D      D     D   D
+
+sentence 63
+REF:                         the       green baby has second thoughts about playing with the dinosaur
+HYP: grebabyhcecothoutsebutplyin woedinosaur **** *** ****** ******** ***** ******* **** *** ********
+                               S           S    D   D      D        D     D       D    D   D        D
+
+sentence 64
+REF:          the         green        baby goes over to the green dinosaur and comforts him
+HYP: tegrebebygos vetogrdinocar acumpotshim **** **** ** *** ***** ******** *** ******** ***
+                S             S           S    D    D  D   D     D        D   D        D   D
+
+sentence 65
+REF:                the                 green baby stuffs his bottle of milk into the green dinosaur's mouth
+HYP: tegreenbabystusbol omittegredinosaumouth **** ****** *** ****** ** **** **** *** ***** ********** *****
+                      S                     S    D      D   D      D  D    D    D   D     D          D     D
+
+sentence 66
+REF:                                     the  green baby is laughing while the green dinosaur has a bottle of milk in his mouth
+HYP: tegebabilauthinwhitegredinosaaebolomoca ismout **** ** ******** ***** *** ***** ******** *** * ****** ** **** ** *** *****
+                                           S      S    D  D        D     D   D     D        D   D D      D  D    D  D   D     D
+
+sentence 67
+REF:        he's skateboarding
+HYP: hiscetpaten *************
+               S             D
+
+sentence 68
+REF:        and then he finds an egg
+HYP: eenhepiseg **** ** ***** ** ***
+              S    D  D     D  D   D
+
+sentence 69
+REF:          he   bumps into the egg and feels sad
+HYP: hebumpitote eggpcab **** *** *** *** ***** ***
+               S       S    D   D   D   D     D   D
+
+sentence 70
+REF:           he hears what's inside the egg
+HYP: hehewatincie ***** ****** ****** *** ***
+                S     D      D      D   D   D
+
+sentence 71
+REF: the         egg was cracking
+HYP: the egacracchin *** ********
+                   S   D        D
+
+sentence 72
+REF:                        he was surprised because the dinosaur came out
+HYP: hewacurpisbocasidinocaucm  up ********* ******* *** ******** **** ***
+                             S   S         D       D   D        D    D   D
+
+sentence 73
+REF:                  he was sad that there was a dinosaur
+HYP: heaclauteraodinosau *** *** **** ***** *** * ********
+                       S   D   D    D     D   D D        D
+
+sentence 74
+REF:             he hide behind the tree
+HYP: hecabuineetree **** ****** *** ****
+                  S    D      D   D    D
+
+sentence 75
+REF: the dinosaur         looks around for human feel sad
+HYP: the dinosaur loseroudvohim aversa *** ***** **** ***
+                              S      S   D     D    D   D
+
+sentence 76
+REF:              the dinosaur lies on the floor
+HYP: dinosaurysonflor ******** **** ** *** *****
+                    S        D    D  D   D     D
+
+sentence 77
+REF:     the baby feel sad
+HYP: bacheta **** **** ***
+           S    D    D   D
+
+sentence 78
+REF:             the baby wants to pet him
+HYP: tebebewattopuim **** ***** ** *** ***
+                   S    D     D  D   D   D
+
+sentence 79
+REF: and      then he feeds him his milk
+HYP: ten eveihimok ** ***** *** *** ****
+       S         S  D     D   D   D    D
+
+sentence 80
+REF:           the baby feel happy
+HYP: tebetpyfhappy **** **** *****
+                 S    D    D     D
+
+sentence 81
+REF:            he was on a skateboard
+HYP: hewaonoscibat *** ** * **********
+                 S   D  D D          D
+
+sentence 82
+REF:           he bumped into a egg
+HYP: hebumpitomeg ****** **** * ***
+                S      D    D D   D
+
+sentence 83
+REF:       the egg is hatching
+HYP: degeatche *** ** ********
+             S   D  D        D
+
+sentence 84
+REF:      there's a dinosaur
+HYP: desidinosaur * ********
+                S D        D
+
+sentence 85
+REF:       there's a dinosaur near him
+HYP: ticitinocaura * ******** **** him
+                 S D        D    D    
+
+sentence 86
+REF:          he went away and hiding
+HYP: humoreehate **** **** *** ******
+               S    D    D   D      D
+
+sentence 87
+REF:            he's hiding behind a tree
+HYP: cotinbeineetree ****** ****** * ****
+                   S      D      D D    D
+
+sentence 88
+REF: he's sad
+HYP: **** sad
+        D    
+
+sentence 89
+REF:  he's lonely
+HYP: honey ******
+         S      D
+
+sentence 90
+REF:             the boy's sad that he made him sad
+HYP: teballcethehmet   msa *** **** ** **** *** ***
+                   S     S   D    D  D    D   D   D
+
+sentence 91
+REF:            he's calm making him calm down
+HYP: hicumeehicmdown **** ****** *** **** ****
+                   S    D      D   D    D    D
+
+sentence 92
+REF:         put      his bottle in his mouth
+HYP: puhisbotain hismouth ****** ** *** *****
+               S        S      D  D   D     D
+
+sentence 93
+REF:     he's laughing
+HYP: himarpan ********
+            S        D
+
+sentence 94
+REF:         there was a dinosaur
+HYP: dehaaedinocar *** * ********
+                 S   D D        D
+
+sentence 95
+REF: he was on   the skateboard
+HYP:  a *** on tesco **********
+      S   D        S          D
+
+sentence 96
+REF:         he was listening to the egg
+HYP: heapitoeeg *** ********* ** *** ***
+              S   D         D  D   D   D
+
+sentence 97
+REF:         the egg was cracking
+HYP: deegaclocin *** *** ********
+               S   D   D        D
+
+sentence 98
+REF:              the dinosaur poke out his head
+HYP: dudinocapocuihea ******** **** *** *** ****
+                    S        D    D   D   D    D
+
+sentence 99
+REF: the dinosaur            was about to lick him
+HYP: the dinosaur waebuttolochim ***** ** **** ***
+                               S     D  D    D   D
+
+sentence 100
+REF:      he was hiding
+HYP: waiting *** ******
+           S   D      D
+
+sentence 101
+REF:          the dinosaur was sad
+HYP: dinosauraset ******** *** ***
+                S        D   D   D
+
+sentence 102
+REF:    and the dinosaur was lying down
+HYP: edison *** ******** *** ***** ****
+          S   D        D   D     D    D
+
+sentence 103
+REF:        and        he was looking at the dinosaur
+HYP: ehealocing eedinocap *** ******* ** *** ********
+              S         S   D       D  D   D        D
+
+sentence 104
+REF:                he was touching the dinosaur
+HYP: watachenbdinosaur *** ******** *** ********
+                     S   D        D   D        D
+
+sentence 105
+REF:         and he feed the dinosaur his milk
+HYP: hethetieomo ** **** *** ******** *** ****
+               S  D    D   D        D   D    D
+
+sentence 106
+REF:        and then he laugh
+HYP: ebenemauth **** ** *****
+              S    D  D     D
+
+sentence 107
+REF:              he is riding his skateboard
+HYP: hridingiscpebad ** ****** *** **********
+                   S  D      D   D          D
+
+sentence 108
+REF: he crashes into the     egg the dinosaur egg
+HYP: he crashes into the edusegg *** ******** ***
+                               S   D        D   D
+
+sentence 109
+REF: and then he      got upset
+HYP:   a then he cocupset *****
+       S                S     D
+
+sentence 110
+REF:        then             he listened to the egg when he fell off
+HYP: venhlistane tomeeghanefell ******** ** *** *** **** ** **** off
+               S              S        D  D   D   D    D  D    D    
+
+sentence 111
+REF:          and the egg started hatching
+HYP: aneestatchen *** *** ******* ********
+                S   D   D       D        D
+
+sentence 112
+REF:           it started cracking and then
+HYP: isoutcrckeng     men ******** *** ****
+                S       S        D   D    D
+
+sentence 113
+REF: he was shocked
+HYP: he was    choc
+                  S
+
+sentence 114
+REF:            and then a little like dinosaur     popped out of it
+HYP: ethenelitllike **** * ****** **** dinosaur poppoutoet *** ** **
+                  S    D D      D    D                   S   D  D  D
+
+sentence 115
+REF:               scared and worried and he was confused
+HYP: staworidahiwacompuse *** ******* *** ** *** ********
+                        S   D       D   D  D   D        D
+
+sentence 116
+REF: and then the dinosaur       just was hopped out of the egg
+HYP:   a then the dinosaur jacopoutoe *** ****** *** ** *** egg
+       S                            S   D      D   D  D   D    
+
+sentence 117
+REF:        the     boy's like startled to the ground
+HYP: turboyslih statltote **** ******** ** *** ground
+              S         S    D        D  D   D       
+
+sentence 118
+REF:                    and he ran and hid from the dinosaur
+HYP: aheranahitromedinosaur ** *** *** *** **** *** ********
+                          S  D   D   D   D    D   D        D
+
+sentence 119
+REF:                   cuz he thought the dinosaur would eat him
+HYP: cohefepbedinosarwuaem ** ******* *** ******** ***** *** ***
+                         S  D       D   D        D     D   D   D
+
+sentence 120
+REF:           but          the        dinosaur looked around and then he got sad that the guy left
+HYP: buttedimosaur loeroudathen hegotsaopealeat ****** ****** *** **** ** *** *** **** *** *** ****
+                 S            S               S      D      D   D    D  D   D   D    D   D   D    D
+
+sentence 121
+REF:        and that's    him lying on the groung like          being upset because
+HYP: attemlying    one ground ***** ** *** ****** like bingupcepbecas ***** *******
+              S      S      S     D  D   D      D                   S     D       D
+
+sentence 122
+REF:            he can't find his friend
+HYP: pecpiteifrieg ***** **** *** ******
+                 S     D    D   D      D
+
+sentence 123
+REF:               and then the boy felt sorry
+HYP: ethenteboyfetsory **** *** *** **** *****
+                     S    D   D   D    D     D
+
+sentence 124
+REF:                           well he was hiding because the dinosaur was sad
+HYP: wellhewacidingbecasidinosarwca ** *** ****** ******* *** ******** *** ***
+                                  S  D   D      D       D   D        D   D   D
+
+sentence 125
+REF:                   and so he went over and petted the dinosaur
+HYP: acewaverapeoodinosaur ** ** **** **** *** ****** *** ********
+                         S  D  D    D    D   D      D   D        D
+
+sentence 126
+REF:               and   gave the dinosaur some of his milk
+HYP: engevtedinosarcom ohsmik *** ******** **** ** *** ****
+                     S      S   D        D    D  D   D    D
+
+sentence 127
+REF:          he started laughing
+HYP: hecatlaphan ******* ********
+               S       D        D
+
+sentence 128
+REF:        because the dinosaur looked funny
+HYP: becausdinosaur oct ******** ****** funny
+                  S   S        D      D      
+
+sentence 129
+REF:            baby        hulk       was riding on a skateboard and then he crashed into an egg
+HYP: bebyhocwasriing oscepoetnhe crushinto ****** ** * ********** *** **** ** ******* **** ** egg
+                   S           S         S      D  D D          D   D    D  D       D    D  D    
+
+sentence 130
+REF: he hurt the egg
+HYP: he  had the egg
+           S        
+
+sentence 131
+REF: he put his ear   up to it
+HYP: he put his ear upto ** it
+                       S  D   
+
+sentence 132
+REF: the    egg started cracking
+HYP: the estate ******* cracking
+              S       D         
+
+sentence 133
+REF:                          and the egg cracked and the dino baby dinosaur came out
+HYP: ecrecsaedinobabydinosaurcame *** *** ******* *** *** **** **** ******** **** out
+                                S   D   D       D   D   D    D    D        D    D    
+
+sentence 134
+REF:               the       baby dinosaur was excited when a
+HYP: berbaydinosaurwas excitooneo ******** *** ******* **** *
+                     S          S        D   D       D    D D
+
+sentence 135
+REF:  and                 went up to baby hulk but he was scared
+HYP: ewan uptobebcocbuhewascet ** ** **** **** *** ** *** ******
+        S                    S  D  D    D    D   D  D   D      D
+
+sentence 136
+REF:              so    he ran and hid behind a tree
+HYP: soheranhibemine etree *** *** *** ****** * ****
+                   S     S   D   D   D      D D    D
+
+sentence 137
+REF:                     and the baby dinosaur didn't know where he was
+HYP: ubabydiocardinowhehewas *** **** ******** ****** **** ***** ** ***
+                           S   D    D        D      D    D     D  D   D
+
+sentence 138
+REF:        and then he was sad
+HYP: atanheacap **** ** *** ***
+              S    D  D   D   D
+
+sentence 139
+REF:                          the baby dino being sad made baby hulk sad
+HYP: bebebyinobingcemadebebyhocad **** **** ***** *** **** **** **** ***
+                                S    D    D     D   D    D    D    D   D
+
+sentence 140
+REF:                     so             he went up to the dinosaur and petted him on the head
+HYP: sohewantuptotodinosaur apetoimoneheag **** ** ** *** ******** *** ****** *** ** *** ****
+                          S              S    D  D  D   D        D   D      D   D  D   D    D
+
+sentence 141
+REF:             then gave him his bottle
+HYP: tengvhimhisbutto **** *** *** ******
+                    S    D   D   D      D
+
+sentence 142
+REF:       and then he found it funny
+HYP: eenheboub  buy ** ***** ** *****
+             S    S  D     D  D     D
+
+sentence 143
+REF:         the boy is on skateboard
+HYP: ebooscetbat *** ** ** **********
+               S   D  D  D          D
+
+sentence 144
+REF:          the boy snare a dinosaur egg
+HYP: tbsdinosareg *** ***** * ******** ***
+                S   D     D D        D   D
+
+sentence 145
+REF: the        boy's touching the dinosaur egg
+HYP: deb cecedinocare ******** *** ******** ***
+       S            S        D   D        D   D
+
+sentence 146
+REF:         the dinosaur egg is cracking open
+HYP: dinosaeeopo ******** *** ** ******** ****
+               S        D   D  D        D    D
+
+sentence 147
+REF:        the dinosaur egg is opened
+HYP: mcregelpan ******** *** ** ******
+              S        D   D  D      D
+
+sentence 148
+REF: the boy      is hiding behind a tree
+HYP: *** boy isotope ****** ****** * ****
+       D           S      D      D D    D
+
+sentence 149
+REF:     dinosaur       is in there by himself
+HYP: dinosaitther bhuselfe ** ***** ** *******
+                S        S  D     D  D       D
+
+sentence 150
+REF: the dinosaur               is still there by himself but on the floor
+HYP: *** dinosaur stenebyselbuoroa ***** ***** ** ******* *** ** *** *****
+       D                         S     D     D  D       D   D  D   D     D
+
+sentence 151
+REF:     the boy is hiding behind a tree
+HYP: boycott *** ** ****** ****** * ****
+           S   D  D      D      D D    D
+
+sentence 152
+REF:                   the boy is pet the dinosaur on the head
+HYP: boyespaodilocaonbehea *** ** *** *** ******** ** *** ****
+                         S   D  D   D   D        D  D   D    D
+
+number of sentences: 152
+substitutions=244 deletions=894 insertions=0 hits=77
+
+mer=93.66%
+wil=98.48%
+wip=1.52%
+wer=93.66%

@@ -1,0 +1,25 @@
+,target_text,pred_str_without_LM,pred_str_with_LM
+0,he was on the skateboard,n,J
+1,hulk looks at the dinosaur and feels bad about this,nsn,JPJGJPJFJGJ
+2,a dinosaur jumps out and hulk is scared,nsns,JPJGJPJGJ
+3,there was a dinosaur,,J
+4,laughing while the dinosuar is drinking the milk,sn,J
+5,he was listening to the egg,nn,J
+6,hulk tries to hide from the dinosaur and is still very scared,snnsnss,JGJPJPJGJPJGJ
+7,and he feed the dinosaur his milk,nns,J
+8,and he was looking at the dinosaur,n,J
+9,he was touching the dinosaur,nt,J
+10,he was hiding,s,J
+11,he's curious to see what's inside the egg and listens to the egg,snsdn,JGJPJGJJPJ
+12,the egg starts cracking near the top and hulk is scared by this,sosnnss,JGJGJPJPJGJ
+13,the dinosaur is looking around for hulk and he can't find hulk,ssnrnnnn,JGJPJRJPJPJPJ
+14,the egg was cracking,s,J
+15,the dinosaur is sad,nss,J
+16,the dinosaur tries to play with hulk but hulk is very scared,nssss rs,JOJPJGJGJFJGJ
+17,hulk feeds the dinosaur the milk,nsm,J
+18,the dinosaur was sad,nn,J
+19,the dinosaur poke out his head,t,J
+20,and the dinosaur was lying down,nsr,J
+21,the dinosaur was about to lick him,,J
+22,and then he laugh,,J
+23,hulk was riding backwards on a skateboard and he hits an egg,s  n msnsn,JEFJEJGJGJPJ

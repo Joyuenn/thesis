@@ -1,0 +1,1121 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF:                                 HULK WAS RIDING BACKWARDS ON A SKATEBOARD AND HE HITS AN EGG
+HYP: CHOGKSLIDEEBOACRTOMOSCIPORTHENPHITSN EGE ****** ********* ** * ********** *** ** **** ** ***
+                                        S   S      D         D  D D          D   D  D    D  D   D
+
+sentence 2
+REF:                 HE'S        CURIOUS TO SEE WHAT'S INSIDE THE EGG AND LISTENS TO THE EGG
+HYP: CEREATOSRWATANSATHEY EGEEMLETHTOEGE ** *** ****** ****** *** *** *** ******* ** *** ***
+                        S              S  D   D      D      D   D   D   D       D  D   D   D
+
+sentence 3
+REF: THE                                EGG STARTS CRACKING NEAR THE TOP AND HULK IS SCARED BY THIS
+HYP: THE EGSTOTCROCENETUOPENOCOKSSKETYOTTOS ****** ******** **** *** *** *** **** ** ****** ** ****
+                                          S      D        D    D   D   D   D    D  D      D  D    D
+
+sentence 4
+REF:                         A DINOSAUR JUMPS OUT AND HULK IS SCARED
+HYP: RDINOSAURDREMOSURTNCOSKIR ******** ***** *** *** **** ** ******
+                             S        D     D   D   D    D  D      D
+
+sentence 5
+REF:                                       THE DINOSAUR TRIES TO PLAY WITH HULK BUT HULK IS VERY SCARED
+HYP: DINOSAOURTCASSERPLARWTCOCPETOCUOSVERSKIRT ******** ***** ** **** **** **** *** **** ** **** ******
+                                             S        D     D  D    D    D    D   D    D  D    D      D
+
+sentence 6
+REF:                                       HULK TRIES TO HIDE FROM THE DINOSAUR AND IS STILL VERY SCARED
+HYP: CRAOTREASTERISHEMEODINOSAURRENDSTIREOSKIRP ***** ** **** **** *** ******** *** ** ***** **** ******
+                                              S     D  D    D    D   D        D   D  D     D    D      D
+
+sentence 7
+REF:                                    THE DINOSAUR IS LOOKING AROUND FOR HULK AND HE CAN'T FIND HULK
+HYP: DINOSEROSLOCENGARONERCOKENCUNTOINECOCK ******** ** ******* ****** *** **** *** ** ***** **** ****
+                                          S        D  D       D      D   D    D   D  D     D    D    D
+
+sentence 8
+REF:           THE DINOSAUR IS SAD
+HYP: DINOSAUROSAUR ******** ** ***
+                 S        D  D   D
+
+sentence 9
+REF:  HULK                            LOOKS AT THE DINOSAUR AND FEELS BAD ABOUT THIS
+HYP: CHROO CLOCDINOSAURNERFILLOSPOTERPUTEOS ** *** ******** *** ***** *** ***** ****
+         S                                S  D   D        D   D     D   D     D    D
+
+sentence 10
+REF:                   HULK FEEDS THE DINOSAUR THE MILK
+HYP: CROCADSDINOSAUDERMEICK ***** *** ******** *** ****
+                          S     D   D        D   D    D
+
+sentence 11
+REF:                      LAUGHING WHILE THE DINOSUAR IS DRINKING THE MILK
+HYP: LOATHINWAEDINOSAURTRINKDRMICK ***** *** ******** ** ******** *** ****
+                                 S     D   D        D  D        D   D    D
+
+sentence 12
+REF:                                                 THE GREEN SKINED BABY IS RIDING A SKATEBOARD HOLDING A BOTTLE OF MILK
+HYP: VIRGRINSKINTBEPBEEASRITDENOSKIPOARDOTDENERBALOMEICK ***** ****** **** ** ****** * ********** ******* * ****** ** ****
+                                                       S     D      D    D  D      D D          D       D D      D  D    D
+
+sentence 13
+REF:                                  THE                 GREEN SKINED BABY IS BOUNCING OFF THE DINOSAUR EGG HOLDING THE BOTTLE OF MILK
+HYP: DEGREINSKINBEPEESDEINTSANEOEDINOSAUR EGOTDINGERBULORSMEICK ****** **** ** ******** *** *** ******** *** ******* *** ****** ** ****
+                                        S                     S      D    D  D        D   D   D        D   D       D   D      D  D    D
+
+sentence 14
+REF:                                               THE GREEN BABY IS HOLDING THE BOTTLE OF MILK WHILE LISTENING INSIDE THE DINOSAUR EGG
+HYP: GREINEYBEBESOTINRBALORMICKLORLOSNINGSEODINOSAOROG ***** **** ** ******* *** ****** ** **** ***** ********* ****** *** ******** ***
+                                                     S     D    D  D       D   D      D  D    D     D         D      D   D        D   D
+
+sentence 15
+REF:                                     THE      GREEN BABY IS HOLDING THE BOTTLE OF MILK WHILE THE DINOSAUR EGG IS HATCHING
+HYP: GRENBEBISOUTINGERBEALARMEICLRADINOSAURT EGGSATCHIN **** ** ******* *** ****** ** **** ***** *** ******** *** ** ********
+                                           S          S    D  D       D   D      D  D    D     D   D        D   D  D        D
+
+sentence 16
+REF:                                                   THE GREEN BABY IS HOLDING THE BOTTLE OF MILK WHILE THE DINOSAUR IS POKING HIS HEAD OUT OF THE EGG
+HYP: DGRINEYBEDISOANERBUALOMICRATODINOSAURSPOCNASETETEOERO ***** **** ** ******* *** ****** ** **** ***** *** ******** ** ****** *** **** *** ** *** EGG
+                                                         S     D    D  D       D   D      D  D    D     D   D        D  D      D   D    D   D  D   D    
+
+sentence 17
+REF:                       THE                           GREEN BABY IS HOLDING THE BOTTLE OF MILK WHILE THE GREEN DINOSAUR HAS JUMPED OUT OF THE EGG
+HYP: TAURRINBEBEASOTNERBULMEIO CLABERGRINDINOSAURODUMNTEUTEOEG **** ** ******* *** ****** ** **** ***** *** ***** ******** *** ****** *** ** *** ***
+                             S                               S    D  D       D   D      D  D    D     D   D     D        D   D      D   D  D   D   D
+
+sentence 18
+REF:                                               THE GREEN BABY IS HOLDING THE BOTTLE OF MILK AND HIDING BEHIND THE TREE FROM THE DINOSAUR
+HYP: GRINEBEBESOTNERBUALOMIKNITDEMBANETRERSEANDINOSAUR ***** **** ** ******* *** ****** ** **** *** ****** ****** *** **** **** *** ********
+                                                     S     D    D  D       D   D      D  D    D   D      D      D   D    D    D   D        D
+
+sentence 19
+REF:                          THE GREEN DINOSAUR IS LOOKING FOR THE GREEN BABY
+HYP: GRINDINOSAURLOCANEAGRENBOEPI ***** ******** ** ******* *** *** ***** ****
+                                S     D        D  D       D   D   D     D    D
+
+sentence 20
+REF:                            THE GREEN DINOSAUR IS ON THE GROUND BEING SAD
+HYP: GRINDINOSAURSNEOGROANDBINOSARD ***** ******** ** ** *** ****** ***** ***
+                                  S     D        D  D  D   D      D     D   D
+
+sentence 21
+REF:                                           THE GREEN BABY HAS SECOND THOUGHTS ABOUT PLAYING WITH THE DINOSAUR
+HYP: GRINGBEPBEASECEONTHAUTSERPOUTPLANGOTEDINOSAUR ***** **** *** ****** ******** ***** ******* **** *** ********
+                                                 S     D    D   D      D        D     D       D    D   D        D
+
+sentence 22
+REF:                                   THE GREEN BABY GOES OVER TO THE GREEN DINOSAUR AND COMFORTS HIM
+HYP: TGRENGBEBEGUOSOVETGRANDINOSAUNECAPETN ***** **** **** **** ** *** ***** ******** *** ******** ***
+                                         S     D    D    D    D  D   D     D        D   D        D   D
+
+sentence 23
+REF:                                    THE GREEN BABY STUFFS HIS BOTTLE OF MILK INTO THE GREEN DINOSAUR'S MOUTH
+HYP: GREINBEBESTTHBALERMECANTGRINDINOSAMOUT ***** **** ****** *** ****** ** **** **** *** ***** ********** *****
+                                          S     D    D      D   D      D  D    D    D   D     D          D     D
+
+sentence 24
+REF:                                                     THE GREEN BABY IS LAUGHING WHILE THE GREEN DINOSAUR HAS A BOTTLE OF MILK IN HIS MOUTH
+HYP: GREINGBEPISLAHINGRATEGRININOSAUROASERBOALOMOCANOSMOURTS ***** **** ** ******** ***** *** ***** ******** *** * ****** ** **** ** *** *****
+                                                           S     D    D  D        D     D   D     D        D   D D      D  D    D  D   D     D
+
+sentence 25
+REF:        HE'S SKATEBOARDING
+HYP: HPSTATOATON *************
+               S             D
+
+sentence 26
+REF:        AND THEN HE FINDS AN EGG
+HYP: MENEFINTEN **** ** ***** ** EGG
+              S    D  D     D  D    
+
+sentence 27
+REF:        HE         BUMPS INTO THE EGG AND FEELS SAD
+HYP: EBUTATOEE EGGEMBPILOSRT **** *** *** *** ***** ***
+             S             S    D   D   D   D     D   D
+
+sentence 28
+REF:             HE HEARS WHAT'S INSIDE THE EGG
+HYP: EHESWOTENSADEE ***** ****** ****** *** ***
+                  S     D      D      D   D   D
+
+sentence 29
+REF: THE          EGG WAS CRACKING
+HYP:  TR EGGOSCRACHEN *** ********
+       S            S   D        D
+
+sentence 30
+REF:                          HE WAS SURPRISED BECAUSE THE DINOSAUR CAME OUT
+HYP: HEESERPRASOCASEDINOSAECUMUT *** ********* ******* *** ******** **** ***
+                               S   D         D       D   D        D    D   D
+
+sentence 31
+REF:                     HE WAS SAD THAT THERE WAS A DINOSAUR
+HYP: HEPOSATHOTHRLEDINOSAUR *** *** **** ***** *** * ********
+                          S   D   D    D     D   D D        D
+
+sentence 32
+REF:                HE HIDE BEHIND THE TREE
+HYP: HERADBEAINGETCREY **** ****** *** ****
+                     S    D      D   D    D
+
+sentence 33
+REF:                           THE DINOSAUR LOOKS AROUND FOR HUMAN FEEL SAD
+HYP: DINOSESAURLOCSERENFEIMNFISARD ******** ***** ****** *** ***** **** ***
+                                 S        D     D      D   D     D    D   D
+
+sentence 34
+REF:                THE DINOSAUR LIES ON THE FLOOR
+HYP: DINOSAURASONORFAUR ******** **** ** *** *****
+                      S        D    D  D   D     D
+
+sentence 35
+REF:          THE BABY FEEL SAD
+HYP: THBABCHESART **** **** ***
+                S    D    D   D
+
+sentence 36
+REF:             THE BABY WANTS TO PET HIM
+HYP: TEBEBEMASBUTTON **** ***** ** *** ***
+                   S    D     D  D   D   D
+
+sentence 37
+REF:               AND THEN HE FEEDS HIM HIS MILK
+HYP: ANTELTHEATHEMMEKE **** ** ***** *** *** ****
+                     S    D  D     D   D   D    D
+
+sentence 38
+REF:             THE BABY FEEL HAPPY
+HYP: THRBETBEFILHUPE **** **** *****
+                   S    D    D     D
+
+sentence 39
+REF:               HE WAS ON A SKATEBOARD
+HYP: HIELOSENOSTEPORD *** ** * **********
+                    S   D  D D          D
+
+sentence 40
+REF:            HE BUMPED INTO A EGG
+HYP: HIPPOTANTWORO ****** **** * EGG
+                 S      D    D D    
+
+sentence 41
+REF:        THE EGG IS HATCHING
+HYP: BEGEUTTION *** ** ********
+              S   D  D        D
+
+sentence 42
+REF:     THERE'S A DINOSAUR
+HYP: DESDINOSAUR * ********
+               S D        D
+
+sentence 43
+REF:     THERE'S A DINOSAUR NEAR HIM
+HYP: DDINOSAURAM * ******** **** ***
+               S D        D    D   D
+
+sentence 44
+REF:                HE WENT AWAY AND HIDING
+HYP: THERMENGERECOMATO **** **** *** ******
+                     S    D    D   D      D
+
+sentence 45
+REF:          HE'S HIDING BEHIND A TREE
+HYP: CXAAMBADETREY ****** ****** * ****
+                 S      D      D D    D
+
+sentence 46
+REF:    HE'S SAD
+HYP: MOSARDE ***
+           S   D
+
+sentence 47
+REF:   HE'S LONELY
+HYP: HIPPOT ******
+          S      D
+
+sentence 48
+REF:                      THE BOY'S SAD THAT HE MADE HIM SAD
+HYP: TOPEAOSATHOHIMOATOMSEARO ***** *** **** ** **** *** ***
+                            S     D   D    D  D    D   D   D
+
+sentence 49
+REF:                     HE'S CALM MAKING HIM CALM DOWN
+HYP: HIUCAUPMOAGINTAINCAMNDIN **** ****** *** **** ****
+                            S    D      D   D    D    D
+
+sentence 50
+REF:               PUT HIS BOTTLE IN HIS MOUTH
+HYP: BOHILOPOTTONMOUTH *** ****** ** *** *****
+                     S   D      D  D   D     D
+
+sentence 51
+REF:     HE'S LAUGHING
+HYP: HILPHONE ********
+            S        D
+
+sentence 52
+REF:       THERE WAS A DINOSAUR
+HYP: DARDINOSAUR *** * ********
+               S   D D        D
+
+sentence 53
+REF:                 HE WAS ON THE SKATEBOARD
+HYP: KHEATTHONESEAPOART *** ** *** **********
+                      S   D  D   D          D
+
+sentence 54
+REF:            HE WAS LISTENING TO THE EGG
+HYP: HEPOATHETMEAG *** ********* ** *** ***
+                 S   D         D  D   D   D
+
+sentence 55
+REF:        THE EGG WAS CRACKING
+HYP: DGROSLOCEN *** *** ********
+              S   D   D        D
+
+sentence 56
+REF:           THE DINOSAUR POKE OUT HIS HEAD
+HYP: DIDIOIOCASHAD ******** **** *** *** ****
+                 S        D    D   D   D    D
+
+sentence 57
+REF:                      THE DINOSAUR WAS ABOUT TO LICK HIM
+HYP: DDINOSAURETTHERBOCULCEMN ******** *** ***** ** **** ***
+                            S        D   D     D  D    D   D
+
+sentence 58
+REF:          HE WAS HIDING
+HYP: HEIPOSIDENN *** ******
+               S   D      D
+
+sentence 59
+REF:           THE DINOSAUR WAS SAD
+HYP: DDINOSAURSAUR ******** *** ***
+                 S        D   D   D
+
+sentence 60
+REF:                 AND THE DINOSAUR WAS LYING DOWN
+HYP: BAGTDINOSAURARANGDO *** ******** *** ***** ****
+                       S   D        D   D     D    D
+
+sentence 61
+REF:                    AND HE WAS LOOKING AT THE DINOSAUR
+HYP: EMOHERERSOCINUDINOSAUR ** *** ******* ** *** ********
+                          S  D   D       D  D   D        D
+
+sentence 62
+REF:                HE WAS TOUCHING THE DINOSAUR
+HYP: HEOCAOCONDINOSAUR *** ******** *** ********
+                     S   D        D   D        D
+
+sentence 63
+REF:                       AND HE FEED THE DINOSAUR HIS MILK
+HYP: RMNMHEARESDINOSERSEMEILOG ** **** *** ******** *** ****
+                             S  D    D   D        D   D    D
+
+sentence 64
+REF:           AND THEN HE LAUGH
+HYP: HAMBTEAMELAFE **** ** *****
+                 S    D  D     D
+
+sentence 65
+REF:                 HE IS RIDING HIS SKATEBOARD
+HYP: THESRITENGECEIPORD ** ****** *** **********
+                      S  D      D   D          D
+
+sentence 66
+REF:             HE        CRASHES INTO THE EGG THE DINOSAUR EGG
+HYP: HECRTEOTNTWTHE EGGBEDINOSROEG **** *** *** *** ******** ***
+                  S              S    D   D   D   D        D   D
+
+sentence 67
+REF:                AND THEN HE GOT UPSET
+HYP: ENDHENEHECOTOPSERP **** ** *** *****
+                      S    D  D   D     D
+
+sentence 68
+REF:            THEN        HE LISTENED TO THE EGG WHEN HE FELL OFF
+HYP: VEANILOSHANTTER EGENFEULA ******** ** *** *** **** ** **** ***
+                   S         S        D  D   D   D    D  D    D   D
+
+sentence 69
+REF:   AND            THE EGG STARTED HATCHING
+HYP: BENTE EGSOTOTHATCHEN *** ******* ********
+         S              S   D       D        D
+
+sentence 70
+REF:               IT STARTED CRACKING AND THEN
+HYP: TATACRACKANGEEON ******* ******** *** ****
+                    S       D        D   D    D
+
+sentence 71
+REF:     HE WAS SHOCKED
+HYP: EWOSOT *** *******
+          S   D       D
+
+sentence 72
+REF:                    AND         THEN A LITTLE LIKE DINOSAUR POPPED OUT OF IT
+HYP: ENDHENLTEOLIGKDINOSAUR POAPTEUTEVET * ****** **** ******** ****** *** ** **
+                          S            S D      D    D        D      D   D  D  D
+
+sentence 73
+REF:              SCARED AND WORRIED AND HE WAS CONFUSED
+HYP: SKIRDEADONECANMCHES *** ******* *** ** *** ********
+                       S   D       D   D  D   D        D
+
+sentence 74
+REF:                             AND THEN THE DINOSAUR JUST WAS HOPPED OUT OF THE EGG
+HYP: EMENTHERDINOSAURDEOSROCOPTEATTE EGGE *** ******** **** *** ****** *** ** *** ***
+                                   S    S   D        D    D   D      D   D  D   D   D
+
+sentence 75
+REF:                THE BOY'S   LIKE STARTLED TO THE GROUND
+HYP: THERBOSLIKTSTATOTE     O CLOUNT ******** ** *** ******
+                      S     S      S        D  D   D      D
+
+sentence 76
+REF:                         AND HE RAN AND HID FROM THE DINOSAUR
+HYP: ENDERHEINENHIDEREMEDINOSAUR ** *** *** *** **** *** ********
+                               S  D   D   D   D    D   D        D
+
+sentence 77
+REF:                  CUZ HE THOUGHT THE DINOSAUR WOULD EAT HIM
+HYP: CELPHOTDINOSAURDEETM ** ******* *** ******** ***** *** ***
+                        S  D       D   D        D     D   D   D
+
+sentence 78
+REF:                                BUT THE DINOSAUR LOOKED AROUND AND THEN HE GOT SAD THAT THE GUY LEFT
+HYP: BATDINOSAURLOCTRENDMECOTSADVOCAPLO *** ******** ****** ****** *** **** ** *** *** **** *** *** ****
+                                      S   D        D      D      D   D    D  D   D   D    D   D   D    D
+
+sentence 79
+REF:            AND THAT'S                   HIM LYING ON THE GROUNG LIKE BEING UPSET BECAUSE
+HYP: ENTDATTMLINONE      O CRAUNLIGKBINGPSEPICAS ***** ** *** ****** **** ***** ***** *******
+                  S      S                     S     D  D   D      D    D     D     D       D
+
+sentence 80
+REF:             HE CAN'T FIND HIS FRIEND
+HYP: PEATCAPONEERON ***** **** *** ******
+                  S     D    D   D      D
+
+sentence 81
+REF:              AND THEN THE BOY FELT SORRY
+HYP: ENHENEBOYFUSOERY **** *** *** **** *****
+                    S    D   D   D    D     D
+
+sentence 82
+REF:                           WELL HE WAS HIDING BECAUSE THE DINOSAUR WAS SAD
+HYP: RHELEOSIDENBECAOSEDINOSAUROARD ** *** ****** ******* *** ******** *** ***
+                                  S  D   D      D       D   D        D   D   D
+
+sentence 83
+REF:                      AND SO HE WENT OVER AND PETTED THE DINOSAUR
+HYP: ETHEWENTOREMPATODINOSAUR ** ** **** **** *** ****** *** ********
+                            S  D  D    D    D   D      D   D        D
+
+sentence 84
+REF:                      AND GAVE THE DINOSAUR SOME OF HIS MILK
+HYP: ENGEAVODINOSAUTAMIUSMICK **** *** ******** **** ** *** ****
+                            S    D   D        D    D  D   D    D
+
+sentence 85
+REF:              HE STARTED LAUGHING
+HYP: IPSODOLOATHOING ******* ********
+                   S       D        D
+
+sentence 86
+REF:               BECAUSE THE DINOSAUR LOOKED FUNNY
+HYP: BICOSDINOSAURCOTOHONI *** ******** ****** *****
+                         S   D        D      D     D
+
+sentence 87
+REF:                                        BABY HULK WAS RIDING ON A SKATEBOARD AND THEN HE CRASHED INTO AN EGG
+HYP: BEBEEOCLARSRIDEMMOSCEIPOTEMENCRASHTENTWOEON EGGE *** ****** ** * ********** *** **** ** ******* **** ** ***
+                                               S    S   D      D  D D          D   D    D  D       D    D  D   D
+
+sentence 88
+REF:       HE HURT THE EGG
+HYP: HEEOATEE   EG *** ***
+            S    S   D   D
+
+sentence 89
+REF:              HE PUT HIS EAR UP TO IT
+HYP: HIPOTASEROPTWOT *** *** *** ** ** **
+                   S   D   D   D  D  D  D
+
+sentence 90
+REF: THE            EGG STARTED CRACKING
+HYP:   T EGGSTTTOCROCON ******* ********
+       S              S       D        D
+
+sentence 91
+REF:    AND                            THE EGG CRACKED AND THE DINO BABY DINOSAUR CAME OUT
+HYP: EINTHE EGCRACTENEDINOBEYDINOSAUCUEMUT *** ******* *** *** **** **** ******** **** ***
+          S                              S   D       D   D   D    D    D        D    D   D
+
+sentence 92
+REF:                      THE BABY DINOSAUR WAS EXCITED WHEN A
+HYP: DEBELDINOSAURREEIDLOMONE **** ******** *** ******* **** *
+                            S    D        D   D       D    D D
+
+sentence 93
+REF:            AND         WENT UP TO BABY HULK BUT HE WAS SCARED
+HYP: ENWENEOTERBELE COCBOTOSKIRT ** ** **** **** *** ** *** ******
+                  S            S  D  D    D    D   D  D   D      D
+
+sentence 94
+REF:                       SO HE RAN AND HID BEHIND A TREE
+HYP: SEIRHAINTOEMNHIPPOINTREY ** *** *** *** ****** * ****
+                            S  D   D   D   D      D D    D
+
+sentence 95
+REF:                       AND THE BABY DINOSAUR DIDN'T KNOW WHERE HE WAS
+HYP: EDHERBELODINOSAUDNORWEWES *** **** ******** ****** **** ***** ** ***
+                             S   D    D        D      D    D     D  D   D
+
+sentence 96
+REF:          AND THEN HE WAS SAD
+HYP: EMHEANTIOSAR **** ** *** ***
+                S    D  D   D   D
+
+sentence 97
+REF:                            THE BABY DINO BEING SAD MADE BABY HULK SAD
+HYP: DBBELYDINOBENSARDERMEDBELYOSRD **** **** ***** *** **** **** **** ***
+                                  S    D    D     D   D    D    D    D   D
+
+sentence 98
+REF:                                      SO HE WENT UP TO THE DINOSAUR AND PETTED HIM ON THE HEAD
+HYP: SAOURPHERWENOPADINOSAUREMPOATERTEMOMEED ** **** ** ** *** ******** *** ****** *** ** *** ****
+                                           S  D    D  D  D   D        D   D      D   D  D   D    D
+
+sentence 99
+REF:           THEN GAVE HIM HIS BOTTLE
+HYP: TENGEVHIMBUATO **** *** *** ******
+                  S    D   D   D      D
+
+sentence 100
+REF:         AND THEN HE FOUND IT FUNNY
+HYP: EPHOUNTTNEY **** ** ***** ** *****
+               S    D  D     D  D     D
+
+sentence 101
+REF:                 THE BOY IS ON SKATEBOARD
+HYP: THRBOETSHOMOSCOAPOR *** ** ** **********
+                       S   D  D  D          D
+
+sentence 102
+REF:             THE BOY SNARE A DINOSAUR EGG
+HYP: BOISNIRDINOSAUR *** ***** * ******** EGG
+                   S   D     D D        D    
+
+sentence 103
+REF:                     THE BOY'S TOUCHING THE DINOSAUR EGG
+HYP: BREATSEBATHANDINOSAUREG ***** ******** *** ******** ***
+                           S     D        D   D        D   D
+
+sentence 104
+REF:       THE     DINOSAUR EGG IS CRACKING OPEN
+HYP: DODINOSAR EGSPRATIMPON *** ** ******** ****
+             S            S   D  D        D    D
+
+sentence 105
+REF:       THE    DINOSAUR EGG IS OPENED
+HYP: TINEOSAUR EGGESEOPENT *** ** ******
+             S           S   D  D      D
+
+sentence 106
+REF:              THE BOY IS HIDING BEHIND A TREE
+HYP: BOCHATEMBETTTREY *** ** ****** ****** * ****
+                    S   D  D      D      D D    D
+
+sentence 107
+REF:                       DINOSAUR IS IN THERE BY HIMSELF
+HYP: DINOSAURATSONDIODHEIRDBOITSEUR ** ** ***** ** *******
+                                  S  D  D     D  D       D
+
+sentence 108
+REF:                      THE DINOSAUR IS STILL THERE BY HIMSELF BUT ON THE FLOOR
+HYP: DDINOSAURSTODEISAOONDOUR ******** ** ***** ***** ** ******* *** ** *** *****
+                            S        D  D     D     D  D       D   D  D   D     D
+
+sentence 109
+REF:             THE BOY IS HIDING BEHIND A TREE
+HYP: BOYEHATOBAGTREY *** ** ****** ****** * ****
+                   S   D  D      D      D D    D
+
+sentence 110
+REF:                    THE BOY IS PET THE DINOSAUR ON THE HEAD
+HYP: TIBOESPIDINOSAURMNIARD *** ** *** *** ******** ** *** ****
+                          S   D  D   D   D        D  D   D    D
+
+number of sentences: 110
+substitutions=134 deletions=706 insertions=0 hits=5
+
+mer=99.41%
+wil=99.98%
+wip=0.02%
+wer=99.41%
+
+
+
+--> Getting the alignment result with LM...
+
+sentence 1
+REF:                                                   HULK WAS RIDING BACKWARDS ON A SKATEBOARD AND HE HITS AN EGG
+HYP: egoeyewelevmembopegekedoeweglenoerkeqmetenqleketxmesme *** ****** ********* ** * ********** *** ** **** ** ***
+                                                          S   D      D         D  D D          D   D  D    D  D   D
+
+sentence 2
+REF:                                              HE'S CURIOUS TO SEE WHAT'S INSIDE THE EGG AND LISTENS TO THE EGG
+HYP: egemermpekeoeweripeketewekexmesemedzmekqekeoemese ******* ** *** ****** ****** *** *** *** ******* ** *** ***
+                                                     S       D  D   D      D      D   D   D   D       D  D   D   D
+
+sentence 3
+REF:                                                  THE EGG STARTS CRACKING NEAR THE TOP AND HULK IS SCARED BY THIS
+HYP: ekmxmeswekekegroegetemekecoenetgeoeyeweweymeokekoewe *** ****** ******** **** *** *** *** **** ** ****** ** ****
+                                                        S   D      D        D    D   D   D   D    D  D      D  D    D
+
+sentence 4
+REF:                                        A DINOSAUR JUMPS OUT AND HULK IS SCARED
+HYP: erevletowepcervermedowecerketegoeweylere ******** ***** *** *** **** ** ******
+                                            S        D     D   D   D    D  D      D
+
+sentence 5
+REF:                                                                 THE DINOSAUR TRIES TO PLAY WITH HULK BUT HULK IS VERY SCARED
+HYP: eveletowepocerkegepewewemernezperiekgeoegenekeoegcewe'emereweylerke ******** ***** ** **** **** **** *** **** ** **** ******
+                                                                       S        D     D  D    D    D    D   D    D  D    D      D
+
+sentence 6
+REF:                 HULK                                      TRIES TO HIDE FROM THE DINOSAUR AND IS STILL VERY SCARED
+HYP: egrpoekermpewekmrele emedeoevletowepcerermetveweleremeoweylerne ** **** **** *** ******** *** ** ***** **** ******
+                        S                                          S  D    D    D   D        D   D  D     D    D      D
+
+sentence 7
+REF:                                             THE     DINOSAUR IS LOOKING AROUND FOR HULK AND HE CAN'T FIND HULK
+HYP: eveletowemroewezoegemetsproetergoeyemetegecetke eoletegoegye ** ******* ****** *** **** *** ** ***** **** ****
+                                                   S            S  D       D      D   D    D   D  D     D    D    D
+
+sentence 8
+REF:                     THE DINOSAUR IS SAD
+HYP: erevletowepceroewepcere ******** ** ***
+                           S        D  D   D
+
+sentence 9
+REF:                          HULK                     LOOKS AT THE DINOSAUR AND FEELS BAD ABOUT THIS
+HYP: egqroeoxgzoegeveletowepceretm elezoewenoekmrnecekemoewe ** *** ******** *** ***** *** ***** ****
+                                 S                         S  D   D        D   D     D   D     D    D
+
+sentence 10
+REF:                              HULK FEEDS THE DINOSAUR THE MILK
+HYP: egroegepevweveletowepcevmrdmlegye ***** *** ******** *** ****
+                                     S     D   D        D   D    D
+
+sentence 11
+REF:                                 LAUGHING WHILE THE DINOSUAR IS DRINKING THE MILK
+HYP: ezpekqleteipevletowepcerekerletyerdlegye ***** *** ******** ** ******** *** ****
+                                            S     D   D        D  D        D   D    D
+
+sentence 12
+REF:                                                                        THE GREEN SKINED BABY IS RIDING A SKATEBOARD HOLDING A BOTTLE OF MILK
+HYP: e'elerleteweyletkebemebmemewerlevmeteoeweyleneoperveoekmetmrbepezoedmlegye ***** ****** **** ** ****** * ********** ******* * ****** ** ****
+                                                                              S     D      D    D  D      D D          D       D D      D  D    D
+
+sentence 13
+REF:                                                                      THE   GREEN SKINED BABY IS BOUNCING OFF THE DINOSAUR EGG HOLDING THE BOTTLE OF MILK
+HYP: everletweyeletbmenmemeweveletkwepetemevletowepcerxmeseoekletemerebecezor dolegye ****** **** ** ******** *** *** ******** *** ******* *** ****** ** ****
+                                                                            S       S      D    D  D        D   D   D        D   D       D   D      D  D    D
+
+sentence 14
+REF:                                                                  THE GREEN BABY IS HOLDING THE BOTTLE OF MILK WHILE LISTENING INSIDE THE DINOSAUR EGG
+HYP: esermletmbmebmeoekletebepezoredlegezoerzoewetletsewemoevletoweproese ***** **** ** ******* *** ****** ** **** ***** ********* ****** *** ******** ***
+                                                                        S     D    D  D       D   D      D  D    D     D         D      D   D        D   D
+
+sentence 15
+REF:                                                                 THE GREEN BABY IS HOLDING THE BOTTLE OF MILK WHILE THE DINOSAUR EGG IS HATCHING
+HYP: esermetbmebleweoekletsemrbmpezerdlegerpeveletowepcerexmesepekgqlete ***** **** ** ******* *** ****** ** **** ***** *** ******** *** ** ********
+                                                                       S     D    D  D       D   D      D  D    D     D   D        D   D  D        D
+
+sentence 16
+REF:                                                                           THE GREEN BABY IS HOLDING THE BOTTLE OF MILK WHILE THE DINOSAUR IS POKING HIS HEAD OUT OF THE EGG
+HYP: esrletmbmeleweoetmrbcpezoedlegerpekevletoewepcerewenoegetewemekmekmemerexmese ***** **** ** ******* *** ****** ** **** ***** *** ******** ** ****** *** **** *** ** *** ***
+                                                                                 S     D    D  D       D   D      D  D    D     D   D        D  D      D   D    D   D  D   D   D
+
+sentence 17
+REF:                                                                             THE GREEN BABY IS HOLDING THE BOTTLE OF MILK WHILE THE GREEN DINOSAUR HAS JUMPED OUT OF THE EGG
+HYP: ekererletbmebmeweoeketemrbcezedmeogzpebmeresrleteveletowepcerevecedtkemekmemese ***** **** ** ******* *** ****** ** **** ***** *** ***** ******** *** ****** *** ** *** ***
+                                                                                   S     D    D  D       D   D      D  D    D     D   D     D        D   D      D   D  D   D   D
+
+sentence 18
+REF:                                                   THE              GREEN BABY IS HOLDING THE BOTTLE OF MILK AND HIDING BEHIND THE TREE FROM THE DINOSAUR
+HYP: eserletmbmebmeweoetmrbcpezoedleyetelekmedbepetmekerme empetevletowepcere **** ** ******* *** ****** ** **** *** ****** ****** *** **** **** *** ********
+                                                         S                  S    D  D       D   D      D  D    D   D      D      D   D    D    D   D        D
+
+sentence 19
+REF:                         THE           GREEN DINOSAUR IS LOOKING FOR THE GREEN BABY
+HYP: eserletvletowepcrezoegepetm epesrmetbomenle ******** ** ******* *** *** ***** ****
+                               S               S        D  D       D   D   D     D    D
+
+sentence 20
+REF:                                           THE GREEN DINOSAUR IS ON THE GROUND BEING SAD
+HYP: eserletvletowepcerewetmoesroetvebeletoweperve ***** ******** ** ** *** ****** ***** ***
+                                                 S     D        D  D  D   D      D     D   D
+
+sentence 21
+REF:                                                               THE GREEN BABY HAS SECOND THOUGHTS ABOUT PLAYING WITH THE DINOSAUR
+HYP: eserletebemenmepewemegemoetkepcewemrnocekenezpetsoemevletowepcere ***** **** *** ****** ******** ***** ******* **** *** ********
+                                                                     S     D    D   D      D        D     D       D    D   D        D
+
+sentence 22
+REF:                                             THE GREEN BABY GOES OVER TO THE GREEN DINOSAUR AND COMFORTS HIM
+HYP: esrmetbmenmeoewe'mekeserpetvletowepegepenmekete ***** **** **** **** ** *** ***** ******** *** ******** ***
+                                                   S     D    D    D    D  D   D     D        D   D        D   D
+
+sentence 23
+REF:                                                       THE GREEN BABY STUFFS HIS BOTTLE OF MILK INTO THE GREEN DINOSAUR'S MOUTH
+HYP: esrmetbmebemewekekebepezmedmegepetkesrletvletoewepedoceke ***** **** ****** *** ****** ** **** **** *** ***** ********** *****
+                                                             S     D    D      D   D      D  D    D    D   D     D          D     D
+
+sentence 24
+REF:                 THE                                                        GREEN BABY IS LAUGHING WHILE THE GREEN DINOSAUR HAS A BOTTLE OF MILK IN HIS MOUTH
+HYP: esrmletsbmenlewezpe qletserpekmeserleteletowepcerepewemrbeoezoedoegpetewedocekwe **** ** ******** ***** *** ***** ******** *** * ****** ** **** ** *** *****
+                       S                                                            S    D  D        D     D   D     D        D   D D      D  D    D  D   D     D
+
+sentence 25
+REF:                 HE'S SKATEBOARDING
+HYP: qenewekepekeopekoete *************
+                        S             D
+
+sentence 26
+REF:                    AND THEN HE FINDS AN EGG
+HYP: edememeletkemetxmesese **** ** ***** ** ***
+                          S    D  D     D  D   D
+
+sentence 27
+REF:                                HE BUMPS INTO THE EGG AND FEELS SAD
+HYP: ebcekepekeoememxmesmednelezewerke ***** **** *** *** *** ***** ***
+                                     S     D    D   D   D   D     D   D
+
+sentence 28
+REF:                      HE HEARS WHAT'S INSIDE THE EGG
+HYP: emeqemeweioekewepevmeme ***** ****** ****** *** ***
+                           S     D      D      D   D   D
+
+sentence 29
+REF:                        THE EGG WAS CRACKING
+HYP: ekerxmeseseoewegerpegqmete *** *** ********
+                              S   D   D        D
+
+sentence 30
+REF:                                       HE WAS SURPRISED BECAUSE THE DINOSAUR CAME OUT
+HYP: emewemrenrpeweoegepeweveletowemegcedceke *** ********* ******* *** ******** **** ***
+                                            S   D         D       D   D        D    D   D
+
+sentence 31
+REF:                                   HE WAS SAD THAT THERE WAS A DINOSAUR
+HYP: eqmenoewepekeoekqerezmeveletowepcere *** *** **** ***** *** * ********
+                                        S   D   D    D     D   D D        D
+
+sentence 32
+REF:                           HE HIDE BEHIND THE TREE
+HYP: eqmerepevbempeletsemekermeje **** ****** *** ****
+                                S    D      D   D    D
+
+sentence 33
+REF:                          THE  DINOSAUR      LOOKS AROUND FOR HUMAN FEEL SAD
+HYP: evletoewewepcerezoegwemrmete emeledete eleweperve ****** *** ***** **** ***
+                                S         S          S      D   D     D    D   D
+
+sentence 34
+REF:                    THE DINOSAUR LIES ON THE FLOOR
+HYP: evletowepcerpeweoeteoe   eocere **** ** *** *****
+                          S        S    D  D   D     D
+
+sentence 35
+REF:                   THE BABY FEEL SAD
+HYP: ekebepebegqemeweperke **** **** ***
+                         S    D    D   D
+
+sentence 36
+REF:                       THE BABY WANTS TO PET HIM
+HYP: ekebemebmedepewebckekoete **** ***** ** *** ***
+                             S    D     D  D   D   D
+
+sentence 37
+REF:                       AND THEN HE FEEDS HIM HIS MILK
+HYP: ekemezeqempekqemededmeyme **** ** ***** *** *** ****
+                             S    D  D     D   D   D    D
+
+sentence 38
+REF:          THE       BABY FEEL HAPPY
+HYP: ekebemekbeme ezeqecenme **** *****
+                S          S    D     D
+
+sentence 39
+REF:                        HE WAS ON A SKATEBOARD
+HYP: eqlmoewmeteoewekmeneoerve *** ** * **********
+                             S   D  D D          D
+
+sentence 40
+REF:                         HE BUMPED INTO A EGG
+HYP: eqlnenoekepetkeioroxmesese ****** **** * ***
+                              S      D    D D   D
+
+sentence 41
+REF:                THE EGG IS HATCHING
+HYP: ebemesemeckekloete *** ** ********
+                      S   D  D        D
+
+sentence 42
+REF:              THERE'S A DINOSAUR
+HYP: evemeweveletowepcere * ********
+                        S D        D
+
+sentence 43
+REF:              THERE'S A DINOSAUR NEAR HIM
+HYP: eveveletowepcerepede * ******** **** ***
+                        S D        D    D   D
+
+sentence 44
+REF:                     HE WENT AWAY AND HIDING
+HYP: ekqmrdetsmrmegoedpekoe **** **** *** ******
+                          S    D    D   D      D
+
+sentence 45
+REF:                    HE'S HIDING BEHIND A TREE
+HYP: egepepedbepevemekermeje ****** ****** * ****
+                           S      D      D D    D
+
+sentence 46
+REF:          HE'S SAD
+HYP: edeoewepervme ***
+                 S   D
+
+sentence 47
+REF:         HE'S LONELY
+HYP: eqlnenoekede ******
+                S      D
+
+sentence 48
+REF:                              THE BOY'S SAD THAT HE MADE HIM SAD
+HYP: ekeoeneoepekqoeqledpekoedewepere ***** *** **** ** **** *** ***
+                                    S     D   D    D  D    D   D   D
+
+sentence 49
+REF:                                 HE'S CALM MAKING HIM CALM DOWN
+HYP: elegepcenedopesletkpletegepedtvelete **** ****** *** **** ****
+                                        S    D      D   D    D    D
+
+sentence 50
+REF:                         PUT HIS BOTTLE IN HIS MOUTH
+HYP: ebeoeqlezoenokekoetedocekqe *** ****** ** *** *****
+                               S   D      D  D   D     D
+
+sentence 51
+REF:            HE'S LAUGHING
+HYP: eqelezenqeoetme ********
+                   S        D
+
+sentence 52
+REF:                  THERE WAS A DINOSAUR
+HYP: eveplereleveletowepcer *** * ********
+                          S   D D        D
+
+sentence 53
+REF:                         HE WAS ON THE SKATEBOARD
+HYP: eyempekekqoetewempeneperke *** ** *** **********
+                              S   D  D   D          D
+
+sentence 54
+REF:                   HE WAS LISTENING TO THE EGG
+HYP: eqmeneoekqemkedemese *** ********* ** *** ***
+                        S   D         D  D   D   D
+
+sentence 55
+REF:                 THE EGG WAS CRACKING
+HYP: eveseroewezoegemete *** *** ********
+                       S   D   D        D
+
+sentence 56
+REF:                       THE DINOSAUR POKE OUT HIS HEAD
+HYP: eveleveleoeweleoepewepeve ******** **** *** *** ****
+                             S        D    D   D   D    D
+
+sentence 57
+REF:                                   THE DINOSAUR WAS ABOUT TO LICK HIM
+HYP: evevletowepcemkekqmerbeoegecezegemede ******** *** ***** ** **** ***
+                                         S        D   D     D  D    D   D
+
+sentence 58
+REF:                  HE WAS HIDING
+HYP: eqemlenoewenlevmete *** ******
+                       S   D      D
+
+sentence 59
+REF:                     THE DINOSAUR WAS SAD
+HYP: eveveletowepcerewepcere ******** *** ***
+                           S        D   D   D
+
+sentence 60
+REF:                           AND THE DINOSAUR WAS LYING DOWN
+HYP: ebepeseveletowepcereperpetsve *** ******** *** ***** ****
+                                 S   D        D   D     D    D
+
+sentence 61
+REF:                            AND HE WAS LOOKING AT THE DINOSAUR
+HYP: edeqmermeweoegeteveletowepcere ** *** ******* ** *** ********
+                                  S  D   D       D  D   D        D
+
+sentence 62
+REF:                           HE WAS TOUCHING THE DINOSAUR
+HYP: emeoegepoegeoetevletowepcere *** ******** *** ********
+                                S   D        D   D        D
+
+sentence 63
+REF:                            AND HE FEED THE DINOSAUR HIS MILK
+HYP: edeqepermevletwemrewemdmezoese ** **** *** ******** *** ****
+                                  S  D    D   D        D   D    D
+
+sentence 64
+REF:                AND THEN HE LAUGH
+HYP: eqpedbekemedemezpe    e ** *****
+                      S    S  D     D
+
+sentence 65
+REF:                         HE IS RIDING HIS SKATEBOARD
+HYP: eqmewerlekmetsmegmlenoerve ** ****** *** **********
+                              S  D      D   D          D
+
+sentence 66
+REF:                                HE CRASHES INTO THE EGG THE DINOSAUR EGG
+HYP: eqegerekeoekexmesebeveletowermese ******* **** *** *** *** ******** ***
+                                     S       D    D   D   D   D        D   D
+
+sentence 67
+REF:                         AND THEN HE GOT UPSET
+HYP: emetqmetmqmegeoekoenwemerne **** ** *** *****
+                               S    D  D   D     D
+
+sentence 68
+REF:                               THEN      HE LISTENED TO THE EGG WHEN HE FELL OFF
+HYP: e'empetlezoewqepetekekemrxmesemete emcezpe ******** ** *** *** **** ** **** ***
+                                      S       S        D  D   D   D    D  D    D   D
+
+sentence 69
+REF:                         AND THE EGG STARTED HATCHING
+HYP: emetkmexmesweoekeqpekgqmete *** *** ******* ********
+                               S   D   D       D        D
+
+sentence 70
+REF:                      IT STARTED CRACKING AND THEN
+HYP: ekepekpegerpegepetemete ******* ******** *** ****
+                           S       D        D   D    D
+
+sentence 71
+REF:            HE WAS SHOCKED
+HYP: emeieoeweoeke *** *******
+                 S   D       D
+
+sentence 72
+REF:              AND                THEN                A LITTLE LIKE DINOSAUR POPPED OUT OF IT
+HYP: emetvqmetezekmoe ezlesyevletowepcere neopenkemcekme'e ****** **** ******** ****** *** ** **
+                    S                   S                S      D    D        D      D   D  D  D
+
+sentence 73
+REF:                          SCARED AND WORRIED AND HE WAS CONFUSED
+HYP: eweylervepevoetemegepedegqemewe *** ******* *** ** *** ********
+                                   S   D       D   D  D   D        D
+
+sentence 74
+REF:                                                       AND THEN THE DINOSAUR JUST WAS HOPPED OUT OF THE EGG
+HYP: emedmetekqemerevletowepcerevemeweroegeoenkempekemxmesesme **** *** ******** **** *** ****** *** ** *** ***
+                                                             S    D   D        D    D   D      D   D  D   D   D
+
+sentence 75
+REF:                                      THE BOY'S LIKE STARTLED TO THE GROUND
+HYP: ekqemereboewezlekewekpekeoekexoxgzocetke ***** **** ******** ** *** ******
+                                            S     D    D        D  D   D      D
+
+sentence 76
+REF:                     AND                   HE RAN AND HID FROM THE DINOSAUR
+HYP: emetvemerqmletemeqlevmr emetdemevletowepcere *** *** *** **** *** ********
+                           S                    S   D   D   D    D   D        D
+
+sentence 77
+REF:                              CUZ HE THOUGHT THE DINOSAUR WOULD EAT HIM
+HYP: egemzenqeoekevletowepcervemekede ** ******* *** ******** ***** *** ***
+                                    S  D       D   D        D     D   D   D
+
+sentence 78
+REF:                                    BUT      THE DINOSAUR LOOKED AROUND AND THEN HE GOT SAD THAT THE GUY LEFT
+HYP: ebekevletowepcerezoekermetvedmegekweve elenezoe ******** ****** ****** *** **** ** *** *** **** *** *** ****
+                                          S        S        D      D      D   D    D  D   D   D    D   D   D    D
+
+sentence 79
+REF:                                               AND THAT'S HIM LYING ON THE GROUNG LIKE BEING UPSET BECAUSE
+HYP: etekepekedzletetmxrpetezlesyebeletsewemenelegpewe ****** *** ***** ** *** ****** **** ***** ***** *******
+                                                     S      D   D     D  D   D      D    D     D     D       D
+
+sentence 80
+REF:                         HE CAN'T FIND HIS FRIEND
+HYP: enempekegepeneoetememroete ***** **** *** ******
+                              S     D    D   D      D
+
+sentence 81
+REF:             AND          THEN THE BOY FELT SORRY
+HYP: emetqmetemeboej eoceweomereje *** *** **** *****
+                   S             S   D   D    D     D
+
+sentence 82
+REF:                                            WELL HE WAS HIDING BECAUSE THE DINOSAUR WAS SAD
+HYP: erqmezmeoewelevmetebmegpewemevletowepceroeperve ** *** ****** ******* *** ******** *** ***
+                                                   S  D   D      D       D   D        D   D   D
+
+sentence 83
+REF:                                 AND SO HE WENT OVER AND PETTED THE DINOSAUR
+HYP: ekqmeiemetkeoerednepekevletowepcere ** ** **** **** *** ****** *** ********
+                                       S  D  D    D    D   D      D   D        D
+
+sentence 84
+REF:                                      AND GAVE THE DINOSAUR SOME OF HIS MILK
+HYP: emeteseme'eoeveletowepcekepedelewedlegye **** *** ******** **** ** *** ****
+                                            S    D   D        D    D  D   D    D
+
+sentence 85
+REF:                  HE STARTED LAUGHING
+HYP: eleneoezopekqoletse ******* ********
+                       S       D        D
+
+sentence 86
+REF:                       BECAUSE    THE DINOSAUR LOOKED FUNNY
+HYP: ebelegeoewevletowepceregeoeke eoetle ******** ****** *****
+                                 S      S        D      D     D
+
+sentence 87
+REF:                                                             BABY HULK WAS RIDING ON A SKATEBOARD AND THEN HE CRASHED INTO AN EGG
+HYP: ebmemeoegzmerwerlevmededoewegmenoekmedemetegerpewetkeiometxmesme **** *** ****** ** * ********** *** **** ** ******* **** ** ***
+                                                                    S    D   D      D  D D          D   D    D  D       D    D  D   D
+
+sentence 88
+REF:                 HE HURT THE EGG
+HYP: eqmemeoekememxmese **** *** ***
+                      S    D   D   D
+
+sentence 89
+REF:                       HE PUT HIS EAR UP TO IT
+HYP: qlenoekpewemeroenkeioeke *** *** *** ** ** **
+                            S   D   D   D  D  D  D
+
+sentence 90
+REF:                        THE EGG STARTED CRACKING
+HYP: ekexmeseswekekoegeroegoete *** ******* ********
+                              S   D       D        D
+
+sentence 91
+REF:                                                  AND THE EGG CRACKED AND THE DINO BABY DINOSAUR CAME OUT
+HYP: emetkemexmesgerpemetmeveletoebemevletowepcegcmedceke *** *** ******* *** *** **** **** ******** **** ***
+                                                        S   D   D       D   D   D    D    D        D    D   D
+
+sentence 92
+REF:                               THE BABY DINOSAUR WAS EXCITED WHEN A
+HYP: emebemezeveletowepceremevzoeoetme **** ******** *** ******* **** *
+                                     S    D        D   D       D    D D
+
+sentence 93
+REF:                    AND                  WENT UP TO BABY HULK BUT HE WAS SCARED
+HYP: emeteimetoekemrbmezemx eoegebeoekeoeweylerke ** ** **** **** *** ** *** ******
+                          S                     S  D  D    D    D   D  D   D      D
+
+sentence 94
+REF:                                SO HE RAN AND HID BEHIND A TREE
+HYP: ewemelerqletkemeteqlnenoletekerme ** *** *** *** ****** * ****
+                                     S  D   D   D   D      D D    D
+
+sentence 95
+REF:                                AND THE BABY DINOSAUR DIDN'T KNOW WHERE HE WAS
+HYP: emetqmrbmevletowepcevetoerimeimewe *** **** ******** ****** **** ***** ** ***
+                                      S   D    D        D      D    D     D  D   D
+
+sentence 96
+REF:                  AND THEN HE WAS SAD
+HYP: emedqmpekeleoewemere **** ** *** ***
+                        S    D  D   D   D
+
+sentence 97
+REF:                                     THE     BABY DINO BEING SAD MADE BABY HULK SAD
+HYP: evebemezejveletoebemetewemrdmevebmezeje eoewerve **** ***** *** **** **** **** ***
+                                           S        S    D     D   D    D    D    D   D
+
+sentence 98
+REF:                                                      SO HE WENT UP TO THE DINOSAUR AND PETTED HIM ON THE HEAD
+HYP: ewepcereqmerimetoenevletowepcermednepekmrkemedoedmemeve ** **** ** ** *** ******** *** ****** *** ** *** ****
+                                                           S  D    D  D  D   D        D   D      D   D  D   D    D
+
+sentence 99
+REF:                   THEN GAVE HIM HIS BOTTLE
+HYP: ekemetsme'qledebcpekoe **** *** *** ******
+                          S    D   D   D      D
+
+sentence 100
+REF:                 AND THEN HE FOUND IT FUNNY
+HYP: emenqeocetkeketmeje **** ** ***** ** *****
+                       S    D  D     D  D     D
+
+sentence 101
+REF:                        THE BOY IS ON SKATEBOARD
+HYP: ekqebeomekweoedoweopenoere *** ** ** **********
+                              S   D  D  D          D
+
+sentence 102
+REF:                               THE BOY SNARE A DINOSAUR EGG
+HYP: ebeolewetlereveletowepcerexmesese *** ***** * ******** ***
+                                     S   D     D D        D   D
+
+sentence 103
+REF:                                    THE BOY'S TOUCHING THE DINOSAUR EGG
+HYP: ebermpekwmebepekqepeteveletowepcermese ***** ******** *** ******** ***
+                                          S     D        D   D        D   D
+
+sentence 104
+REF:                                 THE DINOSAUR EGG IS CRACKING OPEN
+HYP: eveveletoweperxmesewerpekeledenoete ******** *** ** ******** ****
+                                       S        D   D  D        D    D
+
+sentence 105
+REF:                                THE DINOSAUR EGG IS OPENED
+HYP: ekeletowepcerexmesesemewemoenmetke ******** *** ** ******
+                                      S        D   D  D      D
+
+sentence 106
+REF:                        THE BOY IS HIDING BEHIND A TREE
+HYP: ebeoeqepekmedbekekekermeje *** ** ****** ****** * ****
+                              S   D  D      D      D D    D
+
+sentence 107
+REF:                                  DINOSAUR IS IN THERE BY HIMSELF
+HYP: evletowepcerepekweteveloevelerevelewemere ** ** ***** ** *******
+                                             S  D  D     D  D       D
+
+sentence 108
+REF:                                        THE DINOSAUR IS STILL THERE BY HIMSELF BUT ON THE FLOOR
+HYP: eveveletowepcerewekeoevemelewepeoetveocere ******** ** ***** ***** ** ******* *** ** *** *****
+                                              S        D  D     D     D  D       D   D  D   D     D
+
+sentence 109
+REF:                        THE BOY IS HIDING BEHIND A TREE
+HYP: ebeoejmeqepekoepesekermeje *** ** ****** ****** * ****
+                              S   D  D      D      D D    D
+
+sentence 110
+REF:                                THE BOY IS PET THE DINOSAUR ON THE HEAD
+HYP: elebeoemeweneleveletowepcerelperve *** ** *** *** ******** ** *** ****
+                                      S   D  D   D   D        D  D   D    D
+
+number of sentences: 110
+substitutions=131 deletions=714 insertions=0 hits=0
+
+mer=100.00%
+wil=100.00%
+wip=0.00%
+wer=100.00%

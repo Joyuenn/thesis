@@ -1,0 +1,3969 @@
+,target_text,pred_str
+0,bird,bird
+1,detective,tectiv
+2,short,sout
+3,cloud,clo
+4,that,
+5,pie,pa
+6,xylophone,phone
+7,four o clock,four o clock
+8,potato,ptat
+9,cow,cow
+10,one cup,on coup
+11,hair,hi
+12,one egg,oni
+13,snake,snake
+14,thermometer,theste
+15,mouth,mouthe
+16,spaghetti,c
+17,snake,snake
+18,four cups,for cup
+19,tonight,do not
+20,two,two
+21,beard,bi
+22,head,help
+23,cow,cw
+24,banana,banaa
+25,splash,splash
+26,three,te
+27,gorilla,garila
+28,wood,od
+29,wheel,will
+30,four,fu
+31,machine,machine
+32,bag,bag
+33,two cups,toclock
+34,machine,a
+35,zoo,z
+36,zoo,jo
+37,treasure,treasure
+38,frog,fog
+39,short,short
+40,thermometer,
+41,short,short
+42,food,food
+43,boy,boy
+44,tail,ta
+45,shell,shell
+46,head,head
+47,light,light
+48,splash,barage
+49,car,ka
+50,carpet,carpet
+51,sausage,sausichh
+52,duck,docg
+53,sprout,sp
+54,cucumber,ccaba
+55,martian,laso
+56,spade,spade
+57,play,
+58,pull,pul
+59,key,
+60,spiderweb,spiderwep
+61,watch,watch
+62,bag,bag
+63,boat,boart
+64,cloud,clow
+65,eight,iht
+66,spaghetti,b
+67,cart,caught
+68,boy,boy
+69,watch,ar
+70,flowerpot,flowerpot
+71,chair,c
+72,pull,pole
+73,bag,bag
+74,bridge,birc
+75,gorilla,bi
+76,breathe,boyhood
+77,sword,sar
+78,cicada,zacata
+79,sausage,subsage
+80,butterfly,butterfly
+81,crocodile,crockedile
+82,six,se
+83,circus,sircas
+84,seven,seven
+85,vanilla,ai
+86,gorilla,boita
+87,martian,mashed
+88,pool,pol
+89,thermometer,samanta
+90,caterpillar,katapillor
+91,yoyo,yaa
+92,carpet,cap
+93,spiderweb,ewag
+94,attack,attack
+95,four,fou
+96,hair,her
+97,hippopotamus,ipomas
+98,snake,snake
+99,sprout,sprout
+100,wheel,well
+101,bag,by
+102,australia,ustralia
+103,six,six
+104,balloon,ban
+105,chair,chair
+106,hole,whole
+107,treasure,treasure
+108,tonight,toknoght
+109,yoyo,
+110,fish,fich
+111,five,five
+112,car,ka
+113,rhinoceros,
+114,seven,seven
+115,three cups,three cups
+116,banana,mananna
+117,xylophone,ciphone
+118,skirt,scirt
+119,tomato,tomorrow
+120,sword,sard
+121,drink,juge
+122,crocodile,cgod
+123,straw,sco
+124,kitchen,kipcen
+125,tooth,toth
+126,no,no
+127,gorilla,gi
+128,four,fo
+129,two eggs,two egs
+130,nose,nose
+131,snake,snake
+132,two eggs,two egs
+133,wood,woud
+134,cub,cob
+135,cart,caught
+136,seven,
+137,fur,for
+138,duck,duck
+139,garden,garden
+140,four o clock,four o'clock
+141,caterpillar,caapea
+142,two o clock,tegnouk
+143,rhinoceros,why nott
+144,cow,
+145,one egg,oeg
+146,zoo,
+147,martian,mauson
+148,canoe,connur
+149,four eggs,four eggs
+150,jam,ja
+151,pie,pi
+152,food,food
+153,chair,c
+154,five,by
+155,two,t
+156,mouth,mout
+157,potato,patt
+158,sprout,spro
+159,card,cau
+160,bellybutton,barly button
+161,dessert,
+162,bridge,bridge
+163,vegemite,sedo might
+164,thermometer,simmetter
+165,crocodile,cokani
+166,canoe,cannu
+167,car,ca
+168,splash,splache
+169,yes,yes
+170,two o clock,two o clock
+171,bellybutton,bully buston
+172,kangaroo,kangaroo
+173,yes,yeah
+174,fish,fis
+175,doll,dul
+176,two,t
+177,stethoscope,stuffscoap
+178,two o clock,two o' clock
+179,two o clock,jclab
+180,yes,yes
+181,boy,boy
+182,crab,crab
+183,hill,
+184,two cups,to cups
+185,nine,nine
+186,story,story
+187,garage,garage
+188,skirt,c
+189,caterpillar,caepil
+190,garage,gaage
+191,doll,d
+192,grasshopper,grassappa
+193,cloud,cloud
+194,rhinoceros,notforus
+195,ball,b
+196,key,t
+197,magician,magition
+198,treasure,ta
+199,key,
+200,owl,
+201,pool,pole
+202,tooth,touth
+203,one cup,onc
+204,jam,jam
+205,balloon,balone
+206,five,fi
+207,xylophone,zphone
+208,cloud,cloud
+209,two o clock,two oc clock
+210,boy,boy
+211,chair,char
+212,yoyo,yoyo
+213,dessert,ser
+214,magician,maciin
+215,bellybutton,bebo
+216,cloud,plow
+217,hippopotamus,ppate
+218,three,pi
+219,caterpillar,cattarpiller
+220,voice,voice
+221,drink,drink
+222,mouth,mouth
+223,circus,circass
+224,treasure,
+225,three cups,three cups
+226,ball,b
+227,four cups,forcoups
+228,rhinoceros,rana
+229,duck,doc
+230,wood,oud
+231,bag,bag
+232,thermometer,famamwou
+233,card,ca
+234,dinosaur,dinousa
+235,nine,
+236,bag,bag
+237,three cups,three cops
+238,coconut,a
+239,gorilla,gila
+240,girl,
+241,tonight,tonight
+242,canoe,ca
+243,martian,masha
+244,martian,agha
+245,pull,poule
+246,wood,woud
+247,banana,banana
+248,eight,i
+249,nine,nine
+250,machine,mac
+251,frog,plog
+252,butterfly,buterfly
+253,caterpillar,tapu
+254,five,i
+255,hole,hl
+256,owl,
+257,xylophone,tilou
+258,stethoscope,iigot
+259,one,
+260,short,sur
+261,canoe,can
+262,jam,ja
+263,spiderweb,spiderweb
+264,smile,smiled
+265,crocodile,caadi
+266,spaghetti,a
+267,four o clock,full cloake
+268,no,no
+269,girl,go
+270,three cups,thr cops
+271,detective,teckchif
+272,wood,woud
+273,four eggs,forlegs
+274,hippopotamus,hipa
+275,detective,detective
+276,duck,oc
+277,zoo,z
+278,four cups,four clock
+279,five,five
+280,doll,dul
+281,hill,hill
+282,four,or
+283,kangaroo,cangar
+284,hippopotamus,ipoless
+285,cucumber,seco
+286,ride,ride
+287,butterfly,biafi
+288,swing,swing
+289,pull,pul
+290,grasshopper,grass happa
+291,flowerpot,flanmdmapot
+292,kangaroo,kangarroo
+293,magician,mcisa
+294,splash,splash
+295,seven,seven
+296,light,light
+297,chair,
+298,four cups,fourcrups
+299,hill,che
+300,one,
+301,food,third
+302,tooth,tooth
+303,breathe,breathe
+304,carpet,cap
+305,vegemite,tese might
+306,butterfly,butatarfly
+307,leaf,lef
+308,cucumber,kicab
+309,one egg,on
+310,clown,cown
+311,tail,tal
+312,girl,g
+313,wheel,well
+314,that,that
+315,two cups,two cups
+316,seven,seven
+317,duck,doc
+318,three,three
+319,cheese,c
+320,stethoscope,car
+321,short,
+322,fur,fo
+323,four eggs,for egs
+324,boy,boy
+325,vegemite,ven you mig
+326,magician,agition
+327,zoo,z
+328,pig,ping
+329,cheese,chease
+330,carpet,carlti
+331,tonight,tom
+332,duck,doc
+333,potato,i
+334,shell,shell
+335,two cups,to cups
+336,flowerpot,flowerpont
+337,car,call
+338,wood,woud
+339,gorilla,garilla
+340,bridge,
+341,caterpillar,apile
+342,sausage,sousiche
+343,three eggs,threiegs
+344,that,that
+345,flowerpot,flowerpot
+346,bridge,bridge
+347,four,pol
+348,frog,frog
+349,no,no
+350,stethoscope,p
+351,mouth,mou
+352,tooth,tooth
+353,seven,seven
+354,foot,fot
+355,story,story
+356,sword,sord
+357,frog,frog
+358,butterfly,bip
+359,spaghetti,spc
+360,thermometer,tmama
+361,dessert,dosit
+362,cucumber,ccambac
+363,coconut,corot
+364,tomato,tomotow
+365,spade,iaspade
+366,doll,u
+367,boat,boait
+368,grasshopper,grassoppal
+369,three,thre
+370,martian,mauson
+371,gorilla,garilla
+372,australia,astaa
+373,australia,
+374,caterpillar,catpilla
+375,sprout,spa
+376,pull,poule
+377,cow,cow
+378,cow,c
+379,four cups,fourca
+380,one,one
+381,hair,
+382,potato,patato
+383,bird,bed
+384,thumb,fom
+385,garden,garden
+386,watch,wach
+387,dessert,desurt
+388,hippopotamus,ip
+389,girl,ga
+390,that,wa
+391,tomato,tomarto
+392,breathe,breathe
+393,girl,g
+394,zoo,zu
+395,boat,
+396,cheese,chs
+397,leaf,may
+398,grasshopper,ao
+399,grasshopper,csa
+400,balloon,balloon
+401,one,on
+402,three,three
+403,thermometer,temaa
+404,seven,si
+405,drink,drink
+406,hole,co
+407,wheel,
+408,drink,jink
+409,bird,bird
+410,australia,astralia
+411,owl,a
+412,three,f
+413,carpet,carp
+414,australia,ta
+415,dessert,dosr
+416,frog,frog
+417,ten,ten
+418,machine,machine
+419,chair,c
+420,garden,d
+421,treasure,treasar
+422,mouth,moute
+423,four,bfour
+424,foot,fourt
+425,skirt,sca
+426,moustache,moustache
+427,spaghetti,
+428,beard,b
+429,potato,pata
+430,food,food
+431,machine,mat
+432,six,
+433,nine,to
+434,swing,swing
+435,breathe,brath
+436,dinosaur,dinosa
+437,cicada,sicao
+438,detective,detective
+439,three o clock,three or clock
+440,stethoscope,doestescart
+441,three eggs,treeggs
+442,duck,dock
+443,hole,who
+444,grasshopper,grass hopper
+445,frog,frog
+446,clown,ca
+447,smile,smile
+448,garden,coen
+449,two eggs,two egs
+450,ride,rde
+451,swing,sing
+452,gorilla,garia
+453,moustache,matcat
+454,three eggs,tegs
+455,one,one
+456,carpet,cap
+457,attack,attack
+458,thermometer,termometar
+459,banana,bananna
+460,garden,gae
+461,treasure,treasr
+462,snake,snake
+463,bag,back
+464,hippopotamus,hipopatm
+465,fur,for
+466,potato,ptato
+467,sprout,spro
+468,food,t
+469,hill,
+470,potato,ptat
+471,swing,swing
+472,duck,dock
+473,tomato,mata
+474,cheese,cag
+475,no,n
+476,mountain,mounting
+477,circus,circals
+478,butterfly,but to fly
+479,cloud,cloud
+480,cucumber,kicab
+481,martian,mausing
+482,drink,drink
+483,garden,got
+484,treasure,treasure
+485,one egg,oni
+486,three,
+487,tonight,tonight
+488,key,k
+489,ride,ag
+490,six,
+491,sprout,a
+492,story,story
+493,giraffe,dua
+494,four,fou
+495,rhinoceros,
+496,wheel,whill
+497,bag,bag
+498,clown,c
+499,three o clock,fir clock
+500,garden,gon
+501,voice,voice
+502,binoculars,the nutcers
+503,martian,masso
+504,watch,watch
+505,grasshopper,grass hubper
+506,three eggs,three egs
+507,story,story
+508,crab,crab
+509,bellybutton,b
+510,ten,ten
+511,seven,seven
+512,food,feed
+513,treasure,treasure
+514,hair,
+515,three,
+516,that,a
+517,spade,spite
+518,breathe,breathe
+519,splash,splash
+520,mountain,mountain
+521,vegemite,teimlike
+522,smile,smile
+523,caterpillar,iapil
+524,card,cau
+525,coconut,cocanat
+526,cicada,sca
+527,owl,a
+528,martian,maso
+529,canoe,can
+530,treasure,ta
+531,three cups,three cops
+532,stethoscope,ecop
+533,sausage,soussage
+534,three o clock,reoclock
+535,skirt,scip
+536,pig,pa
+537,foot,foot
+538,one cup,one cup
+539,vegemite,e
+540,tail,tal
+541,jam,jab
+542,vanilla,i
+543,zoo,u
+544,australia,ustralia
+545,yoyo,a
+546,food,fod
+547,ride,r
+548,detective,detecttive
+549,six,s
+550,fish,fish
+551,banana,binanna
+552,tonight,tonight
+553,four,four
+554,spiderweb,spine away
+555,garage,gag
+556,bird,bird
+557,garden,c
+558,frog,frog
+559,tooth,tooth
+560,clown,c
+561,three eggs,ta
+562,elephant,elephant
+563,one cup,one cup
+564,skirt,skip
+565,card,ca
+566,two,to
+567,nose,nose
+568,attack,attack
+569,rhinoceros,no
+570,key,
+571,garden,garde
+572,light,lot
+573,garage,garage
+574,cub,cob
+575,feather,feather
+576,boat,bite
+577,cow,cow
+578,two,to
+579,hair,hair
+580,light,light
+581,story,storry
+582,spaghetti,
+583,vanilla,vanila
+584,tail,tal
+585,circus,safish
+586,cow,co
+587,bird,ba
+588,sausage,sausige
+589,coconut,pokenu
+590,key,t
+591,hole,whole
+592,stethoscope,sc
+593,seven,seven
+594,three cups,three cops
+595,bellybutton,belly button
+596,beard,bi
+597,giraffe,jara
+598,nine,nine
+599,bag,bag
+600,no,n
+601,shell,si
+602,six,six
+603,martian,masan
+604,binoculars,banaculos
+605,cub,cub
+606,leaf,length
+607,hole,hol
+608,fur,fo
+609,crab,crab
+610,bird,bird
+611,four eggs,fourlegs
+612,boat,bark
+613,mountain,mountain
+614,magician,i
+615,martian,mashing
+616,no,n
+617,one cup,one cup
+618,boy,boy
+619,kitchen,kitchen
+620,straw,store
+621,fish,fish
+622,fish,fish
+623,spiderweb,spider web
+624,doll,dul
+625,spaghetti,aca
+626,one o clock,one oclock
+627,short,short
+628,ride,ed
+629,story,story
+630,stethoscope,ac
+631,watermelon,woodandho
+632,vegemite,bagcameby
+633,carpet,cath
+634,coconut,coca
+635,two o clock,two o clock
+636,binoculars,banarcous
+637,sausage,susage
+638,dessert,desrt
+639,foot,fot
+640,swing,swing
+641,bird,bird
+642,coconut,ca
+643,smile,smile
+644,tomato,tmoater
+645,vegemite,fegmar
+646,cheese,c
+647,girl,
+648,six,six
+649,pig,pig
+650,butterfly,bita flir
+651,detective,detective
+652,three o clock,three o' clock
+653,duck,doc
+654,dessert,desurt
+655,nine,nine
+656,tooth,touth
+657,jam,sam
+658,that,back
+659,four o clock,four o clock
+660,three o clock,threy orclock
+661,girl,g
+662,key,k
+663,pig,pig
+664,two,to
+665,straw,storl
+666,swing,swing
+667,watch,whath
+668,hill,hill
+669,play,pplay
+670,gorilla,grila
+671,circus,safish
+672,play,play
+673,garden,got
+674,seven,seven
+675,banana,banana
+676,duck,dock
+677,four cups,four cups
+678,pool,po
+679,one egg,one eg
+680,hippopotamus,pa
+681,tooth,toth
+682,breathe,beathe
+683,cow,a
+684,butterfly,buterfly
+685,head,head
+686,pig,pig
+687,pool,pl
+688,five,five
+689,treasure,crail
+690,stethoscope,stiscap
+691,tail,tal
+692,mountain,mountain
+693,sprout,spout
+694,doll,d
+695,watermelon,godon melon
+696,spade,spaide
+697,duck,dock
+698,fish,fish
+699,four eggs,fog
+700,canoe,c
+701,feather,feather
+702,tonight,toni
+703,hole,hole
+704,shell,shell
+705,elephant,elephant
+706,hippopotamus,heipoaa
+707,light,
+708,ear,i
+709,leaf,naf
+710,six,six
+711,clown,clown
+712,feather,e
+713,jam,ca
+714,one cup,one cup
+715,eight,e
+716,two o clock,two o'cclock
+717,card,ca
+718,jam,jam
+719,splash,splash
+720,jam,ca
+721,thumb,tum
+722,frog,frog
+723,three,three
+724,cub,cab
+725,head,head
+726,ride,
+727,tonight,tooknight
+728,grasshopper,crousober
+729,carpet,cap
+730,one egg,o
+731,kitchen,kitchen
+732,cucumber,ccomb
+733,binoculars,bannaco
+734,hippopotamus,hippo
+735,beard,bed
+736,watch,watch
+737,four o clock,
+738,spiderweb,spottowed
+739,pie,p
+740,binoculars,ceocm
+741,machine,
+742,nine,
+743,zoo,z
+744,pool,pol
+745,flowerpot,flower bot
+746,watermelon,waterno
+747,food,food
+748,yes,yes
+749,vanilla,vanilla
+750,swing,swing
+751,cow,k
+752,sprout,bo
+753,balloon,baloon
+754,ear,
+755,fish,fish
+756,potato,
+757,watch,watch
+758,snake,snake
+759,ball,
+760,shell,shell
+761,play,play
+762,yes,yes
+763,carpet,cp
+764,food,food
+765,wood,wind
+766,sprout,sprout
+767,thumb,thum
+768,four cups,four cups
+769,watch,watch
+770,cow,
+771,spiderweb,spidereb
+772,moustache,moustache
+773,bridge,bridge
+774,nine,nine
+775,straw,stroul
+776,vegemite,eninlight
+777,frog,fog
+778,cucumber,cikub
+779,nine,nne
+780,ten,ten
+781,potato,batator
+782,voice,voice
+783,pool,poule
+784,sprout,spout
+785,jam,jam
+786,sword,stor
+787,fish,fish
+788,garden,go
+789,voice,voice
+790,coconut,cokaut
+791,chair,chea
+792,carpet,ca
+793,moustache,mo
+794,smile,smile
+795,one egg,onea
+796,dessert,esurt
+797,three eggs,three egs
+798,snake,snake
+799,ball,bo
+800,moustache,moustache
+801,mouth,mo
+802,cow,cow
+803,attack,attack
+804,thermometer,simometer
+805,vanilla,a
+806,five,five
+807,bird,bed
+808,sword,sot
+809,swing,swing
+810,two eggs,two egs
+811,doll,d
+812,canoe,kin
+813,hippopotamus,ipons
+814,crocodile,cokdil
+815,pig,pig
+816,dessert,desurt
+817,nine,no
+818,straw,sco
+819,light,lot
+820,snake,snake
+821,thumb,some
+822,story,story
+823,breathe,boys
+824,pool,pole
+825,chair,c
+826,giraffe,draft
+827,zoo,z
+828,hippopotamus,eacoumi
+829,thermometer,omowe
+830,frog,frog
+831,boat,boat
+832,nine,ni
+833,dessert,desr
+834,hole,ca
+835,tonight,tn
+836,sausage,soace
+837,leaf,leaf
+838,magician,maesi
+839,pool,pol
+840,frog,frog
+841,rhinoceros,oo
+842,boat,but
+843,bridge,ebridge
+844,watermelon,hortomelan
+845,garage,
+846,fish,fish
+847,spade,spaide
+848,coconut,cok cannot
+849,two,
+850,cheese,cee
+851,light,lot
+852,pull,pol
+853,banana,ananna
+854,car,ca
+855,wheel,well
+856,beard,beard
+857,straw,school
+858,cub,cat
+859,grasshopper,grass hupper
+860,cheese,chith
+861,hole,cub
+862,short,
+863,light,light
+864,foot,foot
+865,one,on
+866,one,one
+867,seven,seven
+868,wheel,we
+869,nine,nine
+870,rhinoceros,noos
+871,jam,jam
+872,hair,hair
+873,owl,
+874,fur,te
+875,eight,
+876,crocodile,cocadil
+877,dinosaur,dinosa
+878,pig,pig
+879,thermometer,oa
+880,bag,bag
+881,spade,scde
+882,binoculars,
+883,moustache,moustache
+884,xylophone,siphone
+885,bridge,
+886,fur,the
+887,three eggs,three egs
+888,cloud,cloud
+889,vegemite,
+890,three o clock,three o'clock
+891,feather,feather
+892,voice,voice
+893,tail,tal
+894,breathe,breathe
+895,cucumber,ccob
+896,wood,woud
+897,crocodile,carkan
+898,crab,clab
+899,caterpillar,coped
+900,breathe,beath
+901,four o clock,fourcloc
+902,fur,t
+903,zoo,
+904,australia,ustralia
+905,flowerpot,flowerpart
+906,ball,bo
+907,butterfly,buter fly
+908,moustache,moustache
+909,cow,cka
+910,wheel,will
+911,fur,fur
+912,rhinoceros,ynos
+913,yoyo,yay
+914,feather,feather
+915,cucumber,ccaba
+916,breathe,breathe
+917,two eggs,two egs
+918,watermelon,whata malen
+919,elephant,elepa
+920,cart,c
+921,thumb,thum
+922,sausage,suc
+923,bridge,in
+924,one o clock,one o clock
+925,doll,t
+926,nose,nice
+927,hippopotamus,hepypoois
+928,cart,caught
+929,one egg,wag
+930,two cups,two cups
+931,treasure,treasure
+932,tomato,tamarto
+933,yoyo,yeah yeah
+934,beard,bi
+935,voice,voice
+936,balloon,
+937,that,that
+938,smile,smile
+939,garage,garage
+940,sword,toard
+941,machine,machine
+942,giraffe,jaa
+943,jam,jam
+944,tomato,tomota
+945,magician,magition
+946,xylophone,zaiphon
+947,card,ca
+948,giraffe,jraf
+949,six,six
+950,tonight,ca
+951,splash,swash
+952,kitchen,kitchen
+953,giraffe,do
+954,beard,beard
+955,stethoscope,stifscap
+956,pull,pul
+957,thermometer,
+958,xylophone,zaliphone
+959,binoculars,bncs
+960,garden,garden
+961,cloud,cloud
+962,pull,p
+963,pool,pol
+964,beard,bed
+965,gorilla,gia
+966,duck,doc
+967,swing,swing
+968,smile,smile
+969,breathe,
+970,nose,nauis
+971,elephant,elephant
+972,rhinoceros,ii no
+973,butterfly,buterfly
+974,cucumber,cucumpe
+975,banana,i
+976,head,hed
+977,six,six
+978,boat,bait
+979,four cups,four cup
+980,eight,i
+981,spaghetti,pga
+982,bridge,bridge
+983,no,na
+984,canoe,kan
+985,wood,woud
+986,swing,swing
+987,pie,pie
+988,crocodile,crockedile
+989,cloud,ow
+990,splash,bra
+991,beard,bed
+992,cloud,cloud
+993,elephant,nt
+994,hippopotamus,hiponamiss
+995,spaghetti,speea
+996,leaf,lef
+997,card,ca
+998,light,light
+999,carpet,carp
+1000,swing,swin
+1001,australia,t
+1002,drink,drink
+1003,swing,swing
+1004,detective,ete
+1005,mountain,mounan
+1006,sword,sard
+1007,ear,year
+1008,moustache,moustache
+1009,wood,wood
+1010,wheel,whell
+1011,crocodile,crocile
+1012,watermelon,water mellon
+1013,hippopotamus,hepopuamiss
+1014,four cups,four cups
+1015,duck,dock
+1016,five,
+1017,skirt,scir
+1018,boat,boit
+1019,swing,swing
+1020,two eggs,two egs
+1021,ear,i
+1022,zoo,zu
+1023,vegemite,iemit
+1024,play,play
+1025,watch,watch
+1026,detective,pretective
+1027,cart,cat
+1028,watch,watch
+1029,canoe,c
+1030,hill,i
+1031,crab,crab
+1032,kitchen,kitchen
+1033,ball,b
+1034,dinosaur,dosa
+1035,one egg,oneg
+1036,circus,circls
+1037,straw,strul
+1038,four,fu
+1039,that,the
+1040,gorilla,ga
+1041,four o clock,four orclock
+1042,stethoscope,stiffescap
+1043,no,
+1044,clown,clown
+1045,xylophone,tepar
+1046,canoe,ka
+1047,breathe,
+1048,fur,te
+1049,swing,swing
+1050,rhinoceros,noi
+1051,car,c
+1052,leaf,length
+1053,short,short
+1054,that,that
+1055,shell,shell
+1056,circus,curcat
+1057,australia,
+1058,treasure,treasur
+1059,boy,boy
+1060,detective,tei
+1061,three,t
+1062,machine,machine
+1063,car,ca
+1064,crab,cap
+1065,wood,woud
+1066,grasshopper,grassabu
+1067,rhinoceros,o
+1068,head,hed
+1069,car,ca
+1070,thumb,fom
+1071,no,
+1072,eight,eight
+1073,cloud,cla
+1074,wood,wod
+1075,carpet,capit
+1076,snake,snake
+1077,boy,boy
+1078,breathe,breathe
+1079,two,to
+1080,tooth,tuth
+1081,hair,e
+1082,story,story
+1083,one cup,one cop
+1084,five,five
+1085,six,six
+1086,voice,voice
+1087,crocodile,co
+1088,yoyo,yaya
+1089,mouth,mouth
+1090,seven,seven
+1091,mountain,man
+1092,doll,dont
+1093,caterpillar,caap
+1094,tooth,tourt
+1095,garden,gotten
+1096,four eggs,four egs
+1097,one cup,one cup
+1098,skirt,sca
+1099,three o clock,fear clock
+1100,two cups,
+1101,coconut,coca
+1102,eight,i
+1103,ride,rie
+1104,three,
+1105,balloon,baloon
+1106,cicada,sacaro
+1107,pool,pol
+1108,garage,gaage
+1109,pig,tink
+1110,coconut,clogcannot
+1111,rhinoceros,os
+1112,treasure,
+1113,eight,
+1114,mouth,mouthe
+1115,tail,ty
+1116,card,ca
+1117,rhinoceros,noss
+1118,breathe,pan
+1119,tonight,tenni
+1120,cub,com
+1121,head,head
+1122,nose,nog
+1123,ear,
+1124,one o clock,one oc clock
+1125,vanilla,vana
+1126,cucumber,cca
+1127,caterpillar,ap
+1128,watch,watch
+1129,story,story
+1130,that,that
+1131,grasshopper,crose
+1132,hair,
+1133,short,short
+1134,cow,cow
+1135,tail,tal
+1136,crocodile,cockdile
+1137,story,story
+1138,coconut,coknou
+1139,garage,faig
+1140,bridge,which
+1141,one egg,aneg
+1142,hill,he
+1143,foot,fot
+1144,thermometer,the mommotar
+1145,kitchen,kitcen
+1146,four eggs,four egs
+1147,sword,soard
+1148,car,ca
+1149,play,play
+1150,nose,nose
+1151,food,food
+1152,balloon,baloon
+1153,mouth,mouth
+1154,shell,shell
+1155,feather,feather
+1156,pull,p
+1157,spaghetti,pga
+1158,sausage,such
+1159,five,fog
+1160,foot,fot
+1161,short,su
+1162,hole,hold
+1163,light,lig
+1164,three,
+1165,potato,potatr
+1166,ear,eah
+1167,voice,boycs
+1168,smile,smile
+1169,four eggs,four egs
+1170,play,play
+1171,five,fy
+1172,bridge,bridge
+1173,crab,crab
+1174,smile,smile
+1175,kangaroo,cang
+1176,head,hed
+1177,jam,jam
+1178,bag,bag
+1179,moustache,masa
+1180,fur,fae
+1181,tail,tal
+1182,two eggs,t
+1183,kangaroo,can
+1184,three o clock,thre o' clock
+1185,head,head
+1186,crocodile,crocodile
+1187,cicada,sca
+1188,frog,
+1189,vanilla,vanila
+1190,boy,boy
+1191,chair,chair
+1192,shell,show
+1193,garden,ga
+1194,fish,fishe
+1195,vanilla,tenerer
+1196,wood,would
+1197,hill,hil
+1198,watch,what
+1199,kitchen,kitchen
+1200,voice,voice
+1201,shell,showl
+1202,garden,gardan
+1203,caterpillar,caopido
+1204,circus,siurca
+1205,dinosaur,dnsa
+1206,key,t
+1207,magician,magea
+1208,cloud,cloud
+1209,grasshopper,grass hoppel
+1210,cloud,coout
+1211,three o clock,three o' cloc
+1212,vanilla,vanilla
+1213,watermelon,adermoun
+1214,cloud,cloud
+1215,watch,watch
+1216,ride,ride
+1217,that,that
+1218,pig,puld
+1219,machine,macn
+1220,butterfly,buterfly
+1221,watermelon,water molon
+1222,vanilla,si
+1223,chair,char
+1224,head,hed
+1225,attack,attack
+1226,food,t
+1227,wheel,w
+1228,two eggs,two eg
+1229,eight,
+1230,feather,feather
+1231,nine,nine
+1232,bridge,bridge
+1233,girl,c
+1234,shell,so
+1235,thumb,some
+1236,dessert,tthe
+1237,vegemite,omight
+1238,that,that
+1239,nose,nose
+1240,short,short
+1241,thermometer,memo
+1242,four o clock,foaco
+1243,pig,pig
+1244,voice,voice
+1245,tomato,simate
+1246,leaf,neaf
+1247,skirt,scirt
+1248,yoyo,yoyo
+1249,card,ca
+1250,boy,boy
+1251,clown,clan
+1252,cub,cop
+1253,xylophone,gilphone
+1254,garden,gadan
+1255,gorilla,gaia
+1256,owl,o
+1257,mouth,mouth
+1258,garage,gaage
+1259,circus,circus
+1260,beard,bed
+1261,four,four
+1262,tooth,tot
+1263,car,c
+1264,thermometer,fomomaa
+1265,play,play
+1266,rhinoceros,ia
+1267,jam,jam
+1268,mountain,mountan
+1269,nine,nine
+1270,four,foul
+1271,canoe,can
+1272,play,play
+1273,martian,mausig
+1274,four o clock,four occlock
+1275,sausage,sausige
+1276,sword,soard
+1277,binoculars,banarcuous
+1278,beard,b
+1279,canoe,kann
+1280,thermometer,simwiter
+1281,kitchen,kitchien
+1282,three eggs,coegs
+1283,car,ca
+1284,foot,fot
+1285,two cups,to cups
+1286,voice,voice
+1287,three o clock,fclob
+1288,bellybutton,beybutton
+1289,rhinoceros,iusus
+1290,flowerpot,snowp
+1291,yes,yes
+1292,seven,seven
+1293,short,s
+1294,cow,cw
+1295,moustache,moustache
+1296,one egg,one eg
+1297,four eggs,four eg
+1298,flowerpot,flowerpot
+1299,play,play
+1300,garden,gaden
+1301,thumb,fom
+1302,five,five
+1303,owl,a
+1304,one,o
+1305,pool,
+1306,play,play
+1307,ride,ag
+1308,cub,cub
+1309,ear,eah
+1310,voice,boish
+1311,smile,smile
+1312,two cups,tocops
+1313,cicada,sacaa
+1314,mouth,maut
+1315,head,hid
+1316,grasshopper,grass euper
+1317,beard,
+1318,car,a
+1319,bird,bed
+1320,ball,born
+1321,one cup,one cup
+1322,story,story
+1323,treasure,treasure
+1324,garden,garon
+1325,elephant,pn
+1326,wheel,well
+1327,mountain,mountin
+1328,giraffe,o
+1329,one o clock,ine o clock
+1330,bridge,p
+1331,light,what
+1332,girl,go
+1333,giraffe,dra
+1334,yes,yeah
+1335,six,s
+1336,three cups,taups
+1337,ten,ten
+1338,treasure,treasure
+1339,that,that
+1340,cart,cat
+1341,two,t
+1342,duck,docg
+1343,ride,ie
+1344,frog,fork
+1345,magician,magition
+1346,thermometer,the momont
+1347,cucumber,jucember
+1348,hippopotamus,hpapotoers
+1349,two o clock,chear clock
+1350,yes,yes
+1351,moustache,moustache
+1352,circus,souca
+1353,seven,seven
+1354,binoculars,banoucuous
+1355,ear,e
+1356,that,ta
+1357,cart,cart
+1358,mountain,mountain
+1359,ball,b
+1360,potato,patato
+1361,hill,hill
+1362,watermelon,omaon
+1363,pie,pi
+1364,kitchen,kitchen
+1365,garage,garage
+1366,one o clock,one oc clock
+1367,treasure,ta
+1368,caterpillar,cavilla
+1369,pool,pole
+1370,four eggs,forwag
+1371,canoe,
+1372,hill,
+1373,straw,strol
+1374,dinosaur,asi
+1375,jam,jan
+1376,four o clock,four o clock
+1377,bird,bird
+1378,treasure,treas
+1379,beard,be
+1380,kitchen,cicchin
+1381,cart,cack
+1382,ride,rige
+1383,two cups,tucups
+1384,watermelon,watermilo
+1385,clown,clam
+1386,ten,ten
+1387,garage,garage
+1388,girl,
+1389,two cups,two cups
+1390,cart,caught
+1391,foot,fot
+1392,tomato,tomat
+1393,two,to
+1394,cheese,chs
+1395,pie,pi
+1396,ten,ten
+1397,four cups,ful cups
+1398,machine,machine
+1399,xylophone,p
+1400,mouth,mouse
+1401,cart,cauht
+1402,foot,flip
+1403,giraffe,a
+1404,boat,barke
+1405,wheel,eryo
+1406,spiderweb,spiderwab
+1407,boy,boy
+1408,tomato,tomotor
+1409,fur,p
+1410,cucumber,a
+1411,snake,snake
+1412,binoculars,funnoao
+1413,yoyo,yoyo
+1414,two,t
+1415,spade,spad
+1416,smile,smile
+1417,ear,i
+1418,dessert,desurt
+1419,potato,btat
+1420,bridge,bridge
+1421,sausage,oic
+1422,tooth,tooth
+1423,cucumber,kinggua
+1424,watch,wach
+1425,boat,boat
+1426,girl,go
+1427,pull,pui
+1428,rhinoceros,y nousos
+1429,two eggs,two egs
+1430,two eggs,two egs
+1431,skirt,cirt
+1432,flowerpot,flowrpot
+1433,stethoscope,tuosc
+1434,binoculars,tenort
+1435,six,six
+1436,tail,til
+1437,three cups,three cups
+1438,sword,t
+1439,sprout,spa
+1440,zoo,z
+1441,chair,ch
+1442,crab,crab
+1443,attack,cack
+1444,fish,fish
+1445,wood,
+1446,spaghetti,spagani
+1447,tooth,truth
+1448,pie,py
+1449,shell,shell
+1450,potato,tator
+1451,pig,pig
+1452,ride,y
+1453,yoyo,yayah
+1454,watermelon,hornomelan
+1455,banana,baaa
+1456,ride,ride
+1457,splash,splash
+1458,tooth,tuth
+1459,beard,bed
+1460,gorilla,t
+1461,xylophone,ap
+1462,owl,a
+1463,three cups,three cups
+1464,leaf,lef
+1465,australia,t
+1466,fish,fish
+1467,two o clock,two o' clock
+1468,detective,detective
+1469,key,t
+1470,circus,sircas
+1471,hair,h
+1472,kitchen,kitten
+1473,wood,woud
+1474,vegemite,eemi
+1475,thermometer,finomona
+1476,eight,eight
+1477,canoe,cannew
+1478,two,to
+1479,dessert,deir
+1480,ten,ted
+1481,breathe,breate
+1482,thermometer,finomona
+1483,leaf,r
+1484,doll,
+1485,banana,mananna
+1486,frog,frog
+1487,magician,magition
+1488,watch,watch
+1489,pig,pig
+1490,head,hit
+1491,grasshopper,as
+1492,nose,nose
+1493,two o clock,two oclock
+1494,four eggs,four egs
+1495,car,cal
+1496,car,call
+1497,watch,watcc
+1498,stethoscope,teascoap
+1499,bridge,
+1500,thumb,some
+1501,rhinoceros,wy nosustance
+1502,two,to
+1503,bird,bu
+1504,car,call
+1505,thermometer,theroca
+1506,tail,tal
+1507,food,food
+1508,key,k
+1509,feather,feather
+1510,shell,shell
+1511,kangaroo,cangr
+1512,key,k
+1513,frog,frog
+1514,story,story
+1515,machine,macine
+1516,doll,dont
+1517,crocodile,croccoil
+1518,straw,sto
+1519,duck,aduck
+1520,jam,jan
+1521,that,ac
+1522,skirt,scar
+1523,feather,feather
+1524,beard,beard
+1525,cicada,sucaba
+1526,pull,pole
+1527,feather,father
+1528,two eggs,two egs
+1529,fish,i
+1530,pool,pole
+1531,zoo,jo
+1532,beard,bid
+1533,four o clock,four clock
+1534,tail,tal
+1535,doll,d
+1536,machine,recie
+1537,mouth,mouthe
+1538,two,to
+1539,hippopotamus,hipopooms
+1540,kitchen,kitchen
+1541,sprout,sprout
+1542,foot,for
+1543,garden,garde
+1544,magician,magition
+1545,banana,bananna
+1546,butterfly,butterfly
+1547,mouth,mouth
+1548,crocodile,crockeol
+1549,skirt,sc
+1550,nose,nose
+1551,smile,smile
+1552,grasshopper,casapa
+1553,crab,grab
+1554,two cups,two cops
+1555,sprout,spra
+1556,gorilla,caia
+1557,clown,cow
+1558,cub,cob
+1559,carpet,co
+1560,three eggs,eeg
+1561,ten,ten
+1562,hill,hill
+1563,vegemite,emi
+1564,two o clock,two o'clock
+1565,six,
+1566,hippopotamus,papoti
+1567,voice,voice
+1568,three o clock,arca
+1569,three,three
+1570,attack,ba
+1571,spaghetti,pagai
+1572,cub,cob
+1573,spiderweb,bidereeb
+1574,that,at
+1575,cheese,chs
+1576,swing,t
+1577,kangaroo,ki
+1578,flowerpot,sowlpot
+1579,elephant,elephant
+1580,one,
+1581,four eggs,four egs
+1582,three eggs,
+1583,smile,smile
+1584,kangaroo,kanga
+1585,two,to
+1586,tonight,tonight
+1587,hair,
+1588,stethoscope,steiscap
+1589,pull,pole
+1590,straw,
+1591,three cups,three coups
+1592,bridge,bidge
+1593,nine,t
+1594,boat,
+1595,stethoscope,
+1596,ear,
+1597,bridge,bridge
+1598,nine,
+1599,three o clock,three o' clock
+1600,boy,by
+1601,owl,a
+1602,hole,h
+1603,elephant,lepant
+1604,treasure,treasure
+1605,hill,ill
+1606,magician,magitio
+1607,boy,boy
+1608,drink,drink
+1609,rhinoceros,o
+1610,watermelon,odmelon
+1611,card,caued
+1612,straw,stral
+1613,seven,seven
+1614,grasshopper,grasuppal
+1615,martian,mausa
+1616,mountain,mousi
+1617,short,shourt
+1618,no,n
+1619,circus,ciurcas
+1620,story,story
+1621,three o clock,three o' cloc
+1622,three eggs,three egs
+1623,light,
+1624,clown,clown
+1625,yoyo,yaa
+1626,tomato,tomoter
+1627,cicada,sacaa
+1628,martian,marshing
+1629,gorilla,garila
+1630,clown,clown
+1631,three cups,three cups
+1632,smile,smile
+1633,that,
+1634,ear,year
+1635,story,story
+1636,one cup,one cuc
+1637,stethoscope,scap
+1638,kangaroo,cangaroo
+1639,fish,fishe
+1640,elephant,elpan
+1641,eight,
+1642,elephant,p
+1643,pool,pol
+1644,two,
+1645,canoe,canu
+1646,crab,crab
+1647,play,play
+1648,flowerpot,flowerpour
+1649,two o clock,two o' clock
+1650,garage,gaage
+1651,three eggs,three egs
+1652,chair,c
+1653,australia,astralia
+1654,that,t
+1655,kitchen,kitchen
+1656,six,six
+1657,flowerpot,flowerpot
+1658,four,four
+1659,rhinoceros,ranousous
+1660,sausage,soe
+1661,spade,spade
+1662,flowerpot,flowerpart
+1663,kitchen,kitcchen
+1664,car,a
+1665,detective,detective
+1666,key,t
+1667,hippopotamus,hipa
+1668,tail,ti
+1669,pull,p
+1670,eight,
+1671,watch,watch
+1672,bag,bag
+1673,no,n
+1674,two cups,curtops
+1675,three,thre
+1676,spade,spate
+1677,girl,g
+1678,flowerpot,flowerpor
+1679,ten,ten
+1680,owl,a
+1681,rhinoceros,oino
+1682,elephant,elephant
+1683,shell,shell
+1684,mountain,mountain
+1685,jam,jam
+1686,feather,fether
+1687,detective,teteck tim
+1688,three o clock,three o'cclock
+1689,boat,b
+1690,pie,p
+1691,car,ca
+1692,caterpillar,capo
+1693,two eggs,two egs
+1694,pull,pol
+1695,clown,clon
+1696,flowerpot,flowerpor
+1697,bellybutton,bay bougt him
+1698,martian,mausing
+1699,splash,pas
+1700,short,short
+1701,one,on
+1702,two,
+1703,attack,aa
+1704,xylophone,skf
+1705,crab,crab
+1706,eight,o
+1707,detective,beei
+1708,one egg,one eg
+1709,no,na
+1710,foot,fort
+1711,kangaroo,tangaroo
+1712,spiderweb,spiderwep
+1713,four o clock,four o clock
+1714,frog,foulk
+1715,pool,to
+1716,spade,spaide
+1717,nine,nine
+1718,hair,hai
+1719,tonight,tonight
+1720,yes,
+1721,hole,whole
+1722,treasure,tsa
+1723,mouth,mouthe
+1724,snake,ssnake
+1725,hippopotamus,eo
+1726,treasure,caa
+1727,rhinoceros,n
+1728,short,s
+1729,binoculars,eno
+1730,kangaroo,cangar
+1731,one egg,odeg
+1732,ball,b
+1733,key,k
+1734,stethoscope,scap
+1735,stethoscope,stuffscorp
+1736,ball,bo
+1737,skirt,s
+1738,tail,tao
+1739,swing,win
+1740,tail,t
+1741,bellybutton,guly buton
+1742,thumb,some
+1743,duck,duc
+1744,thermometer,em
+1745,four o clock,four o clock
+1746,crab,crab
+1747,eight,
+1748,fish,fish
+1749,tail,tal
+1750,magician,magea
+1751,xylophone,esitephone
+1752,card,ca
+1753,cheese,shes
+1754,thermometer,um on thetar
+1755,bellybutton,bebutton
+1756,beard,b
+1757,caterpillar,kind of pellow
+1758,one o clock,one oucclock
+1759,detective,pte
+1760,wood,wod
+1761,three cups,pcups
+1762,nose,knose
+1763,martian,mausin
+1764,treasure,cesa
+1765,story,story
+1766,spiderweb,spotterwep
+1767,ten,ten
+1768,foot,foot
+1769,duck,dock
+1770,carpet,cob
+1771,banana,aaa
+1772,two eggs,as
+1773,story,story
+1774,eight,eight
+1775,head,head
+1776,canoe,can
+1777,bag,bag
+1778,hair,h
+1779,cheese,tethe
+1780,hair,a
+1781,canoe,can
+1782,frog,frog
+1783,skirt,sca
+1784,cart,caut
+1785,leaf,li
+1786,leaf,le
+1787,car,ca
+1788,mountain,mountain
+1789,one o clock,one o'c clock
+1790,cart,caught
+1791,tomato,tomoto
+1792,jam,jam
+1793,xylophone,gaapo
+1794,pig,pink
+1795,garage,caage
+1796,crocodile,crocile
+1797,sprout,sparout
+1798,gorilla,
+1799,ear,eh
+1800,attack,atac
+1801,one cup,on cup
+1802,pie,pie
+1803,drink,drink
+1804,moustache,moustache
+1805,five,five
+1806,cub,cob
+1807,xylophone,diphone
+1808,three cups,rs
+1809,that,that
+1810,two,to
+1811,martian,maus
+1812,that,fact
+1813,mouth,mouth
+1814,jam,jam
+1815,vegemite,em
+1816,cicada,sucar
+1817,pig,pig
+1818,boat,boat
+1819,clown,plown
+1820,boy,boy
+1821,vanilla,no
+1822,pull,pul
+1823,light,lot
+1824,doll,du
+1825,bellybutton,bebae
+1826,pig,pinkg
+1827,balloon,balloon
+1828,smile,smile
+1829,grasshopper,grashelpu
+1830,bridge,bridge
+1831,no,ny
+1832,owl,
+1833,tooth,tuts
+1834,story,
+1835,spade,spide
+1836,ear,ear
+1837,hippopotamus,copos
+1838,seven,seven
+1839,three cups,three cups
+1840,one o clock,anoclok
+1841,bridge,
+1842,sprout,sprout
+1843,eight,
+1844,tomato,emater
+1845,duck,docg
+1846,four o clock,four or clock
+1847,doll,dul
+1848,three eggs,threeegs
+1849,balloon,in
+1850,hill,e
+1851,no,na
+1852,hole,phole
+1853,owl,a
+1854,breathe,b
+1855,eight,
+1856,ball,ba
+1857,moustache,moustache
+1858,butterfly,butter fly
+1859,foot,
+1860,pig,pig
+1861,ball,
+1862,mountain,mountain
+1863,spade,spaa
+1864,cicada,sacaa
+1865,head,head
+1866,wheel,whel
+1867,four,fo
+1868,foot,fot
+1869,sprout,spowt
+1870,bellybutton,barly button
+1871,three,e
+1872,coconut,conot
+1873,foot,foot
+1874,martian,lo
+1875,bird,bird
+1876,coconut,
+1877,two eggs,two egs
+1878,circus,saca
+1879,spiderweb,spiderwep
+1880,boy,boy
+1881,tomato,tomoter
+1882,garage,gage
+1883,three eggs,three egs
+1884,kitchen,ci
+1885,ear,
+1886,nose,nose
+1887,ball,br
+1888,pool,poule
+1889,light,light
+1890,balloon,balloon
+1891,balloon,balan
+1892,card,ca
+1893,straw,stral
+1894,food,food
+1895,breathe,way
+1896,grasshopper,gasupp
+1897,two o clock,toua clock
+1898,cub,pub
+1899,swing,sping
+1900,tomato,amata
+1901,grasshopper,grass papa
+1902,watermelon,water melon
+1903,one,one
+1904,one o clock,one oclock
+1905,flowerpot,mowput
+1906,that,what
+1907,hill,hill
+1908,key,k
+1909,bridge,bridge
+1910,vegemite,sa yumight
+1911,giraffe,dra
+1912,two eggs,teggs
+1913,bellybutton,bely baa
+1914,spade,spade
+1915,treasure,treasure
+1916,drink,drink
+1917,fur,t
+1918,sword,sord
+1919,circus,circast
+1920,feather,sepa
+1921,cub,cub
+1922,spaghetti,ga
+1923,light,lot
+1924,yoyo,yayo
+1925,breathe,breathe
+1926,boy,boy
+1927,feather,feather
+1928,cicada,saccarta
+1929,tonight,tonort
+1930,three o clock,rer clock
+1931,dinosaur,d
+1932,food,su
+1933,three cups,tragcups
+1934,one cup,one cup
+1935,xylophone,alphine
+1936,magician,magition
+1937,binoculars,thenocs
+1938,story,stor
+1939,cloud,cloud
+1940,sword,so
+1941,australia,astralia
+1942,jam,cam
+1943,three eggs,threeate
+1944,flowerpot,flowerpot
+1945,owl,owl
+1946,watermelon,water mun
+1947,one o clock,one occlock
+1948,giraffe,jara
+1949,bag,bag
+1950,no,n
+1951,frog,frog
+1952,nose,nos
+1953,four eggs,four egs
+1954,dinosaur,tnosa
+1955,foot,fot
+1956,vegemite,ago might
+1957,cow,tow
+1958,one,one
+1959,circus,surco
+1960,detective,detective
+1961,kangaroo,tang
+1962,foot,fot
+1963,eight,a
+1964,pie,pie
+1965,one cup,one cup
+1966,duck,doc
+1967,sprout,spout
+1968,magician,ciion
+1969,cart,caught
+1970,beard,bi
+1971,hair,hol
+1972,butterfly,butterfly
+1973,kitchen,kitchen
+1974,coconut,coo
+1975,fish,fiche
+1976,pie,pie
+1977,cucumber,ccaba
+1978,sausage,subs
+1979,fish,fish
+1980,four o clock,four o clock
+1981,breathe,brat
+1982,treasure,esr
+1983,skirt,
+1984,head,head
+1985,treasure,treasure
+1986,cloud,cloud
+1987,giraffe,do
+1988,three eggs,fr
+1989,spaghetti,spa
+1990,potato,patat
+1991,hippopotamus,popoddomist
+1992,card,ca
+1993,chair,char
+1994,two o clock,two o'cclock
+1995,bird,ba
+1996,crocodile,coa
+1997,tooth,tuth
+1998,yes,yes
+1999,four,fo
+2000,butterfly,buterfit
+2001,four cups,four cups
+2002,head,hid
+2003,boy,boy
+2004,snake,snake
+2005,mountain,mountain
+2006,ear,i
+2007,tail,tal
+2008,spade,space
+2009,grasshopper,grass happa
+2010,four cups,four cups
+2011,tonight,toodnight
+2012,spiderweb,ispiea
+2013,sprout,sc
+2014,cheese,sheths
+2015,magician,magition
+2016,duck,dock
+2017,two,to
+2018,dessert,desurt
+2019,sausage,sawsich
+2020,cicada,caa
+2021,hill,hill
+2022,mountain,mountain
+2023,two,
+2024,tomato,ta
+2025,pool,po
+2026,seven,seven
+2027,three cups,three cups
+2028,ball,fod
+2029,spade,
+2030,four eggs,four egs
+2031,cicada,sca
+2032,three,f
+2033,dinosaur,diosa
+2034,leaf,la
+2035,feather,feather
+2036,six,six
+2037,nose,noys
+2038,two o clock,to or clock
+2039,that,t
+2040,snake,snake
+2041,beard,bea
+2042,wheel,wl
+2043,three o clock,fir clock
+2044,attack,attack
+2045,spade,spa
+2046,nine,n
+2047,vegemite,emiht
+2048,tonight,tonight
+2049,splash,splash
+2050,breathe,breathe
+2051,boy,boy
+2052,spiderweb,spider web
+2053,thermometer,amomdo
+2054,foot,fot
+2055,sausage,sousige
+2056,bridge,brige
+2057,garage,garage
+2058,four,fo
+2059,seven,seven
+2060,no,no
+2061,card,cau
+2062,seven,seven
+2063,key,t
+2064,cow,co
+2065,chair,p
+2066,car,tall
+2067,breathe,br
+2068,short,short
+2069,three eggs,
+2070,light,white
+2071,cow,cow
+2072,cucumber,cc
+2073,five,five
+2074,potato,patat
+2075,carpet,cap
+2076,dinosaur,dinasau
+2077,one,one
+2078,stethoscope,gead
+2079,skirt,scapt
+2080,cow,cow
+2081,no,nie
+2082,caterpillar,cattapill
+2083,pull,poule
+2084,boat,but
+2085,bag,bag
+2086,smile,smile
+2087,vanilla,bania
+2088,gorilla,cila
+2089,dinosaur,dinosaul
+2090,one cup,oncat
+2091,car,c
+2092,thumb,pum
+2093,swing,swing
+2094,shell,chell
+2095,kangaroo,tangaroo
+2096,tomato,tomarto
+2097,four o clock,four clock
+2098,foot,fot
+2099,grasshopper,grasshp
+2100,dessert,doit
+2101,cart,caught
+2102,food,fhod
+2103,straw,storl
+2104,pie,pi
+2105,bellybutton,faterbotton
+2106,feather,saita
+2107,vanilla,i
+2108,straw,cl
+2109,five,five
+2110,mouth,now
+2111,cucumber,cepobe
+2112,feather,seve
+2113,swing,swing
+2114,four o clock,four clock
+2115,seven,seven
+2116,one cup,one cup
+2117,three eggs,three egs
+2118,two cups,totha
+2119,ride,ride
+2120,coconut,cokenout
+2121,pig,pig
+2122,wheel,will
+2123,three cups,feups
+2124,watch,watch
+2125,treasure,
+2126,stethoscope,stuffscoarp
+2127,fur,f
+2128,play,play
+2129,cheese,chse
+2130,nose,ni
+2131,thumb,from
+2132,nose,noyse
+2133,mountain,
+2134,cicada,suca
+2135,coconut,cokanut
+2136,ride,ride
+2137,four cups,four cups
+2138,shell,shell
+2139,splash,splash
+2140,gorilla,gru
+2141,duck,o
+2142,australia,ustralia
+2143,sausage,sousage
+2144,ride,ridte
+2145,clown,clown
+2146,pig,pink
+2147,duck,duck
+2148,balloon,
+2149,spaghetti,scanny
+2150,canoe,kan
+2151,one,o
+2152,four o clock,four o' clock
+2153,kitchen,kitchen
+2154,ball,bol
+2155,binoculars,tenoos
+2156,attack,actace
+2157,binoculars,banuculous
+2158,three,
+2159,zoo,zu
+2160,hill,i
+2161,kitchen,kicn
+2162,cub,cub
+2163,cub,cop
+2164,car,cal
+2165,hippopotamus,ipamis
+2166,yes,yes
+2167,shell,shell
+2168,australia,
+2169,machine,machine
+2170,crab,cub
+2171,pool,pol
+2172,one o clock,on ouclock
+2173,flowerpot,flowerpot
+2174,magician,agestion
+2175,three eggs,three egs
+2176,three eggs,three egs
+2177,detective,de tective
+2178,garage,goat
+2179,treasure,treasure
+2180,thumb,some
+2181,detective,detective
+2182,circus,surpe
+2183,garage,galage
+2184,hole,hole
+2185,duck,
+2186,hippopotamus,hipopoamas
+2187,key,t
+2188,three cups,three cups
+2189,vegemite,bema
+2190,carpet,carpet
+2191,kitchen,ce
+2192,foot,po
+2193,bridge,broc
+2194,skirt,sci
+2195,watermelon,watermelon
+2196,jam,jim
+2197,sausage,soussige
+2198,feather,cita
+2199,sprout,sprout
+2200,voice,voice
+2201,mountain,mountain
+2202,circus,circas
+2203,ear,e
+2204,hair,he
+2205,key,t
+2206,banana,ganaa
+2207,tonight,tonight
+2208,three o clock,three o'clock
+2209,cicada,sca
+2210,pull,pule
+2211,two o clock,two oce clock
+2212,four,ful
+2213,spiderweb,spider web
+2214,three cups,febcups
+2215,mountain,mountain
+2216,four,
+2217,card,ca
+2218,two cups,two cups
+2219,elephant,elephant
+2220,splash,splash
+2221,wood,wod
+2222,that,tha
+2223,bridge,bridge
+2224,breathe,breathe
+2225,foot,for
+2226,ear,e
+2227,ball,pol
+2228,mouth,mouth
+2229,nose,nouse
+2230,magician,
+2231,nose,nort
+2232,cart,ca
+2233,leaf,leaf
+2234,crocodile,cooil
+2235,short,shelped
+2236,bag,bag
+2237,fur,
+2238,pull,pul
+2239,tooth,to
+2240,two,to
+2241,one cup,one cop
+2242,xylophone,
+2243,gorilla,garilla
+2244,owl,a
+2245,pull,o
+2246,four,for
+2247,bridge,bridge
+2248,watermelon,waermen
+2249,cub,cob
+2250,that,
+2251,hole,whole
+2252,six,six
+2253,moustache,mousaghe
+2254,vegemite,sad she might
+2255,elephant,e
+2256,tooth,trut
+2257,three o clock,three o' clock
+2258,three o clock,thre o'clock
+2259,thumb,fum
+2260,pie,pa
+2261,card,ca
+2262,four,full
+2263,three,f
+2264,one,
+2265,australia,ustralia
+2266,tomato,tomoto
+2267,flowerpot,flowerpott
+2268,nose,knose
+2269,yes,yes
+2270,magician,mougiion
+2271,thumb,some
+2272,wheel,w
+2273,xylophone,saufi
+2274,clown,c
+2275,spaghetti,spca
+2276,nose,knose
+2277,xylophone,
+2278,that,va
+2279,kitchen,kitchen
+2280,ride,ride
+2281,fish,fish
+2282,three,three
+2283,key,k
+2284,garage,cawatche
+2285,bellybutton,belly button
+2286,food,ser
+2287,nose,noc
+2288,cucumber,ccob
+2289,yes,yes
+2290,pool,p
+2291,cheese,chese
+2292,six,six
+2293,light,light
+2294,martian,mossad
+2295,cow,cow
+2296,snake,snake
+2297,ten,ten
+2298,fur,fu
+2299,moustache,moustache
+2300,butterfly,butterffly
+2301,wheel,w
+2302,splash,scash
+2303,fur,tu
+2304,food,suge
+2305,cheese,ch
+2306,story,story
+2307,hole,hole
+2308,machine,machine
+2309,magician,miion
+2310,yes,yes
+2311,bird,bed
+2312,snake,snake
+2313,mouth,mouth
+2314,voice,voice
+2315,cow,cow
+2316,detective,detective
+2317,stethoscope,stescop
+2318,light,white
+2319,one o clock,one o'clock
+2320,five,i
+2321,tonight,tonight
+2322,tonight,tanna
+2323,pig,pig
+2324,cicada,sacata
+2325,two cups,tcops
+2326,fish,fish
+2327,swing,sing
+2328,ball,b
+2329,wood,woodc
+2330,balloon,
+2331,elephant,elephant
+2332,nose,no
+2333,no,n
+2334,car,caull
+2335,yoyo,yoh yoh
+2336,smile,smile
+2337,four eggs,four eg
+2338,cloud,cloud
+2339,one o clock,one occlock
+2340,sword,sard
+2341,two,t
+2342,hill,chell
+2343,one,one
+2344,car,c
+2345,two o clock,two o clock
+2346,three eggs,oegs
+2347,girl,gi
+2348,tomato,tomat
+2349,pull,p
+2350,vegemite,vegma
+2351,one cup,om cup
+2352,mountain,mountain
+2353,spiderweb,spiderwed
+2354,australia,australia
+2355,six,six
+2356,three o clock,three o' clock
+2357,card,ca
+2358,four,fo
+2359,that,
+2360,hair,hi
+2361,garden,gore
+2362,gorilla,gila
+2363,grasshopper,grashap
+2364,chair,cha
+2365,rhinoceros,nu
+2366,three eggs,three egs
+2367,zoo,z
+2368,clown,c
+2369,four eggs,forbags
+2370,pull,pol
+2371,kitchen,kitcchen
+2372,canoe,ca
+2373,carpet,carpe
+2374,drink,drink
+2375,frog,to
+2376,fish,fish
+2377,gorilla,teri
+2378,foot,fout
+2379,key,t
+2380,grasshopper,asupp
+2381,garden,garan
+2382,thumb,fob
+2383,duck,d
+2384,nose,nose
+2385,seven,seven
+2386,crab,ow
+2387,seven,en
+2388,one cup,onecut
+2389,fur,fur
+2390,drink,drink
+2391,smile,smaile
+2392,banana,anna
+2393,spaghetti,spit
+2394,watch,watch
+2395,zoo,
+2396,four,
+2397,no,no
+2398,three o clock,ocloc
+2399,hole,home
+2400,crab,ca
+2401,vanilla,teea
+2402,spiderweb,fide a way
+2403,detective,etetive
+2404,bird,bed
+2405,bird,bird
+2406,grasshopper,grass hupper
+2407,magician,magiton
+2408,head,hed
+2409,zoo,zu
+2410,light,lot
+2411,dinosaur,dosa
+2412,jam,jm
+2413,dessert,
+2414,bridge,brige
+2415,one o clock,one ouc clock
+2416,vegemite,ta you might
+2417,ear,a
+2418,grasshopper,grasp
+2419,machine,machine
+2420,two eggs,two egs
+2421,coconut,ca
+2422,sword,soard
+2423,ten,t
+2424,chair,s
+2425,one,one
+2426,two o clock,two occlock
+2427,hair,
+2428,spiderweb,spider web
+2429,four eggs,flour egs
+2430,skirt,sciart
+2431,splash,splash
+2432,spaghetti,pee
+2433,watermelon,water malan
+2434,butterfly,buterfly
+2435,kangaroo,cangaar
+2436,jam,jame
+2437,wheel,r
+2438,butterfly,butsa fly
+2439,kangaroo,cangarro
+2440,chair,c
+2441,one egg,on eg
+2442,boat,boite
+2443,stethoscope,suca
+2444,spade,bite
+2445,cart,caught
+2446,watermelon,waterbee
+2447,short,short
+2448,australia,a
+2449,binoculars,anacos
+2450,owl,a
+2451,eight,eight
+2452,mountain,mountain
+2453,attack,attack
+2454,no,n
+2455,shell,shadow
+2456,sausage,sausage
+2457,ten,t
+2458,key,t
+2459,five,far
+2460,dessert,esi
+2461,owl,a
+2462,that,that
+2463,machine,machine
+2464,hippopotamus,erodeproa
+2465,caterpillar,catpilla
+2466,feather,sia
+2467,two eggs,two egs
+2468,five,five
+2469,chair,char
+2470,detective,pretective
+2471,cicada,sacada
+2472,four cups,four cups
+2473,rhinoceros,runosars
+2474,treasure,teasur
+2475,cloud,cloud
+2476,one,
+2477,ride,y
+2478,sausage,subsage
+2479,feather,fet
+2480,sausage,sawsich
+2481,balloon,balon
+2482,story,story
+2483,machine,maae
+2484,light,light
+2485,voice,voice
+2486,attack,attac
+2487,vanilla,aia
+2488,caterpillar,aai
+2489,ball,boul
+2490,bird,bud
+2491,two cups,two cups
+2492,two,to
+2493,frog,frog
+2494,nine,nine
+2495,boy,boy
+2496,one egg,one eg
+2497,cart,caught
+2498,mountain,mountain
+2499,four cups,four cups
+2500,pie,pli
+2501,pig,pig
+2502,pull,pul
+2503,bridge,pug
+2504,dinosaur,disou
+2505,seven,sa
+2506,bellybutton,tayboter
+2507,garden,caana
+2508,light,light
+2509,one egg,one eg
+2510,two,to
+2511,tail,tail
+2512,detective,ta
+2513,one egg,oneg
+2514,stethoscope,stafca
+2515,cow,cow
+2516,beard,beard
+2517,dessert,dosur
+2518,drink,drink
+2519,smile,smile
+2520,magician,ai
+2521,tooth,tooth
+2522,kitchen,kitchen
+2523,sword,so
+2524,shell,cho
+2525,hill,he
+2526,cucumber,cutumber
+2527,yoyo,a
+2528,two o clock,taclo
+2529,snake,snake
+2530,garden,gaen
+2531,tooth,toth
+2532,spade,spaed
+2533,chair,char
+2534,sword,sard
+2535,attack,ata
+2536,binoculars,banoc
+2537,bellybutton,bulybutton
+2538,splash,spo
+2539,duck,docg
+2540,ear,ear
+2541,hill,e
+2542,cucumber,cucuba
+2543,ten,ten
+2544,fur,sa
+2545,boat,bite
+2546,four,fou
+2547,thumb,thoum
+2548,owl,a
+2549,tooth,truth
+2550,key,k
+2551,cheese,shes
+2552,treasure,
+2553,cub,cob
+2554,four,four
+2555,girl,c
+2556,ride,rede
+2557,yes,yes
+2558,crab,crub
+2559,skirt,sc
+2560,attack,attack
+2561,crocodile,croccoile
+2562,garage,carig
+2563,no,not
+2564,cloud,clow
+2565,drink,dink
+2566,pool,pol
+2567,thermometer,submamata
+2568,detective,detect you
+2569,hair,ha
+2570,mouth,mouth
+2571,straw,stroull
+2572,two o clock,two o'cclock
+2573,coconut,cokn ot
+2574,one egg,aneg
+2575,four eggs,four egs
+2576,banana,bea
+2577,spiderweb,spiderwed
+2578,crocodile,crockadile
+2579,beard,be
+2580,wood,woud
+2581,giraffe,duraf
+2582,one,one
+2583,jam,a
+2584,four cups,four cups
+2585,bridge,brige
+2586,cicada,ica
+2587,flowerpot,flowport
+2588,dinosaur,dinosaul
+2589,xylophone,p
+2590,shell,sell
+2591,six,six
+2592,one egg,oeg
+2593,treasure,treasa
+2594,one cup,one cup
+2595,straw,al
+2596,fur,
+2597,caterpillar,catapiller
+2598,cart,caught
+2599,hair,
+2600,rhinoceros,no
+2601,crab,clab
+2602,spaghetti,pag
+2603,leaf,eaf
+2604,thumb,some
+2605,four eggs,four egs
+2606,shell,so
+2607,doll,jo
+2608,wood,wod
+2609,martian,mason
+2610,food,c
+2611,australia,australia
+2612,drink,drink
+2613,crab,crab
+2614,skirt,scirt
+2615,ear,
+2616,hair,h
+2617,feather,ferther
+2618,binoculars,oc
+2619,breathe,breathe
+2620,garage,garage
+2621,balloon,baloon
+2622,four o clock,four o clock
+2623,smile,smil
+2624,pull,o
+2625,tail,tal
+2626,moustache,moustache
+2627,pie,pi
+2628,watermelon,teoa
+2629,pull,pol
+2630,sprout,sprout
+2631,eight,i
+2632,bridge,bch
+2633,hole,whole
+2634,foot,foot
+2635,spaghetti,speak gedy
+2636,ride,ridte
+2637,sprout,spout
+2638,three,three
+2639,vanilla,vanla
+2640,beard,beed
+2641,girl,g
+2642,pie,pi
+2643,flowerpot,fowfo
+2644,grasshopper,gaop
+2645,four,four
+2646,spade,spad
+2647,cloud,cloud
+2648,giraffe,jaa
+2649,skirt,scir
+2650,ball,b
+2651,mountain,mountain
+2652,banana,banana
+2653,yoyo,yeaa
+2654,cucumber,two cubar
+2655,elephant,elephant
+2656,zoo,sir
+2657,three,ft
+2658,carpet,coppit
+2659,carpet,carp
+2660,coconut,cokano
+2661,head,head
+2662,moustache,moustache
+2663,foot,fort
+2664,sword,soard
+2665,hair,hair
+2666,banana,bunon
+2667,mouth,mouth
+2668,thumb,some
+2669,wheel,wheel
+2670,stethoscope,coak
+2671,kitchen,kitchen
+2672,straw,storl
+2673,pull,pol
+2674,story,story
+2675,story,stary
+2676,coconut,coknat
+2677,ten,ten
+2678,snake,snake
+2679,crab,crab
+2680,attack,attack
+2681,thumb,tsome
+2682,attack,attack
+2683,beard,beard
+2684,australia,australi
+2685,duck,doc
+2686,bag,bag
+2687,yes,yes
+2688,giraffe,carsa
+2689,machine,mace
+2690,martian,mas
+2691,cub,cub
+2692,spaghetti,kin
+2693,dinosaur,disa
+2694,drink,drink
+2695,circus,circas
+2696,three,three
+2697,giraffe,tela
+2698,kitchen,chiccien
+2699,jam,jam
+2700,tomato,tomarto
+2701,banana,ganana
+2702,elephant,epant
+2703,pie,pie
+2704,that,tha
+2705,circus,surcs
+2706,head,head
+2707,play,play
+2708,canoe,canew
+2709,tomato,tamart
+2710,swing,sling
+2711,duck,doc
+2712,sword,sard
+2713,gorilla,garua
+2714,ten,ten
+2715,thumb,thume
+2716,yoyo,yoh yoh
+2717,grasshopper,grao
+2718,six,six
+2719,head,head
+2720,eight,
+2721,key,k
+2722,grasshopper,class upo
+2723,rhinoceros,ainon
+2724,vegemite,ege might
+2725,circus,surcals
+2726,snake,snake
+2727,food,s
+2728,cub,cub
+2729,three o clock,three o' clock
+2730,hill,hi
+2731,short,short
+2732,boy,boy
+2733,key,k
+2734,six,six
+2735,one egg,on eg
+2736,two o clock,two oclock
+2737,hole,home
+2738,shell,chowel
+2739,martian,marsan
+2740,cicada,sca
+2741,treasure,er
+2742,four,four
+2743,spade,
+2744,carpet,carpet
+2745,moustache,moustache
+2746,magician,
+2747,wood,woud
+2748,butterfly,butterfly
+2749,duck,dack
+2750,binoculars,bnoc
+2751,dessert,
+2752,canoe,
+2753,wood,wod
+2754,dessert,
+2755,elephant,eepn
+2756,clown,clown
+2757,ten,tan
+2758,ten,ten
+2759,pig,pig
+2760,banana,bananna
+2761,sprout,spout
+2762,beard,beed
+2763,crab,crab
+2764,snake,snake
+2765,nine,nine
+2766,hill,
+2767,hippopotamus,ipais
+2768,wheel,io
+2769,bird,berd
+2770,jam,jn
+2771,nose,n
+2772,one egg,on eig
+2773,sword,sard
+2774,tooth,t
+2775,skirt,scip
+2776,thermometer,the mometi
+2777,moustache,moustache
+2778,bag,bag
+2779,kangaroo,kangaroo
+2780,play,play
+2781,detective,detective
+2782,ball,bo
+2783,caterpillar,pillo
+2784,vanilla,a
+2785,vanilla,vina
+2786,six,six
+2787,garden,caton
+2788,moustache,mastache
+2789,three eggs,three egs
+2790,kitchen,kitcen
+2791,dessert,deser
+2792,four cups,for cups
+2793,bridge,bridge
+2794,one egg,one
+2795,garage,gaage
+2796,moustache,moustache
+2797,giraffe,da
+2798,nose,nose
+2799,thermometer,smo
+2800,nine,nine
+2801,pie,pi
+2802,foot,fort
+2803,four cups,forcat
+2804,five,co
+2805,that,tat
+2806,dessert,desurt
+2807,leaf,naf
+2808,ball,bo
+2809,gorilla,garilla
+2810,bridge,bridge
+2811,two eggs,two egs
+2812,no,ni
+2813,three,tee
+2814,frog,frog
+2815,three cups,trackups
+2816,hill,i
+2817,doll,o
+2818,chair,c
+2819,cucumber,kcomb
+2820,that,aat
+2821,seven,seven
+2822,tail,tal
+2823,nine,nine
+2824,head,head
+2825,kitchen,ciched
+2826,head,head
+2827,duck,ga
+2828,hippopotamus,hopppoomus
+2829,watermelon,aemeon
+2830,australia,australia
+2831,tooth,tooth
+2832,short,short
+2833,stethoscope,sci
+2834,three cups,fracops
+2835,hippopotamus,apontee
+2836,zoo,m
+2837,wheel,whel
+2838,zoo,zu
+2839,one,on
+2840,elephant,elephant
+2841,tomato,tomorso
+2842,spade,spad
+2843,sprout,sprout
+2844,crocodile,croccoile
+2845,eight,i
+2846,doll,jo
+2847,spade,spide
+2848,sword,soar
+2849,drink,drink
+2850,boy,boy
+2851,light,light
+2852,elephant,elephant
+2853,dessert,desurt
+2854,cart,caht
+2855,bellybutton,oybotto
+2856,bird,but
+2857,one,one
+2858,one,o
+2859,cheese,cheese
+2860,mouth,mauth
+2861,caterpillar,cassuphill
+2862,bird,berd
+2863,treasure,treasur
+2864,pie,pie
+2865,seven,seven
+2866,pull,four
+2867,elephant,elephant
+2868,cheese,ch
+2869,beard,bi
+2870,key,
+2871,xylophone,sciephone
+2872,four,
+2873,spaghetti,pca
+2874,shell,sai
+2875,eight,
+2876,two eggs,two egs
+2877,head,said
+2878,giraffe,jraf
+2879,breathe,
+2880,spade,spaide
+2881,tomato,
+2882,nine,nine
+2883,gorilla,gila
+2884,snake,snake
+2885,owl,a
+2886,boat,boat
+2887,jam,jam
+2888,elephant,edephan
+2889,one,on
+2890,sausage,sosig
+2891,one cup,one cup
+2892,girl,
+2893,carpet,ca
+2894,light,light
+2895,doll,du
+2896,dessert,esurt
+2897,jam,jem
+2898,three cups,ebca
+2899,gorilla,garila
+2900,food,food
+2901,voice,voice
+2902,cub,cob
+2903,two,to
+2904,ball,boul
+2905,four cups,flor coups
+2906,butterfly,butterfly
+2907,binoculars,bnoc
+2908,four o clock,four o'cloc
+2909,boat,bit
+2910,bird,bed
+2911,balloon,fin
+2912,boat,bite
+2913,ball,for
+2914,hole,hole
+2915,spade,spade
+2916,canoe,can
+2917,elephant,elephant
+2918,giraffe,a
+2919,garage,gaage
+2920,four,for
+2921,play,play
+2922,skirt,
+2923,nine,to
+2924,skirt,scirt
+2925,australia,sta
+2926,ear,
+2927,one o clock,one ou' clock
+2928,that,
+2929,pool,pole
+2930,pig,ping
+2931,one cup,one cup
+2932,stethoscope,stescalp
+2933,australia,t
+2934,three,
+2935,splash,splash
+2936,detective,detective
+2937,ride,girlhood
+2938,straw,stol
+2939,drink,ji
+2940,six,six
+2941,spiderweb,spiderweb
+2942,sausage,sussige
+2943,sausage,sosc
+2944,smile,ssmile
+2945,girl,g
+2946,machine,macinne
+2947,frog,frog
+2948,garden,
+2949,cheese,chse
+2950,stethoscope,
+2951,one o clock,one ou' clock
+2952,pie,pa
+2953,card,cauhed
+2954,no,n
+2955,one egg,onak
+2956,treasure,treasure
+2957,giraffe,doaf
+2958,drink,drink
+2959,boy,boy
+2960,play,play
+2961,doll,d
+2962,four,four
+2963,crocodile,cokail
+2964,three eggs,teeg
+2965,drink,drink
+2966,four o clock,four clock
+2967,car,tall
+2968,pool,t
+2969,dinosaur,dinos
+2970,detective,detective
+2971,pool,poul
+2972,thermometer,themooa
+2973,six,six
+2974,hippopotamus,hippopotamus
+2975,four cups,for cups
+2976,carpet,carpet
+2977,vanilla,na
+2978,circus,curcat
+2979,one,on
+2980,seven,seven
+2981,thermometer,rmaa
+2982,ride,y
+2983,potato,patator
+2984,balloon,balloon
+2985,leaf,face
+2986,girl,g
+2987,voice,voice
+2988,cow,cow
+2989,short,sor
+2990,wheel,wl
+2991,vanilla,tanua
+2992,caterpillar,kindatelo
+2993,flowerpot,flowerplot
+2994,six,
+2995,wheel,will
+2996,two o clock,t two oclock
+2997,crocodile,crackodile
+2998,snake,snake
+2999,sausage,soussage
+3000,tomato,tomoro
+3001,shell,shell
+3002,wood,wou
+3003,stethoscope,arp
+3004,binoculars,bioli
+3005,voice,voice
+3006,drink,drink
+3007,kangaroo,tangle
+3008,pie,pi
+3009,yoyo,
+3010,magician,migaion
+3011,breathe,brathe
+3012,bag,baup
+3013,straw,stor
+3014,bridge,bridge
+3015,mouth,mauss
+3016,carpet,carpe
+3017,story,story
+3018,martian,marsion
+3019,hill,
+3020,one egg,one eg
+3021,eight,
+3022,nine,nine
+3023,six,six
+3024,cloud,cloud
+3025,clown,clown
+3026,frog,frog
+3027,voice,voice
+3028,vanilla,vaia
+3029,spaghetti,spga
+3030,one o clock,one oc clock
+3031,treasure,taa
+3032,girl,g
+3033,bellybutton,bely buton
+3034,five,ive
+3035,pig,pig
+3036,cub,cob
+3037,pull,po
+3038,gorilla,gia
+3039,dinosaur,dinosa
+3040,vegemite,veumight
+3041,watch,watch
+3042,treasure,creddal
+3043,play,ply
+3044,no,ni
+3045,bellybutton,bebutton
+3046,rhinoceros,runasurs
+3047,sausage,subag
+3048,drink,drink
+3049,treasure,
+3050,ten,ten
+3051,kangaroo,cang
+3052,elephant,elephant
+3053,leaf,na
+3054,vegemite,temight
+3055,machine,mohe
+3056,nose,ns
+3057,stethoscope,ue
+3058,garden,gardon
+3059,tail,choiod
+3060,story,story
+3061,flowerpot,flowerpo
+3062,three o clock,three o' clock
+3063,one o clock,in one occlock
+3064,drink,drink
+3065,cheese,chs
+3066,owl,a
+3067,hole,ho
+3068,attack,attack
+3069,crab,crab
+3070,butterfly,buterfly
+3071,eight,
+3072,watch,wach
+3073,cicada,c
+3074,yoyo,
+3075,circus,circas
+3076,straw,strol
+3077,card,cau
+3078,banana,bananna
+3079,one,y
+3080,spade,spide
+3081,two cups,two cups
+3082,cheese,chas
+3083,three cups,threde cups
+3084,snake,snake
+3085,wood,wod
+3086,five,five
+3087,seven,
+3088,circus,circus
+3089,doll,dul
+3090,nine,nine
+3091,butterfly,buterfly
+3092,four cups,for cups
+3093,elephant,elephant
+3094,gorilla,garilla
+3095,wheel,will
+3096,food,food
+3097,shell,shell
+3098,vanilla,vannila
+3099,car,call
+3100,treasure,treasure
+3101,one egg,oeg
+3102,food,fout
+3103,nine,nine
+3104,pull,pul
+3105,two,t
+3106,caterpillar,catapella
+3107,cheese,t
+3108,watch,wach
+3109,butterfly,buter fl
+3110,tonight,tunight
+3111,sprout,spout
+3112,eight,ei
+3113,attack,attack
+3114,car,
+3115,martian,mae
+3116,martian,mai
+3117,stethoscope,staca
+3118,hole,h
+3119,ball,bo
+3120,ear,
+3121,three,a
+3122,ear,
+3123,three o clock,thre clock
+3124,detective,detective
+3125,mountain,mountain
+3126,foot,fourt
+3127,fur,
+3128,food,food
+3129,coconut,ca
+3130,crocodile,crockdil
+3131,sausage,sufg
+3132,boat,bit
+3133,three o clock,three o' clock
+3134,spade,spade
+3135,garden,coa
+3136,sausage,sousige
+3137,dinosaur,dinosa
+3138,owl,
+3139,martian,mars
+3140,potato,
+3141,xylophone,phon
+3142,one o clock,one oclock
+3143,splash,splasch
+3144,duck,a duck
+3145,cicada,saccaa
+3146,pull,pole
+3147,swing,swing
+3148,machine,machine
+3149,garden,caton
+3150,coconut,i cannot
+3151,doll,dul
+3152,shell,so
+3153,story,sty
+3154,canoe,a
+3155,crab,crab
+3156,wood,
+3157,treasure,treasure
+3158,ear,a
+3159,leaf,leaf
+3160,australia,aia
+3161,dinosaur,isa
+3162,potato,btt
+3163,splash,splashe
+3164,feather,hepa
+3165,vanilla,vani
+3166,one,one
+3167,three cups,trea cups
+3168,that,tha
+3169,key,t
+3170,straw,stral
+3171,rhinoceros,
+3172,caterpillar,catapillo
+3173,hill,hi
+3174,drink,drink
+3175,coconut,conut
+3176,yes,yes
+3177,frog,frog
+3178,attack,attack
+3179,two,t
+3180,five,by
+3181,attack,attack
+3182,moustache,moustache
+3183,cloud,cout
+3184,sprout,sprout
+3185,ten,ten
+3186,sword,sord
+3187,banana,b
+3188,balloon,bloing
+3189,boy,boy
+3190,one o clock,wen thecoc
+3191,boy,boy
+3192,cloud,clowud
+3193,australia,ustrallia
+3194,watch,watch
+3195,fish,six
+3196,watermelon,t
+3197,doll,
+3198,two eggs,tex
+3199,zoo,z
+3200,pie,pi
+3201,five,five
+3202,watermelon,odmoan
+3203,flowerpot,baapar
+3204,flowerpot,flower bo
+3205,ball,b
+3206,crab,crab
+3207,three eggs,three egs
+3208,mountain,moutcan
+3209,mouth,mouthe
+3210,two eggs,teg
+3211,mouth,mouth
+3212,cow,cow
+3213,four,four
+3214,treasure,treasure
+3215,head,he
+3216,attack,attack
+3217,five,five
+3218,moustache,moustache
+3219,duck,duck
+3220,four cups,four cups
+3221,cub,cob
+3222,yes,yes
+3223,fish,fesh
+3224,tooth,tooth
+3225,pool,pol
+3226,owl,a
+3227,food,food
+3228,circus,surcacs
+3229,four eggs,fueg
+3230,moustache,moustache
+3231,four,for
+3232,vegemite,
+3233,tonight,tonight
+3234,two o clock,two o' clock
+3235,four eggs,four egs
+3236,cicada,sa
+3237,ear,eah
+3238,hippopotamus,eeporta
+3239,thermometer,the moment
+3240,frog,frog
+3241,canoe,canew
+3242,machine,machine
+3243,wheel,whel
+3244,treasure,treasure
+3245,five,five
+3246,garage,goage
+3247,crab,clabe
+3248,cub,cub
+3249,fur,t
+3250,owl,a
+3251,voice,voice
+3252,no,n
+3253,one,one
+3254,drink,senk
+3255,head,head
+3256,one egg,one eg
+3257,four o clock,foure a clok
+3258,cub,cob
+3259,one,ba
+3260,bellybutton,bely bottan
+3261,nine,n
+3262,pie,pi
+3263,thumb,some
+3264,card,cau
+3265,frog,fog
+3266,clown,clo
+3267,voice,voice
+3268,two cups,checoffs
+3269,canoe,tena
+3270,swing,swing
+3271,seven,seven
+3272,three o clock,ang clocklock
+3273,spaghetti,ga
+3274,duck,doc
+3275,rhinoceros,yno
+3276,one cup,onc
+3277,two eggs,ts
+3278,ride,y
+3279,frog,frog
+3280,one egg,anegs
+3281,potato,patato
+3282,cloud,cod
+3283,voice,
+3284,hill,hill
+3285,cart,cat
+3286,two,t
+3287,two,to
+3288,potato,pet
+3289,eight,eight
+3290,card,car
+3291,kitchen,kitchin
+3292,tail,c
+3293,four eggs,four egs
+3294,bridge,id
+3295,ride,y
+3296,watermelon,atmelon
+3297,ball,bu
+3298,binoculars,banaculous
+3299,attack,attack
+3300,spade,spide
+3301,doll,jo
+3302,bag,bag
+3303,play,play
+3304,chair,c
+3305,carpet,cpe
+3306,thermometer,tomater
+3307,wood,woud
+3308,wheel,whel
+3309,snake,snake
+3310,drink,dn
+3311,owl,
+3312,flowerpot,flowerpart
+3313,wheel,wal
+3314,pull,poul
+3315,story,storry
+3316,duck,doc
+3317,four eggs,fouec
+3318,hippopotamus,hipopamas
+3319,splash,splash
+3320,two o clock,two o' clock
+3321,four eggs,four egs
+3322,ten,sad
+3323,chair,k
+3324,six,sae
+3325,two,ga
+3326,five,five
+3327,leaf,waf
+3328,bellybutton,bay botton
+3329,cucumber,gucamb
+3330,girl,g
+3331,elephant,p
+3332,machine,machine
+3333,bellybutton,baly bued
+3334,straw,u
+3335,light,light
+3336,attack,ata
+3337,cicada,sacaa
+3338,boat,boit
+3339,jam,jam
+3340,three,te
+3341,chair,chear
+3342,jam,jam
+3343,pie,pi
+3344,treasure,treasure
+3345,cow,ca
+3346,cicada,sacao
+3347,kangaroo,cangaroo
+3348,four cups,for cups
+3349,pie,pie
+3350,three o clock,three o' clock
+3351,bellybutton,bely botted
+3352,treasure,
+3353,three eggs,threeegs
+3354,one egg,on eg
+3355,boat,bi
+3356,girl,go
+3357,jam,jam
+3358,australia,
+3359,cicada,caca
+3360,dessert,desurt
+3361,bag,bag
+3362,banana,banam
+3363,jam,jam
+3364,sword,tout
+3365,breathe,breath
+3366,swing,an
+3367,kitchen,kitchen
+3368,four eggs,four egs
+3369,potato,etat
+3370,play,play
+3371,tonight,toknowit
+3372,three eggs,crayeggs
+3373,foot,fort
+3374,sausage,sousage
+3375,one o clock,wanter clock
+3376,four eggs,four egs
+3377,girl,g
+3378,straw,stol
+3379,play,c
+3380,four o clock,four clock
+3381,two o clock,two o' clock
+3382,skirt,sci
+3383,crab,crab
+3384,mountain,launton
+3385,moustache,moustache
+3386,cheese,c
+3387,butterfly,buter fly
+3388,hair,h
+3389,two o clock,two o clock
+3390,spiderweb,spiderev
+3391,fur,f
+3392,garage,gaage
+3393,yes,yes
+3394,binoculars,mu
+3395,smile,smile
+3396,head,head
+3397,card,c
+3398,two cups,two cups
+3399,pig,pek
+3400,vanilla,banila
+3401,five,five
+3402,duck,back
+3403,splash,pash
+3404,cart,caut
+3405,kangaroo,angaar
+3406,crocodile,cocdil
+3407,wheel,whel
+3408,watermelon,watermelon
+3409,beard,beard
+3410,doll,du
+3411,boat,boart
+3412,wood,woud
+3413,voice,voice
+3414,cucumber,t comba
+3415,two eggs,chueg
+3416,hole,ow
+3417,three,a
+3418,circus,surcis
+3419,one egg,aneg
+3420,bird,bird
+3421,sausage,sos
+3422,drink,drink
+3423,one o clock,one oclock
+3424,rhinoceros,n
+3425,cloud,cloud
+3426,short,sor
+3427,ear,er
+3428,voice,voice
+3429,yoyo,yoh yoh
+3430,two cups,tcops
+3431,swing,swing
+3432,giraffe,dra
+3433,pig,pig
+3434,two eggs,two x
+3435,potato,batite
+3436,watch,what
+3437,that,tat
+3438,cart,caut
+3439,hippopotamus,hicpur
+3440,potato,btat
+3441,breathe,grave
+3442,giraffe,jaraff
+3443,hole,whole
+3444,seven,
+3445,one o clock,anoc
+3446,two o clock,two oclock
+3447,boat,bite
+3448,rhinoceros,os
+3449,bag,bag
+3450,garage,goo
+3451,vegemite,sedou might
+3452,splash,
+3453,vanilla,vaia
+3454,bellybutton,poan
+3455,spiderweb,spiderweb
+3456,attack,a tack
+3457,drink,drink
+3458,feather,feather
+3459,shell,shell
+3460,gorilla,garu
+3461,xylophone,sierphone
+3462,ten,tn
+3463,magician,maigition
+3464,yes,yes
+3465,dinosaur,dinosal
+3466,leaf,
+3467,ten,ten
+3468,card,caued
+3469,sprout,sprout
+3470,two cups,trebcops
+3471,kangaroo,kangaroo
+3472,fur,fr
+3473,wheel,whel
+3474,clown,c
+3475,skirt,sca
+3476,snake,snake
+3477,fish,fish
+3478,crocodile,crockedile
+3479,australia,australia
+3480,banana,maaa
+3481,straw,stro
+3482,tomato,tomortow
+3483,three cups,thratops
+3484,balloon,balloon
+3485,banana,banana
+3486,short,short
+3487,yes,yes
+3488,pie,pie
+3489,cheese,
+3490,cicada,sica
+3491,xylophone,saap
+3492,potato,peato
+3493,bridge,bridge
+3494,xylophone,ef
+3495,story,story
+3496,vanilla,vana
+3497,ride,ribe
+3498,jam,jam
+3499,drink,drink
+3500,tooth,ti
+3501,cicada,sacaa
+3502,crab,carab
+3503,moustache,moustache
+3504,tail,tal
+3505,clown,clown
+3506,hill,hill
+3507,fish,b
+3508,leaf,eaf
+3509,dinosaur,dinosa
+3510,spade,spaide
+3511,two eggs,two egs
+3512,six,six
+3513,fur,fur
+3514,light,lot
+3515,voice,voice
+3516,binoculars,banacos
+3517,yes,yes
+3518,that,ta
+3519,thumb,some
+3520,detective,detective
+3521,giraffe,trof
+3522,four o clock,four o' clock
+3523,snake,sake
+3524,short,soart
+3525,hair,ha
+3526,martian,ma
+3527,tooth,tuth
+3528,sword,sord
+3529,bird,burg
+3530,yoyo,zaya
+3531,dinosaur,diosal
+3532,cheese,ch
+3533,cart,c
+3534,three,ree
+3535,bag,bag
+3536,coconut,clokan
+3537,three cups,frebcups
+3538,fish,fish
+3539,circus,sircus
+3540,smile,smile
+3541,cow,cow
+3542,cloud,clo
+3543,sprout,sprat
+3544,zoo,z
+3545,three eggs,three egs
+3546,spaghetti,pce
+3547,dinosaur,gasa
+3548,pie,pon
+3549,three eggs,traegg
+3550,car,ca
+3551,two eggs,two egs
+3552,ball,bor
+3553,cub,top
+3554,six,six
+3555,attack,attack
+3556,caterpillar,asi
+3557,sausage,susige
+3558,watermelon,moraountan
+3559,banana,baa
+3560,bird,bir
+3561,ten,ten
+3562,card,ca
+3563,gorilla,garilla
+3564,food,sae
+3565,snake,snake
+3566,two,t
+3567,rhinoceros,ras
+3568,hair,h
+3569,coconut,co
+3570,hole,hole
+3571,bridge,brid
+3572,dessert,
+3573,garage,gag
+3574,vegemite,gumat
+3575,crocodile,coa
+3576,owl,a
+3577,clown,clown
+3578,straw,r
+3579,light,i
+3580,sword,soward
+3581,five,
+3582,carpet,carpet
+3583,garage,daage
+3584,elephant,elephant
+3585,one cup,wombcup
+3586,circus,ciurcas
+3587,swing,swim
+3588,seven,seven
+3589,one,one
+3590,cart,ca
+3591,owl,au
+3592,nine,nine
+3593,coconut,cok
+3594,that,
+3595,two eggs,teggs
+3596,cart,clock
+3597,two,
+3598,chair,t
+3599,straw,scol
+3600,kangaroo,n
+3601,spaghetti,pga
+3602,two eggs,to ex
+3603,skirt,scott
+3604,one,one
+3605,six,sik
+3606,pool,t
+3607,crab,crab
+3608,yoyo,ya yeah
+3609,four eggs,foureg
+3610,carpet,a
+3611,clown,ca
+3612,giraffe,jeaf
+3613,chair,ch
+3614,machine,machine
+3615,bag,bag
+3616,giraffe,jeaf
+3617,butterfly,buterfly
+3618,xylophone,saw the phone
+3619,rhinoceros,noi
+3620,pool,to
+3621,shell,shell
+3622,one o clock,onac
+3623,thermometer,ta
+3624,doll,dul
+3625,skirt,c
+3626,bellybutton,abotto
+3627,leaf,length
+3628,smile,smile
+3629,four o clock,four clock
+3630,three cups,flekup
+3631,nose,nse
+3632,magician,gion
+3633,feather,feather
+3634,grasshopper,grassapa
+3635,that,that
+3636,skirt,scirt
+3637,four cups,fulcups
+3638,bag,bag
+3639,drink,drink
+3640,sausage,sarfich
+3641,sword,jard
+3642,cart,caught
+3643,tail,t
+3644,feather,saie
+3645,cart,tau
+3646,four o clock,four clock
+3647,yes,yes
+3648,skirt,s
+3649,crocodile,cicki
+3650,binoculars,banas
+3651,mountain,mountain
+3652,zoo,j
+3653,play,play
+3654,that,ta
+3655,one cup,woncop
+3656,hippopotamus,epo
+3657,one,one
+3658,bag,bag
+3659,yoyo,yo yah
+3660,tail,tal
+3661,crab,crob
+3662,smile,smile
+3663,hill,i
+3664,splash,splash
+3665,thumb,from
+3666,clown,can
+3667,elephant,eepant
+3668,ride,ride
+3669,wood,woud
+3670,frog,fog
+3671,bellybutton,bely bi
+3672,short,sout
+3673,vegemite,fedamight
+3674,one egg,one eg
+3675,flowerpot,flowerpot
+3676,spiderweb,sspiderweb
+3677,three o clock,three eight clock
+3678,girl,go
+3679,cart,caught
+3680,spaghetti,spia
+3681,three o clock,creaclock
+3682,potato,betato
+3683,boy,boy
+3684,sprout,ssprout
+3685,pig,big
+3686,breathe,brat
+3687,machine,machine
+3688,bag,bag
+3689,rhinoceros,noi
+3690,fur,four
+3691,owl,a
+3692,smile,smile
+3693,play,pla
+3694,rhinoceros,a
+3695,treasure,treasure
+3696,watermelon,waterm
+3697,four cups,four cups
+3698,watch,wach
+3699,yes,yes
+3700,cucumber,c
+3701,dessert,
+3702,tomato,tomoter
+3703,cheese,chs
+3704,garage,caage
+3705,spaghetti,spgai
+3706,four,for
+3707,girl,g
+3708,bellybutton,belly button
+3709,balloon,balloon
+3710,spiderweb,spidller
+3711,cub,cub
+3712,that,that
+3713,story,story
+3714,yoyo,yo yo
+3715,ride,y
+3716,stethoscope,stiffassscarp
+3717,treasure,
+3718,thumb,ton
+3719,circus,sirca
+3720,attack,attack
+3721,eight,eight
+3722,one cup,wom cup
+3723,grasshopper,grasba
+3724,rhinoceros,bannoas
+3725,detective,he detective
+3726,kangaroo,tang
+3727,sausage,soussige
+3728,binoculars,the nocles
+3729,boy,b
+3730,xylophone,saphone
+3731,nine,
+3732,elephant,pa
+3733,spade,spaid
+3734,four cups,for cups
+3735,cow,cow
+3736,boy,boy
+3737,two eggs,toegs
+3738,dessert,desurt
+3739,two eggs,two eight
+3740,thumb,fom
+3741,xylophone,saw the phone
+3742,bag,mag
+3743,garden,goen
+3744,giraffe,dra
+3745,clown,clown
+3746,chair,cha
+3747,ten,ten
+3748,hole,hole
+3749,pool,pol
+3750,zoo,z
+3751,frog,frog
+3752,three o clock,three o' clock
+3753,martian,marsing
+3754,magician,ci
+3755,spade,speaid
+3756,three,s
+3757,thumb,some
+3758,garage,gaage
+3759,kangaroo,cang
+3760,four eggs,flouregs
+3761,one,one
+3762,caterpillar,tutapello
+3763,mountain,mountain
+3764,three o clock,three orcclock
+3765,cloud,cloud
+3766,sprout,spat
+3767,watch,watch
+3768,breathe,b
+3769,canoe,can
+3770,banana,nama
+3771,yoyo,earyea
+3772,pull,pu
+3773,cucumber,ucob
+3774,kangaroo,cangllo
+3775,gorilla,garilla
+3776,that,
+3777,shell,shell
+3778,voice,voice
+3779,circus,circas
+3780,flowerpot,flowerpot
+3781,sword,sard
+3782,three,e
+3783,coconut,cokno
+3784,splash,a
+3785,rhinoceros,inasaurs
+3786,doll,du
+3787,ten,ten
+3788,flowerpot,flower put
+3789,three cups,frabcaps
+3790,play,play
+3791,attack,aac
+3792,ten,ten
+3793,grasshopper,grasshaupper
+3794,binoculars,banarculos
+3795,binoculars,c
+3796,short,shourt
+3797,yes,yes
+3798,cucumber,cto
+3799,three,
+3800,snake,snake
+3801,two cups,two cops
+3802,feather,fither
+3803,jam,jan
+3804,play,play
+3805,garage,garage
+3806,balloon,palon
+3807,machine,mace
+3808,card,ca
+3809,magician,manicion
+3810,head,hed
+3811,moustache,moustache
+3812,zoo,t
+3813,no,n
+3814,beard,beard
+3815,fur,fur
+3816,car,
+3817,boat,pot
+3818,watch,watch
+3819,girl,o
+3820,yes,yes
+3821,bird,bird
+3822,feather,feather
+3823,vanilla,fin
+3824,vanilla,fania
+3825,dinosaur,diosau
+3826,watch,watch
+3827,six,sx
+3828,zoo,zo
+3829,bird,bed
+3830,leaf,leaf
+3831,three eggs,fruwikes
+3832,sausage,soussige
+3833,sprout,bout
+3834,ear,
+3835,feather,fither
+3836,tomato,timoa
+3837,carpet,cupet
+3838,cow,cow
+3839,nose,noce
+3840,shell,si
+3841,frog,frog
+3842,banana,banaa
+3843,one o clock,one oc clock
+3844,kangaroo,king
+3845,spaghetti,get
+3846,giraffe,drap
+3847,four o clock,four occlock
+3848,one,one
+3849,machine,machiene
+3850,six,six
+3851,nine,
+3852,caterpillar,callipito
+3853,tail,c
+3854,two cups,to cops
+3855,four cups,four cups
+3856,tooth,tooth
+3857,doll,du
+3858,giraffe,jaa
+3859,tomato,mate
+3860,zoo,z
+3861,tooth,teth
+3862,sword,soard
+3863,martian,masan
+3864,play,ply
+3865,tonight,tnoc
+3866,girl,girl
+3867,jam,jen
+3868,kitchen,kitchen
+3869,australia,ata
+3870,tonight,toit
+3871,dinosaur,dinosa
+3872,cheese,chse
+3873,balloon,balone
+3874,hair,
+3875,spaghetti,spca
+3876,spiderweb,spudweb
+3877,potato,patato
+3878,hair,
+3879,straw,stl
+3880,gorilla,caila
+3881,one cup,one cup
+3882,sword,sord
+3883,garden,goo
+3884,yoyo,jogas
+3885,three cups,fracops
+3886,vegemite,they do not
+3887,cloud,clayout
+3888,butterfly,buterfly
+3889,leaf,let
+3890,eight,a
+3891,kitchen,kitchen
+3892,clown,pown
+3893,no,no
+3894,four,fu
+3895,mouth,moushe
+3896,fish,
+3897,two eggs,two egs
+3898,boy,c
+3899,tonight,tonoik
+3900,eight,eight
+3901,two cups,took ups
+3902,thumb,some
+3903,martian,maan
+3904,tail,tyo
+3905,key,t
+3906,hair,
+3907,straw,school
+3908,fish,fish
+3909,key,k
+3910,play,play
+3911,watch,wat
+3912,stethoscope,stifscaulp
+3913,magician,agesttio
+3914,rhinoceros,oo
+3915,cucumber,cucumbar
+3916,crocodile,crocdile
+3917,boat,boat
+3918,owl,a
+3919,story,story
+3920,watermelon,a
+3921,spade,spid
+3922,kangaroo,cangaar
+3923,voice,voice
+3924,five,five
+3925,cicada,
+3926,caterpillar,caleforna
+3927,pull,pul
+3928,five,
+3929,pig,pink
+3930,thermometer,somod
+3931,sprout,sprout
+3932,caterpillar,caapi
+3933,swing,si
+3934,vegemite,
+3935,tonight,tonoc
+3936,detective,detecttives
+3937,leaf,lengt
+3938,dinosaur,dnao
+3939,stethoscope,stffcap
+3940,fish,fish
+3941,tail,t
+3942,one o clock,one occlock
+3943,ear,eaah
+3944,garden,garde
+3945,grasshopper,crasab
+3946,four o clock,four clock
+3947,smile,smile
+3948,two cups,tocs
+3949,crab,crab
+3950,xylophone,scyhorn
+3951,splash,spa
+3952,grasshopper,gassapa
+3953,crab,crab
+3954,bird,bud
+3955,food,fhod
+3956,beard,bed
+3957,clown,can
+3958,five,five
+3959,circus,circas
+3960,bridge,bige
+3961,voice,y
+3962,short,short
+3963,sprout,spout
+3964,one egg,onag
+3965,hole,whole
+3966,garden,t
+3967,mouth,mouth

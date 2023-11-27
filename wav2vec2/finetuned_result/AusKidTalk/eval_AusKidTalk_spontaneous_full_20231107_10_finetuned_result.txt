@@ -1,0 +1,183 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF: the  boy is on skateboard
+HYP: the boys ** on     skbard
+            S  D             S
+
+sentence 2
+REF: the boy snare    a dinosaur egg
+HYP: the bys    sn adsu ******** ***
+           S     S    S        D   D
+
+sentence 3
+REF: the boy's   touching the dinosaur egg
+HYP: the   bys taughtsend the    donsl ***
+             S          S            S   D
+
+sentence 4
+REF: the dinosaur egg is *** ** cracking open
+HYP: the     dnsu  ad is cra in       oi   pn
+                S   S      I  I        S    S
+
+sentence 5
+REF: the dinosaur egg      is opened
+HYP: the     thur aga loypend ******
+                S   S       S      D
+
+sentence 6
+REF: the boy is **** hiding behind a tree
+HYP: the boy is hard     in behond a   tw
+                   I      S      S      S
+
+sentence 7
+REF: dinosaur is in there by himself
+HYP:  donsalr is in there by    hesu
+            S                      S
+
+sentence 8
+REF: the ***** dinosaur is still there by himself but on the floor
+HYP: the dinos     saur is still   ner by itseulf  ba nt   r *****
+             I        S              S          S   S  S   S     D
+
+sentence 9
+REF: the boy is hiding behind a tree
+HYP: the boy is   hain behond a  twe
+                     S      S      S
+
+sentence 10
+REF: the boy is ***** pet the dinosaur on the head
+HYP: the boy is pying  te din      sou on the head
+                    I   S   S        S            
+
+number of sentences: 10
+substitutions=32 deletions=6 insertions=5 hits=30
+
+mer=58.90%
+wil=80.25%
+wip=19.75%
+wer=63.24%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF: the  boy is  on skateboard
+HYP: the boys on sky        bar
+            S  S   S          S
+
+sentence 2
+REF: the boy snare   a dinosaur egg
+HYP: the boy     s sue ******** ***
+                 S   S        D   D
+
+sentence 3
+REF: the ****  boy's touching the dinosaur egg
+HYP: the boys taught     send the     dons ***
+            I      S        S            S   D
+
+sentence 4
+REF: the dinosaur egg is ***** cracking open
+HYP: the dinosaur   a is crack       in open
+                    S        I        S     
+
+sentence 5
+REF: the dinosaur egg  is opened
+HYP: the    three  to end ******
+                S   S   S      D
+
+sentence 6
+REF: the boy is **** hiding behind a tree
+HYP: the boy is hard     in behind a ****
+                   I      S             D
+
+sentence 7
+REF: dinosaur is in there by himself
+HYP:     dons is in there by      hu
+            S                      S
+
+sentence 8
+REF: the dinosaur is still there by himself but on the floor
+HYP: the dinosaur is still  near by  itself but ** the     r
+                               S          S      D         S
+
+sentence 9
+REF: the boy is *** hiding behind a tree
+HYP: the boy is hot     in behind a   we
+                  I      S             S
+
+sentence 10
+REF: the boy is pet the dinosaur on the head
+HYP: the boy is  in the dinosaur on the head
+                  S                         
+
+number of sentences: 10
+substitutions=23 deletions=6 insertions=4 hits=39
+
+mer=45.83%
+wil=66.11%
+wip=33.89%
+wer=48.53%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF: the  boy is  on skateboard
+HYP: the boys on sky        bar
+            S  S   S          S
+
+sentence 2
+REF: the boy snare  a dinosaur egg
+HYP: the boy     s as ******** ***
+                 S  S        D   D
+
+sentence 3
+REF: the ****  boy's touching the dinosaur egg
+HYP: the boys taught     send the      dns ***
+            I      S        S            S   D
+
+sentence 4
+REF: the dinosaur egg is ***** cracking open
+HYP: the      dsu  ad is crack       in open
+                S   S        I        S     
+
+sentence 5
+REF: the dinosaur egg  is opened
+HYP: the    three  to end ******
+                S   S   S      D
+
+sentence 6
+REF: the boy is **** hiding behind a tree
+HYP: the boy is hard     in behind a ****
+                   I      S             D
+
+sentence 7
+REF: dinosaur is in there by himself
+HYP:    donal is in there by     hsu
+            S                      S
+
+sentence 8
+REF: the dinosaur is still there by himself but on the floor
+HYP: the dinosaur is still  near by  itself but ** the     u
+                               S          S      D         S
+
+sentence 9
+REF: the boy is *** hiding behind a tree
+HYP: the boy is hot     in behind a twig
+                  I      S             S
+
+sentence 10
+REF: the boy is pet the dinosaur on the head
+HYP: the boy is  in the   danson ** the head
+                  S            S  D         
+
+number of sentences: 10
+substitutions=25 deletions=7 insertions=4 hits=36
+
+mer=50.00%
+wil=70.68%
+wip=29.32%
+wer=52.94%

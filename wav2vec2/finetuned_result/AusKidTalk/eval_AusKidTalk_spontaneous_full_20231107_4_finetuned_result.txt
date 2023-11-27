@@ -1,0 +1,228 @@
+--> Getting the alignment result without LM...
+
+sentence 1
+REF: *** there was a dinosaur
+HYP: the    ha was a    dasar
+       I     S              S
+
+sentence 2
+REF:    he was on the ** skateboard
+HYP: heave was on the sk       bard
+         S             I          S
+
+sentence 3
+REF: he was listening to the egg
+HYP: he was somnthing to the  at
+                    S          S
+
+sentence 4
+REF: the egg was cracking
+HYP: the  ag was clacking
+           S            S
+
+sentence 5
+REF: the dinosaur poke out his head
+HYP: the dinosaur poke  ut his head
+                         S         
+
+sentence 6
+REF: the dinosaur was about to lick him
+HYP: the  diosaur was about to lick him
+                S                      
+
+sentence 7
+REF: he was hiding
+HYP: he was hiding
+                  
+
+sentence 8
+REF: the dinosaur was sad
+HYP: the   dinosu was fat
+                S       S
+
+sentence 9
+REF: and the dinosaur was lying down
+HYP: and the   donsal was ranng down
+                    S         S     
+
+sentence 10
+REF: and he was looking at the **** dinosaur
+HYP: and he was looking at the dini      sau
+                                  I        S
+
+sentence 11
+REF: he was touching the *** dinosaur
+HYP: kh was tauching the dan    saurr
+      S            S       I        S
+
+sentence 12
+REF: and he  feed the dinosaur  his milk
+HYP: and he fetde the      don feas  muk
+                S            S    S    S
+
+sentence 13
+REF: and then he   laugh
+HYP: and then he laughed
+                       S
+
+number of sentences: 13
+substitutions=23 deletions=0 insertions=4 hits=45
+
+mer=37.50%
+wil=58.64%
+wip=41.36%
+wer=39.71%
+
+
+
+--> Getting the alignment result with LM v1...
+
+sentence 1
+REF: *** there was a dinosaur
+HYP: the    he was a   dancer
+       I     S              S
+
+sentence 2
+REF: he was on the skateboard
+HYP: he was on the skateboard
+                             
+
+sentence 3
+REF: he was listening to the egg
+HYP: he was something to the  at
+                    S          S
+
+sentence 4
+REF: the egg was cracking
+HYP: the egg was cracking
+                         
+
+sentence 5
+REF: the dinosaur  poke out his head
+HYP: the dinosaur poked out his head
+                      S             
+
+sentence 6
+REF: the dinosaur was about to lick him
+HYP: the dinosaur was about to lick him
+                                       
+
+sentence 7
+REF: he was hiding
+HYP: he was hiding
+                  
+
+sentence 8
+REF: the dinosaur was sad
+HYP: the dinosaur was fat
+                        S
+
+sentence 9
+REF: and the *** dinosaur was lying down
+HYP: and the don      sal was  rang down
+               I        S         S     
+
+sentence 10
+REF: and he was looking at the dinosaur
+HYP: and he was looking at the dinosaur
+                                       
+
+sentence 11
+REF: he was touching the dinosaur
+HYP: he was touching the dinosaur
+                                 
+
+sentence 12
+REF: and he feed the dinosaur   his milk
+HYP: and he  fed the      don files mark
+               S            S     S    S
+
+sentence 13
+REF: and then he   laugh
+HYP: and then he laughed
+                       S
+
+number of sentences: 13
+substitutions=13 deletions=0 insertions=2 hits=55
+
+mer=21.43%
+wil=36.45%
+wip=63.55%
+wer=22.06%
+
+
+
+--> Getting the alignment result with LM v2...
+
+sentence 1
+REF: *** there was a dinosaur
+HYP: the    he was a   dancer
+       I     S              S
+
+sentence 2
+REF: he was on the skateboard
+HYP: he was on the skateboard
+                             
+
+sentence 3
+REF: he was listening to the egg
+HYP: he was something to the  ad
+                    S          S
+
+sentence 4
+REF: the egg was cracking
+HYP: the age was cracking
+           S             
+
+sentence 5
+REF: the dinosaur poke out his head
+HYP: the dinosaur poke  at his head
+                         S         
+
+sentence 6
+REF: the dinosaur was about to lick him
+HYP: the dinosaur was about to lick him
+                                       
+
+sentence 7
+REF: he was hiding
+HYP: he was hiding
+                  
+
+sentence 8
+REF: the dinosaur was sad
+HYP: the dinosaur was fat
+                        S
+
+sentence 9
+REF: and the dinosaur was lying down
+HYP: and the     dose was  rung down
+                    S         S     
+
+sentence 10
+REF: and he was looking at the dinosaur
+HYP: and he was looking at the dinosaur
+                                       
+
+sentence 11
+REF: he was touching the dinosaur
+HYP: he was touching the dinosaur
+                                 
+
+sentence 12
+REF: and he feed the dinosaur   his milk
+HYP: and he  fed the      don files murk
+               S            S     S    S
+
+sentence 13
+REF: and then he   laugh
+HYP: and then he laughed
+                       S
+
+number of sentences: 13
+substitutions=14 deletions=0 insertions=1 hits=54
+
+mer=21.74%
+wil=37.85%
+wip=62.15%
+wer=22.06%
