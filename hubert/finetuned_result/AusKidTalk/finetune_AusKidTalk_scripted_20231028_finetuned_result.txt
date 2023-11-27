@@ -1,0 +1,8882 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: BALL
+HYP:  BAL
+        S
+
+sentence 2
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 3
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 4
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 5
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 6
+REF: SWING
+HYP: SWING
+          
+
+sentence 7
+REF: PIG
+HYP: PIG
+        
+
+sentence 8
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 9
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 10
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 11
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 12
+REF: HILL
+HYP: HILL
+         
+
+sentence 13
+REF: CARD
+HYP: CARD
+         
+
+sentence 14
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 15
+REF: THREE
+HYP:  TEAE
+         S
+
+sentence 16
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 17
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 18
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 19
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 20
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 21
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 22
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 23
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 24
+REF: BOY
+HYP: BOY
+        
+
+sentence 25
+REF: THAT
+HYP: THAT
+         
+
+sentence 26
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 27
+REF: PULL
+HYP:   PO
+        S
+
+sentence 28
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 29
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 30
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 31
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 32
+REF: JAM
+HYP: JAM
+        
+
+sentence 33
+REF: BOY
+HYP: BOY
+        
+
+sentence 34
+REF: FROG
+HYP: FROG
+         
+
+sentence 35
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 36
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 37
+REF: BALL
+HYP: BALL
+         
+
+sentence 38
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 39
+REF: JAM
+HYP: JAM
+        
+
+sentence 40
+REF: HILL
+HYP: HILL
+         
+
+sentence 41
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 42
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 43
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 44
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 45
+REF: FUR
+HYP: FUR
+        
+
+sentence 46
+REF: JAM
+HYP: JAM
+        
+
+sentence 47
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 48
+REF: THREE
+HYP: THREE
+          
+
+sentence 49
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 50
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 51
+REF: BRIDGE
+HYP:   BOAT
+          S
+
+sentence 52
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 53
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 54
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 55
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 56
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 57
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 58
+REF: CUB
+HYP: CUB
+        
+
+sentence 59
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 60
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 61
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 62
+REF: THREE
+HYP: THREE
+          
+
+sentence 63
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 64
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 65
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 66
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 67
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 68
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 69
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 70
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 71
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 72
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 73
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 74
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 75
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 76
+REF: THREE
+HYP: THREE
+          
+
+sentence 77
+REF:   HIPPOPOTAMUS
+HYP: HIPPOTRPOTAMUS
+                  S
+
+sentence 78
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 79
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 80
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 81
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 82
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 83
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 84
+REF: HILL
+HYP: HILL
+         
+
+sentence 85
+REF: SIX
+HYP: SIX
+        
+
+sentence 86
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 87
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 88
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 89
+REF: SIX
+HYP: SIX
+        
+
+sentence 90
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 91
+REF: CART
+HYP: CART
+         
+
+sentence 92
+REF: THAT
+HYP: THAT
+         
+
+sentence 93
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 94
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 95
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 96
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 97
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 98
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 99
+REF: ATTACK
+HYP:  ATACK
+          S
+
+sentence 100
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 101
+REF: TWO
+HYP: TWO
+        
+
+sentence 102
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 103
+REF: FUR
+HYP: FUR
+        
+
+sentence 104
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 105
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 106
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 107
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 108
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 109
+REF: EAR
+HYP: EAR
+        
+
+sentence 110
+REF: POOL
+HYP:   PL
+        S
+
+sentence 111
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 112
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 113
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 114
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 115
+REF: EAR
+HYP: EAR
+        
+
+sentence 116
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 117
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 118
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 119
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 120
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 121
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 122
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 123
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 124
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 125
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 126
+REF: PULL
+HYP:   PL
+        S
+
+sentence 127
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 128
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 129
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 130
+REF: ONE
+HYP: ONE
+        
+
+sentence 131
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 132
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 133
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 134
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 135
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 136
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 137
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 138
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 139
+REF: BOY
+HYP: BOY
+        
+
+sentence 140
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 141
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 142
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 143
+REF: CART
+HYP: CART
+         
+
+sentence 144
+REF: CART
+HYP: CART
+         
+
+sentence 145
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 146
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 147
+REF: NO
+HYP: NO
+       
+
+sentence 148
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 149
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 150
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 151
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 152
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 153
+REF: ONE
+HYP: ONE
+        
+
+sentence 154
+REF: OWL
+HYP: OWL
+        
+
+sentence 155
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 156
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 157
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 158
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 159
+REF: CART
+HYP: CART
+         
+
+sentence 160
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 161
+REF: COW
+HYP: COW
+        
+
+sentence 162
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 163
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 164
+REF: YES
+HYP: YES
+        
+
+sentence 165
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 166
+REF: JAM
+HYP: JAM
+        
+
+sentence 167
+REF: COW
+HYP: COW
+        
+
+sentence 168
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 169
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 170
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 171
+REF: EAR
+HYP: EAR
+        
+
+sentence 172
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 173
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 174
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 175
+REF: JAM
+HYP: JAM
+        
+
+sentence 176
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 177
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 178
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 179
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 180
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 181
+REF: FROG
+HYP: FROG
+         
+
+sentence 182
+REF: CART
+HYP: CARD
+        S
+
+sentence 183
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 184
+REF: TEN
+HYP: TEN
+        
+
+sentence 185
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 186
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 187
+REF: PULL
+HYP:    P
+        S
+
+sentence 188
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 189
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 190
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 191
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 192
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 193
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 194
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 195
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 196
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 197
+REF: BALL
+HYP:  BAL
+        S
+
+sentence 198
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 199
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 200
+REF: EAR
+HYP: JAR
+       S
+
+sentence 201
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 202
+REF: DESSERT
+HYP:   ETHER
+           S
+
+sentence 203
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 204
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 205
+REF: THREE
+HYP: THREE
+          
+
+sentence 206
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 207
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 208
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 209
+REF: CARD
+HYP: CARD
+         
+
+sentence 210
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 211
+REF: EAR
+HYP: EAR
+        
+
+sentence 212
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 213
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 214
+REF: FISH
+HYP: FISH
+         
+
+sentence 215
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 216
+REF: FROG
+HYP: FROG
+         
+
+sentence 217
+REF: FROG
+HYP: FROG
+         
+
+sentence 218
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 219
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 220
+REF: NO
+HYP: NO
+       
+
+sentence 221
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 222
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 223
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 224
+REF: PIG
+HYP: PIG
+        
+
+sentence 225
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 226
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 227
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 228
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 229
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 230
+REF: CARD
+HYP: CARD
+         
+
+sentence 231
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 232
+REF: JAM
+HYP: JAM
+        
+
+sentence 233
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 234
+REF: COW
+HYP: COW
+        
+
+sentence 235
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 236
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 237
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 238
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 239
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 240
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 241
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 242
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 243
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 244
+REF: HILL
+HYP: HILL
+         
+
+sentence 245
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 246
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 247
+REF: JAM
+HYP: JAM
+        
+
+sentence 248
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 249
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 250
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 251
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 252
+REF: BALL
+HYP: BALL
+         
+
+sentence 253
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 254
+REF: BOY
+HYP: BOY
+        
+
+sentence 255
+REF: HAIR
+HYP:  FUR
+        S
+
+sentence 256
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 257
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 258
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 259
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 260
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 261
+REF: POOL
+HYP:    P
+        S
+
+sentence 262
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 263
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 264
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 265
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 266
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 267
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 268
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 269
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 270
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 271
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 272
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 273
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 274
+REF: STORY
+HYP: STORY
+          
+
+sentence 275
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 276
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 277
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 278
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 279
+REF: EAR
+HYP: EAR
+        
+
+sentence 280
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 281
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 282
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 283
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 284
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 285
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 286
+REF: CARD
+HYP: PIDE
+        S
+
+sentence 287
+REF: BAG
+HYP: BAG
+        
+
+sentence 288
+REF: HOLE
+HYP:  HOE
+        S
+
+sentence 289
+REF: BALL
+HYP:  BAL
+        S
+
+sentence 290
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 291
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 292
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 293
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 294
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 295
+REF: THAT
+HYP: THAT
+         
+
+sentence 296
+REF: BREATHE
+HYP:  BLEAFH
+           S
+
+sentence 297
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 298
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 299
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 300
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 301
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 302
+REF: THAT
+HYP: THAT
+         
+
+sentence 303
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 304
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 305
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 306
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 307
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 308
+REF: SPROUT
+HYP: SPRIDE
+          S
+
+sentence 309
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 310
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 311
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 312
+REF: BAG
+HYP: BAG
+        
+
+sentence 313
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 314
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 315
+REF: TEN
+HYP: TEN
+        
+
+sentence 316
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 317
+REF: PIG
+HYP: PIG
+        
+
+sentence 318
+REF: NINE
+HYP: NINE
+         
+
+sentence 319
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 320
+REF: PULL
+HYP:  PLL
+        S
+
+sentence 321
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 322
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 323
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 324
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 325
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 326
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 327
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 328
+REF: NINE
+HYP: NINE
+         
+
+sentence 329
+REF: PIE
+HYP: PIE
+        
+
+sentence 330
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 331
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 332
+REF: SIX
+HYP:  FI
+       S
+
+sentence 333
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 334
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 335
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 336
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 337
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 338
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 339
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 340
+REF: BALL
+HYP:  BAL
+        S
+
+sentence 341
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 342
+REF: **** BINOCULARS
+HYP: BINO        CUP
+        I          S
+
+sentence 343
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 344
+REF: HILL
+HYP: HILL
+         
+
+sentence 345
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 346
+REF: CAR
+HYP: CAR
+        
+
+sentence 347
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 348
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 349
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 350
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 351
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 352
+REF: CARD
+HYP: CARD
+         
+
+sentence 353
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 354
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 355
+REF: KEY
+HYP: KEY
+        
+
+sentence 356
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 357
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 358
+REF: HILL
+HYP: HILL
+         
+
+sentence 359
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 360
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 361
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 362
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 363
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 364
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 365
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 366
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 367
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 368
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 369
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 370
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 371
+REF:  DETECTIVE
+HYP: DETEACTIVE
+              S
+
+sentence 372
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 373
+REF: OWL
+HYP: OWL
+        
+
+sentence 374
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 375
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 376
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 377
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 378
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 379
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 380
+REF: FROG
+HYP: FROG
+         
+
+sentence 381
+REF: CUB
+HYP: CUB
+        
+
+sentence 382
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 383
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 384
+REF: NO
+HYP: NO
+       
+
+sentence 385
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 386
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 387
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 388
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 389
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 390
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 391
+REF: DESSERT
+HYP:   ESSER
+           S
+
+sentence 392
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 393
+REF: KEY
+HYP: KEY
+        
+
+sentence 394
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 395
+REF: BALL
+HYP:  BAL
+        S
+
+sentence 396
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 397
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 398
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 399
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 400
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 401
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 402
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 403
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 404
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 405
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 406
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 407
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 408
+REF: THAT
+HYP: THAT
+         
+
+sentence 409
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 410
+REF: OWL
+HYP: OWL
+        
+
+sentence 411
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 412
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 413
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 414
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 415
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 416
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 417
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 418
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 419
+REF: TEN
+HYP: TEN
+        
+
+sentence 420
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 421
+REF: ONE
+HYP: ONE
+        
+
+sentence 422
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 423
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 424
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 425
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 426
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 427
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 428
+REF: STORY
+HYP: STORY
+          
+
+sentence 429
+REF: SWING
+HYP: SWING
+          
+
+sentence 430
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 431
+REF: FISH
+HYP: FISH
+         
+
+sentence 432
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 433
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 434
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 435
+REF: HILL
+HYP: HILL
+         
+
+sentence 436
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 437
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 438
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 439
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 440
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 441
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 442
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 443
+REF: NO
+HYP: NO
+       
+
+sentence 444
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 445
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 446
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 447
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 448
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 449
+REF: BAG
+HYP: BAG
+        
+
+sentence 450
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 451
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 452
+REF: FISH
+HYP: FISH
+         
+
+sentence 453
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 454
+REF: LEAF
+HYP: LEAT
+        S
+
+sentence 455
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 456
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 457
+REF: THREE
+HYP: THREE
+          
+
+sentence 458
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 459
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 460
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 461
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 462
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 463
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 464
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 465
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 466
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 467
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 468
+REF: JAM
+HYP: JAM
+        
+
+sentence 469
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 470
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 471
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 472
+REF: ONE
+HYP: ONE
+        
+
+sentence 473
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 474
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 475
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 476
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 477
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 478
+REF: POOL
+HYP:   PL
+        S
+
+sentence 479
+REF: PIG
+HYP: PIG
+        
+
+sentence 480
+REF: OWL
+HYP: OWL
+        
+
+sentence 481
+REF: EAR
+HYP: EAR
+        
+
+sentence 482
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 483
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 484
+REF: CARD
+HYP: CARD
+         
+
+sentence 485
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 486
+REF: SIX
+HYP: SIX
+        
+
+sentence 487
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 488
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 489
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 490
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 491
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 492
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 493
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 494
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 495
+REF: TWO
+HYP:   R
+       S
+
+sentence 496
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 497
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 498
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 499
+REF: NO
+HYP: NO
+       
+
+sentence 500
+REF: SWING
+HYP: SWING
+          
+
+sentence 501
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 502
+REF: RIDE
+HYP:  PID
+        S
+
+sentence 503
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 504
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 505
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 506
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 507
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 508
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 509
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 510
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 511
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 512
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 513
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 514
+REF: NO
+HYP: NO
+       
+
+sentence 515
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 516
+REF: FROG
+HYP: FROG
+         
+
+sentence 517
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 518
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 519
+REF: CLOUD
+HYP: CLOUT
+         S
+
+sentence 520
+REF: FUR
+HYP: FUR
+        
+
+sentence 521
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 522
+REF: TWO
+HYP: TWO
+        
+
+sentence 523
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 524
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 525
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 526
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 527
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 528
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 529
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 530
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 531
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 532
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 533
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 534
+REF: YES
+HYP: YES
+        
+
+sentence 535
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 536
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 537
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 538
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 539
+REF: PIE
+HYP: PIE
+        
+
+sentence 540
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 541
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 542
+REF: TWO
+HYP: TWO
+        
+
+sentence 543
+REF: COW
+HYP: COW
+        
+
+sentence 544
+REF: FIVE
+HYP: LLIY
+        S
+
+sentence 545
+REF: CAR
+HYP: CAR
+        
+
+sentence 546
+REF: FISH
+HYP: FISH
+         
+
+sentence 547
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 548
+REF: THREE
+HYP: THREE
+          
+
+sentence 549
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 550
+REF: CART
+HYP: CART
+         
+
+sentence 551
+REF: GARAGE
+HYP:  GARAE
+          S
+
+sentence 552
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 553
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 554
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 555
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 556
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 557
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 558
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 559
+REF: PIE
+HYP: PIE
+        
+
+sentence 560
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 561
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 562
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 563
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 564
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 565
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 566
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 567
+REF: CLOWN
+HYP:  CLOW
+         S
+
+sentence 568
+REF: JAM
+HYP: JAM
+        
+
+sentence 569
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 570
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 571
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 572
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 573
+REF: PIE
+HYP: PIE
+        
+
+sentence 574
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 575
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 576
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 577
+REF: CUB
+HYP: CUB
+        
+
+sentence 578
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 579
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 580
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 581
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 582
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 583
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 584
+REF: YES
+HYP: YES
+        
+
+sentence 585
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 586
+REF: TEN
+HYP: TEN
+        
+
+sentence 587
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 588
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 589
+REF:  SPAGHETTI
+HYP: PAUSGHETTI
+              S
+
+sentence 590
+REF: FUR
+HYP: FUR
+        
+
+sentence 591
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 592
+REF: CARD
+HYP: CARD
+         
+
+sentence 593
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 594
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 595
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 596
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 597
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 598
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 599
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 600
+REF:  THREE O CLOCK
+HYP: THRLEE O CLOCK
+          S        
+
+sentence 601
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 602
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 603
+REF: FUR
+HYP: FUR
+        
+
+sentence 604
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 605
+REF: JAM
+HYP: JAM
+        
+
+sentence 606
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 607
+REF: PULL
+HYP:   PL
+        S
+
+sentence 608
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 609
+REF: CART
+HYP: CART
+         
+
+sentence 610
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 611
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 612
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 613
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 614
+REF: NO
+HYP: NO
+       
+
+sentence 615
+REF: JAM
+HYP: JAM
+        
+
+sentence 616
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 617
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 618
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 619
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 620
+REF: BALL
+HYP: BALL
+         
+
+sentence 621
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 622
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 623
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 624
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 625
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 626
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 627
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 628
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 629
+REF: PIG
+HYP: KEG
+       S
+
+sentence 630
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 631
+REF: SWING
+HYP: SWING
+          
+
+sentence 632
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 633
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 634
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 635
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 636
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 637
+REF:  CLOUD
+HYP: CLOUDT
+          S
+
+sentence 638
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 639
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 640
+REF: BAG
+HYP: BAG
+        
+
+sentence 641
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 642
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 643
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 644
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 645
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 646
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 647
+REF:  KEY
+HYP: CHEY
+        S
+
+sentence 648
+REF: YES
+HYP: YES
+        
+
+sentence 649
+REF: CUB
+HYP: CUB
+        
+
+sentence 650
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 651
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 652
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 653
+REF: PIG
+HYP: PIG
+        
+
+sentence 654
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 655
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 656
+REF: YES
+HYP: YES
+        
+
+sentence 657
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 658
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 659
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 660
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 661
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 662
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 663
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 664
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 665
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 666
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 667
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 668
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 669
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 670
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 671
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 672
+REF: FUR
+HYP: FUR
+        
+
+sentence 673
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 674
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 675
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 676
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 677
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 678
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 679
+REF: THAT
+HYP: THAT
+         
+
+sentence 680
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 681
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 682
+REF: NINE
+HYP: NINE
+         
+
+sentence 683
+REF: CAR
+HYP: CAR
+        
+
+sentence 684
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 685
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 686
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 687
+REF: PULL
+HYP:   PL
+        S
+
+sentence 688
+REF: HILL
+HYP: HILL
+         
+
+sentence 689
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 690
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 691
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 692
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 693
+REF: FISH
+HYP: FISH
+         
+
+sentence 694
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 695
+REF:  HIPPOPOTAMUS
+HYP: HIPPOPOOTAMUS
+                 S
+
+sentence 696
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 697
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 698
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 699
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 700
+REF: RHINOCEROS
+HYP:  RHINOCERS
+              S
+
+sentence 701
+REF: COW
+HYP: COW
+        
+
+sentence 702
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 703
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 704
+REF: THAT
+HYP:  HAT
+        S
+
+sentence 705
+REF: CUB
+HYP: CUB
+        
+
+sentence 706
+REF: BAG
+HYP: BAG
+        
+
+sentence 707
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 708
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 709
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 710
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 711
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 712
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 713
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 714
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 715
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 716
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 717
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 718
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 719
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 720
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 721
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 722
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 723
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 724
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 725
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 726
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 727
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 728
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 729
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 730
+REF: FISH
+HYP: FISH
+         
+
+sentence 731
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 732
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 733
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 734
+REF: KEY
+HYP: KOY
+       S
+
+sentence 735
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 736
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 737
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 738
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 739
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 740
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 741
+REF: BOY
+HYP: BOY
+        
+
+sentence 742
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 743
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 744
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 745
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 746
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 747
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 748
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 749
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 750
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 751
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 752
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 753
+REF: OWL
+HYP: OWL
+        
+
+sentence 754
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 755
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 756
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 757
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 758
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 759
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 760
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 761
+REF: TWO
+HYP: TWO
+        
+
+sentence 762
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 763
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 764
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 765
+REF: EAR
+HYP: EAR
+        
+
+sentence 766
+REF: ONE
+HYP: ONE
+        
+
+sentence 767
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 768
+REF: PIE
+HYP: PIE
+        
+
+sentence 769
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 770
+REF:   EAR
+HYP: EASAR
+         S
+
+sentence 771
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 772
+REF: STORY
+HYP: STORY
+          
+
+sentence 773
+REF: TEN
+HYP: CON
+       S
+
+sentence 774
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 775
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 776
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 777
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 778
+REF: TEN
+HYP: TEN
+        
+
+sentence 779
+REF: PULL
+HYP:    P
+        S
+
+sentence 780
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 781
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 782
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 783
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 784
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 785
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 786
+REF: PIG
+HYP: PIG
+        
+
+sentence 787
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 788
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 789
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 790
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 791
+REF: CUB
+HYP: CUB
+        
+
+sentence 792
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 793
+REF: STORY
+HYP: STORY
+          
+
+sentence 794
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 795
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 796
+REF: FISH
+HYP: FISH
+         
+
+sentence 797
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 798
+REF: JAM
+HYP: JAM
+        
+
+sentence 799
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 800
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 801
+REF: SIX
+HYP: SIX
+        
+
+sentence 802
+REF: TWO
+HYP: TWO
+        
+
+sentence 803
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 804
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 805
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 806
+REF: PIE
+HYP: PIE
+        
+
+sentence 807
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 808
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 809
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 810
+REF: YES
+HYP: YES
+        
+
+sentence 811
+REF: BAG
+HYP: BAG
+        
+
+sentence 812
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 813
+REF: POOL
+HYP:  KEY
+        S
+
+sentence 814
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 815
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 816
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 817
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 818
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 819
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 820
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 821
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 822
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 823
+REF: SWING
+HYP: SWING
+          
+
+sentence 824
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 825
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 826
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 827
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 828
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 829
+REF: CUB
+HYP: CUB
+        
+
+sentence 830
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 831
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 832
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 833
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 834
+REF: OWL
+HYP: OWL
+        
+
+sentence 835
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 836
+REF: FISH
+HYP: FISH
+         
+
+sentence 837
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 838
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 839
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 840
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 841
+REF: CART
+HYP: CART
+         
+
+sentence 842
+REF: CROCODILE
+HYP:  CROCODIL
+             S
+
+sentence 843
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 844
+REF: HILL
+HYP: HILL
+         
+
+sentence 845
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 846
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 847
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 848
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 849
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 850
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 851
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 852
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 853
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 854
+REF: OWL
+HYP:  OW
+       S
+
+sentence 855
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 856
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 857
+REF: EAR
+HYP: EAR
+        
+
+sentence 858
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 859
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 860
+REF: COW
+HYP: COW
+        
+
+sentence 861
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 862
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 863
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 864
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 865
+REF: CARD
+HYP: CART
+        S
+
+sentence 866
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 867
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 868
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 869
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 870
+REF: THAT
+HYP: THAT
+         
+
+sentence 871
+REF: CARD
+HYP: CARD
+         
+
+sentence 872
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 873
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 874
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 875
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 876
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 877
+REF: KEY
+HYP: KEY
+        
+
+sentence 878
+REF: COCONUT
+HYP:  COCONU
+           S
+
+sentence 879
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 880
+REF: YES
+HYP: YES
+        
+
+sentence 881
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 882
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 883
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 884
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 885
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 886
+REF:  EIGHT
+HYP: HEIGHT
+          S
+
+sentence 887
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 888
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 889
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 890
+REF: POOL
+HYP:   PO
+        S
+
+sentence 891
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 892
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 893
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 894
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 895
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 896
+REF: BALL
+HYP:  BAL
+        S
+
+sentence 897
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 898
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 899
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 900
+REF: KEY
+HYP: KEY
+        
+
+sentence 901
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 902
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 903
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 904
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 905
+REF: TEN
+HYP: TEN
+        
+
+sentence 906
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 907
+REF: PIG
+HYP: PIG
+        
+
+sentence 908
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 909
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 910
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 911
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 912
+REF: PIG
+HYP: PIG
+        
+
+sentence 913
+REF: ONE
+HYP: ONE
+        
+
+sentence 914
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 915
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 916
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 917
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 918
+REF: DETECTIVE
+HYP:  DETECTIN
+             S
+
+sentence 919
+REF: FROG
+HYP: FROG
+         
+
+sentence 920
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 921
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 922
+REF: STORY
+HYP: STORY
+          
+
+sentence 923
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 924
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 925
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 926
+REF: PIE
+HYP: PIE
+        
+
+sentence 927
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 928
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 929
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 930
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 931
+REF: SWING
+HYP: SWING
+          
+
+sentence 932
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 933
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 934
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 935
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 936
+REF: STORY
+HYP: STORY
+          
+
+sentence 937
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 938
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 939
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 940
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 941
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 942
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 943
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 944
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 945
+REF: THREE
+HYP: THREE
+          
+
+sentence 946
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 947
+REF: POOL
+HYP:    P
+        S
+
+sentence 948
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 949
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 950
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 951
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 952
+REF: CANOE
+HYP:  CANO
+         S
+
+sentence 953
+REF: FISH
+HYP: FISH
+         
+
+sentence 954
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 955
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 956
+REF: CART
+HYP: CART
+         
+
+sentence 957
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 958
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 959
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 960
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 961
+REF: STORY
+HYP: STORY
+          
+
+sentence 962
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 963
+REF: KEY
+HYP: KEY
+        
+
+sentence 964
+REF: FISH
+HYP: FISH
+         
+
+sentence 965
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 966
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 967
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 968
+REF: CHEESE
+HYP:   CHEE
+          S
+
+sentence 969
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 970
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 971
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 972
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 973
+REF: TEN
+HYP: TEN
+        
+
+sentence 974
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 975
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 976
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 977
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 978
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 979
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 980
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 981
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 982
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 983
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 984
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 985
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 986
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 987
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 988
+REF: BALL
+HYP: BALL
+         
+
+sentence 989
+REF: DESSERT
+HYP: DESSURE
+           S
+
+sentence 990
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 991
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 992
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 993
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 994
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 995
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 996
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 997
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 998
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 999
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1000
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 1001
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 1002
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 1003
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 1004
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 1005
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 1006
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 1007
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 1008
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 1009
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 1010
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1011
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1012
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 1013
+REF:  TOMATO
+HYP: THOMATO
+           S
+
+sentence 1014
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 1015
+REF: BAG
+HYP: BAG
+        
+
+sentence 1016
+REF: TWO
+HYP: TWO
+        
+
+sentence 1017
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 1018
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 1019
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 1020
+REF: FISH
+HYP: FISH
+         
+
+sentence 1021
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 1022
+REF: FOOD
+HYP: FIRD
+        S
+
+sentence 1023
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 1024
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 1025
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 1026
+REF: STORY
+HYP: STORY
+          
+
+sentence 1027
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 1028
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 1029
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 1030
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 1031
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 1032
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 1033
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 1034
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 1035
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1036
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 1037
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 1038
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 1039
+REF: CART
+HYP: CART
+         
+
+sentence 1040
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 1041
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 1042
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 1043
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 1044
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 1045
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 1046
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 1047
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 1048
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 1049
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 1050
+REF: SWING
+HYP: SWING
+          
+
+sentence 1051
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 1052
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 1053
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 1054
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 1055
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 1056
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 1057
+REF: EAR
+HYP: EAR
+        
+
+sentence 1058
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 1059
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 1060
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 1061
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 1062
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 1063
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 1064
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 1065
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 1066
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 1067
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 1068
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 1069
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 1070
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 1071
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 1072
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 1073
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1074
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 1075
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 1076
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 1077
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 1078
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 1079
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 1080
+REF: JAM
+HYP: JAM
+        
+
+sentence 1081
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 1082
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 1083
+REF:  RIDE
+HYP: GRIDE
+         S
+
+sentence 1084
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 1085
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1086
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 1087
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 1088
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 1089
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 1090
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 1091
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 1092
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 1093
+REF: STORY
+HYP: STORY
+          
+
+sentence 1094
+REF: BOY
+HYP: BOY
+        
+
+sentence 1095
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 1096
+REF: BOY
+HYP: BOY
+        
+
+sentence 1097
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 1098
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 1099
+REF: FUR
+HYP: FUR
+        
+
+sentence 1100
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 1101
+REF: OWL
+HYP: OWL
+        
+
+sentence 1102
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 1103
+REF: FUR
+HYP: FUR
+        
+
+sentence 1104
+REF: CAR
+HYP: CAR
+        
+
+sentence 1105
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 1106
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 1107
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 1108
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 1109
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 1110
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 1111
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 1112
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 1113
+REF: STORY
+HYP: STORY
+          
+
+sentence 1114
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 1115
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 1116
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 1117
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 1118
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 1119
+REF: CAR
+HYP: CAR
+        
+
+sentence 1120
+REF: FUR
+HYP: FUR
+        
+
+sentence 1121
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1122
+REF: ONE
+HYP:  IN
+       S
+
+sentence 1123
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 1124
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 1125
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 1126
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 1127
+REF: POOL
+HYP:   PL
+        S
+
+sentence 1128
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 1129
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 1130
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 1131
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 1132
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 1133
+REF: BOY
+HYP: BOY
+        
+
+sentence 1134
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 1135
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 1136
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 1137
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 1138
+REF: POOL
+HYP:    P
+        S
+
+sentence 1139
+REF: PIG
+HYP: PIG
+        
+
+sentence 1140
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 1141
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 1142
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1143
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 1144
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 1145
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 1146
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 1147
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 1148
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 1149
+REF: JAM
+HYP: JAM
+        
+
+sentence 1150
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 1151
+REF: TEN
+HYP: TEN
+        
+
+sentence 1152
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1153
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 1154
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 1155
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 1156
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 1157
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 1158
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 1159
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 1160
+REF: NINE
+HYP: NINE
+         
+
+sentence 1161
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 1162
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 1163
+REF: KEY
+HYP: KEY
+        
+
+sentence 1164
+REF: CAR
+HYP: CAR
+        
+
+sentence 1165
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1166
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 1167
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 1168
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 1169
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 1170
+REF: EAR
+HYP: EAR
+        
+
+sentence 1171
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 1172
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 1173
+REF: KEY
+HYP: KEY
+        
+
+sentence 1174
+REF: FROG
+HYP: FROG
+         
+
+sentence 1175
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1176
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 1177
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 1178
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 1179
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 1180
+REF: YES
+HYP: YES
+        
+
+sentence 1181
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 1182
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 1183
+REF: BINOCULARS
+HYP: BINOCULARS
+               
+
+sentence 1184
+REF: FIVE
+HYP:  FIV
+        S
+
+sentence 1185
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 1186
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 1187
+REF: CUCUMBER
+HYP:  CUCUMBE
+            S
+
+sentence 1188
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 1189
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 1190
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 1191
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 1192
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 1193
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 1194
+REF: TEN
+HYP: TEN
+        
+
+sentence 1195
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 1196
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 1197
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 1198
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1199
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 1200
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 1201
+REF: FROG
+HYP: FROG
+         
+
+sentence 1202
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 1203
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 1204
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 1205
+REF: NINE
+HYP: NINE
+         
+
+sentence 1206
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 1207
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 1208
+REF: SIX
+HYP: SIX
+        
+
+sentence 1209
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 1210
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 1211
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 1212
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 1213
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 1214
+REF: POOL
+HYP:    P
+        S
+
+sentence 1215
+REF: COW
+HYP: COW
+        
+
+sentence 1216
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 1217
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 1218
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 1219
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 1220
+REF: NINE
+HYP: NINE
+         
+
+sentence 1221
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1222
+REF: DOLL
+HYP: DOLL
+         
+
+sentence 1223
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 1224
+REF: PIE
+HYP: PIE
+        
+
+sentence 1225
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 1226
+REF: HILL
+HYP: HILL
+         
+
+sentence 1227
+REF: NINE
+HYP: NINE
+         
+
+sentence 1228
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 1229
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 1230
+REF: CART
+HYP: CART
+         
+
+sentence 1231
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 1232
+REF: PULL
+HYP:   PL
+        S
+
+sentence 1233
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 1234
+REF: PIG
+HYP: PIG
+        
+
+sentence 1235
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 1236
+REF: KEY
+HYP: KEY
+        
+
+sentence 1237
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 1238
+REF: SWING
+HYP: SWING
+          
+
+sentence 1239
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 1240
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 1241
+REF: SIX
+HYP: SIX
+        
+
+sentence 1242
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 1243
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 1244
+REF: SIX
+HYP: SIX
+        
+
+sentence 1245
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 1246
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 1247
+REF: THAT
+HYP:  TAT
+        S
+
+sentence 1248
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 1249
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 1250
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 1251
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 1252
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 1253
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 1254
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 1255
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1256
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 1257
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 1258
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 1259
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 1260
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 1261
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 1262
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 1263
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 1264
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 1265
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 1266
+REF: CAR
+HYP: CAR
+        
+
+sentence 1267
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 1268
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 1269
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 1270
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 1271
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 1272
+REF: EAR
+HYP: EAR
+        
+
+sentence 1273
+REF: DOLL
+HYP:  DOL
+        S
+
+sentence 1274
+REF: JAM
+HYP: JAM
+        
+
+sentence 1275
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 1276
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 1277
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 1278
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 1279
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 1280
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 1281
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 1282
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 1283
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 1284
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 1285
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 1286
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 1287
+REF: PIG
+HYP: PIG
+        
+
+sentence 1288
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1289
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 1290
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 1291
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 1292
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 1293
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 1294
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1295
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 1296
+REF: KEY
+HYP: KEY
+        
+
+sentence 1297
+REF: TEN
+HYP: TEN
+        
+
+sentence 1298
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 1299
+REF: WATERMELON
+HYP:  WATEMEION
+              S
+
+sentence 1300
+REF: COW
+HYP: COW
+        
+
+sentence 1301
+REF:  CUCUMBER
+HYP: CUNCUMBER
+             S
+
+sentence 1302
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 1303
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 1304
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 1305
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 1306
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 1307
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1308
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 1309
+REF: TEN
+HYP: TEN
+        
+
+sentence 1310
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 1311
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 1312
+REF: OWL
+HYP: OWL
+        
+
+sentence 1313
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 1314
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 1315
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1316
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 1317
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 1318
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 1319
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 1320
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 1321
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 1322
+REF: TEN
+HYP: TEN
+        
+
+sentence 1323
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1324
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 1325
+REF: BAG
+HYP: BAG
+        
+
+sentence 1326
+REF: CUB
+HYP: CUB
+        
+
+sentence 1327
+REF: PULL
+HYP:   PL
+        S
+
+sentence 1328
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1329
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 1330
+REF: SPIDERWEB
+HYP: SPIDERWEB
+              
+
+sentence 1331
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 1332
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 1333
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 1334
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 1335
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 1336
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 1337
+REF: TWO
+HYP: TWO
+        
+
+sentence 1338
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 1339
+REF: POOL
+HYP:   PL
+        S
+
+sentence 1340
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 1341
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 1342
+REF: SPAGHETTI
+HYP:  PAGHETTI
+             S
+
+sentence 1343
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 1344
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 1345
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 1346
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 1347
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 1348
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 1349
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 1350
+REF: BAG
+HYP: BAG
+        
+
+sentence 1351
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1352
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 1353
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1354
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 1355
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 1356
+REF: PULL
+HYP:   PL
+        S
+
+sentence 1357
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 1358
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 1359
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 1360
+REF: BOAT
+HYP:  OAT
+        S
+
+sentence 1361
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 1362
+REF: THREE
+HYP: THREE
+          
+
+sentence 1363
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 1364
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 1365
+REF: KEY
+HYP: KEY
+        
+
+sentence 1366
+REF: DOLL
+HYP:  GIR
+        S
+
+sentence 1367
+REF: PIE
+HYP: PIE
+        
+
+sentence 1368
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 1369
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 1370
+REF: FUR
+HYP: FUR
+        
+
+sentence 1371
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1372
+REF: PULL
+HYP:   PL
+        S
+
+sentence 1373
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 1374
+REF: POOL
+HYP:    P
+        S
+
+sentence 1375
+REF: PIE
+HYP: PIE
+        
+
+sentence 1376
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 1377
+REF: POTATO
+HYP:   TATO
+          S
+
+sentence 1378
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 1379
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 1380
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1381
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 1382
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 1383
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1384
+REF: SIX
+HYP: SIX
+        
+
+sentence 1385
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 1386
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 1387
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 1388
+REF: BALL
+HYP:  BAL
+        S
+
+sentence 1389
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 1390
+REF: NINE
+HYP: NINE
+         
+
+sentence 1391
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 1392
+REF: ONE
+HYP: ONE
+        
+
+sentence 1393
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 1394
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 1395
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 1396
+REF: CUB
+HYP: CUB
+        
+
+sentence 1397
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 1398
+REF: TONIGHT
+HYP: TONIGHT
+            
+
+sentence 1399
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 1400
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 1401
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 1402
+REF: BAG
+HYP: BAG
+        
+
+sentence 1403
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 1404
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 1405
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1406
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 1407
+REF:  ZOO
+HYP: THRE
+        S
+
+sentence 1408
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 1409
+REF: RIDE
+HYP: RIDE
+         
+
+sentence 1410
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 1411
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 1412
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 1413
+REF: TWO
+HYP: TWO
+        
+
+sentence 1414
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 1415
+REF: FISH
+HYP: FISH
+         
+
+sentence 1416
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 1417
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1418
+REF: FROG
+HYP: FROG
+         
+
+sentence 1419
+REF: DRINK
+HYP: DRINK
+          
+
+sentence 1420
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 1421
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 1422
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1423
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 1424
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1425
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 1426
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 1427
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 1428
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 1429
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 1430
+REF: SEVEN
+HYP:  EVEN
+         S
+
+sentence 1431
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 1432
+REF: BREATHE
+HYP:  REATHE
+           S
+
+sentence 1433
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 1434
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 1435
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 1436
+REF: THREE
+HYP: THREE
+          
+
+sentence 1437
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 1438
+REF: EAR
+HYP: EAR
+        
+
+sentence 1439
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 1440
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 1441
+REF: MOUTH
+HYP: MOUTH
+          
+
+sentence 1442
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 1443
+REF: HILL
+HYP: HILL
+         
+
+sentence 1444
+REF: FISH
+HYP: FISH
+         
+
+sentence 1445
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 1446
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 1447
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 1448
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1449
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 1450
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 1451
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 1452
+REF: ONE
+HYP: ONE
+        
+
+sentence 1453
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 1454
+REF: SWING
+HYP: SWING
+          
+
+sentence 1455
+REF: CARD
+HYP: CARD
+         
+
+sentence 1456
+REF: BOY
+HYP: BOY
+        
+
+sentence 1457
+REF: FUR
+HYP: FUR
+        
+
+sentence 1458
+REF:   CRAB
+HYP: CLOARD
+          S
+
+sentence 1459
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 1460
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 1461
+REF: TEN
+HYP: TEN
+        
+
+sentence 1462
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 1463
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 1464
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 1465
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 1466
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 1467
+REF: SWING
+HYP: SWING
+          
+
+sentence 1468
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1469
+REF: BAG
+HYP: BAG
+        
+
+sentence 1470
+REF: CART
+HYP: CART
+         
+
+sentence 1471
+REF: RHINOCEROS
+HYP: RHINOCEROS
+               
+
+sentence 1472
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 1473
+REF: SWING
+HYP: SWING
+          
+
+sentence 1474
+REF: SPAGHETTI
+HYP: SPAGHETTI
+              
+
+sentence 1475
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 1476
+REF: DOLL
+HYP:  DOL
+        S
+
+sentence 1477
+REF: CAR
+HYP: CAR
+        
+
+sentence 1478
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 1479
+REF: CAR
+HYP: CAR
+        
+
+sentence 1480
+REF: CAR
+HYP: CAR
+        
+
+sentence 1481
+REF: THERMOMETER
+HYP: THERMOMETER
+                
+
+sentence 1482
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 1483
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 1484
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1485
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 1486
+REF: KEY
+HYP: KEY
+        
+
+sentence 1487
+REF: YES
+HYP: YES
+        
+
+sentence 1488
+REF: HILL
+HYP: HILL
+         
+
+sentence 1489
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 1490
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 1491
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 1492
+REF: CAR
+HYP: CAR
+        
+
+sentence 1493
+REF: OWL
+HYP: OWL
+        
+
+sentence 1494
+REF: YOYO
+HYP: YOYO
+         
+
+sentence 1495
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 1496
+REF: GARDEN
+HYP: GARDEN
+           
+
+sentence 1497
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 1498
+REF:   JAM
+HYP: CHARM
+         S
+
+sentence 1499
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 1500
+REF: BAG
+HYP: BAG
+        
+
+sentence 1501
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 1502
+REF: JAM
+HYP: JAM
+        
+
+sentence 1503
+REF: HOLE
+HYP: HOLE
+         
+
+sentence 1504
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 1505
+REF: SIX
+HYP: SIX
+        
+
+sentence 1506
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 1507
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 1508
+REF: CLOWN
+HYP: CLOWN
+          
+
+sentence 1509
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 1510
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 1511
+REF: ONE
+HYP: ONE
+        
+
+sentence 1512
+REF: COW
+HYP: COW
+        
+
+sentence 1513
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1514
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 1515
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 1516
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 1517
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 1518
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 1519
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 1520
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 1521
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 1522
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 1523
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 1524
+REF: ONE
+HYP: ONE
+        
+
+sentence 1525
+REF: FROG
+HYP: FROG
+         
+
+sentence 1526
+REF: HILL
+HYP:  HIR
+        S
+
+sentence 1527
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 1528
+REF: BUTTERFLY
+HYP: BUTTERFLY
+              
+
+sentence 1529
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 1530
+REF: DETECTIVE
+HYP: DETECTIVE
+              
+
+sentence 1531
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 1532
+REF: TWO
+HYP: TWO
+        
+
+sentence 1533
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 1534
+REF: BOY
+HYP: BOY
+        
+
+sentence 1535
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 1536
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 1537
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 1538
+REF: YES
+HYP: YES
+        
+
+sentence 1539
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 1540
+REF:  BIRD
+HYP: BEIRD
+         S
+
+sentence 1541
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 1542
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1543
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 1544
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 1545
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 1546
+REF: NO
+HYP: NO
+       
+
+sentence 1547
+REF: HIPPOPOTAMUS
+HYP: HIPPOPOTAMUS
+                 
+
+sentence 1548
+REF: CARPET
+HYP: CARPET
+           
+
+sentence 1549
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 1550
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 1551
+REF: THAT
+HYP: THAT
+         
+
+sentence 1552
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 1553
+REF: POTATO
+HYP: POTATO
+           
+
+sentence 1554
+REF: COCONUT
+HYP: COCONUT
+            
+
+sentence 1555
+REF: TWO EGGS
+HYP: TWO EGGS
+             
+
+sentence 1556
+REF: COW
+HYP: COW
+        
+
+sentence 1557
+REF: HAIR
+HYP:  HUR
+        S
+
+sentence 1558
+REF: SMILE
+HYP: SMILE
+          
+
+sentence 1559
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 1560
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 1561
+REF: TWO
+HYP: TWO
+        
+
+sentence 1562
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 1563
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 1564
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 1565
+REF: PIG
+HYP: PIG
+        
+
+sentence 1566
+REF: RHINOCEROS
+HYP:   RHIOCERS
+              S
+
+sentence 1567
+REF: FISH
+HYP: FISH
+         
+
+sentence 1568
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1569
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 1570
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 1571
+REF: COW
+HYP: COW
+        
+
+sentence 1572
+REF: THAT
+HYP: THAT
+         
+
+sentence 1573
+REF:  BOY
+HYP: BOAY
+        S
+
+sentence 1574
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 1575
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 1576
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 1577
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 1578
+REF: THAT
+HYP: THAT
+         
+
+sentence 1579
+REF: FOUR CUPS
+HYP: FOUR CUPS
+              
+
+sentence 1580
+REF: THREE
+HYP: THREE
+          
+
+sentence 1581
+REF: EAR
+HYP: EAR
+        
+
+sentence 1582
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 1583
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 1584
+REF: FEATHER
+HYP: FEATHER
+            
+
+sentence 1585
+REF: ONE CUP
+HYP: ONE CUP
+            
+
+sentence 1586
+REF: ONE EGG
+HYP: ONE EGG
+            
+
+sentence 1587
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 1588
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 1589
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 1590
+REF: SIX
+HYP: SIX
+        
+
+sentence 1591
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 1592
+REF: CANOE
+HYP: CANOE
+          
+
+sentence 1593
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 1594
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 1595
+REF:   ONE
+HYP: BOUNE
+         S
+
+sentence 1596
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 1597
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 1598
+REF: SHORT
+HYP: SHORT
+          
+
+sentence 1599
+REF: CUB
+HYP: CUB
+        
+
+sentence 1600
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 1601
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 1602
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 1603
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 1604
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 1605
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1606
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 1607
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 1608
+REF: FOUR EGGS
+HYP: FOUR EGGS
+              
+
+sentence 1609
+REF: EAR
+HYP:  ZA
+       S
+
+sentence 1610
+REF: YES
+HYP: YES
+        
+
+sentence 1611
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 1612
+REF: BRIDGE
+HYP: BRIDGE
+           
+
+sentence 1613
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1614
+REF: PIE
+HYP: PIE
+        
+
+sentence 1615
+REF: TWO CUPS
+HYP: TWO CUPS
+             
+
+sentence 1616
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 1617
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 1618
+REF: NINE
+HYP: NINE
+         
+
+sentence 1619
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1620
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 1621
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 1622
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 1623
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 1624
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 1625
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 1626
+REF: NO
+HYP: NO
+       
+
+sentence 1627
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 1628
+REF: AUSTRALIA
+HYP: AUSTRALIA
+              
+
+sentence 1629
+REF: CUCUMBER
+HYP: CUCUMBER
+             
+
+sentence 1630
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 1631
+REF: HAIR
+HYP: HAIR
+         
+
+sentence 1632
+REF: CUB
+HYP: CUB
+        
+
+sentence 1633
+REF: YES
+HYP: YES
+        
+
+sentence 1634
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 1635
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 1636
+REF: LIGHT
+HYP: LIGHT
+          
+
+sentence 1637
+REF: GIRAFFE
+HYP:  GIRAFE
+           S
+
+sentence 1638
+REF: CHAIR
+HYP: CHAIR
+          
+
+sentence 1639
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 1640
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 1641
+REF: CHEESE
+HYP:  CHESE
+          S
+
+sentence 1642
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 1643
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 1644
+REF: CART
+HYP: CART
+         
+
+sentence 1645
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 1646
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1647
+REF: WOOD
+HYP:  WOD
+        S
+
+sentence 1648
+REF: VOICE
+HYP: VOICE
+          
+
+sentence 1649
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 1650
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 1651
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 1652
+REF: MAGICIAN
+HYP: MAGICIAN
+             
+
+sentence 1653
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 1654
+REF: OWL
+HYP: OWL
+        
+
+sentence 1655
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 1656
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 1657
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 1658
+REF: CATERPILLAR
+HYP: CATERPILLAR
+                
+
+sentence 1659
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 1660
+REF: FUR
+HYP: FUR
+        
+
+sentence 1661
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 1662
+REF: THREE EGGS
+HYP: THREE EGGS
+               
+
+sentence 1663
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 1664
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 1665
+REF: OWL
+HYP: OWL
+        
+
+sentence 1666
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1667
+REF: NINE
+HYP: NINE
+         
+
+sentence 1668
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 1669
+REF: MARTIAN
+HYP: MARTIAN
+            
+
+sentence 1670
+REF: CRAB
+HYP: CRAB
+         
+
+sentence 1671
+REF: GORILLA
+HYP: GORILLA
+            
+
+sentence 1672
+REF: FOOD
+HYP:  FOT
+        S
+
+sentence 1673
+REF: BELLYBUTTON
+HYP: BELLYBUTTON
+                
+
+sentence 1674
+REF: MOUNTAIN
+HYP: MOUNTAIN
+             
+
+sentence 1675
+REF: STORY
+HYP: STORY
+          
+
+sentence 1676
+REF: POOL
+HYP:  PUL
+        S
+
+sentence 1677
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 1678
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 1679
+REF: BALLOON
+HYP:  BALLON
+           S
+
+sentence 1680
+REF: NO
+HYP: NO
+       
+
+sentence 1681
+REF: THREE
+HYP: THREE
+          
+
+sentence 1682
+REF: DESSERT
+HYP: DESSERT
+            
+
+sentence 1683
+REF: TOOTH
+HYP:  TOTH
+         S
+
+sentence 1684
+REF: BANANA
+HYP: BANANA
+           
+
+sentence 1685
+REF: GIRL
+HYP: GIRL
+         
+
+sentence 1686
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 1687
+REF: VANILLA
+HYP: VANILLA
+            
+
+sentence 1688
+REF: THAT
+HYP: DUCK
+        S
+
+sentence 1689
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 1690
+REF: WATERMELON
+HYP: WATERMELON
+               
+
+sentence 1691
+REF: TWO O CLOCK
+HYP: TWO O CLOCK
+                
+
+sentence 1692
+REF: KANGAROO
+HYP:  KANGARO
+            S
+
+sentence 1693
+REF: FOUR O CLOCK
+HYP: FOUR O CLOCK
+                 
+
+sentence 1694
+REF:  CUB
+HYP: CRUB
+        S
+
+sentence 1695
+REF: WHEEL
+HYP: WHEEL
+          
+
+sentence 1696
+REF: MOUSTACHE
+HYP: MOUSTACHE
+              
+
+sentence 1697
+REF: NINE
+HYP: DINL
+        S
+
+sentence 1698
+REF: FOOD
+HYP:  FOD
+        S
+
+sentence 1699
+REF: SKIRT
+HYP: SKIRT
+          
+
+sentence 1700
+REF: STRAW
+HYP: STRAW
+          
+
+sentence 1701
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1702
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 1703
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 1704
+REF: TOMATO
+HYP: TOMATO
+           
+
+sentence 1705
+REF: NO
+HYP: NO
+       
+
+sentence 1706
+REF: SEVEN
+HYP: SEVEN
+          
+
+sentence 1707
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 1708
+REF: SNAKE
+HYP: SNAKE
+          
+
+sentence 1709
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 1710
+REF: CARD
+HYP: CARD
+         
+
+sentence 1711
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 1712
+REF: CAR
+HYP: CAR
+        
+
+sentence 1713
+REF: HEAD
+HYP: HEAD
+         
+
+sentence 1714
+REF: VEGEMITE
+HYP: VEGEMITE
+             
+
+sentence 1715
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1716
+REF: COW
+HYP: COW
+        
+
+sentence 1717
+REF: FOOT
+HYP:  FOT
+        S
+
+sentence 1718
+REF: BOAT
+HYP: BOAT
+         
+
+sentence 1719
+REF: THREE O CLOCK
+HYP: THREE O CLOCK
+                  
+
+sentence 1720
+REF: CICADA
+HYP: CICADA
+           
+
+sentence 1721
+REF: SWING
+HYP: SWING
+          
+
+sentence 1722
+REF: BALL
+HYP: BALL
+         
+
+sentence 1723
+REF: BREATHE
+HYP: BREATHE
+            
+
+sentence 1724
+REF: NO
+HYP: NO
+       
+
+sentence 1725
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 1726
+REF: XYLOPHONE
+HYP: XYLOPHONE
+              
+
+sentence 1727
+REF: FROG
+HYP: FROG
+         
+
+sentence 1728
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 1729
+REF: BIRD
+HYP: BIRD
+         
+
+sentence 1730
+REF: CARD
+HYP: CARD
+         
+
+sentence 1731
+REF: PULL
+HYP:    P
+        S
+
+sentence 1732
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 1733
+REF: ZOO
+HYP:  ZO
+       S
+
+sentence 1734
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 1735
+REF: NOSE
+HYP: NOSE
+         
+
+sentence 1736
+REF: FLOWERPOT
+HYP: FLOWERPOT
+              
+
+sentence 1737
+REF: THREE CUPS
+HYP: THREE CUPS
+               
+
+sentence 1738
+REF: SIX
+HYP: SIX
+        
+
+sentence 1739
+REF: SPLASH
+HYP: SPLASH
+           
+
+sentence 1740
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 1741
+REF: STETHOSCOPE
+HYP: STETHOSCOPE
+                
+
+sentence 1742
+REF: JAM
+HYP: JAM
+        
+
+sentence 1743
+REF: BRIDGE
+HYP:  SNIAG
+          S
+
+sentence 1744
+REF: KITCHEN
+HYP: KITCHEN
+            
+
+sentence 1745
+REF: SPROUT
+HYP: SPROUT
+           
+
+sentence 1746
+REF: BEARD
+HYP: BEARD
+          
+
+sentence 1747
+REF: GRASSHOPPER
+HYP: GRASSHOPPER
+                
+
+sentence 1748
+REF: SPADE
+HYP: SPADE
+          
+
+sentence 1749
+REF: DINOSAUR
+HYP: DINOSAUR
+             
+
+sentence 1750
+REF: GARAGE
+HYP: GARAGE
+           
+
+sentence 1751
+REF: ELEPHANT
+HYP: ELEPHANT
+             
+
+sentence 1752
+REF: TAIL
+HYP: TAIL
+         
+
+sentence 1753
+REF: THUMB
+HYP: THUMB
+          
+
+sentence 1754
+REF: CLOUD
+HYP: CLOUD
+          
+
+sentence 1755
+REF: WATCH
+HYP: WATCH
+          
+
+sentence 1756
+REF: FOUR
+HYP: FOUR
+         
+
+sentence 1757
+REF: PIG
+HYP: HIG
+       S
+
+sentence 1758
+REF: LEAF
+HYP: LEAF
+         
+
+sentence 1759
+REF: PIE
+HYP: PIE
+        
+
+sentence 1760
+REF: EIGHT
+HYP: EIGHT
+          
+
+sentence 1761
+REF: DUCK
+HYP: DUCK
+         
+
+sentence 1762
+REF: SHELL
+HYP: SHELL
+          
+
+sentence 1763
+REF: TREASURE
+HYP: TREASURE
+             
+
+sentence 1764
+REF: ATTACK
+HYP: ATTACK
+           
+
+sentence 1765
+REF: SWORD
+HYP: SWORD
+          
+
+sentence 1766
+REF: PLAY
+HYP: PLAY
+         
+
+sentence 1767
+REF: CIRCUS
+HYP: CIRCUS
+           
+
+sentence 1768
+REF: SAUSAGE
+HYP: SAUSAGE
+            
+
+sentence 1769
+REF: MACHINE
+HYP: MACHINE
+            
+
+sentence 1770
+REF: CROCODILE
+HYP: CROCODILE
+              
+
+sentence 1771
+REF: FIVE
+HYP: FIVE
+         
+
+sentence 1772
+REF: ONE O CLOCK
+HYP: ONE O CLOCK
+                
+
+sentence 1773
+REF: TWO
+HYP: TWO
+        
+
+sentence 1774
+REF: THUMB
+HYP: THUMB
+          
+
+number of sentences: 1774
+substitutions=214 deletions=0 insertions=1 hits=1759
+
+mer=10.89%
+wil=20.56%
+wip=79.44%
+wer=10.90%
+
+
+

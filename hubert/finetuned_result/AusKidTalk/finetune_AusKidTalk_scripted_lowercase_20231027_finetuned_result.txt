@@ -1,0 +1,8882 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: ball
+HYP:  bal
+        S
+
+sentence 2
+REF: four cups
+HYP: four cups
+              
+
+sentence 3
+REF: detective
+HYP:   detctve
+             S
+
+sentence 4
+REF: tonight
+HYP:   tonht
+           S
+
+sentence 5
+REF:   straw
+HYP: austraw
+           S
+
+sentence 6
+REF: swing
+HYP:  swig
+         S
+
+sentence 7
+REF: pig
+HYP: pig
+        
+
+sentence 8
+REF: treasure
+HYP:      fes
+            S
+
+sentence 9
+REF: head
+HYP: head
+         
+
+sentence 10
+REF: bridge
+HYP:   brig
+          S
+
+sentence 11
+REF: snake
+HYP:  fnak
+         S
+
+sentence 12
+REF: hill
+HYP:  hil
+        S
+
+sentence 13
+REF: card
+HYP:  cad
+        S
+
+sentence 14
+REF: leaf
+HYP: leaf
+         
+
+sentence 15
+REF: three
+HYP:    ta
+         S
+
+sentence 16
+REF: hippopotamus
+HYP: hippopotamus
+                 
+
+sentence 17
+REF: thermometer
+HYP:  thermometr
+               S
+
+sentence 18
+REF: three eggs
+HYP: three  egs
+              S
+
+sentence 19
+REF: girl
+HYP:  gil
+        S
+
+sentence 20
+REF: giraffe
+HYP:   giraf
+           S
+
+sentence 21
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 22
+REF: watch
+HYP: watch
+          
+
+sentence 23
+REF: kangaroo
+HYP:  kangaro
+            S
+
+sentence 24
+REF: boy
+HYP: boy
+        
+
+sentence 25
+REF: that
+HYP:   ta
+        S
+
+sentence 26
+REF: spaghetti
+HYP:   spaghet
+             S
+
+sentence 27
+REF: pull
+HYP:    p
+        S
+
+sentence 28
+REF: clown
+HYP:  clon
+         S
+
+sentence 29
+REF: two cups
+HYP: two cups
+             
+
+sentence 30
+REF: butterfly
+HYP:    tutoty
+             S
+
+sentence 31
+REF: thumb
+HYP: thumb
+          
+
+sentence 32
+REF: jam
+HYP:  tm
+       S
+
+sentence 33
+REF: boy
+HYP: boy
+        
+
+sentence 34
+REF: frog
+HYP: frog
+         
+
+sentence 35
+REF: vanilla
+HYP:   vanla
+           S
+
+sentence 36
+REF: head
+HYP: head
+         
+
+sentence 37
+REF: ball
+HYP:  bal
+        S
+
+sentence 38
+REF: banana
+HYP:   bann
+          S
+
+sentence 39
+REF: jam
+HYP: jam
+        
+
+sentence 40
+REF: hill
+HYP:  hil
+        S
+
+sentence 41
+REF: duck
+HYP:  det
+        S
+
+sentence 42
+REF: hippopotamus
+HYP:   hippotamus
+                S
+
+sentence 43
+REF: watermelon
+HYP:  watermeln
+              S
+
+sentence 44
+REF: watermelon
+HYP:  watermeln
+              S
+
+sentence 45
+REF: fur
+HYP: fur
+        
+
+sentence 46
+REF: jam
+HYP: jam
+        
+
+sentence 47
+REF: tail
+HYP: tail
+         
+
+sentence 48
+REF: three
+HYP:  thre
+         S
+
+sentence 49
+REF: thumb
+HYP:  tumb
+         S
+
+sentence 50
+REF: thumb
+HYP:  thum
+         S
+
+sentence 51
+REF: bridge
+HYP:   boat
+          S
+
+sentence 52
+REF: one o clock
+HYP: one o   clc
+               S
+
+sentence 53
+REF: tonight
+HYP:   ponit
+           S
+
+sentence 54
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 55
+REF: australia
+HYP:  australa
+             S
+
+sentence 56
+REF:  one egg
+HYP: oneg ***
+        S   D
+
+sentence 57
+REF: four
+HYP:  for
+        S
+
+sentence 58
+REF: cub
+HYP: cub
+        
+
+sentence 59
+REF: crab
+HYP: crab
+         
+
+sentence 60
+REF: garden
+HYP: garden
+           
+
+sentence 61
+REF: binoculars
+HYP: binoculars
+               
+
+sentence 62
+REF: three
+HYP:  thre
+         S
+
+sentence 63
+REF: doll
+HYP:   dl
+        S
+
+sentence 64
+REF: short
+HYP:  shot
+         S
+
+sentence 65
+REF: three cups
+HYP: three cups
+               
+
+sentence 66
+REF: two o clock
+HYP:  tw o  clck
+       S       S
+
+sentence 67
+REF: stethoscope
+HYP:    stthoscp
+               S
+
+sentence 68
+REF:  dinosaur
+HYP: dineorflr
+             S
+
+sentence 69
+REF: three o clock
+HYP: three o   clk
+                 S
+
+sentence 70
+REF: kangaroo
+HYP:  kangaro
+            S
+
+sentence 71
+REF: kitchen
+HYP:  kitchn
+           S
+
+sentence 72
+REF: kangaroo
+HYP:    kango
+            S
+
+sentence 73
+REF: hippopotamus
+HYP:  hipopotamus
+                S
+
+sentence 74
+REF: head
+HYP: head
+         
+
+sentence 75
+REF: sausage
+HYP:     aus
+           S
+
+sentence 76
+REF: three
+HYP:    fo
+         S
+
+sentence 77
+REF:  hippopotamus
+HYP: hiporopotamus
+                 S
+
+sentence 78
+REF: play
+HYP: play
+         
+
+sentence 79
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 80
+REF: zoo
+HYP:  zo
+       S
+
+sentence 81
+REF: four
+HYP:  for
+        S
+
+sentence 82
+REF: potato
+HYP:  potat
+          S
+
+sentence 83
+REF: potato
+HYP:  potat
+          S
+
+sentence 84
+REF: hill
+HYP:   hi
+        S
+
+sentence 85
+REF: six
+HYP:  si
+       S
+
+sentence 86
+REF:  carpet
+HYP: carpent
+           S
+
+sentence 87
+REF: clown
+HYP:   cln
+         S
+
+sentence 88
+REF: australia
+HYP:  australa
+             S
+
+sentence 89
+REF: six
+HYP: six
+        
+
+sentence 90
+REF: splash
+HYP: splash
+           
+
+sentence 91
+REF: cart
+HYP:  cat
+        S
+
+sentence 92
+REF: that
+HYP: that
+         
+
+sentence 93
+REF: australia
+HYP:  australa
+             S
+
+sentence 94
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 95
+REF: vegemite
+HYP:    vgemt
+            S
+
+sentence 96
+REF: three o clock
+HYP: three o  clck
+                 S
+
+sentence 97
+REF: banana
+HYP:   bann
+          S
+
+sentence 98
+REF: gorilla
+HYP:   goril
+           S
+
+sentence 99
+REF: attack
+HYP:    ttk
+          S
+
+sentence 100
+REF: feather
+HYP:   featr
+           S
+
+sentence 101
+REF: two
+HYP:   t
+       S
+
+sentence 102
+REF: cicada
+HYP: cicada
+           
+
+sentence 103
+REF: fur
+HYP: fur
+        
+
+sentence 104
+REF: tonight
+HYP:    tont
+           S
+
+sentence 105
+REF: spade
+HYP: spade
+          
+
+sentence 106
+REF: drink
+HYP: drink
+          
+
+sentence 107
+REF: treasure
+HYP:    taser
+            S
+
+sentence 108
+REF: three cups
+HYP: three cups
+               
+
+sentence 109
+REF: ear
+HYP:   r
+       S
+
+sentence 110
+REF: pool
+HYP:    p
+        S
+
+sentence 111
+REF: chair
+HYP:  chir
+         S
+
+sentence 112
+REF: gorilla
+HYP:  gorvla
+           S
+
+sentence 113
+REF: gorilla
+HYP:   goril
+           S
+
+sentence 114
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 115
+REF: ear
+HYP:  ar
+       S
+
+sentence 116
+REF: circus
+HYP: circus
+           
+
+sentence 117
+REF: caterpillar
+HYP:   caterplar
+               S
+
+sentence 118
+REF: treasure
+HYP:     tasr
+            S
+
+sentence 119
+REF: grasshopper
+HYP:   grashoper
+               S
+
+sentence 120
+REF: spade
+HYP: spade
+          
+
+sentence 121
+REF: clown
+HYP:  clon
+         S
+
+sentence 122
+REF: magician
+HYP:  magican
+            S
+
+sentence 123
+REF: tooth
+HYP:   tth
+         S
+
+sentence 124
+REF: head
+HYP:  had
+        S
+
+sentence 125
+REF: sprout
+HYP:  sprut
+          S
+
+sentence 126
+REF: pull
+HYP:   pl
+        S
+
+sentence 127
+REF: martian
+HYP:  martan
+           S
+
+sentence 128
+REF: giraffe
+HYP:    girf
+           S
+
+sentence 129
+REF: one egg
+HYP:  ne  eg
+       S   S
+
+sentence 130
+REF: one
+HYP: odn
+       S
+
+sentence 131
+REF: kitchen
+HYP: kitchen
+            
+
+sentence 132
+REF: clown
+HYP:  clon
+         S
+
+sentence 133
+REF: light
+HYP:    it
+         S
+
+sentence 134
+REF: cicada
+HYP: cicada
+           
+
+sentence 135
+REF: canoe
+HYP:   can
+         S
+
+sentence 136
+REF: hippopotamus
+HYP:  hipopotamus
+                S
+
+sentence 137
+REF: skirt
+HYP:  skit
+         S
+
+sentence 138
+REF: flowerpot
+HYP:  floerpot
+             S
+
+sentence 139
+REF: boy
+HYP:  by
+       S
+
+sentence 140
+REF: skirt
+HYP:  skit
+         S
+
+sentence 141
+REF: attack
+HYP:   atak
+          S
+
+sentence 142
+REF: hair
+HYP:   fr
+        S
+
+sentence 143
+REF: cart
+HYP:  car
+        S
+
+sentence 144
+REF: cart
+HYP:  cat
+        S
+
+sentence 145
+REF: tonight
+HYP:    tont
+           S
+
+sentence 146
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 147
+REF: no
+HYP:  n
+      S
+
+sentence 148
+REF: mouth
+HYP: mouth
+          
+
+sentence 149
+REF: attack
+HYP:  atack
+          S
+
+sentence 150
+REF: one    o clock
+HYP: ono clck *****
+       S    S     D
+
+sentence 151
+REF: four
+HYP: four
+         
+
+sentence 152
+REF: four cups
+HYP: four cups
+              
+
+sentence 153
+REF: one
+HYP:  ne
+       S
+
+sentence 154
+REF: owl
+HYP:   o
+       S
+
+sentence 155
+REF: three cups
+HYP:   tre cups
+         S     
+
+sentence 156
+REF: canoe
+HYP:  cane
+         S
+
+sentence 157
+REF: seven
+HYP: seven
+          
+
+sentence 158
+REF: giraffe
+HYP:   giraf
+           S
+
+sentence 159
+REF: cart
+HYP:  cat
+        S
+
+sentence 160
+REF: chair
+HYP:  chir
+         S
+
+sentence 161
+REF: cow
+HYP:  co
+       S
+
+sentence 162
+REF: elephant
+HYP:  elephan
+            S
+
+sentence 163
+REF: skirt
+HYP: skirt
+          
+
+sentence 164
+REF: yes
+HYP: yes
+        
+
+sentence 165
+REF: giraffe
+HYP:   giraf
+           S
+
+sentence 166
+REF: jam
+HYP:  jm
+       S
+
+sentence 167
+REF: cow
+HYP:  co
+       S
+
+sentence 168
+REF: nose
+HYP:  nos
+        S
+
+sentence 169
+REF: watermelon
+HYP:   watrmeln
+              S
+
+sentence 170
+REF: kangaroo
+HYP:  kangaro
+            S
+
+sentence 171
+REF: ear
+HYP:  ar
+       S
+
+sentence 172
+REF: three eggs
+HYP: tfree  egs
+         S    S
+
+sentence 173
+REF: splash
+HYP: splash
+           
+
+sentence 174
+REF: butterfly
+HYP:  buterfly
+             S
+
+sentence 175
+REF: jam
+HYP:  jm
+       S
+
+sentence 176
+REF: garage
+HYP:  garag
+          S
+
+sentence 177
+REF: watch
+HYP:  wach
+         S
+
+sentence 178
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 179
+REF: splash
+HYP: splash
+           
+
+sentence 180
+REF: machine
+HYP:  macine
+           S
+
+sentence 181
+REF: frog
+HYP: frog
+         
+
+sentence 182
+REF: cart
+HYP:  cad
+        S
+
+sentence 183
+REF: one cup
+HYP:  ne  cp
+       S   S
+
+sentence 184
+REF: ten
+HYP: pen
+       S
+
+sentence 185
+REF:  one    o clock
+HYP: oneo clck *****
+        S    S     D
+
+sentence 186
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 187
+REF: pull
+HYP:   po
+        S
+
+sentence 188
+REF: caterpillar
+HYP:  caterpilar
+               S
+
+sentence 189
+REF: short
+HYP:  shot
+         S
+
+sentence 190
+REF:  binoculars
+HYP: bvinoculars
+               S
+
+sentence 191
+REF: shell
+HYP:  shel
+         S
+
+sentence 192
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 193
+REF:   two eggs
+HYP: toegs ****
+         S    D
+
+sentence 194
+REF: two cups
+HYP: two cups
+             
+
+sentence 195
+REF: treasure
+HYP: treasure
+             
+
+sentence 196
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 197
+REF: ball
+HYP:  bal
+        S
+
+sentence 198
+REF: thumb
+HYP:  tumb
+         S
+
+sentence 199
+REF: two cups
+HYP: two cups
+             
+
+sentence 200
+REF: ear
+HYP:  gr
+       S
+
+sentence 201
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 202
+REF: dessert
+HYP:    dest
+           S
+
+sentence 203
+REF: two cups
+HYP:  to cups
+       S     
+
+sentence 204
+REF: gorilla
+HYP:   goril
+           S
+
+sentence 205
+REF: three
+HYP:  thre
+         S
+
+sentence 206
+REF: seven
+HYP: seven
+          
+
+sentence 207
+REF: two cups
+HYP: two cups
+             
+
+sentence 208
+REF: dessert
+HYP:   deset
+           S
+
+sentence 209
+REF: card
+HYP:  cad
+        S
+
+sentence 210
+REF: boat
+HYP: boat
+         
+
+sentence 211
+REF: ear
+HYP: ***
+       D
+
+sentence 212
+REF: three o clock
+HYP:  thre o   clc
+         S       S
+
+sentence 213
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 214
+REF: fish
+HYP:  fis
+        S
+
+sentence 215
+REF: one o clock
+HYP: one o  clck
+               S
+
+sentence 216
+REF: frog
+HYP: frog
+         
+
+sentence 217
+REF: frog
+HYP: frog
+         
+
+sentence 218
+REF: five
+HYP: rive
+        S
+
+sentence 219
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 220
+REF: no
+HYP:  n
+      S
+
+sentence 221
+REF: drink
+HYP:  drik
+         S
+
+sentence 222
+REF: circus
+HYP: circus
+           
+
+sentence 223
+REF: kitchen
+HYP:   kithn
+           S
+
+sentence 224
+REF: pig
+HYP: pig
+        
+
+sentence 225
+REF: sword
+HYP:  ford
+         S
+
+sentence 226
+REF: vegemite
+HYP:   vgmite
+            S
+
+sentence 227
+REF: play
+HYP: play
+         
+
+sentence 228
+REF: sword
+HYP: sword
+          
+
+sentence 229
+REF: rhinoceros
+HYP:   rinocers
+              S
+
+sentence 230
+REF: card
+HYP:  cad
+        S
+
+sentence 231
+REF: butterfly
+HYP:   buterfy
+             S
+
+sentence 232
+REF: jam
+HYP: jam
+        
+
+sentence 233
+REF: spade
+HYP: spade
+          
+
+sentence 234
+REF: cow
+HYP:  co
+       S
+
+sentence 235
+REF: hair
+HYP:  har
+        S
+
+sentence 236
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 237
+REF: giraffe
+HYP:    girf
+           S
+
+sentence 238
+REF: two eggs
+HYP: two  egs
+            S
+
+sentence 239
+REF: banana
+HYP:   matn
+          S
+
+sentence 240
+REF: duck
+HYP:  duk
+        S
+
+sentence 241
+REF: butterfly
+HYP:  buterfly
+             S
+
+sentence 242
+REF: straw
+HYP: straw
+          
+
+sentence 243
+REF: dessert
+HYP:   deset
+           S
+
+sentence 244
+REF: hill
+HYP:  hil
+        S
+
+sentence 245
+REF: tomato
+HYP:  tomat
+          S
+
+sentence 246
+REF: girl
+HYP:  gil
+        S
+
+sentence 247
+REF: jam
+HYP:  jm
+       S
+
+sentence 248
+REF: boat
+HYP: boat
+         
+
+sentence 249
+REF: garage
+HYP:  garag
+          S
+
+sentence 250
+REF: grasshopper
+HYP:   grashoper
+               S
+
+sentence 251
+REF: boat
+HYP:  bat
+        S
+
+sentence 252
+REF: ball
+HYP:  bal
+        S
+
+sentence 253
+REF: five
+HYP: five
+         
+
+sentence 254
+REF: boy
+HYP:  by
+       S
+
+sentence 255
+REF: hair
+HYP:  our
+        S
+
+sentence 256
+REF: elephant
+HYP: elephant
+             
+
+sentence 257
+REF: light
+HYP:    ht
+         S
+
+sentence 258
+REF: machine
+HYP:  machne
+           S
+
+sentence 259
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 260
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 261
+REF: pool
+HYP:   pl
+        S
+
+sentence 262
+REF: clown
+HYP:  clon
+         S
+
+sentence 263
+REF: food
+HYP:  fod
+        S
+
+sentence 264
+REF: stethoscope
+HYP:    stthoscp
+               S
+
+sentence 265
+REF: spaghetti
+HYP:   spaghet
+             S
+
+sentence 266
+REF: vegemite
+HYP:  vesemit
+            S
+
+sentence 267
+REF: leaf
+HYP:  lef
+        S
+
+sentence 268
+REF: zoo
+HYP:  zo
+       S
+
+sentence 269
+REF: xylophone
+HYP:    ylophn
+             S
+
+sentence 270
+REF: drink
+HYP:  drik
+         S
+
+sentence 271
+REF: shell
+HYP:  shel
+         S
+
+sentence 272
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 273
+REF: three cups
+HYP: three  cps
+              S
+
+sentence 274
+REF: story
+HYP: story
+          
+
+sentence 275
+REF: short
+HYP: short
+          
+
+sentence 276
+REF: moustache
+HYP:     stach
+             S
+
+sentence 277
+REF: detective
+HYP:  detctive
+             S
+
+sentence 278
+REF: feather
+HYP: feather
+            
+
+sentence 279
+REF: ear
+HYP:  ar
+       S
+
+sentence 280
+REF: boat
+HYP: boat
+         
+
+sentence 281
+REF: duck
+HYP: decy
+        S
+
+sentence 282
+REF: doll
+HYP:  dol
+        S
+
+sentence 283
+REF: rhinoceros
+HYP:  rhinocers
+              S
+
+sentence 284
+REF: smile
+HYP:  smle
+         S
+
+sentence 285
+REF: machine
+HYP:   machn
+           S
+
+sentence 286
+REF: card
+HYP:  cad
+        S
+
+sentence 287
+REF: bag
+HYP: bag
+        
+
+sentence 288
+REF: hole
+HYP:  hol
+        S
+
+sentence 289
+REF: ball
+HYP:  bal
+        S
+
+sentence 290
+REF: mouth
+HYP: mouth
+          
+
+sentence 291
+REF: crocodile
+HYP:  crocodle
+             S
+
+sentence 292
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 293
+REF: crab
+HYP: crab
+         
+
+sentence 294
+REF: thermometer
+HYP:  thermometr
+               S
+
+sentence 295
+REF: that
+HYP: that
+         
+
+sentence 296
+REF: breathe
+HYP:   bleah
+           S
+
+sentence 297
+REF: tonight
+HYP:    tont
+           S
+
+sentence 298
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 299
+REF: watch
+HYP: watch
+          
+
+sentence 300
+REF: grasshopper
+HYP:     grashop
+               S
+
+sentence 301
+REF: zoo
+HYP: ***
+       D
+
+sentence 302
+REF: that
+HYP: that
+         
+
+sentence 303
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 304
+REF: tooth
+HYP:  toth
+         S
+
+sentence 305
+REF: bridge
+HYP:  bridg
+          S
+
+sentence 306
+REF: head
+HYP: chad
+        S
+
+sentence 307
+REF: smile
+HYP:  smle
+         S
+
+sentence 308
+REF:  sprout
+HYP: spriade
+           S
+
+sentence 309
+REF: light
+HYP:   lht
+         S
+
+sentence 310
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 311
+REF: sword
+HYP: sword
+          
+
+sentence 312
+REF: bag
+HYP: bag
+        
+
+sentence 313
+REF: bellybutton
+HYP:     baybutn
+               S
+
+sentence 314
+REF: tooth
+HYP:  toth
+         S
+
+sentence 315
+REF: ten
+HYP: ten
+        
+
+sentence 316
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 317
+REF: pig
+HYP: pig
+        
+
+sentence 318
+REF: nine
+HYP:  nin
+        S
+
+sentence 319
+REF: rhinoceros
+HYP: rhinoceros
+               
+
+sentence 320
+REF: pull
+HYP:   po
+        S
+
+sentence 321
+REF: cheese
+HYP:   ches
+          S
+
+sentence 322
+REF: bellybutton
+HYP:    belybutn
+               S
+
+sentence 323
+REF: one egg
+HYP:  ne  eg
+       S   S
+
+sentence 324
+REF: two eggs
+HYP: two  egs
+            S
+
+sentence 325
+REF: ride
+HYP: ride
+         
+
+sentence 326
+REF: potato
+HYP:   pott
+          S
+
+sentence 327
+REF: detective
+HYP:   vetctve
+             S
+
+sentence 328
+REF: nine
+HYP: nine
+         
+
+sentence 329
+REF: pie
+HYP: pie
+        
+
+sentence 330
+REF: five
+HYP:  fie
+        S
+
+sentence 331
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 332
+REF:  six
+HYP: foit
+        S
+
+sentence 333
+REF: skirt
+HYP:  skit
+         S
+
+sentence 334
+REF: splash
+HYP: splash
+           
+
+sentence 335
+REF: voice
+HYP:  voic
+         S
+
+sentence 336
+REF: four cups
+HYP: four cups
+              
+
+sentence 337
+REF: seven
+HYP:   evn
+         S
+
+sentence 338
+REF: tonight
+HYP:    dont
+           S
+
+sentence 339
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 340
+REF: ball
+HYP:   ba
+        S
+
+sentence 341
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 342
+REF: *** binoculars
+HYP: ono         ck
+       I          S
+
+sentence 343
+REF: xylophone
+HYP:   ylophne
+             S
+
+sentence 344
+REF: hill
+HYP:   hi
+        S
+
+sentence 345
+REF: eight
+HYP:   egt
+         S
+
+sentence 346
+REF: car
+HYP: car
+        
+
+sentence 347
+REF: skirt
+HYP: skirt
+          
+
+sentence 348
+REF: grasshopper
+HYP:   grashoper
+               S
+
+sentence 349
+REF: garden
+HYP:   gadn
+          S
+
+sentence 350
+REF: detective
+HYP:    detctv
+             S
+
+sentence 351
+REF: leaf
+HYP:  lef
+        S
+
+sentence 352
+REF: card
+HYP:  cad
+        S
+
+sentence 353
+REF: australia
+HYP:  australa
+             S
+
+sentence 354
+REF: feather
+HYP:    feah
+           S
+
+sentence 355
+REF: key
+HYP:  ky
+       S
+
+sentence 356
+REF: stethoscope
+HYP:    stthosce
+               S
+
+sentence 357
+REF: mouth
+HYP: mouth
+          
+
+sentence 358
+REF: hill
+HYP:  hil
+        S
+
+sentence 359
+REF: australia
+HYP:   austral
+             S
+
+sentence 360
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 361
+REF: kitchen
+HYP:  kitchn
+           S
+
+sentence 362
+REF: two cups
+HYP:   t cups
+       S     
+
+sentence 363
+REF: rhinoceros
+HYP:  rhinocers
+              S
+
+sentence 364
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 365
+REF: leaf
+HYP: leaf
+         
+
+sentence 366
+REF: ride
+HYP:  rde
+        S
+
+sentence 367
+REF: sprout
+HYP: sprout
+           
+
+sentence 368
+REF: canoe
+HYP:   can
+         S
+
+sentence 369
+REF: flowerpot
+HYP:  flowerpt
+             S
+
+sentence 370
+REF: circus
+HYP: circus
+           
+
+sentence 371
+REF: detective
+HYP:   totapps
+             S
+
+sentence 372
+REF: kangaroo
+HYP:   kangar
+            S
+
+sentence 373
+REF: owl
+HYP: ***
+       D
+
+sentence 374
+REF: feather
+HYP:  feathr
+           S
+
+sentence 375
+REF: foot
+HYP: ffot
+        S
+
+sentence 376
+REF: bellybutton
+HYP:    belybutn
+               S
+
+sentence 377
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 378
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 379
+REF: foot
+HYP:  fot
+        S
+
+sentence 380
+REF: frog
+HYP: frog
+         
+
+sentence 381
+REF: cub
+HYP: cab
+       S
+
+sentence 382
+REF: dessert
+HYP:   deset
+           S
+
+sentence 383
+REF: duck
+HYP: duck
+         
+
+sentence 384
+REF: no
+HYP:  n
+      S
+
+sentence 385
+REF: watermelon
+HYP: watermelon
+               
+
+sentence 386
+REF: leaf
+HYP: leaf
+         
+
+sentence 387
+REF: cloud
+HYP: cloud
+          
+
+sentence 388
+REF: chair
+HYP:  chir
+         S
+
+sentence 389
+REF: crocodile
+HYP:  crocodle
+             S
+
+sentence 390
+REF: one cup
+HYP:  ne  cp
+       S   S
+
+sentence 391
+REF: dessert
+HYP:    desr
+           S
+
+sentence 392
+REF: ride
+HYP: ride
+         
+
+sentence 393
+REF: key
+HYP:  ky
+       S
+
+sentence 394
+REF: martian
+HYP:   mrtan
+           S
+
+sentence 395
+REF: ball
+HYP:   bl
+        S
+
+sentence 396
+REF: beard
+HYP:  bead
+         S
+
+sentence 397
+REF: play
+HYP: play
+         
+
+sentence 398
+REF: bird
+HYP:  bid
+        S
+
+sentence 399
+REF: spade
+HYP: spade
+          
+
+sentence 400
+REF: vanilla
+HYP:    banl
+           S
+
+sentence 401
+REF: carpet
+HYP:  carpt
+          S
+
+sentence 402
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 403
+REF: feather
+HYP:  feathr
+           S
+
+sentence 404
+REF: seven
+HYP: seven
+          
+
+sentence 405
+REF: hippopotamus
+HYP: hippopotamus
+                 
+
+sentence 406
+REF: two eggs
+HYP: two  egs
+            S
+
+sentence 407
+REF: bird
+HYP:  bid
+        S
+
+sentence 408
+REF: that
+HYP:  tat
+        S
+
+sentence 409
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 410
+REF: owl
+HYP:  ol
+       S
+
+sentence 411
+REF: garden
+HYP: garden
+           
+
+sentence 412
+REF: vegemite
+HYP:   vegmit
+            S
+
+sentence 413
+REF: boat
+HYP:  boa
+        S
+
+sentence 414
+REF: watermelon
+HYP:   waermeln
+              S
+
+sentence 415
+REF: treasure
+HYP: treasure
+             
+
+sentence 416
+REF: gorilla
+HYP:    gril
+           S
+
+sentence 417
+REF: xylophone
+HYP:   ylophne
+             S
+
+sentence 418
+REF: smile
+HYP: smile
+          
+
+sentence 419
+REF: ten
+HYP:  tn
+       S
+
+sentence 420
+REF: hair
+HYP:  hai
+        S
+
+sentence 421
+REF: one
+HYP:  ne
+       S
+
+sentence 422
+REF: bellybutton
+HYP:    belybutn
+               S
+
+sentence 423
+REF: butterfly
+HYP:   buterfy
+             S
+
+sentence 424
+REF: hole
+HYP:  hol
+        S
+
+sentence 425
+REF: shell
+HYP:  shel
+         S
+
+sentence 426
+REF: wheel
+HYP:   whe
+         S
+
+sentence 427
+REF: detective
+HYP:    detctv
+             S
+
+sentence 428
+REF: story
+HYP: story
+          
+
+sentence 429
+REF: swing
+HYP: swing
+          
+
+sentence 430
+REF: boat
+HYP: poat
+        S
+
+sentence 431
+REF: fish
+HYP: fish
+         
+
+sentence 432
+REF: girl
+HYP:  fil
+        S
+
+sentence 433
+REF: smile
+HYP:  smle
+         S
+
+sentence 434
+REF: tomato
+HYP:  tomat
+          S
+
+sentence 435
+REF: hill
+HYP:  hil
+        S
+
+sentence 436
+REF: coconut
+HYP: coconut
+            
+
+sentence 437
+REF: thumb
+HYP:  tumb
+         S
+
+sentence 438
+REF: doll
+HYP:   do
+        S
+
+sentence 439
+REF: two eggs
+HYP:  tw  egs
+       S    S
+
+sentence 440
+REF: duck
+HYP: duck
+         
+
+sentence 441
+REF: martian
+HYP:    bata
+           S
+
+sentence 442
+REF: circus
+HYP: circus
+           
+
+sentence 443
+REF: no
+HYP:  n
+      S
+
+sentence 444
+REF: garden
+HYP:  gaden
+          S
+
+sentence 445
+REF: stethoscope
+HYP:   stethosco
+               S
+
+sentence 446
+REF: dessert
+HYP:   deset
+           S
+
+sentence 447
+REF: feather
+HYP: feather
+            
+
+sentence 448
+REF: duck
+HYP: duck
+         
+
+sentence 449
+REF: bag
+HYP: bag
+        
+
+sentence 450
+REF: vanilla
+HYP:    anil
+           S
+
+sentence 451
+REF: play
+HYP: play
+         
+
+sentence 452
+REF: fish
+HYP: fish
+         
+
+sentence 453
+REF: watch
+HYP: watch
+          
+
+sentence 454
+REF: leaf
+HYP:  lea
+        S
+
+sentence 455
+REF: splash
+HYP: splash
+           
+
+sentence 456
+REF: hippopotamus
+HYP:   hippotamus
+                S
+
+sentence 457
+REF: three
+HYP:  thre
+         S
+
+sentence 458
+REF: grasshopper
+HYP:   grashoper
+               S
+
+sentence 459
+REF: crocodile
+HYP:   crocode
+             S
+
+sentence 460
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 461
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 462
+REF: five
+HYP: five
+         
+
+sentence 463
+REF: xylophone
+HYP:    ylophn
+             S
+
+sentence 464
+REF: hair
+HYP: hair
+         
+
+sentence 465
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 466
+REF: rhinoceros
+HYP:  brinocros
+              S
+
+sentence 467
+REF: kitchen
+HYP:     kic
+           S
+
+sentence 468
+REF: jam
+HYP:  jm
+       S
+
+sentence 469
+REF: thermometer
+HYP:   termometr
+               S
+
+sentence 470
+REF: hole
+HYP:  hol
+        S
+
+sentence 471
+REF: potato
+HYP:  potat
+          S
+
+sentence 472
+REF: one
+HYP:  ne
+       S
+
+sentence 473
+REF: circus
+HYP: circus
+           
+
+sentence 474
+REF: wood
+HYP:  wod
+        S
+
+sentence 475
+REF: martian
+HYP:  martan
+           S
+
+sentence 476
+REF: chair
+HYP:  chir
+         S
+
+sentence 477
+REF: sprout
+HYP: sprout
+           
+
+sentence 478
+REF: pool
+HYP:  pol
+        S
+
+sentence 479
+REF: pig
+HYP: pig
+        
+
+sentence 480
+REF: owl
+HYP:   o
+       S
+
+sentence 481
+REF: ear
+HYP:   r
+       S
+
+sentence 482
+REF: play
+HYP: play
+         
+
+sentence 483
+REF: two o clock
+HYP:  tw o  clck
+       S       S
+
+sentence 484
+REF: card
+HYP:  cad
+        S
+
+sentence 485
+REF: tonight
+HYP:   tonht
+           S
+
+sentence 486
+REF: six
+HYP:  si
+       S
+
+sentence 487
+REF: duck
+HYP:  dck
+        S
+
+sentence 488
+REF: beard
+HYP:  bead
+         S
+
+sentence 489
+REF: mouth
+HYP: nouth
+         S
+
+sentence 490
+REF: duck
+HYP:  dck
+        S
+
+sentence 491
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 492
+REF: balloon
+HYP:    baln
+           S
+
+sentence 493
+REF: splash
+HYP: splash
+           
+
+sentence 494
+REF: spade
+HYP: spade
+          
+
+sentence 495
+REF: two
+HYP:   b
+       S
+
+sentence 496
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 497
+REF: ride
+HYP: ride
+         
+
+sentence 498
+REF: short
+HYP:  shot
+         S
+
+sentence 499
+REF: no
+HYP:  n
+      S
+
+sentence 500
+REF: swing
+HYP: swing
+          
+
+sentence 501
+REF: caterpillar
+HYP:   caterplar
+               S
+
+sentence 502
+REF: ride
+HYP: ride
+         
+
+sentence 503
+REF: voice
+HYP:  voic
+         S
+
+sentence 504
+REF: food
+HYP:  fod
+        S
+
+sentence 505
+REF: flowerpot
+HYP:  flowerpt
+             S
+
+sentence 506
+REF: hair
+HYP: hair
+         
+
+sentence 507
+REF: tail
+HYP: tail
+         
+
+sentence 508
+REF: machine
+HYP:    math
+           S
+
+sentence 509
+REF: tomato
+HYP:  tomat
+          S
+
+sentence 510
+REF: straw
+HYP: shraw
+         S
+
+sentence 511
+REF: splash
+HYP: splash
+           
+
+sentence 512
+REF: cicada
+HYP: cicada
+           
+
+sentence 513
+REF: sprout
+HYP: sprout
+           
+
+sentence 514
+REF: no
+HYP:  n
+      S
+
+sentence 515
+REF: sword
+HYP: sword
+          
+
+sentence 516
+REF: frog
+HYP:  frg
+        S
+
+sentence 517
+REF: duck
+HYP:  dck
+        S
+
+sentence 518
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 519
+REF: cloud
+HYP: clout
+         S
+
+sentence 520
+REF: fur
+HYP: fur
+        
+
+sentence 521
+REF: vegemite
+HYP:   vegmte
+            S
+
+sentence 522
+REF: two
+HYP:   t
+       S
+
+sentence 523
+REF: sword
+HYP: sword
+          
+
+sentence 524
+REF: splash
+HYP: splash
+           
+
+sentence 525
+REF: one cup
+HYP:  ne cup
+       S    
+
+sentence 526
+REF: bridge
+HYP:  bridg
+          S
+
+sentence 527
+REF: three eggs
+HYP: three  egs
+              S
+
+sentence 528
+REF: gorilla
+HYP:  gorila
+           S
+
+sentence 529
+REF: foot
+HYP:  fot
+        S
+
+sentence 530
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 531
+REF: zoo
+HYP:  zo
+       S
+
+sentence 532
+REF: cheese
+HYP:   ches
+          S
+
+sentence 533
+REF: kitchen
+HYP:  kitchn
+           S
+
+sentence 534
+REF: yes
+HYP: yes
+        
+
+sentence 535
+REF: garden
+HYP:  gaden
+          S
+
+sentence 536
+REF: potato
+HYP:   pott
+          S
+
+sentence 537
+REF: spaghetti
+HYP:   spaghet
+             S
+
+sentence 538
+REF: cheese
+HYP:   ches
+          S
+
+sentence 539
+REF: pie
+HYP:  pe
+       S
+
+sentence 540
+REF: magician
+HYP:  magican
+            S
+
+sentence 541
+REF: giraffe
+HYP:    girf
+           S
+
+sentence 542
+REF: two
+HYP:   t
+       S
+
+sentence 543
+REF: cow
+HYP:   c
+       S
+
+sentence 544
+REF: five
+HYP:   iy
+        S
+
+sentence 545
+REF: car
+HYP: clo
+       S
+
+sentence 546
+REF: fish
+HYP:  ish
+        S
+
+sentence 547
+REF: spade
+HYP: spade
+          
+
+sentence 548
+REF: three
+HYP:  thre
+         S
+
+sentence 549
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 550
+REF: cart
+HYP:  cat
+        S
+
+sentence 551
+REF: garage
+HYP:   gara
+          S
+
+sentence 552
+REF: wheel
+HYP:  whel
+         S
+
+sentence 553
+REF: smile
+HYP:  smle
+         S
+
+sentence 554
+REF: tonight
+HYP:   tonht
+           S
+
+sentence 555
+REF: butterfly
+HYP:   buterfy
+             S
+
+sentence 556
+REF: spiderweb
+HYP:  spiderwb
+             S
+
+sentence 557
+REF: butterfly
+HYP:  buterfly
+             S
+
+sentence 558
+REF: attack
+HYP:   atak
+          S
+
+sentence 559
+REF: pie
+HYP: pie
+        
+
+sentence 560
+REF: bridge
+HYP:  bridg
+          S
+
+sentence 561
+REF: boat
+HYP: boat
+         
+
+sentence 562
+REF: carpet
+HYP:  carpt
+          S
+
+sentence 563
+REF: snake
+HYP: snake
+          
+
+sentence 564
+REF: canoe
+HYP:   can
+         S
+
+sentence 565
+REF: four o clock
+HYP:  tre o  clck
+        S       S
+
+sentence 566
+REF: flowerpot
+HYP:  flowerpt
+             S
+
+sentence 567
+REF: clown
+HYP:   clo
+         S
+
+sentence 568
+REF: jam
+HYP: jam
+        
+
+sentence 569
+REF: leaf
+HYP: leaf
+         
+
+sentence 570
+REF: drink
+HYP:  drik
+         S
+
+sentence 571
+REF: tooth
+HYP:  toth
+         S
+
+sentence 572
+REF: mountain
+HYP:   moutan
+            S
+
+sentence 573
+REF: pie
+HYP:  pe
+       S
+
+sentence 574
+REF: drink
+HYP:   rig
+         S
+
+sentence 575
+REF: voice
+HYP:  voic
+         S
+
+sentence 576
+REF: chair
+HYP:   car
+         S
+
+sentence 577
+REF: cub
+HYP: cub
+        
+
+sentence 578
+REF: circus
+HYP: circus
+           
+
+sentence 579
+REF: spaghetti
+HYP:   spaghet
+             S
+
+sentence 580
+REF: short
+HYP:  shot
+         S
+
+sentence 581
+REF: one egg
+HYP:  ne  eg
+       S   S
+
+sentence 582
+REF: attack
+HYP:   atak
+          S
+
+sentence 583
+REF: wood
+HYP:  wod
+        S
+
+sentence 584
+REF: yes
+HYP: yes
+        
+
+sentence 585
+REF: moustache
+HYP:   moustac
+             S
+
+sentence 586
+REF: ten
+HYP: ten
+        
+
+sentence 587
+REF: vanilla
+HYP:   vanla
+           S
+
+sentence 588
+REF: hippopotamus
+HYP:    hipotamus
+                S
+
+sentence 589
+REF: spaghetti
+HYP:   baushet
+             S
+
+sentence 590
+REF: fur
+HYP: fur
+        
+
+sentence 591
+REF: four
+HYP: four
+         
+
+sentence 592
+REF: card
+HYP:  cad
+        S
+
+sentence 593
+REF: hair
+HYP:  hai
+        S
+
+sentence 594
+REF: carpet
+HYP: carpet
+           
+
+sentence 595
+REF: vanilla
+HYP:    vanl
+           S
+
+sentence 596
+REF: beard
+HYP:  bead
+         S
+
+sentence 597
+REF: duck
+HYP: duck
+         
+
+sentence 598
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 599
+REF: canoe
+HYP:    cn
+         S
+
+sentence 600
+REF: three o clock
+HYP:   fle o  clck
+         S       S
+
+sentence 601
+REF: one egg
+HYP: one  eg
+           S
+
+sentence 602
+REF: girl
+HYP:  gir
+        S
+
+sentence 603
+REF: fur
+HYP: fur
+        
+
+sentence 604
+REF: coconut
+HYP: coconut
+            
+
+sentence 605
+REF: jam
+HYP: jam
+        
+
+sentence 606
+REF: garden
+HYP:  gardn
+          S
+
+sentence 607
+REF: pull
+HYP:   pl
+        S
+
+sentence 608
+REF: snake
+HYP:  snak
+         S
+
+sentence 609
+REF: cart
+HYP:  cat
+        S
+
+sentence 610
+REF: four cups
+HYP: four cups
+              
+
+sentence 611
+REF: leaf
+HYP: leaf
+         
+
+sentence 612
+REF: vegemite
+HYP:    vgmte
+            S
+
+sentence 613
+REF: gorilla
+HYP:  gorila
+           S
+
+sentence 614
+REF: no
+HYP: no
+       
+
+sentence 615
+REF: jam
+HYP:  jm
+       S
+
+sentence 616
+REF: beard
+HYP:  bead
+         S
+
+sentence 617
+REF: skirt
+HYP:   sit
+         S
+
+sentence 618
+REF: eight
+HYP:   egt
+         S
+
+sentence 619
+REF: circus
+HYP: circus
+           
+
+sentence 620
+REF: ball
+HYP:  bal
+        S
+
+sentence 621
+REF: magician
+HYP:  magican
+            S
+
+sentence 622
+REF: girl
+HYP: girl
+         
+
+sentence 623
+REF: three eggs
+HYP:  thre  egs
+         S    S
+
+sentence 624
+REF: two eggs
+HYP:  tw  egs
+       S    S
+
+sentence 625
+REF: nose
+HYP:   ns
+        S
+
+sentence 626
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 627
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 628
+REF: flowerpot
+HYP: flowerpot
+              
+
+sentence 629
+REF: pig
+HYP: pag
+       S
+
+sentence 630
+REF: vegemite
+HYP:   vegmte
+            S
+
+sentence 631
+REF: swing
+HYP:  swig
+         S
+
+sentence 632
+REF: treasure
+HYP:  treasur
+            S
+
+sentence 633
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 634
+REF: straw
+HYP: straw
+          
+
+sentence 635
+REF: straw
+HYP:  traw
+         S
+
+sentence 636
+REF: hair
+HYP: chir
+        S
+
+sentence 637
+REF: cloud
+HYP:  clou
+         S
+
+sentence 638
+REF: doll
+HYP:  dol
+        S
+
+sentence 639
+REF: rhinoceros
+HYP:  rhnoceros
+              S
+
+sentence 640
+REF: bag
+HYP: bag
+        
+
+sentence 641
+REF: sword
+HYP: sword
+          
+
+sentence 642
+REF: bridge
+HYP:  bridg
+          S
+
+sentence 643
+REF: girl
+HYP:   gi
+        S
+
+sentence 644
+REF: beard
+HYP:  bead
+         S
+
+sentence 645
+REF: potato
+HYP:   pott
+          S
+
+sentence 646
+REF: sprout
+HYP: sprout
+           
+
+sentence 647
+REF: key
+HYP:   s
+       S
+
+sentence 648
+REF: yes
+HYP: yes
+        
+
+sentence 649
+REF: cub
+HYP: cub
+        
+
+sentence 650
+REF: snake
+HYP:  snak
+         S
+
+sentence 651
+REF: crocodile
+HYP:  crocodle
+             S
+
+sentence 652
+REF: tomato
+HYP: tomatn
+          S
+
+sentence 653
+REF: pig
+HYP: pig
+        
+
+sentence 654
+REF: watermelon
+HYP: watermelon
+               
+
+sentence 655
+REF: circus
+HYP:  curcf
+          S
+
+sentence 656
+REF: yes
+HYP: yes
+        
+
+sentence 657
+REF: watch
+HYP:   wch
+         S
+
+sentence 658
+REF: circus
+HYP: circus
+           
+
+sentence 659
+REF: shell
+HYP:   shl
+         S
+
+sentence 660
+REF: two eggs
+HYP:  to  egs
+       S    S
+
+sentence 661
+REF: rhinoceros
+HYP:  rhnoceres
+              S
+
+sentence 662
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 663
+REF: food
+HYP:  fod
+        S
+
+sentence 664
+REF: cicada
+HYP: cicada
+           
+
+sentence 665
+REF: light
+HYP:   lit
+         S
+
+sentence 666
+REF: breathe
+HYP:  breath
+           S
+
+sentence 667
+REF: vanilla
+HYP:   vanla
+           S
+
+sentence 668
+REF: spade
+HYP: spade
+          
+
+sentence 669
+REF: eight
+HYP:    gt
+         S
+
+sentence 670
+REF: shell
+HYP:  shel
+         S
+
+sentence 671
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 672
+REF: fur
+HYP:  fu
+       S
+
+sentence 673
+REF: three eggs
+HYP: three  egs
+              S
+
+sentence 674
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 675
+REF: wood
+HYP:  wod
+        S
+
+sentence 676
+REF: breathe
+HYP:  breath
+           S
+
+sentence 677
+REF: duck
+HYP: duck
+         
+
+sentence 678
+REF: seven
+HYP: seven
+          
+
+sentence 679
+REF: that
+HYP: that
+         
+
+sentence 680
+REF: balloon
+HYP:    baln
+           S
+
+sentence 681
+REF: crocodile
+HYP:   crocile
+             S
+
+sentence 682
+REF: nine
+HYP:  bin
+        S
+
+sentence 683
+REF: car
+HYP: car
+        
+
+sentence 684
+REF: australia
+HYP:  australa
+             S
+
+sentence 685
+REF: potato
+HYP:  potat
+          S
+
+sentence 686
+REF: elephant
+HYP:  lephant
+            S
+
+sentence 687
+REF: pull
+HYP:   pl
+        S
+
+sentence 688
+REF: hill
+HYP:  hil
+        S
+
+sentence 689
+REF: duck
+HYP:   dk
+        S
+
+sentence 690
+REF: watch
+HYP: watch
+          
+
+sentence 691
+REF: skirt
+HYP: skirt
+          
+
+sentence 692
+REF: magician
+HYP:   magcan
+            S
+
+sentence 693
+REF: fish
+HYP: fish
+         
+
+sentence 694
+REF: carpet
+HYP:  carpt
+          S
+
+sentence 695
+REF: hippopotamus
+HYP:   hipopptams
+                S
+
+sentence 696
+REF: light
+HYP:   lht
+         S
+
+sentence 697
+REF: australia
+HYP:   austraa
+             S
+
+sentence 698
+REF: balloon
+HYP:    baln
+           S
+
+sentence 699
+REF: chair
+HYP:  chir
+         S
+
+sentence 700
+REF: rhinoceros
+HYP:         rn
+              S
+
+sentence 701
+REF: cow
+HYP:   c
+       S
+
+sentence 702
+REF: giraffe
+HYP:   giraf
+           S
+
+sentence 703
+REF: smile
+HYP:  smle
+         S
+
+sentence 704
+REF: that
+HYP: that
+         
+
+sentence 705
+REF: cub
+HYP: cub
+        
+
+sentence 706
+REF: bag
+HYP: bag
+        
+
+sentence 707
+REF: nose
+HYP:  nos
+        S
+
+sentence 708
+REF: two cups
+HYP: two cups
+             
+
+sentence 709
+REF: three o clock
+HYP:  thre o  clck
+         S       S
+
+sentence 710
+REF: flowerpot
+HYP: flowerpot
+              
+
+sentence 711
+REF: four cups
+HYP: four cups
+              
+
+sentence 712
+REF: bridge
+HYP:   brig
+          S
+
+sentence 713
+REF: carpet
+HYP: carpet
+           
+
+sentence 714
+REF: kitchen
+HYP:   ktchn
+           S
+
+sentence 715
+REF: spade
+HYP: spade
+          
+
+sentence 716
+REF: butterfly
+HYP:   buterfy
+             S
+
+sentence 717
+REF: girl
+HYP:  gil
+        S
+
+sentence 718
+REF: one cup
+HYP:  ne cup
+       S    
+
+sentence 719
+REF: wood
+HYP:  wod
+        S
+
+sentence 720
+REF: butterfly
+HYP:    butefy
+             S
+
+sentence 721
+REF: crocodile
+HYP: crocodiut
+             S
+
+sentence 722
+REF: sprout
+HYP: sprout
+           
+
+sentence 723
+REF: wood
+HYP:  wod
+        S
+
+sentence 724
+REF: four
+HYP: four
+         
+
+sentence 725
+REF: balloon
+HYP:    baln
+           S
+
+sentence 726
+REF: elephant
+HYP:  elephan
+            S
+
+sentence 727
+REF: watch
+HYP: watch
+          
+
+sentence 728
+REF: two eggs
+HYP: two  egs
+            S
+
+sentence 729
+REF: mouth
+HYP: mouth
+          
+
+sentence 730
+REF: fish
+HYP: fich
+        S
+
+sentence 731
+REF: foot
+HYP:  fot
+        S
+
+sentence 732
+REF: giraffe
+HYP:   giraf
+           S
+
+sentence 733
+REF: drink
+HYP: drink
+          
+
+sentence 734
+REF: key
+HYP:   t
+       S
+
+sentence 735
+REF: short
+HYP: fourw
+         S
+
+sentence 736
+REF: wheel
+HYP:   whe
+         S
+
+sentence 737
+REF: cheese
+HYP:   ches
+          S
+
+sentence 738
+REF: one cup
+HYP:  ne cup
+       S    
+
+sentence 739
+REF: skirt
+HYP:  skit
+         S
+
+sentence 740
+REF: kitchen
+HYP: kitchen
+            
+
+sentence 741
+REF: boy
+HYP: bon
+       S
+
+sentence 742
+REF: watermelon
+HYP:  watermeln
+              S
+
+sentence 743
+REF: balloon
+HYP:    baln
+           S
+
+sentence 744
+REF: treasure
+HYP:  streasr
+            S
+
+sentence 745
+REF: five
+HYP: five
+         
+
+sentence 746
+REF: bellybutton
+HYP:     belbutn
+               S
+
+sentence 747
+REF: potato
+HYP:  potat
+          S
+
+sentence 748
+REF: garage
+HYP:   garg
+          S
+
+sentence 749
+REF: one cup
+HYP:  ne  cp
+       S   S
+
+sentence 750
+REF: kitchen
+HYP:  kitchn
+           S
+
+sentence 751
+REF: four
+HYP: four
+         
+
+sentence 752
+REF: feather
+HYP:      te
+           S
+
+sentence 753
+REF: owl
+HYP:   l
+       S
+
+sentence 754
+REF: doll
+HYP:  dol
+        S
+
+sentence 755
+REF: attack
+HYP:  atack
+          S
+
+sentence 756
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 757
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 758
+REF: xylophone
+HYP:   flophne
+             S
+
+sentence 759
+REF: foot
+HYP:  fot
+        S
+
+sentence 760
+REF: voice
+HYP:  voic
+         S
+
+sentence 761
+REF: two
+HYP:   t
+       S
+
+sentence 762
+REF: three eggs
+HYP:  thre  egs
+         S    S
+
+sentence 763
+REF: sprout
+HYP: sprout
+           
+
+sentence 764
+REF: one cup
+HYP: one cup
+            
+
+sentence 765
+REF: ear
+HYP:   a
+       S
+
+sentence 766
+REF: one
+HYP:  ne
+       S
+
+sentence 767
+REF: four
+HYP:  for
+        S
+
+sentence 768
+REF: pie
+HYP:  pe
+       S
+
+sentence 769
+REF: short
+HYP:  shot
+         S
+
+sentence 770
+REF: ear
+HYP: ***
+       D
+
+sentence 771
+REF: spade
+HYP:  spad
+         S
+
+sentence 772
+REF: story
+HYP: story
+          
+
+sentence 773
+REF:  ten
+HYP: pone
+        S
+
+sentence 774
+REF: treasure
+HYP:   treasr
+            S
+
+sentence 775
+REF: eight
+HYP:    gt
+         S
+
+sentence 776
+REF: short
+HYP:  shot
+         S
+
+sentence 777
+REF: balloon
+HYP:    baln
+           S
+
+sentence 778
+REF: ten
+HYP: ten
+        
+
+sentence 779
+REF: pull
+HYP:   pl
+        S
+
+sentence 780
+REF: mouth
+HYP: mouth
+          
+
+sentence 781
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 782
+REF: gorilla
+HYP:  gorila
+           S
+
+sentence 783
+REF: two cups
+HYP: two  cps
+            S
+
+sentence 784
+REF: kangaroo
+HYP:   kangar
+            S
+
+sentence 785
+REF: feather
+HYP:  feaher
+           S
+
+sentence 786
+REF: pig
+HYP: pig
+        
+
+sentence 787
+REF: gorilla
+HYP:  gorila
+           S
+
+sentence 788
+REF: tonight
+HYP:    toni
+           S
+
+sentence 789
+REF: clown
+HYP:  clon
+         S
+
+sentence 790
+REF: straw
+HYP: straw
+          
+
+sentence 791
+REF: cub
+HYP:   c
+       S
+
+sentence 792
+REF: splash
+HYP: splash
+           
+
+sentence 793
+REF: story
+HYP: story
+          
+
+sentence 794
+REF: caterpillar
+HYP:   caterplar
+               S
+
+sentence 795
+REF: breathe
+HYP:  breath
+           S
+
+sentence 796
+REF: fish
+HYP: fish
+         
+
+sentence 797
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 798
+REF: jam
+HYP:  jm
+       S
+
+sentence 799
+REF: stethoscope
+HYP:    stthoscp
+               S
+
+sentence 800
+REF: carpet
+HYP: carpet
+           
+
+sentence 801
+REF: six
+HYP: six
+        
+
+sentence 802
+REF: two
+HYP:   t
+       S
+
+sentence 803
+REF: three eggs
+HYP: three  egs
+              S
+
+sentence 804
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 805
+REF: kangaroo
+HYP:  kangaro
+            S
+
+sentence 806
+REF: pie
+HYP: pie
+        
+
+sentence 807
+REF: one    o clock
+HYP: one clck *****
+            S     D
+
+sentence 808
+REF: bird
+HYP:  bad
+        S
+
+sentence 809
+REF: foot
+HYP:  fot
+        S
+
+sentence 810
+REF: yes
+HYP: yes
+        
+
+sentence 811
+REF: bag
+HYP: bag
+        
+
+sentence 812
+REF: tail
+HYP:   ta
+        S
+
+sentence 813
+REF: pool
+HYP:   pl
+        S
+
+sentence 814
+REF: tail
+HYP: tail
+         
+
+sentence 815
+REF: thermometer
+HYP:  thermometr
+               S
+
+sentence 816
+REF: thermometer
+HYP: thermometer
+                
+
+sentence 817
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 818
+REF: gorilla
+HYP:  gorila
+           S
+
+sentence 819
+REF: shell
+HYP:   she
+         S
+
+sentence 820
+REF: cicada
+HYP: cicada
+           
+
+sentence 821
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 822
+REF: vanilla
+HYP:   vanla
+           S
+
+sentence 823
+REF: swing
+HYP:   wng
+         S
+
+sentence 824
+REF: vegemite
+HYP:   vegmte
+            S
+
+sentence 825
+REF: cicada
+HYP: cicada
+           
+
+sentence 826
+REF: kitchen
+HYP:  kitchn
+           S
+
+sentence 827
+REF: spaghetti
+HYP:    spaght
+             S
+
+sentence 828
+REF: skirt
+HYP:  skit
+         S
+
+sentence 829
+REF: cub
+HYP:  ca
+       S
+
+sentence 830
+REF: breathe
+HYP:   breah
+           S
+
+sentence 831
+REF: ride
+HYP: ride
+         
+
+sentence 832
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 833
+REF: four
+HYP:  for
+        S
+
+sentence 834
+REF: owl
+HYP: ***
+       D
+
+sentence 835
+REF: tomato
+HYP:  tomat
+          S
+
+sentence 836
+REF: fish
+HYP: fish
+         
+
+sentence 837
+REF: boat
+HYP: boat
+         
+
+sentence 838
+REF: binoculars
+HYP: binoculars
+               
+
+sentence 839
+REF: five
+HYP: five
+         
+
+sentence 840
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 841
+REF: cart
+HYP:  cat
+        S
+
+sentence 842
+REF: crocodile
+HYP:  crocodle
+             S
+
+sentence 843
+REF: seven
+HYP:  sevn
+         S
+
+sentence 844
+REF: hill
+HYP:  hil
+        S
+
+sentence 845
+REF: bridge
+HYP:  bridg
+          S
+
+sentence 846
+REF: hippopotamus
+HYP:  hipopotamus
+                S
+
+sentence 847
+REF: cicada
+HYP: cicada
+           
+
+sentence 848
+REF: crocodile
+HYP:  crocodle
+             S
+
+sentence 849
+REF: garage
+HYP:  garag
+          S
+
+sentence 850
+REF: crab
+HYP: crab
+         
+
+sentence 851
+REF: binoculars
+HYP:  binoculas
+              S
+
+sentence 852
+REF: voice
+HYP:  voic
+         S
+
+sentence 853
+REF: bellybutton
+HYP:    belybutn
+               S
+
+sentence 854
+REF: owl
+HYP: ***
+       D
+
+sentence 855
+REF: eight
+HYP:    at
+         S
+
+sentence 856
+REF: bird
+HYP:  bid
+        S
+
+sentence 857
+REF: ear
+HYP:  ea
+       S
+
+sentence 858
+REF: three eggs
+HYP: three  egs
+              S
+
+sentence 859
+REF: cloud
+HYP: cloud
+          
+
+sentence 860
+REF: cow
+HYP:  co
+       S
+
+sentence 861
+REF: smile
+HYP:  smle
+         S
+
+sentence 862
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 863
+REF: two cups
+HYP: two cups
+             
+
+sentence 864
+REF: shell
+HYP:  shel
+         S
+
+sentence 865
+REF: card
+HYP:  cat
+        S
+
+sentence 866
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 867
+REF: food
+HYP:  fod
+        S
+
+sentence 868
+REF: girl
+HYP:   gi
+        S
+
+sentence 869
+REF: head
+HYP: head
+         
+
+sentence 870
+REF: that
+HYP: that
+         
+
+sentence 871
+REF: card
+HYP:  cad
+        S
+
+sentence 872
+REF: tail
+HYP:  tal
+        S
+
+sentence 873
+REF: three o clock
+HYP:  thre o  clck
+         S       S
+
+sentence 874
+REF: garage
+HYP:    gag
+          S
+
+sentence 875
+REF: binoculars
+HYP: binoculars
+               
+
+sentence 876
+REF: four
+HYP:   or
+        S
+
+sentence 877
+REF: key
+HYP:  ky
+       S
+
+sentence 878
+REF: coconut
+HYP:    coom
+           S
+
+sentence 879
+REF: canoe
+HYP:   can
+         S
+
+sentence 880
+REF: yes
+HYP: yes
+        
+
+sentence 881
+REF: spade
+HYP:  spad
+         S
+
+sentence 882
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 883
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 884
+REF: boat
+HYP: boat
+         
+
+sentence 885
+REF: canoe
+HYP:   can
+         S
+
+sentence 886
+REF: eight
+HYP:   hat
+         S
+
+sentence 887
+REF: three    o clock
+HYP:  hree clck *****
+         S    S     D
+
+sentence 888
+REF: potato
+HYP:  potat
+          S
+
+sentence 889
+REF: tomato
+HYP:   tomt
+          S
+
+sentence 890
+REF: pool
+HYP:   pl
+        S
+
+sentence 891
+REF: dessert
+HYP:    betf
+           S
+
+sentence 892
+REF: sword
+HYP: sword
+          
+
+sentence 893
+REF: ride
+HYP: ride
+         
+
+sentence 894
+REF: shell
+HYP:   shl
+         S
+
+sentence 895
+REF: hole
+HYP:  hoe
+        S
+
+sentence 896
+REF: ball
+HYP:  bal
+        S
+
+sentence 897
+REF: banana
+HYP:  banan
+          S
+
+sentence 898
+REF: dessert
+HYP:   deset
+           S
+
+sentence 899
+REF: ride
+HYP: ride
+         
+
+sentence 900
+REF: key
+HYP:  ky
+       S
+
+sentence 901
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 902
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 903
+REF: sword
+HYP: sword
+          
+
+sentence 904
+REF: food
+HYP:  fod
+        S
+
+sentence 905
+REF: ten
+HYP: ten
+        
+
+sentence 906
+REF: short
+HYP:  shot
+         S
+
+sentence 907
+REF: pig
+HYP: pig
+        
+
+sentence 908
+REF: garden
+HYP: garden
+           
+
+sentence 909
+REF: vanilla
+HYP:   vanil
+           S
+
+sentence 910
+REF: butterfly
+HYP:   buterfy
+             S
+
+sentence 911
+REF: machine
+HYP:   machn
+           S
+
+sentence 912
+REF: pig
+HYP: pig
+        
+
+sentence 913
+REF: one
+HYP:  ne
+       S
+
+sentence 914
+REF: shell
+HYP:  shel
+         S
+
+sentence 915
+REF: hole
+HYP:   ho
+        S
+
+sentence 916
+REF: doll
+HYP:   dl
+        S
+
+sentence 917
+REF: magician
+HYP:  magican
+            S
+
+sentence 918
+REF: detective
+HYP:     pottn
+             S
+
+sentence 919
+REF: frog
+HYP:  frg
+        S
+
+sentence 920
+REF: crocodile
+HYP: crocodile
+              
+
+sentence 921
+REF: doll
+HYP:  dol
+        S
+
+sentence 922
+REF: story
+HYP: story
+          
+
+sentence 923
+REF: leaf
+HYP: leaf
+         
+
+sentence 924
+REF: short
+HYP:  shot
+         S
+
+sentence 925
+REF: crab
+HYP: crab
+         
+
+sentence 926
+REF: pie
+HYP:  pe
+       S
+
+sentence 927
+REF: cheese
+HYP:     cs
+          S
+
+sentence 928
+REF: thermometer
+HYP:   thermomtr
+               S
+
+sentence 929
+REF: short
+HYP:   fot
+         S
+
+sentence 930
+REF: attack
+HYP:  atack
+          S
+
+sentence 931
+REF: swing
+HYP:  swng
+         S
+
+sentence 932
+REF: carpet
+HYP: carpet
+           
+
+sentence 933
+REF: one    o clock
+HYP:  no clck *****
+       S    S     D
+
+sentence 934
+REF: elephant
+HYP:  lephant
+            S
+
+sentence 935
+REF: beard
+HYP:  bead
+         S
+
+sentence 936
+REF: story
+HYP: story
+          
+
+sentence 937
+REF: magician
+HYP:   magcan
+            S
+
+sentence 938
+REF: one cup
+HYP:  ne  cp
+       S   S
+
+sentence 939
+REF: foot
+HYP:  fot
+        S
+
+sentence 940
+REF: circus
+HYP: circus
+           
+
+sentence 941
+REF: four cups
+HYP: four cups
+              
+
+sentence 942
+REF: bird
+HYP:  bid
+        S
+
+sentence 943
+REF: flowerpot
+HYP:  flowerpt
+             S
+
+sentence 944
+REF: play
+HYP: play
+         
+
+sentence 945
+REF: three
+HYP:    fi
+         S
+
+sentence 946
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 947
+REF: pool
+HYP:   po
+        S
+
+sentence 948
+REF: ride
+HYP:  rde
+        S
+
+sentence 949
+REF: one egg
+HYP:  ne  eg
+       S   S
+
+sentence 950
+REF: xylophone
+HYP:   ylophne
+             S
+
+sentence 951
+REF: nose
+HYP:   ns
+        S
+
+sentence 952
+REF: canoe
+HYP:   can
+         S
+
+sentence 953
+REF: fish
+HYP: fish
+         
+
+sentence 954
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 955
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 956
+REF: cart
+HYP:  cat
+        S
+
+sentence 957
+REF: watch
+HYP:   oag
+         S
+
+sentence 958
+REF: canoe
+HYP:  cane
+         S
+
+sentence 959
+REF: tooth
+HYP:  toth
+         S
+
+sentence 960
+REF: australia
+HYP:  australa
+             S
+
+sentence 961
+REF: story
+HYP: story
+          
+
+sentence 962
+REF: martian
+HYP:    atan
+           S
+
+sentence 963
+REF: key
+HYP:  ky
+       S
+
+sentence 964
+REF: fish
+HYP:  fis
+        S
+
+sentence 965
+REF: two eggs
+HYP: two  egs
+            S
+
+sentence 966
+REF: shell
+HYP:  shel
+         S
+
+sentence 967
+REF: coconut
+HYP: coconut
+            
+
+sentence 968
+REF: cheese
+HYP:     ha
+          S
+
+sentence 969
+REF: light
+HYP:    lt
+         S
+
+sentence 970
+REF: beard
+HYP:  bead
+         S
+
+sentence 971
+REF: balloon
+HYP:   balon
+           S
+
+sentence 972
+REF: binoculars
+HYP: binoculars
+               
+
+sentence 973
+REF: ten
+HYP: ten
+        
+
+sentence 974
+REF: one cup
+HYP:  ne  cp
+       S   S
+
+sentence 975
+REF: circus
+HYP: circus
+           
+
+sentence 976
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 977
+REF: binoculars
+HYP: binoculars
+               
+
+sentence 978
+REF: banana
+HYP:   bann
+          S
+
+sentence 979
+REF: balloon
+HYP:   balon
+           S
+
+sentence 980
+REF: crocodile
+HYP:  crocodye
+             S
+
+sentence 981
+REF: skirt
+HYP:  skit
+         S
+
+sentence 982
+REF: foot
+HYP:  fot
+        S
+
+sentence 983
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 984
+REF:  cicada
+HYP: ccicada
+           S
+
+sentence 985
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 986
+REF: three eggs
+HYP:  thre  egs
+         S    S
+
+sentence 987
+REF: giraffe
+HYP:   giraf
+           S
+
+sentence 988
+REF: ball
+HYP:  bal
+        S
+
+sentence 989
+REF: dessert
+HYP:     des
+           S
+
+sentence 990
+REF: snake
+HYP:  snak
+         S
+
+sentence 991
+REF: treasure
+HYP:  treasur
+            S
+
+sentence 992
+REF:  one egg
+HYP: neeg ***
+        S   D
+
+sentence 993
+REF: one egg
+HYP:  ne  eg
+       S   S
+
+sentence 994
+REF: duck
+HYP:  tuk
+        S
+
+sentence 995
+REF: xylophone
+HYP:   ylophne
+             S
+
+sentence 996
+REF: four cups
+HYP: four cups
+              
+
+sentence 997
+REF: caterpillar
+HYP:  caterpilar
+               S
+
+sentence 998
+REF: dinosaur
+HYP:  dinosar
+            S
+
+sentence 999
+REF: garage
+HYP:   garg
+          S
+
+sentence 1000
+REF: caterpillar
+HYP:  caterpilar
+               S
+
+sentence 1001
+REF: magician
+HYP:  magican
+            S
+
+sentence 1002
+REF: voice
+HYP:   vic
+         S
+
+sentence 1003
+REF: clown
+HYP:  clon
+         S
+
+sentence 1004
+REF: binoculars
+HYP:  binoculas
+              S
+
+sentence 1005
+REF: beard
+HYP:  bead
+         S
+
+sentence 1006
+REF: splash
+HYP: splash
+           
+
+sentence 1007
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 1008
+REF: machine
+HYP: machine
+            
+
+sentence 1009
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 1010
+REF: rhinoceros
+HYP:  rinoceros
+              S
+
+sentence 1011
+REF: wheel
+HYP:   whe
+         S
+
+sentence 1012
+REF: light
+HYP:   lht
+         S
+
+sentence 1013
+REF:  tomato
+HYP: thormat
+           S
+
+sentence 1014
+REF: magician
+HYP:  magican
+            S
+
+sentence 1015
+REF: bag
+HYP: bag
+        
+
+sentence 1016
+REF: two
+HYP: ***
+       D
+
+sentence 1017
+REF: binoculars
+HYP: binoculars
+               
+
+sentence 1018
+REF: zoo
+HYP:  vl
+       S
+
+sentence 1019
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 1020
+REF: fish
+HYP:  vic
+        S
+
+sentence 1021
+REF: spaghetti
+HYP:   spaghet
+             S
+
+sentence 1022
+REF: food
+HYP:  fod
+        S
+
+sentence 1023
+REF: dessert
+HYP:     dst
+           S
+
+sentence 1024
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 1025
+REF: machine
+HYP:  machne
+           S
+
+sentence 1026
+REF:  story
+HYP: storny
+          S
+
+sentence 1027
+REF: one cup
+HYP:  ne cup
+       S    
+
+sentence 1028
+REF: four cups
+HYP: four cups
+              
+
+sentence 1029
+REF: garden
+HYP:   gadn
+          S
+
+sentence 1030
+REF: spaghetti
+HYP:   spagetn
+             S
+
+sentence 1031
+REF: clown
+HYP:  clon
+         S
+
+sentence 1032
+REF: coconut
+HYP:  cocont
+           S
+
+sentence 1033
+REF: hole
+HYP:  hoe
+        S
+
+sentence 1034
+REF: thermometer
+HYP:  thermometr
+               S
+
+sentence 1035
+REF: garage
+HYP:  garag
+          S
+
+sentence 1036
+REF: boat
+HYP: boat
+         
+
+sentence 1037
+REF: banana
+HYP:  banan
+          S
+
+sentence 1038
+REF: shell
+HYP:  shel
+         S
+
+sentence 1039
+REF: cart
+HYP:  cat
+        S
+
+sentence 1040
+REF: thermometer
+HYP:  thermometr
+               S
+
+sentence 1041
+REF: xylophone
+HYP:     yopon
+             S
+
+sentence 1042
+REF: voice
+HYP:  voic
+         S
+
+sentence 1043
+REF: thermometer
+HYP:    thermmtr
+               S
+
+sentence 1044
+REF: potato
+HYP:  potat
+          S
+
+sentence 1045
+REF: garden
+HYP: garden
+           
+
+sentence 1046
+REF: magician
+HYP:   magcan
+            S
+
+sentence 1047
+REF: drink
+HYP:  drik
+         S
+
+sentence 1048
+REF: one egg
+HYP:  ne  eg
+       S   S
+
+sentence 1049
+REF: crab
+HYP: crab
+         
+
+sentence 1050
+REF: swing
+HYP: swing
+          
+
+sentence 1051
+REF: chair
+HYP:  char
+         S
+
+sentence 1052
+REF: machine
+HYP:   machn
+           S
+
+sentence 1053
+REF: hippopotamus
+HYP:   hipopotams
+                S
+
+sentence 1054
+REF: food
+HYP:  fod
+        S
+
+sentence 1055
+REF: elephant
+HYP:    elpat
+            S
+
+sentence 1056
+REF: caterpillar
+HYP:     caerpil
+               S
+
+sentence 1057
+REF: ear
+HYP:   r
+       S
+
+sentence 1058
+REF: tail
+HYP:  tal
+        S
+
+sentence 1059
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 1060
+REF: carpet
+HYP: carpet
+           
+
+sentence 1061
+REF: snake
+HYP: snake
+          
+
+sentence 1062
+REF: hole
+HYP:  hol
+        S
+
+sentence 1063
+REF: detective
+HYP:   detctve
+             S
+
+sentence 1064
+REF: three cups
+HYP:  thre cups
+         S     
+
+sentence 1065
+REF: head
+HYP: head
+         
+
+sentence 1066
+REF: ride
+HYP: ride
+         
+
+sentence 1067
+REF: leaf
+HYP: leaf
+         
+
+sentence 1068
+REF: banana
+HYP:  banan
+          S
+
+sentence 1069
+REF: watermelon
+HYP:  watermeln
+              S
+
+sentence 1070
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 1071
+REF: watermelon
+HYP:  watermeln
+              S
+
+sentence 1072
+REF: one o clock
+HYP: one o  clck
+               S
+
+sentence 1073
+REF: grasshopper
+HYP:   grashoper
+               S
+
+sentence 1074
+REF: three cups
+HYP: three cups
+               
+
+sentence 1075
+REF: cheese
+HYP:   ches
+          S
+
+sentence 1076
+REF: tomato
+HYP:  tomat
+          S
+
+sentence 1077
+REF: one egg
+HYP: one  eg
+           S
+
+sentence 1078
+REF: watch
+HYP:  wtch
+         S
+
+sentence 1079
+REF: shell
+HYP:  shel
+         S
+
+sentence 1080
+REF: jam
+HYP: jam
+        
+
+sentence 1081
+REF: foot
+HYP:  fot
+        S
+
+sentence 1082
+REF: one o clock
+HYP: one o  clck
+               S
+
+sentence 1083
+REF: ride
+HYP:  grd
+        S
+
+sentence 1084
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 1085
+REF: rhinoceros
+HYP: rhinochers
+              S
+
+sentence 1086
+REF: mountain
+HYP:   moutan
+            S
+
+sentence 1087
+REF: garden
+HYP: garden
+           
+
+sentence 1088
+REF: doll
+HYP:  dol
+        S
+
+sentence 1089
+REF: duck
+HYP:  dck
+        S
+
+sentence 1090
+REF: vegemite
+HYP:  vegemte
+            S
+
+sentence 1091
+REF: bellybutton
+HYP:    belybutn
+               S
+
+sentence 1092
+REF: cheese
+HYP:   ches
+          S
+
+sentence 1093
+REF: story
+HYP: story
+          
+
+sentence 1094
+REF: boy
+HYP:  by
+       S
+
+sentence 1095
+REF: nose
+HYP:  nos
+        S
+
+sentence 1096
+REF: boy
+HYP: boy
+        
+
+sentence 1097
+REF: foot
+HYP:  fot
+        S
+
+sentence 1098
+REF: play
+HYP: play
+         
+
+sentence 1099
+REF: fur
+HYP:  fr
+       S
+
+sentence 1100
+REF: martian
+HYP:   mrtan
+           S
+
+sentence 1101
+REF: owl
+HYP:   l
+       S
+
+sentence 1102
+REF: treasure
+HYP:  treasur
+            S
+
+sentence 1103
+REF: fur
+HYP: fur
+        
+
+sentence 1104
+REF: car
+HYP: car
+        
+
+sentence 1105
+REF: boat
+HYP:   bt
+        S
+
+sentence 1106
+REF: leaf
+HYP: leaf
+         
+
+sentence 1107
+REF: wood
+HYP:  wod
+        S
+
+sentence 1108
+REF: drink
+HYP:  drik
+         S
+
+sentence 1109
+REF: duck
+HYP:  dck
+        S
+
+sentence 1110
+REF: crab
+HYP: crab
+         
+
+sentence 1111
+REF: carpet
+HYP:  carpt
+          S
+
+sentence 1112
+REF: food
+HYP:  fod
+        S
+
+sentence 1113
+REF: story
+HYP: story
+          
+
+sentence 1114
+REF: skirt
+HYP: skirt
+          
+
+sentence 1115
+REF: drink
+HYP: drink
+          
+
+sentence 1116
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 1117
+REF: hair
+HYP:  fai
+        S
+
+sentence 1118
+REF: tooth
+HYP:   tth
+         S
+
+sentence 1119
+REF: car
+HYP: car
+        
+
+sentence 1120
+REF: fur
+HYP:  fr
+       S
+
+sentence 1121
+REF: wheel
+HYP:   whe
+         S
+
+sentence 1122
+REF: one
+HYP:  eb
+       S
+
+sentence 1123
+REF: play
+HYP: play
+         
+
+sentence 1124
+REF: eight
+HYP:  eght
+         S
+
+sentence 1125
+REF: bridge
+HYP:  bridg
+          S
+
+sentence 1126
+REF: breathe
+HYP:  breath
+           S
+
+sentence 1127
+REF: pool
+HYP:   pl
+        S
+
+sentence 1128
+REF: duck
+HYP: dack
+        S
+
+sentence 1129
+REF: dessert
+HYP:   deset
+           S
+
+sentence 1130
+REF: australia
+HYP:   austral
+             S
+
+sentence 1131
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 1132
+REF: canoe
+HYP:   can
+         S
+
+sentence 1133
+REF: boy
+HYP: boy
+        
+
+sentence 1134
+REF: hole
+HYP: hole
+         
+
+sentence 1135
+REF: mouth
+HYP:   mot
+         S
+
+sentence 1136
+REF: cheese
+HYP:   ches
+          S
+
+sentence 1137
+REF: giraffe
+HYP:   giraf
+           S
+
+sentence 1138
+REF: pool
+HYP:   pl
+        S
+
+sentence 1139
+REF: pig
+HYP: pig
+        
+
+sentence 1140
+REF: three o clock
+HYP: three o  clck
+                 S
+
+sentence 1141
+REF: thermometer
+HYP:   thermomtr
+               S
+
+sentence 1142
+REF: cloud
+HYP: cloud
+          
+
+sentence 1143
+REF: butterfly
+HYP:  buterfly
+             S
+
+sentence 1144
+REF: five
+HYP: fine
+        S
+
+sentence 1145
+REF: beard
+HYP:  bead
+         S
+
+sentence 1146
+REF: mouth
+HYP: mouth
+          
+
+sentence 1147
+REF: girl
+HYP:  gil
+        S
+
+sentence 1148
+REF: snake
+HYP: snake
+          
+
+sentence 1149
+REF: jam
+HYP:  jm
+       S
+
+sentence 1150
+REF: breathe
+HYP:  breath
+           S
+
+sentence 1151
+REF: ten
+HYP: ten
+        
+
+sentence 1152
+REF: wheel
+HYP:  whel
+         S
+
+sentence 1153
+REF: dessert
+HYP:   deset
+           S
+
+sentence 1154
+REF: shell
+HYP:   fel
+         S
+
+sentence 1155
+REF: sprout
+HYP: sprout
+           
+
+sentence 1156
+REF: zoo
+HYP: ***
+       D
+
+sentence 1157
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 1158
+REF: binoculars
+HYP: binoculars
+               
+
+sentence 1159
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 1160
+REF: nine
+HYP:  nne
+        S
+
+sentence 1161
+REF: bridge
+HYP:  bridg
+          S
+
+sentence 1162
+REF: tonight
+HYP:   tonht
+           S
+
+sentence 1163
+REF: key
+HYP:  ky
+       S
+
+sentence 1164
+REF: car
+HYP: car
+        
+
+sentence 1165
+REF: wheel
+HYP:  whel
+         S
+
+sentence 1166
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 1167
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 1168
+REF: thumb
+HYP: thumb
+          
+
+sentence 1169
+REF: banana
+HYP:   bann
+          S
+
+sentence 1170
+REF: ear
+HYP:   r
+       S
+
+sentence 1171
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 1172
+REF: thumb
+HYP: thumb
+          
+
+sentence 1173
+REF: key
+HYP:  ky
+       S
+
+sentence 1174
+REF: frog
+HYP: frog
+         
+
+sentence 1175
+REF: cloud
+HYP: cloud
+          
+
+sentence 1176
+REF: detective
+HYP:   detectv
+             S
+
+sentence 1177
+REF: hippopotamus
+HYP:  hipopotamus
+                S
+
+sentence 1178
+REF: elephant
+HYP: elephant
+             
+
+sentence 1179
+REF: clown
+HYP:  clon
+         S
+
+sentence 1180
+REF: yes
+HYP:  ys
+       S
+
+sentence 1181
+REF: mouth
+HYP: mouth
+          
+
+sentence 1182
+REF: three eggs
+HYP: three  egs
+              S
+
+sentence 1183
+REF: binoculars
+HYP: binoculars
+               
+
+sentence 1184
+REF: five
+HYP:  fid
+        S
+
+sentence 1185
+REF: tooth
+HYP:  toth
+         S
+
+sentence 1186
+REF: doll
+HYP:   dl
+        S
+
+sentence 1187
+REF: cucumber
+HYP:   cucumb
+            S
+
+sentence 1188
+REF: one cup
+HYP:  ne cup
+       S    
+
+sentence 1189
+REF: elephant
+HYP:   ephant
+            S
+
+sentence 1190
+REF: skirt
+HYP:  skit
+         S
+
+sentence 1191
+REF: banana
+HYP:  banna
+          S
+
+sentence 1192
+REF: vegemite
+HYP:  vegemte
+            S
+
+sentence 1193
+REF: balloon
+HYP:   balon
+           S
+
+sentence 1194
+REF: ten
+HYP: ten
+        
+
+sentence 1195
+REF: spiderweb
+HYP:  spiderwb
+             S
+
+sentence 1196
+REF: kangaroo
+HYP:   kangav
+            S
+
+sentence 1197
+REF: caterpillar
+HYP:  caterpilar
+               S
+
+sentence 1198
+REF: wheel
+HYP:   whe
+         S
+
+sentence 1199
+REF: three cups
+HYP:  thre cups
+         S     
+
+sentence 1200
+REF: carpet
+HYP:   carp
+          S
+
+sentence 1201
+REF: frog
+HYP: frog
+         
+
+sentence 1202
+REF: spade
+HYP: spade
+          
+
+sentence 1203
+REF: coconut
+HYP: coconut
+            
+
+sentence 1204
+REF: dinosaur
+HYP: dinosaur
+             
+
+sentence 1205
+REF: nine
+HYP:  nne
+        S
+
+sentence 1206
+REF: bellybutton
+HYP:     belybut
+               S
+
+sentence 1207
+REF: carpet
+HYP: carpet
+           
+
+sentence 1208
+REF: six
+HYP:  si
+       S
+
+sentence 1209
+REF: smile
+HYP:  smle
+         S
+
+sentence 1210
+REF: australia
+HYP:  australa
+             S
+
+sentence 1211
+REF: chair
+HYP:   coa
+         S
+
+sentence 1212
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 1213
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 1214
+REF: pool
+HYP:   pl
+        S
+
+sentence 1215
+REF: cow
+HYP:  co
+       S
+
+sentence 1216
+REF: nose
+HYP:   ns
+        S
+
+sentence 1217
+REF: ride
+HYP:  rde
+        S
+
+sentence 1218
+REF: kangaroo
+HYP:   kangar
+            S
+
+sentence 1219
+REF: spaghetti
+HYP:   spaghet
+             S
+
+sentence 1220
+REF: nine
+HYP: nine
+         
+
+sentence 1221
+REF: rhinoceros
+HYP:         rn
+              S
+
+sentence 1222
+REF: doll
+HYP:  dol
+        S
+
+sentence 1223
+REF: sword
+HYP:  swod
+         S
+
+sentence 1224
+REF: pie
+HYP:  py
+       S
+
+sentence 1225
+REF: banana
+HYP:   bann
+          S
+
+sentence 1226
+REF: hill
+HYP:  hil
+        S
+
+sentence 1227
+REF: nine
+HYP: nine
+         
+
+sentence 1228
+REF: garden
+HYP:  gaden
+          S
+
+sentence 1229
+REF: sausage
+HYP:   sausg
+           S
+
+sentence 1230
+REF: cart
+HYP:  cat
+        S
+
+sentence 1231
+REF: three cups
+HYP:   fle cups
+         S     
+
+sentence 1232
+REF: pull
+HYP:   pl
+        S
+
+sentence 1233
+REF: garden
+HYP: garden
+           
+
+sentence 1234
+REF: pig
+HYP: pig
+        
+
+sentence 1235
+REF: caterpillar
+HYP:  caterpilar
+               S
+
+sentence 1236
+REF: key
+HYP: key
+        
+
+sentence 1237
+REF: elephant
+HYP: elephant
+             
+
+sentence 1238
+REF: swing
+HYP: swing
+          
+
+sentence 1239
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 1240
+REF: snake
+HYP: snake
+          
+
+sentence 1241
+REF: six
+HYP:  si
+       S
+
+sentence 1242
+REF: one cup
+HYP:  ne cup
+       S    
+
+sentence 1243
+REF: watch
+HYP:  wach
+         S
+
+sentence 1244
+REF: six
+HYP: six
+        
+
+sentence 1245
+REF: mouth
+HYP: mouth
+          
+
+sentence 1246
+REF: head
+HYP: head
+         
+
+sentence 1247
+REF: that
+HYP:   ta
+        S
+
+sentence 1248
+REF: attack
+HYP:  atack
+          S
+
+sentence 1249
+REF: girl
+HYP:  gol
+        S
+
+sentence 1250
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 1251
+REF: food
+HYP:  fod
+        S
+
+sentence 1252
+REF: straw
+HYP: straw
+          
+
+sentence 1253
+REF: bellybutton
+HYP:    belybutn
+               S
+
+sentence 1254
+REF: wood
+HYP:  wod
+        S
+
+sentence 1255
+REF: wheel
+HYP:   whe
+         S
+
+sentence 1256
+REF: hole
+HYP: hole
+         
+
+sentence 1257
+REF: mouth
+HYP: mouth
+          
+
+sentence 1258
+REF: watermelon
+HYP:  watermeln
+              S
+
+sentence 1259
+REF: tail
+HYP: tail
+         
+
+sentence 1260
+REF: dessert
+HYP:    dest
+           S
+
+sentence 1261
+REF: tonight
+HYP:   tonht
+           S
+
+sentence 1262
+REF: feather
+HYP: feather
+            
+
+sentence 1263
+REF: canoe
+HYP:   can
+         S
+
+sentence 1264
+REF: elephant
+HYP:  lephant
+            S
+
+sentence 1265
+REF: two eggs
+HYP: two  egs
+            S
+
+sentence 1266
+REF: car
+HYP: car
+        
+
+sentence 1267
+REF: straw
+HYP: straw
+          
+
+sentence 1268
+REF: coconut
+HYP: coconut
+            
+
+sentence 1269
+REF:  one egg
+HYP: oneg ***
+        S   D
+
+sentence 1270
+REF: ride
+HYP: ride
+         
+
+sentence 1271
+REF: thumb
+HYP: thumb
+          
+
+sentence 1272
+REF: ear
+HYP: ***
+       D
+
+sentence 1273
+REF: doll
+HYP:   dl
+        S
+
+sentence 1274
+REF: jam
+HYP:  ja
+       S
+
+sentence 1275
+REF: wood
+HYP:  wod
+        S
+
+sentence 1276
+REF: zoo
+HYP:   z
+       S
+
+sentence 1277
+REF: kitchen
+HYP:  kitchn
+           S
+
+sentence 1278
+REF: tomato
+HYP:   tomt
+          S
+
+sentence 1279
+REF: breathe
+HYP:   breat
+           S
+
+sentence 1280
+REF: machine
+HYP:   machn
+           S
+
+sentence 1281
+REF: detective
+HYP:   detctve
+             S
+
+sentence 1282
+REF: three    o clock
+HYP:  tree clck *****
+         S    S     D
+
+sentence 1283
+REF: four cups
+HYP: four cups
+              
+
+sentence 1284
+REF: banana
+HYP: banana
+           
+
+sentence 1285
+REF: sword
+HYP: sword
+          
+
+sentence 1286
+REF: ** drink
+HYP: tw    eg
+      I     S
+
+sentence 1287
+REF: pig
+HYP: pig
+        
+
+sentence 1288
+REF: grasshopper
+HYP:   grashoper
+               S
+
+sentence 1289
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 1290
+REF: kitchen
+HYP:  kitchn
+           S
+
+sentence 1291
+REF:  five
+HYP: fivee
+         S
+
+sentence 1292
+REF: play
+HYP: play
+         
+
+sentence 1293
+REF: tooth
+HYP:  toth
+         S
+
+sentence 1294
+REF: wheel
+HYP:  whel
+         S
+
+sentence 1295
+REF: smile
+HYP:  smle
+         S
+
+sentence 1296
+REF: key
+HYP:  ky
+       S
+
+sentence 1297
+REF: ten
+HYP: ten
+        
+
+sentence 1298
+REF: flowerpot
+HYP:  flowerps
+             S
+
+sentence 1299
+REF: watermelon
+HYP:  watermine
+              S
+
+sentence 1300
+REF: cow
+HYP:  co
+       S
+
+sentence 1301
+REF: cucumber
+HYP:   ccumbr
+            S
+
+sentence 1302
+REF: drink
+HYP: trink
+         S
+
+sentence 1303
+REF: magician
+HYP:  magican
+            S
+
+sentence 1304
+REF: nose
+HYP:  nos
+        S
+
+sentence 1305
+REF: three cups
+HYP: three cups
+               
+
+sentence 1306
+REF: bird
+HYP:  bid
+        S
+
+sentence 1307
+REF: grasshopper
+HYP:   grashoper
+               S
+
+sentence 1308
+REF: coconut
+HYP: coconut
+            
+
+sentence 1309
+REF: ten
+HYP: ten
+        
+
+sentence 1310
+REF: tail
+HYP:  tal
+        S
+
+sentence 1311
+REF: four cups
+HYP: four cups
+              
+
+sentence 1312
+REF: owl
+HYP: ***
+       D
+
+sentence 1313
+REF: tooth
+HYP:   tot
+         S
+
+sentence 1314
+REF: smile
+HYP: fmile
+         S
+
+sentence 1315
+REF: rhinoceros
+HYP:  rhnoceros
+              S
+
+sentence 1316
+REF: detective
+HYP:   detctve
+             S
+
+sentence 1317
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 1318
+REF: sprout
+HYP: sprout
+           
+
+sentence 1319
+REF: head
+HYP: head
+         
+
+sentence 1320
+REF: one egg
+HYP: neg ***
+       S   D
+
+sentence 1321
+REF: zoo
+HYP: ***
+       D
+
+sentence 1322
+REF: ten
+HYP:  tn
+       S
+
+sentence 1323
+REF: grasshopper
+HYP:      ashopr
+               S
+
+sentence 1324
+REF: crocodile
+HYP:   crocodl
+             S
+
+sentence 1325
+REF: bag
+HYP: bag
+        
+
+sentence 1326
+REF: cub
+HYP: cub
+        
+
+sentence 1327
+REF: pull
+HYP:   pl
+        S
+
+sentence 1328
+REF: grasshopper
+HYP:    grashper
+               S
+
+sentence 1329
+REF: flowerpot
+HYP:  flowerpt
+             S
+
+sentence 1330
+REF: spiderweb
+HYP: spiderweb
+              
+
+sentence 1331
+REF: clown
+HYP:   cln
+         S
+
+sentence 1332
+REF: canoe
+HYP:   can
+         S
+
+sentence 1333
+REF: tooth
+HYP:  toth
+         S
+
+sentence 1334
+REF: bridge
+HYP:  bridg
+          S
+
+sentence 1335
+REF: wood
+HYP:  wod
+        S
+
+sentence 1336
+REF: vegemite
+HYP:   vegmte
+            S
+
+sentence 1337
+REF: two
+HYP:   t
+       S
+
+sentence 1338
+REF: detective
+HYP:    detctv
+             S
+
+sentence 1339
+REF: pool
+HYP:  pol
+        S
+
+sentence 1340
+REF: hippopotamus
+HYP:  hipopotamus
+                S
+
+sentence 1341
+REF: coconut
+HYP: coconut
+            
+
+sentence 1342
+REF: spaghetti
+HYP:    paghet
+             S
+
+sentence 1343
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 1344
+REF: head
+HYP: head
+         
+
+sentence 1345
+REF: xylophone
+HYP:    ylophn
+             S
+
+sentence 1346
+REF: head
+HYP:  hat
+        S
+
+sentence 1347
+REF: three o clock
+HYP: three o  clck
+                 S
+
+sentence 1348
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 1349
+REF: cheese
+HYP:   ches
+          S
+
+sentence 1350
+REF: bag
+HYP: bag
+        
+
+sentence 1351
+REF: wheel
+HYP:   whe
+         S
+
+sentence 1352
+REF: three o clock
+HYP: three o  clck
+                 S
+
+sentence 1353
+REF: cloud
+HYP: cloud
+          
+
+sentence 1354
+REF: one o clock
+HYP: one o  clck
+               S
+
+sentence 1355
+REF: crab
+HYP: crab
+         
+
+sentence 1356
+REF: pull
+HYP:   pl
+        S
+
+sentence 1357
+REF: flowerpot
+HYP: flowerpot
+              
+
+sentence 1358
+REF: cicada
+HYP: cicada
+           
+
+sentence 1359
+REF: beard
+HYP:  bead
+         S
+
+sentence 1360
+REF:  boat
+HYP: poiat
+         S
+
+sentence 1361
+REF: canoe
+HYP:   can
+         S
+
+sentence 1362
+REF: three
+HYP:    te
+         S
+
+sentence 1363
+REF: martian
+HYP:  martan
+           S
+
+sentence 1364
+REF: watch
+HYP:  wach
+         S
+
+sentence 1365
+REF: key
+HYP:  ky
+       S
+
+sentence 1366
+REF: doll
+HYP: girl
+        S
+
+sentence 1367
+REF: pie
+HYP:  pe
+       S
+
+sentence 1368
+REF: vanilla
+HYP:  vanila
+           S
+
+sentence 1369
+REF: feather
+HYP:  feathr
+           S
+
+sentence 1370
+REF: fur
+HYP: fur
+        
+
+sentence 1371
+REF: rhinoceros
+HYP:   rhinocrs
+              S
+
+sentence 1372
+REF: pull
+HYP:   pl
+        S
+
+sentence 1373
+REF: flowerpot
+HYP:  flowerpt
+             S
+
+sentence 1374
+REF: pool
+HYP:   pl
+        S
+
+sentence 1375
+REF: pie
+HYP:  pe
+       S
+
+sentence 1376
+REF: light
+HYP:   lgt
+         S
+
+sentence 1377
+REF: potato
+HYP:   otat
+          S
+
+sentence 1378
+REF: martian
+HYP:  martan
+           S
+
+sentence 1379
+REF: detective
+HYP:    etectv
+             S
+
+sentence 1380
+REF: cloud
+HYP: cloud
+          
+
+sentence 1381
+REF: foot
+HYP:  fot
+        S
+
+sentence 1382
+REF: circus
+HYP: circus
+           
+
+sentence 1383
+REF: garage
+HYP:   garg
+          S
+
+sentence 1384
+REF: six
+HYP: six
+        
+
+sentence 1385
+REF: elephant
+HYP:  elephan
+            S
+
+sentence 1386
+REF: straw
+HYP: straw
+          
+
+sentence 1387
+REF: garden
+HYP:   gadn
+          S
+
+sentence 1388
+REF: ball
+HYP:   ba
+        S
+
+sentence 1389
+REF: duck
+HYP:  dck
+        S
+
+sentence 1390
+REF: nine
+HYP: nine
+         
+
+sentence 1391
+REF: sprout
+HYP: sprout
+           
+
+sentence 1392
+REF: one
+HYP: one
+        
+
+sentence 1393
+REF: vegemite
+HYP:   fvegem
+            S
+
+sentence 1394
+REF: bird
+HYP:  bid
+        S
+
+sentence 1395
+REF: food
+HYP:  fod
+        S
+
+sentence 1396
+REF: cub
+HYP: cub
+        
+
+sentence 1397
+REF: snake
+HYP:   snk
+         S
+
+sentence 1398
+REF: tonight
+HYP:   tonht
+           S
+
+sentence 1399
+REF: drink
+HYP:  drik
+         S
+
+sentence 1400
+REF: straw
+HYP: straw
+          
+
+sentence 1401
+REF: martian
+HYP:  martan
+           S
+
+sentence 1402
+REF: bag
+HYP: bag
+        
+
+sentence 1403
+REF: kangaroo
+HYP:   pangar
+            S
+
+sentence 1404
+REF: thumb
+HYP:  tumb
+         S
+
+sentence 1405
+REF: cloud
+HYP: cloud
+          
+
+sentence 1406
+REF: australia
+HYP:  australa
+             S
+
+sentence 1407
+REF: zoo
+HYP:  fo
+       S
+
+sentence 1408
+REF: feather
+HYP:  feathr
+           S
+
+sentence 1409
+REF: ride
+HYP: ride
+         
+
+sentence 1410
+REF: seven
+HYP: seven
+          
+
+sentence 1411
+REF: bellybutton
+HYP:    belybutn
+               S
+
+sentence 1412
+REF: chair
+HYP:   chi
+         S
+
+sentence 1413
+REF: two
+HYP:   t
+       S
+
+sentence 1414
+REF: bridge
+HYP:   brid
+          S
+
+sentence 1415
+REF: fish
+HYP: fish
+         
+
+sentence 1416
+REF: hole
+HYP:  hoe
+        S
+
+sentence 1417
+REF: grasshopper
+HYP:      grashp
+               S
+
+sentence 1418
+REF: frog
+HYP: frog
+         
+
+sentence 1419
+REF: drink
+HYP:  drik
+         S
+
+sentence 1420
+REF: kitchen
+HYP: kitchen
+            
+
+sentence 1421
+REF: four cups
+HYP: four cups
+              
+
+sentence 1422
+REF: rhinoceros
+HYP:  rhnoceros
+              S
+
+sentence 1423
+REF: sprout
+HYP: sprout
+           
+
+sentence 1424
+REF: rhinoceros
+HYP:   hinocers
+              S
+
+sentence 1425
+REF: coconut
+HYP: coconut
+            
+
+sentence 1426
+REF: bird
+HYP:  bid
+        S
+
+sentence 1427
+REF: clown
+HYP:  clon
+         S
+
+sentence 1428
+REF: elephant
+HYP:  elephat
+            S
+
+sentence 1429
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 1430
+REF: seven
+HYP: seven
+          
+
+sentence 1431
+REF: kangaroo
+HYP:  kangaro
+            S
+
+sentence 1432
+REF: breathe
+HYP:  breath
+           S
+
+sentence 1433
+REF: caterpillar
+HYP:  caterpilar
+               S
+
+sentence 1434
+REF: wood
+HYP:  wod
+        S
+
+sentence 1435
+REF: martian
+HYP:  martan
+           S
+
+sentence 1436
+REF: three
+HYP:   tre
+         S
+
+sentence 1437
+REF: crocodile
+HYP:  crocodle
+             S
+
+sentence 1438
+REF: ear
+HYP: ***
+       D
+
+sentence 1439
+REF: nose
+HYP:  nos
+        S
+
+sentence 1440
+REF: giraffe
+HYP:    girf
+           S
+
+sentence 1441
+REF: mouth
+HYP: nouth
+         S
+
+sentence 1442
+REF: cheese
+HYP:   ches
+          S
+
+sentence 1443
+REF: hill
+HYP:  hil
+        S
+
+sentence 1444
+REF: fish
+HYP: fish
+         
+
+sentence 1445
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 1446
+REF: one egg
+HYP:  ne  eg
+       S   S
+
+sentence 1447
+REF: splash
+HYP: splash
+           
+
+sentence 1448
+REF: rhinoceros
+HYP: rhinoceros
+               
+
+sentence 1449
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 1450
+REF: stethoscope
+HYP:   stthoscop
+               S
+
+sentence 1451
+REF: two cups
+HYP: two cups
+             
+
+sentence 1452
+REF: one
+HYP:  ne
+       S
+
+sentence 1453
+REF: three cups
+HYP: three cups
+               
+
+sentence 1454
+REF: swing
+HYP:  swig
+         S
+
+sentence 1455
+REF: card
+HYP:  cad
+        S
+
+sentence 1456
+REF: boy
+HYP:  by
+       S
+
+sentence 1457
+REF: fur
+HYP: fur
+        
+
+sentence 1458
+REF:  crab
+HYP: cloud
+         S
+
+sentence 1459
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 1460
+REF: two cups
+HYP: two cups
+             
+
+sentence 1461
+REF: ten
+HYP: ten
+        
+
+sentence 1462
+REF: chair
+HYP:  chir
+         S
+
+sentence 1463
+REF: skirt
+HYP: skirt
+          
+
+sentence 1464
+REF: one o clock
+HYP: one o  clck
+               S
+
+sentence 1465
+REF: butterfly
+HYP:   buterfy
+             S
+
+sentence 1466
+REF: cheese
+HYP:   ches
+          S
+
+sentence 1467
+REF: swing
+HYP: swing
+          
+
+sentence 1468
+REF: cloud
+HYP: cloud
+          
+
+sentence 1469
+REF: bag
+HYP: bag
+        
+
+sentence 1470
+REF: cart
+HYP:  cat
+        S
+
+sentence 1471
+REF: rhinoceros
+HYP:   rhinocrs
+              S
+
+sentence 1472
+REF: thermometer
+HYP:  thermometr
+               S
+
+sentence 1473
+REF: swing
+HYP: swing
+          
+
+sentence 1474
+REF: spaghetti
+HYP:   spaghet
+             S
+
+sentence 1475
+REF: splash
+HYP: splash
+           
+
+sentence 1476
+REF: doll
+HYP:  dol
+        S
+
+sentence 1477
+REF: car
+HYP: car
+        
+
+sentence 1478
+REF: two eggs
+HYP: two  egs
+            S
+
+sentence 1479
+REF: car
+HYP: car
+        
+
+sentence 1480
+REF: car
+HYP:  co
+       S
+
+sentence 1481
+REF: thermometer
+HYP:       trmmt
+               S
+
+sentence 1482
+REF: flowerpot
+HYP:  flowerpt
+             S
+
+sentence 1483
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 1484
+REF: wheel
+HYP:  whel
+         S
+
+sentence 1485
+REF: carpet
+HYP:  carpt
+          S
+
+sentence 1486
+REF: key
+HYP:  ky
+       S
+
+sentence 1487
+REF: yes
+HYP: yes
+        
+
+sentence 1488
+REF: hill
+HYP: hill
+         
+
+sentence 1489
+REF: light
+HYP:    lt
+         S
+
+sentence 1490
+REF: treasure
+HYP:    theas
+            S
+
+sentence 1491
+REF: splash
+HYP: splash
+           
+
+sentence 1492
+REF: car
+HYP: car
+        
+
+sentence 1493
+REF: owl
+HYP:   l
+       S
+
+sentence 1494
+REF: yoyo
+HYP:   yy
+        S
+
+sentence 1495
+REF: seven
+HYP:   svn
+         S
+
+sentence 1496
+REF: garden
+HYP: garden
+           
+
+sentence 1497
+REF: vanilla
+HYP:    vanl
+           S
+
+sentence 1498
+REF: jam
+HYP: cho
+       S
+
+sentence 1499
+REF: eight
+HYP:   egt
+         S
+
+sentence 1500
+REF:  bag
+HYP: boag
+        S
+
+sentence 1501
+REF: wood
+HYP:  wod
+        S
+
+sentence 1502
+REF:  jam
+HYP: jham
+        S
+
+sentence 1503
+REF: hole
+HYP:  hod
+        S
+
+sentence 1504
+REF: dinosaur
+HYP:  dinosar
+            S
+
+sentence 1505
+REF: six
+HYP:  si
+       S
+
+sentence 1506
+REF: five
+HYP: vfie
+        S
+
+sentence 1507
+REF: voice
+HYP:   oic
+         S
+
+sentence 1508
+REF: clown
+HYP:  clon
+         S
+
+sentence 1509
+REF: beard
+HYP:  bead
+         S
+
+sentence 1510
+REF: gorilla
+HYP:   goril
+           S
+
+sentence 1511
+REF: one
+HYP:  ne
+       S
+
+sentence 1512
+REF: cow
+HYP:  co
+       S
+
+sentence 1513
+REF: grasshopper
+HYP:   grashoper
+               S
+
+sentence 1514
+REF: magician
+HYP:   magcan
+            S
+
+sentence 1515
+REF: boat
+HYP: boat
+         
+
+sentence 1516
+REF: hair
+HYP:  hir
+        S
+
+sentence 1517
+REF: shell
+HYP:    ch
+         S
+
+sentence 1518
+REF: tooth
+HYP:   tth
+         S
+
+sentence 1519
+REF: balloon
+HYP:    baln
+           S
+
+sentence 1520
+REF: detective
+HYP:    detctv
+             S
+
+sentence 1521
+REF: light
+HYP:    lt
+         S
+
+sentence 1522
+REF: flowerpot
+HYP:   flerpot
+             S
+
+sentence 1523
+REF: treasure
+HYP:   treasr
+            S
+
+sentence 1524
+REF: one
+HYP:   n
+       S
+
+sentence 1525
+REF: frog
+HYP:  frg
+        S
+
+sentence 1526
+REF: hill
+HYP:  hil
+        S
+
+sentence 1527
+REF: machine
+HYP:  machne
+           S
+
+sentence 1528
+REF: butterfly
+HYP:  buterfly
+             S
+
+sentence 1529
+REF: foot
+HYP:  fot
+        S
+
+sentence 1530
+REF: detective
+HYP:    detctv
+             S
+
+sentence 1531
+REF: kangaroo
+HYP:   kangar
+            S
+
+sentence 1532
+REF: two
+HYP:   t
+       S
+
+sentence 1533
+REF: gorilla
+HYP:  gorila
+           S
+
+sentence 1534
+REF: boy
+HYP:  by
+       S
+
+sentence 1535
+REF: cicada
+HYP:  cicad
+          S
+
+sentence 1536
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 1537
+REF: zoo
+HYP:  zo
+       S
+
+sentence 1538
+REF: yes
+HYP:  ys
+       S
+
+sentence 1539
+REF: tomato
+HYP:  comat
+          S
+
+sentence 1540
+REF: bird
+HYP:  bid
+        S
+
+sentence 1541
+REF: caterpillar
+HYP:  caterpilar
+               S
+
+sentence 1542
+REF: garage
+HYP:    gag
+          S
+
+sentence 1543
+REF: vanilla
+HYP:   vanla
+           S
+
+sentence 1544
+REF: smile
+HYP:  smle
+         S
+
+sentence 1545
+REF: dessert
+HYP:   deset
+           S
+
+sentence 1546
+REF: no
+HYP:  n
+      S
+
+sentence 1547
+REF: hippopotamus
+HYP:  hipopotamus
+                S
+
+sentence 1548
+REF: carpet
+HYP:  carpt
+          S
+
+sentence 1549
+REF: voice
+HYP:  voic
+         S
+
+sentence 1550
+REF: tomato
+HYP:  tomat
+          S
+
+sentence 1551
+REF: that
+HYP: that
+         
+
+sentence 1552
+REF: xylophone
+HYP:   ylophne
+             S
+
+sentence 1553
+REF: potato
+HYP:   otat
+          S
+
+sentence 1554
+REF: coconut
+HYP: coconut
+            
+
+sentence 1555
+REF: two eggs
+HYP: two  egs
+            S
+
+sentence 1556
+REF: cow
+HYP:  co
+       S
+
+sentence 1557
+REF: hair
+HYP:  fur
+        S
+
+sentence 1558
+REF: smile
+HYP:  smle
+         S
+
+sentence 1559
+REF: kangaroo
+HYP:   kangar
+            S
+
+sentence 1560
+REF: tail
+HYP: pail
+        S
+
+sentence 1561
+REF: two
+HYP:   t
+       S
+
+sentence 1562
+REF: nose
+HYP:   ns
+        S
+
+sentence 1563
+REF: nose
+HYP:   ns
+        S
+
+sentence 1564
+REF: two o clock
+HYP: two o  clck
+               S
+
+sentence 1565
+REF: pig
+HYP: pig
+        
+
+sentence 1566
+REF: rhinoceros
+HYP:         rn
+              S
+
+sentence 1567
+REF: fish
+HYP: fish
+         
+
+sentence 1568
+REF: grasshopper
+HYP:    grashopr
+               S
+
+sentence 1569
+REF: spade
+HYP: spade
+          
+
+sentence 1570
+REF: dessert
+HYP:   deset
+           S
+
+sentence 1571
+REF: cow
+HYP:  co
+       S
+
+sentence 1572
+REF: that
+HYP:  tat
+        S
+
+sentence 1573
+REF: boy
+HYP: boy
+        
+
+sentence 1574
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 1575
+REF: voice
+HYP:  voic
+         S
+
+sentence 1576
+REF: bellybutton
+HYP:     blybutn
+               S
+
+sentence 1577
+REF: treasure
+HYP:   treasr
+            S
+
+sentence 1578
+REF: that
+HYP:  tha
+        S
+
+sentence 1579
+REF: four cups
+HYP: four cups
+              
+
+sentence 1580
+REF: three
+HYP:  thre
+         S
+
+sentence 1581
+REF: ear
+HYP: ***
+       D
+
+sentence 1582
+REF: snake
+HYP:  snak
+         S
+
+sentence 1583
+REF: duck
+HYP:  dck
+        S
+
+sentence 1584
+REF: feather
+HYP:  feathr
+           S
+
+sentence 1585
+REF: one cup
+HYP:  ne cup
+       S    
+
+sentence 1586
+REF: one egg
+HYP:  ne  eg
+       S   S
+
+sentence 1587
+REF: kitchen
+HYP: kitchen
+            
+
+sentence 1588
+REF:  sprout
+HYP: splrout
+           S
+
+sentence 1589
+REF: stethoscope
+HYP:    stthoscp
+               S
+
+sentence 1590
+REF: six
+HYP:  si
+       S
+
+sentence 1591
+REF: short
+HYP:   fot
+         S
+
+sentence 1592
+REF: canoe
+HYP:   can
+         S
+
+sentence 1593
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 1594
+REF: skirt
+HYP: skirt
+          
+
+sentence 1595
+REF: one
+HYP: bon
+       S
+
+sentence 1596
+REF: chair
+HYP:  chir
+         S
+
+sentence 1597
+REF: sprout
+HYP: sprout
+           
+
+sentence 1598
+REF: short
+HYP:  shot
+         S
+
+sentence 1599
+REF: cub
+HYP: cub
+        
+
+sentence 1600
+REF: light
+HYP:   lht
+         S
+
+sentence 1601
+REF: crocodile
+HYP:    crocod
+             S
+
+sentence 1602
+REF: cicada
+HYP: cicada
+           
+
+sentence 1603
+REF: crocodile
+HYP:  crocodle
+             S
+
+sentence 1604
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 1605
+REF: cloud
+HYP: cloud
+          
+
+sentence 1606
+REF: xylophone
+HYP:    ylophn
+             S
+
+sentence 1607
+REF: seven
+HYP:  sven
+         S
+
+sentence 1608
+REF: four eggs
+HYP: four  egs
+             S
+
+sentence 1609
+REF: ear
+HYP: ***
+       D
+
+sentence 1610
+REF: yes
+HYP: yes
+        
+
+sentence 1611
+REF: chair
+HYP:  chir
+         S
+
+sentence 1612
+REF: bridge
+HYP:   brig
+          S
+
+sentence 1613
+REF: garage
+HYP:  garag
+          S
+
+sentence 1614
+REF: pie
+HYP:  pe
+       S
+
+sentence 1615
+REF: two cups
+HYP: two cups
+             
+
+sentence 1616
+REF: three cups
+HYP: three cups
+               
+
+sentence 1617
+REF: crab
+HYP: crab
+         
+
+sentence 1618
+REF: nine
+HYP:  nne
+        S
+
+sentence 1619
+REF: garage
+HYP:  garag
+          S
+
+sentence 1620
+REF: dessert
+HYP:   desrt
+           S
+
+sentence 1621
+REF: bird
+HYP:  bid
+        S
+
+sentence 1622
+REF: three eggs
+HYP: three  egs
+              S
+
+sentence 1623
+REF: duck
+HYP:  dck
+        S
+
+sentence 1624
+REF: eight
+HYP:   egt
+         S
+
+sentence 1625
+REF: treasure
+HYP:   treasr
+            S
+
+sentence 1626
+REF: no
+HYP:  n
+      S
+
+sentence 1627
+REF: breathe
+HYP:  breath
+           S
+
+sentence 1628
+REF: australia
+HYP:   austraa
+             S
+
+sentence 1629
+REF: cucumber
+HYP:  cucumbr
+            S
+
+sentence 1630
+REF: watermelon
+HYP:   atermeln
+              S
+
+sentence 1631
+REF: hair
+HYP:  fur
+        S
+
+sentence 1632
+REF: cub
+HYP: cub
+        
+
+sentence 1633
+REF: yes
+HYP: yes
+        
+
+sentence 1634
+REF: voice
+HYP:  voic
+         S
+
+sentence 1635
+REF: nose
+HYP:  nos
+        S
+
+sentence 1636
+REF: light
+HYP:    lt
+         S
+
+sentence 1637
+REF: giraffe
+HYP:   giraf
+           S
+
+sentence 1638
+REF: chair
+HYP:  chir
+         S
+
+sentence 1639
+REF: zoo
+HYP:  zo
+       S
+
+sentence 1640
+REF: circus
+HYP:  circs
+          S
+
+sentence 1641
+REF: cheese
+HYP:   ches
+          S
+
+sentence 1642
+REF: stethoscope
+HYP:    stthoscp
+               S
+
+sentence 1643
+REF: magician
+HYP:   magcan
+            S
+
+sentence 1644
+REF: cart
+HYP:  cat
+        S
+
+sentence 1645
+REF: sword
+HYP:   swd
+         S
+
+sentence 1646
+REF: wheel
+HYP:   whe
+         S
+
+sentence 1647
+REF: wood
+HYP:  wod
+        S
+
+sentence 1648
+REF: voice
+HYP:  voic
+         S
+
+sentence 1649
+REF: straw
+HYP: straw
+          
+
+sentence 1650
+REF: crab
+HYP: crab
+         
+
+sentence 1651
+REF: tail
+HYP:  tal
+        S
+
+sentence 1652
+REF: magician
+HYP:   magcan
+            S
+
+sentence 1653
+REF: tail
+HYP: tail
+         
+
+sentence 1654
+REF: owl
+HYP:   l
+       S
+
+sentence 1655
+REF: vegemite
+HYP:  vegmite
+            S
+
+sentence 1656
+REF: play
+HYP: play
+         
+
+sentence 1657
+REF: thumb
+HYP:  tumb
+         S
+
+sentence 1658
+REF: caterpillar
+HYP:  caterpilar
+               S
+
+sentence 1659
+REF: snake
+HYP: snake
+          
+
+sentence 1660
+REF: fur
+HYP: fur
+        
+
+sentence 1661
+REF: crab
+HYP: crab
+         
+
+sentence 1662
+REF: three eggs
+HYP: three  egs
+              S
+
+sentence 1663
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 1664
+REF: seven
+HYP:  sevn
+         S
+
+sentence 1665
+REF: owl
+HYP:   o
+       S
+
+sentence 1666
+REF: garage
+HYP:   garg
+          S
+
+sentence 1667
+REF: nine
+HYP: nine
+         
+
+sentence 1668
+REF: beard
+HYP:  bead
+         S
+
+sentence 1669
+REF: martian
+HYP:  martan
+           S
+
+sentence 1670
+REF: crab
+HYP: crab
+         
+
+sentence 1671
+REF: gorilla
+HYP:  gorila
+           S
+
+sentence 1672
+REF: food
+HYP:  fot
+        S
+
+sentence 1673
+REF: bellybutton
+HYP:    belybutn
+               S
+
+sentence 1674
+REF: mountain
+HYP:  mountan
+            S
+
+sentence 1675
+REF: story
+HYP: story
+          
+
+sentence 1676
+REF: pool
+HYP:    p
+        S
+
+sentence 1677
+REF: banana
+HYP:   bann
+          S
+
+sentence 1678
+REF: attack
+HYP:  atack
+          S
+
+sentence 1679
+REF: balloon
+HYP:   balon
+           S
+
+sentence 1680
+REF: no
+HYP: no
+       
+
+sentence 1681
+REF: three
+HYP:  thre
+         S
+
+sentence 1682
+REF: dessert
+HYP:   deset
+           S
+
+sentence 1683
+REF: tooth
+HYP:  toth
+         S
+
+sentence 1684
+REF: banana
+HYP:   bana
+          S
+
+sentence 1685
+REF: girl
+HYP: girl
+         
+
+sentence 1686
+REF: play
+HYP:  clo
+        S
+
+sentence 1687
+REF: vanilla
+HYP:     van
+           S
+
+sentence 1688
+REF: that
+HYP:   ta
+        S
+
+sentence 1689
+REF: vegemite
+HYP:   vegmte
+            S
+
+sentence 1690
+REF: watermelon
+HYP:  watermeln
+              S
+
+sentence 1691
+REF: two o clock
+HYP:  tw o  clck
+       S       S
+
+sentence 1692
+REF: kangaroo
+HYP:   tangar
+            S
+
+sentence 1693
+REF: four o clock
+HYP: four o  clck
+                S
+
+sentence 1694
+REF: cub
+HYP:  cu
+       S
+
+sentence 1695
+REF: wheel
+HYP:   whe
+         S
+
+sentence 1696
+REF: moustache
+HYP:  moustach
+             S
+
+sentence 1697
+REF: nine
+HYP:  kin
+        S
+
+sentence 1698
+REF: food
+HYP:  fod
+        S
+
+sentence 1699
+REF: skirt
+HYP:  skit
+         S
+
+sentence 1700
+REF: straw
+HYP: straw
+          
+
+sentence 1701
+REF: cloud
+HYP: cloud
+          
+
+sentence 1702
+REF: one o clock
+HYP: one o  clck
+               S
+
+sentence 1703
+REF: attack
+HYP:  oatak
+          S
+
+sentence 1704
+REF: tomato
+HYP:   tomt
+          S
+
+sentence 1705
+REF: no
+HYP: no
+       
+
+sentence 1706
+REF: seven
+HYP: seven
+          
+
+sentence 1707
+REF: kitchen
+HYP: kitchen
+            
+
+sentence 1708
+REF: snake
+HYP:  snke
+         S
+
+sentence 1709
+REF: spade
+HYP: spade
+          
+
+sentence 1710
+REF: card
+HYP:  cad
+        S
+
+sentence 1711
+REF: one o clock
+HYP: one o  clck
+               S
+
+sentence 1712
+REF: car
+HYP: car
+        
+
+sentence 1713
+REF: head
+HYP: head
+         
+
+sentence 1714
+REF: vegemite
+HYP:  vegemte
+            S
+
+sentence 1715
+REF: garage
+HYP:  garag
+          S
+
+sentence 1716
+REF: cow
+HYP:  co
+       S
+
+sentence 1717
+REF: foot
+HYP:  fot
+        S
+
+sentence 1718
+REF: boat
+HYP:  boa
+        S
+
+sentence 1719
+REF: three o clock
+HYP:  thre o   clk
+         S       S
+
+sentence 1720
+REF: cicada
+HYP:  cicda
+          S
+
+sentence 1721
+REF: swing
+HYP: swing
+          
+
+sentence 1722
+REF: ball
+HYP:  bal
+        S
+
+sentence 1723
+REF: breathe
+HYP:  breath
+           S
+
+sentence 1724
+REF: no
+HYP:  n
+      S
+
+sentence 1725
+REF: bird
+HYP:  bid
+        S
+
+sentence 1726
+REF: xylophone
+HYP:    ylophn
+             S
+
+sentence 1727
+REF: frog
+HYP: frog
+         
+
+sentence 1728
+REF: attack
+HYP:  atack
+          S
+
+sentence 1729
+REF: bird
+HYP:  bid
+        S
+
+sentence 1730
+REF: card
+HYP:  cad
+        S
+
+sentence 1731
+REF: pull
+HYP:   pl
+        S
+
+sentence 1732
+REF: treasure
+HYP:  treasre
+            S
+
+sentence 1733
+REF: zoo
+HYP: ***
+       D
+
+sentence 1734
+REF: eight
+HYP:    gt
+         S
+
+sentence 1735
+REF: nose
+HYP:  nos
+        S
+
+sentence 1736
+REF: flowerpot
+HYP: flowerpot
+              
+
+sentence 1737
+REF: three cups
+HYP: three cups
+               
+
+sentence 1738
+REF: six
+HYP: six
+        
+
+sentence 1739
+REF: splash
+HYP: splash
+           
+
+sentence 1740
+REF: four
+HYP:  for
+        S
+
+sentence 1741
+REF: stethoscope
+HYP:     stthosc
+               S
+
+sentence 1742
+REF: jam
+HYP:  jm
+       S
+
+sentence 1743
+REF: bridge
+HYP:   fnig
+          S
+
+sentence 1744
+REF: kitchen
+HYP:   kithn
+           S
+
+sentence 1745
+REF: sprout
+HYP: sprout
+           
+
+sentence 1746
+REF: beard
+HYP:  bead
+         S
+
+sentence 1747
+REF: grasshopper
+HYP:    rashoper
+               S
+
+sentence 1748
+REF: spade
+HYP: spade
+          
+
+sentence 1749
+REF: dinosaur
+HYP:  dinosar
+            S
+
+sentence 1750
+REF:  garage
+HYP: caratch
+           S
+
+sentence 1751
+REF: elephant
+HYP:  elephan
+            S
+
+sentence 1752
+REF:  tail
+HYP: thail
+         S
+
+sentence 1753
+REF: thumb
+HYP:  thum
+         S
+
+sentence 1754
+REF: cloud
+HYP: cloud
+          
+
+sentence 1755
+REF: watch
+HYP: watch
+          
+
+sentence 1756
+REF: four
+HYP: four
+         
+
+sentence 1757
+REF: pig
+HYP: hig
+       S
+
+sentence 1758
+REF: leaf
+HYP: leaf
+         
+
+sentence 1759
+REF: pie
+HYP:  pe
+       S
+
+sentence 1760
+REF: eight
+HYP:    et
+         S
+
+sentence 1761
+REF: duck
+HYP:  dck
+        S
+
+sentence 1762
+REF: shell
+HYP:  shel
+         S
+
+sentence 1763
+REF: treasure
+HYP:    feasr
+            S
+
+sentence 1764
+REF: attack
+HYP:  atack
+          S
+
+sentence 1765
+REF: sword
+HYP:  swrd
+         S
+
+sentence 1766
+REF: play
+HYP: play
+         
+
+sentence 1767
+REF: circus
+HYP: circus
+           
+
+sentence 1768
+REF: sausage
+HYP:  sausag
+           S
+
+sentence 1769
+REF: machine
+HYP:  machin
+           S
+
+sentence 1770
+REF: crocodile
+HYP:   crocodl
+             S
+
+sentence 1771
+REF: five
+HYP:  fiv
+        S
+
+sentence 1772
+REF:  one    o clock
+HYP: oneo clck *****
+        S    S     D
+
+sentence 1773
+REF: two
+HYP:   t
+       S
+
+sentence 1774
+REF: thumb
+HYP:   tom
+         S
+
+number of sentences: 1774
+substitutions=1333 deletions=27 insertions=2 hits=613
+
+mer=68.96%
+wil=90.22%
+wip=9.78%
+wer=69.03%
+
+
+
