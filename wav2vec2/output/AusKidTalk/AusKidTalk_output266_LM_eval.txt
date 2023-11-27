@@ -1,0 +1,221 @@
+Tue Nov 7 21:16:50 AEDT 2023
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_lowercase_6.py
+Started: 07/11/2023 21:16:51
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing jiwer...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_AusKidTalk_spontaneous_full_20231107_6
+cache_name: AusKidTalk-eval
+Language model 1: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_lowercase_20230914_with_lm_AusKidTalk_LM_combined_lowercase_v2
+Language model 1: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_lowercase_20230914_with_lm_4gram_big
+training: False
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_AusKidTalk_lowercase_freeze_base_model_speaker228_20231016
+use_pretrained_tokenizer: True
+pretrained_tokenizer: /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_AusKidTalk_lowercase_freeze_base_model_speaker228_20231016
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: False
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous_v2/test_speaker_228/test_only_transcription_filepath.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> model_cache_fp: /srv/scratch/z5313567/thesis/cache
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_6_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_6
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_6_baseline_result.csv
+--> baseline_alignment_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_6_baseline_result.txt
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_6_finetuned_result.csv
+--> finetuned_alignment_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_6_finetuned_result.txt
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_AusKidTalk_lowercase_freeze_base_model_speaker228_20231016
+--> pretrained_tokenizer: /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702
+
+------> PREPARING DATASET... ------------------------------------
+
+Downloading and preparing dataset csv/default to /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b3b4371501e586bd/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1...
+Downloading data files:   0%|          | 0/2 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 2/2 [00:00<00:00, 13107.20it/s]
+Extracting data files:   0%|          | 0/2 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 2/2 [00:00<00:00, 106.57it/s]
+Generating train split: 0 examples [00:00, ? examples/s]                                                        Generating test split: 0 examples [00:00, ? examples/s]                                                       Dataset csv downloaded and prepared to /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-b3b4371501e586bd/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 242.40it/s]
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 10
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 13
+    })
+})
+--> Printing some random samples...
+                                            filepath                transcription_clean
+0  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+1  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+2  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+3  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+4  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+5  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+6  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+7  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+8  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+9  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/13 [00:00<?, ? examples/s]                                                  Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+Map (num_proc=4):   0%|          | 0/10 [00:00<?, ? examples/s]Map (num_proc=4):  10%|█         | 1/10 [00:02<00:18,  2.07s/ examples]                                                                       Map (num_proc=4):   0%|          | 0/13 [00:00<?, ? examples/s]Map (num_proc=4):   8%|▊         | 1/13 [00:01<00:18,  1.53s/ examples]                                                                       --> Verifying data with a random sample...
+Target text: bi bubbles big why are some small
+Input array shape: (46881,)
+Sampling rate: 16000
+Map (num_proc=4):   0%|          | 0/10 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  70%|███████   | 7/10 [00:00<00:00, 69.71 examples/s]                                                                       Map (num_proc=4):   0%|          | 0/13 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  77%|███████▋  | 10/13 [00:00<00:00, 63.94 examples/s]                                                                        /srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_lowercase_6.py:556: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Map:   0%|          | 0/13 [00:00<?, ? examples/s]Map:   8%|▊         | 1/13 [00:02<00:25,  2.10s/ examples]Map:  15%|█▌        | 2/13 [00:03<00:20,  1.86s/ examples]Map:  23%|██▎       | 3/13 [00:05<00:17,  1.75s/ examples]Map:  31%|███       | 4/13 [00:07<00:15,  1.73s/ examples]Map:  38%|███▊      | 5/13 [00:08<00:13,  1.70s/ examples]Map:  46%|████▌     | 6/13 [00:10<00:12,  1.75s/ examples]Map:  54%|█████▍    | 7/13 [00:12<00:10,  1.71s/ examples]Map:  62%|██████▏   | 8/13 [00:13<00:08,  1.67s/ examples]Map:  69%|██████▉   | 9/13 [00:15<00:06,  1.65s/ examples]Map:  77%|███████▋  | 10/13 [00:17<00:04,  1.63s/ examples]Map:  85%|████████▍ | 11/13 [00:18<00:03,  1.64s/ examples]Map:  92%|█████████▏| 12/13 [00:20<00:01,  1.63s/ examples]Map: 100%|██████████| 13/13 [00:21<00:00,  1.64s/ examples]                                                           Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_6_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER Without Language Model: 0.236
+Fine-tuned Test WER With Language Model v1: 0.122
+Fine-tuned Test WER With Language Model v2: 0.122
+
+
+Fine-tuned Test CER Without Language Model: 0.089
+Fine-tuned Test CER With Language Model v1: 0.065
+Fine-tuned Test CER With Language Model v2: 0.065
+
+
+--> Getting fine-tuned alignment output without LM...
+--> Getting fine-tuned alignment output with LM v1...
+--> Getting fine-tuned alignment output with LM v2...
+Saved Alignment output to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_6_finetuned_result.txt
+
+
+--> Showing some fine-tuned prediction errors...
+                                         target_text  ...                                 pred_str_with_LM_2
+0                    and they patted him on the head  ...                    and they hadn't him on the head
+1  the while the boy was riding the skateboard he...  ...  the while the boy was riding his cape board he...
+2             the boy was just riding his skateboard  ...           the boy was just riding his escape board
+3                         and  they fed him his milk  ...                          and they fed him his milk
+4          a dinosaur appeared from the egg and yeah  ...               a dinosaur appeared from the egg and
+5  while doing that the egg cracked open and he w...  ...  while doing that the egg cracked open and he w...
+6   he looked to see what was inside of the egg  egg  ...        he looked to say what was inside of the eeg
+7  and then got sad because he couldn't find the boy  ...  and then got sad because he couldn't find the boy
+8            and then the boy looked at the dinosaur  ...            and then the boy looked at the dinosaur
+9      the boy hid from the dinosaur behind the tree  ...     the boy hide from the dinosaur behind the tree
+
+[10 rows x 4 columns]
+--> Taking a deeper look...
+[PAD] [PAD] t t h e e | [PAD] b [PAD] [PAD] [PAD] [PAD] o o y y | | [PAD] w w [PAD] [PAD] [PAD] a s s | | [PAD] [PAD] j [PAD] [PAD] [PAD] [PAD] u s s [PAD] t | | [PAD] [PAD] [PAD] r [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] i [PAD] [PAD] d [PAD] [PAD] [PAD] i n g g | [PAD] [PAD] [PAD] [PAD] h h h [PAD] [PAD] i s | [PAD] i [PAD] s s s [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] c [PAD] [PAD] [PAD] [PAD] [PAD] a [PAD] p e e [PAD] | | [PAD] b [PAD] [PAD] [PAD] [PAD] [PAD] a a r r d d [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 07/11/2023 21:17:33

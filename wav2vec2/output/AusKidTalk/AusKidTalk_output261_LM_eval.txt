@@ -1,0 +1,421 @@
+Sat Oct 21 22:22:43 AEDT 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-02e670ef97401bb4/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_lowercase.py
+Started: 21/10/2023 22:22:43
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing jiwer...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_AusKidTalk_spontaneous_full_20231021_3
+cache_name: AusKidTalk-eval
+Language model 1: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_lowercase_20230914_with_lm_AusKidTalk_LM_combined_lowercase_v1
+Language model 1: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_lowercase_20230914_with_lm_AusKidTalk_LM_combined_lowercase_v2
+training: False
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/AusTalk/finetune_AusTalk_lowercase_20231001
+use_pretrained_tokenizer: True
+pretrained_tokenizer: /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/AusTalk/finetune_AusTalk_lowercase_20231001
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: False
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous_v2/AusKidTalk_spontaneous_dataframe_combined_only_transcription_filepath_v2.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> model_cache_fp: /srv/scratch/z5313567/thesis/cache
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231021_3_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231021_3
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231021_3_baseline_result.csv
+--> baseline_alignment_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231021_3_baseline_result.txt
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231021_3_finetuned_result.csv
+--> finetuned_alignment_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231021_3_finetuned_result.txt
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/AusTalk/finetune_AusTalk_lowercase_20231001
+--> pretrained_tokenizer: /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702
+
+------> PREPARING DATASET... ------------------------------------
+
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 443.21it/s]
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-02e670ef97401bb4/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-7fe402e76aab8b1e.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-02e670ef97401bb4/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-27bc84fa3242958e.arrow
+Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-02e670ef97401bb4/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-c9fe9084b101b824_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-02e670ef97401bb4/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-e3e1d209591ef51e_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-02e670ef97401bb4/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-e2fd5a1cb3908c0e_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-02e670ef97401bb4/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-4fceaa621357d9af_*_of_00004.arrow
+/srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_lowercase.py:556: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 10
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 152
+    })
+})
+--> Printing some random samples...
+                                            filepath                transcription_clean
+0  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+1  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+2  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+3  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+4  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+5  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+6  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+7  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+8  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+9  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+--> Verifying data with a random sample...
+Target text: bi bubbles big why are some small
+Input array shape: (46881,)
+Sampling rate: 16000
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Map:   0%|          | 0/152 [00:00<?, ? examples/s]Map:   1%|          | 1/152 [00:05<14:18,  5.69s/ examples]Map:   1%|▏         | 2/152 [00:07<09:10,  3.67s/ examples]Map:   2%|▏         | 3/152 [00:10<07:18,  2.95s/ examples]Map:   3%|▎         | 4/152 [00:12<06:22,  2.58s/ examples]Map:   3%|▎         | 5/152 [00:14<05:48,  2.37s/ examples]Map:   4%|▍         | 6/152 [00:16<05:28,  2.25s/ examples]Map:   5%|▍         | 7/152 [00:18<05:21,  2.22s/ examples]Map:   5%|▌         | 8/152 [00:20<05:14,  2.19s/ examples]Map:   6%|▌         | 9/152 [00:22<05:08,  2.16s/ examples]Map:   7%|▋         | 10/152 [00:24<05:02,  2.13s/ examples]Map:   7%|▋         | 11/152 [00:26<04:55,  2.10s/ examples]Map:   8%|▊         | 12/152 [00:28<04:56,  2.12s/ examples]Map:   9%|▊         | 13/152 [00:30<05:00,  2.16s/ examples]Map:   9%|▉         | 14/152 [00:33<04:54,  2.13s/ examples]Map:  10%|▉         | 15/152 [00:35<04:51,  2.12s/ examples]Map:  11%|█         | 16/152 [00:37<04:50,  2.14s/ examples]Map:  11%|█         | 17/152 [00:39<04:51,  2.16s/ examples]Map:  12%|█▏        | 18/152 [00:41<04:56,  2.22s/ examples]Map:  12%|█▎        | 19/152 [00:44<04:52,  2.20s/ examples]Map:  13%|█▎        | 20/152 [00:46<04:59,  2.27s/ examples]Map:  14%|█▍        | 21/152 [00:48<04:52,  2.24s/ examples]Map:  14%|█▍        | 22/152 [00:50<04:50,  2.24s/ examples]Map:  15%|█▌        | 23/152 [00:53<04:47,  2.23s/ examples]Map:  16%|█▌        | 24/152 [00:55<04:40,  2.19s/ examples]Map:  16%|█▋        | 25/152 [00:57<04:37,  2.19s/ examples]Map:  17%|█▋        | 26/152 [00:59<04:32,  2.16s/ examples]Map:  18%|█▊        | 27/152 [01:01<04:32,  2.18s/ examples]Map:  18%|█▊        | 28/152 [01:04<04:48,  2.33s/ examples]Map:  19%|█▉        | 29/152 [01:06<04:40,  2.28s/ examples]Map:  20%|█▉        | 30/152 [01:08<04:34,  2.25s/ examples]Map:  20%|██        | 31/152 [01:10<04:31,  2.24s/ examples]Map:  21%|██        | 32/152 [01:13<04:32,  2.27s/ examples]Map:  22%|██▏       | 33/152 [01:15<04:31,  2.28s/ examples]Map:  22%|██▏       | 34/152 [01:17<04:24,  2.24s/ examples]Map:  23%|██▎       | 35/152 [01:20<04:34,  2.35s/ examples]Map:  24%|██▎       | 36/152 [01:22<04:35,  2.38s/ examples]Map:  24%|██▍       | 37/152 [01:24<04:28,  2.34s/ examples]Map:  25%|██▌       | 38/152 [01:27<04:27,  2.35s/ examples]Map:  26%|██▌       | 39/152 [01:29<04:25,  2.35s/ examples]Map:  26%|██▋       | 40/152 [01:32<04:24,  2.36s/ examples]Map:  27%|██▋       | 41/152 [01:34<04:26,  2.40s/ examples]Map:  28%|██▊       | 42/152 [01:37<04:28,  2.44s/ examples]Map:  28%|██▊       | 43/152 [01:39<04:22,  2.41s/ examples]Map:  29%|██▉       | 44/152 [01:41<04:17,  2.38s/ examples]Map:  30%|██▉       | 45/152 [01:44<04:16,  2.40s/ examples]Map:  30%|███       | 46/152 [01:46<04:16,  2.42s/ examples]Map:  31%|███       | 47/152 [01:49<04:17,  2.45s/ examples]Map:  32%|███▏      | 48/152 [01:51<04:13,  2.44s/ examples]Map:  32%|███▏      | 49/152 [01:54<04:11,  2.44s/ examples]Map:  33%|███▎      | 50/152 [01:56<04:08,  2.43s/ examples]Map:  34%|███▎      | 51/152 [01:58<04:06,  2.44s/ examples]Map:  34%|███▍      | 52/152 [02:01<04:00,  2.40s/ examples]Map:  35%|███▍      | 53/152 [02:03<03:56,  2.39s/ examples]Map:  36%|███▌      | 54/152 [02:06<04:00,  2.46s/ examples]Map:  36%|███▌      | 55/152 [02:09<04:07,  2.55s/ examples]Map:  37%|███▋      | 56/152 [02:11<04:04,  2.54s/ examples]Map:  38%|███▊      | 57/152 [02:14<04:01,  2.54s/ examples]Map:  38%|███▊      | 58/152 [02:16<04:02,  2.58s/ examples]Map:  39%|███▉      | 59/152 [02:19<04:04,  2.62s/ examples]Map:  39%|███▉      | 60/152 [02:21<03:57,  2.58s/ examples]Map:  40%|████      | 61/152 [02:24<03:50,  2.53s/ examples]Map:  41%|████      | 62/152 [02:26<03:43,  2.48s/ examples]Map:  41%|████▏     | 63/152 [02:29<03:43,  2.51s/ examples]Map:  42%|████▏     | 64/152 [02:31<03:41,  2.52s/ examples]Map:  43%|████▎     | 65/152 [02:34<03:39,  2.52s/ examples]Map:  43%|████▎     | 66/152 [02:36<03:36,  2.52s/ examples]Map:  44%|████▍     | 67/152 [02:39<03:34,  2.53s/ examples]Map:  45%|████▍     | 68/152 [02:42<03:33,  2.54s/ examples]Map:  45%|████▌     | 69/152 [02:44<03:27,  2.50s/ examples]Map:  46%|████▌     | 70/152 [02:46<03:25,  2.50s/ examples]Map:  47%|████▋     | 71/152 [02:49<03:23,  2.52s/ examples]Map:  47%|████▋     | 72/152 [02:52<03:23,  2.55s/ examples]Map:  48%|████▊     | 73/152 [02:54<03:18,  2.52s/ examples]Map:  49%|████▊     | 74/152 [02:56<03:14,  2.49s/ examples]Map:  49%|████▉     | 75/152 [02:59<03:14,  2.52s/ examples]Map:  50%|█████     | 76/152 [03:02<03:12,  2.54s/ examples]Map:  51%|█████     | 77/152 [03:04<03:10,  2.53s/ examples]Map:  51%|█████▏    | 78/152 [03:07<03:07,  2.53s/ examples]Map:  52%|█████▏    | 79/152 [03:09<03:03,  2.51s/ examples]Map:  53%|█████▎    | 80/152 [03:12<03:03,  2.55s/ examples]Map:  53%|█████▎    | 81/152 [03:14<03:01,  2.55s/ examples]Map:  54%|█████▍    | 82/152 [03:17<02:56,  2.52s/ examples]Map:  55%|█████▍    | 83/152 [03:19<02:52,  2.51s/ examples]Map:  55%|█████▌    | 84/152 [03:22<02:51,  2.52s/ examples]Map:  56%|█████▌    | 85/152 [03:24<02:52,  2.57s/ examples]Map:  57%|█████▋    | 86/152 [03:27<02:48,  2.55s/ examples]Map:  57%|█████▋    | 87/152 [03:30<02:44,  2.54s/ examples]Map:  58%|█████▊    | 88/152 [03:32<02:41,  2.52s/ examples]Map:  59%|█████▊    | 89/152 [03:35<02:40,  2.55s/ examples]Map:  59%|█████▉    | 90/152 [03:37<02:39,  2.57s/ examples]Map:  60%|█████▉    | 91/152 [03:40<02:37,  2.58s/ examples]Map:  61%|██████    | 92/152 [03:42<02:34,  2.57s/ examples]Map:  61%|██████    | 93/152 [03:45<02:33,  2.59s/ examples]Map:  62%|██████▏   | 94/152 [03:48<02:31,  2.61s/ examples]Map:  62%|██████▎   | 95/152 [03:50<02:28,  2.61s/ examples]Map:  63%|██████▎   | 96/152 [03:53<02:26,  2.61s/ examples]Map:  64%|██████▍   | 97/152 [03:56<02:24,  2.62s/ examples]Map:  64%|██████▍   | 98/152 [03:58<02:23,  2.66s/ examples]Map:  65%|██████▌   | 99/152 [04:01<02:20,  2.64s/ examples]Map:  66%|██████▌   | 100/152 [04:03<02:14,  2.59s/ examples]Map:  66%|██████▋   | 101/152 [04:06<02:14,  2.65s/ examples]Map:  67%|██████▋   | 102/152 [04:09<02:12,  2.64s/ examples]Map:  68%|██████▊   | 103/152 [04:11<02:08,  2.63s/ examples]Map:  68%|██████▊   | 104/152 [04:14<02:06,  2.63s/ examples]Map:  69%|██████▉   | 105/152 [04:17<02:06,  2.69s/ examples]Map:  70%|██████▉   | 106/152 [04:20<02:03,  2.69s/ examples]Map:  70%|███████   | 107/152 [04:22<01:59,  2.65s/ examples]Map:  71%|███████   | 108/152 [04:25<01:56,  2.66s/ examples]Map:  72%|███████▏  | 109/152 [04:27<01:54,  2.66s/ examples]Map:  72%|███████▏  | 110/152 [04:30<01:52,  2.67s/ examples]Map:  73%|███████▎  | 111/152 [04:33<01:48,  2.64s/ examples]Map:  74%|███████▎  | 112/152 [04:35<01:45,  2.64s/ examples]Map:  74%|███████▍  | 113/152 [04:38<01:43,  2.64s/ examples]Map:  75%|███████▌  | 114/152 [04:41<01:43,  2.72s/ examples]Map:  76%|███████▌  | 115/152 [04:43<01:39,  2.68s/ examples]Map:  76%|███████▋  | 116/152 [04:46<01:37,  2.72s/ examples]Map:  77%|███████▋  | 117/152 [04:49<01:35,  2.73s/ examples]Map:  78%|███████▊  | 118/152 [04:52<01:32,  2.73s/ examples]Map:  78%|███████▊  | 119/152 [04:54<01:29,  2.72s/ examples]Map:  79%|███████▉  | 120/152 [04:57<01:28,  2.75s/ examples]Map:  80%|███████▉  | 121/152 [05:00<01:26,  2.78s/ examples]Map:  80%|████████  | 122/152 [05:03<01:22,  2.76s/ examples]Map:  81%|████████  | 123/152 [05:05<01:18,  2.70s/ examples]Map:  82%|████████▏ | 124/152 [05:08<01:15,  2.70s/ examples]Map:  82%|████████▏ | 125/152 [05:11<01:13,  2.72s/ examples]Map:  83%|████████▎ | 126/152 [05:14<01:11,  2.75s/ examples]Map:  84%|████████▎ | 127/152 [05:16<01:08,  2.74s/ examples]Map:  84%|████████▍ | 128/152 [05:19<01:05,  2.74s/ examples]Map:  85%|████████▍ | 129/152 [05:22<01:03,  2.77s/ examples]Map:  86%|████████▌ | 130/152 [05:25<01:00,  2.76s/ examples]Map:  86%|████████▌ | 131/152 [05:27<00:57,  2.74s/ examples]Map:  87%|████████▋ | 132/152 [05:30<00:54,  2.73s/ examples]Map:  88%|████████▊ | 133/152 [05:33<00:52,  2.77s/ examples]Map:  88%|████████▊ | 134/152 [05:36<00:50,  2.81s/ examples]Map:  89%|████████▉ | 135/152 [05:39<00:47,  2.79s/ examples]Map:  89%|████████▉ | 136/152 [05:41<00:44,  2.77s/ examples]Map:  90%|█████████ | 137/152 [05:44<00:42,  2.80s/ examples]Map:  91%|█████████ | 138/152 [05:47<00:39,  2.79s/ examples]Map:  91%|█████████▏| 139/152 [05:50<00:36,  2.81s/ examples]Map:  92%|█████████▏| 140/152 [05:53<00:33,  2.80s/ examples]Map:  93%|█████████▎| 141/152 [05:55<00:30,  2.80s/ examples]Map:  93%|█████████▎| 142/152 [05:58<00:28,  2.80s/ examples]Map:  94%|█████████▍| 143/152 [06:01<00:25,  2.81s/ examples]Map:  95%|█████████▍| 144/152 [06:04<00:22,  2.81s/ examples]Map:  95%|█████████▌| 145/152 [06:07<00:20,  2.87s/ examples]Map:  96%|█████████▌| 146/152 [06:10<00:17,  2.89s/ examples]Map:  97%|█████████▋| 147/152 [06:13<00:14,  2.90s/ examples]Map:  97%|█████████▋| 148/152 [06:16<00:11,  2.89s/ examples]Map:  98%|█████████▊| 149/152 [06:19<00:08,  2.99s/ examples]Map:  99%|█████████▊| 150/152 [06:22<00:05,  2.99s/ examples]Map:  99%|█████████▉| 151/152 [06:25<00:02,  2.96s/ examples]Map: 100%|██████████| 152/152 [06:28<00:00,  2.98s/ examples]                                                             Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231021_3_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER Without Language Model: 0.729
+Fine-tuned Test WER With Language Model v1: 0.589
+Fine-tuned Test WER With Language Model v2: 0.587
+
+
+Fine-tuned Test CER Without Language Model: 0.351
+Fine-tuned Test CER With Language Model v1: 0.312
+Fine-tuned Test CER With Language Model v2: 0.310
+
+
+--> Getting fine-tuned alignment output without LM...
+--> Getting fine-tuned alignment output with LM v1...
+--> Getting fine-tuned alignment output with LM v2...
+Saved Alignment output to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231021_3_finetuned_result.txt
+
+
+--> Showing some fine-tuned prediction errors...
+                                         target_text  ...                                 pred_str_with_LM_2
+0                    the the boy bumped into the egg  ...                         the be bombed in to the ag
+1                   the dinosaur was licking the boy  ...                         the gsowas looking the boy
+2                               the egg was cracking  ...                                  or og lis crash c
+3  the green baby has second thoughts about playi...  ...  the grande babe has second thots a bout plangw...
+4  the green baby is holding the bottle of milk w...  ...  gran babe is holding the bottle of milk why th...
+5  the the  the dinosaur is really sad and is lyi...  ...          the diner so i rely sad and is ling i don
+6             and they stop laughing at the dinosaur  ...                   he stood lafing at the diner sor
+7  so he went up to the dinosaur and petted him o...  ...  so he went up to the dinar soe and patted him ...
+8  and then got sad because he couldn't find the boy  ...                then got sagas he cont find the boy
+9            the boy is pet the dinosaur on the head  ...             the boy is pan the doner foe on the ad
+
+[10 rows x 4 columns]
+--> Taking a deeper look...
+[PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] e e [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] e [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] o o [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] t [PAD] [PAD] | | | [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] | | g [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] d d | | s s [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] | | | [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] o [PAD] [PAD] [PAD] [PAD] [PAD] | | w [PAD] [PAD] [PAD] t t | | [PAD] e e [PAD] d d [PAD] [PAD] e [PAD] d [PAD] | | t t [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] e e [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] w [PAD] [PAD] [PAD] t t | | h h [PAD] a a p p p p [PAD] [PAD] n n d [PAD] | | | [PAD] [PAD] [PAD] n | | [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] t [PAD] [PAD] [PAD] [PAD] | | p [PAD] [PAD] [PAD] [PAD] [PAD] c c c [PAD] h [PAD] [PAD] | | | [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 21/10/2023 22:29:35
+Tue Nov 7 20:57:54 AEDT 2023
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_lowercase.py
+Started: 07/11/2023 20:57:55
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing jiwer...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_AusKidTalk_spontaneous_full_20231107_1
+cache_name: AusKidTalk-eval
+Language model 1: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_lowercase_20230914_with_lm_AusKidTalk_LM_combined_lowercase_v2
+Language model 1: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_lowercase_20230914_with_lm_4gram_big
+training: False
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_AusKidTalk_lowercase_freeze_base_model_speaker97_20231016
+use_pretrained_tokenizer: True
+pretrained_tokenizer: /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_AusKidTalk_lowercase_freeze_base_model_speaker97_20231016
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: False
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous_v2/test_speaker_97/test_only_transcription_filepath.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> model_cache_fp: /srv/scratch/z5313567/thesis/cache
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_1_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_1
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_1_baseline_result.csv
+--> baseline_alignment_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_1_baseline_result.txt
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_1_finetuned_result.csv
+--> finetuned_alignment_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_1_finetuned_result.txt
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_AusKidTalk_lowercase_freeze_base_model_speaker97_20231016
+--> pretrained_tokenizer: /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702
+
+------> PREPARING DATASET... ------------------------------------
+
+Downloading and preparing dataset csv/default to /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-68bc66abee79a7ea/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1...
+Downloading data files:   0%|          | 0/2 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 2/2 [00:00<00:00, 11966.63it/s]
+Extracting data files:   0%|          | 0/2 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 2/2 [00:00<00:00, 52.90it/s]
+Generating train split: 0 examples [00:00, ? examples/s]                                                        Generating test split: 0 examples [00:00, ? examples/s]                                                       Dataset csv downloaded and prepared to /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-68bc66abee79a7ea/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 128.24it/s]
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 10
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 13
+    })
+})
+--> Printing some random samples...
+                                            filepath                transcription_clean
+0  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+1  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+2  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+3  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+4  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+5  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+6  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+7  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+8  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+9  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+Map:   0%|          | 0/10 [00:00<?, ? examples/s]                                                  Map:   0%|          | 0/13 [00:00<?, ? examples/s]                                                  Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+Map (num_proc=4):   0%|          | 0/10 [00:00<?, ? examples/s]Map (num_proc=4):  10%|█         | 1/10 [00:04<00:38,  4.30s/ examples]                                                                       Map (num_proc=4):   0%|          | 0/13 [00:00<?, ? examples/s]Map (num_proc=4):   8%|▊         | 1/13 [00:01<00:17,  1.46s/ examples]Map (num_proc=4):  69%|██████▉   | 9/13 [00:01<00:00,  7.70 examples/s]                                                                       --> Verifying data with a random sample...
+Target text: bi bubbles big why are some small
+Input array shape: (46881,)
+Sampling rate: 16000
+Map (num_proc=4):   0%|          | 0/10 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  70%|███████   | 7/10 [00:00<00:00, 68.97 examples/s]                                                                       Map (num_proc=4):   0%|          | 0/13 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  77%|███████▋  | 10/13 [00:00<00:00, 60.66 examples/s]                                                                        /srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_lowercase.py:556: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Map:   0%|          | 0/13 [00:00<?, ? examples/s]Map:   8%|▊         | 1/13 [00:03<00:44,  3.74s/ examples]Map:  15%|█▌        | 2/13 [00:05<00:29,  2.64s/ examples]Map:  23%|██▎       | 3/13 [00:07<00:22,  2.25s/ examples]Map:  31%|███       | 4/13 [00:09<00:18,  2.10s/ examples]Map:  38%|███▊      | 5/13 [00:11<00:16,  2.01s/ examples]Map:  46%|████▌     | 6/13 [00:13<00:14,  2.02s/ examples]Map:  54%|█████▍    | 7/13 [00:14<00:11,  1.94s/ examples]Map:  62%|██████▏   | 8/13 [00:16<00:09,  1.89s/ examples]Map:  69%|██████▉   | 9/13 [00:18<00:07,  1.85s/ examples]Map:  77%|███████▋  | 10/13 [00:20<00:05,  1.83s/ examples]Map:  85%|████████▍ | 11/13 [00:22<00:03,  1.83s/ examples]Map:  92%|█████████▏| 12/13 [00:23<00:01,  1.82s/ examples]Map: 100%|██████████| 13/13 [00:25<00:00,  1.82s/ examples]                                                           Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_1_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER Without Language Model: 0.236
+Fine-tuned Test WER With Language Model v1: 0.122
+Fine-tuned Test WER With Language Model v2: 0.122
+
+
+Fine-tuned Test CER Without Language Model: 0.089
+Fine-tuned Test CER With Language Model v1: 0.065
+Fine-tuned Test CER With Language Model v2: 0.065
+
+
+--> Getting fine-tuned alignment output without LM...
+--> Getting fine-tuned alignment output with LM v1...
+--> Getting fine-tuned alignment output with LM v2...
+Saved Alignment output to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231107_1_finetuned_result.txt
+
+
+--> Showing some fine-tuned prediction errors...
+                                         target_text  ...                                 pred_str_with_LM_2
+0                    and they patted him on the head  ...                    and they hadn't him on the head
+1  the while the boy was riding the skateboard he...  ...  the while the boy was riding his cape board he...
+2             the boy was just riding his skateboard  ...           the boy was just riding his escape board
+3                         and  they fed him his milk  ...                          and they fed him his milk
+4          a dinosaur appeared from the egg and yeah  ...               a dinosaur appeared from the egg and
+5  while doing that the egg cracked open and he w...  ...  while doing that the egg cracked open and he w...
+6   he looked to see what was inside of the egg  egg  ...        he looked to say what was inside of the eeg
+7  and then got sad because he couldn't find the boy  ...  and then got sad because he couldn't find the boy
+8            and then the boy looked at the dinosaur  ...            and then the boy looked at the dinosaur
+9      the boy hid from the dinosaur behind the tree  ...     the boy hide from the dinosaur behind the tree
+
+[10 rows x 4 columns]
+--> Taking a deeper look...
+[PAD] [PAD] t t h e e | [PAD] b [PAD] [PAD] [PAD] [PAD] o o y y | | [PAD] w w [PAD] [PAD] [PAD] a s s | | [PAD] [PAD] j [PAD] [PAD] [PAD] [PAD] u s s [PAD] t | | [PAD] [PAD] [PAD] r [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] i [PAD] [PAD] d [PAD] [PAD] [PAD] i n g g | [PAD] [PAD] [PAD] [PAD] h h h [PAD] [PAD] i s | [PAD] i [PAD] s s s [PAD] [PAD] [PAD] [PAD] [PAD] [PAD] c [PAD] [PAD] [PAD] [PAD] [PAD] a [PAD] p e e [PAD] | | [PAD] b [PAD] [PAD] [PAD] [PAD] [PAD] a a r r d d [PAD] [PAD] [PAD] [PAD] [PAD] [PAD]
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 07/11/2023 20:59:07

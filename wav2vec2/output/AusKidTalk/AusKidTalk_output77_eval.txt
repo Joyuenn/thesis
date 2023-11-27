@@ -1,0 +1,228 @@
+Tue Sep 12 23:57:18 AEST 2023
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_AusKidTalk.py
+Started: 12/09/2023 23:57:18
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_AusKidTalk_spontaneous_202309012_3
+cache_name: AusKidTalk-eval
+training: False
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_MyST_AusKidTalk_20230828
+use_pretrained_tokenizer: True
+pretrained_tokenizer: facebook/wav2vec2-base-960h
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_MyST_AusKidTalk_20230828
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: True
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_only_transcription_filepath.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_only_transcription_filepath.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_AusKidTalk_spontaneous_202309012_3_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_AusKidTalk_spontaneous_202309012_3
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_202309012_3_baseline_result.csv
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_202309012_3_finetuned_result.csv
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/progressive_finetune_CU_MyST_AusKidTalk_20230828
+--> pretrained_tokenizer: facebook/wav2vec2-base-960h
+
+------> PREPARING DATASET... ------------------------------------
+
+Downloading and preparing dataset csv/default to /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-740726f212ce8d2f/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1...
+Downloading data files:   0%|          | 0/2 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 2/2 [00:00<00:00, 12139.81it/s]
+Extracting data files:   0%|          | 0/2 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 2/2 [00:00<00:00, 26.72it/s]
+Generating train split: 0 examples [00:00, ? examples/s]                                                        Generating test split: 0 examples [00:00, ? examples/s]                                                       Dataset csv downloaded and prepared to /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-740726f212ce8d2f/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 136.57it/s]
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 111
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 111
+    })
+})
+--> Printing some random samples...
+                                            filepath                                transcription_clean
+0  /srv/scratch/chacmod/auskidtalk_spontaneous/25...                     the dinosaur lies on the floor
+1  /srv/scratch/chacmod/auskidtalk_spontaneous/81...   laughing while the dinosuar is drinking the milk
+2  /srv/scratch/chacmod/auskidtalk_spontaneous/10...  the dinosaur is still there by himself but on ...
+3  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                                  and then he laugh
+4  /srv/scratch/chacmod/auskidtalk_spontaneous/10...                       the boy snare a dinosaur egg
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/111 [00:00<?, ? examples/s]                                                   
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+Map (num_proc=4):   0%|          | 0/111 [00:00<?, ? examples/s]Map (num_proc=4):   1%|          | 1/111 [00:01<03:35,  1.96s/ examples]Map (num_proc=4):  17%|█▋        | 19/111 [00:02<00:07, 12.69 examples/s]Map (num_proc=4):  41%|████▏     | 46/111 [00:02<00:01, 34.07 examples/s]Map (num_proc=4):  67%|██████▋   | 74/111 [00:02<00:00, 58.72 examples/s]Map (num_proc=4):  86%|████████▌ | 95/111 [00:02<00:00, 77.11 examples/s]                                                                         Map (num_proc=4):   0%|          | 0/111 [00:00<?, ? examples/s]Map (num_proc=4):   1%|          | 1/111 [00:01<02:06,  1.15s/ examples]Map (num_proc=4):  68%|██████▊   | 76/111 [00:01<00:00, 83.06 examples/s]                                                                         --> Verifying data with a random sample...
+Target text: AND THEN THE DINOSAUR JUST WERE HOPPED OUT OF THE EGG
+Input array shape: (97959,)
+Sampling rate: 16000
+Map (num_proc=4):   0%|          | 0/111 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+Map (num_proc=4):   7%|▋         | 8/111 [00:00<00:02, 44.67 examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  36%|███▌      | 40/111 [00:00<00:00, 148.53 examples/s]Map (num_proc=4):  58%|█████▊    | 64/111 [00:00<00:00, 163.02 examples/s]Map (num_proc=4):  76%|███████▌  | 84/111 [00:00<00:00, 154.35 examples/s]Map (num_proc=4):  96%|█████████▋| 107/111 [00:00<00:00, 125.24 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/111 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   7%|▋         | 8/111 [00:00<00:02, 44.81 examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  36%|███▌      | 40/111 [00:00<00:00, 139.60 examples/s]Map (num_proc=4):  58%|█████▊    | 64/111 [00:00<00:00, 161.20 examples/s]Map (num_proc=4):  76%|███████▌  | 84/111 [00:00<00:00, 160.69 examples/s]Map (num_proc=4):  96%|█████████▋| 107/111 [00:00<00:00, 129.98 examples/s]                                                                           /srv/scratch/z5313567/thesis/wav2vec2/code/eval_AusKidTalk.py:599: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:   1%|          | 1/111 [00:01<02:16,  1.25s/ examples]Map:   3%|▎         | 3/111 [00:01<00:38,  2.77 examples/s]Map:   6%|▋         | 7/111 [00:01<00:15,  6.85 examples/s]Map:  10%|▉         | 11/111 [00:01<00:09, 10.95 examples/s]Map:  13%|█▎        | 14/111 [00:01<00:08, 11.74 examples/s]Map:  14%|█▍        | 16/111 [00:02<00:07, 12.49 examples/s]Map:  17%|█▋        | 19/111 [00:02<00:06, 14.35 examples/s]Map:  21%|██        | 23/111 [00:02<00:05, 16.93 examples/s]Map:  24%|██▍       | 27/111 [00:02<00:04, 20.06 examples/s]Map:  28%|██▊       | 31/111 [00:02<00:03, 22.44 examples/s]Map:  32%|███▏      | 35/111 [00:02<00:03, 23.42 examples/s]Map:  35%|███▌      | 39/111 [00:02<00:02, 25.10 examples/s]Map:  39%|███▊      | 43/111 [00:03<00:02, 27.41 examples/s]Map:  42%|████▏     | 47/111 [00:03<00:02, 28.69 examples/s]Map:  46%|████▌     | 51/111 [00:03<00:02, 27.68 examples/s]Map:  49%|████▊     | 54/111 [00:03<00:02, 26.93 examples/s]Map:  52%|█████▏    | 58/111 [00:03<00:01, 26.82 examples/s]Map:  56%|█████▌    | 62/111 [00:03<00:01, 26.74 examples/s]Map:  59%|█████▉    | 66/111 [00:03<00:01, 27.21 examples/s]Map:  63%|██████▎   | 70/111 [00:04<00:01, 27.39 examples/s]Map:  66%|██████▌   | 73/111 [00:04<00:01, 27.64 examples/s]Map:  69%|██████▉   | 77/111 [00:04<00:01, 25.11 examples/s]Map:  72%|███████▏  | 80/111 [00:04<00:01, 24.52 examples/s]Map:  76%|███████▌  | 84/111 [00:04<00:01, 26.83 examples/s]Map:  79%|███████▉  | 88/111 [00:04<00:00, 27.00 examples/s]Map:  83%|████████▎ | 92/111 [00:04<00:00, 28.38 examples/s]Map:  86%|████████▋ | 96/111 [00:04<00:00, 27.48 examples/s]Map:  90%|█████████ | 100/111 [00:05<00:00, 27.36 examples/s]Map:  94%|█████████▎| 104/111 [00:05<00:00, 26.91 examples/s]Map:  97%|█████████▋| 108/111 [00:05<00:00, 23.62 examples/s]Map: 100%|██████████| 111/111 [00:05<00:00, 14.54 examples/s]                                                             Some weights of Wav2Vec2ForCTC were not initialized from the model checkpoint at facebook/wav2vec2-base-960h and are newly initialized: ['wav2vec2.masked_spec_embed']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_202309012_3_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER: 0.850
+Fine-tuned Test CER: 0.359
+
+
+--> Showing some fine-tuned prediction errors...
+                                         target_text                                           pred_str
+0                        AND THEN THE BOY FELT SORRY                              ANDTHENTHBOY FELTSORY
+1  THE GREEN BABY IS HOLDING THE BOTTLE OF MILK W...  GREENBETBE ISHODING THEBUTLOMLCLTHE DINOSAUR E...
+2            A DINOSAUR JUMPS OUT AND HULK IS SCARED                       DINOSAUR DRUPPS OUTINOCOSCEP
+3                    SO HE RAN AND HID BEHIND A TREE                         SO HERANAN HIPBEHINDA TREE
+4                                  THE BABY FEEL SAD                                     THEBADYFESPIRT
+5               HE WAS SAD THAT THERE WAS A DINOSAUR                                  HIPPOSAERDINOSAUR
+6                     HE HEARS WHAT'S INSIDE THE EGG                                    HEHEARSVATEODES
+7  THE GREEN BABY IS HOLDING THE BOTTLE OF MILK A...  GREENBETDI IS HOLDING EBOLL OMIK ANDHIDINGBEHI...
+8  THE GREEN BABY IS HOLDING THE BOTTLE OF MILK W...  HEGREENBEBY IS HOLDING BULTERMICOWLISTENING IN...
+9                  BECAUSE THE DINOSAUR LOOKED FUNNY                       BECAUSETHEDINOSAUR LOOKTHUNI
+--> Taking a deeper look...
+<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> H H <pad> <pad> <pad> <pad> O W W <pad> E <pad> | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> R R <pad> E <pad> <pad> <pad> S R R <pad> <pad> <pad> <pad> <pad> <pad> I <pad> <pad> D <pad> <pad> I N N G <pad> | <pad> <pad> <pad> B <pad> <pad> A C C <pad> K <pad> <pad> W <pad> <pad> A A R D <pad> S <pad> | <pad> O N N <pad> <pad> T <pad> H E <pad> <pad> <pad> S <pad> <pad> C <pad> <pad> <pad> A T <pad> <pad> <pad> <pad> <pad> <pad> P <pad> <pad> <pad> <pad> <pad> <pad> O O R <pad> T <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> E <pad> <pad> <pad> <pad> L <pad> <pad> <pad> <pad> <pad> <pad> H H <pad> <pad> I <pad> <pad> T <pad> <pad> <pad> <pad> <pad> S <pad> <pad> <pad> <pad> <pad> <pad> A <pad> N <pad> <pad> | <pad> <pad> <pad> E E G <pad> <pad> G <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+------> EVALUATING BASELINE MODEL... ------------------------------------------ 
+
+Map:   0%|          | 0/111 [00:00<?, ? examples/s]Map:   1%|          | 1/111 [00:00<00:15,  6.88 examples/s]Map:   5%|▍         | 5/111 [00:00<00:06, 17.45 examples/s]Map:   8%|▊         | 9/111 [00:00<00:04, 22.39 examples/s]Map:  11%|█         | 12/111 [00:00<00:04, 22.54 examples/s]Map:  14%|█▍        | 16/111 [00:00<00:05, 18.63 examples/s]Map:  17%|█▋        | 19/111 [00:00<00:04, 19.53 examples/s]Map:  21%|██        | 23/111 [00:01<00:04, 21.42 examples/s]Map:  25%|██▌       | 28/111 [00:01<00:03, 25.44 examples/s]Map:  29%|██▉       | 32/111 [00:01<00:02, 27.34 examples/s]Map:  32%|███▏      | 36/111 [00:01<00:02, 28.42 examples/s]Map:  36%|███▌      | 40/111 [00:01<00:02, 30.51 examples/s]Map:  41%|████      | 45/111 [00:01<00:01, 34.27 examples/s]Map:  44%|████▍     | 49/111 [00:01<00:01, 33.77 examples/s]Map:  49%|████▊     | 54/111 [00:02<00:01, 33.75 examples/s]Map:  52%|█████▏    | 58/111 [00:02<00:01, 33.33 examples/s]Map:  56%|█████▌    | 62/111 [00:02<00:01, 32.98 examples/s]Map:  60%|██████    | 67/111 [00:02<00:01, 32.65 examples/s]Map:  65%|██████▍   | 72/111 [00:02<00:01, 35.31 examples/s]Map:  69%|██████▉   | 77/111 [00:02<00:01, 30.07 examples/s]Map:  73%|███████▎  | 81/111 [00:02<00:01, 29.99 examples/s]Map:  77%|███████▋  | 85/111 [00:03<00:00, 31.72 examples/s]Map:  82%|████████▏ | 91/111 [00:03<00:00, 33.97 examples/s]Map:  86%|████████▌ | 95/111 [00:03<00:00, 32.51 examples/s]Map:  90%|█████████ | 100/111 [00:03<00:00, 32.54 examples/s]Map:  95%|█████████▍| 105/111 [00:03<00:00, 31.72 examples/s]Map:  99%|█████████▉| 110/111 [00:03<00:00, 27.37 examples/s]                                                             Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_202309012_3_baseline_result.csv
+--> Getting baseline test results...
+Baseline Test WER: 0.373
+Baseline Test CER: 0.188
+
+
+--> Showing some baseline prediction errors...
+                                         target_text                                           pred_str
+0                    SO HE RAN AND HID BEHIND A TREE                    SO HE RAN AND HID BEHIND A TREE
+1                       AND THE EGG STARTED HATCHING                        AND THE EGG SOTTED HATCHING
+2  THE GREEN SKINED BABY IS RIDING A SKATEBOARD H...  THE GREEN SKINNED BABY IS RIDING ESCAPEBOARD H...
+3              THE BOY'S LIKE STARTLED TO THE GROUND               THE BOYS LIKE STARTLED TO THE GROUND
+4                        HE WAS LISTENING TO THE EGG                          HE WAS RESOMING TO THE AC
+5  THE DINOSAUR TRIES TO PLAY WITH HULK BUT HULK ...  THA DONE THE SORT TRIES TO PLAY WITH HOLK BUT ...
+6            A DINOSAUR JUMPS OUT AND HULK IS SCARED          A DINA SWORD DRUMPS OUT AND HOLKIS SCARED
+7                HE BUMPS INTO THE EGG AND FEELS SAD                 HE BUMPED INTO THE EGG AND FEO SAT
+8                               THE EGG WAS CRACKING                              FOR ALL PONS CRACKING
+9                                  AND THEN HE LAUGH                                    THON HE LAUGHED
+--> Taking a deeper look...
+<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> H <pad> <pad> <pad> <pad> <pad> O W <pad> <pad> <pad> <pad> K <pad> <pad> <pad> <pad> <pad> | | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> W <pad> <pad> A S S <pad> | | | R <pad> <pad> <pad> <pad> I <pad> <pad> D <pad> <pad> <pad> I N G <pad> | | | <pad> <pad> B <pad> <pad> A A C <pad> K <pad> <pad> <pad> W <pad> A A R D S S | <pad> <pad> O N <pad> | | | T H E | | | S <pad> <pad> C <pad> <pad> <pad> A <pad> P <pad> E <pad> <pad> <pad> P <pad> <pad> <pad> <pad> O A R <pad> <pad> T <pad> <pad> | | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> A N D D | <pad> H <pad> E | | | H H <pad> <pad> I <pad> <pad> <pad> T <pad> <pad> <pad> <pad> S <pad> | | | | <pad> <pad> A N <pad> | <pad> <pad> <pad> E E G <pad> <pad> G <pad> <pad> | | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 12/09/2023 23:58:02

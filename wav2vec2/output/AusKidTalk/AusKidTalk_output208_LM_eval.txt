@@ -1,0 +1,225 @@
+Wed Oct 11 23:22:44 AEDT 2023
+------------------------------------------------------------------------
+                 run_finetune_kids.py                                   
+------------------------------------------------------------------------
+Running:  /srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_lowercase.py
+Started: 11/10/2023 23:22:44
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing jiwer...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing Wav2VecCTC...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+base_fp: /srv/scratch/z5313567/thesis/
+model: wav2vec2
+dataset_name: AusKidTalk
+experiment_id: eval_AusKidTalk_spontaneous_full_20231011_test
+cache_name: AusKidTalk-eval
+Language model: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_lowercase_20230914_with_lm_4gram_big
+training: False
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_20230826
+use_pretrained_tokenizer: True
+pretrained_tokenizer: /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_20230826
+baseline_model: facebook/wav2vec2-base-960h
+eval_baseline: False
+
+------> MODEL ARGUMENTS... -------------------------------------------
+
+hidden_dropout: 0.1
+activation_dropout: 0.1
+attention_dropoutput: 0.1
+feat_proj_dropout: 0.0
+layerdrop: 0.1
+mask_time_prob: 0.05
+mask_time_length: 10
+ctc_loss_reduction: mean
+ctc_zero_infinity: True
+gradient_checkpointing: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+evaluation strategy: steps
+per_device_train_batch_size: 8
+gradient_accumulation_steps: 1
+learning_rate: 3e-05
+weight_decay: 0.01
+adam_beta1: 0.9
+adam_beta2: 0.98
+adam_epsilon: 1e-08
+num_train_epochs: 14
+max_steps: 60000
+lr_scheduler_type: linear
+warmup_ratio: 0.1
+logging_strategy: steps
+logging_steps: 1000
+save_strategy: steps
+save_steps: 1000
+save_total_limit: 3
+fp16: True
+eval_steps: 1000
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_only_transcription_filepath.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_only_transcription_filepath.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> model_cache_fp: /srv/scratch/z5313567/thesis/cache
+--> vocab_fp: /srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231011_test_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231011_test
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231011_test_baseline_result.csv
+--> baseline_alignment_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231011_test_baseline_result.txt
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231011_test_finetuned_result.csv
+--> finetuned_alignment_results_fp: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231011_test_finetuned_result.txt
+--> pretrained_mod: /srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_20230826
+--> pretrained_tokenizer: /srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702
+
+------> PREPARING DATASET... ------------------------------------
+
+Downloading and preparing dataset csv/default to /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-a5d046780d356f94/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1...
+Downloading data files:   0%|          | 0/2 [00:00<?, ?it/s]Downloading data files: 100%|██████████| 2/2 [00:00<00:00, 10046.24it/s]
+Extracting data files:   0%|          | 0/2 [00:00<?, ?it/s]Extracting data files: 100%|██████████| 2/2 [00:00<00:00, 82.15it/s]
+Generating train split: 0 examples [00:00, ? examples/s]                                                        Generating test split: 0 examples [00:00, ? examples/s]                                                       Dataset csv downloaded and prepared to /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-a5d046780d356f94/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1. Subsequent calls will reuse this data.
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 248.21it/s]
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 110
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 110
+    })
+})
+--> Printing some random samples...
+                                            filepath                              transcription_clean
+0  /srv/scratch/chacmod/auskidtalk_spontaneous/22...             and he ran and hid from the dinosaur
+1  /srv/scratch/chacmod/auskidtalk_spontaneous/22...                              he started laughing
+2  /srv/scratch/chacmod/auskidtalk_spontaneous/10...              the boy's touching the dinosaur egg
+3  /srv/scratch/chacmod/auskidtalk_spontaneous/11...                              and then he was sad
+4  /srv/scratch/chacmod/auskidtalk_spontaneous/51...                  and the dinosaur was lying down
+5  /srv/scratch/chacmod/auskidtalk_spontaneous/81...                 hulk feeds the dinosaur the milk
+6  /srv/scratch/chacmod/auskidtalk_spontaneous/65...                                      he's lonely
+7  /srv/scratch/chacmod/auskidtalk_spontaneous/22...  well he was hiding because the dinosaur was sad
+8  /srv/scratch/chacmod/auskidtalk_spontaneous/25...                   and then he feeds him his milk
+9  /srv/scratch/chacmod/auskidtalk_spontaneous/22...     then he listened to the egg when he fell off
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+Map:   0%|          | 0/110 [00:00<?, ? examples/s]                                                   Map:   0%|          | 0/110 [00:00<?, ? examples/s]                                                   Special tokens have been added in the vocabulary, make sure the associated word embeddings are fine-tuned or trained.
+
+------> CREATING WAV2VEC2 FEATURE EXTRACTOR... -----------------------
+
+SUCCESS: Created feature extractor.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+Map (num_proc=4):   0%|          | 0/110 [00:00<?, ? examples/s]Map (num_proc=4):   1%|          | 1/110 [00:02<04:30,  2.48s/ examples]Map (num_proc=4):   9%|▉         | 10/110 [00:02<00:18,  5.27 examples/s]Map (num_proc=4):  21%|██        | 23/110 [00:02<00:06, 14.20 examples/s]Map (num_proc=4):  47%|████▋     | 52/110 [00:02<00:01, 39.82 examples/s]Map (num_proc=4):  73%|███████▎  | 80/110 [00:02<00:00, 67.43 examples/s]Map (num_proc=4):  94%|█████████▎| 103/110 [00:03<00:00, 84.17 examples/s]                                                                          Map (num_proc=4):   0%|          | 0/110 [00:00<?, ? examples/s]Map (num_proc=4):   1%|          | 1/110 [00:01<02:00,  1.10s/ examples]Map (num_proc=4):  72%|███████▏  | 79/110 [00:01<00:00, 89.91 examples/s]                                                                         --> Verifying data with a random sample...
+Target text: and then he found it funny
+Input array shape: (32538,)
+Sampling rate: 16000
+Map (num_proc=4):   0%|          | 0/110 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   7%|▋         | 8/110 [00:00<00:02, 46.85 examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  36%|███▋      | 40/110 [00:00<00:00, 145.62 examples/s]Map (num_proc=4):  58%|█████▊    | 64/110 [00:00<00:00, 162.59 examples/s]Map (num_proc=4):  76%|███████▋  | 84/110 [00:00<00:00, 172.40 examples/s]Map (num_proc=4):  96%|█████████▋| 106/110 [00:00<00:00, 120.64 examples/s]                                                                           Map (num_proc=4):   0%|          | 0/110 [00:00<?, ? examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):   7%|▋         | 8/110 [00:00<00:02, 42.26 examples/s]/home/z5313567/.local/lib/python3.10/site-packages/transformers/feature_extraction_utils.py:166: VisibleDeprecationWarning: Creating an ndarray from ragged nested sequences (which is a list-or-tuple of lists-or-tuples-or ndarrays with different lengths or shapes) is deprecated. If you meant to do this, you must specify 'dtype=object' when creating the ndarray.
+  tensor = as_tensor(value)
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/processing_wav2vec2.py:155: UserWarning: `as_target_processor` is deprecated and will be removed in v5 of Transformers. You can process your labels by using the argument `text` of the regular `__call__` method (either in the same call as your audio inputs, or in a separate call.
+  warnings.warn(
+Map (num_proc=4):  36%|███▋      | 40/110 [00:00<00:00, 154.89 examples/s]Map (num_proc=4):  58%|█████▊    | 64/110 [00:00<00:00, 169.19 examples/s]Map (num_proc=4):  76%|███████▋  | 84/110 [00:00<00:00, 169.25 examples/s]Map (num_proc=4):  96%|█████████▋| 106/110 [00:00<00:00, 136.95 examples/s]                                                                           /srv/scratch/z5313567/thesis/wav2vec2/code/eval_LM_lowercase.py:552: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/models/wav2vec2/modeling_wav2vec2.py:1643: FutureWarning: The method `freeze_feature_extractor` is deprecated and will be removed in Transformers v5.Please use the equivalent `freeze_feature_encoder` method instead.
+  warnings.warn(
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+SUCCESS: Pre-trained checkpoint loaded.
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Map:   0%|          | 0/110 [00:00<?, ? examples/s]Map:   1%|          | 1/110 [00:02<04:39,  2.57s/ examples]Map:   2%|▏         | 2/110 [00:03<03:19,  1.84s/ examples]Map:   3%|▎         | 3/110 [00:05<02:54,  1.63s/ examples]Map:   4%|▎         | 4/110 [00:06<02:37,  1.49s/ examples]Map:   5%|▍         | 5/110 [00:07<02:31,  1.45s/ examples]Map:   5%|▌         | 6/110 [00:09<02:25,  1.40s/ examples]Map:   6%|▋         | 7/110 [00:10<02:20,  1.36s/ examples]Map:   7%|▋         | 8/110 [00:11<02:16,  1.33s/ examples]Map:   8%|▊         | 9/110 [00:13<02:14,  1.34s/ examples]Map:   9%|▉         | 10/110 [00:14<02:11,  1.31s/ examples]Map:  10%|█         | 11/110 [00:15<02:10,  1.32s/ examples]Map:  11%|█         | 12/110 [00:17<02:10,  1.34s/ examples]Map:  12%|█▏        | 13/110 [00:18<02:12,  1.37s/ examples]Map:  13%|█▎        | 14/110 [00:19<02:12,  1.38s/ examples]Map:  14%|█▎        | 15/110 [00:21<02:10,  1.37s/ examples]Map:  15%|█▍        | 16/110 [00:22<02:10,  1.39s/ examples]Map:  15%|█▌        | 17/110 [00:24<02:09,  1.39s/ examples]Map:  16%|█▋        | 18/110 [00:25<02:06,  1.38s/ examples]Map:  17%|█▋        | 19/110 [00:26<02:04,  1.37s/ examples]Map:  18%|█▊        | 20/110 [00:28<02:02,  1.36s/ examples]Map:  19%|█▉        | 21/110 [00:29<02:01,  1.37s/ examples]Map:  20%|██        | 22/110 [00:30<02:00,  1.37s/ examples]Map:  21%|██        | 23/110 [00:32<01:59,  1.37s/ examples]Map:  22%|██▏       | 24/110 [00:33<01:59,  1.39s/ examples]Map:  23%|██▎       | 25/110 [00:35<01:56,  1.38s/ examples]Map:  24%|██▎       | 26/110 [00:36<01:54,  1.36s/ examples]Map:  25%|██▍       | 27/110 [00:37<01:52,  1.36s/ examples]Map:  25%|██▌       | 28/110 [00:39<01:50,  1.35s/ examples]Map:  26%|██▋       | 29/110 [00:40<01:49,  1.35s/ examples]Map:  27%|██▋       | 30/110 [00:41<01:48,  1.36s/ examples]Map:  28%|██▊       | 31/110 [00:43<01:47,  1.36s/ examples]Map:  29%|██▉       | 32/110 [00:44<01:46,  1.36s/ examples]Map:  30%|███       | 33/110 [00:45<01:45,  1.37s/ examples]Map:  31%|███       | 34/110 [00:47<01:44,  1.38s/ examples]Map:  32%|███▏      | 35/110 [00:48<01:42,  1.37s/ examples]Map:  33%|███▎      | 36/110 [00:50<01:41,  1.38s/ examples]Map:  34%|███▎      | 37/110 [00:51<01:40,  1.38s/ examples]Map:  35%|███▍      | 38/110 [00:52<01:38,  1.37s/ examples]Map:  35%|███▌      | 39/110 [00:54<01:39,  1.40s/ examples]Map:  36%|███▋      | 40/110 [00:55<01:37,  1.39s/ examples]Map:  37%|███▋      | 41/110 [00:56<01:34,  1.37s/ examples]Map:  38%|███▊      | 42/110 [00:58<01:34,  1.39s/ examples]Map:  39%|███▉      | 43/110 [00:59<01:32,  1.38s/ examples]Map:  40%|████      | 44/110 [01:01<01:31,  1.39s/ examples]Map:  41%|████      | 45/110 [01:02<01:30,  1.39s/ examples]Map:  42%|████▏     | 46/110 [01:03<01:27,  1.37s/ examples]Map:  43%|████▎     | 47/110 [01:05<01:26,  1.37s/ examples]Map:  44%|████▎     | 48/110 [01:06<01:25,  1.38s/ examples]Map:  45%|████▍     | 49/110 [01:08<01:25,  1.39s/ examples]Map:  45%|████▌     | 50/110 [01:09<01:23,  1.40s/ examples]Map:  46%|████▋     | 51/110 [01:10<01:21,  1.38s/ examples]Map:  47%|████▋     | 52/110 [01:12<01:21,  1.40s/ examples]Map:  48%|████▊     | 53/110 [01:13<01:20,  1.41s/ examples]Map:  49%|████▉     | 54/110 [01:15<01:19,  1.42s/ examples]Map:  50%|█████     | 55/110 [01:16<01:18,  1.42s/ examples]Map:  51%|█████     | 56/110 [01:17<01:16,  1.42s/ examples]Map:  52%|█████▏    | 57/110 [01:19<01:15,  1.43s/ examples]Map:  53%|█████▎    | 58/110 [01:20<01:13,  1.40s/ examples]Map:  54%|█████▎    | 59/110 [01:22<01:12,  1.42s/ examples]Map:  55%|█████▍    | 60/110 [01:23<01:11,  1.43s/ examples]Map:  55%|█████▌    | 61/110 [01:25<01:09,  1.42s/ examples]Map:  56%|█████▋    | 62/110 [01:26<01:09,  1.44s/ examples]Map:  57%|█████▋    | 63/110 [01:28<01:07,  1.44s/ examples]Map:  58%|█████▊    | 64/110 [01:29<01:05,  1.43s/ examples]Map:  59%|█████▉    | 65/110 [01:30<01:04,  1.44s/ examples]Map:  60%|██████    | 66/110 [01:32<01:03,  1.44s/ examples]Map:  61%|██████    | 67/110 [01:33<01:02,  1.46s/ examples]Map:  62%|██████▏   | 68/110 [01:35<01:00,  1.45s/ examples]Map:  63%|██████▎   | 69/110 [01:36<00:59,  1.45s/ examples]Map:  64%|██████▎   | 70/110 [01:38<00:57,  1.45s/ examples]Map:  65%|██████▍   | 71/110 [01:39<00:56,  1.44s/ examples]Map:  65%|██████▌   | 72/110 [01:41<00:56,  1.47s/ examples]Map:  66%|██████▋   | 73/110 [01:42<00:54,  1.48s/ examples]Map:  67%|██████▋   | 74/110 [01:44<00:53,  1.50s/ examples]Map:  68%|██████▊   | 75/110 [01:45<00:51,  1.48s/ examples]Map:  69%|██████▉   | 76/110 [01:47<00:50,  1.48s/ examples]Map:  70%|███████   | 77/110 [01:48<00:48,  1.48s/ examples]Map:  71%|███████   | 78/110 [01:50<00:47,  1.49s/ examples]Map:  72%|███████▏  | 79/110 [01:51<00:46,  1.51s/ examples]Map:  73%|███████▎  | 80/110 [01:53<00:44,  1.49s/ examples]Map:  74%|███████▎  | 81/110 [01:54<00:43,  1.49s/ examples]Map:  75%|███████▍  | 82/110 [01:56<00:41,  1.49s/ examples]Map:  75%|███████▌  | 83/110 [01:57<00:40,  1.49s/ examples]Map:  76%|███████▋  | 84/110 [01:59<00:39,  1.50s/ examples]Map:  77%|███████▋  | 85/110 [02:00<00:37,  1.49s/ examples]Map:  78%|███████▊  | 86/110 [02:02<00:36,  1.51s/ examples]Map:  79%|███████▉  | 87/110 [02:03<00:34,  1.52s/ examples]Map:  80%|████████  | 88/110 [02:05<00:33,  1.51s/ examples]Map:  81%|████████  | 89/110 [02:06<00:31,  1.49s/ examples]Map:  82%|████████▏ | 90/110 [02:08<00:29,  1.48s/ examples]Map:  83%|████████▎ | 91/110 [02:09<00:28,  1.51s/ examples]Map:  84%|████████▎ | 92/110 [02:11<00:27,  1.51s/ examples]Map:  85%|████████▍ | 93/110 [02:12<00:25,  1.50s/ examples]Map:  85%|████████▌ | 94/110 [02:14<00:23,  1.50s/ examples]Map:  86%|████████▋ | 95/110 [02:15<00:22,  1.49s/ examples]Map:  87%|████████▋ | 96/110 [02:17<00:20,  1.48s/ examples]Map:  88%|████████▊ | 97/110 [02:18<00:19,  1.49s/ examples]Map:  89%|████████▉ | 98/110 [02:20<00:17,  1.49s/ examples]Map:  90%|█████████ | 99/110 [02:21<00:16,  1.48s/ examples]Map:  91%|█████████ | 100/110 [02:22<00:14,  1.48s/ examples]Map:  92%|█████████▏| 101/110 [02:24<00:13,  1.48s/ examples]Map:  93%|█████████▎| 102/110 [02:26<00:12,  1.51s/ examples]Map:  94%|█████████▎| 103/110 [02:27<00:10,  1.55s/ examples]Map:  95%|█████████▍| 104/110 [02:29<00:09,  1.56s/ examples]Map:  95%|█████████▌| 105/110 [02:30<00:07,  1.56s/ examples]Map:  96%|█████████▋| 106/110 [02:32<00:06,  1.56s/ examples]Map:  97%|█████████▋| 107/110 [02:34<00:04,  1.59s/ examples]Map:  98%|█████████▊| 108/110 [02:35<00:03,  1.62s/ examples]Map:  99%|█████████▉| 109/110 [02:37<00:01,  1.61s/ examples]Map: 100%|██████████| 110/110 [02:38<00:00,  1.63s/ examples]                                                             Saved results to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231011_test_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER Without Language Model: 1.024
+Fine-tuned Test WER With Language Model: 1.000
+
+
+Fine-tuned Test CER Without Language Model: 0.847
+Fine-tuned Test CER With Language Model: 1.237
+
+
+--> Getting fine-tuned alignment output without LM...
+--> Getting fine-tuned alignment output with LM...
+Saved Alignment output to: /srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/eval_AusKidTalk_spontaneous_full_20231011_test_finetuned_result.txt
+
+
+--> Showing some fine-tuned prediction errors...
+                                         target_text  ...                                   pred_str_with_LM
+0    well he was hiding because the dinosaur was sad  ...  eiemzezxeqemexeiepwxeqeleveltsxebemegpcwmxkqmx...
+1  the green baby is holding the bottle of milk w...  ...  ekqmxsrmemtexebepebejxelewxeqeozeveltsxekqmexe...
+2            a dinosaur jumps out and hulk is scared  ...  epkxevelteoeweperexeecdenewxeockxeptvxeqemzeye...
+3     and the baby dinosaur didn't know where he was  ...  etvxekqemxbepebejxveldoxwepirxvelvtukxyteoixiq...
+4                          the baby wants to pet him  ...           ekqemxebepebemexeieptkewxekeoexnepgyelte
+5                            he hide behind the tree  ...             eqemexeqelevexebemeqeltvxkepexekermeme
+6                               the egg was cracking  ...                     ekqemxemsexeiepwxegerepgyeltse
+7  the green baby is holding the bottle of milk a...  ...  epxesrmemtxebepebejxelwxqeoevltsxkqmxbecevevzm...
+8  the green baby is holding the bottle of milk w...  ...  ekqmxesrmemptxebepebejxelewxeqeozeveltsxekqmxb...
+9  baby hulk was riding on a skateboard and then ...  ...  ebepebejxeqeogyexiepewxereleveltsxotxkqmxwegek...
+
+[10 rows x 3 columns]
+--> Taking a deeper look...
+<pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> H H <pad> <pad> <pad> <pad> <pad> A <pad> <pad> K K <pad> <pad> | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> W <pad> <pad> A S S | | <pad> H <pad> <pad> <pad> <pad> <pad> I <pad> <pad> D D <pad> I N G G | <pad> <pad> <pad> B B <pad> <pad> <pad> A C C K K <pad> <pad> W <pad> A A R D S S | <pad> <pad> O N <pad> | | T H E E | | <pad> S <pad> <pad> C <pad> <pad> <pad> <pad> A Y <pad> <pad> <pad> <pad> P <pad> <pad> <pad> <pad> <pad> <pad> A <pad> R <pad> D <pad> | | <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> A N D D | H H <pad> E | | <pad> H H <pad> <pad> I T T <pad> <pad> <pad> <pad> <pad> S S | <pad> <pad> <pad> <pad> <pad> A N D | | <pad> <pad> <pad> <pad> <pad> E G G <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad> <pad>
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 11/10/2023 23:25:54
