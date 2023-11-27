@@ -1,0 +1,23 @@
+#!/bin/bash
+
+#PBS -l select=1:ncpus=16:ngpus=2:mem=92gb
+#PBS -l walltime=10:00:00
+#PBS -M yuenyuen.chan@student.unsw.edu.au
+#PBS -m ae
+#PBS -j oe
+#PBS -o /home/z5313567/results/Output_test_Report
+
+###---------------------------------------------------------------------------
+
+cd /srv/scratch/z5313567
+
+source anaconda3/bin/activate py3.10
+
+echo ""$(date)"" 2>&1 | tee -a /srv/scratch/z5313567/thesis/wav2vec2/output/AusKidTalk/AusKidTalk_output132_progressive_finetune_CU_AusKidTalk_spontaneous_lowercase.txt
+
+cd /srv/scratch/z5313567/thesis/wav2vec2/code
+
+python progressive_finetuning_CU_AusKidTalk_spontaneous_lowercase.py 2>&1 | tee -a /srv/scratch/z5313567/thesis/wav2vec2/output/AusKidTalk/AusKidTalk_output132_progressive_finetune_CU_AusKidTalk_spontaneous_lowercase.txt
+
+conda deactivate
+conda deactivate
