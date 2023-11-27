@@ -1,0 +1,5227 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF:         jack held the magnets over his
+HYP: gackedinsors **** *** ******* **** ***
+                S    D   D       D    D   D
+
+sentence 2
+REF:  wolfman
+HYP: watermel
+            S
+
+sentence 3
+REF: into
+HYP: anto
+        S
+
+sentence 4
+REF:  no one could hear anything people were getting in car   accidents and
+HYP: non cod   her  ean   hingpe      o   we  gettin ** car ecsodansand ***
+       S   S     S    S        S      S    S       S  D               S   D
+
+sentence 5
+REF: shipshape
+HYP:      sihe
+             S
+
+sentence 6
+REF: four
+HYP: four
+         
+
+sentence 7
+REF: thursdays
+HYP:   yoscuse
+             S
+
+sentence 8
+REF: poets
+HYP:  hoes
+         S
+
+sentence 9
+REF: the
+HYP:  tu
+       S
+
+sentence 10
+REF: and   watch    for                        him     and    he will soon come i don't know what you mean said the      boy but he went to the garden and wait
+HYP:  an watcfor imanhe wasocumatnowatyermenseathe boybate wento **** **** **** * ***** **** **** *** **** **** the gardonan  we ** **** ** *** ****** *** ****
+       S       S      S                          S       S     S    D    D    D D     D    D    D   D    D    D            S   S  D    D  D   D      D   D    D
+
+sentence 11
+REF: ensures
+HYP:  anchrs
+           S
+
+sentence 12
+REF: loathe
+HYP:   mose
+          S
+
+sentence 13
+REF: k
+HYP: c
+     S
+
+sentence 14
+REF:      six six four seven   four two
+HYP: sixisour *** **** seven ourtwo ***
+            S   D    D            S   D
+
+sentence 15
+REF: well
+HYP:   wo
+        S
+
+sentence 16
+REF:  side
+HYP: spird
+         S
+
+sentence 17
+REF: *** ** **** do research about eyesight
+HYP: two re sers  e      put  igdo      ite
+       I  I    I  S        S     S        S
+
+sentence 18
+REF: ****** briefcase
+HYP: breath     culps
+          I         S
+
+sentence 19
+REF:  on
+HYP: one
+       S
+
+sentence 20
+REF: how
+HYP: how
+        
+
+sentence 21
+REF:  them
+HYP: thumb
+         S
+
+sentence 22
+REF: maui
+HYP:   no
+        S
+
+sentence 23
+REF: gravestone
+HYP:    grestok
+              S
+
+sentence 24
+REF: wait
+HYP:    a
+        S
+
+sentence 25
+REF: up
+HYP: ub
+      S
+
+sentence 26
+REF:              if     you like it or else you will be sorry
+HYP: iflicotoaeswele beysary **** ** ** **** *** **** ** *****
+                   S       S    D  D  D    D   D    D  D     D
+
+sentence 27
+REF: could
+HYP:   fod
+         S
+
+sentence 28
+REF: she put    her things in  to her backpack   the plane landed
+HYP: sch pot thiggs ****** in two   h baagkthe erply  ledd ******
+       S   S      S      D      S   S        S     S     S      D
+
+sentence 29
+REF:  she
+HYP: shey
+        S
+
+sentence 30
+REF: * across
+HYP: i   cras
+     I      S
+
+sentence 31
+REF: weekdays
+HYP: whecolrs
+            S
+
+sentence 32
+REF: quiet
+HYP:   cit
+         S
+
+sentence 33
+REF: five
+HYP:   ve
+        S
+
+sentence 34
+REF:           a yacht slid around the point into the bay
+HYP: aytsloderon    te **** ****** *** point into the egy
+               S     S    D      D   D                  S
+
+sentence 35
+REF:      ands husbands
+HYP: beanedhas    pande
+             S        S
+
+sentence 36
+REF:   oh no said said     chief sanders  just when things  were  go going good in franksville
+HYP: ouno se   sa hsan derosghas     won thing    w gogoin godin ing  gslr **** ** ***********
+        S  S    S    S         S       S     S    S      S     S   S     S    D  D           D
+
+sentence 37
+REF: oozing
+HYP:   maci
+          S
+
+sentence 38
+REF: concrete
+HYP:   cartil
+            S
+
+sentence 39
+REF: green  red blue green blue red blue green blue green red green blue green blue green red blue red green red green blue green red
+HYP:     t egeg   gr   gre  gre   g eetr   etr **** green *** ***** **** ***** **** ***** *** **** *** ***** *** ***** **** ***** ***
+         S    S    S     S    S   S    S     S    D         D     D    D     D    D     D   D    D   D     D   D     D    D     D   D
+
+sentence 40
+REF: what
+HYP:  wod
+        S
+
+sentence 41
+REF: soon           a bird came hopping by
+HYP:  son epocuhpithr **** **** ******* **
+        S           S    D    D       D  D
+
+sentence 42
+REF:  three        five six four seven  six
+HYP: thhree ivetegsfour *** **** seven sexs
+          S           S   D    D          S
+
+sentence 43
+REF:  cashflow
+HYP: taterpiar
+             S
+
+sentence 44
+REF:   there                 jo was    mistaken  for  next day           she made a discovery which produced a tempe tempest
+HYP: theewas mostackonferenecta che medescuvrey wete pedos  te temtietempeos **** * ********* ***** ******** * ***** *******
+           S                  S   S           S    S     S   S             S    D D         D     D        D D     D       D
+
+sentence 45
+REF: unearthed
+HYP:    rhnoos
+             S
+
+sentence 46
+REF:       no      no please don't     play     your old flute begged doctor wong but it was too     late john  had started playing
+HYP: nonoples tonpley      r    fo begdoter wonebati *** ***** ****** ****** **** *** ** was two leatdone   ha strt    plon *******
+            S       S      S     S        S        S   D     D      D      D    D   D  D       S        S    S    S       S       D
+
+sentence 47
+REF: and you      know    what those stupid gerbils     didn't even thank me     they just ran   on that stupid wheel        and did stupid things
+HYP: and  no watthoust pegerwl   tin      e     ven thinkmiyth ghos  rean on thattste   pe   d whel   an     di    st pedthinggs *** ****** ******
+           S         S       S     S      S       S          S    S     S  S        S    S   S    S    S      S     S          S   D      D      D
+
+sentence 48
+REF: regime
+HYP: magine
+          S
+
+sentence 49
+REF: maui
+HYP: moun
+        S
+
+sentence 50
+REF: is
+HYP: is
+       
+
+sentence 51
+REF: the ends
+HYP:  th   es
+       S    S
+
+sentence 52
+REF: rouge
+HYP:    ge
+         S
+
+sentence 53
+REF: jacob
+HYP: jacub
+         S
+
+sentence 54
+REF:   racer was so  happy   that      he  could     run    as fast  as that  he ran and ran in circles
+HYP: renoser was  o heapee thethe codrhin osfasa theathe rhand   an rha  ser cus *** *** *** ** *******
+           S      S      S      S       S      S       S     S    S   S    S   S   D   D   D  D       D
+
+sentence 55
+REF:  he alway
+HYP: eho *****
+       S     D
+
+sentence 56
+REF: it's     not     that         you aren't  selling enough stuffed panda  bears it's just that there haven't been enough people coming to see  you  in       the first place i think what the  zoo needs is  a great advertising campaign
+HYP:   is nothety selngste peterbeross     es thetther   eavn btnupey    pl cuming **** **** **** ***** ******* **** ****** ****** ****** to sey nthe frs plasathin  kwat ***** * ***** **** the ones  grey ed vo tasin       kapeo ********
+        S       S        S           S      S        S      S       S     S      S    D    D    D     D       D    D      D      D      D      S    S   S         S     S     D D     D    D        S     S  S  S     S           S        D
+
+sentence 57
+REF: knew
+HYP:  bad
+        S
+
+sentence 58
+REF: what
+HYP:  wod
+        S
+
+sentence 59
+REF: cowherd
+HYP:  kaarog
+           S
+
+sentence 60
+REF: showed
+HYP:  sword
+          S
+
+sentence 61
+REF:  and
+HYP: eand
+        S
+
+sentence 62
+REF:  with
+HYP: voifh
+         S
+
+sentence 63
+REF: can share
+HYP: ned *****
+       S     D
+
+sentence 64
+REF: smooths
+HYP:    foth
+           S
+
+sentence 65
+REF: snake
+HYP: snake
+          
+
+sentence 66
+REF: stallsmith
+HYP:    stoeros
+              S
+
+sentence 67
+REF:        put the red en at
+HYP: potherdeae *** *** ** **
+              S   D   D  D  D
+
+sentence 68
+REF: aunt      grace said to mark and      christi terry at the n a c s a
+HYP:    y greasseato mart ** **** and creseteatthe     e eg eta * * * * *
+        S          S    S  D    D                S     S  S   S D D D D D
+
+sentence 69
+REF: newslink
+HYP:     noso
+            S
+
+sentence 70
+REF:  we         all looked   at  each other other trying to glean something   each from the other
+HYP: whe allokatetch  eaver athe trang ***** ***** ****** to  glen  sumthing ethrom **** the  uthe
+       S           S      S    S     S     D     D      D        S         S      S    D         S
+
+sentence 71
+REF: red
+HYP:  ed
+       S
+
+sentence 72
+REF: too
+HYP: two
+       S
+
+sentence 73
+REF:       but   how many                millions of creatures there must have been
+HYP: botheumen melin    o crecersthermousteavbein ** ********* ***** **** **** ****
+             S     S    S                       S  D         D     D    D    D    D
+
+sentence 74
+REF: mouthpart
+HYP: flowhrpot
+             S
+
+sentence 75
+REF:        isn't            he       known as the most brilliant journalist in new york
+HYP: isanthenonas themoastelian genosnoyork ** *** **** ********* ********** ** *** ****
+                S             S           S  D   D    D         D          D  D   D    D
+
+sentence 76
+REF: red
+HYP:  wd
+       S
+
+sentence 77
+REF: i'll i will use
+HYP:    s * **** ***
+        S D    D   D
+
+sentence 78
+REF:   ou  the  brown house was  on fire to the attic
+HYP: tthe bron huswas   one fie two **** ** the edogk
+        S    S      S     S   S   S    D  D         S
+
+sentence 79
+REF:   lion
+HYP: lihion
+          S
+
+sentence 80
+REF:       the         water is bad to drink
+HYP: therwater issspadedrink ** *** ** *****
+             S             S  D   D  D     D
+
+sentence 81
+REF: boyhood
+HYP:   boyod
+           S
+
+sentence 82
+REF: uh
+HYP: ot
+      S
+
+sentence 83
+REF: every              four years turtles from all over the land would crawl to great pond
+HYP:  evey fouryestertlsroum     o     ove **** *** **** the lind   wod  crau to  gete  pot
+         S                 S     S       S    D   D    D        S     S     S        S    S
+
+sentence 84
+REF: dolphin
+HYP: elephan
+           S
+
+sentence 85
+REF:       e ancient coin     was quite dull and warm w
+HYP: inchian   coine  wos cihtdol    an   om *** **** *
+           S       S    S       S     S    S   D    D D
+
+sentence 86
+REF: not  even         with  her wrath  the girl's ins insolence   couldn't wholly overcome her wonder
+HYP: not evean wathereatthe gers egeen gelo      c oly         e cumbherwon    der ******** *** ******
+             S            S    S     S    S      S   S         S          S      S        D   D      D
+
+sentence 87
+REF: guru
+HYP: garo
+        S
+
+sentence 88
+REF:              as they paddled small
+HYP: hashippotamsmal **** ******* *****
+                   S    D       D     D
+
+sentence 89
+REF:  there jo was   mistaken    for the next day        she made     a discovery  which produced a tempest
+HYP: theghe ** was mosticinfe thenec tiy  che med idescuvrey wice pedos         t tempos ******** * *******
+          S  D              S      S   S    S   S          S    S     S         S      S        D D       D
+
+sentence 90
+REF:   o
+HYP: fot
+       S
+
+sentence 91
+REF: whirlwind
+HYP:      wood
+             S
+
+sentence 92
+REF: obverse
+HYP:   ourse
+           S
+
+sentence 93
+REF: youth
+HYP:     h
+         S
+
+sentence 94
+REF:  divided by
+HYP: therhibo **
+            S  D
+
+sentence 95
+REF: layout
+HYP:  wheet
+          S
+
+sentence 96
+REF:  outcry
+HYP: utcriye
+           S
+
+sentence 97
+REF:   justin          replied   i promise that if we find the  perfect   hat   i'll wear it everyday
+HYP: testepid promostheatifewe fin ******* **** ** ** **** the perothel owert evetey **** ** ********
+            S                S   S       D    D  D  D    D            S     S      S    D  D        D
+
+sentence 98
+REF: volume
+HYP:   baon
+          S
+
+sentence 99
+REF: transverse
+HYP:  dinoceros
+              S
+
+sentence 100
+REF: gracious    ain't that          an awful    lot   of   money exclaimed  david david crockett davy crockett
+HYP:  greacos inthatan  afo latermuniya sclan deived dive crocosi        he crckos ***** ******** **** ********
+            S        S    S           S     S      S    S       S         S      S     D        D    D        D
+
+sentence 101
+REF:  bathgate
+HYP: spascagee
+             S
+
+sentence 102
+REF:     a turtle   as young as you  can      be  so slow even when
+HYP: ateru    eas youn ***** as   o cebe sosaure ven wean **** ****
+         S      S    S     D      S    S       S   S    S    D    D
+
+sentence 103
+REF: anxious
+HYP:  inceus
+           S
+
+sentence 104
+REF: playing
+HYP:      ba
+           S
+
+sentence 105
+REF:           zero      eight seven eight six five
+HYP: srlteightseven eghtsisive ***** ***** *** ****
+                  S          S     D     D   D    D
+
+sentence 106
+REF:  gest
+HYP: gitst
+         S
+
+sentence 107
+REF: fusion
+HYP:  vsian
+          S
+
+sentence 108
+REF:   it to take
+HYP: otat ** ****
+        S  D    D
+
+sentence 109
+REF: so     with swish  they thought maybe just maybe he could bring the     back the turtle cup
+HYP: se twishthe   aut mibey     tus mibey **** ***** he    co bring the beackthe tel ****** cup
+      S        S     S     S       S     S    D     D        S                  S   S      D    
+
+sentence 110
+REF: shots
+HYP: short
+         S
+
+sentence 111
+REF: flies
+HYP: flive
+         S
+
+sentence 112
+REF: the   tall and lumpy miss nelson didn't speak er said the         kids her throat must         be   sore    are  you sure you're well enough said mr blandsworth she's sure said all the kids
+HYP: the talepe mis   mel  san    din  spekr    se ** **** the cigehesromas  ey  saray  shr welenufhsa master baswad shsr   se ****** **** ****** **** ** *********** ***** **** **** *** the  cig
+              S   S     S    S      S      S     S  D    D                S   S      S    S          S      S      S    S    S      D    D      D    D  D           D     D    D    D   D        S
+
+sentence 113
+REF:    the r river was
+HYP: ihefrs * ***** ***
+          S D     D   D
+
+sentence 114
+REF: your great grandma came here                    i'm glad your your my gram grandma too i said
+HYP:  yor     g   groer ckin   hi gladyoyomiroganmatosad **** **** **** ** **** ******* *** * ****
+        S     S       S    S    S                      S    D    D    D  D    D       D   D D    D
+
+sentence 115
+REF:            he filled the marbles
+HYP: heyfetemobers ****** *** *******
+                 S      D   D       D
+
+sentence 116
+REF: showing
+HYP:   shord
+           S
+
+sentence 117
+REF: bluejay
+HYP:    agro
+           S
+
+sentence 118
+REF: the       box of tacks fell
+HYP: the poatecilr ** ***** ****
+                 S  D     D    D
+
+sentence 119
+REF:  said t'was would  be best to ask   the    owl then closed his eye
+HYP: fherd  twas    wa bey  bes  t  as ckthe elthen clos   this  iy ***
+         S     S     S   S    S  S   S     S      S    S      S   S   D
+
+sentence 120
+REF: rhythmic
+HYP: vegemice
+            S
+
+sentence 121
+REF:                        uhm hello hello mud   mud still didn't answer in fact mud was sound  asleep mud                     had actually sung himself to sleep
+HYP: theumhiphohephombotmoastil   din  aser  an teama ***** ****** ****** ** **** *** was  ound osiymid  ea eacslysunghiseuftosleyp ******** **** ******* ** *****
+                              S     S     S   S     S     D      D      D  D    D   D         S       S   S                       S        D    D       D  D     D
+
+sentence 122
+REF:   the            odor of spring makes h makes
+HYP: theot springmliggsmgs ** ****** ***** * *****
+         S               S  D      D     D D     D
+
+sentence 123
+REF: **** longleaf
+HYP: lone     leaf
+        I        S
+
+sentence 124
+REF:           uncle don took everyone
+HYP: throcoditokeron *** **** ********
+                   S   D    D        D
+
+sentence 125
+REF:    can i use
+HYP: tonios * ***
+          S D   D
+
+sentence 126
+REF: and     that made his   mom roll her eyes
+HYP: and thetmead **** his mirse **** *** ****
+                S    D         S    D   D    D
+
+sentence 127
+REF:                        at   a       red apple jack wiggled the magnet the apple did not move
+HYP: cateepdeckwegcthermemosth epl dinutmove ***** **** ******* *** ****** *** ***** *** *** ****
+                             S   S         S     D    D       D   D      D   D     D   D   D    D
+
+sentence 128
+REF: showing
+HYP: shewing
+           S
+
+sentence 129
+REF:  flagship
+HYP: flooscope
+             S
+
+sentence 130
+REF:   was
+HYP: wadge
+         S
+
+sentence 131
+REF: grey
+HYP: play
+        S
+
+sentence 132
+REF: she lives   with       her brothers in the  deep south
+HYP:  sh  livs wither breuthers ******** in the deset *****
+       S     S      S         S        D            S     D
+
+sentence 133
+REF: stillness
+HYP:      stes
+             S
+
+sentence 134
+REF: well         let's      see    this spring break       my brother saved a pigeon and let's see
+HYP:  wel thatethesping hegermiy batther   sive    te pithinea    batt ***** * ****** *** ***** ***
+        S             S        S       S      S     S        S       S     D D      D   D     D   D
+
+sentence 135
+REF: crystal
+HYP:    astu
+           S
+
+sentence 136
+REF: lengthened
+HYP:       rigo
+              S
+
+sentence 137
+REF: killjoy
+HYP:    kito
+           S
+
+sentence 138
+REF: ointment
+HYP: whitemet
+            S
+
+sentence 139
+REF: zero one one two    oh two
+HYP: **** one one two ogcto ***
+        D                 S   D
+
+sentence 140
+REF: *** longhair
+HYP: one     ulor
+       I        S
+
+sentence 141
+REF:        what    about the third form asked ms wong
+HYP: wterbutther foscoswt *** ***** **** ***** ** ****
+               S        S   D     D    D     D  D    D
+
+sentence 142
+REF: red
+HYP: red
+        
+
+sentence 143
+REF:            so    strong said the wind i am better
+HYP: sostragsather windibhed **** *** **** * ** ******
+                 S         S    D   D    D D  D      D
+
+sentence 144
+REF: pretty soon tons  of flies were landing on **** everybody
+HYP:  prety  son  ten ter fliys  wer  lnding on evey     butty
+          S    S    S   S     S    S       S       I         S
+
+sentence 145
+REF:  w
+HYP: hi
+      S
+
+sentence 146
+REF:   besides  the real reason i shaved the     cat was           to  keep it nice and cool
+HYP: bosidsthe reel  res     en i  cheiv  th cetwous the ckepetnigsin colar ** **** *** ****
+             S    S    S      S        S   S       S   S            S     S  D    D   D    D
+
+sentence 147
+REF:   uhm the
+HYP: ommge ***
+         S   D
+
+sentence 148
+REF: ragtag
+HYP:  cocat
+          S
+
+sentence 149
+REF:        it was too late
+HYP: hestwolat *** *** ****
+             S   D   D    D
+
+sentence 150
+REF:  searched        through his spider   book until       he   found a picture of something that looked
+HYP: serchthoo hispiderwockan tel     hy feunde pichr vfsumtng thetlot * ******* ** ********* **** ******
+             S              S   S      S      S     S        S       S D       D  D         D    D      D
+
+sentence 151
+REF: wolf
+HYP: leaf
+        S
+
+sentence 152
+REF: punchline
+HYP:        pn
+             S
+
+sentence 153
+REF:              the local scientist dr wong
+HYP: thelocuasinoshis doter        on ** ****
+                    S     S         S  D    D
+
+sentence 154
+REF: skip
+HYP: sket
+        S
+
+sentence 155
+REF: oh one  eight one oh
+HYP: ** one eggone  eg **
+      D          S   S  D
+
+sentence 156
+REF: rafts
+HYP: mouth
+         S
+
+sentence 157
+REF: to
+HYP: to
+       
+
+sentence 158
+REF:  a  short one and stop
+HYP: er astakk *** *** ****
+      S      S   D   D    D
+
+sentence 159
+REF:         what's your story
+HYP: tagosorwastoly **** *****
+                  S    D     D
+
+sentence 160
+REF: off
+HYP:  af
+       S
+
+sentence 161
+REF: one would suppose that     they       would know                s    that                    they would know nothing at all but about school af affairs but they did but they do
+HYP: one     w      so  pos thatthey wnosthetthe  wno nutthingatoboata beuscol ofirsbotthiydibottheydo ***** **** ******* ** *** *** ***** ****** ** ******* *** **** *** *** **** **
+             S       S    S        S           S    S                S       S                       S     D    D       D  D   D   D     D      D  D       D   D    D   D   D    D  D
+
+sentence 162
+REF: would have     to take        the good with the bad
+HYP:   wad eavt tecthe   go witherbead **** **** *** ***
+         S    S      S    S          S    D    D   D   D
+
+sentence 163
+REF: values
+HYP: vyayos
+          S
+
+sentence 164
+REF: tiger
+HYP: taido
+         S
+
+sentence 165
+REF: junkyard
+HYP: droncurd
+            S
+
+sentence 166
+REF: shipshape
+HYP:     sasoe
+             S
+
+sentence 167
+REF: girl  power
+HYP: girl couwrs
+               S
+
+sentence 168
+REF: seventy
+HYP: sevente
+           S
+
+sentence 169
+REF: birdcage
+HYP:    siclg
+            S
+
+sentence 170
+REF: asians
+HYP:  eaars
+          S
+
+sentence 171
+REF: three
+HYP: three
+          
+
+sentence 172
+REF:        i        swear that's    the reason      also                   i was   going   to sell the cat fur and buy my sister jenny braces for her big stupid face
+HYP: aswethat herhesonausu      s gongto   ethe cueferand betmasstegheibeshas fre begsope feas **** *** *** *** *** *** ** ****** ***** ****** *** *** *** ****** ****
+            S            S      S      S      S         S                   S   S       S    S    D   D   D   D   D   D  D      D     D      D   D   D   D      D    D
+
+sentence 173
+REF: northview
+HYP:      nosa
+             S
+
+sentence 174
+REF: oakbrook
+HYP:     opoc
+            S
+
+sentence 175
+REF: who is     this  young    punk     he thought to himself
+HYP:  ho as thesyung punkhe thottim pseufe ******* ** *******
+       S  S        S      S       S      S       D  D       D
+
+sentence 176
+REF: a  col   i colored the dragon pictures all green so it    didn't  take very long
+HYP: o coai coe ******* the dragan  hicsers   a  grin so it dintakvey laong **** ****
+     S    S   S       D          S        S   S     S               S     S    D    D
+
+sentence 177
+REF:   yes   said        anne candidly          i've heard that you and he were engaged once
+HYP: yesad ekande yaivhrtheat   andhey werngigetwons ***** **** *** *** ** **** ******* ****
+         S      S           S        S             S     D    D   D   D  D    D       D    D
+
+sentence 178
+REF: red
+HYP: ***
+       D
+
+sentence 179
+REF:  of
+HYP: cub
+       S
+
+sentence 180
+REF:  we       can't    let you play the flute anymore john
+HYP: whe ctleaypleay theflo eny moon *** ***** ******* ****
+       S           S      S   S    S   D     D       D    D
+
+sentence 181
+REF:  air in them
+HYP: aria ** ****
+        S  D    D
+
+sentence 182
+REF: yule
+HYP:   go
+        S
+
+sentence 183
+REF:        it sure is
+HYP: vicherise **** **
+             S    D  D
+
+sentence 184
+REF: have
+HYP:  had
+        S
+
+sentence 185
+REF: please remind     me not to be   selfish
+HYP:   ples ermind menute *** ** be selfhashe
+          S      S      S   D  D            S
+
+sentence 186
+REF:  then the              flies stopped but just then    a man moved   into town who played the flute so badly ***** that people would run away screaming
+HYP: thean the fliystubtghasthean   amine mov    d anto teon   o  pled theflo **** *** ****** *** ***** so badly theat phey    pou     w ron  wey   scremig
+         S                      S       S   S    S    S    S   S     S      S    D   D      D   D     D              I    S      S     S   S    S         S
+
+sentence 187
+REF: they didn't want     to  kick him out of
+HYP:  the dinwon    c cichim outer *** *** **
+        S      S    S      S     S   D   D  D
+
+sentence 188
+REF: the source of the the huge river is the clear spring
+HYP: the   sasa ** the the  hig rever is the     c spring
+              S  D            S     S            S       
+
+sentence 189
+REF:    maybe    a poorly played flute doesn't sound all that bad
+HYP: mebether boly   pley flodas  nson othated ***** *** **** ***
+            S    S      S      S     S       S     D   D    D   D
+
+sentence 190
+REF:     he started shaking the flute         to    get     the       flies   off and accidentally s smashed it into pieces
+HYP: hester      ri kingthe flo    te ghetthefls ofeand eseyseg smastitinte pesas *** ************ * ******* ** **** ******
+          S       S       S   S     S          S      S       S           S     S   D            D D       D  D    D      D
+
+sentence 191
+REF: we'll     meet at  the zoo   at ten o'clock
+HYP:     a metadthe  o aten   o cloc *** *******
+         S        S  S    S   S    S   D       D
+
+sentence 192
+REF: looked really silly          at            the dances dancing to music they couldn't hear they just couldn't lead a normal life
+HYP:      t rheser atthe dasorsdisin codheartaghost   llaf ******* ** ***** **** ******** **** **** **** ******** **** * ****** ****
+          S      S     S           S              S      S       D  D     D    D        D    D    D    D        D    D D      D    D
+
+sentence 193
+REF: dogfish
+HYP: dogfash
+           S
+
+sentence 194
+REF: range
+HYP:  rich
+         S
+
+sentence 195
+REF: or tune the tv or    scratch when       you have  an   itch and   when sister  tried    to play jacks she couldn't get any higher than twosies
+HYP: ar tomo   t  e  a screatshan aven egeanwhan    o ser treade ple hecshe   codn gheten hader then tosis *** ******** *** *** ****** **** *******
+      S    S   S  S  S          S    S         S    S   S      S   S      S      S      S     S    S     S   D        D   D   D      D    D       D
+
+sentence 196
+REF:     oh         well that makes sense then
+HYP: fhouwe thetmegancon **** ***** ***** ****
+          S            S    D     D     D    D
+
+sentence 197
+REF:               ree  seven two three seven two
+HYP: teventoamterthree sevent *** ***** ***** ***
+                     S      S   D     D     D   D
+
+sentence 198
+REF: orange
+HYP: garage
+          S
+
+sentence 199
+REF: and he was only one     foot away
+HYP: and he  ws  ole one fotowegk ****
+              S    S            S    D
+
+sentence 200
+REF:         the pitcher threw the baseball  so        hard that      it    made     a loud pop sound when it was caught
+HYP: hipicerthro ******* ***** the     begs aso arthtetmead ilod copsond wonwone egwas curt *** ***** **** ** *** ******
+               S       D     D            S   S           S    S       S       S     S    S   D     D    D  D   D      D
+
+sentence 201
+REF: shaped
+HYP:   shee
+          S
+
+sentence 202
+REF: she  goes    to a friends
+HYP:  sh ostwo phons * *******
+       S     S     S D       D
+
+sentence 203
+REF: brethren
+HYP: fetheron
+            S
+
+sentence 204
+REF: the
+HYP:   f
+       S
+
+sentence 205
+REF:  ma
+HYP: mar
+       S
+
+sentence 206
+REF: dentist
+HYP:   tetos
+           S
+
+sentence 207
+REF: lo
+HYP: **
+      D
+
+sentence 208
+REF:     hi        what did you bring
+HYP: shider wodshihbrng *** *** *****
+          S           S   D   D     D
+
+sentence 209
+REF: failure
+HYP:    aiyo
+           S
+
+sentence 210
+REF: yes
+HYP: yes
+        
+
+sentence 211
+REF:  from then on
+HYP: trnus **** **
+         S    D  D
+
+sentence 212
+REF:                         enough of this nonsense said yin yin's mother poo poo
+HYP: anothothsmoncersysmatherphiper ** **** ******** **** *** ***** ****** *** ***
+                                  S  D    D        D    D   D     D      D   D   D
+
+sentence 213
+REF: when
+HYP: sone
+        S
+
+sentence 214
+REF: it's called   cops    and robbers
+HYP: itts   card cupsin rabers *******
+        S      S      S      S       D
+
+sentence 215
+REF: than other bubbles
+HYP: then  ther     bus
+        S     S       S
+
+sentence 216
+REF:   i  should think you had an         imagination sure enough she laughed
+HYP: asa thinggk   ead *** *** an iamagenacianrlaflaf **** ****** *** *******
+       S       S     S   D   D                      S    D      D   D       D
+
+sentence 217
+REF: cowgirls
+HYP:   cogars
+            S
+
+sentence 218
+REF:  an tan
+HYP: ten ***
+       S   D
+
+sentence 219
+REF:    thirty five
+HYP: thetefive ****
+             S    D
+
+sentence 220
+REF: withheld
+HYP:      wai
+            S
+
+sentence 221
+REF: one
+HYP: one
+        
+
+sentence 222
+REF: one was smaller the third was about     the    same size
+HYP: one was   moler the therd was     e boutthe sinbsis ****
+                   S         S         S       S       S    D
+
+sentence 223
+REF: barroom
+HYP:   birom
+           S
+
+sentence 224
+REF: race      um racer um he was   a   fast dog   and when   he got old um he developed   problems with his  legs and um
+HYP:  rhe thereer ***** ** he was the faster  an whent    e gatt  od   u ** he        de veleprotms with  is leggs  an em
+        S       S     D  D          S      S   S     S    S    S   S   S  D            S          S        S     S   S  S
+
+sentence 225
+REF: cat
+HYP:   j
+       S
+
+sentence 226
+REF:       a tiger      is             a beautiful animal but you should never try to pet one
+HYP: petager   ise beterfl eatemshemever      tito  pewen *** *** ****** ***** *** ** *** ***
+           S     S       S             S         S      S   D   D      D     D   D  D   D   D
+
+sentence 227
+REF:     the stars        of the parade    they were up on the main float
+HYP: thestos     o tepraythe   w     po themene  flo ** ** *** **** *****
+           S     S         S   S      S       S    S  D  D   D    D     D
+
+sentence 228
+REF: filegate
+HYP:  spiowed
+            S
+
+sentence 229
+REF: rehearsed
+HYP:   rheeros
+             S
+
+sentence 230
+REF:   hi
+HYP: head
+        S
+
+sentence 231
+REF: a force equal to         that will move to move the earth
+HYP: e sarse    ca to theatwmovtwo  mov **** ** **** the *****
+     S     S     S               S    S    D  D    D         D
+
+sentence 232
+REF: head
+HYP:  fod
+        S
+
+sentence 233
+REF: user
+HYP: yoso
+        S
+
+sentence 234
+REF:  red
+HYP: rhed
+        S
+
+sentence 235
+REF: uhm he would        play    like the clarinet and  the  tu tuba   or something         i like lots of different instruments
+HYP: *** he   wod playligkthe clnutan the      two two sing lig   at dien        in stermants **** **** ** ********* ***********
+       D        S           S       S            S   S    S   S    S    S         S         S    D    D  D         D           D
+
+sentence 236
+REF:        but sometimes   people like to   eat peanuts on their     banana splits
+HYP: botsumtims       phe pouligck    t et pinut ******* on  ther vninoscors ******
+              S         S        S    S  S     S       D        S          S      D
+
+sentence 237
+REF: birds
+HYP: birdg
+         S
+
+sentence 238
+REF:            there        are         a      lot of computers now but there weren't many twenty years ago
+HYP: theelocumteorsno bottheawas wantmeany twanteys co ********* *** *** ***** ******* **** ****** ***** ***
+                    S          S         S        S  S         D   D   D     D       D    D      D     D   D
+
+sentence 239
+REF: tan
+HYP: ten
+       S
+
+sentence 240
+REF:    but     i'm awfully  hungry      i       wish you'd get me something to eat
+HYP: battim oufhuly    ungr wischod ghetme sumthingto     e *** ** ********* ** ***
+          S       S       S       S      S          S     S   D  D         D  D   D
+
+sentence 241
+REF: my
+HYP: mi
+      S
+
+sentence 242
+REF: the   other           two i don't know this one
+HYP: the eathert maternotoswan * ***** **** **** ***
+               S             S D     D    D    D   D
+
+sentence 243
+REF:  the
+HYP: firt
+        S
+
+sentence 244
+REF: zero zero zero eight two
+HYP: tseg **** **** ***** ***
+        S    D    D     D   D
+
+sentence 245
+REF:    poured was the
+HYP: wordwasfi *** ***
+             S   D   D
+
+sentence 246
+REF: october
+HYP: cotober
+           S
+
+sentence 247
+REF: offhand
+HYP:     mae
+           S
+
+sentence 248
+REF: tuesday
+HYP: twoasty
+           S
+
+sentence 249
+REF:   but not
+HYP: banan ***
+         S   D
+
+sentence 250
+REF: there was something mysterious                    about      the man first of all he was wearing two watches
+HYP:   the was        um      thing masirosabethemenefrsuehe wasweing *** ***** ** *** ** *** ******* two watchos
+         S             S          S                        S        S   D     D  D   D  D   D       D           S
+
+sentence 251
+REF:     t's your story
+HYP: tostory **** *****
+           S    D     D
+
+sentence 252
+REF: close    them soon
+HYP: cloud thenson ****
+         S       S    D
+
+sentence 253
+REF: siam
+HYP:  xon
+        S
+
+sentence 254
+REF: adverbs
+HYP:    agrs
+           S
+
+sentence 255
+REF: though
+HYP:     yo
+          S
+
+sentence 256
+REF:   oh willow tree    he said said the little bird will you let    me live       in your warm   branches until     the springtime comes no said the  willow            tree i never talk to strangers go away
+HYP: wila    che    h satsa **** **** the  liter berd   wa   y let liver   ao breighis   an   tl theospring   tin cumbsdo          e   the wl **** the anevher uostringosgoway * ***** **** ** ********* ** ****
+        S      S    S     S    D    D          S    S    S   S         S    S        S    S    S          S     S       S          S     S  S    D           S               S D     D    D  D         D  D    D
+
+sentence 257
+REF: push a
+HYP: maeg *
+        S D
+
+sentence 258
+REF:   but   i am too          old to   endure         your shame and my misery much longer
+HYP: batin two  o two ngeryoscheim an mimisery matchlaongar ***** *** ** ****** **** ******
+         S   S  S   S            S  S        S            S     D   D  D      D    D      D
+
+sentence 259
+REF: isn't        he known as the most brilliant journalist     of in new york
+HYP:    is thathenon ***** as the  aus    trelia  genosteve inorck ** *** ****
+         S         S     D           S         S          S      S  D   D    D
+
+sentence 260
+REF: they shook        the   flour  off her and set      her down on the kitchen floor
+HYP: they   ock therflower oterand sate den  om  he ckitchen flor ** *** ******* *****
+              S          S       S    S   S   S   S        S    S  D   D       D     D
+
+sentence 261
+REF:  it might be         a           black widow mr foster smiled
+HYP: hit mitbe  e blagwhedo thsterfososmild ***** ** ****** ******
+       S     S  S         S               S     D  D      D      D
+
+sentence 262
+REF: measure the   goat before you go out
+HYP:    tege  th cofore  gouts *** ** ***
+           S   S      S      S   D  D   D
+
+sentence 263
+REF:  watch this
+HYP: wacish ****
+          S    D
+
+sentence 264
+REF:   ay monday
+HYP: gone     eg
+        S      S
+
+sentence 265
+REF:      here the paper
+HYP: hithepier *** *****
+             S   D     D
+
+sentence 266
+REF: she       said  that she   had       to help other passengers
+HYP: she seadthethe hateo hep ather pasangrs **** ***** **********
+                  S     S   S     S        S    D     D          D
+
+sentence 267
+REF: sh
+HYP:  s
+      S
+
+sentence 268
+REF:        s when some
+HYP: swinsumb **** ****
+            S    D    D
+
+sentence 269
+REF: ** goldcreek
+HYP: go       crg
+      I         S
+
+sentence 270
+REF: midyear
+HYP:     vag
+           S
+
+sentence 271
+REF:    then they
+HYP: thenlea ****
+           S    D
+
+sentence 272
+REF:    tried to smile
+HYP: trivetwo ** smile
+            S  D      
+
+sentence 273
+REF: *** a   tiger is   a beautiful animal     but      you should never try to pet one
+HYP: twe a tatager is tas        ei beterf etmoety chenever  trete  peon *** ** *** ***
+       I         S      S         S      S       S        S      S     S   D  D   D   D
+
+sentence 274
+REF: because they all      had such
+HYP:      be  cas thi ragesage ****
+           S    S   S        S    D
+
+sentence 275
+REF: winter was   coming and all the birds flew  away to the       warm south there there  they would wait for the spring
+HYP: winter was cumingan *** *** the  bers   lo weyto ** the itmosusthe   the   the     w wetfe   tho **** *** *** spring
+                       S   D   D         S    S     S  D              S     S     S     S     S     S    D   D   D       
+
+sentence 276
+REF:    nodule
+HYP: nogheweps
+             S
+
+sentence 277
+REF: cheetah
+HYP:  cheasr
+           S
+
+sentence 278
+REF:     that are near and far
+HYP: thatnean *** **** *** ***
+            S   D    D   D   D
+
+sentence 279
+REF: graveyard
+HYP:  greayode
+             S
+
+sentence 280
+REF: **** farmhouse
+HYP: tome      hous
+        I         S
+
+sentence 281
+REF: ** ***** bulkheads
+HYP: ba cegsi    nsiraa
+      I     I         S
+
+sentence 282
+REF: they  shook   the flour off       her and set her down on the  kitchen floor
+HYP: thay octheo flowr    or end seaterdon *** *** *** **** on the ckitchen  flor
+        S      S     S     S   S         S   D   D   D    D               S     S
+
+sentence 283
+REF: two           five six five four
+HYP: two fivesigsiveour *** **** ****
+                      S   D    D    D
+
+sentence 284
+REF: wait wait
+HYP:  ree wigs
+        S    S
+
+sentence 285
+REF:              i'll       bet    you didn't know something else did you know that i wanted to be a barber
+HYP: hatheytnosumthing esdnothet wontet    bye beer ********* **** *** *** **** **** * ****** ** ** * ******
+                     S         S      S      S    S         D    D   D   D    D    D D      D  D  D D      D
+
+sentence 286
+REF:     i swore to bring you the terrible   head and  see how     i keep my oath
+HYP: aswor ***** to wring *** the   terbol hedand  ey heuw   e ckpmi   ot ** ****
+         S     D        S   D            S      S   S    S   S     S    S  D    D
+
+sentence 287
+REF:         big rapids asked laura
+HYP: thigrashost ****** ***** *****
+               S      D     D     D
+
+sentence 288
+REF:    no one could hear anything  people were   getting into car accidents    and everybody looked really silly at dances        dancing to music they couldn't    hear
+HYP: noone  co     d  hir       an thingpe    p gettingin   to  ca      acso dinsan       eve  batty    lot  rely el      a dintarsdansing to   mus    i      thi cotnhir
+         S   S     S    S        S       S    S         S    S   S         S      S         S      S      S     S  S      S              S        S    S        S       S
+
+sentence 289
+REF:    do            you       know why i asked her to send me the manuscript
+HYP: denoh easertosenethe minoscoppe *** * ***** *** ** **** ** *** **********
+         S              S          S   D D     D   D  D    D  D   D          D
+
+sentence 290
+REF: nonsense
+HYP:  noncers
+            S
+
+sentence 291
+REF:  i
+HYP: ay
+      S
+
+sentence 292
+REF:  we will
+HYP: whe whel
+       S    S
+
+sentence 293
+REF: wealth
+HYP:     eh
+          S
+
+sentence 294
+REF: fluent
+HYP:   flod
+          S
+
+sentence 295
+REF: the  bunch     of grapes was pressed into wine
+HYP:  he buttes sntern ****** *** ******* **** ****
+       S      S      S      D   D       D    D    D
+
+sentence 296
+REF: who looked            a      lot like   a   panda would look     if  a pan  if pandas were birds were discussing about going to the moon
+HYP: hwo     lo lalakarpiowa lockiphe pini bis werberd    we  des cusing or bot gon ****** **** ***** **** ********** ***** ***** to  te moon
+       S      S            S        S    S   S       S     S    S      S  S   S   S      D    D     D    D          D     D     D      S     
+
+sentence 297
+REF: two three seven
+HYP: two three teven
+                   S
+
+sentence 298
+REF:  the    bad flute player was rooster john
+HYP: ther batflo pleyr ****** was      er  gon
+        S      S     S      D           S    S
+
+sentence 299
+REF: chimney
+HYP:    jhei
+           S
+
+sentence 300
+REF:    flies anymore
+HYP: sidemime *******
+            S       D
+
+sentence 301
+REF: an
+HYP: ei
+      S
+
+sentence 302
+REF: grayest
+HYP: greaost
+           S
+
+sentence 303
+REF: and      th  uhm      she couldn't stop because bad  habits  are  hard to break and
+HYP: ean ccumche codn stupcuas ******** **** ******* bad haetter hade breck an ***** ***
+       S       S    S        S        D    D       D           S    S     S  S     D   D
+
+sentence 304
+REF: rapids
+HYP:   arpt
+          S
+
+sentence 305
+REF:        play the flute normally
+HYP: stosodormey *** ***** ********
+               S   D     D        D
+
+sentence 306
+REF: tiger
+HYP: tatos
+         S
+
+sentence 307
+REF:  minutes long   or about
+HYP: neslinor    o bout *****
+            S    S    S     D
+
+sentence 308
+REF:    uhm well the little bird     uhm    had      a broken wing and so he  asked all the tr
+HYP: cumsil **** the   litl bird ushader brocon wingan ****** **** *** so he estoag *** *** **
+          S    D          S            S      S      S      D    D   D            S   D   D  D
+
+sentence 309
+REF:      said     mr higgins   thank     you      mr higgins said    bill he took the jar now i can
+HYP: sadmoster hegins  thanco mouster iginsed bilrhey    tock  tha gonocon ** **** *** *** *** * ***
+             S      S       S       S       S       S       S    S       S  D    D   D   D   D D   D
+
+sentence 310
+REF:  ions
+HYP: rhins
+         S
+
+sentence 311
+REF: that's
+HYP:   that
+          S
+
+sentence 312
+REF:  green
+HYP: wdcree
+          S
+
+sentence 313
+REF: can uhm
+HYP:   c ***
+       S   D
+
+sentence 314
+REF:  some
+HYP: thumb
+         S
+
+sentence 315
+REF:    the wind
+HYP: herwid ****
+          S    D
+
+sentence 316
+REF: racer   had to be on the leash since  he still        needed to heal from his surgery but it was nice to      see all his friends
+HYP: raser adede ** be  e les   ass tilmi the  hile trmosetrebate ** **** **** *** ******* *** ** was  nis to saasreas *** *** *******
+         S     S  D     S   S     S     S   S     S             S  D    D    D   D       D   D  D        S           S   D   D       D
+
+sentence 317
+REF:  afterward  they went    to   lucy's where     they stuffed themselves silly but soon they made serious mistake
+HYP: atterwrthe wento locy wethe stutthem   ses lybatson   thema   smostack ***** *** **** **** **** ******* *******
+              S     S    S     S        S     S        S       S          S     D   D    D    D    D       D       D
+
+sentence 318
+REF: red
+HYP:   b
+       S
+
+sentence 319
+REF: this
+HYP: fish
+        S
+
+sentence 320
+REF: it was    gross   then suddenly the flies flew away    fast as they could
+HYP: ** was grosthan sadnly ******** the   fli    l rwey feastas ** they   cod
+      D            S      S        D         S    S    S       S  D          S
+
+sentence 321
+REF:         and tomorrow  is our f field trip
+HYP: andtomatois    epfel cop *** * ***** ****
+               S        S   S   D D     D    D
+
+sentence 322
+REF: the clubhouse
+HYP: cir     cubus
+       S         S
+
+sentence 323
+REF: then they wiggle and     swim away
+HYP: then thee   whel  an swimowey ****
+             S      S   S        S    D
+
+sentence 324
+REF:         five zero five four six
+HYP: fiverivefour sigs **** **** ***
+                S    S    D    D   D
+
+sentence 325
+REF: depths
+HYP:     tu
+          S
+
+sentence 326
+REF:  fireworks
+HYP: spiderwebs
+              S
+
+sentence 327
+REF: another   way   to say that there  are twelve donuts is        to    say that there are a dozen
+HYP:      an ather wets  et ther telve doms ****** ****** is toseather dushon **** ***** *** * *****
+           S     S    S   S    S     S    S      D      D            S      S    D     D   D D     D
+
+sentence 328
+REF: it was  a       deep dazzling lovely blue deeper than the deepest blue  of     the sky
+HYP: it was ha depdasulng    levly    blo   de    per than the   depos    t blo thosciy ***
+             S          S        S      S    S      S                S    S   S       S   D
+
+sentence 329
+REF:     i swore to    bring you the terrible head    and see how i      keep  my my oath
+HYP: iswar ***** to breingye *** the       te boul headan sey huw i ckepmitmi oth ** ****
+         S     D           S   D            S    S      S   S   S           S   S  D    D
+
+sentence 330
+REF:    what's your story
+HYP: wachstory **** *****
+             S    D     D
+
+sentence 331
+REF: massaged
+HYP: mausarge
+            S
+
+sentence 332
+REF: he was the
+HYP: he was   t
+              S
+
+sentence 333
+REF:      and  the littlest    panda was    named yin yin   and uh she and her family were at a zoo and the zookeeper's name was fred
+HYP: anthelos pier        s iyenoand hin feamlywr aos   o anthe  o  ke pes  no wasred **** ** * *** *** *** *********** **** *** ****
+            S    S        S        S   S        S   S   S     S  S   S   S   S      S    D  D D   D   D   D           D    D   D    D
+
+sentence 334
+REF:   zero three three oh zero
+HYP: athree three egero ** ****
+          S           S  D    D
+
+sentence 335
+REF: so          it took some time before anyone   could  figure out which of the turtles were    the slowest
+HYP: so itoksomntim   be  for  ene    won     co feigher twegeav *** ***** ** the    tetl    w oseros *******
+                  S    S    S    S      S      S       S       S   D     D  D           S    S      S       D
+
+sentence 336
+REF: decoys
+HYP:   cics
+          S
+
+sentence 337
+REF: she gathered           up      the moss and  the remains of the bees wax
+HYP: che   gathed upthemartean thermins athe bes wags ******* ** *** **** ***
+       S        S            S        S    S   S    S       D  D   D    D   D
+
+sentence 338
+REF: they feel movement in the ground
+HYP:  the feli   mintin ** the ground
+        S    S        S  D           
+
+sentence 339
+REF: she      saw that she was on the  grass and and the broken wheel bes beside her
+HYP: che athatche **** *** was  n the grasin  in *** the brocon  weel  be sbesid   r
+       S        S    D   D      S          S   S   D          S     S   S      S   S
+
+sentence 340
+REF: four
+HYP:  fou
+        S
+
+sentence 341
+REF: clip
+HYP: swid
+        S
+
+sentence 342
+REF: northbrook
+HYP:     tspock
+              S
+
+sentence 343
+REF: i'm     serious what still it's still    uh   still  it's   not       as bad as millions of flies i suppose
+HYP:  an erioswatste    s   ste stel     s nudas beateas melin erfle iserpose *** ** ******** ** ***** * *******
+       S           S    S     S    S     S     S       S     S     S        S   D  D        D  D     D D       D
+
+sentence 344
+REF:       how         strange that             a live animal should grow on a stalk like a flower
+HYP: hustringe thetelithenmsho  gro onmostocklico **** ****** ****** **** ** * ***** **** * flower
+             S               S    S             S    D      D      D    D  D D     D    D D       
+
+sentence 345
+REF:  on   a new
+HYP: one egt ***
+       S   S   D
+
+sentence 346
+REF: indulged
+HYP:   adoget
+            S
+
+sentence 347
+REF: northbrook
+HYP:         oc
+              S
+
+sentence 348
+REF: so   what       they're   doing       is  they're   tell they're reading the story about he their they're great great great great grandma
+HYP: so wather dingisdetethe wedhing thostory boutethe geygyy    gggm ******* *** ***** ***** ** ***** ******* ***** ***** ***** ***** *******
+             S             S       S        S        S      S       S       D   D     D     D  D     D       D     D     D     D     D       D
+
+sentence 349
+REF: demure
+HYP:  temeo
+          S
+
+sentence 350
+REF: those  are two
+HYP:  thos otwo ***
+         S    S   D
+
+sentence 351
+REF: in      a circle
+HYP: in asircu ******
+             S      D
+
+sentence 352
+REF:   y ninety
+HYP: nin ******
+       S      D
+
+sentence 353
+REF:     they just couldn't lead a normal life
+HYP: thegscle olaf ******** **** * ****** ****
+            S    S        D    D D      D    D
+
+sentence 354
+REF: favorites
+HYP:   feathrt
+             S
+
+sentence 355
+REF: five     six  one and zero
+HYP:   iv eggsone elar *** ****
+        S       S    S   D    D
+
+sentence 356
+REF:       i  said someday i'm going to     be  a pilot and i'll only serve            banana splits on my plane
+HYP: isersun theme     gon  te    ey  e piloan ie ***** *** **** only   ser baninososomitrpon ****** ** ** *****
+           S     S       S   S     S  S      S  S     D   D    D          S                 S      D  D  D     D
+
+sentence 357
+REF: mucus
+HYP: yicus
+         S
+
+sentence 358
+REF:  is
+HYP: eas
+       S
+
+sentence 359
+REF: the
+HYP:  zo
+       S
+
+sentence 360
+REF:     dad     please don't read the next part
+HYP: sterfes othenespoe ***** **** *** **** ****
+           S          S     D    D   D    D    D
+
+sentence 361
+REF: how
+HYP: owl
+       S
+
+sentence 362
+REF:   fit in the cup
+HYP: teten ** the cup
+         S  D        
+
+sentence 363
+REF:          said his mother
+HYP: feadhismather *** ******
+                 S   D      D
+
+sentence 364
+REF: hearing these words    jim revised     to conquer his     alarm by himself
+HYP:      ea    ia   the wasgen      re fidtwo    cais lon bihisaufe ** *******
+           S     S     S      S       S      S       S   S         S  D       D
+
+sentence 365
+REF:   i don't know that i don't know
+HYP: eot ***** **** **** * ***** ****
+       S     D    D    D D     D    D
+
+sentence 366
+REF:      throw   out     the used paper cup and plate
+HYP: throuthens ceper cupmplo **** ***** *** *** *****
+              S     S       S    D     D   D   D     D
+
+sentence 367
+REF:  what did it eat
+HYP: wadek *** ** ***
+         S   D  D   D
+
+sentence 368
+REF:  plus
+HYP: plash
+         S
+
+sentence 369
+REF:      it's a surprise
+HYP: isserpris * ********
+             S D        D
+
+sentence 370
+REF: northbound
+HYP:     nosoud
+              S
+
+sentence 371
+REF: there's       is    the there's probably
+HYP:      th ithathas proley ******* ********
+           S        S      S       D        D
+
+sentence 372
+REF:    beds were
+HYP: beidish ****
+           S    D
+
+sentence 373
+REF:   poor kitty this    and      poor   kitty that it's your fault really
+HYP: cocoty ***** this mpocot theriaser fatrhel **** **** **** ***** ******
+          S     D           S         S       S    D    D    D     D      D
+
+sentence 374
+REF:             end         of the other magnet wow cried jack ma magnets
+HYP: andtetthermeata cegerumous *** ***** ****** *** ***** **** ** *******
+                   S          S   D     D      D   D     D    D  D       D
+
+sentence 375
+REF: twelfth
+HYP:  girafe
+           S
+
+sentence 376
+REF:   h
+HYP: haa
+       S
+
+sentence 377
+REF:   au a
+HYP: sowe *
+        S D
+
+sentence 378
+REF: time
+HYP: tail
+        S
+
+sentence 379
+REF: yes
+HYP: yes
+        
+
+sentence 380
+REF: it was
+HYP:  e wes
+      S   S
+
+sentence 381
+REF: it is clear           that     no water has come near
+HYP: it is   cle theatnowateras cunele ***** *** **** ****
+               S              S      S     D   D    D    D
+
+sentence 382
+REF: he was very upset           at first then he said           oh    well good thing i brought my old flute as back up
+HYP: he was  vey  sert atfrsttheane ***** **** he sead owelgothinga brautmi   ol   flo * ******* ** *** ***** as ecup **
+               S     S            S     D    D       S            S       S    S     S D       D  D   D     D       S  D
+
+sentence 383
+REF: in   each hole
+HYP: an eschol ****
+      S      S    D
+
+sentence 384
+REF: eighty
+HYP:     ea
+          S
+
+sentence 385
+REF: outdoors
+HYP:   oudors
+            S
+
+sentence 386
+REF: of
+HYP:  u
+      S
+
+sentence 387
+REF: glad
+HYP:  gig
+        S
+
+sentence 388
+REF: green  red blue green red blue red green     red green
+HYP:  gren eblo gren  read blo **** red  gren readgre *****
+         S    S    S     S   S    D         S       S     D
+
+sentence 389
+REF: we've
+HYP:  leaf
+         S
+
+sentence 390
+REF: sleepwalk
+HYP:   fteblag
+             S
+
+sentence 391
+REF: tom's costume        was  splendid imitation  of a cowboy
+HYP: tmams   casin wasplanded imatacian      athe boy * ******
+         S       S          S         S         S   S D      D
+
+sentence 392
+REF: briefcase
+HYP: breathcls
+             S
+
+sentence 393
+REF: magpie
+HYP:   mato
+          S
+
+sentence 394
+REF: three seven seven two four
+HYP: three seven seven two four
+                               
+
+sentence 395
+REF: took
+HYP: deck
+        S
+
+sentence 396
+REF: weird
+HYP:  gird
+         S
+
+sentence 397
+REF:       sincerely danny
+HYP: sansaorlyghetti *****
+                   S     D
+
+sentence 398
+REF:              and   donna told jack to use a magnet
+HYP: eindinusodhetiys ermanac **** **** ** *** * ******
+                    S       S    D    D  D   D D      D
+
+sentence 399
+REF: ragtime
+HYP:     xyo
+           S
+
+sentence 400
+REF:  thereby
+HYP: vheerpiy
+            S
+
+sentence 401
+REF:     the      way his mouth was
+HYP: therwhe mouthwas *** ***** ***
+           S        S   D     D   D
+
+sentence 402
+REF: now
+HYP:  no
+       S
+
+sentence 403
+REF:  of
+HYP: los
+       S
+
+sentence 404
+REF:    she said
+HYP: shesed ****
+          S    D
+
+sentence 405
+REF:      i know that
+HYP: idothe **** ****
+          S    D    D
+
+sentence 406
+REF: on
+HYP: on
+       
+
+sentence 407
+REF: toying
+HYP:   swng
+          S
+
+sentence 408
+REF: slowly        the knob turned and the door opened       my     name is viola swamp said the lady       in     a scratchy voice yipes cried the     kids swamp
+HYP:   soly thenuternd  ean ****** *** the  dor   opon mhanimis loswopsa ** ***** ***** **** the   ee nscetche voisy      sed ***** ***** ***** the khiswope *****
+          S          S    S      D   D        S      S        S        S  D     D     D    D        S        S     S        S     D     D     D            S     D
+
+sentence 409
+REF: three       seven seven two four
+HYP: three sevesevetwo   for *** ****
+                     S     S   D    D
+
+sentence 410
+REF: courage
+HYP:  carage
+           S
+
+sentence 411
+REF: cahoot
+HYP:   scot
+          S
+
+sentence 412
+REF: they  are   men       who  walk  to the middle of the road
+HYP: thee mene owato thermeter ovthe rod *** ****** ** *** ****
+        S    S     S         S     S   S   D      D  D   D    D
+
+sentence 413
+REF:   angle
+HYP: kangaro
+           S
+
+sentence 414
+REF:   wanted       to    look outside at the rain
+HYP: wontitwo wackutid etheren ******* ** *** ****
+            S        S       S       D  D   D    D
+
+sentence 415
+REF:     now then that  if    you tell     the reason   i shall instantly die
+HYP: nouthen thet ifho tel theres   en ishelan stenly diy ***** ********* ***
+           S    S    S   S      S    S       S      S   S     D         D   D
+
+sentence 416
+REF:  and
+HYP: head
+        S
+
+sentence 417
+REF:         four nine nine three five
+HYP: fouryitheyiv **** **** ***** ****
+                S    D    D     D    D
+
+sentence 418
+REF: ends together         said donna
+HYP:   an       ti hathersadana *****
+        S        S            S     D
+
+sentence 419
+REF: other
+HYP: eathe
+         S
+
+sentence 420
+REF: four    eight four nine   and nine
+HYP: four eghtfour **** nine anine ****
+                 S    D          S    D
+
+sentence 421
+REF:     so why worry
+HYP: soowoy *** *****
+          S   D     D
+
+sentence 422
+REF: bigtime
+HYP:     bcu
+           S
+
+sentence 423
+REF: strongman
+HYP:     ustra
+             S
+
+sentence 424
+REF:            and we can see color
+HYP: andwagnsicalar ** *** *** *****
+                  S  D   D   D     D
+
+sentence 425
+REF:  k
+HYP: to
+      S
+
+sentence 426
+REF: horseshoe
+HYP:  haschine
+             S
+
+sentence 427
+REF:    the     next moment           he changed    the subject because it seemed the    best thing to do
+HYP: thenec momenthe  chean thesegeckebe     cus hetsin ******* ******* ** ****** the besthin    te ** do
+          S        S      S            S       S      S       D       D  D      D           S     S  D   
+
+sentence 428
+REF:    you      uhm             you you you spread the marbles out in it and then you you use your shooter and uhm
+HYP: stedro hspeathe momseiitandthen   s   s     an   u ******* *** ** ** *** **** *** *** *** **** ******* *** ***
+          S        S               S   S   S      S   S       D   D  D  D   D    D   D   D   D    D       D   D   D
+
+sentence 429
+REF:   like        a rooster
+HYP: strens likorsor *******
+          S        S       D
+
+sentence 430
+REF:     he loved it
+HYP: henote ***** **
+          S     D  D
+
+sentence 431
+REF: natural
+HYP:   notcr
+           S
+
+sentence 432
+REF: ****** no     one knew         the way back home so we made a trail   of  bread crumbs
+HYP: noaone no therwey   be omstaorymad *** **** **** ** ** **** a   che bred croubs ******
+          I          S    S           S   D    D    D  D  D    D       S    S      S      D
+
+sentence 433
+REF:       rooster john  before i tell you about rooster john
+HYP: ustergunofaur tely butstun * **** *** ***** ******* ****
+                 S    S       S D    D   D     D       D    D
+
+sentence 434
+REF: yoyos
+HYP: yoyos
+          
+
+sentence 435
+REF: cherished
+HYP:      tors
+             S
+
+sentence 436
+REF: dark
+HYP:   do
+        S
+
+sentence 437
+REF:   but    i'm  awfully   hungry          i wish you'd get me something to eat
+HYP: batim authly hungryad wichgetm sumthingte   et ***** *** ** ********* ** ***
+         S      S        S        S          S    S     D   D  D         D  D   D
+
+sentence 438
+REF:  oh you       you  had       better be glad you got the job said larry
+HYP: oyo  yo hadbeatbe clao gattogorsely ** **** *** *** *** *** **** *****
+       S   S         S    S            S  D    D   D   D   D   D    D     D
+
+sentence 439
+REF:   skywave
+HYP: sgiderweb
+             S
+
+sentence 440
+REF:   she asked
+HYP: shusk *****
+         S     D
+
+sentence 441
+REF: tomcat
+HYP:   cocn
+          S
+
+sentence 442
+REF:  sunshine
+HYP: saneshine
+             S
+
+sentence 443
+REF:          it          believe what was happening for for a minute maria could
+HYP: buleewatwas apeningrmontacrd **** *** ********* *** *** * ****** ***** *****
+               S                S    D   D         D   D   D D      D     D     D
+
+sentence 444
+REF: he was   the new     town dentist he was an excellent dentist   but     his real   love was *** music
+HYP:  e was thago  to dentosie ******* ** was an        ag       g arden tosbeat hias rilleb was mos   ick
+      S         S   S        S       D  D                S       S     S       S    S      S       I     S
+
+sentence 445
+REF: beachhead
+HYP:    begeed
+             S
+
+sentence 446
+REF: decided that john could play the flute and everybody  else would have    to wear earplugs   well i'm sure you guessed that
+HYP:     idd  the   gn   cod   pl the   flo  ad      evre batde  eswo    d efter   we  logswel antery goo **** *** ******* ****
+           S    S    S     S    S         S   S         S     S     S    S     S    S        S      S   S    D   D       D    D
+
+sentence 447
+REF: submerse
+HYP:   semart
+            S
+
+sentence 448
+REF: catch
+HYP:   tat
+         S
+
+sentence 449
+REF: so        the    next day justin and his mother went    shopping  for hats and found the perfect one
+HYP: so thenegstay ghastin *** ****** and his muther went supinggfour esan fend *** ***** the pertwon ***
+                 S       S   D      D              S                S    S    S   D     D           S   D
+
+sentence 450
+REF: springfield
+HYP:   sprinoeld
+               S
+
+sentence 451
+REF:  oat
+HYP: boat
+        S
+
+sentence 452
+REF: smelled old
+HYP:  smelod ***
+           S   D
+
+sentence 453
+REF: eighth
+HYP:     ea
+          S
+
+sentence 454
+REF: withheld
+HYP:   wtheld
+            S
+
+sentence 455
+REF: fewer
+HYP:    zi
+         S
+
+sentence 456
+REF: **** stinkbugs
+HYP: stin       bog
+        I         S
+
+sentence 457
+REF: strongholds
+HYP:   strawepot
+               S
+
+sentence 458
+REF: logjams
+HYP:  magaps
+           S
+
+sentence 459
+REF: bothered
+HYP:   barted
+            S
+
+sentence 460
+REF: he loved               the              way it was a little tight at first but then
+HYP: he   lev therweywasherlitl thaiatfrscopthen ** *** * ****** ***** ** ***** *** ****
+            S                 S                S  D   D D      D     D  D     D   D    D
+
+sentence 461
+REF: yes
+HYP: yes
+        
+
+sentence 462
+REF: he   wanted the     hat to          be clean and perfect forever
+HYP: he wantethe ato beyclen an prfetferver ***** *** ******* *******
+               S   S       S  S           S     D   D       D       D
+
+sentence 463
+REF:  feeding       them just right
+HYP: ffedhing thegsritee **** *****
+            S          S    D     D
+
+sentence 464
+REF: and still     she  sat and  still she reeled and   still     she wished for company
+HYP:  an  stel chsatan stil   h rheeld  an   stil hey wishfer cumpani ****** *** *******
+       S     S       S    S   S      S   S      S   S       S       S      D   D       D
+
+sentence 465
+REF:  bear
+HYP: bhear
+         S
+
+sentence 466
+REF:  red
+HYP: ride
+        S
+
+sentence 467
+REF: green    red blue  green     red  blue red green red green
+HYP:  gren redblo gren redblo redgren rdgrn *** ***** *** *****
+         S      S    S      S       S     S   D     D   D     D
+
+sentence 468
+REF:      girl power
+HYP: grasopoer *****
+             S     D
+
+sentence 469
+REF: called
+HYP:   card
+          S
+
+sentence 470
+REF: eleven
+HYP: eleban
+          S
+
+sentence 471
+REF:          over ten million
+HYP: otertenmelian *** *******
+                 S   D       D
+
+sentence 472
+REF:  only tarzan of the     apes and his courageous wife retained their           com composure
+HYP: aomle tarsan ** the egbpsand *** his     gaghis   wa     fere  tend thecurcurpear *********
+         S      S  D            S   D              S    S        S     S             S         D
+
+sentence 473
+REF:  wh whirlpools
+HYP: fou      plots
+       S          S
+
+sentence 474
+REF:   no one had any cavities
+HYP: noon *** had  in     case
+        S   D       S        S
+
+sentence 475
+REF: mischief
+HYP: mouchiae
+            S
+
+sentence 476
+REF: blue
+HYP: katl
+        S
+
+sentence 477
+REF: red
+HYP:  ed
+       S
+
+sentence 478
+REF: it's the flute sound the flies hate john's flute playing    as much as we do
+HYP:   it  th foson ***** the    fs   ea    ton     i  tlenas mutch wedi ** ** **
+        S   S     S     D         S    S      S     S       S     S    S  D  D  D
+
+sentence 479
+REF: am
+HYP: am
+       
+
+sentence 480
+REF: sturdy wood
+HYP: gagwod ****
+          S    D
+
+sentence 481
+REF: then a          feeling    of  sadness came upon the little boy
+HYP: then y felingasadnoskim erpon theleter **** **** *** ****** boy
+          S                S     S        S    D    D   D      D    
+
+sentence 482
+REF: just waiting     to re to be remembered when   some     nail decided to
+HYP: ghus   wheer bemtwo ** ** be rermemberd when sumnel esidetwo ******* **
+        S       S      S  D  D             S           S        S       D  D
+
+sentence 483
+REF:                  zero five five zero zero zero
+HYP: zorifivefivezrizrizri **** **** **** **** ****
+                         S    D    D    D    D    D
+
+sentence 484
+REF: this
+HYP: dish
+        S
+
+sentence 485
+REF: cherished
+HYP:    cheese
+             S
+
+sentence 486
+REF:         p p
+HYP: somturpig *
+             S D
+
+sentence 487
+REF:   there were          many        presents but the only thing that made justin excited was getting  to   wear his hat
+HYP: therwer mely pesosthatthel thingthatmeghet igs ate **** ***** **** **** ****** ******* was  gettin twe hishad *** ***
+           S    S             S               S   S   S    D     D    D    D      D       D           S   S      S   D   D
+
+sentence 488
+REF:            blue green red three
+HYP: weesgeghemtrthr ***** *** *****
+                   S     D   D     D
+
+sentence 489
+REF: yule
+HYP:  dra
+        S
+
+sentence 490
+REF: i went
+HYP: * went
+     D     
+
+sentence 491
+REF: two     seven zero two nine one
+HYP: two sevenotwo **** *** nine one
+                 S    D   D         
+
+sentence 492
+REF: homelike
+HYP:    holit
+            S
+
+sentence 493
+REF: birds
+HYP:  bird
+         S
+
+sentence 494
+REF:              she  has    a smart way of wearing clothes
+HYP: sheasthsmiteweye vwin clos ***** *** ** ******* *******
+                    S    S    S     D   D  D       D       D
+
+sentence 495
+REF: duet
+HYP: dwet
+        S
+
+sentence 496
+REF: newshour
+HYP:   nosyoo
+            S
+
+sentence 497
+REF: and for two days           mr blandsworth    showed      slides    of his    goldfish  lucy miss nelson's kids had never been so bored
+HYP:  an  fr two  des mosterwashwa           s lideavhis cotislivias elsan cis eadneverben sward **** ******** **** *** ***** **** ** *****
+       S   S        S            S           S         S           S     S   S           S     S    D        D    D   D     D    D  D     D
+
+sentence 498
+REF: the  beach           is dry and shallow at l low tide
+HYP: the beadge austraanshel  aa tid ******* ** * *** ****
+              S            S   S   S       D  D D   D    D
+
+sentence 499
+REF: though
+HYP:     fo
+          S
+
+sentence 500
+REF: clip
+HYP:  cip
+        S
+
+sentence 501
+REF: the            book said the spider would be die after it  laid
+HYP: the bogsedthespider  wod edi   eftr ***** ** *** ***** it leayd
+                       S    S   S      S     D  D   D     D        S
+
+sentence 502
+REF:          mong  or something uhm he made he was a    dentist too and so he made        the rooster john          a    a special mouthpiece for his flute
+HYP: mangsinghumhe mad     hewas *** ** **** ** *** a dentosttwo  an  to ** he  mad tthemunste      gn   as peastermut this     frs         op *** *** *****
+                 S   S         S   D  D    D  D   D            S   S   S  D       S          S       S    S          S    S       S          S   D   D     D
+
+sentence 503
+REF: safeguards
+HYP:   sefecode
+              S
+
+sentence 504
+REF:       ten meters long or about
+HYP: teneerslo     ao cups ** *****
+             S      S    S  D     D
+
+sentence 505
+REF: he really liked    it walking around the house
+HYP:  h   rely   lid wocon    roun     te  us *****
+      S      S     S     S       S      S   S     D
+
+sentence 506
+REF:    i guess  i'll buy       a few snacks since   they look so funny coiling out
+HYP: gets   ele buyer fho snupsan  te  lecso     n cwelng **** ** ***** ******* out
+        S     S     S   S       S   S      S     S      S    D  D     D       D    
+
+sentence 507
+REF: strong
+HYP:  straw
+          S
+
+sentence 508
+REF: that might     be       that  might      help  us find out what's wrong with your pet
+HYP: thet   mit themit helposfind eutwas rongwther peg **** *** ****** ***** **** **** ***
+        S     S      S          S      S         S   S    D   D      D     D    D    D   D
+
+sentence 509
+REF: **** fulltime
+HYP: four     timb
+        I        S
+
+sentence 510
+REF:    th ra ran
+HYP: whrhn ** ***
+         S  D   D
+
+sentence 511
+REF: perhaps   she  wanted to  see               the big snake freddie t had talked about
+HYP:      pr apshe wontede sy ther bigsnakfreakhatut   o   bou ******* * *** ****** *****
+           S     S       S  S    S                 S   S     S       D D   D      D     D
+
+sentence 512
+REF:  waited
+HYP: whighed
+           S
+
+sentence 513
+REF: awoke
+HYP:  owok
+         S
+
+sentence 514
+REF: *** unhook
+HYP: one   cock
+       I      S
+
+sentence 515
+REF:  mouthpiece
+HYP: mountherpis
+               S
+
+sentence 516
+REF: welsch
+HYP:  watch
+          S
+
+sentence 517
+REF: see she's           s   not so responsible after all
+HYP: the    hs sntereaspse eater ** *********** ***** ***
+       S     S           S     S  D           D     D   D
+
+sentence 518
+REF: unearthed
+HYP:     xlyhn
+             S
+
+sentence 519
+REF: landon
+HYP:   whet
+          S
+
+sentence 520
+REF:   fast   if    you want to finish early
+HYP: astihe matt ensbol **** ** ****** *****
+          S    S      S    D  D      D     D
+
+sentence 521
+REF: **** hangouts
+HYP: thre       os
+        I        S
+
+sentence 522
+REF: zero   two    eight five one five
+HYP:   zr eltwo etiveone  ive *** ****
+        S     S        S    S   D    D
+
+sentence 523
+REF: pink
+HYP:  pig
+        S
+
+sentence 524
+REF: horrors
+HYP:   hiase
+           S
+
+sentence 525
+REF: mouthful
+HYP:   moutha
+            S
+
+sentence 526
+REF: and then they got another   hat  and    he wore   it everyday
+HYP: and then  the gat      an uther heat andhe   wa evre     deay
+                 S   S       S     S    S     S    S    S        S
+
+sentence 527
+REF:  that's not
+HYP: thatnat ***
+           S   D
+
+sentence 528
+REF:    siam
+HYP: xylhome
+           S
+
+sentence 529
+REF:  we     can't let you play the flute anymore john     said police     sheriff sanders
+HYP: whe ckatletye ple *** **** the   flo     ene   ma ghonsead    bly chessinteos *******
+       S         S   S   D    D         S       S    S        S      S           S       D
+
+sentence 530
+REF:        volume what's that word
+HYP: bhlynwasteprt ****** **** ****
+                 S      D    D    D
+
+sentence 531
+REF: *** loincloth
+HYP: xon     clock
+       I         S
+
+sentence 532
+REF:     zero  zero one oh four
+HYP: srotsone echor *** ** ****
+            S     S   D  D    D
+
+sentence 533
+REF:   l
+HYP: hil
+       S
+
+sentence 534
+REF: so   it really so it was really       my father's day  gift      to        him   i couldn't   buy him anything nice   since you took away my allowance for when i shaved the neighbor's dog
+HYP: so rely ****** so  i was   rely mifithes   tegoro oma codne bitemen thingitsan she      toc orwey   i    lowon   sr wanshth ney  bos duck ** ********* *** **** * ****** *** ********** ***
+           S      D     S          S        S        S   S     S       S          S   S        S     S   S        S    S       S   S    S    S  D         D   D    D D      D   D          D   D
+
+sentence 535
+REF: encroach
+HYP:   kangro
+            S
+
+sentence 536
+REF: the wind
+HYP: twd ****
+       S    D
+
+sentence 537
+REF:    i           broke them              jack cried no you did not break them donna laughed that's how magnets work
+HYP: hpro thochcraoydinot  big thetlattheermaswe ***** ** *** *** *** ***** **** ***** ******* ****** *** ******* ****
+        S               S    S                 S     D  D   D   D   D     D    D     D       D      D   D       D    D
+
+sentence 538
+REF: beijing
+HYP:  beaing
+           S
+
+sentence 539
+REF:  pocahontas
+HYP: ciocicuturs
+               S
+
+sentence 540
+REF: which of  you boys placed   this stone signal asked the young explorer
+HYP:   wch  s plas thes   ston gulras theyn      o  splr *** ***** ********
+         S  S    S    S      S      S     S      S     S   D     D        D
+
+sentence 541
+REF: ** deployed
+HYP: de     plod
+      I        S
+
+sentence 542
+REF:   and when he had surgery           um after    it when he healed        um fang bit  his leg again but racer could run fast again and he      um knocked fang down
+HYP: wathe **** he  se       r aateroswathe   hil ufang etos ly    gen etrheaser   ca ran fasa  gn    an *** ***** ***** *** **** ***** *** he mmotnge ******* **** ****
+         S    D      S       S            S     S     S    S  S      S         S    S   S    S   S     S   D     D     D   D    D     D   D          S       D    D    D
+
+sentence 543
+REF: never
+HYP:    fr
+         S
+
+sentence 544
+REF: when  the phone         rings  my  little brother always laughs
+HYP:  wan theo  ings fethtebetther wys laflafh ******* ****** ******
+        S    S     S             S   S       S       D      D      D
+
+sentence 545
+REF: sawhill
+HYP:   smile
+           S
+
+sentence 546
+REF: all the uhm
+HYP:  ao *** ***
+       S   D   D
+
+sentence 547
+REF:  plus
+HYP: plash
+         S
+
+sentence 548
+REF:           such    nonsense        going to the moon said her mother poo poo
+HYP: tatenoncrosgon tothemonsed ermutherkipe ** *** **** **** *** ****** *** ***
+                  S           S            S  D   D    D    D   D      D   D   D
+
+sentence 549
+REF:  oh no      cry          cry chief sanders just when things were were going good for
+HYP: fot  o cocreche fsiderosthus    an    thin    w goin     go **** **** ***** **** ***
+       S  S        S            S     S       S    S    S      S    D    D     D    D   D
+
+sentence 550
+REF:   would you say
+HYP: wattsay *** ***
+           S   D   D
+
+sentence 551
+REF:              a     lot of damage in some parts of
+HYP: alatovdimegein sumparv ** ****** ** **** ***** **
+                  S       S  D      D  D    D     D  D
+
+sentence 552
+REF: here
+HYP: hair
+        S
+
+sentence 553
+REF: two            five three four three
+HYP: two fivreyfourthrey ***** **** *****
+                       S     D    D     D
+
+sentence 554
+REF: the tent was filled    with long narrow tables      and benches at the sides
+HYP: the  ten was     il wetlogi   te   eran becers utthsais ******* ** *** *****
+            S          S       S    S      S      S        S       D  D   D     D
+
+sentence 555
+REF:              was that ice chest ice
+HYP: astheescheashish **** *** ***** ***
+                    S    D   D     D   D
+
+sentence 556
+REF:               i'm i'm serious still i it's not as
+HYP: amoserossermonoos *** ******* ***** * **** *** **
+                     S   D       D     D D    D   D  D
+
+sentence 557
+REF:   me
+HYP: leaf
+        S
+
+sentence 558
+REF:    oh     two eight five one five
+HYP: urtwo egtfive   ine **** *** five
+         S       S     S    D   D     
+
+sentence 559
+REF: scathing
+HYP:  sghetti
+            S
+
+sentence 560
+REF: smallridge
+HYP:    smarege
+              S
+
+sentence 561
+REF: fjord
+HYP:     f
+         S
+
+sentence 562
+REF: five
+HYP:   si
+        S
+
+sentence 563
+REF: strong
+HYP:   frog
+          S
+
+sentence 564
+REF:  it
+HYP: iat
+       S
+
+sentence 565
+REF:   duck looking at me
+HYP: ducklo   cking at **
+          S       S     D
+
+sentence 566
+REF: brook
+HYP: brock
+         S
+
+sentence 567
+REF: pig
+HYP: pig
+        
+
+sentence 568
+REF: on their      way     out of the school
+HYP: on  ther weayouto hoscopk ** *** ******
+            S        S       S  D   D      D
+
+sentence 569
+REF: shopping list on the way  to                   the store laura    wrote      the   list   fourteen apples fourteen oranges twenty bananas two lemons two pineapples and two
+HYP: opiarson ther ** *** way two theostarttthelaosfoat  upul    sa arsistay plarstwo momewo tinoclrsan ****** ******** ******* ****** ******* *** ****** *** ********** *** two
+            S    S  D   D       S                     S     S     S        S        S      S          S      D        D       D      D       D   D      D   D          D   D    
+
+sentence 570
+REF:    help     the    woman get back to her feet
+HYP: helpthe woumene gutbecto  or  fet ** *** ****
+           S       S        S   S    S  D   D    D
+
+sentence 571
+REF: safehouse
+HYP:   cechous
+             S
+
+sentence 572
+REF: hicksville
+HYP:      hippa
+              S
+
+sentence 573
+REF: ei
+HYP: ea
+      S
+
+sentence 574
+REF: * equal  to
+HYP: e    ca tos
+     I     S   S
+
+sentence 575
+REF: equal   to
+HYP:     e cato
+         S    S
+
+sentence 576
+REF:        hello teddy
+HYP: hippotettian *****
+                S     D
+
+sentence 577
+REF: kingsville
+HYP:    cavilar
+              S
+
+sentence 578
+REF: mouthpiece
+HYP:    moutpis
+              S
+
+sentence 579
+REF: scientists use these cases and gloves   to there examine rocks taken   from the   moon
+HYP:       sads   s    he   ces  as      i gogs   two    ther   agg  emat tecken fem themon
+              S   S     S     S   S      S    S     S       S     S     S      S   S      S
+
+sentence 580
+REF: he              just helps them actually with
+HYP: he usthelpsthemocley wethe **** ******** ****
+                        S     S    D        D    D
+
+sentence 581
+REF: mangement
+HYP:    magate
+             S
+
+sentence 582
+REF: will
+HYP: whel
+        S
+
+sentence 583
+REF: skewered
+HYP:    stwod
+            S
+
+sentence 584
+REF: they  felt    ok when           the ship arrived in port
+HYP:  the ffelt ocede when theshiparived **** ******* in port
+        S     S     S                  S    D       D        
+
+sentence 585
+REF: right
+HYP: right
+          
+
+sentence 586
+REF: so             there         was nothing the police could do
+HYP: so therwasnuthingthe poleasecodo ******* *** ****** ***** **
+                        S           S       D   D      D     D  D
+
+sentence 587
+REF:     from then on john would wake      up  at sunrise  like  a rooster and play to     keep    h the flies away
+HYP: thethenn ghon wo    d    we    c utanris leg       g roser an    pley *** **** to cepitthe flis  he   wey ****
+            S    S  S    S     S    S       S   S       S     S  S       S   D    D           S    S   S     S    D
+
+sentence 588
+REF:    at                night       they  came  on   the river bank under the stars and each morning the river looked even lower
+HYP: nithe cutherierpigastarsan echemoning theri was eeber ***** **** ***** *** ***** *** **** ******* *** ***** ****** **** *****
+         S                    S          S     S   S     S     D    D     D   D     D   D    D       D   D     D      D    D     D
+
+sentence 589
+REF: converged
+HYP:    caertt
+             S
+
+sentence 590
+REF: unnerved
+HYP:   annord
+            S
+
+sentence 591
+REF: touchstone
+HYP:    tatcton
+              S
+
+sentence 592
+REF: sell your     g sell   your gift to a buyer at a good gain
+HYP: soyo  sey eftwo  bid dgghen **** ** * ***** ** * **** ****
+        S    S     S    S      S    D  D D     D  D D    D    D
+
+sentence 593
+REF: encroach
+HYP:  angroge
+            S
+
+sentence 594
+REF: ashville
+HYP:  basilar
+            S
+
+sentence 595
+REF:   z
+HYP: vae
+       S
+
+sentence 596
+REF:    through his hand lens
+HYP: thsaderwes *** **** ****
+              S   D    D    D
+
+sentence 597
+REF: twenty
+HYP: stomia
+          S
+
+sentence 598
+REF: what is the jugs
+HYP:  one is   s  ecs
+        S      S    S
+
+sentence 599
+REF: walking
+HYP:   marti
+           S
+
+sentence 600
+REF:     hearing tasting
+HYP: harngtising *******
+               S       D
+
+sentence 601
+REF: asians
+HYP:     ye
+          S
+
+sentence 602
+REF: eggshell
+HYP: eggshele
+            S
+
+sentence 603
+REF: you see  a
+HYP:  yo  se cr
+       S   S  S
+
+sentence 604
+REF: but it was very                upset    at first then he said oh well good thing i brought my old flute as back up
+HYP: *** ** was  vey osedofrsttaneysadwel ionis tecup **** ** **** ** **** **** ***** * ******* ** *** ***** ** **** **
+       D  D        S                    S     S     S    D  D    D  D    D    D     D D       D  D   D     D  D    D  D
+
+sentence 605
+REF: transcribe
+HYP:  trinscope
+              S
+
+sentence 606
+REF: after dinner jordan  crept      up by the              way of the back stairs to see her
+HYP:  afte  dinur   sodn creapt upbithe we the beagkstistosiyhr ** *** **** ****** ** *** ***
+         S      S      S      S       S  S                    S  D   D    D      D  D   D   D
+
+sentence 607
+REF: newslink
+HYP:   dosing
+            S
+
+sentence 608
+REF:    thereby
+HYP: vethephoin
+              S
+
+sentence 609
+REF: huntsville
+HYP:       vago
+              S
+
+sentence 610
+REF: en
+HYP:  n
+      S
+
+sentence 611
+REF: longworth
+HYP:     ronos
+             S
+
+sentence 612
+REF: rio
+HYP:  ri
+       S
+
+sentence 613
+REF:  how    often    do you change the water   in the bowl
+HYP: heuw ateandey cheas *** ****** the water ithe bor ****
+        S        S     S   D      D              S   S    D
+
+sentence 614
+REF:   i
+HYP: ine
+       S
+
+sentence 615
+REF:  ladies       and gentlemen men ms ms tort  mud from sludge pond  has been disqualified    for sleeping during the race
+HYP: theahes agetermou   masastr   a fe sa    e heas  ban    dis   ca tera  frs       leping dering    thers ****** *** ****
+           S         S         S   S  S  S    S    S    S      S    S    S    S            S      S        S      D   D    D
+
+sentence 616
+REF:  in
+HYP: ear
+       S
+
+sentence 617
+REF:  she pointed
+HYP: shey  pintag
+        S       S
+
+sentence 618
+REF: crashed over rocks
+HYP:   crash   of   ups
+           S    S     S
+
+sentence 619
+REF: green
+HYP:   gre
+         S
+
+sentence 620
+REF: width
+HYP:   wod
+         S
+
+sentence 621
+REF:  that's     how the flute sounded     when    this guy played it
+HYP: thatsho therflo   s  edid     wen thesciye pleydit *** ****** **
+           S       S   S     S       S        S       S   D      D  D
+
+sentence 622
+REF: sculpture
+HYP:    sopsho
+             S
+
+sentence 623
+REF:       but until    the next festival
+HYP: battianti theno raseer **** ********
+             S     S      S    D        D
+
+sentence 624
+REF: hearers
+HYP:    hars
+           S
+
+sentence 625
+REF:  uh
+HYP: fui
+       S
+
+sentence 626
+REF: when you heat   or cool matter                 it   can change form heat melted    the solid ice the steam cooled and became liquid you mean
+HYP: weye het    c thee  cec  orhey betotheosalodisthe stene     co   an   be     ci licade     w *** *** ***** ****** *** ****** ****** *** ****
+        S   S    S    S    S      S                  S     S      S    S    S      S      S     S   D   D     D      D   D      D      D   D    D
+
+sentence 627
+REF: fewer
+HYP:     v
+         S
+
+sentence 628
+REF: one day the    sky was filled    with       four rainbows  at the same time
+HYP: one  ey the scider was     el wetfour rebesatthe     samn tim *** **** ****
+           S          S          S       S          S        S   S   D    D    D
+
+sentence 629
+REF: humane
+HYP:  hamen
+          S
+
+sentence 630
+REF: swish saw             a rock in the      middle    of the    big festival and wondered about it
+HYP:  sats   i beggragkinthe  mil  v the biggfesaran wonde   d boutet ******** *** ******** ***** **
+         S   S             S    S  S               S     S   S      S        D   D        D     D  D
+
+sentence 631
+REF:          a minute  later      miss   nelson appeared i'm back she said
+HYP: hemotleter    hes melson eopiardan beshesea ******** *** **** *** ****
+              S      S      S         S        S        D   D    D   D    D
+
+sentence 632
+REF: and then he comes      back about         t he dreams of uhm a some
+HYP:  an than he  cums actthuthe drams uumurthum ** ****** ** *** * ****
+       S    S        S         S     S         S  D      D  D   D D    D
+
+sentence 633
+REF:        oops brethren
+HYP: psbretherin ********
+               S        D
+
+sentence 634
+REF:         wait said       mr gray won't      you stay and play marbles bill turned
+HYP: whatsemoster   ry wayostai   on   ply mibeasel  ton *** **** ******* **** ******
+                S    S        S    S     S        S    S   D    D       D    D      D
+
+sentence 635
+REF: withdrew
+HYP:   wastra
+            S
+
+sentence 636
+REF: quacking a
+HYP:   crocug *
+            S D
+
+sentence 637
+REF:             in his letter uncle to and said
+HYP: hiswaunadinser *** ****** ***** ** *** ****
+                  S   D      D     D  D   D    D
+
+sentence 638
+REF: mora
+HYP:   ma
+        S
+
+sentence 639
+REF: i'm
+HYP: oab
+       S
+
+sentence 640
+REF: he      looks   like     the  fish is taking a bubble bath
+HYP: he lucslikthe fishis ticking ueras ** ****** * ****** ****
+                 S      S       S     S  D      D D      D    D
+
+sentence 641
+REF: we        can't    let  you     play the      flute anymore john said police chief s sanders
+HYP: we atleayerplea therlo anhe rmorthon  se plofiteros ******* **** **** ****** ***** * *******
+                   S      S    S        S   S          S       D    D    D      D     D D       D
+
+sentence 642
+REF:    much
+HYP: martian
+           S
+
+sentence 643
+REF:  ou
+HYP: hol
+       S
+
+sentence 644
+REF: hangers
+HYP:    enos
+           S
+
+sentence 645
+REF:  blue
+HYP: balon
+         S
+
+sentence 646
+REF:          said donna magnets        pull paper clips and tacks but not apples and
+HYP: sidorasnosaur chipp   cipsa teacsbatnat epsin ***** *** ***** *** *** ****** ***
+                 S     S       S           S     S     D   D     D   D   D      D   D
+
+sentence 647
+REF: cahoot
+HYP:   coot
+          S
+
+sentence 648
+REF: he thinks they smell
+HYP: he things  the  smel
+             S    S     S
+
+sentence 649
+REF:              sa zsa zsa zsa
+HYP: reasuretreasure *** *** ***
+                   S   D   D   D
+
+sentence 650
+REF: chocolate
+HYP:    caclet
+             S
+
+sentence 651
+REF:      ran toward them
+HYP: htorttem ****** ****
+            S      D    D
+
+sentence 652
+REF: matter        has three  forms solid liquid and gas
+HYP:   pate hasteopsal    th cetets ***** ****** *** ***
+          S          S     S      S     D      D   D   D
+
+sentence 653
+REF:  cafeteria
+HYP: ckathetera
+              S
+
+sentence 654
+REF: keith
+HYP: ceoth
+         S
+
+sentence 655
+REF: they had      to cover their ears from the horrible sound
+HYP: thea  te cuvethe smthe rsunt **** **** *** ******** *****
+        S   S       S     S     S    D    D   D        D     D
+
+sentence 656
+REF: naive
+HYP:     e
+         S
+
+sentence 657
+REF: schoolboy
+HYP:   sourboy
+             S
+
+sentence 658
+REF:   ms       gordon at the zoo
+HYP: mass gardinangase ** *** ***
+        S            S  D   D   D
+
+sentence 659
+REF: northbound
+HYP:  furspelbe
+              S
+
+sentence 660
+REF: unscathed
+HYP:    anscrt
+             S
+
+sentence 661
+REF: shipshape
+HYP:  shishape
+             S
+
+sentence 662
+REF:  got      his name i should tell
+HYP: gats nabaeuar **** * ****** ****
+        S        S    D D      D    D
+
+sentence 663
+REF: the poor little     bird did not know where to     go but he hopped and fluttered along   with    his broken wing
+HYP: the  por      l bdinutno  we *** **** ***** to coboth cut  n floter *** ********* along wtthis brocon winggs ****
+            S      S        S   S   D    D     D         S   S  S      S   D         D            S      S      S    D
+
+sentence 664
+REF:  to        the picture
+HYP: two thepitchen *******
+       S          S       D
+
+sentence 665
+REF: ageless
+HYP:    ncos
+           S
+
+sentence 666
+REF:  we can see    things that
+HYP: rhe cin she ingstheat ****
+       S   S   S         S    D
+
+sentence 667
+REF: well
+HYP: hone
+        S
+
+sentence 668
+REF: favorites
+HYP:    fearet
+             S
+
+sentence 669
+REF: green
+HYP:  gree
+         S
+
+sentence 670
+REF: she  had    one sinking through rock slide
+HYP: she hade onegin      si ******* **** *****
+            S      S       S       D    D     D
+
+sentence 671
+REF: start
+HYP: skirt
+         S
+
+sentence 672
+REF:       so they decided     to lower him down a well
+HYP: asageide    t     lor ietwel ***** *** **** * ****
+            S    S       S      S     D   D    D D    D
+
+sentence 673
+REF: made    a flute sound as  so       bad that         his        fish would jump out of their fish bowl
+HYP:  mad rflo  sund ***** as sou bathethis ishe wedgumpeute therfispoar ***** **** *** ** ***** **** ****
+        S    S     S     D      S         S    S           S           S     D    D   D  D     D    D    D
+
+sentence 674
+REF: bashful
+HYP:  bashwa
+           S
+
+sentence 675
+REF:            the mag the mag the when
+HYP: theathemaswing *** *** *** *** ****
+                  S   D   D   D   D    D
+
+sentence 676
+REF: yoyos
+HYP: yoyos
+          
+
+sentence 677
+REF: you're just trying      to make   me      quit i'm not going to fall for your tricks
+HYP: yoreto   mi      m crinnot goin tofa fryotreos *** *** ***** ** **** *** **** ******
+          S    S      S       S    S    S         S   D   D     D  D    D   D    D      D
+
+sentence 678
+REF: nourished
+HYP:    norose
+             S
+
+sentence 679
+REF: cat
+HYP: tat
+       S
+
+sentence 680
+REF:     s scallion
+HYP: sghat ********
+         S        D
+
+sentence 681
+REF:  hello teddy
+HYP: hatati *****
+          S     D
+
+sentence 682
+REF: diana searched faithfully   but       no axe was   to be found in the whole woodshed
+HYP:  dino   sertce   tfethuly botno eggswaus   t bey foun ** ***** in  he    ho   wosche
+         S        S          S     S        S   S   S    S  D     D      S     S        S
+
+sentence 683
+REF:        can't           wait until our next assignment
+HYP: catwhetintil eoernecsasimou ***** *** **** **********
+                S              S     D   D    D          D
+
+sentence 684
+REF: red          green and        blue three
+HYP: whe grenomblerwone   o clockkthrey *****
+       S              S   S           S     D
+
+sentence 685
+REF: tiger
+HYP: tagao
+         S
+
+sentence 686
+REF: bridgetown
+HYP:  bridgeeon
+              S
+
+sentence 687
+REF:     would you like some
+HYP: wodlitumb *** **** ****
+             S   D    D    D
+
+sentence 688
+REF:           maybe mr chu
+HYP: theaemoustacher ** ***
+                   S  D   D
+
+sentence 689
+REF: it's a
+HYP: itea *
+        S D
+
+sentence 690
+REF:    they                are   men who r walk the middle of the road
+HYP: theerma hiowatkinthermitlr atere *** * **** *** ****** ** *** ****
+           S                  S     S   D D    D   D      D  D   D    D
+
+sentence 691
+REF:    three            two six seven three
+HYP: threetwo texsthevenhrey *** ***** *****
+            S              S   D     D     D
+
+sentence 692
+REF:             donna take   this b bar i will help you
+HYP: dinotacthospietba   we helpye * *** * **** **** ***
+                     S    S      S D   D D    D    D   D
+
+sentence 693
+REF: bloomfield
+HYP:    blamofe
+              S
+
+sentence 694
+REF: shying
+HYP:    sog
+          S
+
+sentence 695
+REF: it was      a long way from the green meadows        to the forest
+HYP: ie was helone  gey *** from the   gre metosto theforost *** ******
+      S          S    S   D              S       S         S   D      D
+
+sentence 696
+REF: thinly
+HYP:     al
+          S
+
+sentence 697
+REF:                oh yes you are said the pig
+HYP: oyesiasedtherpigg *** *** *** **** *** ***
+                     S   D   D   D    D   D   D
+
+sentence 698
+REF:  we   find joy in  the      simplest things
+HYP: wee fingoy *** in theo simplarskengs ******
+       S      S   D       S             S      D
+
+sentence 699
+REF:         zero three zero zero four
+HYP: zotreyoorfor ***** **** **** ****
+                S     D    D    D    D
+
+sentence 700
+REF: blowup
+HYP:  flowe
+          S
+
+sentence 701
+REF: now victor was        more      curious than ever about spiders
+HYP: nou vhiter was moarcriosen egbetspideos **** **** ***** *******
+       S      S               S            S    D    D     D       D
+
+sentence 702
+REF: i don't know
+HYP: * ***** ****
+     D     D    D
+
+sentence 703
+REF:  hobnail
+HYP: carpeila
+            S
+
+sentence 704
+REF: heathman
+HYP:    hatmi
+            S
+
+sentence 705
+REF:    i           have none night watchmen to make keys
+HYP: enon miathontomikks **** ***** ******** ** **** ****
+        S              S    D     D        D  D    D    D
+
+sentence 706
+REF:   what should they do the
+HYP: watcho   tedo    h ** ***
+          S      S    S  D   D
+
+sentence 707
+REF: seven two    three   seven two
+HYP: seven  to clkthree sevento ***
+             S        S       S   D
+
+sentence 708
+REF:     there        jo         was  mistaken mistaken       for next   day   she   made a discovery which produ produced a tempest
+HYP: theghowas mosteckon mosticonfor necteyche      med descuvrey  wei freod prods tempos * ********* ***** ***** ******** * *******
+             S         S           S         S        S         S    S     S     S      S D         D     D     D        D D       D
+
+sentence 709
+REF: foible
+HYP:  xiowl
+          S
+
+sentence 710
+REF:  metal
+HYP: motros
+          S
+
+sentence 711
+REF: the ******** shelves were  crowd with dusty utensils of all sorts
+HYP: the seufswer    crod whas dustey   an    an      sur  s oau ssort
+                I       S    S      S    S     S        S  S   S     S
+
+sentence 712
+REF:      un unwound
+HYP: tamoton *******
+           S       D
+
+sentence 713
+REF: lectures
+HYP:   lecurs
+            S
+
+sentence 714
+REF: couldn't
+HYP:     coet
+            S
+
+sentence 715
+REF: the    turtles      but   he got a little older the turtles began        to realize
+HYP: the terlboathe gatilitl oter  an * ****** ***** the      tr    be gintorils *******
+                  S        S    S   S D      D     D           S     S         S       D
+
+sentence 716
+REF: joel who was very  frightened finally said  i'm going to wake     up ben
+HYP:   rl  ho was  vey reandfinmly      ed  ine gong ***** to   we cuphen ***
+        S   S        S           S       S    S    S     D       S      S   D
+
+sentence 717
+REF:   snake house
+HYP: snakeos *****
+           S     D
+
+sentence 718
+REF:  sam   is a big kid
+HYP: seis pcad * *** ***
+        S    S D   D   D
+
+sentence 719
+REF:  offs layoffs
+HYP: staer *******
+         S       D
+
+sentence 720
+REF: c
+HYP: t
+     S
+
+sentence 721
+REF:  i   beg         your pardon    said the le learned man it is an old habit  with me
+HYP: ay beger pardnseadthe  lowed mehitis *** ** ******* *** ** ** an  ol hebet wethm **
+      S     S            S      S       S   D  D       D   D  D  D      S     S     S  D
+
+sentence 722
+REF: thinness
+HYP:    tinos
+            S
+
+sentence 723
+REF: of
+HYP:  a
+      S
+
+sentence 724
+REF:        shaped like spiders
+HYP: filiggspadars **** *******
+                 S    D       D
+
+sentence 725
+REF: and it
+HYP:  et **
+       S  D
+
+sentence 726
+REF: nope
+HYP:  not
+        S
+
+sentence 727
+REF: they hardly looked         like mice at all
+HYP: thee   hard    ley locligckmint  eta ** ***
+        S      S      S            S    S  D   D
+
+sentence 728
+REF:     and uhm so
+HYP: tumshor *** **
+           S   D  D
+
+sentence 729
+REF:      came from
+HYP: kaothromb ****
+             S    D
+
+sentence 730
+REF: youth
+HYP:  yoth
+         S
+
+sentence 731
+REF: soulless
+HYP:    siros
+            S
+
+sentence 732
+REF: lavished
+HYP:  lavasht
+            S
+
+sentence 733
+REF:  sur
+HYP: shot
+        S
+
+sentence 734
+REF:   pink pig
+HYP: pigpig ***
+          S   D
+
+sentence 735
+REF: make    a chain   of paper clips
+HYP: mack etwo     p cups ***** *****
+        S    S     S    S     D     D
+
+sentence 736
+REF: off
+HYP:  ae
+       S
+
+sentence 737
+REF: they  they  then journeyed onwards  till they almost reached the          mountains
+HYP: they wathe thene    thernd      on wosil **** ****** ******* the omosretcethermouns
+              S     S         S       S     S    D      D       D                      S
+
+sentence 738
+REF:      but   dad and i dug up
+HYP: bittadan dgcub *** * *** **
+            S     S   D D   D  D
+
+sentence 739
+REF: discharged
+HYP:  descharge
+              S
+
+sentence 740
+REF: victor said     i think       i'll call my spider
+HYP:   vige  sad eatin    ku camispider **** ** ******
+          S    S     S     S          S    D  D      D
+
+sentence 741
+REF:   tacks stuck
+HYP: tecstik *****
+           S     D
+
+sentence 742
+REF:       noticed the skeleton of a
+HYP: noosthescoton  eg ******** ** *
+                 S   S        D  D D
+
+sentence 743
+REF: flury
+HYP:   loy
+         S
+
+sentence 744
+REF: goodbye
+HYP:  gobide
+           S
+
+sentence 745
+REF: you what's wrong
+HYP:   o wdrink *****
+       S      S     D
+
+sentence 746
+REF: suggests
+HYP:    siges
+            S
+
+sentence 747
+REF: four senses
+HYP: four   etus
+               S
+
+sentence 748
+REF:    his river trips
+HYP: hipoos ***** *****
+          S     D     D
+
+sentence 749
+REF:  n got rid of the  cat and  got a cat
+HYP: an got red ** the cetn  le cups * ***
+      S       S  D        S   S    S D   D
+
+sentence 750
+REF:         so     they decided that john could play the       flute and  everybody else    would have to wear earplugs
+HYP: thedesidte thetdgon      co pley **** ***** **** the flotandever  on eswothevft   we rpeloggs **** ** **** ********
+              S        S       S    S    D     D    D               S   S          S    S        S    D  D    D        D
+
+sentence 751
+REF: obscures
+HYP:  auskirs
+            S
+
+sentence 752
+REF: southern
+HYP:   sather
+            S
+
+sentence 753
+REF: refreshed
+HYP:  efreasht
+             S
+
+sentence 754
+REF:  one
+HYP: uone
+        S
+
+sentence 755
+REF:    but     he will know you
+HYP: bathey winoyo **** **** ***
+          S      S    D    D   D
+
+sentence 756
+REF: one one two   oh two
+HYP: one one  co oclk ***
+               S    S   D
+
+sentence 757
+REF:     blue yellow and green
+HYP: blyoaand   grea *** *****
+            S      S   D     D
+
+sentence 758
+REF:                 i like to watch them swim
+HYP: litwowatchemswing **** ** ***** **** ****
+                     S    D  D     D    D    D
+
+sentence 759
+REF:              orbit astronaut stayed on the
+HYP: wapetastranustadhe ********* ****** ** ***
+                      S         D      D  D   D
+
+sentence 760
+REF: equal    to
+HYP:     e cotwo
+         S     S
+
+sentence 761
+REF: filegate
+HYP: spiercot
+            S
+
+sentence 762
+REF:   l
+HYP: fur
+       S
+
+sentence 763
+REF:    are lucky to    have such    a good friend like you
+HYP: arluck ***** to eavesac   go fren liko ****** **** ***
+          S     D          S    S    S    S      D    D   D
+
+sentence 764
+REF:    i knew  our cat would grow        her           fur back but some cats don't have hair
+HYP: aino   er cuwd gro    er   fr backbotson custonthafhei **** *** **** **** ***** **** ****
+        S    S    S   S     S    S          S             S    D   D    D    D     D    D    D
+
+sentence 765
+REF:              when   the townsfolk heard the noise they couldn't even swat the flies anymore
+HYP: ateteosohedthenos econt    vnsath   fla  lo ***** **** ******** **** **** *** ***** *******
+                     S     S         S     S   S     D    D        D    D    D   D     D       D
+
+sentence 766
+REF:  what's your story
+HYP: ghostor **** *****
+           S    D     D
+
+sentence 767
+REF: no one could hear anything people were getting into car accidents
+HYP: on cod   hir   en  thingpe    por **** getting   it car       css
+      S   S     S    S        S      S    D            S             S
+
+sentence 768
+REF: ma
+HYP:  e
+      S
+
+sentence 769
+REF: crayon
+HYP:    tto
+          S
+
+sentence 770
+REF: poets
+HYP:  bird
+         S
+
+sentence 771
+REF:                              we dress to suit the weather of most days
+HYP: whetreasosotherwhethermostershe ***** ** **** *** ******* ** **** ****
+                                   S     D  D    D   D       D  D    D    D
+
+sentence 772
+REF:      ree seven two
+HYP: esevento ***** ***
+            S     D   D
+
+sentence 773
+REF: men
+HYP:  en
+       S
+
+sentence 774
+REF:              of the river laura saw other
+HYP: etheriertserher *** ***** ***** *** *****
+                   S   D     D     D   D     D
+
+sentence 775
+REF: *** ** thereupon i told the king   without   any        reserve all that had happened
+HYP: the eo       pon i   to the cing watheuten reser athahedheapend *** **** *** ********
+       I  I         S      S        S         S     S              S   D    D   D        D
+
+sentence 776
+REF:   minus
+HYP: rhinors
+           S
+
+sentence 777
+REF:     on her jet        pack waved at the spaceship and flew off
+HYP: attert pag wey tatthospesi   flo af *** ********* *** **** ***
+          S   S   S           S     S  S   D         D   D    D   D
+
+sentence 778
+REF: hard
+HYP: hard
+         
+
+sentence 779
+REF:  judges
+HYP: gagurse
+           S
+
+sentence 780
+REF:   add
+HYP: cedas
+         S
+
+sentence 781
+REF:  e
+HYP: ea
+      S
+
+sentence 782
+REF: two
+HYP: two
+        
+
+sentence 783
+REF:  a
+HYP: be
+      S
+
+sentence 784
+REF: you       should   use wood and put a
+HYP:  yo chodoswodean foteg **** *** *** *
+       S            S     S    D   D   D D
+
+sentence 785
+REF:  three
+HYP: threeh
+          S
+
+sentence 786
+REF: outdoors
+HYP:  coudors
+            S
+
+sentence 787
+REF: john would wake          up           at sunrise  like     a rooster  and play to keep the flies away
+HYP:  gin    wo   we cupetonrits lekesterople      de cketh fliys       e rwey **** ** **** *** ***** ****
+        S     S    S           S            S       S     S     S       S    S    D  D    D   D     D    D
+
+sentence 788
+REF: three     seven two
+HYP: three seventwoe ***
+                   S   D
+
+sentence 789
+REF:       oral report
+HYP: toyywheybo ******
+              S      D
+
+sentence 790
+REF:          go out in the garden
+HYP: goroutinthe *** ** *** garden
+               S   D  D   D       
+
+sentence 791
+REF: one  not two
+HYP: one noto ***
+            S   D
+
+sentence 792
+REF:        asked jack i have two                 magnets           let's      try  them donna took the magnets jack looked at them each magnet was red and black
+HYP: austrackahav **** * **** two egswactralinthermometer themonstracklot athemhit mowas  ther **** *** ******* **** ****** ** **** **** ****** *** *** *** black
+                S    D D    D                           S               S        S     S     S    D   D       D    D      D  D    D    D      D   D   D   D      
+
+sentence 793
+REF:      i swore      to bring you the terrible head   and see  how     i keep my oath
+HYP: aswoar   ter breingy     o *** the       te    l hedan sey hewe ckpmi  oth ** ****
+          S     S       S     S   D            S    S     S   S    S     S    S  D    D
+
+sentence 794
+REF: it               looks like a space creature
+HYP: it losligkospistetcher **** * ***** ********
+                          S    D D     D        D
+
+sentence 795
+REF: awoke
+HYP: aowck
+         S
+
+sentence 796
+REF: skipjacks
+HYP: skertheps
+             S
+
+sentence 797
+REF:     in the
+HYP: teater ***
+          S   D
+
+sentence 798
+REF: five clowns       got just out of a little car
+HYP: five  clons cotheuste  cur *** ** * ****** ***
+               S         S    S   D  D D      D   D
+
+sentence 799
+REF: *** takeoffs
+HYP: two     cups
+       I        S
+
+sentence 800
+REF: brushwork
+HYP:      orog
+             S
+
+sentence 801
+REF: fish
+HYP:  ish
+        S
+
+sentence 802
+REF: **** it's due  on monday today is friday
+HYP: kits    o one mon  dayto   dey is friday
+        I    S   S   S      S     S          
+
+sentence 803
+REF:  v
+HYP: ea
+      S
+
+sentence 804
+REF:   no      one spoke during the twenty minutes which    elapsed before   they reached their destination
+HYP: noon spodring ***** ****** the  toate    mint   wag lapsbofour    the rhetce    ther desto      machin
+        S        S     D      D          S       S     S          S      S      S       S     S           S
+
+sentence 805
+REF: bill     thought          about                the   contest     at             mr higgins store mr higgins had a jar filled with marbles the
+HYP: bele hataboutthe cantestamoster higonsstorymouster hignshada erfild wethmarbarsthe ******* ***** ** ******* *** * *** ****** **** ******* ***
+        S           S              S                  S         S      S              S       D     D  D       D   D D   D      D    D       D   D
+
+sentence 806
+REF:   be
+HYP: bead
+        S
+
+sentence 807
+REF:   u
+HYP: hil
+       S
+
+sentence 808
+REF: healthful
+HYP:    werpha
+             S
+
+sentence 809
+REF: you our sure
+HYP: yos *** ****
+       S   D    D
+
+sentence 810
+REF: hut
+HYP: igt
+       S
+
+sentence 811
+REF: she's so      good    at school and      you bought    her a   cat cause she's just so responsible and stuff
+HYP:  chus  o gatetscou angye   batr   e tatcushs   gaso rospan s bwlon stupe ***** **** ** *********** *** *****
+         S  S         S     S      S   S        S      S      S S     S     S     D    D  D           D   D     D
+
+sentence 812
+REF: i   had   to    walk beside the
+HYP: a headd wack besitha ****** ***
+     S     S    S       S      D   D
+
+sentence 813
+REF:    my
+HYP: smile
+         S
+
+sentence 814
+REF: were about     three hundred turtles racing
+HYP: wher     o boutthree    unde    trls resing
+        S     S         S       S       S      S
+
+sentence 815
+REF: off
+HYP:   a
+       S
+
+sentence 816
+REF: pig
+HYP: pig
+        
+
+sentence 817
+REF:        but something was wrong
+HYP: botsumthin ********* was  rong
+              S         D         S
+
+sentence 818
+REF: beyond
+HYP: beyand
+          S
+
+sentence 819
+REF: the          earl looked at it and the corners             of  his mouth twitched a little
+HYP: the erlloteatitan   theo ** ** *** *** corners ovhismouttwigt ulil ***** ******** * ******
+                     S      S  D  D   D   D                      S    S     D        D D      D
+
+sentence 820
+REF: even        if there has been              some little mistake what could i do now to    fix it
+HYP:    e venafther    as ben  sum lettermoustackwat    cot ******* **** ***** * do nou te ficsat **
+        S         S     S   S    S                 S      S       D    D     D D      S  S      S  D
+
+sentence 821
+REF: newest
+HYP:  noset
+          S
+
+sentence 822
+REF: pers
+HYP: boat
+        S
+
+sentence 823
+REF: heartthrob
+HYP:    hethrob
+              S
+
+sentence 824
+REF: before
+HYP:  efour
+          S
+
+sentence 825
+REF:    say ay as in bye
+HYP: xooyyo ** ** ** ***
+          S  D  D  D   D
+
+sentence 826
+REF:     oh zero oh eight two
+HYP: toseto **** ** ***** ***
+          S    D  D     D   D
+
+sentence 827
+REF:      hey teddy
+HYP: hetettin *****
+            S     D
+
+sentence 828
+REF: said     aunt jane    does   mr higgins jar look
+HYP:  sad ienghine  das mouster igns    ilok *** ****
+        S        S    S       S    S       S   D    D
+
+sentence 829
+REF: broadview
+HYP:     grala
+             S
+
+sentence 830
+REF: skyhawk
+HYP:  scidog
+           S
+
+sentence 831
+REF:         at the after       the     unusual   ceremonies            the prices each presented his proposal
+HYP: atherafter the anysu serermons tharpreasas eaepeseantid hispproaspobel ****** **** ********* *** ********
+              S         S         S           S            S              S      D    D         D   D        D
+
+sentence 832
+REF:                had to move for fifty years
+HYP: heatmovfoerfiteyes ** **** *** ***** *****
+                      S  D    D   D     D     D
+
+sentence 833
+REF: roy
+HYP:  oy
+       S
+
+sentence 834
+REF: * woolworth's
+HYP: w        weps
+     I           S
+
+sentence 835
+REF: *** wanted
+HYP: one     eg
+       I      S
+
+sentence 836
+REF: jake
+HYP: jink
+        S
+
+sentence 837
+REF:  he  put   them in the box
+HYP: hey potn intats ** *** ***
+       S    S      S  D   D   D
+
+sentence 838
+REF: uhm  oh  no said chief      sanders just  when things    were go going     good for franksville
+HYP:   m ano sea  che    fs indersghaust wane thing    wer gogoing ga  fher fengsaur *** ***********
+       S   S   S    S     S            S    S     S      S       S  S     S        S   D           D
+
+sentence 839
+REF: lifeguard
+HYP:    legodn
+             S
+
+sentence 840
+REF: via
+HYP:  he
+       S
+
+sentence 841
+REF: *** safeguards
+HYP: tes       card
+       I          S
+
+sentence 842
+REF:    the tiny    can  have only little on it
+HYP: battin cean heabay thetr   an     et ** **
+          S    S      S     S    S      S  D  D
+
+sentence 843
+REF: shipmate
+HYP:   shmite
+            S
+
+sentence 844
+REF: he was   the new   town dentist
+HYP: he was theno  en dentos *******
+                S   S      S       D
+
+sentence 845
+REF: purple
+HYP:   fpoa
+          S
+
+sentence 846
+REF: it invited  him       to live in his   leaves then     the other ones felt
+HYP: it   bited himn teleivin **** ** his levsthen   he atheron  selt **** ****
+              S    S        S    D  D            S    S       S     S    D    D
+
+sentence 847
+REF: one    three six three oh
+HYP:  on thesesel *** ***** **
+       S        S   D     D  D
+
+sentence 848
+REF: the flight    attendant gave me a      deck      of cards                but she wouldn't play go fish with me
+HYP: the flader tenitgavemey **** ** a decercard botchey   won playgorfishwithmiy *** ******** **** ** **** **** **
+              S            S    D  D           S       S     S                  S   D        D    D  D    D    D  D
+
+sentence 849
+REF: of course  it would be concealed        up in   a besieged castle
+HYP: ov  corsi wed ***** be       con seldupind  y bin  ceosaur ******
+      S      S   S     D            S         S  S   S        S      D
+
+sentence 850
+REF:  february
+HYP: fetghebey
+             S
+
+sentence 851
+REF: how    to build
+HYP:  hu tbild *****
+       S     S     D
+
+sentence 852
+REF: five eight one nine five
+HYP: five egone *** nine five
+              S   D          
+
+sentence 853
+REF: month
+HYP: mouth
+         S
+
+sentence 854
+REF:       ell          your gift to a buyer at a good ian
+HYP: agiavstwo apeiaaagatean **** ** * ***** ** * **** ***
+             S             S    D  D D     D  D D    D   D
+
+sentence 855
+REF: green    red blue       green    red blue red green red green
+HYP:  gren redblo gren redbloagren redgrn **** *** ***** *** *****
+         S      S    S           S      S    D   D     D   D     D
+
+sentence 856
+REF: horses
+HYP: voicas
+          S
+
+sentence 857
+REF:     well          i'm  sure you guessed that didn't work
+HYP: himseryo getstheatdin worck *** ******* **** ****** ****
+            S            S     S   D       D    D      D    D
+
+sentence 858
+REF:     six
+HYP: birsits
+           S
+
+sentence 859
+REF:  said
+HYP: shead
+         S
+
+sentence 860
+REF: cheese  and yogurt are    both  made from milk so they       are called dairy foods
+HYP:   ches anyu    gor  er bothmad froms **** **** ** they cardthery ringks ***** *****
+          S    S      S   S       S     S    D    D  D              S      S     D     D
+
+sentence 861
+REF:           dr lewis first
+HYP: cocularsfirs ***** *****
+                S     D     D
+
+sentence 862
+REF:         on the rafts laura you ride on my
+HYP: otheafsora ume ***** ***** *** **** ** **
+              S   S     D     D   D    D  D  D
+
+sentence 863
+REF:   i     saw a
+HYP: ivo saurteg *
+       S       S D
+
+sentence 864
+REF:     candy bar
+HYP: kanteruto ***
+             S   D
+
+sentence 865
+REF: ih
+HYP: ei
+      S
+
+sentence 866
+REF:   that      i  would win the race
+HYP: thethi wodwin gheros *** *** ****
+          S      S      S   D   D    D
+
+sentence 867
+REF:   like the one  in  the  photograph a sign   on  a wall nearby
+HYP: likthe one ind heo foto grofegyspid o  sog goty wa  ner    biy
+          S   S   S   S    S           S S    S    S  S    S      S
+
+sentence 868
+REF: versions
+HYP:   veians
+            S
+
+sentence 869
+REF: you  i can
+HYP:  wo eg   n
+       S  S   S
+
+sentence 870
+REF: fuel
+HYP:   so
+        S
+
+sentence 871
+REF:       one eight four one zero one
+HYP: oetfootoo ***** **** *** **** ***
+             S     D    D   D    D   D
+
+sentence 872
+REF: and comparing them  to            earth rocks scientists learned about
+HYP: and    cpeing them two rthrocssitosloer     o       bout ******* *****
+                 S        S                S     S          S       D     D
+
+sentence 873
+REF: why     are    we stopping now laura asked listen whispered uncle
+HYP: whi wstapin dshes    wespr  co ***** ***** ****** ********* *****
+       S       S     S        S   S     D     D      D         D     D
+
+sentence 874
+REF: you
+HYP:   y
+       S
+
+sentence 875
+REF:    jugs      were almost empty and
+HYP: seswher omoasemti     in ***** ***
+           S         S      S     D   D
+
+sentence 876
+REF: skiing
+HYP:    ska
+          S
+
+sentence 877
+REF: so      the      sun comes out and he
+HYP: so thesocum outeande ***** *** *** **
+               S        S     D   D   D  D
+
+sentence 878
+REF:  yes
+HYP: uyes
+        S
+
+sentence 879
+REF: smallridge
+HYP:   smilwede
+              S
+
+sentence 880
+REF:               moss grass and stones
+HYP: marthegirasanstons ***** *** ******
+                      S     D   D      D
+
+sentence 881
+REF: *** longview
+HYP: one     pelo
+       I        S
+
+sentence 882
+REF: you      are right  why don't you go to the    pet store
+HYP:   y rhitwhid  ewhe goto ***** *** ** ** the pestor *****
+       S        S     S    S     D   D  D  D          S     D
+
+sentence 883
+REF: wait
+HYP:   le
+        S
+
+sentence 884
+REF: two         seven zero two nine one
+HYP: two sevensrtonine  won *** **** ***
+                     S    S   D    D   D
+
+sentence 885
+REF: boyhood
+HYP:  boyhod
+           S
+
+sentence 886
+REF:              go with another i want i don't want to read some sentences anymore no
+HYP: tantatertsetile   wa  eenemo o  clo * ***** **** ** **** **** ********* ******* **
+                   S    S       S S    S D     D    D  D    D    D         D       D  D
+
+sentence 887
+REF: the women replied only by vanishing          as though suddenly      mixed with the air
+HYP: the women      re plid ny       biy venoshingas    the   sattly mitwhetthe   er *** ***
+                     S    S  S         S           S      S        S          S    S   D   D
+
+sentence 888
+REF: with
+HYP: wifh
+        S
+
+sentence 889
+REF:     in the
+HYP: eanter ***
+          S   D
+
+sentence 890
+REF:           mr foster
+HYP: mostertastin ******
+                S      D
+
+sentence 891
+REF: blowouts
+HYP:     fout
+            S
+
+sentence 892
+REF: lemon
+HYP: lemen
+         S
+
+sentence 893
+REF: doctor wong   and john     were the stars of the    parade they were up in the  main float
+HYP:  doter  won angon   wr thestors hot ***** ** the preygkthe   wr open ** ** the meine   flo
+          S    S     S    S        S   S     D  D             S    S    S  D  D         S     S
+
+sentence 894
+REF:                   heading back to school they passed miss nelson's house
+HYP: hiieocothipormosnoceoeros **** ** ****** **** ****** **** ******** *****
+                             S    D  D      D    D      D    D        D     D
+
+sentence 895
+REF: louise        and     sam thanked ms gordon
+HYP:    lea hensankkms gardian ******* ** ******
+          S          S       S       D  D      D
+
+sentence 896
+REF: girlhood
+HYP:   girlod
+            S
+
+sentence 897
+REF: r
+HYP: a
+     S
+
+sentence 898
+REF:    mean  old            fang said bark bark bark bark which meant
+HYP: renouin sede bubokbatwigemut **** **** **** **** **** ***** *****
+           S    S               S    D    D    D    D    D     D     D
+
+sentence 899
+REF: hey would  you like to go on       a           spider  hunt tomorrow oh yes victor said tommy sh
+HYP: hey    wd lito **** ** go on aspiter otomaosuyesviter sadto    amosh ** *** ****** **** ***** **
+             S    S    D  D             S                S     S        S  D   D      D    D     D  D
+
+sentence 900
+REF: hard
+HYP:  ard
+        S
+
+sentence 901
+REF: ridgecrest
+HYP:  rhigecmos
+              S
+
+sentence 902
+REF: twenty five
+HYP:  treyo ****
+          S    D
+
+sentence 903
+REF: fullness
+HYP: oermeter
+            S
+
+sentence 904
+REF: the  pig   saw the cat on the bug
+HYP: the pigo cbuck *** *** ** *** ***
+            S     S   D   D  D   D   D
+
+sentence 905
+REF:   seven      two   three seven two
+HYP: eventwo todthree sevetwo ***** ***
+           S        S       S     D   D
+
+sentence 906
+REF: s
+HYP: s
+      
+
+sentence 907
+REF: said
+HYP: fird
+        S
+
+sentence 908
+REF: do    i    have to wait for the beep nine wait five nine eight eight one
+HYP: dn rnin fivenin eg  eon *** *** **** **** **** **** **** ***** ***** ***
+      S    S       S  S    S   D   D    D    D    D    D    D     D     D   D
+
+sentence 909
+REF: lengthy
+HYP:   rinki
+           S
+
+sentence 910
+REF:         one oh one that's that's the number on my house five five
+HYP: oasrgsbpitu ** *** ****** ****** *** ****** ** ** ***** **** ****
+               S  D   D      D      D   D      D  D  D     D    D    D
+
+sentence 911
+REF: toying
+HYP:   torg
+          S
+
+sentence 912
+REF:   she knew how     to        get  the results the class        did a whole week's worth in no time
+HYP: sheno   hu   t getthe resaurtthe clas       i  ho  wegs wersanotim * ***** ****** ***** ** ** ****
+         S    S   S      S          S    S       S   S     S          S D     D      D     D  D  D    D
+
+sentence 913
+REF: what is  rock slide axed asked laura
+HYP:  ais ra eggas ***** **** ***** *****
+        S  S     S     D    D     D     D
+
+sentence 914
+REF: red
+HYP:   d
+       S
+
+sentence 915
+REF:  our      color weigh  thirty pounds we can fill three two
+HYP: colr waserfudwh     e thretwo ****** ** *** **** ***** ***
+        S          S     S       S      D  D   D    D     D   D
+
+sentence 916
+REF:  i went          walking what did you see
+HYP: ie  wen watchingwatedsce **** *** *** ***
+      S    S                S    D   D   D   D
+
+sentence 917
+REF:       on the stays one of
+HYP: raterosc *** ***** *** **
+            S   D     D   D  D
+
+sentence 918
+REF:                      uh uh maya solved the problem it's about uhm
+HYP: aafisatherpropaiterpoua ** **** ****** *** ******* **** ***** ***
+                           S  D    D      D   D       D    D     D   D
+
+sentence 919
+REF: skewered
+HYP:     sord
+            S
+
+sentence 920
+REF: it                   jack it's magic jack said no magnets
+HYP:  a tackitmaitecsarnomouns **** ***** **** **** ** *******
+      S                      S    D     D    D    D  D       D
+
+sentence 921
+REF: w
+HYP: h
+     S
+
+sentence 922
+REF:  z
+HYP: zo
+      S
+
+sentence 923
+REF:      nine four seven    eight six oh
+HYP: dineopour **** seven eysescok *** **
+             S    D              S   D  D
+
+sentence 924
+REF: he ordered peach     pie with  ice cream
+HYP: he   order  pige pidewot   is cinb *****
+              S     S       S    S    S     D
+
+sentence 925
+REF: that's how     the flute sounded when   h   when this guy played it
+HYP:   thet  se therflo  foun     dhs  wen wen thesce  ple *** ****** **
+          S   S       S     S       S    S   S      S    S   D      D  D
+
+sentence 926
+REF: twenty
+HYP:    twa
+          S
+
+sentence 927
+REF: sigma
+HYP:  fidr
+         S
+
+sentence 928
+REF: barroom
+HYP:      bi
+           S
+
+sentence 929
+REF: churchmen
+HYP:  tratcmen
+             S
+
+sentence 930
+REF: burroughs
+HYP:      voic
+             S
+
+sentence 931
+REF: before
+HYP:  gfour
+          S
+
+sentence 932
+REF: it was the exact place    they       had              decided for the luncheon luncheon
+HYP: ie was the    gg   act plasthe hadesedfe therlancheillalancha *** *** ******** ********
+      S             S     S       S         S                    S   D   D        D        D
+
+sentence 933
+REF:    but   i am too     old  to endure      your       shame and my misery much longer
+HYP: battem two  o two anoryor she     an mitmasery matchlongor *** ** ****** **** ******
+          S   S  S   S       S   S      S         S           S   D  D      D    D      D
+
+sentence 934
+REF:      the marbles weighed three pounds
+HYP: thermiel    swed ******* three   pons
+            S       S       D            S
+
+sentence 935
+REF:        zig and zag got on the last bus
+HYP: ccotothapo *** *** *** ** *** **** ***
+              S   D   D   D  D   D    D   D
+
+sentence 936
+REF:           what a mess donna said
+HYP: watermostorsan * **** ***** ****
+                  S D    D     D    D
+
+sentence 937
+REF: they were the   first pets
+HYP:  the    w  he frseags ****
+        S    S   S       S    D
+
+sentence 938
+REF: is   a every         cold and it is not every
+HYP: es are   coa enditiismite *** ** ** *** *****
+      S   S     S            S   D  D  D   D     D
+
+sentence 939
+REF: you two will think
+HYP: *** two   wl  sink
+       D        S     S
+
+sentence 940
+REF:     that           they hadn't noticed the
+HYP: thatthay headenotosthem ****** ******* ***
+            S              S      D       D   D
+
+sentence 941
+REF: then he said
+HYP: cano ** ****
+        S  D    D
+
+sentence 942
+REF: stone
+HYP: straw
+         S
+
+sentence 943
+REF: *** toehold
+HYP: two     hod
+       I       S
+
+sentence 944
+REF:   become
+HYP: beagcumb
+            S
+
+sentence 945
+REF:          i never said she could go
+HYP: renowasead ***** **** she    co co
+              S     D    D         S  S
+
+sentence 946
+REF: stop
+HYP: star
+        S
+
+sentence 947
+REF:     yes  i   know it's     my doing don't rub it in
+HYP: yesinou is mitdng   do woetin ***** ***** *** ** **
+           S  S      S    S      S     D     D   D  D  D
+
+sentence 948
+REF:   witchcraft
+HYP: witcecrafftd
+                S
+
+sentence 949
+REF: indulged
+HYP:      dog
+            S
+
+sentence 950
+REF: dogs
+HYP: ducs
+        S
+
+sentence 951
+REF:       my spider must
+HYP: mispider  moust ****
+            S      S    D
+
+sentence 952
+REF:   zero one eight one zero
+HYP: sondea *** ***** *** ****
+          S   D     D   D    D
+
+sentence 953
+REF: weekdays
+HYP:  whefeis
+            S
+
+sentence 954
+REF: that's     a second fact  we can put
+HYP:  thaty sacan  actwe cane pot *** ***
+          S     S      S    S   S   D   D
+
+sentence 955
+REF: so           it won't    hurt anyone  if there's an earthquake
+HYP: so itwontrtenee   one ifethes     an rth   cleik ** **********
+                   S     S       S      S   S       S  D          D
+
+sentence 956
+REF: decoys
+HYP:   decs
+          S
+
+sentence 957
+REF:     of  three windows
+HYP: athree wendos *******
+          S      S       D
+
+sentence 958
+REF:    red
+HYP: bridge
+          S
+
+sentence 959
+REF: well                        i hope you've enjoyed yourselves said miss barry
+HYP: whil hopyangoiyoseseedmosbeon **** ****** ******* ********** **** **** *****
+        S                        S    D      D       D          D    D    D     D
+
+sentence 960
+REF: gear
+HYP:  irl
+        S
+
+sentence 961
+REF: euro
+HYP:   yo
+        S
+
+sentence 962
+REF: marbles   i want   to win the contest
+HYP: marerba won   te whin *** the contost
+           S   S    S    S   D           S
+
+sentence 963
+REF:    other kids
+HYP: bearcags ****
+            S    D
+
+sentence 964
+REF: offshoot
+HYP:       it
+            S
+
+sentence 965
+REF:    the      way                        i figured  it     my game boy my game boy only was five buttons and i
+HYP: therwe yfiegerd tmigimborymiginmboryoley    weas fiv butons   an *** ** **** *** **** *** **** ******* *** *
+          S        S                        S       S   S      S    S   D  D    D   D    D   D    D       D   D D
+
+sentence 966
+REF: goodgame
+HYP: spaghein
+            S
+
+sentence 967
+REF: erica
+HYP:   ica
+         S
+
+sentence 968
+REF: what     is   the   name    of your favorite animal
+HYP: atis thenim ovher fhevet enmur **** ******** ******
+        S      S     S      S     S    D        D      D
+
+sentence 969
+REF: voiceless
+HYP: voicleope
+             S
+
+sentence 970
+REF: two        four five and zero
+HYP: two fourfiveesl **** *** ****
+                   S    D   D    D
+
+sentence 971
+REF: no
+HYP: no
+       
+
+sentence 972
+REF: duckbill
+HYP:  docular
+            S
+
+sentence 973
+REF: she said
+HYP: she  sad
+            S
+
+sentence 974
+REF: one looks bigger than             mr higgins jar one looked smaller
+HYP: one   los  biger then osterginstoone   losmu *** *** ****** *******
+             S      S    S              S       S   D   D      D       D
+
+sentence 975
+REF:    what's your story
+HYP: wasestory **** *****
+             S    D     D
+
+sentence 976
+REF:  thwart thwarted
+HYP: aanstag ********
+           S        D
+
+sentence 977
+REF:  i   guess  i'll buy         a few snakes since they look     so funny coiling out
+HYP: ag ghetter biteo fho snakssean   s    the    lo   co fony coilin    ut ******* ***
+      S       S     S   S         S   S      S     S    S    S      S     S       D   D
+
+sentence 978
+REF:      she had      loosened the lid and laughing sat on it
+HYP: shelosan teo ouphonxyteron *** *** *** ******** *** ** **
+            S   S             S   D   D   D        D   D  D  D
+
+sentence 979
+REF: snowy
+HYP: snory
+         S
+
+sentence 980
+REF: buy
+HYP:  ve
+       S
+
+sentence 981
+REF: tommy looked closer
+HYP:   teb    lot closar
+         S      S      S
+
+sentence 982
+REF: all      the money won't be        too much            to pay the debt the debts
+HYP:   a themuany  want ***** be twomatchto  pey thedetthedets *** *** **** *** *****
+       S        S     S     D             S    S             S   D   D    D   D     D
+
+sentence 983
+REF:  the candy
+HYP: dedi *****
+        S     D
+
+sentence 984
+REF: they    could           keep they couldn't keep john in jail
+HYP:  the codkepth codincupgomcel **** ******** **** **** ** ****
+        S        S              S    D        D    D    D  D    D
+
+sentence 985
+REF: a crocodile
+HYP: e crocodile
+     S          
+
+sentence 986
+REF: tithing
+HYP:    side
+           S
+
+sentence 987
+REF:  go
+HYP: gir
+       S
+
+sentence 988
+REF: after dinner jordan crept        up by way of the      back stairs to see her
+HYP:   ate  denor    org  cret upbiwrhey  v *** ** the basistose     er ** *** ***
+         S      S      S     S         S  S   D  D             S      S  D   D   D
+
+sentence 989
+REF:   plan     to explained
+HYP: pladei splade *********
+          S      S         D
+
+sentence 990
+REF: cheese and yogurt are both made        from milk so they  are called dairy foods
+HYP:   ches  yo     co  er both  med fermilcktha    r ca they phos ****** ***** *****
+          S   S      S   S         S           S    S  S         S      D     D     D
+
+sentence 991
+REF: he   ran   half way to the hardware store
+HYP: he reane hafwey *** to the cadstory *****
+            S      S   D               S     D
+
+sentence 992
+REF: the turtle    cup         for      the rest of his long life
+HYP: the    tet cupfet theresavhis longlife **** ** *** **** ****
+              S      S           S        S    D  D   D    D    D
+
+sentence 993
+REF: yes
+HYP: yes
+        
+
+sentence 994
+REF: then      the flies stopped
+HYP: hant therfliy   sut *******
+        S        S     S       D
+
+sentence 995
+REF: and the zoo wasn't making enough     money so    if  they didn't make more money then they would  have  to move the pandas to      a different zoo
+HYP: and  th   o    was     me  cking anufmoany so ifehe dinme   cmor mony **** ***** then thee    wd efeto mov **** the  penis tw defran         o ***
+           S   S      S      S      S         S        S     S      S    S    D     D         S     S     S   S    D          S  S      S         S   D
+
+sentence 996
+REF: there was quite               a        lot of          work spelling number problems all kinds of things
+HYP:  ther was  cate laterwerspeling numberpumb  a cinsheothings ******** ****** ******** *** ***** ** ******
+         S         S               S          S  S             S        D      D        D   D     D  D      D
+
+sentence 997
+REF: longmire
+HYP:   vmiteo
+            S
+
+sentence 998
+REF:  not
+HYP: niht
+        S
+
+sentence 999
+REF: miles and miles of   grassy      land      i see mountains but they're
+HYP:   mil  an   mil  e grashemd smountins batthi *** ********* *** *******
+         S   S     S  S        S         S      S   D         D   D       D
+
+sentence 1000
+REF: distance
+HYP:   gicans
+            S
+
+sentence 1001
+REF:  spend thread
+HYP: speard ******
+          S      D
+
+sentence 1002
+REF: di
+HYP:  d
+      S
+
+sentence 1003
+REF: newsprint
+HYP:    nospot
+             S
+
+sentence 1004
+REF:  seven      five zero two oh
+HYP: fevene fiveeroto   og *** **
+          S         S    S   D  D
+
+sentence 1005
+REF:        there was nothing   the police could do
+HYP: thestutthing  he     pls codio ****** ***** **
+                S   S       S     S      D     D  D
+
+sentence 1006
+REF: the huge tiger and the other    beasts shouted
+HYP: the hige  tigr  an the ather beassheti *******
+            S     S   S         S         S       D
+
+sentence 1007
+REF:   as she flew
+HYP: agfl *** ****
+        S   D    D
+
+sentence 1008
+REF: withstood
+HYP:     wstod
+             S
+
+sentence 1009
+REF: bathtub
+HYP:    beap
+           S
+
+sentence 1010
+REF:  lodgings
+HYP: martiangs
+             S
+
+sentence 1011
+REF: disjoint
+HYP: dstroint
+            S
+
+sentence 1012
+REF: bivouac
+HYP:    biag
+           S
+
+sentence 1013
+REF:     sam and louise
+HYP: vethems *** ******
+           S   D      D
+
+sentence 1014
+REF:     all night        the blizzard   raged in the morning the plains were white with snow
+HYP: anitthe waser ridgeanthe   moning therwin  r lek  lsnokk *** ****** **** ***** **** ****
+           S     S          S        S       S  S   S       S   D      D    D     D    D    D
+
+sentence 1015
+REF:   chicken liver
+HYP: cicumeber *****
+             S     D
+
+sentence 1016
+REF: three quarters
+HYP: three      cus
+                  S
+
+sentence 1017
+REF:  october
+HYP: utoumber
+            S
+
+sentence 1018
+REF: don't play your old flute
+HYP: donpy  ofo **** *** *****
+         S    S    D   D     D
+
+sentence 1019
+REF:     if               we don't get more money
+HYP: iefwee donghetmotermoti ***** *** **** *****
+          S                S     D   D    D     D
+
+sentence 1020
+REF:   uhm
+HYP: voice
+         S
+
+sentence 1021
+REF:                dear        me     no            said       mama          nail biting      is a kind of nervous habit and shouting and threatening will just make her more nervous
+HYP: termnouthemumardhle bettingis candev anorvosheabetan cheutingan threningwages micker moneros * **** ** ******* ***** *** ******** *** *********** **** **** **** *** **** *******
+                       S         S      S               S          S             S      S       S D    D  D       D     D   D        D   D           D    D    D    D   D    D       D
+
+sentence 1022
+REF:    my name is        mr chu
+HYP: thine **** is mosercher ***
+         S    D            S   D
+
+sentence 1023
+REF:          but   they   are still ahead so far away
+HYP: bottheyrstil headso fowey ***** ***** ** *** ****
+                S      S     S     D     D  D   D    D
+
+sentence 1024
+REF: sigma
+HYP: facti
+         S
+
+sentence 1025
+REF: southside
+HYP: xyehoside
+             S
+
+sentence 1026
+REF: roundhouse
+HYP:   rhooceos
+              S
+
+sentence 1027
+REF: skiing
+HYP:      i
+          S
+
+sentence 1028
+REF: is      the plan okay
+HYP: is therplan  ocy ****
+               S    S    D
+
+sentence 1029
+REF:  thankfully someone was digging    a hole  and found water but soon after they started to  get flies
+HYP: thenggkouly sumwone was dighing uour   an fond ***** water bat  son    uf   te  theser to ghet  flis
+               S       S           S    S    S    S     D         S    S     S    S       S       S     S
+
+sentence 1030
+REF: enthuse
+HYP: kangars
+           S
+
+sentence 1031
+REF:   i went
+HYP: dwe ****
+       S    D
+
+sentence 1032
+REF: the  bunch of   grapes      was pressed into wine
+HYP: the boutch ov grepswas preastin      to  ine ****
+              S  S        S        S       S    S    D
+
+sentence 1033
+REF: cheyennes
+HYP:        as
+             S
+
+sentence 1034
+REF:  z
+HYP: bt
+      S
+
+sentence 1035
+REF:   ducked under    the table
+HYP: duckundr    th tabour *****
+            S     S      S     D
+
+sentence 1036
+REF: ** jailhouse
+HYP: gr       ush
+      I         S
+
+sentence 1037
+REF:        it's a giant boa
+HYP: itgiintboar * ***** ***
+               S D     D   D
+
+sentence 1038
+REF:     typhoid
+HYP: xyilophorne
+               S
+
+sentence 1039
+REF:  two
+HYP: hito
+        S
+
+sentence 1040
+REF: are we going to    have time
+HYP:   a ws   gon to havetin ****
+       S  S     S          S    D
+
+sentence 1041
+REF: ***  now all the people rejoiced because the wicked        king       should rule them no longer
+HYP: nou theo phe  pl  rgose       be     cas the      w cingschorol themnolongor **** **** ** ******
+       I    S   S   S      S        S       S          S           S            S    D    D  D      D
+
+sentence 1042
+REF:           said we must carefully
+HYP: ewhelemshaflly ** **** *********
+                  S  D    D         D
+
+sentence 1043
+REF: as they walked through the center he told
+HYP: as thee  watro ******* the senter he  tod
+           S      S       D          S       S
+
+number of sentences: 1043
+substitutions=2916 deletions=2061 insertions=35 hits=365
+
+mer=93.21%
+wil=99.25%
+wip=0.75%
+wer=93.82%
+
+
+
