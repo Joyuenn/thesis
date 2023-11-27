@@ -80,44 +80,6 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-# Experiment ID
-# For 1) naming vocab.json file and
-#     2) naming model output directory
-#     3) naming results file
-#experiment_id = "20211026-base-myST-OGI-TLT"
-#print("experiment_id:", experiment_id)
-
-# DatasetDict Id
-# For 1) naming cache directory and 
-#     2) saving the DatasetDict object
-#datasetdict_id = "myST-OGI-TLT-finetune"
-#print("datasetdict_id:", datasetdict_id)
-
-# Base filepath
-# For setting the base filepath to direct output to
-#base_fp = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/"
-#print("base_fp:", base_fp)
-
-# Base cache directory filepath
-# For setting directory for cache files
-#base_cache_fp = "/srv/scratch/chacmod/.cache/huggingface/datasets/"
-
-# Training dataset name and filename
-# Dataset name and filename of the csv file containing the training data
-# For generating filepath to file location
-#train_name = "myST-OGI-TLT17"
-#train_filename = "THESIS_C/myST-OGI-TLT_data_finetune_light"
-#print("train_name:", train_name)
-#print("train_filename:", train_filename)
-
-# Evaluation dataset name and filename
-# Dataset name and filename of the csv file containing the evaluation data
-# For generating filepath to file location
-#evaluation_name = "myST"
-#evaluation_filename = "THESIS_C/myST_data_dev_light"
-#print("evaluation_name:", evaluation_name)
-#print("evaluation_filename:", evaluation_filename)
-
 base_fp = '/srv/scratch/z5313567/thesis/'
 print('base_fp:', base_fp)
 
@@ -267,16 +229,16 @@ print("group_by_length:", set_group_by_length)
 print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
 # Path to dataframe csv for train dataset
 # data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/combined_scripted_spontaneous/AusKidTalk_combined_scripted_spontaneous_train_only_transcription_filepath.csv'
+data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_train_only_transcription_filepath.csv'
 print("--> data_train_fp:", data_train_fp)
 
 # Path to dataframe csv for test dataset
-data_dev_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/combined_scripted_spontaneous/AusKidTalk_combined_scripted_spontaneous_dev_only_transcription_filepath.csv'
+data_dev_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_dev_only_transcription_filepath.csv'
 print("--> data_dev_fp:", data_dev_fp)
 
 # Path to dataframe csv for test dataset
 #data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/combined_scripted_spontaneous/AusKidTalk_combined_scripted_spontaneous_test_only_transcription_filepath.csv'
+data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test_only_transcription_filepath.csv'
 print("--> data_test_fp:", data_test_fp)
 
 # Dataframe file 
@@ -751,6 +713,10 @@ print("Saved results to:", finetuned_results_fp)
 print("--> Getting fine-tuned test results...")
 print("Fine-tuned Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
       references=results["target_text"])))
+cer_metric = load_metric("cer")
+print("Fine-tuned Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
+      references=results["target_text"])))
+print('\n')
 # Showing prediction errors
 print("--> Showing some fine-tuned prediction errors...")
 show_random_elements(results.remove_columns(["speech", "sampling_rate"]))
@@ -794,6 +760,9 @@ if eval_baseline:
     print("--> Getting baseline test results...")
     print("Baseline Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
           references=results["target_text"])))
+    print("Baseline Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
+          references=results["target_text"])))
+    print('\n')
     # Showing prediction errors
     print("--> Showing some baseline prediction errors...")
     show_random_elements(results.remove_columns(["speech", "sampling_rate"]))

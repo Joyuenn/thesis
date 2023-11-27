@@ -82,54 +82,16 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-# Experiment ID
-# For 1) naming vocab.json file and
-#     2) naming model output directory
-#     3) naming results file
-#experiment_id = "20211026-base-myST-OGI-TLT"
-#print("experiment_id:", experiment_id)
-
-# DatasetDict Id
-# For 1) naming cache directory and 
-#     2) saving the DatasetDict object
-#datasetdict_id = "myST-OGI-TLT-finetune"
-#print("datasetdict_id:", datasetdict_id)
-
-# Base filepath
-# For setting the base filepath to direct output to
-#base_fp = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/"
-#print("base_fp:", base_fp)
-
-# Base cache directory filepath
-# For setting directory for cache files
-#base_cache_fp = "/srv/scratch/chacmod/.cache/huggingface/datasets/"
-
-# Training dataset name and filename
-# Dataset name and filename of the csv file containing the training data
-# For generating filepath to file location
-#train_name = "myST-OGI-TLT17"
-#train_filename = "THESIS_C/myST-OGI-TLT_data_finetune_light"
-#print("train_name:", train_name)
-#print("train_filename:", train_filename)
-
-# Evaluation dataset name and filename
-# Dataset name and filename of the csv file containing the evaluation data
-# For generating filepath to file location
-#evaluation_name = "myST"
-#evaluation_filename = "THESIS_C/myST_data_dev_light"
-#print("evaluation_name:", evaluation_name)
-#print("evaluation_filename:", evaluation_filename)
-
 base_fp = '/srv/scratch/z5313567/thesis/'
 print('base_fp:', base_fp)
 
 model = 'wav2vec2'
 print('model:', model)
 
-dataset_name = 'OGI_American_scripted_spontaneous_combined'
+dataset_name = 'OGI_scripted_spontaneous_combined'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'finetune_full_20230714'
+experiment_id = 'finetune_OGI_scripted_spontaneous_combined_20230923'
 print('experiment_id:', experiment_id)
 
 cache_name = 'OGI-finetune'
@@ -146,12 +108,12 @@ print("training:", training)
 # 1) resuming from a saved checkpoint if training stopped midway through
 # 2) for using an existing finetuned model for evaluation 
 # If 2), then must also set eval_pretrained = True
-use_checkpoint = False
+use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
 
 # Set checkpoint if resuming from/using checkpoint
 #checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016-base-myST-OGI-TLT17/checkpoint-20000"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_scripted_spontaneous_combined/finetune_OGI_scripted_spontaneous_combined_20230923/checkpoint-35000"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -194,16 +156,16 @@ print("eval_baseline:", eval_baseline)
 print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
 # Path to dataframe csv for train dataset
 # data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_train_shuffled_only_transcription_filepath.csv'
+data_train_fp =  '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_train_15sec_shuffled_only_transcription_filepath.csv'
 print("--> data_train_fp:", data_train_fp)
 
 # Path to dataframe csv for test dataset
-data_dev_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_dev_shuffled_only_transcription_filepath.csv'
+data_dev_fp =  '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_dev_15sec_shuffled_only_transcription_filepath.csv'
 print("--> data_dev_fp:", data_dev_fp)
 
 # Path to dataframe csv for test dataset
 #data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_test_shuffled_only_transcription_filepath.csv'
+data_test_fp =  '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_test_15sec_shuffled_only_transcription_filepath.csv'
 print("--> data_test_fp:", data_test_fp)
 
 # Dataframe file 
@@ -247,7 +209,7 @@ print("\n------> TRAINING ARGUMENTS... ----------------------------------------\
 
 set_evaluation_strategy = "steps"           # Default = "no"
 print("evaluation strategy:", set_evaluation_strategy)
-set_per_device_train_batch_size = 1         # Default = 8
+set_per_device_train_batch_size = 8         # Default = 8
 print("per_device_train_batch_size:", set_per_device_train_batch_size)
 set_gradient_accumulation_steps = 1         # Default = 1
 print("gradient_accumulation_steps:", set_gradient_accumulation_steps)
@@ -626,7 +588,7 @@ model = Wav2Vec2ForCTC.from_pretrained(
     mask_time_length=set_mask_time_length,
     ctc_loss_reduction=set_ctc_loss_reduction,
     ctc_zero_infinity=set_ctc_zero_infinity,
-    gradient_checkpointing=set_gradient_checkpointing,
+    #gradient_checkpointing=set_gradient_checkpointing,
     pad_token_id=processor.tokenizer.pad_token_id
 )
 
@@ -674,7 +636,8 @@ training_args = TrainingArguments(
   load_best_model_at_end=set_load_best_model_at_end,
   metric_for_best_model=set_metric_for_best_model,
   greater_is_better=set_greater_is_better,
-  group_by_length=set_group_by_length
+  group_by_length=set_group_by_length,
+  gradient_checkpointing = set_gradient_checkpointing
 )
 # All instances can be passed to Trainer and 
 # we are ready to start training!
@@ -754,6 +717,10 @@ print("Saved results to:", finetuned_results_fp)
 print("--> Getting fine-tuned test results...")
 print("Fine-tuned Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
       references=results["target_text"])))
+cer_metric = load_metric("cer")
+print("Fine-tuned Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
+      references=results["target_text"])))
+print('\n')
 # Showing prediction errors
 print("--> Showing some fine-tuned prediction errors...")
 show_random_elements(results.remove_columns(["speech", "sampling_rate"]))
@@ -797,6 +764,9 @@ if eval_baseline:
     print("--> Getting baseline test results...")
     print("Baseline Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
           references=results["target_text"])))
+    print("Baseline Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
+          references=results["target_text"])))
+    print('\n')
     # Showing prediction errors
     print("--> Showing some baseline prediction errors...")
     show_random_elements(results.remove_columns(["speech", "sampling_rate"]))

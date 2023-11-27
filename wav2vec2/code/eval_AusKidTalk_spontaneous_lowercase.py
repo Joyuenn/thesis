@@ -88,15 +88,14 @@ print('base_fp:', base_fp)
 model = 'wav2vec2'
 print('model:', model)
 
-dataset_name = 'OGI_American'
+dataset_name = 'AusKidTalk'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'eval_OGIfull_spontaneous_20230912_2'
+experiment_id = 'eval_AusKidTalk_spontaneous_lowercase_20231002_2'
 print('experiment_id:', experiment_id)
 
-cache_name = 'OGI-eval'
+cache_name = 'AusKidTalk-eval'
 print('cache_name:', cache_name)
-
 
 
 # Perform Training (True/False)
@@ -113,7 +112,7 @@ use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
 # Set checkpoint if resuming from/using checkpoint
 #checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI-scripted-AusKidTalk-scripted/finetune_202307017"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/AusTalk/finetune_AusTalk_lowercase_20230924"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -123,7 +122,7 @@ if use_checkpoint:
 use_pretrained_tokenizer = True
 print("use_pretrained_tokenizer:", use_pretrained_tokenizer)
 # Set tokenizer
-pretrained_tokenizer = "facebook/wav2vec2-base-960h"
+pretrained_tokenizer = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702"
 if use_pretrained_tokenizer:
     print("pretrained_tokenizer:", pretrained_tokenizer)
 
@@ -145,7 +144,7 @@ print("baseline_model:", baseline_model)
 # Evalulate the baseline model or not (True/False)
 #   True: evaluate baseline model on test set
 #   False: do not evaluate baseline model on test set
-eval_baseline = True
+eval_baseline = False
 print("eval_baseline:", eval_baseline)
 
 print("\n------> MODEL ARGUMENTS... -------------------------------------------\n")
@@ -228,11 +227,11 @@ print("group_by_length:", set_group_by_length)
 print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
 # Path to dataframe csv for train dataset
 # data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_spontaneous_datasets/full_OGI_spontaneous_test_only_transcription_filepath.csv'
+data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_only_transcription_filepath.csv'
 print("--> data_train_fp:", data_train_fp)
 # Path to dataframe csv for test dataset
 #data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_spontaneous_datasets/full_OGI_spontaneous_test_only_transcription_filepath.csv'
+data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_only_transcription_filepath.csv'
 print("--> data_test_fp:", data_test_fp)
 
 # Dataframe file 
@@ -249,7 +248,7 @@ print("--> data_test_fp:", data_test_fp)
 '''
 # Path to datasets cache
 # data_cache_fp = base_cache_fp + datasetdict_id
-data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/baseline-960h-eval/eval_on_OGI'
+data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/baseline-960h-eval/eval_on_AusKidTalk'
 print("--> data_cache_fp:", data_cache_fp)
 # Path to save model output
 #model_fp = base_fp + train_name + "_local/" + experiment_id
@@ -257,14 +256,14 @@ model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211
 print("--> model_fp:", model_fp)
 # Path to save vocab.json
 # vocab_fp = base_fp + train_name + "_local/vocab_" + experiment_id + ".json"
-vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/vocab_OGI_American_20230704.json'
+vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/vocab_AusKidTalk_20230704.json'
 print("--> vocab_fp:", vocab_fp)
 # Path to save results output
 # baseline_results_fp = base_fp + train_name + "_local/" + experiment_id + "_baseline_results.csv" 
-baseline_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/baseline_result/OGI_American/baseline_result_OGI_American_20230704.csv'
+baseline_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/baseline_result_AusKidTalk_20230704.csv'
 print("--> baseline_results_fp:", baseline_results_fp)
 # finetuned_results_fp = base_fp + train_name + "_local/" + experiment_id + "_finetuned_results.csv"
-finetuned_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/finetuned_result_OGI_American_20230704.csv'
+finetuned_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/finetuned_result_AusKidTalk_20230704.csv'
 print("--> finetuned_results_fp:", finetuned_results_fp)
 '''
 
@@ -342,7 +341,7 @@ def show_random_elements(dataset, num_examples=10):
         picks.append(pick)
     df = pd.DataFrame(dataset[picks])
     print(df)
-show_random_elements(data["train"], num_examples=5)
+show_random_elements(data["train"], num_examples=10)
 print("SUCCESS: Prepared dataset.")
 # ------------------------------------------
 #       Processing transcription
@@ -361,7 +360,7 @@ print("\n------> PROCESSING TRANSCRIPTION... -----------------------------------
 
 def process_transcription(batch):
     #batch["transcription_clean"] = re.sub(chars_to_ignore_regex, '', batch["transcription_clean"]).upper()
-    batch["transcription_clean"] = batch["transcription_clean"].upper()
+    batch["transcription_clean"] = batch["transcription_clean"].lower()
     batch["transcription_clean"] = batch["transcription_clean"].replace("<UNK>", "<unk>")
     return batch
 
@@ -596,7 +595,7 @@ model = Wav2Vec2ForCTC.from_pretrained(
     ctc_zero_infinity=set_ctc_zero_infinity,
     #gradient_checkpointing=set_gradient_checkpointing,
     pad_token_id=processor.tokenizer.pad_token_id,
-    ignore_mismatched_sizes=True
+    #ignore_mismatched_sizes=True
 )
 
 # The first component of Wav2Vec2 consists of a stack of CNN layers

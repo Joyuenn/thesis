@@ -88,20 +88,19 @@ print('base_fp:', base_fp)
 model = 'wav2vec2'
 print('model:', model)
 
-dataset_name = 'OGI_American'
+dataset_name = 'OGI_scripted_spontaneous_combined'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'eval_OGIfull_spontaneous_20230912_2'
+experiment_id = 'finetune_OGI_scripted_spontaneous_combined_lowercase_20230923'
 print('experiment_id:', experiment_id)
 
-cache_name = 'OGI-eval'
+cache_name = 'OGI-finetune'
 print('cache_name:', cache_name)
-
 
 
 # Perform Training (True/False)
 # If false, this will go straight to model evaluation 
-training = False
+training = True
 print("training:", training)
 
 # Resume training from/ use checkpoint (True/False)
@@ -111,9 +110,10 @@ print("training:", training)
 # If 2), then must also set eval_pretrained = True
 use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
+
 # Set checkpoint if resuming from/using checkpoint
 #checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI-scripted-AusKidTalk-scripted/finetune_202307017"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_scripted_spontaneous_combined/finetune_OGI_scripted_spontaneous_combined_lowercase_20230923/checkpoint-35000"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -122,16 +122,18 @@ if use_checkpoint:
 #     False: Use custom tokenizer (if custom dataset has different vocab)
 use_pretrained_tokenizer = True
 print("use_pretrained_tokenizer:", use_pretrained_tokenizer)
+
 # Set tokenizer
-pretrained_tokenizer = "facebook/wav2vec2-base-960h"
+pretrained_tokenizer = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702"
 if use_pretrained_tokenizer:
     print("pretrained_tokenizer:", pretrained_tokenizer)
 
 # Evaluate existing model instead of newly trained model (True/False)
 #     True: use the model in the filepath set by 'eval_model' for eval
 #     False: use the model trained from this script for eval
-eval_pretrained = True
+eval_pretrained = False
 print("eval_pretrained:", eval_pretrained)
+
 # Set existing model to evaluate, if evaluating on existing model
 eval_model = checkpoint
 if eval_pretrained:
@@ -145,8 +147,38 @@ print("baseline_model:", baseline_model)
 # Evalulate the baseline model or not (True/False)
 #   True: evaluate baseline model on test set
 #   False: do not evaluate baseline model on test set
-eval_baseline = True
+eval_baseline = False
 print("eval_baseline:", eval_baseline)
+
+# ------------------------------------------
+#        Generating file paths
+# ------------------------------------------
+print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
+# Path to dataframe csv for train dataset
+# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
+data_train_fp =  '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_train_15sec_shuffled_only_transcription_filepath.csv'
+print("--> data_train_fp:", data_train_fp)
+
+# Path to dataframe csv for test dataset
+data_dev_fp =  '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_dev_15sec_shuffled_only_transcription_filepath.csv'
+print("--> data_dev_fp:", data_dev_fp)
+
+# Path to dataframe csv for test dataset
+#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
+data_test_fp =  '/srv/scratch/z5313567/thesis/OGI_local/new_full_combined_scripted_spontaneous/full_OGI_combined_scripted_spontaneous_test_15sec_shuffled_only_transcription_filepath.csv'
+print("--> data_test_fp:", data_test_fp)
+
+# Dataframe file 
+# |-----------|---------------------|----------|---------|
+# | file path | transcription_clean | duration | spkr_id |
+# |-----------|---------------------|----------|---------|
+# |   ...     |      ...            |  ..secs  | ......  |
+# |-----------|---------------------|----------|---------|
+# NOTE: The spkr_id column may need to be removed beforehand if
+#       there appears to be a mixture between numerical and string ID's
+#       due to this issue: https://github.com/apache/arrow/issues/4168
+#       when calling load_dataset()
+
 
 print("\n------> MODEL ARGUMENTS... -------------------------------------------\n")
 # For setting model = Wav2Vec2ForCTC.from_pretrained()
@@ -159,9 +191,9 @@ set_attention_dropout = 0.1                 # Default = 0.1
 print("attention_dropoutput:", set_attention_dropout)
 set_feat_proj_dropout = 0.0                 # Default = 0.1
 print("feat_proj_dropout:", set_feat_proj_dropout)
-set_layerdrop = 0.1                         # Default = 0.1
+set_layerdrop = 0.05                         # Default = 0.1
 print("layerdrop:", set_layerdrop)
-set_mask_time_prob = 0.05                  # Default = 0.05
+set_mask_time_prob = 0.065                  # Default = 0.05
 print("mask_time_prob:", set_mask_time_prob)
 set_mask_time_length = 10                   # Default = 10
 print("mask_time_length:", set_mask_time_length)
@@ -181,7 +213,7 @@ set_per_device_train_batch_size = 8         # Default = 8
 print("per_device_train_batch_size:", set_per_device_train_batch_size)
 set_gradient_accumulation_steps = 1         # Default = 1
 print("gradient_accumulation_steps:", set_gradient_accumulation_steps)
-set_learning_rate = 0.00003                 # Default = 0.00005
+set_learning_rate = 0.00004                 # Default = 0.00005
 print("learning_rate:", set_learning_rate)
 set_weight_decay = 0.01                     # Default = 0
 print("weight_decay:", set_weight_decay)
@@ -191,9 +223,9 @@ set_adam_beta2 = 0.98                       # Default = 0.999
 print("adam_beta2:", set_adam_beta2)
 set_adam_epsilon = 0.00000001               # Default = 0.00000001
 print("adam_epsilon:", set_adam_epsilon)
-set_num_train_epochs = 14                   # Default = 3.0
+set_num_train_epochs = 22                   # Default = 3.0
 print("num_train_epochs:", set_num_train_epochs)
-set_max_steps = 60000                          # Default = -1, overrides epochs
+set_max_steps = 35000                          # Default = -1, overrides epochs
 print("max_steps:", set_max_steps)
 set_lr_scheduler_type = "linear"            # Default = "linear"
 print("lr_scheduler_type:", set_lr_scheduler_type )
@@ -222,51 +254,6 @@ print("greater_is_better:", set_greater_is_better)
 set_group_by_length = True                  # Default = False
 print("group_by_length:", set_group_by_length)
 
-# ------------------------------------------
-#        Generating file paths
-# ------------------------------------------
-print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
-# Path to dataframe csv for train dataset
-# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_spontaneous_datasets/full_OGI_spontaneous_test_only_transcription_filepath.csv'
-print("--> data_train_fp:", data_train_fp)
-# Path to dataframe csv for test dataset
-#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_spontaneous_datasets/full_OGI_spontaneous_test_only_transcription_filepath.csv'
-print("--> data_test_fp:", data_test_fp)
-
-# Dataframe file 
-# |-----------|---------------------|----------|---------|
-# | file path | transcription_clean | duration | spkr_id |
-# |-----------|---------------------|----------|---------|
-# |   ...     |      ...            |  ..secs  | ......  |
-# |-----------|---------------------|----------|---------|
-# NOTE: The spkr_id column may need to be removed beforehand if
-#       there appears to be a mixture between numerical and string ID's
-#       due to this issue: https://github.com/apache/arrow/issues/4168
-#       when calling load_dataset()
-
-'''
-# Path to datasets cache
-# data_cache_fp = base_cache_fp + datasetdict_id
-data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/baseline-960h-eval/eval_on_OGI'
-print("--> data_cache_fp:", data_cache_fp)
-# Path to save model output
-#model_fp = base_fp + train_name + "_local/" + experiment_id
-model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016_2-base-myST-OGI-TLT17'
-print("--> model_fp:", model_fp)
-# Path to save vocab.json
-# vocab_fp = base_fp + train_name + "_local/vocab_" + experiment_id + ".json"
-vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/vocab_OGI_American_20230704.json'
-print("--> vocab_fp:", vocab_fp)
-# Path to save results output
-# baseline_results_fp = base_fp + train_name + "_local/" + experiment_id + "_baseline_results.csv" 
-baseline_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/baseline_result/OGI_American/baseline_result_OGI_American_20230704.csv'
-print("--> baseline_results_fp:", baseline_results_fp)
-# finetuned_results_fp = base_fp + train_name + "_local/" + experiment_id + "_finetuned_results.csv"
-finetuned_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/finetuned_result_OGI_American_20230704.csv'
-print("--> finetuned_results_fp:", finetuned_results_fp)
-'''
 
 # Path to datasets cache
 # data_cache_fp = base_cache_fp + datasetdict_id
@@ -323,6 +310,7 @@ print("\n------> PREPARING DATASET... ------------------------------------\n")
 # load as a DatasetDict 
 data = load_dataset('csv', 
                     data_files={'train': data_train_fp,
+                                'dev' : data_dev_fp,
                                 'test': data_test_fp},
                     cache_dir=data_cache_fp)
 # Remove the "duration" and "spkr_id" column
@@ -361,7 +349,7 @@ print("\n------> PROCESSING TRANSCRIPTION... -----------------------------------
 
 def process_transcription(batch):
     #batch["transcription_clean"] = re.sub(chars_to_ignore_regex, '', batch["transcription_clean"]).upper()
-    batch["transcription_clean"] = batch["transcription_clean"].upper()
+    batch["transcription_clean"] = batch["transcription_clean"].lower()
     batch["transcription_clean"] = batch["transcription_clean"].replace("<UNK>", "<unk>")
     return batch
 
@@ -429,15 +417,21 @@ print("\n------> PRE-PROCESSING DATA... ----------------------------------------
 # We want to store both audio values and sampling rate
 # in the dataset. 
 # We write a map(...) function accordingly.
+
+# def speech_file_to_array_fn(batch):
+#    speech_array, sampling_rate = sf.read(batch["filepath"])
+#    batch["speech"] = speech_array
+#    batch["sampling_rate"] = sampling_rate
+#    batch["target_text"] = batch["transcription_clean"]
+#    return batch
 def speech_file_to_array_fn(batch):
     #speech_array, sampling_rate = sf.read(batch["filepath"])
     speech_array, sampling_rate = librosa.load(batch['filepath'], sr=feature_extractor.sampling_rate)
     batch["speech"] = speech_array
     batch["sampling_rate"] = sampling_rate
     batch["target_text"] = batch["transcription_clean"]
-    
-    
     return batch
+
 data = data.map(speech_file_to_array_fn, remove_columns=data.column_names["train"], num_proc=4)
 # Check a few rows of data to verify data properly loaded
 print("--> Verifying data with a random sample...")
@@ -595,8 +589,7 @@ model = Wav2Vec2ForCTC.from_pretrained(
     ctc_loss_reduction=set_ctc_loss_reduction,
     ctc_zero_infinity=set_ctc_zero_infinity,
     #gradient_checkpointing=set_gradient_checkpointing,
-    pad_token_id=processor.tokenizer.pad_token_id,
-    ignore_mismatched_sizes=True
+    pad_token_id=processor.tokenizer.pad_token_id
 )
 
 # The first component of Wav2Vec2 consists of a stack of CNN layers
@@ -644,7 +637,7 @@ training_args = TrainingArguments(
   metric_for_best_model=set_metric_for_best_model,
   greater_is_better=set_greater_is_better,
   group_by_length=set_group_by_length,
-  gradient_checkpointing=set_gradient_checkpointing
+  gradient_checkpointing=set_gradient_checkpointing,
 )
 # All instances can be passed to Trainer and 
 # we are ready to start training!
@@ -654,7 +647,7 @@ trainer = Trainer(
     args=training_args,
     compute_metrics=compute_metrics,
     train_dataset=data_prepared["train"],
-    eval_dataset=data_prepared["test"],
+    eval_dataset=data_prepared["dev"],
     tokenizer=processor.feature_extractor,
 )
 

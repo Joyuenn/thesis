@@ -1,4 +1,11 @@
 print("\n------------ Importing libraries... ------------\n")
+
+print('Importing partial')
+from functools import partial
+
+
+print('Importing string')
+import string
 print('Importing sys')
 import sys
 print(sys.version)

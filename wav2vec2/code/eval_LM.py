@@ -83,45 +83,6 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-# Experiment ID
-# For 1) naming vocab.json file and
-#     2) naming model output directory
-#     3) naming results file
-#experiment_id = "20211026-base-myST-OGI-TLT"
-#print("experiment_id:", experiment_id)
-
-# DatasetDict Id
-# For 1) naming cache directory and 
-#     2) saving the DatasetDict object
-#datasetdict_id = "myST-OGI-TLT-finetune"
-#print("datasetdict_id:", datasetdict_id)
-
-# Base filepath
-# For setting the base filepath to direct output to
-#base_fp = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/"
-#print("base_fp:", base_fp)
-
-# Base cache directory filepath
-# For setting directory for cache files
-#base_cache_fp = "/srv/scratch/chacmod/.cache/huggingface/datasets/"
-
-# Training dataset name and filename
-# Dataset name and filename of the csv file containing the training data
-# For generating filepath to file location
-#train_name = "myST-OGI-TLT17"
-#train_filename = "THESIS_C/myST-OGI-TLT_data_finetune_light"
-#print("train_name:", train_name)
-#print("train_filename:", train_filename)
-
-# Evaluation dataset name and filename
-# Dataset name and filename of the csv file containing the evaluation data
-# For generating filepath to file location
-#evaluation_name = "myST"
-#evaluation_filename = "THESIS_C/myST_data_dev_light"
-#print("evaluation_name:", evaluation_name)
-#print("evaluation_filename:", evaluation_filename)
-
-
 base_fp = '/srv/scratch/z5313567/thesis/'
 print('base_fp:', base_fp)
 
@@ -131,7 +92,7 @@ print('model:', model)
 dataset_name = 'AusKidTalk'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'eval_20230727'
+experiment_id = 'eval_AusKidTalk_spontaneous_20231014'
 print('experiment_id:', experiment_id)
 
 cache_name = 'AusKidTalk-eval'
@@ -139,8 +100,8 @@ print('cache_name:', cache_name)
 
 
 
-#eval_lm = 'patrickvonplaten/wav2vec2-base-100h-with-lm'
-eval_lm = '/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718_with_lm_3'
+eval_lm = 'patrickvonplaten/wav2vec2-base-100h-with-lm'
+#eval_lm = '/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230829_lowercase_with_lm_4gram_big'
 print("Language model:", eval_lm)
 
 # Perform Training (True/False)
@@ -156,8 +117,7 @@ print("training:", training)
 use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
 # Set checkpoint if resuming from/using checkpoint
-#checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_lowercase_20231005"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -405,7 +365,7 @@ print("\n------> PROCESSING TRANSCRIPTION... -----------------------------------
 
 def process_transcription(batch):
     #batch["transcription_clean"] = re.sub(chars_to_ignore_regex, '', batch["transcription_clean"]).upper()
-    batch["transcription_clean"] = batch["transcription_clean"].upper()
+    batch["transcription_clean"] = batch["transcription_clean"].lower()
     batch["transcription_clean"] = batch["transcription_clean"].replace("<UNK>", "<unk>")
     return batch
 
@@ -728,12 +688,13 @@ print("\n------> EVALUATING MODEL... ------------------------------------------ 
 torch.cuda.empty_cache()
 
 if eval_pretrained:
-    processor = Wav2Vec2Processor.from_pretrained(eval_model)
+    processor = Wav2Vec2Processor.from_pretrained(eval_model, cache_dir = data_cache_fp)
+    model = Wav2Vec2ForCTC.from_pretrained(eval_model, cache_dir = data_cache_fp)
+    
     processor_LM = Wav2Vec2ProcessorWithLM.from_pretrained(eval_lm, cache_dir = data_cache_fp)
-    model = Wav2Vec2ForCTC.from_pretrained(eval_model)
 else:
-    processor = Wav2Vec2Processor.from_pretrained(model_fp)
-    model = Wav2Vec2ForCTC.from_pretrained(model_fp)
+    processor = Wav2Vec2Processor.from_pretrained(model_fp, cache_dir = data_cache_fp)
+    model = Wav2Vec2ForCTC.from_pretrained(model_fp, cache_dir = data_cache_fp)
 
 # Now, we will make use of the map(...) function to predict 
 # the transcription of every test sample and to save the prediction 
@@ -765,12 +726,19 @@ results_df = results_df.drop(columns=['speech', 'sampling_rate'])
 results_df.to_csv(finetuned_results_fp)
 print("Saved results to:", finetuned_results_fp)
 
-# Getting the WER
+# Getting the WER and CER
 print("--> Getting fine-tuned test results...")
 print("Fine-tuned Test WER Without Language Model: {:.3f}".format(wer_metric.compute(predictions=results["pred_str_without_LM"], 
       references=results["target_text"])))
 print("Fine-tuned Test WER With Language Model: {:.3f}".format(wer_metric.compute(predictions=results["pred_str_with_LM"], 
       references=results["target_text"])))
+print('\n')
+cer_metric = load_metric("cer")
+print("Fine-tuned Test CER Without Language Model: {:.3f}".format(cer_metric.compute(predictions=results["pred_str_without_LM"], 
+      references=results["target_text"])))
+print("Fine-tuned Test CER With Language Model: {:.3f}".format(cer_metric.compute(predictions=results["pred_str_with_LM"], 
+      references=results["target_text"])))
+print('\n')
 # Showing prediction errors
 print("--> Showing some fine-tuned prediction errors...")
 show_random_elements(results.remove_columns(["speech", "sampling_rate"]))
@@ -810,10 +778,13 @@ if eval_baseline:
     results_df = results_df.drop(columns=['speech', 'sampling_rate'])
     results_df.to_csv(baseline_results_fp)
     print("Saved results to:", baseline_results_fp)
-    # Getting the WER
+    # Getting the WER and CER
     print("--> Getting baseline test results...")
     print("Baseline Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
           references=results["target_text"])))
+    print("Baseline Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
+          references=results["target_text"])))
+    print('\n')
     # Showing prediction errors
     print("--> Showing some baseline prediction errors...")
     show_random_elements(results.remove_columns(["speech", "sampling_rate"]))

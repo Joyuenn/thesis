@@ -17,6 +17,7 @@
 print("------------------------------------------------------------------------")
 print("                 run_finetune_kids.py                                   ")
 print("------------------------------------------------------------------------")
+
 # ------------------------------------------
 #       Import required packages
 # ------------------------------------------
@@ -40,6 +41,9 @@ print("-->Importing datasets...")
 from datasets import load_dataset, load_metric, ClassLabel
 # Convert pandas dataframe to DatasetDict
 from datasets import Dataset
+# Generate alignment for OOV check
+print("-->Importing jiwer...")
+import jiwer
 # Generate random numbers
 print("-->Importing random...")
 import random
@@ -59,6 +63,7 @@ from transformers import Wav2Vec2CTCTokenizer
 from transformers import Wav2Vec2ForCTC
 from transformers import Wav2Vec2FeatureExtractor
 from transformers import Wav2Vec2Processor
+from transformers import Wav2Vec2ProcessorWithLM
 # Loading audio files
 print("-->Importing soundfile...")
 import soundfile as sf
@@ -88,16 +93,14 @@ print('base_fp:', base_fp)
 model = 'wav2vec2'
 print('model:', model)
 
-dataset_name = 'OGI_American'
+dataset_name = 'AusKidTalk'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'eval_OGIfull_spontaneous_20230912_2'
+experiment_id = 'eval_AusKidTalk_combined_20231031_9'
 print('experiment_id:', experiment_id)
 
-cache_name = 'OGI-eval'
+cache_name = 'AusKidTalk-eval'
 print('cache_name:', cache_name)
-
-
 
 # Perform Training (True/False)
 # If false, this will go straight to model evaluation 
@@ -112,8 +115,7 @@ print("training:", training)
 use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
 # Set checkpoint if resuming from/using checkpoint
-#checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI-scripted-AusKidTalk-scripted/finetune_202307017"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/CU/finetune_CU_4h_lowercase_freeze_lower_6_transformer_layers_20231031"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -122,8 +124,10 @@ if use_checkpoint:
 #     False: Use custom tokenizer (if custom dataset has different vocab)
 use_pretrained_tokenizer = True
 print("use_pretrained_tokenizer:", use_pretrained_tokenizer)
+
 # Set tokenizer
-pretrained_tokenizer = "facebook/wav2vec2-base-960h"
+#pretrained_tokenizer = "facebook/wav2vec2-base-960h"
+pretrained_tokenizer = "/srv/scratch/z5313567/thesis/wav2vec2/model/OGI_American/full/full_model_OGI_American_20230702"
 if use_pretrained_tokenizer:
     print("pretrained_tokenizer:", pretrained_tokenizer)
 
@@ -145,7 +149,7 @@ print("baseline_model:", baseline_model)
 # Evalulate the baseline model or not (True/False)
 #   True: evaluate baseline model on test set
 #   False: do not evaluate baseline model on test set
-eval_baseline = True
+eval_baseline = False
 print("eval_baseline:", eval_baseline)
 
 print("\n------> MODEL ARGUMENTS... -------------------------------------------\n")
@@ -193,7 +197,7 @@ set_adam_epsilon = 0.00000001               # Default = 0.00000001
 print("adam_epsilon:", set_adam_epsilon)
 set_num_train_epochs = 14                   # Default = 3.0
 print("num_train_epochs:", set_num_train_epochs)
-set_max_steps = 60000                          # Default = -1, overrides epochs
+set_max_steps = 60000                       # Default = -1, overrides epochs
 print("max_steps:", set_max_steps)
 set_lr_scheduler_type = "linear"            # Default = "linear"
 print("lr_scheduler_type:", set_lr_scheduler_type )
@@ -201,17 +205,17 @@ set_warmup_ratio = 0.1                      # Default = 0.0
 print("warmup_ratio:", set_warmup_ratio)
 set_logging_strategy = "steps"              # Default = "steps"
 print("logging_strategy:", set_logging_strategy)
-set_logging_steps = 1000                      # Default = 500
+set_logging_steps = 1000                    # Default = 500
 print("logging_steps:", set_logging_steps)
 set_save_strategy = "steps"                 # Default = "steps"
 print("save_strategy:", set_save_strategy)
-set_save_steps = 1000                         # Default = 500
+set_save_steps = 1000                       # Default = 500
 print("save_steps:", set_save_steps)
-set_save_total_limit = 3                   # Optional                 
+set_save_total_limit = 3                    # Optional                 
 print("save_total_limit:", set_save_total_limit)
 set_fp16 = True                             # Default = False
 print("fp16:", set_fp16)
-set_eval_steps = 1000                         # Optional
+set_eval_steps = 1000                       # Optional
 print("eval_steps:", set_eval_steps)
 set_load_best_model_at_end = True           # Default = False
 print("load_best_model_at_end:", set_load_best_model_at_end)
@@ -227,12 +231,10 @@ print("group_by_length:", set_group_by_length)
 # ------------------------------------------
 print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
 # Path to dataframe csv for train dataset
-# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_spontaneous_datasets/full_OGI_spontaneous_test_only_transcription_filepath.csv'
+data_train_fp = '/srv/scratch/z5313567/thesis/CU_local/CU_test.csv'
 print("--> data_train_fp:", data_train_fp)
 # Path to dataframe csv for test dataset
-#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/OGI_local/new_spontaneous_datasets/full_OGI_spontaneous_test_only_transcription_filepath.csv'
+data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/combined_scripted_spontaneous_v2/AusKidTalk_combined_scripted_spontaneous_test_dataframe_shuffled_only_transcription_filepath_v2.csv'
 print("--> data_test_fp:", data_test_fp)
 
 # Dataframe file 
@@ -246,51 +248,39 @@ print("--> data_test_fp:", data_test_fp)
 #       due to this issue: https://github.com/apache/arrow/issues/4168
 #       when calling load_dataset()
 
-'''
-# Path to datasets cache
-# data_cache_fp = base_cache_fp + datasetdict_id
-data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/baseline-960h-eval/eval_on_OGI'
-print("--> data_cache_fp:", data_cache_fp)
-# Path to save model output
-#model_fp = base_fp + train_name + "_local/" + experiment_id
-model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016_2-base-myST-OGI-TLT17'
-print("--> model_fp:", model_fp)
-# Path to save vocab.json
-# vocab_fp = base_fp + train_name + "_local/vocab_" + experiment_id + ".json"
-vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/OGI_American/vocab_OGI_American_20230704.json'
-print("--> vocab_fp:", vocab_fp)
-# Path to save results output
-# baseline_results_fp = base_fp + train_name + "_local/" + experiment_id + "_baseline_results.csv" 
-baseline_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/baseline_result/OGI_American/baseline_result_OGI_American_20230704.csv'
-print("--> baseline_results_fp:", baseline_results_fp)
-# finetuned_results_fp = base_fp + train_name + "_local/" + experiment_id + "_finetuned_results.csv"
-finetuned_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/OGI_American/finetuned_result_OGI_American_20230704.csv'
-print("--> finetuned_results_fp:", finetuned_results_fp)
-'''
 
 # Path to datasets cache
-# data_cache_fp = base_cache_fp + datasetdict_id
 data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/' + cache_name
 print("--> data_cache_fp:", data_cache_fp)
 
+# Path to datasets cache
+data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/' + cache_name
+print("--> data_cache_fp:", data_cache_fp)
+
+# Path to model cache
+model_cache_fp = '/srv/scratch/z5313567/thesis/cache'
+print("--> model_cache_fp:", model_cache_fp)
+
 # Path to save vocab.json
-# vocab_fp = base_fp + train_name + "_local/vocab_" + experiment_id + ".json"
 vocab_fp =  base_fp + model + '/vocab/' + dataset_name + '/' + experiment_id + '_vocab.json'
 print("--> vocab_fp:", vocab_fp)
 
 # Path to save model output
-#model_fp = base_fp + train_name + "_local/" + experiment_id
 model_fp = base_fp + model + '/model/' + dataset_name + '/' + experiment_id
 print("--> model_fp:", model_fp)
 
 # Path to save results output
-# baseline_results_fp = base_fp + train_name + "_local/" + experiment_id + "_baseline_results.csv" 
 baseline_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.csv'
 print("--> baseline_results_fp:", baseline_results_fp)
 
-# finetuned_results_fp = base_fp + train_name + "_local/" + experiment_id + "_finetuned_results.csv"
+baseline_alignment_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.txt'
+print("--> baseline_alignment_results_fp:", baseline_alignment_results_fp)
+
 finetuned_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.csv'
 print("--> finetuned_results_fp:", finetuned_results_fp)
+
+finetuned_alignment_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.txt'
+print("--> finetuned_alignment_results_fp:", finetuned_alignment_results_fp)
 
 # Pre-trained checkpoint model
 # For 1) Fine-tuning or
@@ -361,7 +351,7 @@ print("\n------> PROCESSING TRANSCRIPTION... -----------------------------------
 
 def process_transcription(batch):
     #batch["transcription_clean"] = re.sub(chars_to_ignore_regex, '', batch["transcription_clean"]).upper()
-    batch["transcription_clean"] = batch["transcription_clean"].upper()
+    batch["transcription_clean"] = batch["transcription_clean"].lower()
     batch["transcription_clean"] = batch["transcription_clean"].replace("<UNK>", "<unk>")
     return batch
 
@@ -596,7 +586,7 @@ model = Wav2Vec2ForCTC.from_pretrained(
     ctc_zero_infinity=set_ctc_zero_infinity,
     #gradient_checkpointing=set_gradient_checkpointing,
     pad_token_id=processor.tokenizer.pad_token_id,
-    ignore_mismatched_sizes=True
+    #ignore_mismatched_sizes=True
 )
 
 # The first component of Wav2Vec2 consists of a stack of CNN layers
@@ -728,6 +718,17 @@ cer_metric = load_metric("cer")
 print("Fine-tuned Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
       references=results["target_text"])))
 print('\n')
+
+print("--> Getting finetuned alignment output...")
+word_output = jiwer.process_words(results["target_text"], results["pred_str"])
+alignment = jiwer.visualize_alignment(word_output)
+output_text = "--> Getting the finetuned alignment result...\n\n" + alignment + '\n\n\n'
+
+with open(finetuned_alignment_results_fp, 'w') as output_file:
+    output_file.write(output_text)
+print("Saved Alignment output to:", finetuned_alignment_results_fp)
+print('\n')
+
 # Showing prediction errors
 print("--> Showing some fine-tuned prediction errors...")
 show_random_elements(results.remove_columns(["speech", "sampling_rate"]))
@@ -774,6 +775,17 @@ if eval_baseline:
     print("Baseline Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
           references=results["target_text"])))
     print('\n')
+    
+    print("--> Getting baseline alignment output...")
+    word_output = jiwer.process_words(results["target_text"], results["pred_str"])
+    alignment = jiwer.visualize_alignment(word_output)
+    output_text = "--> Getting the baseline alignment result...\n\n" + alignment + '\n\n\n'
+
+    with open(baseline_alignment_results_fp, 'w') as output_file:
+        output_file.write(output_text)
+    print("Saved Alignment output to:", baseline_alignment_results_fp)
+    print('\n')
+    
     # Showing prediction errors
     print("--> Showing some baseline prediction errors...")
     show_random_elements(results.remove_columns(["speech", "sampling_rate"]))

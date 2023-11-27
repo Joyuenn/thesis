@@ -40,6 +40,9 @@ print("-->Importing datasets...")
 from datasets import load_dataset, load_metric, ClassLabel
 # Convert pandas dataframe to DatasetDict
 from datasets import Dataset
+# Generate alignment for OOV check
+print("-->Importing jiwer...")
+import jiwer
 # Generate random numbers
 print("-->Importing random...")
 import random
@@ -82,44 +85,6 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-# Experiment ID
-# For 1) naming vocab.json file and
-#     2) naming model output directory
-#     3) naming results file
-#experiment_id = "20211026-base-myST-OGI-TLT"
-#print("experiment_id:", experiment_id)
-
-# DatasetDict Id
-# For 1) naming cache directory and 
-#     2) saving the DatasetDict object
-#datasetdict_id = "myST-OGI-TLT-finetune"
-#print("datasetdict_id:", datasetdict_id)
-
-# Base filepath
-# For setting the base filepath to direct output to
-#base_fp = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/"
-#print("base_fp:", base_fp)
-
-# Base cache directory filepath
-# For setting directory for cache files
-#base_cache_fp = "/srv/scratch/chacmod/.cache/huggingface/datasets/"
-
-# Training dataset name and filename
-# Dataset name and filename of the csv file containing the training data
-# For generating filepath to file location
-#train_name = "myST-OGI-TLT17"
-#train_filename = "THESIS_C/myST-OGI-TLT_data_finetune_light"
-#print("train_name:", train_name)
-#print("train_filename:", train_filename)
-
-# Evaluation dataset name and filename
-# Dataset name and filename of the csv file containing the evaluation data
-# For generating filepath to file location
-#evaluation_name = "myST"
-#evaluation_filename = "THESIS_C/myST_data_dev_light"
-#print("evaluation_name:", evaluation_name)
-#print("evaluation_filename:", evaluation_filename)
-
 base_fp = '/srv/scratch/z5313567/thesis/'
 print('base_fp:', base_fp)
 
@@ -129,7 +94,7 @@ print('model:', model)
 dataset_name = 'AusKidTalk'
 print('dataset_name:', dataset_name)
 
-experiment_id = 'eval_20230827'
+experiment_id = 'eval_AusKidTalk_spontaneous_lowercase_20231011_2'
 print('experiment_id:', experiment_id)
 
 cache_name = 'AusKidTalk-eval'
@@ -140,7 +105,6 @@ print('cache_name:', cache_name)
 training = False
 print("training:", training)
 
-
 # Resume training from/ use checkpoint (True/False)
 # Set to True for:
 # 1) resuming from a saved checkpoint if training stopped midway through
@@ -149,8 +113,7 @@ print("training:", training)
 use_checkpoint = True
 print("use_checkpoint:", use_checkpoint)
 # Set checkpoint if resuming from/using checkpoint
-#checkpoint = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/myST-OGI_local/20210819-OGI-myST-120h"
-checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/AusKidTalk_scripted_spontaneous_combined/finetune_20230718"
+checkpoint = "/srv/scratch/z5313567/thesis/wav2vec2/model/MyST/finetune_20230908"
 if use_checkpoint:
     print("checkpoint:", checkpoint)
 
@@ -160,7 +123,7 @@ if use_checkpoint:
 use_pretrained_tokenizer = True
 print("use_pretrained_tokenizer:", use_pretrained_tokenizer)
 # Set tokenizer
-pretrained_tokenizer = "facebook/wav2vec2-base-960h"
+pretrained_tokenizer = "facebook/wav2vec2-large-960h"
 if use_pretrained_tokenizer:
     print("pretrained_tokenizer:", pretrained_tokenizer)
 
@@ -176,13 +139,13 @@ if eval_pretrained:
 
 # Baseline model for evaluating baseline metric
 # This model will be evaluated at the end for the baseline WER
-baseline_model = "facebook/wav2vec2-base-960h"
+baseline_model = "facebook/wav2vec2-large-960h"
 print("baseline_model:", baseline_model)
 
 # Evalulate the baseline model or not (True/False)
 #   True: evaluate baseline model on test set
 #   False: do not evaluate baseline model on test set
-eval_baseline = False
+eval_baseline = True
 print("eval_baseline:", eval_baseline)
 
 print("\n------> MODEL ARGUMENTS... -------------------------------------------\n")
@@ -264,12 +227,10 @@ print("group_by_length:", set_group_by_length)
 # ------------------------------------------
 print("\n------> GENERATING FILEPATHS... --------------------------------------\n")
 # Path to dataframe csv for train dataset
-# data_train_fp = base_fp + train_name + "_local/" + train_filename + ".csv"
-data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous/AusKidTalk_spontaneous_test_only_transcription_filepath.csv'
+data_train_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test.csv'
 print("--> data_train_fp:", data_train_fp)
 # Path to dataframe csv for test dataset
-#data_test_fp = base_fp + evaluation_name + "_local/" + evaluation_filename + ".csv"
-data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/spontaneous/AusKidTalk_spontaneous_test_only_transcription_filepath.csv'
+data_test_fp = '/srv/scratch/z5313567/thesis/AusKidTalk_local/scripted_new/AusKidTalk_scripted_test_dataframe_new_180speakers_shuffled_only_transcription_filepath.csv'
 print("--> data_test_fp:", data_test_fp)
 
 # Dataframe file 
@@ -283,51 +244,34 @@ print("--> data_test_fp:", data_test_fp)
 #       due to this issue: https://github.com/apache/arrow/issues/4168
 #       when calling load_dataset()
 
-'''
 # Path to datasets cache
-# data_cache_fp = base_cache_fp + datasetdict_id
-data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/baseline-960h-eval/eval_on_AusKidTalk'
-print("--> data_cache_fp:", data_cache_fp)
-# Path to save model output
-#model_fp = base_fp + train_name + "_local/" + experiment_id
-model_fp = '/srv/scratch/z5313567/thesis/wav2vec2/model/Renee_myST_OGI_TLT/20211016_2-base-myST-OGI-TLT17'
-print("--> model_fp:", model_fp)
-# Path to save vocab.json
-# vocab_fp = base_fp + train_name + "_local/vocab_" + experiment_id + ".json"
-vocab_fp = '/srv/scratch/z5313567/thesis/wav2vec2/vocab/AusKidTalk/vocab_AusKidTalk_20230704.json'
-print("--> vocab_fp:", vocab_fp)
-# Path to save results output
-# baseline_results_fp = base_fp + train_name + "_local/" + experiment_id + "_baseline_results.csv" 
-baseline_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/baseline_result/AusKidTalk/baseline_result_AusKidTalk_20230704.csv'
-print("--> baseline_results_fp:", baseline_results_fp)
-# finetuned_results_fp = base_fp + train_name + "_local/" + experiment_id + "_finetuned_results.csv"
-finetuned_results_fp = '/srv/scratch/z5313567/thesis/wav2vec2/finetuned_result/AusKidTalk/finetuned_result_AusKidTalk_20230704.csv'
-print("--> finetuned_results_fp:", finetuned_results_fp)
-'''
-
-# Path to datasets cache
-# data_cache_fp = base_cache_fp + datasetdict_id
 data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/' + cache_name
 print("--> data_cache_fp:", data_cache_fp)
 
+# Path to pretrained model cache
+model_cache_fp = '/srv/scratch/z5313567/thesis/cache'
+print("--> model_cache_fp:", model_cache_fp)
+
 # Path to save vocab.json
-# vocab_fp = base_fp + train_name + "_local/vocab_" + experiment_id + ".json"
 vocab_fp =  base_fp + model + '/vocab/' + dataset_name + '/' + experiment_id + '_vocab.json'
 print("--> vocab_fp:", vocab_fp)
 
 # Path to save model output
-#model_fp = base_fp + train_name + "_local/" + experiment_id
 model_fp = base_fp + model + '/model/' + dataset_name + '/' + experiment_id
 print("--> model_fp:", model_fp)
 
 # Path to save results output
-# baseline_results_fp = base_fp + train_name + "_local/" + experiment_id + "_baseline_results.csv" 
 baseline_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.csv'
 print("--> baseline_results_fp:", baseline_results_fp)
 
-# finetuned_results_fp = base_fp + train_name + "_local/" + experiment_id + "_finetuned_results.csv"
+baseline_alignment_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.txt'
+print("--> baseline_alignment_results_fp:", baseline_alignment_results_fp)
+
 finetuned_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.csv'
 print("--> finetuned_results_fp:", finetuned_results_fp)
+
+finetuned_alignment_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.txt'
+print("--> finetuned_alignment_results_fp:", finetuned_alignment_results_fp)
 
 # Pre-trained checkpoint model
 # For 1) Fine-tuning or
@@ -434,7 +378,7 @@ if not use_pretrained_tokenizer:
 # Use json file to instantiate an object of the 
 # Wav2VecCTCTokenziser class if not using pretrained tokenizer
 if use_pretrained_tokenizer:
-    tokenizer = Wav2Vec2CTCTokenizer.from_pretrained(pretrained_tokenizer)
+    tokenizer = Wav2Vec2CTCTokenizer.from_pretrained(pretrained_tokenizer, cache_dir=model_cache_fp)
 else:
     tokenizer = Wav2Vec2CTCTokenizer(vocab_fp, unk_token="[UNK]", pad_token="[PAD]", word_delimiter_token="|")
 #tokenizer = save_pretrained(model_fp)
@@ -633,7 +577,8 @@ model = Wav2Vec2ForCTC.from_pretrained(
     ctc_zero_infinity=set_ctc_zero_infinity,
     #gradient_checkpointing=set_gradient_checkpointing,
     pad_token_id=processor.tokenizer.pad_token_id,
-    #ignore_mismatched_sizes=True
+    #ignore_mismatched_sizes=True,
+    cache_dir=model_cache_fp
 )
 
 # The first component of Wav2Vec2 consists of a stack of CNN layers
@@ -721,11 +666,11 @@ print("\n------> EVALUATING MODEL... ------------------------------------------ 
 torch.cuda.empty_cache()
 
 if eval_pretrained:
-    processor = Wav2Vec2Processor.from_pretrained(eval_model)
-    model = Wav2Vec2ForCTC.from_pretrained(eval_model)
+    processor = Wav2Vec2Processor.from_pretrained(eval_model, cache_dir=model_cache_fp)
+    model = Wav2Vec2ForCTC.from_pretrained(eval_model, cache_dir=model_cache_fp)
 else:
-    processor = Wav2Vec2Processor.from_pretrained(model_fp)
-    model = Wav2Vec2ForCTC.from_pretrained(model_fp)
+    processor = Wav2Vec2Processor.from_pretrained(model_fp, cache_dir=model_cache_fp)
+    model = Wav2Vec2ForCTC.from_pretrained(model_fp, cache_dir=model_cache_fp)
 
 # Now, we will make use of the map(...) function to predict 
 # the transcription of every test sample and to save the prediction 
@@ -786,9 +731,9 @@ print(" ".join(processor.tokenizer.convert_ids_to_tokens(pred_ids[0].tolist())))
 if eval_baseline:
     print("\n------> EVALUATING BASELINE MODEL... ------------------------------------------ \n")
     torch.cuda.empty_cache()
-    processor = Wav2Vec2Processor.from_pretrained(baseline_model)
-    model = Wav2Vec2ForCTC.from_pretrained(baseline_model)
-    tokenizer = Wav2Vec2CTCTokenizer.from_pretrained(baseline_model)
+    processor = Wav2Vec2Processor.from_pretrained(baseline_model, cache_dir=model_cache_fp)
+    model = Wav2Vec2ForCTC.from_pretrained(baseline_model, cache_dir=model_cache_fp)
+    tokenizer = Wav2Vec2CTCTokenizer.from_pretrained(baseline_model, cache_dir=model_cache_fp)
 
     # Now, we will make use of the map(...) function to predict 
     # the transcription of every test sample and to save the prediction 
@@ -808,7 +753,7 @@ if eval_baseline:
     print("--> Getting baseline test results...")
     print("Baseline Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
           references=results["target_text"])))
-    print("Fine-tuned Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
+    print("Baseline Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
           references=results["target_text"])))
     print('\n')
     # Showing prediction errors

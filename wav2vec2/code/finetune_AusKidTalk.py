@@ -82,44 +82,6 @@ print("-->SUCCESS! All packages imported.")
 # ------------------------------------------
 print("\n------> EXPERIMENT ARGUMENTS ----------------------------------------- \n")
 
-# Experiment ID
-# For 1) naming vocab.json file and
-#     2) naming model output directory
-#     3) naming results file
-#experiment_id = "20211026-base-myST-OGI-TLT"
-#print("experiment_id:", experiment_id)
-
-# DatasetDict Id
-# For 1) naming cache directory and 
-#     2) saving the DatasetDict object
-#datasetdict_id = "myST-OGI-TLT-finetune"
-#print("datasetdict_id:", datasetdict_id)
-
-# Base filepath
-# For setting the base filepath to direct output to
-#base_fp = "/srv/scratch/z5160268/2020_TasteofResearch/kaldi/egs/renee_thesis/s5/"
-#print("base_fp:", base_fp)
-
-# Base cache directory filepath
-# For setting directory for cache files
-#base_cache_fp = "/srv/scratch/chacmod/.cache/huggingface/datasets/"
-
-# Training dataset name and filename
-# Dataset name and filename of the csv file containing the training data
-# For generating filepath to file location
-#train_name = "myST-OGI-TLT17"
-#train_filename = "THESIS_C/myST-OGI-TLT_data_finetune_light"
-#print("train_name:", train_name)
-#print("train_filename:", train_filename)
-
-# Evaluation dataset name and filename
-# Dataset name and filename of the csv file containing the evaluation data
-# For generating filepath to file location
-#evaluation_name = "myST"
-#evaluation_filename = "THESIS_C/myST_data_dev_light"
-#print("evaluation_name:", evaluation_name)
-#print("evaluation_filename:", evaluation_filename)
-
 base_fp = '/srv/scratch/z5313567/thesis/'
 print('base_fp:', base_fp)
 
