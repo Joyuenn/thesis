@@ -1,0 +1,77 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: the boy was just riding his skateboard
+HYP: the boy was just riding his skateboard
+                                           
+
+sentence 2
+REF: the while the boy was riding the skateboard he fell off and bounced into an egg
+HYP: the while the boy was riding the skateboard he fell off and bounced into an egg
+                                                                                    
+
+sentence 3
+REF: he looked to see what was inside of the egg egg
+HYP: he looked to see what was inside of the egg ***
+                                                   D
+
+sentence 4
+REF: while doing that the egg cracked open and he was like shocked
+HYP: while doing that the egg cracked open and he was like shocked
+                                                                  
+
+sentence 5
+REF: a dinosaur appeared from the egg and yeah
+HYP: a dinosaur appeared from the egg and yeah
+                                              
+
+sentence 6
+REF: the boy fell over the dinosaur came out of the egg and the boy fell over
+HYP: the boy fell over the dinosaur came out of the egg and the boy fell over
+                                                                             
+
+sentence 7
+REF: the boy hid from the dinosaur behind the tree
+HYP: the boy hid from the dinosaur behind the tree
+                                                  
+
+sentence 8
+REF: dinosaur was looking for the boy
+HYP: dinosaur was looking for the boy
+                                     
+
+sentence 9
+REF: and then got sad because he couldn't find the boy
+HYP: and then got sad because he couldn't find the boy
+                                                      
+
+sentence 10
+REF: and then the boy looked at the dinosaur
+HYP: and then the boy looked at the dinosaur
+                                            
+
+sentence 11
+REF: and they patted him on the head
+HYP: and they patted him on the head
+                                    
+
+sentence 12
+REF: and they fed him his milk
+HYP: and they fed him his milk
+                              
+
+sentence 13
+REF: and they stop laughing at the dinosaur
+HYP: and they stop laughing at the dinosaur
+                                           
+
+number of sentences: 13
+substitutions=0 deletions=1 insertions=0 hits=122
+
+mer=0.81%
+wil=0.81%
+wip=99.19%
+wer=0.81%
+
+
+

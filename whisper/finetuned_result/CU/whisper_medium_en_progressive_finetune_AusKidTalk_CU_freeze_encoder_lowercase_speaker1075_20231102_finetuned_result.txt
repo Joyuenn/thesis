@@ -1,0 +1,62 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: the boy is on skateboard
+HYP: the boy is on skateboard
+                             
+
+sentence 2
+REF: the boy snare a dinosaur egg
+HYP: the boy snare a dinosaur egg
+                                 
+
+sentence 3
+REF: the *** boy's touching the dinosaur egg
+HYP: the boy    is touching the dinosaur egg
+           I     S                          
+
+sentence 4
+REF: the dinosaur egg is cracking open
+HYP: the dinosaur egg is cracking open
+                                      
+
+sentence 5
+REF: the dinosaur egg is opened
+HYP: the dinosaur egg is opened
+                               
+
+sentence 6
+REF: the boy is hiding behind a tree
+HYP: the boy is hiding behind a tree
+                                    
+
+sentence 7
+REF: dinosaur is in ***** there by himself
+HYP: dinosaur is in stuff there by himself
+                        I                 
+
+sentence 8
+REF: the dinosaur is still there by himself but on the floor
+HYP: the dinosaur is still there by  itself but on the floor
+                                          S                 
+
+sentence 9
+REF: the boy is hiding behind a tree
+HYP: the boy is hiding behind a tree
+                                    
+
+sentence 10
+REF: the boy is    pet the dinosaur on the head
+HYP: the boy is paying the dinosaur on the head
+                     S                         
+
+number of sentences: 10
+substitutions=3 deletions=0 insertions=2 hits=65
+
+mer=7.14%
+wil=11.24%
+wip=88.76%
+wer=7.35%
+
+
+

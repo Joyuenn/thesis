@@ -1,0 +1,87 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: the boy is on the skateboard and he's rolling around the and is about to see the egg
+HYP: the boy is on the skateboard and   is rolling around the and is about to see the egg
+                                         S                                               
+
+sentence 2
+REF: the the boy bumped into the egg
+HYP: the the boy bumped into the egg
+                                    
+
+sentence 3
+REF: the boy is listening to see if there is anything in the egg
+HYP: the boy is listening to see if there is anything in the egg
+                                                                
+
+sentence 4
+REF: the egg is opening and the boy is surprised
+HYP: the egg is opening and the boy is surprised
+                                                
+
+sentence 5
+REF: the boy is really surprised that a dinosaur came out of the egg
+HYP: the boy is really surprised that a dinosaur came out of the egg
+                                                                    
+
+sentence 6
+REF: the boy is scared of the dinosaur
+HYP: the boy is scared of the dinosaur
+                                      
+
+sentence 7
+REF: the boy is hiding from the dinosaur
+HYP: the boy is hiding from the dinosaur
+                                        
+
+sentence 8
+REF: the dinosaur is is the boy the dinosaur is sad that the boy has ** has run away from him or her
+HYP: the dinosaur is ** the boy the dinosaur is sad that the boy has he has run away from him ** ***
+                      D                                               I                        D   D
+
+sentence 9
+REF: the the the dinosaur is really sad and is lying down
+HYP: the *** *** dinosaur is really sad and is lying down
+           D   D                                         
+
+sentence 10
+REF: and
+HYP: and
+        
+
+sentence 11
+REF: the the boy is thinking whether he should go over and say hello to the dinosaur
+HYP: the the boy is thinking whether he should go over and say hello to the dinosaur
+                                                                                    
+
+sentence 12
+REF: really
+HYP: really
+           
+
+sentence 13
+REF: the the boy went to meet the dine dinosaur and see if it's   ok
+HYP: the the boy went to meet the dino dinosaur and see if it's okay
+                                     S                             S
+
+sentence 14
+REF: the boy is giving the dinosaur it's his baby bottle
+HYP: the boy is giving the dinosaur **** his baby bottle
+                                       D                
+
+sentence 15
+REF: the boy think thinks it's funny when the dinosaur is sucking from it
+HYP: the boy ***** thinks it's funny when the dinosaur is sucking from it
+                 D                                                       
+
+number of sentences: 15
+substitutions=3 deletions=7 insertions=1 hits=151
+
+mer=6.79%
+wil=8.63%
+wip=91.37%
+wer=6.83%
+
+
+

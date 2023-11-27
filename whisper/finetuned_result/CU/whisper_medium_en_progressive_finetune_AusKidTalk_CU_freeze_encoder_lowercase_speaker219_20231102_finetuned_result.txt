@@ -1,0 +1,82 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: arrive very good so now i want you to tell me what happens in each picture
+HYP:    one **** **** ** *** * **** *** ** **** ** **** ******* ** **** *******
+          S    D    D  D   D D    D   D  D    D  D    D       D  D    D       D
+
+sentence 2
+REF: the the boy got   touch the egg on the skateboard
+HYP: but the boy got touched the egg on *** skateboard
+       S                   S              D           
+
+sentence 3
+REF: the boy hugs the egg
+HYP: the boy hugs the egg
+                         
+
+sentence 4
+REF: the boy hugged the egg
+HYP: the boy hugged the egg
+                           
+
+sentence 5
+REF: and it cracked
+HYP: and it cracked
+                   
+
+sentence 6
+REF: the dinosaur camed  out
+HYP: the dinosaur  came down
+                      S    S
+
+sentence 7
+REF: the dinosaur was licking the boy
+HYP: the dinosaur was licking the boy
+                                     
+
+sentence 8
+REF: the ***** boy was hiding
+HYP: the young boy was hiding
+             I               
+
+sentence 9
+REF: the dinosaur  is upset
+HYP: the    guy's was upset
+                S   S      
+
+sentence 10
+REF: the dinosaur is crying
+HYP: the dinosaur is crying
+                           
+
+sentence 11
+REF: the boy was laughing
+HYP: the boy was laughing
+                         
+
+sentence 12
+REF: the ***** boy was patting the dinosaur
+HYP: the young boy  is petting the dinosaur
+             I       S       S             
+
+sentence 13
+REF: the ***** boy gave the his milk bottle to the dinosaur
+HYP: the young boy gave *** his milk bottle to the dinosaur
+             I            D                                
+
+sentence 14
+REF: the the boys are laughing
+HYP: the *** boys are laughing
+           D                  
+
+number of sentences: 14
+substitutions=9 deletions=18 insertions=3 hits=59
+
+mer=33.71%
+wil=42.99%
+wip=57.01%
+wer=34.88%
+
+
+

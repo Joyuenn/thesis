@@ -1,0 +1,82 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: baby hulk was riding on   a skateboard and then he crashed into an egg
+HYP: baby hulk was riding on the skateboard and then he crushed into an egg
+                               S                              S            
+
+sentence 2
+REF: he  hurt the egg
+HYP: he heard the egg
+            S        
+
+sentence 3
+REF: he put his ear up to it
+HYP: he put his ear up to it
+                            
+
+sentence 4
+REF: the egg started cracking
+HYP: the egg started cracking
+                             
+
+sentence 5
+REF: and the egg cracked and the dino baby dinosaur came out
+HYP: and the egg cracked and the **** baby dinosaur came out
+                                    D                       
+
+sentence 6
+REF: the baby dinosaur was excited when      a
+HYP: the baby dinosaur was excited  and wanted
+                                      S      S
+
+sentence 7
+REF: and went up to baby hulk but he was scared
+HYP: and went up to baby  hog but he was scared
+                            S                  
+
+sentence 8
+REF: so he ran and hid behind a tree
+HYP: so he ran and hid behind a tree
+                                    
+
+sentence 9
+REF: and the baby dinosaur didn't know where he was
+HYP: *** the baby dinosaur didn't know where he was
+       D                                           
+
+sentence 10
+REF: and then he was sad
+HYP: and then he was sad
+                        
+
+sentence 11
+REF: the baby dino being sad made baby hulk sad
+HYP: the baby dino being sad made baby hawk sad
+                                          S    
+
+sentence 12
+REF: so he went up to the dinosaur and petted him on the head
+HYP: so he went up to the dinosaur and patted him on the head
+                                            S                
+
+sentence 13
+REF: *** then gave him his bottle
+HYP: and then gave him his bottle
+       I                         
+
+sentence 14
+REF: and then he found it funny
+HYP: and then he found it funny
+                               
+
+number of sentences: 14
+substitutions=8 deletions=2 insertions=1 hits=102
+
+mer=9.73%
+wil=16.31%
+wip=83.69%
+wer=9.82%
+
+
+

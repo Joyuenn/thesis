@@ -1,0 +1,82 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: he's skateboarding
+HYP: he's skateboarding
+                       
+
+sentence 2
+REF: and then he finds an egg
+HYP: and then he finds an egg
+                             
+
+sentence 3
+REF: he bumps into the egg and feels sad
+HYP: he bumps into the egg and feels sad
+                                        
+
+sentence 4
+REF: he hears what's inside the egg
+HYP: he hears what's inside the egg
+                                   
+
+sentence 5
+REF: the egg was cracking
+HYP: the egg was cracking
+                         
+
+sentence 6
+REF: he was surprised because the dinosaur came out
+HYP: he was surprised because   a dinosaur came out
+                                S                  
+
+sentence 7
+REF: he was sad that there was a dinosaur
+HYP: he was sad that there was a dinosaur
+                                         
+
+sentence 8
+REF: he hide behind the tree
+HYP: he hide behind   a tree
+                      S     
+
+sentence 9
+REF: the dinosaur looks around for *** human  feel sad
+HYP: the dinosaur looks around for him   and feels sad
+                                     I     S     S    
+
+sentence 10
+REF: the dinosaur lies on the floor
+HYP: the dinosaur lies on the floor
+                                   
+
+sentence 11
+REF: the baby  feel sad
+HYP: the baby feels sad
+                  S    
+
+sentence 12
+REF: the baby wants  to     pet him
+HYP: the baby wants the pattern ***
+                      S       S   D
+
+sentence 13
+REF: and then he feeds him his milk
+HYP: and then he feeds him his milk
+                                   
+
+sentence 14
+REF: the baby feel happy
+HYP: the baby feel happy
+                        
+
+number of sentences: 14
+substitutions=7 deletions=1 insertions=1 hits=74
+
+mer=10.84%
+wil=18.56%
+wip=81.44%
+wer=10.98%
+
+
+

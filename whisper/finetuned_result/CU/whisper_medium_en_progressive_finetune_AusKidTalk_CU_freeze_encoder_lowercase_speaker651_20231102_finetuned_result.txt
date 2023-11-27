@@ -1,0 +1,77 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: he was on a skateboard
+HYP: he was on a skateboard
+                           
+
+sentence 2
+REF: he bumped into  a egg
+HYP: he bumped into an egg
+                     S    
+
+sentence 3
+REF: the egg is hatching
+HYP: the egg is hatching
+                        
+
+sentence 4
+REF: there's a dinosaur
+HYP: there's a dinosaur
+                       
+
+sentence 5
+REF: there's a dinosaur near him
+HYP: there's a dinosaur near him
+                                
+
+sentence 6
+REF:       he went away and hiding
+HYP: vegemite  and hide  it ******
+            S    S    S   S      D
+
+sentence 7
+REF: he's hiding behind a tree
+HYP: he's hiding behind a tree
+                              
+
+sentence 8
+REF: he's sad
+HYP: he's sad
+             
+
+sentence 9
+REF:      he's lonely
+HYP: xylophone ******
+             S      D
+
+sentence 10
+REF: the boy's  sad that he made him    sad
+HYP: the   boy said that he made   a facade
+             S    S                S      S
+
+sentence 11
+REF: he's calm making him calm down
+HYP:  his  cup making him calm down
+        S    S                     
+
+sentence 12
+REF: put his bottle in his mouth
+HYP: put his bottle in his mouth
+                                
+
+sentence 13
+REF: he's laughing
+HYP: he's laughing
+                  
+
+number of sentences: 13
+substitutions=12 deletions=2 insertions=0 hits=44
+
+mer=24.14%
+wil=40.39%
+wip=59.61%
+wer=24.14%
+
+
+

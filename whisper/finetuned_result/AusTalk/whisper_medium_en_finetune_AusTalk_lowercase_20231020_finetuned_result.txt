@@ -1,0 +1,2777 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 2
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 3
+REF: ** ****    mr boyd says   these practical jokes have     been  taken much too far
+HYP: he flew round   in   an instant        to  look  his attacker square   in the eye
+      I    I     S    S    S       S         S     S    S        S      S    S   S   S
+
+sentence 4
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 5
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 6
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 7
+REF: this year i shall paint this room mauve with a splotch of beige dots
+HYP: this year i shall paint this room mauve with a splotch of beige dots
+                                                                         
+
+sentence 8
+REF: don't you think her evening gown was a trifle too garish for the occasion
+HYP: don't you think her evening gown was a trifle too garish for the occasion
+                                                                              
+
+sentence 9
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 10
+REF: amongst her friends at the glebe baths she was considered beautiful
+HYP: amongst her friends at the glebe baths she was considered beautiful
+                                                                        
+
+sentence 11
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 12
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 13
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 14
+REF: don't you think her evening gown was a trifle too garish for the occasion
+HYP: don't you think her evening gown was a trifle too garish for the occasion
+                                                                              
+
+sentence 15
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 16
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display  attract more customers than ever
+                                            S                         
+
+sentence 17
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 18
+REF: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+HYP: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+                                                                                       
+
+sentence 19
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 20
+REF: the flag ceremony overwhelmed me and i was moved to tears
+HYP: the flag ceremony overwhelmed me and i was moved to tears
+                                                              
+
+sentence 21
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 22
+REF: the end
+HYP: the end
+            
+
+sentence 23
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 24
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 25
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display attracts more customers than ever
+                                                                      
+
+sentence 26
+REF: my mother gets cross when they say yeah instead of yes
+HYP: my mother gets cross when they say yeah instead of yes
+                                                           
+
+sentence 27
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 28
+REF: actually i'll hedge my bets and take no risks on this flutter
+HYP: actually i'll hedge my bets and take no risks on this flutter
+                                                                  
+
+sentence 29
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 30
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 31
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 32
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 33
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 34
+REF: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+HYP: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+                                                                                                  
+
+sentence 35
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 36
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 37
+REF: we'd   be hard pushed  for the whole squad    to catch the bus to springwood tonight
+HYP:   we knew hard   wish that the whole squad would catch the bus to springwood tonight
+        S    S           S    S                     S                                    
+
+sentence 38
+REF: the length of her skirt caused the passers by to glare
+HYP: the length of her skirt caused the passers by to glare
+                                                           
+
+sentence 39
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could   sigh  he  hit the   list after ** his work to proof read
+                     S   S    S          S     S  D                       
+
+sentence 40
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP:  roy flicks through a  young magazine  and he gets a chance
+        S                       S             S                 
+
+sentence 41
+REF: the end
+HYP: the end
+            
+
+sentence 42
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 43
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 44
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 45
+REF: the plane flew down low over the runway then increased speed and circled the airfield a second time
+HYP: the plane flew down low over the runway then increased speed and circled the airfield a second time
+                                                                                                        
+
+sentence 46
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 47
+REF: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+HYP:    enjoy her freedom amelia went to the zoo and saw a rare giant sloth
+            S                                                              
+
+sentence 48
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 49
+REF: the grass was mown before the uncontrollable children came out to play
+HYP: the grass was mown before the uncontrollable children came out to play
+                                                                           
+
+sentence 50
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 51
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 52
+REF: you ought to brush your teeth and wash your face before you go to bed
+HYP: you ought to brush your teeth and wash your face before you go to bed
+                                                                          
+
+sentence 53
+REF: the earth used to be flat but now it's a sphere isn't it
+HYP: the earth used to be flat but now it's a sphere isn't it
+                                                             
+
+sentence 54
+REF: the nurse tended the fierce looking flesh wound on paul's scalp
+HYP: the nurse tended the fierce looking flesh wound on paul's scalp
+                                                                    
+
+sentence 55
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 56
+REF: the flag ceremony overwhelmed me and i was moved to tears
+HYP: the flag ceremony overwhelmed me and i was moved to tears
+                                                              
+
+sentence 57
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display attracts more customers than ever
+                                                                      
+
+sentence 58
+REF: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+HYP: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+                                                                                       
+
+sentence 59
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 60
+REF: judith found the three manuscripts waiting for her on the piano
+HYP: judith found the three manuscripts waiting for her on the piano
+                                                                    
+
+sentence 61
+REF: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+HYP: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+                                                                                                  
+
+sentence 62
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 63
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 64
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP: troy flicks through a yuppie magazine when he gets a chance
+                                                                
+
+sentence 65
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 66
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 67
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 68
+REF: actually i'll hedge my bets and take no risks on this flutter
+HYP: actually i'll hedge my bets and take no risks on this flutter
+                                                                  
+
+sentence 69
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 70
+REF: the truth is i wish i lived a little bit nearer to the supermarket
+HYP: the truth is i wish i lived a little bit nearer to the supermarket
+                                                                       
+
+sentence 71
+REF: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+HYP: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+                                                                                       
+
+sentence 72
+REF: you ought to brush your teeth and wash your face before you go to bed
+HYP: you ought to brush your teeth and wash your face before you go to bed
+                                                                          
+
+sentence 73
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 74
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 75
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 76
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 77
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 78
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 79
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 80
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 81
+REF: isn't it common knowledge that the kangaroo has a pouch in front
+HYP: isn't it common knowledge that the kangaroo has a pouch in front
+                                                                     
+
+sentence 82
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 83
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 84
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 85
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 86
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 87
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 88
+REF: it can be quite risky changing gear whilst half way up a steep hill
+HYP: it can be quite risky changing gear whilst half way up a steep hill
+                                                                        
+
+sentence 89
+REF: after a gaffe like that ** it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that is it ** futile to offer any further resistance ***** **
+                              I     D                                            D  D
+
+sentence 90
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 91
+REF: don't you think her evening gown was a trifle too garish for the occasion
+HYP: don't you think her evening gown was a trifle too garish for the occasion
+                                                                              
+
+sentence 92
+REF: i said she couldn't do it but she can
+HYP: i said she couldn't do it but she can
+                                          
+
+sentence 93
+REF: the nurse tended the fierce looking flesh wound on paul's scalp
+HYP: the nurse tended the fierce looking flesh wound on paul's scalp
+                                                                    
+
+sentence 94
+REF: isn't it odd how cobwebs slowly find their way into every nook and cranny
+HYP: isn't it odd how cobwebs slowly find their way into every nook and cranny
+                                                                              
+
+sentence 95
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 96
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 97
+REF: surely if you leave the record by the fire it will warp
+HYP: surely if you leave the record by the fire it will warp
+                                                            
+
+sentence 98
+REF: this year i shall paint this room mauve with a splotch of beige dots
+HYP: this year i shall paint this room mauve with a splotch of beige dots
+                                                                         
+
+sentence 99
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: i wish he'd either grow a beard or shave his scruffy moustache
+                                                                   
+
+sentence 100
+REF: the length of her skirt caused the passers by to glare
+HYP: the length of her skirt caused the passers by to glare
+                                                           
+
+sentence 101
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 102
+REF: don't you think her evening gown was a trifle too garish for the occasion
+HYP: don't you think her evening gown was a trifle too garish for the occasion
+                                                                              
+
+sentence 103
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 104
+REF: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+HYP: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+                                                                                   
+
+sentence 105
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 106
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 107
+REF: i said she couldn't do it but she can
+HYP: i said she couldn't do it but she can
+                                          
+
+sentence 108
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 109
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 110
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 111
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 112
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look the attacker square in the eye
+                                           S                           
+
+sentence 113
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 114
+REF: pete  sat in the little boat with his bait and **** his    fishing boots on the floor beside him waiting for the trout to bite
+HYP:   he sent  a *** little boat   to his bait and sent his springwood  spot on the   log beside him waiting for the trout to bite
+        S    S  S   D                S                 I              S     S            S                                         
+
+sentence 115
+REF: it can be quite risky changing gear whilst half way up a steep hill
+HYP: it can be quite risky      and dear whilst half way up a steep hill
+                                  S    S                                
+
+sentence 116
+REF: sharon    vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon wouldn't  know again to sneer at tourists buying souvenir dolls
+                   S     S                                                 
+
+sentence 117
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: i wish he'd either grow a beard or shave his scruffy moustache
+                                                                   
+
+sentence 118
+REF: amongst her friends at the glebe baths she was considered beautiful
+HYP: amongst her friends at the glebe baths she was considered beautiful
+                                                                        
+
+sentence 119
+REF: there'll be big trouble if you dare to touch that stretched surface
+HYP: there'll be big trouble if you dare to touch that stretched surface
+                                                                        
+
+sentence 120
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 121
+REF: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+HYP: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+                                                                                                                          
+
+sentence 122
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: i wish he'd either grow a beard or shave his scruffy moustache
+                                                                   
+
+sentence 123
+REF: actually i'll hedge my bets and take no risks on this flutter
+HYP: actually i'll hedge my bets and take no risks on this flutter
+                                                                  
+
+sentence 124
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 125
+REF: isn't it common knowledge that the kangaroo has a pouch in front
+HYP: isn't it common knowledge that the kangaroo has a pouch in front
+                                                                     
+
+sentence 126
+REF: was it the blue globe that broke when he switched on the light
+HYP: was it the blue globe that broke when he switched on the light
+                                                                   
+
+sentence 127
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 128
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 129
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 130
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 131
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 132
+REF: this year i shall paint this room mauve with a splotch of beige dots
+HYP: this year i shall paint this room mauve with a splotch of beige dots
+                                                                         
+
+sentence 133
+REF: the plane flew down low over the runway then increased speed and circled the airfield a second time
+HYP: the plane flew down low over the runway then increased speed and circled the airfield a second time
+                                                                                                        
+
+sentence 134
+REF: mr boyd says these practical jokes have been taken much too far
+HYP: mr boyd says these practical jokes have been taken much too far
+                                                                    
+
+sentence 135
+REF: apparently bulldog terriers yap almost as much as chows
+HYP: apparently bulldog terriers yap almost as much as chows
+                                                            
+
+sentence 136
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 137
+REF: judith found the three manuscripts waiting for her on the piano
+HYP: judith found the three manuscripts waiting for her on the piano
+                                                                    
+
+sentence 138
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display attracts more customers than ever
+                                                                      
+
+sentence 139
+REF: the plane flew down low over the runway then increased speed and circled the airfield a second time
+HYP: the plane flew down low over the runway then increased speed and circled the airfield a second time
+                                                                                                        
+
+sentence 140
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 141
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 142
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 143
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 144
+REF: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+HYP: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+                                                                                       
+
+sentence 145
+REF: i said she couldn't do it but she can
+HYP: i said she couldn't do it but she can
+                                          
+
+sentence 146
+REF: the end
+HYP: the end
+            
+
+sentence 147
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 148
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 149
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 150
+REF: actually i'll hedge my bets and take no risks on this flutter
+HYP: actually i'll hedge my bets and take no risks on this flutter
+                                                                  
+
+sentence 151
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display attracts more customers than ever
+                                                                      
+
+sentence 152
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 153
+REF: the end
+HYP: the end
+            
+
+sentence 154
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 155
+REF: isn't it odd how cobwebs slowly find their way into every nook and cranny
+HYP: isn't it odd how cobwebs slowly find their way into every nook and cranny
+                                                                              
+
+sentence 156
+REF: it can be quite risky changing gear whilst half way up a steep hill
+HYP: it can be quite risky changing gear whilst half way up a steep hill
+                                                                        
+
+sentence 157
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 158
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 159
+REF: mr boyd says these practical jokes have been taken much too far
+HYP: mr boyd says these practical jokes have been taken much too far
+                                                                    
+
+sentence 160
+REF: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+HYP: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+                                                                                       
+
+sentence 161
+REF: you ought to brush your teeth and wash your face before you go to bed
+HYP: you ought to brush your teeth and wash your face before you go to bed
+                                                                          
+
+sentence 162
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 163
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 164
+REF: my mother gets cross when they say yeah instead of yes
+HYP: my mother gets cross when they say yeah instead of yes
+                                                           
+
+sentence 165
+REF: the nurse tended the fierce looking flesh wound on paul's scalp
+HYP: the nurse tended the fierce looking flesh wound on paul's scalp
+                                                                    
+
+sentence 166
+REF: the group asked if i wanted to come along on the barge trip
+HYP: the group asked if i wanted to come along on the barge trip
+                                                                
+
+sentence 167
+REF: isn't it odd how cobwebs slowly find their way into every nook and cranny
+HYP: isn't it odd how cobwebs slowly find their way into every nook and cranny
+                                                                              
+
+sentence 168
+REF: the end
+HYP: the end
+            
+
+sentence 169
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display attracts more customers than ever
+                                                                      
+
+sentence 170
+REF: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+HYP: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+                                                                                       
+
+sentence 171
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 172
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 173
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: i wish he'd either grow a beard or shave his scruffy moustache
+                                                                   
+
+sentence 174
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 175
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 176
+REF: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+HYP: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+                                                                                                                          
+
+sentence 177
+REF: the *** group asked if i wanted to come along on the barge trip
+HYP: the age group asked if i wanted to come along on the badge trip
+           I                                                  S     
+
+sentence 178
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 179
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 180
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 181
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 182
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP: troy flicks through a yuppie magazine when he gets a chance
+                                                                
+
+sentence 183
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 184
+REF: melvin's cat was slowly rolling the can
+HYP: melvin's cat was slowly rolling the can
+                                            
+
+sentence 185
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 186
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 187
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP: troy flicks through a yuppie magazine when he gets a chance
+                                                                
+
+sentence 188
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 189
+REF: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+HYP: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+                                                                                                                          
+
+sentence 190
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 191
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 192
+REF: melvin's cat was slowly rolling the can
+HYP: melvin's cat was slowly rolling the can
+                                            
+
+sentence 193
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 194
+REF: please i feel too lethargic to wash up tonight
+HYP: please i feel too lethargic to wash up tonight
+                                                   
+
+sentence 195
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: * wish he'd either grow a beard or shave his scruffy moustache
+     D                                                             
+
+sentence 196
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after * gaffe like that it is futile to offer any further resistance isn't it
+           D                                                                      
+
+sentence 197
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 198
+REF: the truth is i wish i lived a little bit nearer to the supermarket
+HYP: the truth is i wish i lived a little bit nearer to the supermarket
+                                                                       
+
+sentence 199
+REF: this new glove and shoe display attracts more customers  than ever
+HYP: this new glove and shoe display attracts more customers every  day
+                                                                 S    S
+
+sentence 200
+REF: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+HYP: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+                                                                                                  
+
+sentence 201
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 202
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 203
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 204
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 205
+REF: the length of her skirt caused the passers by to glare
+HYP: the length of her skirt caused the passers by to glare
+                                                           
+
+sentence 206
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 207
+REF: the end
+HYP: the end
+            
+
+sentence 208
+REF: amongst her friends at the glebe baths she was considered beautiful
+HYP: amongst her friends at the glebe baths she was considered beautiful
+                                                                        
+
+sentence 209
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 210
+REF: was it the blue globe that broke when he switched on the light
+HYP: was it the blue globe that broke when he switched on the light
+                                                                   
+
+sentence 211
+REF: there'll be big trouble if you dare to touch that stretched surface
+HYP: there'll be big trouble if you dare to touch that stretched surface
+                                                                        
+
+sentence 212
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display attracts more customers than ever
+                                                                      
+
+sentence 213
+REF: it can be quite risky changing gear whilst half way up a steep hill
+HYP: it can be quite risky changing gear whilst half way up a steep hill
+                                                                        
+
+sentence 214
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 215
+REF: it can be quite risky changing gear whilst half way up a steep hill
+HYP: it can be quite risky changing gear whilst half way up a steep hill
+                                                                        
+
+sentence 216
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 217
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 218
+REF: there'll be big trouble if you dare to touch that stretched surface
+HYP: there'll be big trouble if you dare to touch that stretched surface
+                                                                        
+
+sentence 219
+REF: there'll be big trouble if you dare to touch that stretched surface
+HYP: there'll be big trouble if you dare to touch that stretched surface
+                                                                        
+
+sentence 220
+REF: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+HYP: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+                                                                                                                          
+
+sentence 221
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 222
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 223
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 224
+REF: the end
+HYP: the end
+            
+
+sentence 225
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: i wish he'd either grow a beard or shave his scruffy moustache
+                                                                   
+
+sentence 226
+REF: the chill wind caused the twins to shiver violently in their threadbare clothes
+HYP: the chill wind caused the twins to shiver violently in their threadbare clothes
+                                                                                    
+
+sentence 227
+REF: the end
+HYP: the end
+            
+
+sentence 228
+REF: it can be quite risky changing gear whilst half way up a steep hill
+HYP: it can be quite risky changing gear whilst half way up a steep hill
+                                                                        
+
+sentence 229
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 230
+REF: one fine day his aunt zelda appealed to him now look here no one is going to care about you if you carry on like this you have no more mind of your own than a greasy old blade of grass arthur coughed and looked wise as usual but said nothing don't you think so said zelda stamping her foot for she couldn't bear to see the poor little rat so coldblooded i don't know was all he ever answered and then he'd walk off to think for an hour or more about whether he would stay in his hole in the ground or go up into the loft
+HYP: *** **** *** *** **** ***** ******** ** *** *** **** **** ** *** ** ***** ** **** ***** *** ** *** ***** ** **** **** *** **** ** **** **** ** **** *** **** * ****** *** ***** ** ***** ****** ******* *** ****** **** ** ***** *** **** ******* ***** *** ***** ** **** ***** ******** *** **** *** *** ******** **** ** *** the  end ****** *** ** *********** * ***** **** *** *** ** **** ******** *** **** **** **** *** ** ***** *** ** **** ** **** ***** ******* ** ***** **** ** *** **** ** *** ****** ** ** ** **** *** ****
+       D    D   D   D    D     D        D  D   D   D    D    D  D   D  D     D  D    D     D   D  D   D     D  D    D    D   D    D  D    D    D  D    D   D    D D      D   D     D  D     D      D       D   D      D    D  D     D   D    D       D     D   D     D  D    D     D        D   D    D   D   D        D    D  D   D        S      D   D  D           D D     D    D   D   D  D    D        D   D    D    D    D   D  D     D   D  D    D  D    D     D       D  D     D    D  D   D    D  D   D      D  D  D  D    D   D    D
+
+sentence 231
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 232
+REF: the end
+HYP: the end
+            
+
+sentence 233
+REF: the earth used to be flat but now it's a sphere isn't it
+HYP: the earth used to be flat but now it's a sphere isn't it
+                                                             
+
+sentence 234
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 235
+REF: amongst her friends at the glebe baths she was considered beautiful
+HYP: amongst her friends at the glebe baths she was considered beautiful
+                                                                        
+
+sentence 236
+REF: the flag ceremony overwhelmed me and i was moved to tears
+HYP: the flag ceremony overwhelmed me and i was moved to tears
+                                                              
+
+sentence 237
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: i wish he'd either grow a beard or shave his scruffy moustache
+                                                                   
+
+sentence 238
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP: troy flicks through a yuppie magazine when he gets a chance
+                                                                
+
+sentence 239
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 240
+REF: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+HYP: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+                                                                                                                          
+
+sentence 241
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 242
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display attracts more customers than ever
+                                                                      
+
+sentence 243
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 244
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 245
+REF: the nurse tended the fierce looking flesh wound on paul's scalp
+HYP: the nurse tended the fierce looking flesh wound on paul's scalp
+                                                                    
+
+sentence 246
+REF: the plane flew *** down low over the runway then increased speed and circled the airfield a second time
+HYP: the plane flew low down *** over the runway then increased speed and circled the airfield a second time
+                      I        D                                                                            
+
+sentence 247
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 248
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 249
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 250
+REF: the length of her skirt caused the passers by to glare
+HYP: the length of her skirt caused the passers by to glare
+                                                           
+
+sentence 251
+REF: the grass was mown before the uncontrollable children came out to play
+HYP: the grass was mown before the uncontrollable children came out to play
+                                                                           
+
+sentence 252
+REF: amongst her friends at the glebe baths she was considered beautiful
+HYP: amongst her friends at the glebe baths she was considered beautiful
+                                                                        
+
+sentence 253
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 254
+REF: the end
+HYP: the end
+            
+
+sentence 255
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 256
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 257
+REF: surely if you leave the record by the fire it will warp
+HYP: surely if you leave the record by the fire it will warp
+                                                            
+
+sentence 258
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 259
+REF: actually i'll hedge my bets and take no risks on this flutter
+HYP: actually i'll hedge my bets and take no risks on this flutter
+                                                                  
+
+sentence 260
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 261
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 262
+REF: isn't it common knowledge that the kangaroo has a pouch in front
+HYP: isn't it common knowledge that the kangaroo has a pouch in front
+                                                                     
+
+sentence 263
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 264
+REF: this new glove and shoe display attracts more customers than ever
+HYP: this new glove and shoe display attracts more customers than ever
+                                                                      
+
+sentence 265
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 266
+REF: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+HYP: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+                                                                                   
+
+sentence 267
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 268
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 269
+REF: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+HYP: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+                                                                                       
+
+sentence 270
+REF: he flew round in an instant to look ** his attacker square in the eye
+HYP: he flew round in an instant to look at his attacker square in the eye
+                                          I                               
+
+sentence 271
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 272
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 273
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 274
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 275
+REF: this year i shall paint this room mauve with a splotch of beige dots
+HYP: this year i shall paint this room mauve with a splotch of beige dots
+                                                                         
+
+sentence 276
+REF: isn't it odd how cobwebs slowly find their way into every nook and cranny
+HYP: isn't it odd how cobwebs slowly find their way into every nook and cranny
+                                                                              
+
+sentence 277
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 278
+REF: it can be quite risky changing gear whilst half way up a steep hill
+HYP: it can be quite risky changing gear whilst half way up a steep hill
+                                                                        
+
+sentence 279
+REF: once upon a time there was a young rat named arthur who couldn't make up his mind whenever the other rats asked him if he would like to go  out hunting with them he would answer in a   soft voice  i don't know and when they said would you rather stay inside he wouldn't say yes or no either he'd always avoid making a choice
+HYP: **** **** * **** ***** *** * ***** *** ***** ****** *** ******** **** ** *** **** ******** the earth used ***** *** ** ** ***** **** to be flat     but  now it's ** ***** ****** ** a sphere isn't it ***** **** *** **** **** **** ***** *** ****** **** ****** ** ******** *** *** ** ** ****** **** ****** ***** ****** * ******
+        D    D D    D     D   D D     D   D     D      D   D        D    D  D   D    D        D         S    S     D   D  D  D     D    D     S    S       S    S    S  D     D      D  D        S     S  S     D    D   D    D    D    D     D   D      D    D      D  D        D   D   D  D  D      D    D      D     D      D D      D
+
+sentence 280
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 281
+REF: the end
+HYP: the end
+            
+
+sentence 282
+REF: melvin's cat was slowly rolling the can
+HYP: melvin's cat was slowly rolling the can
+                                            
+
+sentence 283
+REF: the length of her skirt caused the passers by to glare
+HYP: the length of her skirt caused the passers by to glare
+                                                           
+
+sentence 284
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 285
+REF: this year i shall paint this room mauve with a splotch of beige dots
+HYP: this year i shall paint this room mauve with a splotch of beige dots
+                                                                         
+
+sentence 286
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 287
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 288
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 289
+REF: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+HYP: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+                                                                                                  
+
+sentence 290
+REF: was it the blue globe that broke when he switched on the light
+HYP: was it the blue globe that broke when he switched on the light
+                                                                   
+
+sentence 291
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 292
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 293
+REF: the end
+HYP: the end
+            
+
+sentence 294
+REF: was it the blue globe that broke when he switched on the light
+HYP: was it the blue globe that broke when he switched on the light
+                                                                   
+
+sentence 295
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 296
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 297
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 298
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 299
+REF: the earth used to be flat but now it's a sphere isn't it
+HYP: the earth used to be flat but now it's a sphere isn't it
+                                                             
+
+sentence 300
+REF: actually i'll hedge my bets and take no risks on this flutter
+HYP: actually i'll hedge my bets and take no risks on this flutter
+                                                                  
+
+sentence 301
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 302
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 303
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 304
+REF: my mother gets cross when they say yeah instead of yes
+HYP: my mother gets cross when they say yeah instead of yes
+                                                           
+
+sentence 305
+REF: i said she couldn't   do it but she can
+HYP: i said she couldn't work ** but she can
+                            S  D            
+
+sentence 306
+REF: it can be quite risky changing gear whilst    half way up a steep hill
+HYP: it can be quite risky changing gear     or tearing *** up a steep hill
+                                              S       S   D                
+
+sentence 307
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 308
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 309
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 310
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 311
+REF: the grass was mown before the uncontrollable children came out to play
+HYP: the grass was mown before the uncontrollable children came out to play
+                                                                           
+
+sentence 312
+REF: the flag ceremony overwhelmed me and i was moved to tears
+HYP: the flag ceremony overwhelmed me and i was moved to tears
+                                                              
+
+sentence 313
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 314
+REF: apparently bulldog terriers yap almost as much as chows
+HYP: apparently bulldog terriers yap almost as much as chows
+                                                            
+
+sentence 315
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 316
+REF: surely if you leave the record by the fire it will warp
+HYP: surely if you leave the record by the fire it will warp
+                                                            
+
+sentence 317
+REF: isn't it common knowledge that the kangaroo has a pouch in front
+HYP: isn't it common knowledge that the kangaroo has a pouch in front
+                                                                     
+
+sentence 318
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 319
+REF: don't you think her evening gown was a trifle too garish for the occasion
+HYP: don't you think her evening gown was a trifle too garish for the occasion
+                                                                              
+
+sentence 320
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 321
+REF: the length of her skirt caused the passers by to glare
+HYP: the length of her skirt caused the passers by to glare
+                                                           
+
+sentence 322
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 323
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 324
+REF: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+HYP: i'll thrash out a draft and lodge those new proposals before the next mass meeting
+                                                                                       
+
+sentence 325
+REF: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+HYP: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+                                                                                   
+
+sentence 326
+REF: isn't it odd how cobwebs slowly find their way into every nook and cranny
+HYP: isn't it odd how cobwebs slowly find their way into every nook and cranny
+                                                                              
+
+sentence 327
+REF: surely if you leave the record by the fire it will warp
+HYP: surely if you leave the record by the fire it will warp
+                                                            
+
+sentence 328
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 329
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 330
+REF: apparently bulldog terriers yap almost as much as chows
+HYP: apparently bulldog terriers yap almost as much as chows
+                                                            
+
+sentence 331
+REF: my mother gets cross when they say yeah instead of yes
+HYP: my mother gets cross when they say yeah instead of yes
+                                                           
+
+sentence 332
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 333
+REF: the grass was mown before the uncontrollable children came out to play
+HYP: the grass was mown before the uncontrollable children came out to play
+                                                                           
+
+sentence 334
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 335
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 336
+REF: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+HYP: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+                                                                                                  
+
+sentence 337
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: i wish he'd either grow a beard or shave his scruffy moustache
+                                                                   
+
+sentence 338
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 339
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 340
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 341
+REF: you ought to brush your teeth and wash your face before you go to bed
+HYP: you ought to brush your teeth and wash your face before you go to bed
+                                                                          
+
+sentence 342
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 343
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 344
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 345
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 346
+REF: please i feel too lethargic to wash up tonight
+HYP: please i feel too lethargic to wash up tonight
+                                                   
+
+sentence 347
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 348
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 349
+REF: the truth is i wish i lived a little bit nearer to the supermarket
+HYP: the truth is i wish i lived a little bit nearer to the supermarket
+                                                                       
+
+sentence 350
+REF: melvin's cat was slowly rolling the can
+HYP: melvin's cat was slowly rolling the can
+                                            
+
+sentence 351
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 352
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 353
+REF: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+HYP: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+                                                                                   
+
+sentence 354
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 355
+REF: my mother gets cross when they say yeah instead of yes
+HYP: my mother gets cross when they say yeah instead of yes
+                                                           
+
+sentence 356
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 357
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 358
+REF: surely if you leave the record by the fire it will warp
+HYP: surely if you leave the record by the fire it will warp
+                                                            
+
+sentence 359
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 360
+REF: the chill wind caused the twins to shiver violently in their threadbare clothes
+HYP: the chill wind caused the twins to shiver violently in their threadbare clothes
+                                                                                    
+
+sentence 361
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 362
+REF: melvin's cat was slowly rolling the can
+HYP: melvin's cat was slowly rolling the can
+                                            
+
+sentence 363
+REF: who says itches are always so tempting to scratch
+HYP: who says itches are always so tempting to scratch
+                                                      
+
+sentence 364
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP: troy flicks through a yuppie magazine when he gets a chance
+                                                                
+
+sentence 365
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 366
+REF: apparently bulldog terriers yap almost as much as chows
+HYP: apparently bulldog terriers yap almost as much as chows
+                                                            
+
+sentence 367
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 368
+REF: isn't it common knowledge that the kangaroo has a pouch in front
+HYP: isn't it common knowledge that the kangaroo has a pouch in front
+                                                                     
+
+sentence 369
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 370
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 371
+REF: the nurse tended the fierce looking flesh wound on paul's scalp
+HYP: the nurse tended the fierce looking flesh wound on paul's scalp
+                                                                    
+
+sentence 372
+REF: you ought to brush your teeth and wash your face before you go to bed
+HYP: you ought to brush your teeth and wash your face before you go to bed
+                                                                          
+
+sentence 373
+REF: i said she couldn't do it but she can
+HYP: i said she couldn't do it but she can
+                                          
+
+sentence 374
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 375
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 376
+REF: there'll be big trouble if you dare to touch that stretched surface
+HYP: there'll be big trouble if you dare to touch that stretched surface
+                                                                        
+
+sentence 377
+REF: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+HYP: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+                                                                                                  
+
+sentence 378
+REF: isn't it odd how cobwebs slowly find their way into every nook and cranny
+HYP: isn't it odd how cobwebs slowly find their way into every nook and cranny
+                                                                              
+
+sentence 379
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 380
+REF: the end
+HYP: the end
+            
+
+sentence 381
+REF: the end
+HYP: the end
+            
+
+sentence 382
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 383
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made of    sloth **** ** *****
+                                        S        S    D  D     D
+
+sentence 384
+REF: the truth is i wish i lived a little bit nearer to the supermarket
+HYP: the truth is i wish i lived a little bit nearer to the supermarket
+                                                                       
+
+sentence 385
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP: troy flicks through a yuppie magazine when he gets a chance
+                                                                
+
+sentence 386
+REF: the length of her skirt caused the passers by to glare
+HYP: the length of her skirt caused the passers by to glare
+                                                           
+
+sentence 387
+REF: please i feel too lethargic to wash up tonight
+HYP: please i feel too lethargic to wash up tonight
+                                                   
+
+sentence 388
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 389
+REF: the end
+HYP: the end
+            
+
+sentence 390
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 391
+REF: don't you think her evening gown was a trifle too garish for the occasion
+HYP: don't you think her evening gown was a trifle too garish for the occasion
+                                                                              
+
+sentence 392
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 393
+REF: ***   bill could have sat on the train like a zombie   but chose   to stand
+HYP: you really can't have *** ** *** ***** **** a  flesh wound    on your scalp
+       I      S     S        D  D   D     D    D        S     S     S    S     S
+
+sentence 394
+REF: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+HYP: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+                                                                                   
+
+sentence 395
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 396
+REF: the group asked if i wanted to come along on the barge trip
+HYP: the group asked if i wanted to come along on the barge trip
+                                                                
+
+sentence 397
+REF: the nurse tended the fierce looking flesh wound on paul's scalp
+HYP: the nurse tended the fierce looking flesh wound on paul's scalp
+                                                                    
+
+sentence 398
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 399
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 400
+REF: amongst her friends at the glebe baths she was considered beautiful
+HYP: amongst her friends at the glebe baths she was considered beautiful
+                                                                        
+
+sentence 401
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 402
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 403
+REF: was it the blue globe that broke when he switched on the light
+HYP: was it the blue globe that broke when he switched on the light
+                                                                   
+
+sentence 404
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 405
+REF: you ought to brush your teeth and wash your face before you go to bed
+HYP: you ought to brush your teeth and wash your face before you go to bed
+                                                                          
+
+sentence 406
+REF: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+HYP: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+                                                                           
+
+sentence 407
+REF: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+HYP: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+                                                                                                                          
+
+sentence 408
+REF: it can be quite risky changing gear whilst half way up a steep hill
+HYP: it can be quite risky changing gear whilst half way up a steep hill
+                                                                        
+
+sentence 409
+REF: was it the blue globe that broke when he switched on the light
+HYP: was it the blue globe that broke when he switched on the light
+                                                                   
+
+sentence 410
+REF: the end
+HYP: the end
+            
+
+sentence 411
+REF: judith found the three manuscripts waiting for her on the piano
+HYP: judith found the three manuscripts waiting for her on the piano
+                                                                    
+
+sentence 412
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 413
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 414
+REF: was it the blue globe that broke when he switched on the light
+HYP: was it the blue globe that broke when he switched on the light
+                                                                   
+
+sentence 415
+REF: the flag ceremony overwhelmed me and i was moved to tears
+HYP: the flag ceremony overwhelmed me and i was moved to tears
+                                                              
+
+sentence 416
+REF: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+HYP: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+                                                                                                  
+
+sentence 417
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 418
+REF: isn't it common knowledge that the kangaroo has a pouch in front
+HYP: isn't it common knowledge that the kangaroo has a pouch in front
+                                                                     
+
+sentence 419
+REF: the nurse tended the fierce looking flesh wound on paul's scalp
+HYP: the nurse tended the fierce looking flesh wound on paul's scalp
+                                                                    
+
+sentence 420
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 421
+REF: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+HYP: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+                                                                           
+
+sentence 422
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 423
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 424
+REF: judith found the three manuscripts waiting for her on the piano
+HYP: judith found the three manuscripts waiting for her on the piano
+                                                                    
+
+sentence 425
+REF: the table is badly glued and made so sloppily that it tilts
+HYP: the table is badly glued and made so sloppily that it tilts
+                                                                
+
+sentence 426
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 427
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 428
+REF: the earth used to be flat but now it's a sphere isn't it
+HYP: the earth used to be flat but now it's a sphere isn't it
+                                                             
+
+sentence 429
+REF: melvin's cat was slowly rolling the can
+HYP: melvin's cat was slowly rolling the can
+                                            
+
+sentence 430
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 431
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 432
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 433
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 434
+REF: the truth is i wish i lived a little bit nearer to the supermarket
+HYP: the truth is i wish i lived a little bit nearer to the supermarket
+                                                                       
+
+sentence 435
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 436
+REF: the flag ceremony overwhelmed me and i was moved to tears
+HYP: the flag ceremony overwhelmed me and i was moved to tears
+                                                              
+
+sentence 437
+REF: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+HYP: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+                                                                                                                          
+
+sentence 438
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 439
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 440
+REF: my mother gets cross when they say yeah instead of yes
+HYP: my mother gets cross when they say yeah instead of yes
+                                                           
+
+sentence 441
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 442
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 443
+REF: melvin's cat was slowly rolling the can
+HYP: melvin's cat was slowly rolling the can
+                                            
+
+sentence 444
+REF: the end
+HYP: the end
+            
+
+sentence 445
+REF: alan took a ham sandwich to school
+HYP: alan took a ham sandwich to school
+                                       
+
+sentence 446
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 447
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 448
+REF: the end
+HYP: the end
+            
+
+sentence 449
+REF: the group asked if i wanted to come along on the barge trip
+HYP: the group asked if i wanted to come along on the barge trip
+                                                                
+
+sentence 450
+REF: there'll be big trouble if you dare to touch that stretched surface
+HYP: there'll be big trouble if you dare to touch that stretched surface
+                                                                        
+
+sentence 451
+REF: john could supply him with the latest draft of his work to proof read
+HYP: john could supply him with the latest draft of his work to proof read
+                                                                          
+
+sentence 452
+REF: the plane flew down low over the runway then increased speed and circled the airfield a second time
+HYP: the plane flew down low over the runway then increased speed and circled the airfield a second time
+                                                                                                        
+
+sentence 453
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 454
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 455
+REF: i wish he'd either grow a beard or shave his scruffy moustache
+HYP: i wish he'd either grow a beard or shave his scruffy moustache
+                                                                   
+
+sentence 456
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 457
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 458
+REF: the flag ceremony overwhelmed me and i was moved to tears
+HYP: the flag ceremony overwhelmed me and i was moved to tears
+                                                              
+
+sentence 459
+REF: the grass was mown before the uncontrollable children came out to play
+HYP: the grass was mown before the uncontrollable children came out to play
+                                                                           
+
+sentence 460
+REF: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+HYP: i think i'll go tomorrow he said to himself but then again perhaps i won't it's so nice and snug here i guess i'll go back to my hole under the log for a while before i make up my mind
+                                                                                                                                                                                             
+
+sentence 461
+REF: the truth is i wish i lived a little bit nearer to the supermarket
+HYP: the truth is i wish i lived a little bit nearer to the supermarket
+                                                                       
+
+sentence 462
+REF: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+HYP: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+                                                                           
+
+sentence 463
+REF: mr boyd says these practical jokes have been taken much too far
+HYP: mr boyd says these practical jokes have been taken much too far
+                                                                    
+
+sentence 464
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 465
+REF: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+HYP: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+                                                                           
+
+sentence 466
+REF: actually i'll hedge my bets and take no risks on this flutter
+HYP: actually i'll hedge my bets and take no risks on this flutter
+                                                                  
+
+sentence 467
+REF: she'll think of an excuse why she overslept if given enough time and space
+HYP: she'll think of an excuse why she overslept if given enough time and space
+                                                                               
+
+sentence 468
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 469
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 470
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 471
+REF: apparently bulldog terriers yap almost as much as chows
+HYP: apparently bulldog terriers yap almost as much as chows
+                                                            
+
+sentence 472
+REF: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+HYP: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+                                                                           
+
+sentence 473
+REF: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+HYP: sharon watched the helicopter as it lifted off the deck hovered for a couple of seconds and then landed once more
+                                                                                                                      
+
+sentence 474
+REF: this year i shall paint this room mauve with a splotch of beige dots
+HYP: this year i shall paint this room mauve with a splotch of beige dots
+                                                                         
+
+sentence 475
+REF: mr boyd says these practical jokes have been taken much too far
+HYP: mr boyd says these practical jokes have been taken much too far
+                                                                    
+
+sentence 476
+REF: surely if you leave the record by the fire it will warp
+HYP: surely if you leave the record by the fire it will warp
+                                                            
+
+sentence 477
+REF: was it the blue globe that broke when he switched on the light
+HYP: was it the blue globe that broke when he switched on the light
+                                                                   
+
+sentence 478
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 479
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 480
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+sentence 481
+REF: i said she ***** ** ** *** *** *** * **** *** couldn't do it but she can
+HYP: i said she can't do it but she can i said she couldn't do it but she can
+                    I  I  I   I   I   I I    I   I                           
+
+sentence 482
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 483
+REF: isn't it odd how cobwebs slowly find their way into every nook and cranny
+HYP: isn't it odd how cobwebs slowly find their way into every nook and cranny
+                                                                              
+
+sentence 484
+REF: apparently bulldog terriers yap almost as much as chows
+HYP: apparently bulldog terriers yap almost as much as chows
+                                                            
+
+sentence 485
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 486
+REF: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+HYP: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+                                                                                   
+
+sentence 487
+REF: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+HYP: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+                                                                           
+
+sentence 488
+REF: the flag ceremony overwhelmed me and i was moved to tears
+HYP: the flag ceremony overwhelmed me and i was moved to tears
+                                                              
+
+sentence 489
+REF: mr boyd says these practical jokes have been taken much too far
+HYP: mr boyd says these practical jokes have been taken much too far
+                                                                    
+
+sentence 490
+REF: i said she couldn't do it but she can
+HYP: i said she couldn't do it but she can
+                                          
+
+sentence 491
+REF: he grabbed a towel and then answered the phone by the clock
+HYP: he grabbed a towel and then answered the phone by the clock
+                                                                
+
+sentence 492
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 493
+REF: he glimpsed the badge of the traffic cop out of the corner of his eye
+HYP: he glimpsed the badge of the traffic cop out of the corner of his eye
+                                                                          
+
+sentence 494
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 495
+REF: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+HYP: helen picked a good spot near the water and spent the morning surfing and relaxing in the sun
+                                                                                                  
+
+sentence 496
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 497
+REF: the group asked if i wanted to come along on the barge trip
+HYP: the group asked if i wanted to come along on the barge trip
+                                                                
+
+sentence 498
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 499
+REF: the end
+HYP: the end
+            
+
+sentence 500
+REF: i've just seen that rogue charles tearing off in a hurry to his maths exam
+HYP: i've just seen that rogue charles tearing off in a hurry to his maths exam
+                                                                               
+
+sentence 501
+REF: most of the scenes **** filmed on location in the alps were breathtaking
+HYP: most of the scenes were filmed on location in the alps were breathtaking
+                           I                                                 
+
+sentence 502
+REF: melvin's cat was slowly rolling the can
+HYP: melvin's cat was slowly rolling the can
+                                            
+
+sentence 503
+REF: amongst her friends at the glebe baths she was considered beautiful
+HYP: amongst her friends at the glebe baths she was considered beautiful
+                                                                        
+
+sentence 504
+REF: the chill wind caused the twins to shiver violently in their threadbare clothes
+HYP: the chill wind caused the twins to shiver violently in their threadbare clothes
+                                                                                    
+
+sentence 505
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 506
+REF: my mother gets cross when they say yeah instead of yes
+HYP: my mother gets cross when they say yeah instead of yes
+                                                           
+
+sentence 507
+REF:  we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+HYP: we'll be hard pushed for the whole squad to catch the bus to springwood tonight
+         S                                                                          
+
+sentence 508
+REF: the truth is i wish i lived a little bit nearer to the supermarket
+HYP: the truth is i wish i lived a little bit nearer to the supermarket
+                                                                       
+
+sentence 509
+REF: you ought to brush your teeth and wash your face before you go to bed
+HYP: you ought to brush your teeth and wash your face before you go to bed
+                                                                          
+
+sentence 510
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP: troy flicks through a yuppie magazine when he gets a chance
+                                                                
+
+sentence 511
+REF: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+HYP: don't breathe a word of this but the topic of jeff's speech is beginning to annoy me
+                                                                                         
+
+sentence 512
+REF: the chill wind caused the twins to shiver violently in their threadbare clothes
+HYP: the chill wind caused the twins to shiver violently in their threadbare clothes
+                                                                                    
+
+sentence 513
+REF: this year i shall paint this room mauve with a splotch of beige dots
+HYP: this year i shall paint this room mauve with a splotch of beige dots
+                                                                         
+
+sentence 514
+REF: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+HYP: enjoying her freedom amelia went to the zoo and saw a rare giant sloth
+                                                                           
+
+sentence 515
+REF: the dwarf's throne was in a huge castle encircled by a deep moat
+HYP: the dwarf's throne was in a huge castle encircled by a deep moat
+                                                                     
+
+sentence 516
+REF: the dear old bishop was thrust into trouble with the self absorbed mayor
+HYP: the dear old bishop was thrust into trouble with the self absorbed mayor
+                                                                             
+
+sentence 517
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 518
+REF: the nurse tended the fierce looking flesh wound on paul's scalp
+HYP: the nurse tended the fierce looking flesh wound on paul's scalp
+                                                                    
+
+sentence 519
+REF: mr boyd says these practical jokes have been taken much too far
+HYP: mr boyd says these practical jokes have been taken much too far
+                                                                    
+
+sentence 520
+REF: amongst her friends at the glebe baths she was considered beautiful
+HYP: amongst her friends at the glebe baths she was considered beautiful
+                                                                        
+
+sentence 521
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 522
+REF: the length of her skirt caused the passers by to glare
+HYP: the length of her skirt caused the passers by to glare
+                                                           
+
+sentence 523
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 524
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 525
+REF: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+HYP: pete sat in the little boat with his bait and his fishing boots on the floor beside him waiting for the trout to bite
+                                                                                                                          
+
+sentence 526
+REF: thank goodness it's friday and time to go home
+HYP: thank goodness it's friday and time to go home
+                                                   
+
+sentence 527
+REF: he hurled several stones from the bridge whilst i quickly ran for cover
+HYP: he hurled several stones from the bridge whilst i quickly ran for cover
+                                                                            
+
+sentence 528
+REF: there'll be big trouble if you dare to touch that stretched surface
+HYP: there'll be big trouble if you dare to touch that stretched surface
+                                                                        
+
+sentence 529
+REF: most of the scenes filmed on location in the alps were breathtaking
+HYP: most of the scenes filmed on location in the alps were breathtaking
+                                                                        
+
+sentence 530
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 531
+REF: he flew round in an instant to look his attacker square in the eye
+HYP: he flew round in an instant to look his attacker square in the eye
+                                                                       
+
+sentence 532
+REF: isn't it odd how cobwebs slowly find their way into every nook and cranny
+HYP: isn't it odd how cobwebs slowly find their way into every nook and cranny
+                                                                              
+
+sentence 533
+REF: it seems as if susan does all the floor cleaning for this frugal household
+HYP: it seems as if susan does all the floor cleaning for this frugal household
+                                                                               
+
+sentence 534
+REF: don't you think her evening gown was a trifle too garish for the occasion
+HYP: don't you think her evening gown was a trifle too garish for the occasion
+                                                                              
+
+sentence 535
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 536
+REF: after a gaffe like that it is futile to offer any further resistance isn't it
+HYP: after a gaffe like that it is futile to offer any further resistance isn't it
+                                                                                  
+
+sentence 537
+REF: the grass was mown before the uncontrollable children came out to play
+HYP: the grass was mown before the uncontrollable children came out to play
+                                                                           
+
+sentence 538
+REF: apparently bulldog terriers yap almost as much as chows
+HYP: apparently bulldog terriers yap almost as much as chows
+                                                            
+
+sentence 539
+REF: judith found the three manuscripts waiting for her on the piano
+HYP: judith found the three manuscripts waiting for her on the piano
+                                                                    
+
+sentence 540
+REF: isn't it common knowledge that the kangaroo has a pouch in front
+HYP: isn't it common knowledge that the kangaroo has a pouch in front
+                                                                     
+
+sentence 541
+REF: the truth is i wish i lived a little bit nearer to the supermarket
+HYP: the truth is i wish i lived a little bit nearer to the supermarket
+                                                                       
+
+sentence 542
+REF: unfortunately the bath plug is missing so you'll have to take a shower
+HYP: unfortunately the bath plug is missing so you'll have to take a shower
+                                                                           
+
+sentence 543
+REF: the kid gave a long moan when the milk was spilt
+HYP: the kid gave a long moan when the milk was spilt
+                                                     
+
+sentence 544
+REF: bill could have sat on the train like a zombie but chose to stand
+HYP: bill could have sat on the train like a zombie but chose to stand
+                                                                      
+
+sentence 545
+REF: a squirt of this ointment will soothe the graze on your heel
+HYP: a squirt of this ointment will soothe the graze on your heel
+                                                                 
+
+sentence 546
+REF: sharon vowed never again to sneer at tourists buying souvenir dolls
+HYP: sharon vowed never again to sneer at tourists buying souvenir dolls
+                                                                        
+
+sentence 547
+REF: actually i'll hedge my bets and take no risks on this flutter
+HYP: actually i'll hedge my bets and take no risks on this flutter
+                                                                  
+
+sentence 548
+REF: the group asked if i wanted to come along on the barge trip
+HYP: the group asked if i wanted to come along on the barge trip
+                                                                
+
+sentence 549
+REF: the plane flew down low over the runway then increased speed and circled the airfield a second time
+HYP: the plane flew down low over the runway then increased speed and circled the airfield a second time
+                                                                                                        
+
+sentence 550
+REF: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+HYP: we'd be hard pushed for the whole squad to catch the bus to springwood tonight
+                                                                                   
+
+sentence 551
+REF: troy flicks through a yuppie magazine when he gets a chance
+HYP: troy flicks through a yuppie magazine when he gets a chance
+                                                                
+
+sentence 552
+REF: apparently bulldog terriers yap almost as much as chows
+HYP: apparently bulldog terriers yap almost as much as chows
+                                                            
+
+sentence 553
+REF: we're glad that the price range is smaller than any of us expected
+HYP: we're glad that the price range is smaller than any of us expected
+                                                                       
+
+number of sentences: 553
+substitutions=66 deletions=177 insertions=18 hits=7242
+
+mer=3.48%
+wil=4.36%
+wip=95.64%
+wer=3.49%
+
+
+

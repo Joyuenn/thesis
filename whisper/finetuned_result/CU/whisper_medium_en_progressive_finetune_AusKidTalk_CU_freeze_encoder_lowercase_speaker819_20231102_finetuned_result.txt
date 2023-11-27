@@ -1,0 +1,67 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: hulk was riding backwards on   a skateboard and he hits an egg
+HYP: hulk was riding backwards on the skateboard and he hits an egg
+                                    S                              
+
+sentence 2
+REF: he's curious to see what's inside the egg and listens to the egg
+HYP: he's curious to see what's inside the egg and listens to the egg
+                                                                     
+
+sentence 3
+REF: the egg starts cracking near the top and hulk is scared by this
+HYP: the egg starts cracking near the top and hulk is scared by this
+                                                                    
+
+sentence 4
+REF: a dinosaur jumps out and hulk is scared
+HYP: a dinosaur jumps out and hulk is scared
+                                            
+
+sentence 5
+REF: the dinosaur tries to play with hulk but hulk is very scared
+HYP: the dinosaur tries to play with hulk but hulk is very scared
+                                                                 
+
+sentence 6
+REF: hulk tries to hide from the dinosaur and is still very scared
+HYP: hole tries to hide from the dinosaur and is still very scared
+        S                                                         
+
+sentence 7
+REF: the dinosaur is looking around for hulk and he can't find hulk
+HYP: the dinosaur is looking around for hulk and he can't find hulk
+                                                                   
+
+sentence 8
+REF: the dinosaur is sad
+HYP: the dinosaur is sad
+                        
+
+sentence 9
+REF: hulk looks at the dinosaur and feels bad about this
+HYP: hulk looks at the dinosaur and feels bad about this
+                                                        
+
+sentence 10
+REF: hulk feeds the dinosaur the milk
+HYP: hulk feeds the dinosaur the milk
+                                     
+
+sentence 11
+REF: laughing while the dinosuar is drinking the milk
+HYP: laughing while the dinosaur is drinking the milk
+                               S                     
+
+number of sentences: 11
+substitutions=3 deletions=0 insertions=0 hits=107
+
+mer=2.73%
+wil=5.38%
+wip=94.62%
+wer=2.73%
+
+
+

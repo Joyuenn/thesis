@@ -1,0 +1,77 @@
+--> Getting the finetuned alignment result...
+
+sentence 1
+REF: there was a dinosaur
+HYP: there was a dinosaur
+                         
+
+sentence 2
+REF: he was on the skateboard
+HYP: he was on the skateboard
+                             
+
+sentence 3
+REF: *****   he was listening to the egg
+HYP: three cups was   turning to the egg
+         I    S             S           
+
+sentence 4
+REF: the egg was cracking
+HYP: the egg was cracking
+                         
+
+sentence 5
+REF: the dinosaur  poke out his head
+HYP: the dinosaur pokes out his head
+                      S             
+
+sentence 6
+REF: the dinosaur was about to lick him
+HYP: the dinosaur was about to lick him
+                                       
+
+sentence 7
+REF: he was hiding
+HYP: he was hiding
+                  
+
+sentence 8
+REF: the dinosaur was  sad
+HYP: the dinosaur was that
+                         S
+
+sentence 9
+REF: and the dinosaur was lying down
+HYP: and the dinosaur was lying down
+                                    
+
+sentence 10
+REF: and he was looking at the dinosaur
+HYP: and he was looking at the dinosaur
+                                       
+
+sentence 11
+REF: he was touching the dinosaur
+HYP: he was touching the dinosaur
+                                 
+
+sentence 12
+REF: and he feed the dinosaur his milk
+HYP: and he feed the dinosaur his milk
+                                      
+
+sentence 13
+REF: and then he laugh
+HYP: and then he  lost
+                     S
+
+number of sentences: 13
+substitutions=5 deletions=0 insertions=1 hits=63
+
+mer=8.70%
+wil=15.41%
+wip=84.59%
+wer=8.82%
+
+
+
