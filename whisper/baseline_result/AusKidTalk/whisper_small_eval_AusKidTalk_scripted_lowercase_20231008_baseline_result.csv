@@ -1,0 +1,3969 @@
+,target_text,pred_str
+0,bird, bird.
+1,detective, Detective.
+2,short, Thought
+3,cloud, Cloud.
+4,that, love.
+5,pie, pie.
+6,xylophone, Xylophone?
+7,four o clock, four o'clock.
+8,potato, potato
+9,cow, cow.
+10,one cup, one cup.
+11,hair, Heh.
+12,one egg, One egg.
+13,snake, snake.
+14,thermometer, The tomato
+15,mouth, mouth.
+16,spaghetti, Let's go team!
+17,snake, Snake.
+18,four cups, four cups.
+19,tonight, Tonight.
+20,two, kill
+21,beard, bid.
+22,head, Hank.
+23,cow, Cal.
+24,banana, Banana.
+25,splash, Splash.
+26,three, three.
+27,gorilla, gorilla
+28,wood, would.
+29,wheel, Will.
+30,four, full
+31,machine, machine
+32,bag, bag.
+33,two cups, Two cups.
+34,machine, Nothing.
+35,zoo, Zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+36,zoo, Zoom.
+37,treasure, Tresha
+38,frog, FLOG
+39,short, short.
+40,thermometer, the month.
+41,short, short.
+42,food, food
+43,boy, Bye.
+44,tail, tail
+45,shell, Shell
+46,head, Head.
+47,light, light.
+48,splash, Blush
+49,car, car
+50,carpet, carpet.
+51,sausage, sausage.
+52,duck, No.
+53,sprout, Sprout.
+54,cucumber, Keep Combo.
+55,martian, Masha.
+56,spade, Spade.
+57,play, Play.
+58,pull, pull
+59,key, Two.
+60,spiderweb, Spider Whip
+61,watch, watch
+62,bag, back.
+63,boat, boat
+64,cloud, Clow
+65,eight, Eight.
+66,spaghetti, Big Eddie.
+67,cart, caught.
+68,boy, Boy.
+69,watch, Watch.
+70,flowerpot, flower pot.
+71,chair, Sure.
+72,pull, pool.
+73,bag, bag.
+74,bridge, Thanks for watching.
+75,gorilla, Go Willa!
+76,breathe, brave.
+77,sword, Soon.
+78,cicada, Zikara!
+79,sausage," So, see you."
+80,butterfly, Butterfly.
+81,crocodile, crocodile.
+82,six, six
+83,circus, Circus
+84,seven, seven
+85,vanilla, vanilla
+86,gorilla, Gouela!
+87,martian, Lushen!
+88,pool, pull.
+89,thermometer, to monitor.
+90,caterpillar, Caterpillar?
+91,yoyo, Yoyoy
+92,carpet, Cop it.
+93,spiderweb, spiderwebs.
+94,attack, attack.
+95,four, 24.
+96,hair, Hey
+97,hippopotamus, We've a pot of mess.
+98,snake, Snake.
+99,sprout, Sprout.
+100,wheel, wheel.
+101,bag, Bye.
+102,australia, Australia.
+103,six, six
+104,balloon, BELIN
+105,chair, Chair.
+106,hole, whole.
+107,treasure, Treasure.
+108,tonight, tonight.
+109,yoyo, Yo yo yo
+110,fish, fish.
+111,five, five
+112,car, car
+113,rhinoceros, Rainel Therese.
+114,seven, seven
+115,three cups, three cups.
+116,banana, NANANA
+117,xylophone, Silophone
+118,skirt, Skit.
+119,tomato, tomato.
+120,sword, sword
+121,drink, Jink!
+122,crocodile, Look at that dial.
+123,straw, Stool.
+124,kitchen, kitchen.
+125,tooth, tooth.
+126,no, No.
+127,gorilla, girl
+128,four, full.
+129,two eggs, two eggs.
+130,nose, nose.
+131,snake, Snake.
+132,two eggs, Two eggs.
+133,wood, Wood.
+134,cub, Cub.
+135,cart, Cut.
+136,seven, and
+137,fur, Fur.
+138,duck, duck.
+139,garden, Got it.
+140,four o clock, 4 o'clock.
+141,caterpillar, Caterpillar.
+142,two o clock, Two o'clock.
+143,rhinoceros, Why not?
+144,cow, care.
+145,one egg, One egg.
+146,zoo, Thank you.
+147,martian, Moshin.
+148,canoe, Can I?
+149,four eggs, four eggs.
+150,jam, Jam.
+151,pie, Bye.
+152,food, Food.
+153,chair, Che.
+154,five, Bye.
+155,two, Two.
+156,mouth, mouth.
+157,potato, Potato?
+158,sprout, Sprout?
+159,card, God
+160,bellybutton, Billy Button.
+161,dessert, This is...
+162,bridge, Bridge.
+163,vegemite," Thank you, mate."
+164,thermometer, some matter.
+165,crocodile, Clockadile
+166,canoe, canoe.
+167,car, car.
+168,splash, Splash.
+169,yes, Yes.
+170,two o clock, 2 o'clock.
+171,bellybutton, Billy Button.
+172,kangaroo, kangaroo
+173,yes, Yes.
+174,fish, Fish.
+175,doll, doll
+176,two, to
+177,stethoscope, Steph is scope.
+178,two o clock, 2 o'clock.
+179,two o clock, Tool Club
+180,yes, Yes.
+181,boy, Booy!
+182,crab, clad
+183,hill, Thank you.
+184,two cups, two cups.
+185,nine, 9
+186,story, story.
+187,garage, garage.
+188,skirt, Skat.
+189,caterpillar, God to be with you.
+190,garage, garage
+191,doll, doll.
+192,grasshopper, Grasshopper.
+193,cloud, Cloud.
+194,rhinoceros, I know for us.
+195,ball, ball.
+196,key, key.
+197,magician, Magician
+198,treasure, TESLA
+199,key, K
+200,owl, Ow.
+201,pool, Pull!
+202,tooth, Truth.
+203,one cup, one cup
+204,jam, gym.
+205,balloon, balloon
+206,five, Fine.
+207,xylophone, So I love fine.
+208,cloud, Cloud.
+209,two o clock, 2 o'clock.
+210,boy, Boy.
+211,chair, Chair.
+212,yoyo, Yo yo.
+213,dessert, Dessert.
+214,magician, Thank you.
+215,bellybutton, Palipora
+216,cloud, Cloud?
+217,hippopotamus, hippopotamus.
+218,three, Bye.
+219,caterpillar, Catapilla?
+220,voice, voice.
+221,drink, drink.
+222,mouth, Belf.
+223,circus, Circus.
+224,treasure, Okay.
+225,three cups, Three cups.
+226,ball, pool.
+227,four cups, four cups.
+228,rhinoceros, Ron Arn
+229,duck, duck.
+230,wood, would.
+231,bag, bag.
+232,thermometer, for Mom or Dad.
+233,card, card.
+234,dinosaur, dinosaur
+235,nine, Bye.
+236,bag, back
+237,three cups, Three cups.
+238,coconut, Cod cannot.
+239,gorilla, gorilla
+240,girl, Bye.
+241,tonight, tonight.
+242,canoe, Kenny.
+243,martian, Mosh.
+244,martian, Martian.
+245,pull, Pull.
+246,wood, What?
+247,banana, Banana.
+248,eight, I
+249,nine, nine
+250,machine, machine.
+251,frog, Fuck.
+252,butterfly, Butterfly?
+253,caterpillar, Caterpillar?
+254,five, five.
+255,hole, Home.
+256,owl, Ow.
+257,xylophone, I love you.
+258,stethoscope," Is that good, guys?"
+259,one, What?
+260,short, Sure
+261,canoe, Canoe.
+262,jam, Yeah.
+263,spiderweb, Spire Web.
+264,smile, Smile.
+265,crocodile, Cock-a-dial!
+266,spaghetti, Spaghetti
+267,four o clock, Full cloak.
+268,no, No.
+269,girl, Go.
+270,three cups, three cops.
+271,detective, detective.
+272,wood, wood.
+273,four eggs, Four eggs.
+274,hippopotamus, Hippo
+275,detective, Detective.
+276,duck, Duck.
+277,zoo, Zew.
+278,four cups, Four cups.
+279,five, 5.
+280,doll, doll.
+281,hill, Hill.
+282,four, Thank you.
+283,kangaroo, Kangaroo
+284,hippopotamus, hippopotamus.
+285,cucumber, Chikamba.
+286,ride, ride.
+287,butterfly, But I'll fight.
+288,swing, Swing!
+289,pull, Pull.
+290,grasshopper, Grasshopper.
+291,flowerpot, I'm a pot.
+292,kangaroo, kangaroo
+293,magician, Make sure...
+294,splash, Splash.
+295,seven, seven
+296,light, light.
+297,chair, Tch.
+298,four cups, Four cups.
+299,hill, Heel
+300,one, you
+301,food, food.
+302,tooth, Cheers.
+303,breathe, Breathe.
+304,carpet, carpet.
+305,vegemite, Vegemite?
+306,butterfly, Like to fly.
+307,leaf, Leaf.
+308,cucumber, Q Kanta
+309,one egg, one egg.
+310,clown, clown.
+311,tail, tail.
+312,girl, Go.
+313,wheel, We'll.
+314,that, that.
+315,two cups, Two cups.
+316,seven, seven
+317,duck, duck.
+318,three, 3
+319,cheese, Cheese.
+320,stethoscope, Just kiss and subscribe.
+321,short, show.
+322,fur, for
+323,four eggs, Forex.
+324,boy, Boy.
+325,vegemite, Veggie Minds.
+326,magician, magician.
+327,zoo, Z.
+328,pig, pig.
+329,cheese, cheese.
+330,carpet, Carpets
+331,tonight, Tonight.
+332,duck, duck.
+333,potato, potato
+334,shell, Shell.
+335,two cups, two cups
+336,flowerpot, Flower pot.
+337,car, Call.
+338,wood, would.
+339,gorilla, Gorilla?
+340,bridge, Thank you.
+341,caterpillar, Can I pick one?
+342,sausage, sausage
+343,three eggs, Three eggs.
+344,that, that.
+345,flowerpot, flower pot.
+346,bridge, bridge.
+347,four, for
+348,frog, Fog.
+349,no, No.
+350,stethoscope, This is good.
+351,mouth, mouth.
+352,tooth, TOOSE
+353,seven, Seven.
+354,foot, Fort.
+355,story, Story.
+356,sword, sword.
+357,frog, Fog.
+358,butterfly, Parfa
+359,spaghetti, Spaghetti
+360,thermometer, the moment here.
+361,dessert, That's it.
+362,cucumber, cucumber
+363,coconut, coconut.
+364,tomato, Tomorrow.
+365,spade, spade.
+366,doll, dull
+367,boat, bike.
+368,grasshopper, Last offer?
+369,three, Three.
+370,martian, Martian.
+371,gorilla, gorilla
+372,australia, Australia.
+373,australia, Australia.
+374,caterpillar, Catabilla?
+375,sprout, spare.
+376,pull, pool?
+377,cow, cow.
+378,cow, Cow.
+379,four cups, full card
+380,one, one
+381,hair, Yeah.
+382,potato, Potato.
+383,bird, bed
+384,thumb, Bye.
+385,garden, garden.
+386,watch, watch
+387,dessert, dessert.
+388,hippopotamus, Hip and Proud of us.
+389,girl, scale.
+390,that, That.
+391,tomato, Tomato
+392,breathe, Please.
+393,girl, Girl?
+394,zoo, Z.
+395,boat, Bye.
+396,cheese, Cheese.
+397,leaf, Meef.
+398,grasshopper, Wash off.
+399,grasshopper, Crossover
+400,balloon, Balloon.
+401,one, One.
+402,three, three.
+403,thermometer, thermometer.
+404,seven, See you.
+405,drink, drink.
+406,hole, How
+407,wheel, We'll
+408,drink, to Inc.
+409,bird, bird
+410,australia, Australia
+411,owl, L.
+412,three, Fui.
+413,carpet, carpet.
+414,australia, Strayer!
+415,dessert, dessert.
+416,frog, frog.
+417,ten, time.
+418,machine, machine
+419,chair, Okay.
+420,garden, garden.
+421,treasure, Chuanxiao.
+422,mouth, Math.
+423,four, for
+424,foot, foot.
+425,skirt, Scott?
+426,moustache, Moustache.
+427,spaghetti, spaghetti
+428,beard, Be in.
+429,potato, But Taylor!
+430,food, Fidget
+431,machine, My thing!
+432,six, six
+433,nine, died.
+434,swing, Swing.
+435,breathe, breeze.
+436,dinosaur, dinosaur.
+437,cicada, Cicada.
+438,detective, detective.
+439,three o clock, three o'clock.
+440,stethoscope, Death of the Scope.
+441,three eggs, free eggs.
+442,duck, duck.
+443,hole, How?
+444,grasshopper, We're a Sapa.
+445,frog, frog.
+446,clown, clan.
+447,smile, Smile.
+448,garden, God in you.
+449,two eggs, two eggs
+450,ride, Ride.
+451,swing, Swing.
+452,gorilla, Gorilla!
+453,moustache, Master
+454,three eggs, for the eggs.
+455,one, One.
+456,carpet, Cop it.
+457,attack, Attack.
+458,thermometer, The momada?
+459,banana, banana
+460,garden, Garden.
+461,treasure, Tricia?
+462,snake, Snake.
+463,bag, Bye bye.
+464,hippopotamus, hippopotamus.
+465,fur, Fuh!
+466,potato, potato.
+467,sprout, Sprat.
+468,food, Fugue.
+469,hill, Hill.
+470,potato, Potato!
+471,swing, Swing.
+472,duck, duck.
+473,tomato, BODY
+474,cheese, Peace.
+475,no, No.
+476,mountain, Mountain.
+477,circus, Circus?
+478,butterfly, Butterfly?
+479,cloud, Wow!
+480,cucumber, Q Kanta
+481,martian, Ma-shun.
+482,drink, drink.
+483,garden, Got it.
+484,treasure, Tresa
+485,one egg, One Egg
+486,three, three.
+487,tonight, tonight.
+488,key, Okay.
+489,ride, What?
+490,six, Thanks.
+491,sprout, Yeah
+492,story, story.
+493,giraffe, You're off.
+494,four, for
+495,rhinoceros, Rhinocytes.
+496,wheel, Will!
+497,bag, Bag.
+498,clown, Clown.
+499,three o clock, for your clock.
+500,garden, Go to
+501,voice, voice.
+502,binoculars, Anoculars.
+503,martian, washers
+504,watch, Watch.
+505,grasshopper, Grasshopper.
+506,three eggs, 3 eggs
+507,story, Story
+508,crab, crab.
+509,bellybutton, Belly button
+510,ten, 10
+511,seven, 7.
+512,food, food.
+513,treasure, Treasure.
+514,hair, Hey.
+515,three, We
+516,that, Pat.
+517,spade, Bye.
+518,breathe, Breathe.
+519,splash, Splash.
+520,mountain, mountain.
+521,vegemite, There you might.
+522,smile, Smile.
+523,caterpillar, Cali pillow.
+524,card, Cod.
+525,coconut, Coconut.
+526,cicada, Scala
+527,owl, Ow.
+528,martian, Martian.
+529,canoe, Tendu
+530,treasure, K
+531,three cups, three cups.
+532,stethoscope, Is this a screw?
+533,sausage, Sausage
+534,three o clock, three o'clock.
+535,skirt, Good
+536,pig, page.
+537,foot, Foot.
+538,one cup, one cup.
+539,vegemite, Vegemite.
+540,tail, Tile.
+541,jam, Jam.
+542,vanilla, vanilla.
+543,zoo, Do.
+544,australia, Australia.
+545,yoyo, Yeah.
+546,food, Feed!
+547,ride, ride
+548,detective, Detective.
+549,six, six
+550,fish, fish.
+551,banana, banana
+552,tonight, tonight.
+553,four, full
+554,spiderweb," Bye, the web!"
+555,garage, garage.
+556,bird, Good.
+557,garden, Bye.
+558,frog, Frog.
+559,tooth, tooth.
+560,clown, clan.
+561,three eggs, Trigs.
+562,elephant, elephant
+563,one cup, One cup.
+564,skirt, Skit.
+565,card, Cod.
+566,two, to.
+567,nose, nose.
+568,attack, attack.
+569,rhinoceros, Right now.
+570,key, K
+571,garden, Garden.
+572,light, light.
+573,garage, garage.
+574,cub, Cub.
+575,feather, Fizzle.
+576,boat, boat.
+577,cow, Cow?
+578,two, Two.
+579,hair, hair.
+580,light, night.
+581,story, Story
+582,spaghetti, Spaghetti.
+583,vanilla, Fenila.
+584,tail, tail.
+585,circus, Safe is.
+586,cow, Cows
+587,bird, Bye.
+588,sausage, sausage
+589,coconut, I can't.
+590,key, Tee.
+591,hole, Hold.
+592,stethoscope, Step on the sky.
+593,seven, seven
+594,three cups, three cups.
+595,bellybutton, Belly button.
+596,beard, beard.
+597,giraffe, You're off.
+598,nine, nine
+599,bag, bag.
+600,no, No.
+601,shell, So...
+602,six, Six.
+603,martian, Martian.
+604,binoculars, binoculars
+605,cub, cup.
+606,leaf, police.
+607,hole, Oh.
+608,fur, for.
+609,crab, Crab.
+610,bird, bird
+611,four eggs, Four eggs.
+612,boat, Bye!
+613,mountain, Mountain.
+614,magician, And this is...
+615,martian, Masha.
+616,no, Nar.
+617,one cup, one cup.
+618,boy, Boy.
+619,kitchen, kitchen.
+620,straw, Still?
+621,fish, fish.
+622,fish, Fish.
+623,spiderweb, Spider Whip.
+624,doll, doll.
+625,spaghetti, Buscady.
+626,one o clock, One o'clock.
+627,short, short.
+628,ride, ride.
+629,story, story.
+630,stethoscope, Let's get this going.
+631,watermelon, watermelon.
+632,vegemite, Batchy-bye!
+633,carpet, Cap.
+634,coconut, Coconut.
+635,two o clock, two o'clock.
+636,binoculars, binoculars.
+637,sausage, sausage
+638,dessert, Does it?
+639,foot, foot.
+640,swing, Swing.
+641,bird, bird.
+642,coconut, Co-Clock!
+643,smile, Smile.
+644,tomato, Tomorrow.
+645,vegemite, Feddy Mott.
+646,cheese, See.
+647,girl, Go.
+648,six, Six.
+649,pig, pig.
+650,butterfly, Butterfly?
+651,detective, Detective.
+652,three o clock, 3 o'clock.
+653,duck, duck.
+654,dessert, dessert
+655,nine, 9
+656,tooth, Peace.
+657,jam, Thank you for watching.
+658,that, with that.
+659,four o clock, full clock.
+660,three o clock, for your clothes.
+661,girl, girl.
+662,key, key.
+663,pig, pig.
+664,two, Okay.
+665,straw, Store?
+666,swing, swing
+667,watch, Watch.
+668,hill, Hill.
+669,play, Play!
+670,gorilla, Gorilla.
+671,circus, Safe is.
+672,play, play.
+673,garden, got it.
+674,seven, seven.
+675,banana, Banana.
+676,duck, duck.
+677,four cups, Four cups.
+678,pool, pool.
+679,one egg, one egg
+680,hippopotamus, He's a porno.
+681,tooth, Peace.
+682,breathe, brave.
+683,cow, Ow.
+684,butterfly, Butterfly.
+685,head, head
+686,pig, pig
+687,pool, Pull.
+688,five, five
+689,treasure, Tricia.
+690,stethoscope, Stepheth Scrooge.
+691,tail, tail.
+692,mountain, Mountain?
+693,sprout, Sprout.
+694,doll, doll
+695,watermelon," Hold on, Madeline."
+696,spade, Spade.
+697,duck, duck
+698,fish, Fish.
+699,four eggs, forward.
+700,canoe, Hello.
+701,feather, Feather
+702,tonight, Tonight.
+703,hole, Home.
+704,shell, So
+705,elephant, elephant.
+706,hippopotamus, Hip-hop potomists.
+707,light, What?
+708,ear, E
+709,leaf, Leaf.
+710,six, Six.
+711,clown, clown.
+712,feather, better.
+713,jam, can.
+714,one cup, one cup.
+715,eight, Bye.
+716,two o clock, 2 o'clock.
+717,card, Cod.
+718,jam, Jim.
+719,splash, Splash!
+720,jam, Cheers.
+721,thumb, Fung!
+722,frog, Frog
+723,three, three.
+724,cub, I'm going to be back.
+725,head, head.
+726,ride, Why?
+727,tonight, tonight.
+728,grasshopper, Grasaga?
+729,carpet, carpet.
+730,one egg, Winig.
+731,kitchen, kitchen.
+732,cucumber, Cute Kamba.
+733,binoculars, binoculars.
+734,hippopotamus, Hip hop.
+735,beard, bead.
+736,watch, watch
+737,four o clock, Hooo!
+738,spiderweb, Spadaweb.
+739,pie, Bye.
+740,binoculars, for Nocleans.
+741,machine, Mustade.
+742,nine, on it.
+743,zoo, Zoo.
+744,pool, pull.
+745,flowerpot, flower pot.
+746,watermelon, What a mouth.
+747,food, food.
+748,yes, Yes.
+749,vanilla, Vanilla
+750,swing, Swing
+751,cow, cow.
+752,sprout, Well
+753,balloon, Bully.
+754,ear, E
+755,fish, Fish.
+756,potato, potato.
+757,watch, Watch.
+758,snake, Snake.
+759,ball, BOO!
+760,shell, shell.
+761,play, Play.
+762,yes, Yes.
+763,carpet, Cop
+764,food, Food?
+765,wood, Wunder
+766,sprout, Sprout.
+767,thumb, thumb.
+768,four cups, four cups.
+769,watch, Watch.
+770,cow, Kya!
+771,spiderweb, spider web.
+772,moustache, Mustache
+773,bridge, bridge
+774,nine, nine.
+775,straw, straw
+776,vegemite, Very nice.
+777,frog, Fog!
+778,cucumber, You can't do that.
+779,nine, none.
+780,ten, 10
+781,potato, Potatoes
+782,voice, voice.
+783,pool, poor
+784,sprout, Bye.
+785,jam, Jan?
+786,sword, Stored.
+787,fish, Fish.
+788,garden, garden.
+789,voice, voice.
+790,coconut, coconut
+791,chair, Cheers.
+792,carpet, carpet.
+793,moustache, massage
+794,smile, Smile.
+795,one egg, One egg.
+796,dessert, dessert.
+797,three eggs, three eggs.
+798,snake, Snake.
+799,ball, bowl.
+800,moustache, Mustache?
+801,mouth, now
+802,cow, Ciao.
+803,attack, Attack.
+804,thermometer, thermometer.
+805,vanilla, Benio
+806,five, 5
+807,bird, bed.
+808,sword, Sword
+809,swing, Swing.
+810,two eggs, Two eggs.
+811,doll, D'oh.
+812,canoe, Can you?
+813,hippopotamus, If I problem in this.
+814,crocodile, Crocodile.
+815,pig, Pig.
+816,dessert, dessert
+817,nine, 9.
+818,straw, Sure.
+819,light, lot.
+820,snake, Snake.
+821,thumb, some.
+822,story, Story.
+823,breathe, Bye.
+824,pool, pool.
+825,chair, Ciao.
+826,giraffe, Giraffe.
+827,zoo, Ju
+828,hippopotamus, You're not part of this.
+829,thermometer, for my brother.
+830,frog, Frog.
+831,boat, boat.
+832,nine," No, I..."
+833,dessert, desert
+834,hole, Paul.
+835,tonight, tonight.
+836,sausage, Softage.
+837,leaf, Leaf.
+838,magician, Thank you.
+839,pool, pool.
+840,frog, Frog?
+841,rhinoceros," Why not, Alice?"
+842,boat, But
+843,bridge, bridge.
+844,watermelon, Who are the Melon?
+845,garage, Go wild.
+846,fish, Fish.
+847,spade, Spade?
+848,coconut, I cannot.
+849,two, YAH!
+850,cheese, Peace.
+851,light, launch.
+852,pull, pull.
+853,banana, banana.
+854,car, call.
+855,wheel, Weeelll
+856,beard, beard.
+857,straw, Skool.
+858,cub, Cup.
+859,grasshopper, Go A-Sapa!
+860,cheese, cheese.
+861,hole, Hope.
+862,short, short.
+863,light, lot.
+864,foot, foot.
+865,one, one
+866,one, One.
+867,seven, seven
+868,wheel, Will?
+869,nine, 9.
+870,rhinoceros, Ragnoceros.
+871,jam, Jam.
+872,hair, Hair.
+873,owl, Ow.
+874,fur, Sir.
+875,eight, Hey.
+876,crocodile, crocodile
+877,dinosaur, Dinosaur.
+878,pig, pig.
+879,thermometer, Say la nana.
+880,bag, bag.
+881,spade, I spied.
+882,binoculars, Bye knock live!
+883,moustache, Nostage.
+884,xylophone, Silo phone.
+885,bridge, Pretty.
+886,fur, So
+887,three eggs, Three eggs.
+888,cloud, Cloud.
+889,vegemite, Good job.
+890,three o clock, Three o'clock.
+891,feather, FEDOR
+892,voice, voice.
+893,tail, tail.
+894,breathe, Breathe.
+895,cucumber, Ki Kamba.
+896,wood, Wood.
+897,crocodile, Cooked a lion.
+898,crab, club.
+899,caterpillar, Call a pedo.
+900,breathe, breathe.
+901,four o clock, Fulcrum
+902,fur, That's it.
+903,zoo, Yeah!
+904,australia, Australia.
+905,flowerpot, Flower pot.
+906,ball, Bull.
+907,butterfly, Butterfly.
+908,moustache, Mustache.
+909,cow, Tell
+910,wheel, Will.
+911,fur, fair
+912,rhinoceros, Why not so us?
+913,yoyo, Y'all y'all.
+914,feather, Feather
+915,cucumber, Kill kamba?
+916,breathe, Breathe.
+917,two eggs, Two eggs.
+918,watermelon, Watermelon.
+919,elephant, elephant
+920,cart, Cut.
+921,thumb, thumb.
+922,sausage, Sausage
+923,bridge, Bwyntj!
+924,one o clock, One o'clock.
+925,doll, Paul
+926,nose, Nice.
+927,hippopotamus, Hip-hop anonymous.
+928,cart, Cut.
+929,one egg, One egg.
+930,two cups, two cups.
+931,treasure, treasure.
+932,tomato, tomato
+933,yoyo, Yay yay!
+934,beard, date.
+935,voice, voice.
+936,balloon, Blowing.
+937,that, That.
+938,smile, Smile.
+939,garage, garage.
+940,sword, Sword
+941,machine, machine.
+942,giraffe, Giraffe.
+943,jam, jam.
+944,tomato, tomorrow.
+945,magician, magician
+946,xylophone, Zalafay.
+947,card, card.
+948,giraffe, Giraffe.
+949,six, six
+950,tonight, not
+951,splash, Splash.
+952,kitchen, kitchen.
+953,giraffe, Cheer off.
+954,beard, Speed.
+955,stethoscope, It's difficult.
+956,pull, pool.
+957,thermometer, It's a moment of...
+958,xylophone, Zalafane.
+959,binoculars, binoculars.
+960,garden, Got it.
+961,cloud, Cloud.
+962,pull, play
+963,pool, pool.
+964,beard, bead.
+965,gorilla, Good Willa!
+966,duck, duck
+967,swing, swing.
+968,smile, Smile.
+969,breathe, Rains.
+970,nose, Nice.
+971,elephant, elephant
+972,rhinoceros, for my nostrils.
+973,butterfly, butterfly.
+974,cucumber, Q Kampo
+975,banana, Banana?
+976,head, head.
+977,six, six.
+978,boat, boat
+979,four cups, Foooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
+980,eight, 8
+981,spaghetti, spaghetti.
+982,bridge, bridge
+983,no, No.
+984,canoe, canoe.
+985,wood, Would
+986,swing, swing
+987,pie, pie.
+988,crocodile, Crocodile?
+989,cloud, Cloud!
+990,splash, Splash!
+991,beard, bead.
+992,cloud, cloud.
+993,elephant, Elephant
+994,hippopotamus," Here, Polymus."
+995,spaghetti, spaghetti
+996,leaf, Leaf.
+997,card, Cat!
+998,light, light.
+999,carpet, cop it.
+1000,swing, Swing.
+1001,australia, Australia.
+1002,drink, drink.
+1003,swing, swing.
+1004,detective, detectives.
+1005,mountain, mountain.
+1006,sword, Sword?
+1007,ear, ear.
+1008,moustache, Mustache.
+1009,wood, wood.
+1010,wheel, We'll...
+1011,crocodile, Crocodile.
+1012,watermelon, watermelon.
+1013,hippopotamus, Hippopotamus.
+1014,four cups, Full cups.
+1015,duck, ducky.
+1016,five, Bye!
+1017,skirt, Skit.
+1018,boat, Bye.
+1019,swing, swing
+1020,two eggs, Two eggs.
+1021,ear, Yeah.
+1022,zoo, Zyu.
+1023,vegemite, Regimite.
+1024,play, play.
+1025,watch, watch.
+1026,detective, protective.
+1027,cart, God.
+1028,watch, Watch.
+1029,canoe, Hello.
+1030,hill, Hill.
+1031,crab, Crab.
+1032,kitchen, kitchen.
+1033,ball, Bulls.
+1034,dinosaur, Dinosaur?
+1035,one egg, One egg.
+1036,circus, Circus.
+1037,straw, straw
+1038,four, for.
+1039,that, that
+1040,gorilla, Grilla?
+1041,four o clock, four o'clock.
+1042,stethoscope, Stifist coat.
+1043,no, No.
+1044,clown, Clown.
+1045,xylophone, Toilet firing.
+1046,canoe, Can you?
+1047,breathe, Please.
+1048,fur, there.
+1049,swing, swing.
+1050,rhinoceros, Why not Swiss?
+1051,car, Carl.
+1052,leaf, with
+1053,short, short
+1054,that, that.
+1055,shell, show.
+1056,circus, Circuit.
+1057,australia, Australia.
+1058,treasure, treasure.
+1059,boy, Boy.
+1060,detective, protective
+1061,three, See?
+1062,machine, machine.
+1063,car, Ka.
+1064,crab, Quap.
+1065,wood, What?
+1066,grasshopper, glass of
+1067,rhinoceros, grand noseres.
+1068,head, Hey!
+1069,car, car
+1070,thumb, thumb.
+1071,no, Right.
+1072,eight, 8.
+1073,cloud, cloud.
+1074,wood, Look.
+1075,carpet, Carpet
+1076,snake, Snake.
+1077,boy, Boy.
+1078,breathe, Please.
+1079,two, to.
+1080,tooth, truth.
+1081,hair, Heh.
+1082,story, story.
+1083,one cup, One cup.
+1084,five, five.
+1085,six, Six.
+1086,voice, voice.
+1087,crocodile, Crocodile.
+1088,yoyo, Yo yo
+1089,mouth, Now
+1090,seven, seven eight
+1091,mountain, Martin.
+1092,doll, Don't.
+1093,caterpillar, Kajapila?
+1094,tooth, Toot.
+1095,garden, Got it?
+1096,four eggs, for eggs.
+1097,one cup, One cup.
+1098,skirt, up.
+1099,three o clock, for your cook.
+1100,two cups, There we go.
+1101,coconut, Coconut.
+1102,eight, night.
+1103,ride, Ride.
+1104,three, Breathe.
+1105,balloon, balloon
+1106,cicada, Sikara.
+1107,pool, Pull.
+1108,garage, garage.
+1109,pig, Thank you.
+1110,coconut, Coconut
+1111,rhinoceros, rhinoceros.
+1112,treasure, She wears a
+1113,eight, Bye.
+1114,mouth, mouth
+1115,tail, Pile.
+1116,card, card.
+1117,rhinoceros, Rhinoceros.
+1118,breathe, Please.
+1119,tonight, Tonight.
+1120,cub, I'm done.
+1121,head, Head.
+1122,nose, noise.
+1123,ear, Mmm.
+1124,one o clock, What a clock.
+1125,vanilla, vanilla.
+1126,cucumber," Keep going, bud."
+1127,caterpillar, Happy law
+1128,watch, What?
+1129,story, story.
+1130,that, that.
+1131,grasshopper, Cross over.
+1132,hair, Hey.
+1133,short, short
+1134,cow, cow.
+1135,tail, tail.
+1136,crocodile, crocodile.
+1137,story, story.
+1138,coconut, coconut.
+1139,garage, Challenge.
+1140,bridge, switch.
+1141,one egg, one egg.
+1142,hill, Heal.
+1143,foot, foot.
+1144,thermometer, thermometer.
+1145,kitchen, kitchen.
+1146,four eggs, four eggs.
+1147,sword, Sword.
+1148,car, Call.
+1149,play, Play
+1150,nose, Nice.
+1151,food, Food.
+1152,balloon, balloon.
+1153,mouth, mouth.
+1154,shell, Shell.
+1155,feather, Feta.
+1156,pull, pool.
+1157,spaghetti, spaghetti
+1158,sausage, Such it
+1159,five, Fudd.
+1160,foot, foot.
+1161,short, Sure.
+1162,hole, home.
+1163,light, Like.
+1164,three, free.
+1165,potato, potato.
+1166,ear, Yeah.
+1167,voice, voice.
+1168,smile, Smile.
+1169,four eggs, Four eggs.
+1170,play, play.
+1171,five, fly.
+1172,bridge, Bridge.
+1173,crab, Crab.
+1174,smile, Smile!
+1175,kangaroo, kangaroo
+1176,head, Head.
+1177,jam, Jam
+1178,bag, bag.
+1179,moustache, Musseye
+1180,fur, first.
+1181,tail, tail
+1182,two eggs, Two eggs.
+1183,kangaroo, Kangaroo!
+1184,three o clock, three o'clock.
+1185,head, head.
+1186,crocodile, Crocodile.
+1187,cicada, God
+1188,frog, you
+1189,vanilla, vanilla
+1190,boy, boy.
+1191,chair, chair
+1192,shell, show.
+1193,garden, Got him.
+1194,fish, Fish.
+1195,vanilla, Vanilla
+1196,wood, wood.
+1197,hill, Hill.
+1198,watch, What?
+1199,kitchen, Kitchen.
+1200,voice, Voice.
+1201,shell, Shell.
+1202,garden, Garden
+1203,caterpillar," Kyle, pay them."
+1204,circus, circus
+1205,dinosaur, down the show.
+1206,key, Hey.
+1207,magician, magician
+1208,cloud, Cloud.
+1209,grasshopper, grasshopper.
+1210,cloud, loud.
+1211,three o clock, three o'clock.
+1212,vanilla, vanilla
+1213,watermelon, water man.
+1214,cloud, Cloud?
+1215,watch, watch
+1216,ride, ride.
+1217,that, that.
+1218,pig, Peek
+1219,machine, machine.
+1220,butterfly, Butterfly.
+1221,watermelon, Watermelon
+1222,vanilla, Vanilla.
+1223,chair, chair.
+1224,head, head.
+1225,attack, attack.
+1226,food, Food!
+1227,wheel, will.
+1228,two eggs, to X.
+1229,eight, I
+1230,feather, feather
+1231,nine, 9
+1232,bridge, bitch
+1233,girl, GIL
+1234,shell, shell.
+1235,thumb, some.
+1236,dessert, There's that.
+1237,vegemite, Veggie Mart
+1238,that, that.
+1239,nose, knows.
+1240,short, short.
+1241,thermometer, Some momida.
+1242,four o clock, Full A Club
+1243,pig, pig
+1244,voice, voice.
+1245,tomato, Tomato.
+1246,leaf, Leaf.
+1247,skirt, It's good.
+1248,yoyo, Yo yo.
+1249,card, God.
+1250,boy, Boy.
+1251,clown, Clown.
+1252,cub, cup.
+1253,xylophone, xylophone.
+1254,garden, garden.
+1255,gorilla, girl
+1256,owl, Ow.
+1257,mouth, mouth.
+1258,garage, garage.
+1259,circus, They're a kiss.
+1260,beard, speed.
+1261,four, four
+1262,tooth, Peace.
+1263,car, Call.
+1264,thermometer, from mom and dad.
+1265,play, play.
+1266,rhinoceros, Reiner.
+1267,jam, jam?
+1268,mountain, Mountain?
+1269,nine, 9.
+1270,four, Careful.
+1271,canoe, Can do!
+1272,play, Play.
+1273,martian, Nothing.
+1274,four o clock, for a cook.
+1275,sausage, Sausage
+1276,sword, sword
+1277,binoculars, binoculars.
+1278,beard, bid.
+1279,canoe, Can you?
+1280,thermometer, The moment of
+1281,kitchen, kitchen.
+1282,three eggs," Sorry, eggs."
+1283,car, car.
+1284,foot, foot
+1285,two cups, Two cups.
+1286,voice, voice.
+1287,three o clock, Free your club!
+1288,bellybutton, Belly Button?
+1289,rhinoceros, Rhinoceros.
+1290,flowerpot, Flow pot
+1291,yes, Yes.
+1292,seven, Seven.
+1293,short, Sure.
+1294,cow, How?
+1295,moustache, Moustache.
+1296,one egg, One egg.
+1297,four eggs, Four eggs.
+1298,flowerpot, Flower pot
+1299,play, play.
+1300,garden, Garden.
+1301,thumb, thumb
+1302,five, Five.
+1303,owl, Ow.
+1304,one, What?
+1305,pool, pool.
+1306,play, Play.
+1307,ride, What?
+1308,cub, Cub.
+1309,ear, ear.
+1310,voice, Boys!
+1311,smile, Smile.
+1312,two cups, two cups.
+1313,cicada," It's a car, though."
+1314,mouth, Math?
+1315,head, HIT
+1316,grasshopper, Grasshopper.
+1317,beard, big.
+1318,car, Come on.
+1319,bird, bird
+1320,ball, ball.
+1321,one cup, one cup.
+1322,story, Story?
+1323,treasure, treasure
+1324,garden, God.
+1325,elephant, elephant.
+1326,wheel, Weeelll
+1327,mountain, mountain.
+1328,giraffe, off.
+1329,one o clock, one o'clock.
+1330,bridge, Blinch.
+1331,light, Why?
+1332,girl, Let's go.
+1333,giraffe, Draw.
+1334,yes, Yeah!
+1335,six, six.
+1336,three cups, three cups.
+1337,ten, 10.
+1338,treasure, Treasure.
+1339,that, that.
+1340,cart, Thank you.
+1341,two, two
+1342,duck, duck.
+1343,ride, bride.
+1344,frog, Fuck.
+1345,magician, Magician!
+1346,thermometer, thermometer.
+1347,cucumber, cucumber
+1348,hippopotamus, Hip hip part of it.
+1349,two o clock, Two o'clock.
+1350,yes, Yes.
+1351,moustache, Miss Dosh?
+1352,circus," So, kids."
+1353,seven, seven
+1354,binoculars, binoculars.
+1355,ear, E
+1356,that, that.
+1357,cart, heart.
+1358,mountain, Mountain!
+1359,ball, Bull!
+1360,potato, Potato.
+1361,hill, Hill.
+1362,watermelon, More to melon.
+1363,pie, Bye.
+1364,kitchen, kitchen.
+1365,garage, Garage.
+1366,one o clock, 1 o'clock.
+1367,treasure, Tway-O
+1368,caterpillar, Kai Pillar
+1369,pool, pool.
+1370,four eggs, Four legs.
+1371,canoe, Can you?
+1372,hill, you
+1373,straw, straw
+1374,dinosaur, Bouncy.
+1375,jam, Jin.
+1376,four o clock, Four o'clock.
+1377,bird, But...
+1378,treasure, TREASURE!
+1379,beard, Bid.
+1380,kitchen, kitchen.
+1381,cart, Cut.
+1382,ride, ride.
+1383,two cups, Two cups.
+1384,watermelon, watermelon
+1385,clown, Hello.
+1386,ten, Okay.
+1387,garage, Garage.
+1388,girl, Girl.
+1389,two cups, two cups
+1390,cart, Cut.
+1391,foot, foot.
+1392,tomato, Tomato
+1393,two, two
+1394,cheese, Cheese.
+1395,pie, Bye!
+1396,ten, 10
+1397,four cups, Full cups.
+1398,machine, Machine
+1399,xylophone," Zyla, free?"
+1400,mouth, mouth.
+1401,cart, Cut.
+1402,foot, float.
+1403,giraffe, Go off.
+1404,boat, But
+1405,wheel, for you.
+1406,spiderweb, Spotlight.
+1407,boy, Boy.
+1408,tomato, tomorrow.
+1409,fur, Good.
+1410,cucumber, Come on.
+1411,snake, Snake.
+1412,binoculars, when no-one cares.
+1413,yoyo, Yo yo
+1414,two, Okay.
+1415,spade, Spade.
+1416,smile, Smile.
+1417,ear, E
+1418,dessert, Dessert!
+1419,potato, Potato
+1420,bridge, Bridge.
+1421,sausage, sausage
+1422,tooth, Tuss!
+1423,cucumber, Cute boy.
+1424,watch, Watch.
+1425,boat, boat.
+1426,girl, Go.
+1427,pull, Pulling.
+1428,rhinoceros," Why not, who is?"
+1429,two eggs, two eggs.
+1430,two eggs, two eggs.
+1431,skirt, Good.
+1432,flowerpot, flowerpot
+1433,stethoscope, It's deffascite.
+1434,binoculars, They're not the others.
+1435,six, six
+1436,tail, tile.
+1437,three cups, Three cups.
+1438,sword, So
+1439,sprout, about
+1440,zoo, zoo
+1441,chair, Cheers.
+1442,crab, Crab.
+1443,attack, Heck.
+1444,fish, Fish.
+1445,wood, you
+1446,spaghetti, spaghetti
+1447,tooth, Cheers.
+1448,pie, Bye.
+1449,shell, show.
+1450,potato, Potato.
+1451,pig, pig
+1452,ride, Why?
+1453,yoyo," Yeah, yeah."
+1454,watermelon, Who are the Melon?
+1455,banana, Banana.
+1456,ride, ride.
+1457,splash, Splash.
+1458,tooth, Cheers.
+1459,beard, bed.
+1460,gorilla, Gorilla
+1461,xylophone, Play the phone.
+1462,owl, Ow.
+1463,three cups, Three cups.
+1464,leaf, Leaf.
+1465,australia, Australia.
+1466,fish, fish.
+1467,two o clock, two o'clock.
+1468,detective, detective.
+1469,key, key.
+1470,circus, Circus.
+1471,hair, hair.
+1472,kitchen, kitchen.
+1473,wood, wood.
+1474,vegemite, Veggie Moet
+1475,thermometer," No, no, no."
+1476,eight, 8.
+1477,canoe, canoe.
+1478,two, to.
+1479,dessert, What's it say?
+1480,ten, Okay.
+1481,breathe, We've
+1482,thermometer," No, no, no."
+1483,leaf, Please.
+1484,doll, Doh!
+1485,banana, NANANA
+1486,frog, frog
+1487,magician, magician.
+1488,watch, Watch.
+1489,pig, pig.
+1490,head, HMD.
+1491,grasshopper, Was that it?
+1492,nose, No.
+1493,two o clock, Two o'clock.
+1494,four eggs, 4 eggs
+1495,car, Call.
+1496,car, Call.
+1497,watch, Watch.
+1498,stethoscope, Death's a scope.
+1499,bridge, which
+1500,thumb, Some.
+1501,rhinoceros," Why not, sisters?"
+1502,two, two
+1503,bird, Bad.
+1504,car, cock
+1505,thermometer, The rubber tough.
+1506,tail, tail.
+1507,food, Food.
+1508,key, key.
+1509,feather, Fether.
+1510,shell, Shelf!
+1511,kangaroo, Kangaroo
+1512,key, King
+1513,frog, frog.
+1514,story, Story.
+1515,machine, machine.
+1516,doll, Don't.
+1517,crocodile, Crocodile
+1518,straw, So...
+1519,duck, duck.
+1520,jam, Jin.
+1521,that, La
+1522,skirt, Skit.
+1523,feather, Fessa.
+1524,beard, beard.
+1525,cicada, Cicada.
+1526,pull, pool.
+1527,feather, Frilla?
+1528,two eggs, Two eggs.
+1529,fish, fish
+1530,pool, pool.
+1531,zoo, Zoom.
+1532,beard, bed
+1533,four o clock, Four crocs.
+1534,tail, tail.
+1535,doll, dull
+1536,machine, machine
+1537,mouth, mouth.
+1538,two, Two.
+1539,hippopotamus, Hip-hop or a miss?
+1540,kitchen, kitchen.
+1541,sprout, Sprout.
+1542,foot, foot
+1543,garden," God, you"
+1544,magician, magician.
+1545,banana, banana
+1546,butterfly, Butterfly.
+1547,mouth, mouth.
+1548,crocodile, crocodile
+1549,skirt, Skutt.
+1550,nose, nice
+1551,smile, Smile.
+1552,grasshopper, Grasshopper.
+1553,crab, Club.
+1554,two cups, two cups.
+1555,sprout, Sprout.
+1556,gorilla, gorilla.
+1557,clown, Cloud?
+1558,cub, Cub.
+1559,carpet, Cup it!
+1560,three eggs, Free egg.
+1561,ten, 10.
+1562,hill, Heel.
+1563,vegemite, Vettimae.
+1564,two o clock, Two o'clock.
+1565,six, six
+1566,hippopotamus, Papatomis?
+1567,voice, Voice.
+1568,three o clock, Fiat.
+1569,three, three.
+1570,attack, Ta-da!
+1571,spaghetti, spaghetti
+1572,cub, Cub.
+1573,spiderweb, Butter web
+1574,that, that.
+1575,cheese, Cheese.
+1576,swing, Train!
+1577,kangaroo, King Blue!
+1578,flowerpot, Flower pot.
+1579,elephant, elephant.
+1580,one, What?
+1581,four eggs, four eggs.
+1582,three eggs, Flee it.
+1583,smile, Smile.
+1584,kangaroo, Kangaroo
+1585,two, Okay.
+1586,tonight, tonight.
+1587,hair, Here.
+1588,stethoscope, stethoscope.
+1589,pull, pool.
+1590,straw, Sure.
+1591,three cups, three cups.
+1592,bridge, bridge.
+1593,nine, nine
+1594,boat, Bye.
+1595,stethoscope, This is good.
+1596,ear, E
+1597,bridge, Bitch.
+1598,nine, nine.
+1599,three o clock, three o'clock.
+1600,boy, Bye.
+1601,owl, Ow.
+1602,hole, How?
+1603,elephant, Elephant
+1604,treasure," Choe, can you hear me?"
+1605,hill, Hill.
+1606,magician, magician.
+1607,boy, Bye.
+1608,drink, Drink.
+1609,rhinoceros, Right now service.
+1610,watermelon, Watermelon.
+1611,card, card.
+1612,straw, Stroll.
+1613,seven, Salute.
+1614,grasshopper, Grasshopper.
+1615,martian, Martian.
+1616,mountain, Mountain.
+1617,short, short
+1618,no, No.
+1619,circus, circus.
+1620,story, story.
+1621,three o clock, It's really close.
+1622,three eggs, three eggs.
+1623,light, lot.
+1624,clown, clown.
+1625,yoyo, Yoyoy!
+1626,tomato, tomorrow.
+1627,cicada, Sikada.
+1628,martian, Martian.
+1629,gorilla, Gorilla
+1630,clown, clown.
+1631,three cups, three cups.
+1632,smile, Smile.
+1633,that, that.
+1634,ear, ear
+1635,story, story.
+1636,one cup, one cup.
+1637,stethoscope, Stethoscope
+1638,kangaroo, kangaroo
+1639,fish, Fish.
+1640,elephant, elephant.
+1641,eight, out.
+1642,elephant, I love you.
+1643,pool, pool
+1644,two, to
+1645,canoe, Can you?
+1646,crab, Crab.
+1647,play, play.
+1648,flowerpot, Flower pot.
+1649,two o clock, 2 o'clock.
+1650,garage, Garage?
+1651,three eggs, three eggs.
+1652,chair, Che.
+1653,australia, Australia?
+1654,that, that.
+1655,kitchen, kitchen.
+1656,six, Six.
+1657,flowerpot, Flower pot.
+1658,four, for.
+1659,rhinoceros, Rhinoceros.
+1660,sausage, sausage
+1661,spade, spade.
+1662,flowerpot, flower pot.
+1663,kitchen, Kitchen.
+1664,car, Ta-da!
+1665,detective, detective.
+1666,key, Key.
+1667,hippopotamus, Hippie!
+1668,tail, Pile.
+1669,pull, pulled
+1670,eight, 8.
+1671,watch, Watch.
+1672,bag, bag.
+1673,no, No.
+1674,two cups, Qtaps
+1675,three, three
+1676,spade, Spade?
+1677,girl, Kill.
+1678,flowerpot, flower pot
+1679,ten, 10.
+1680,owl, Al.
+1681,rhinoceros," Morning, Nostra."
+1682,elephant, elephant
+1683,shell, Shell.
+1684,mountain, Mountain.
+1685,jam, Jam.
+1686,feather, VEVA!
+1687,detective, detecting.
+1688,three o clock, three o'clock.
+1689,boat, Bye.
+1690,pie, Bye.
+1691,car, Ta-da!
+1692,caterpillar, Calipatum
+1693,two eggs, two eggs.
+1694,pull, pull
+1695,clown, Clown?
+1696,flowerpot, flower pot.
+1697,bellybutton, Billy Button
+1698,martian, Martian.
+1699,splash, Splash!
+1700,short, short.
+1701,one, One.
+1702,two, two
+1703,attack, That's hot.
+1704,xylophone, skyline.
+1705,crab, CUT
+1706,eight, night
+1707,detective, The tick-toes.
+1708,one egg, one egg.
+1709,no, No.
+1710,foot, foot.
+1711,kangaroo, Kangaroo
+1712,spiderweb, Spider Whip.
+1713,four o clock, four o'clock.
+1714,frog, Fult.
+1715,pool, cool
+1716,spade, Spade.
+1717,nine, nine.
+1718,hair, Hey.
+1719,tonight, tonight
+1720,yes, Yes. Excellent.
+1721,hole, Home.
+1722,treasure, TREASURE
+1723,mouth, mouth.
+1724,snake, Snake.
+1725,hippopotamus," Hit the button, Miss!"
+1726,treasure, Thank you.
+1727,rhinoceros, Why not?
+1728,short, So
+1729,binoculars, binoculars.
+1730,kangaroo, Kangaroo.
+1731,one egg, What egg?
+1732,ball, Bull
+1733,key, key.
+1734,stethoscope, This is good.
+1735,stethoscope, Stethoscope
+1736,ball, Bull.
+1737,skirt, Squat.
+1738,tail, Kailh
+1739,swing, Swing!
+1740,tail, Tired.
+1741,bellybutton, belly button
+1742,thumb, thumb
+1743,duck, Thank you.
+1744,thermometer, the moment of.
+1745,four o clock, four o'clock.
+1746,crab, crab
+1747,eight, Okay.
+1748,fish, Fish.
+1749,tail, Chayo.
+1750,magician, magician
+1751,xylophone, This is all the fun.
+1752,card, Cod.
+1753,cheese, Cheese.
+1754,thermometer, From a metal.
+1755,bellybutton, Belly Button.
+1756,beard, B.
+1757,caterpillar, Cut a pillow.
+1758,one o clock, one o'clock.
+1759,detective, Ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-ch-
+1760,wood, wood.
+1761,three cups, E-Cups.
+1762,nose, nose
+1763,martian, Moshin.
+1764,treasure, Chacha
+1765,story, Story
+1766,spiderweb, spot a wet.
+1767,ten, time.
+1768,foot, Foot.
+1769,duck, duck.
+1770,carpet, carpet.
+1771,banana, Good night.
+1772,two eggs, to eggs.
+1773,story, Story.
+1774,eight, 8.
+1775,head, Head.
+1776,canoe, Can you?
+1777,bag, bag.
+1778,hair, Heh.
+1779,cheese, Cheese.
+1780,hair, Hmm.
+1781,canoe, Can you?
+1782,frog, frog
+1783,skirt, Skirt.
+1784,cart, Cuts.
+1785,leaf, life.
+1786,leaf, Leath.
+1787,car, Ah
+1788,mountain, Mountain.
+1789,one o clock, one o'clock.
+1790,cart, caught.
+1791,tomato, tomato.
+1792,jam, Jin.
+1793,xylophone, Have fun!
+1794,pig, peak.
+1795,garage, Kellogg's.
+1796,crocodile, crocodile.
+1797,sprout, Sprout.
+1798,gorilla, Great.
+1799,ear, E.
+1800,attack, attack.
+1801,one cup, One cup.
+1802,pie, Bye.
+1803,drink, Drake.
+1804,moustache, Moustache
+1805,five, Five.
+1806,cub, cup.
+1807,xylophone, Dialphones.
+1808,three cups, Free Pups!
+1809,that, that.
+1810,two, Okay.
+1811,martian, Muffin.
+1812,that, Bye.
+1813,mouth, mouth.
+1814,jam, Jam.
+1815,vegemite, Back to mine.
+1816,cicada, It's Karsa.
+1817,pig, pig
+1818,boat, boat.
+1819,clown, clown
+1820,boy, Boy.
+1821,vanilla, vinyl
+1822,pull, pool
+1823,light, lot.
+1824,doll, dough.
+1825,bellybutton, Belly Button
+1826,pig, Pink.
+1827,balloon, Balloon.
+1828,smile, Smile!
+1829,grasshopper, Grasshopper.
+1830,bridge, bridge.
+1831,no, No.
+1832,owl, L.
+1833,tooth, Tchüss!
+1834,story, Story.
+1835,spade, Spide.
+1836,ear, Yeah.
+1837,hippopotamus, You can't pwn in us.
+1838,seven, seven
+1839,three cups, Three cups.
+1840,one o clock, one o'clock.
+1841,bridge, Blinch.
+1842,sprout, Splout.
+1843,eight, I
+1844,tomato, I'm not dead.
+1845,duck, duck.
+1846,four o clock, Four o'clock.
+1847,doll, doll
+1848,three eggs, Three eggs.
+1849,balloon, the lane.
+1850,hill, He'll
+1851,no, No.
+1852,hole, poll
+1853,owl, l
+1854,breathe, Please.
+1855,eight, Bye.
+1856,ball, bowl.
+1857,moustache, Mustache?
+1858,butterfly, Butterfly?
+1859,foot, foot
+1860,pig, Pig
+1861,ball, bull.
+1862,mountain, mountain.
+1863,spade, Spade?
+1864,cicada, Cicada.
+1865,head, head.
+1866,wheel, wheel.
+1867,four, for.
+1868,foot, foot.
+1869,sprout, Wow.
+1870,bellybutton, Bailey Button.
+1871,three, three
+1872,coconut, coconut
+1873,foot, FOOT
+1874,martian, motion.
+1875,bird, bird.
+1876,coconut, Coconut
+1877,two eggs, two eggs.
+1878,circus, Flakas.
+1879,spiderweb, Spiderweb.
+1880,boy, Boy.
+1881,tomato, tomato.
+1882,garage, Goward
+1883,three eggs, three eggs.
+1884,kitchen, Kitchen!
+1885,ear, E.
+1886,nose, Nose.
+1887,ball, Bye.
+1888,pool, pool.
+1889,light, light.
+1890,balloon, balloon.
+1891,balloon, balloon.
+1892,card, God.
+1893,straw, Stroke
+1894,food, food.
+1895,breathe, Way.
+1896,grasshopper, Wasaba?
+1897,two o clock, 2 o'clock!
+1898,cub, Pup.
+1899,swing, Swing.
+1900,tomato, Tomorrow.
+1901,grasshopper, grasshopper?
+1902,watermelon, watermelon.
+1903,one, One.
+1904,one o clock, one o'clock.
+1905,flowerpot, Now put
+1906,that, That.
+1907,hill, Hill?
+1908,key, key.
+1909,bridge, Bitch.
+1910,vegemite, Veggie might.
+1911,giraffe, Giraffe.
+1912,two eggs, to eggs.
+1913,bellybutton, Belly Button.
+1914,spade, Spade.
+1915,treasure, treasure
+1916,drink, Drink.
+1917,fur, Four.
+1918,sword, sword.
+1919,circus, Circus.
+1920,feather, Have a
+1921,cub, Cub.
+1922,spaghetti, Spaghetti!
+1923,light, Like.
+1924,yoyo," Yeah, yeah."
+1925,breathe, Breathe.
+1926,boy, boy.
+1927,feather, Feather.
+1928,cicada, Sakura.
+1929,tonight, tonight.
+1930,three o clock, We're clocked.
+1931,dinosaur, Don't you?
+1932,food, food.
+1933,three cups, free cups.
+1934,one cup, One cup.
+1935,xylophone, Rallifan.
+1936,magician, magician
+1937,binoculars, vernaculars
+1938,story, story.
+1939,cloud, Cloud.
+1940,sword, So it's
+1941,australia, Australia.
+1942,jam, jam.
+1943,three eggs, 3-8
+1944,flowerpot, flower pot.
+1945,owl, hour.
+1946,watermelon, watermelon
+1947,one o clock, One o'clock.
+1948,giraffe, You're off.
+1949,bag, Bag!
+1950,no, No.
+1951,frog, frog
+1952,nose, Nice.
+1953,four eggs, four eggs
+1954,dinosaur, It's a dinosaur.
+1955,foot, Foot.
+1956,vegemite," Thank you, Mike."
+1957,cow, cow
+1958,one, one
+1959,circus, Six.
+1960,detective, Detective.
+1961,kangaroo, Kangol?
+1962,foot, foot.
+1963,eight, I
+1964,pie, Bye.
+1965,one cup, One cup.
+1966,duck, duck.
+1967,sprout, out.
+1968,magician, magician
+1969,cart, Cut.
+1970,beard, bed
+1971,hair, Hey.
+1972,butterfly, butterfly
+1973,kitchen, kitchen.
+1974,coconut, Okay now.
+1975,fish, Fish.
+1976,pie, Bye.
+1977,cucumber, Click on the
+1978,sausage, Sausage
+1979,fish, Fish.
+1980,four o clock, full clock.
+1981,breathe, breath.
+1982,treasure, trash
+1983,skirt, Skull! Skull it!
+1984,head, head.
+1985,treasure, Chacha
+1986,cloud, cloud.
+1987,giraffe, Dough.
+1988,three eggs, free eggs.
+1989,spaghetti, Spaghetti
+1990,potato, Potato
+1991,hippopotamus, hippopotamus
+1992,card, Cod.
+1993,chair, Cheers.
+1994,two o clock, 2 o'clock.
+1995,bird, bed.
+1996,crocodile, crocodile.
+1997,tooth, Cheers.
+1998,yes, Yes.
+1999,four, for.
+2000,butterfly, But if I
+2001,four cups, Four cups.
+2002,head, Hey.
+2003,boy, boy.
+2004,snake, Snake.
+2005,mountain, mountain.
+2006,ear, Eeeh?
+2007,tail, Kale.
+2008,spade, space.
+2009,grasshopper, glass upper
+2010,four cups, Four cups.
+2011,tonight, tonight.
+2012,spiderweb," By the way,"
+2013,sprout, I'm sorry.
+2014,cheese, Cheese.
+2015,magician, Magician?
+2016,duck, duck.
+2017,two, too.
+2018,dessert, dessert.
+2019,sausage, A sausage.
+2020,cicada, It's color.
+2021,hill, Hill.
+2022,mountain, Mountain.
+2023,two, Good.
+2024,tomato, tomato
+2025,pool, Po.
+2026,seven, Seven.
+2027,three cups, three cups.
+2028,ball, Boom.
+2029,spade, It's a space.
+2030,four eggs, four eggs.
+2031,cicada, It's caught up.
+2032,three, Fui.
+2033,dinosaur, Dinosaur.
+2034,leaf, Leif.
+2035,feather, Feather?
+2036,six, Thanks.
+2037,nose, No.
+2038,two o clock, to work.
+2039,that, That was
+2040,snake, Snake.
+2041,beard, speed
+2042,wheel, Will.
+2043,three o clock, for your clock.
+2044,attack, Attack.
+2045,spade, Bye
+2046,nine, nine.
+2047,vegemite, Veggie Mart.
+2048,tonight, tonight.
+2049,splash, Bluff.
+2050,breathe, Breathe.
+2051,boy, Bye.
+2052,spiderweb, spiderweb.
+2053,thermometer, Samamata.
+2054,foot, foot.
+2055,sausage, sausage
+2056,bridge, bridge.
+2057,garage, Garage.
+2058,four, for.
+2059,seven, Salute.
+2060,no, No.
+2061,card, card.
+2062,seven, seven
+2063,key, key.
+2064,cow, cow.
+2065,chair, Hey!
+2066,car, Call.
+2067,breathe, Breathe.
+2068,short, short.
+2069,three eggs, Whigs.
+2070,light, light.
+2071,cow, cow
+2072,cucumber, Who come back?
+2073,five, five.
+2074,potato, Potato
+2075,carpet, Cop it.
+2076,dinosaur, Dinosaur.
+2077,one," One, two, three."
+2078,stethoscope, Gifford Doe
+2079,skirt, Sk-skut?
+2080,cow, Ciao.
+2081,no, No.
+2082,caterpillar, Caterpillar
+2083,pull, Pull.
+2084,boat, Bye.
+2085,bag, pack.
+2086,smile, Smile.
+2087,vanilla, Benilla.
+2088,gorilla, Go Bella.
+2089,dinosaur, dinosaur
+2090,one cup, One cap.
+2091,car, car.
+2092,thumb, fun
+2093,swing, swing
+2094,shell, Shell.
+2095,kangaroo, Kendra Root.
+2096,tomato, Tomato
+2097,four o clock, four o'clock.
+2098,foot, foot.
+2099,grasshopper, Crosshopper
+2100,dessert, This is it.
+2101,cart, Cut.
+2102,food, Food.
+2103,straw, Store.
+2104,pie, pie.
+2105,bellybutton, The other bottom.
+2106,feather, Fada
+2107,vanilla, Daniela
+2108,straw, straw
+2109,five, Bye!
+2110,mouth, No.
+2111,cucumber, Keep coming.
+2112,feather, Seven
+2113,swing, Swing.
+2114,four o clock, Four o'clock.
+2115,seven, 7
+2116,one cup, one cup.
+2117,three eggs, three eggs.
+2118,two cups, I'll check it out.
+2119,ride, ride
+2120,coconut, coconut
+2121,pig, pig.
+2122,wheel, Will.
+2123,three cups, Free cups.
+2124,watch, Watch.
+2125,treasure, treasure
+2126,stethoscope, Stephisco.
+2127,fur, Bye.
+2128,play, Play.
+2129,cheese, Cheese.
+2130,nose, Nice.
+2131,thumb, Fum.
+2132,nose, Nice.
+2133,mountain, Martin.
+2134,cicada, Secara.
+2135,coconut, Coconut.
+2136,ride, ride.
+2137,four cups, Four cups.
+2138,shell, show.
+2139,splash, Splash.
+2140,gorilla, Gorilla.
+2141,duck, Dark!
+2142,australia, Australia
+2143,sausage, Sausage
+2144,ride, Right.
+2145,clown, clown.
+2146,pig, ping.
+2147,duck, duck.
+2148,balloon, Beled!
+2149,spaghetti, It's goodie.
+2150,canoe, Can do.
+2151,one, One.
+2152,four o clock, four o'clock
+2153,kitchen, kitchen.
+2154,ball, bowl
+2155,binoculars, The noculus.
+2156,attack, attack
+2157,binoculars, binoculars.
+2158,three, Bye!
+2159,zoo, Zayu.
+2160,hill, Hill.
+2161,kitchen, Catch you.
+2162,cub, Come.
+2163,cub, cup.
+2164,car, Ka.
+2165,hippopotamus, Hypopolymus.
+2166,yes, Yes.
+2167,shell, Shell.
+2168,australia, Australia.
+2169,machine, Machine
+2170,crab, Club.
+2171,pool, pool.
+2172,one o clock, one o'clock.
+2173,flowerpot, Flare or Pot
+2174,magician, magician
+2175,three eggs, three eggs.
+2176,three eggs, Free Eggs
+2177,detective, Detective.
+2178,garage, A lot.
+2179,treasure, Treasure.
+2180,thumb, thumb
+2181,detective, Detective.
+2182,circus, Search it.
+2183,garage, Go watch!
+2184,hole, home.
+2185,duck, Yeah.
+2186,hippopotamus, He purported us.
+2187,key, key.
+2188,three cups, Three cups.
+2189,vegemite, Benjamin.
+2190,carpet, carpet
+2191,kitchen, Keep running.
+2192,foot, foot.
+2193,bridge, Bridge.
+2194,skirt, Skit.
+2195,watermelon, watermelon
+2196,jam, gym.
+2197,sausage, sausage
+2198,feather, Fleta
+2199,sprout, Sprout.
+2200,voice, voice.
+2201,mountain, Mountain.
+2202,circus, Circus.
+2203,ear, Yeah.
+2204,hair, Hey.
+2205,key, Okay.
+2206,banana, banana
+2207,tonight, tonight.
+2208,three o clock, 3 o'clock!
+2209,cicada, Scada.
+2210,pull, pool.
+2211,two o clock, 2 o'clock.
+2212,four, full.
+2213,spiderweb, Spido Web
+2214,three cups, free cups.
+2215,mountain, mountain
+2216,four, for
+2217,card, Cod.
+2218,two cups, Two cups.
+2219,elephant, elephant
+2220,splash, Splash.
+2221,wood, wood.
+2222,that, That.
+2223,bridge, bridge
+2224,breathe, Breathe.
+2225,foot, four
+2226,ear, E
+2227,ball, BOOM!
+2228,mouth, Now.
+2229,nose, No.
+2230,magician, magician.
+2231,nose, Yikes.
+2232,cart, Cut.
+2233,leaf, Leaf.
+2234,crocodile, Co-co-dial.
+2235,short, shield.
+2236,bag, back
+2237,fur, Good.
+2238,pull, pool.
+2239,tooth, Tooth?
+2240,two, Two.
+2241,one cup, One cup.
+2242,xylophone, Zahirullah
+2243,gorilla, gorilla.
+2244,owl, Ow.
+2245,pull, pool.
+2246,four, for
+2247,bridge, bridge.
+2248,watermelon, watermelon
+2249,cub, Cub.
+2250,that, That was
+2251,hole, whole.
+2252,six, Six.
+2253,moustache, Massage.
+2254,vegemite, Veggie Mart
+2255,elephant, elephant
+2256,tooth, Tweet.
+2257,three o clock, Freak look.
+2258,three o clock, 3 o'clock.
+2259,thumb, fun.
+2260,pie, Bye.
+2261,card, Cod.
+2262,four, full
+2263,three," Bye, free."
+2264,one, Good.
+2265,australia, Australia.
+2266,tomato, Tomato
+2267,flowerpot, flower pot.
+2268,nose, knows.
+2269,yes, Yes.
+2270,magician, magician.
+2271,thumb, thumb.
+2272,wheel, Will?
+2273,xylophone, child first.
+2274,clown, clown
+2275,spaghetti, Spaghetti
+2276,nose, nose
+2277,xylophone, I love them.
+2278,that, Right.
+2279,kitchen, kitchen.
+2280,ride, ride.
+2281,fish, Fish.
+2282,three," 3, 4, 3, 2, 1."
+2283,key, key.
+2284,garage, Go watch!
+2285,bellybutton, belly button.
+2286,food, food.
+2287,nose, Nice.
+2288,cucumber," Okay, come back."
+2289,yes, Yes.
+2290,pool, pool.
+2291,cheese, Cheese.
+2292,six, Six.
+2293,light, Light.
+2294,martian, Martian.
+2295,cow, How?
+2296,snake, Snake.
+2297,ten, 10.
+2298,fur, The
+2299,moustache, Moustache.
+2300,butterfly, Butterfly.
+2301,wheel, wheel.
+2302,splash, Splash!
+2303,fur, Fuh.
+2304,food, food.
+2305,cheese, Cheese.
+2306,story, story.
+2307,hole, Paul.
+2308,machine, machine.
+2309,magician, Matition.
+2310,yes, Yes.
+2311,bird, Big
+2312,snake, snake.
+2313,mouth, mouth.
+2314,voice, voice.
+2315,cow, Cal.
+2316,detective, Detective.
+2317,stethoscope, Death of Scope?
+2318,light, light.
+2319,one o clock, One o'clock.
+2320,five, five
+2321,tonight, tonight.
+2322,tonight, Tonight.
+2323,pig, pig
+2324,cicada, Sikara.
+2325,two cups, Two cups.
+2326,fish, fish.
+2327,swing, swing
+2328,ball, Whoa.
+2329,wood, Would
+2330,balloon, clean
+2331,elephant, elephant.
+2332,nose, Nellie.
+2333,no, No.
+2334,car, call.
+2335,yoyo, Yo yo
+2336,smile, smile.
+2337,four eggs, four eggs.
+2338,cloud, Cloud.
+2339,one o clock, one o'clock.
+2340,sword, Sword?
+2341,two, K
+2342,hill, Thank you.
+2343,one," One, two, three, four."
+2344,car, car.
+2345,two o clock, two o'clock.
+2346,three eggs, One of the eggs.
+2347,girl, Girl.
+2348,tomato, Tomato
+2349,pull, pool
+2350,vegemite, Veggie Mart
+2351,one cup, one cup.
+2352,mountain, mountain.
+2353,spiderweb, Spider web.
+2354,australia, Australia?
+2355,six, six
+2356,three o clock, 3 o'clock.
+2357,card, Cod.
+2358,four, full.
+2359,that, that.
+2360,hair, hit.
+2361,garden, Gordon?
+2362,gorilla, Go Bella.
+2363,grasshopper, Grasshopper
+2364,chair, chair.
+2365,rhinoceros, Orinoceros.
+2366,three eggs, three eggs.
+2367,zoo, zoo.
+2368,clown, care.
+2369,four eggs, Forex
+2370,pull, pool.
+2371,kitchen, kitchen.
+2372,canoe, canoe.
+2373,carpet, Cop it.
+2374,drink, drink.
+2375,frog, for
+2376,fish, dish.
+2377,gorilla, Gorilla
+2378,foot, foot.
+2379,key, K.
+2380,grasshopper, Wasaba?
+2381,garden, God in.
+2382,thumb, Bob.
+2383,duck, God.
+2384,nose, No.
+2385,seven, 7
+2386,crab, Proud.
+2387,seven, seven
+2388,one cup, One cup.
+2389,fur, Sir.
+2390,drink, drink.
+2391,smile, Smile.
+2392,banana, banana
+2393,spaghetti, spaghetti.
+2394,watch, Watch.
+2395,zoo, You
+2396,four, full.
+2397,no, No.
+2398,three o clock, What's this?
+2399,hole, home.
+2400,crab, Click!
+2401,vanilla, See you next year!
+2402,spiderweb, Spider Wimp
+2403,detective, addictive.
+2404,bird, bird
+2405,bird, third
+2406,grasshopper, Go A-Sapa!
+2407,magician, magician.
+2408,head, Head.
+2409,zoo, you
+2410,light, Like.
+2411,dinosaur, Dinosaur?
+2412,jam, M.
+2413,dessert, Be sure to subscribe to the channel.
+2414,bridge, bridge.
+2415,one o clock, one o'clock.
+2416,vegemite, Veggie might.
+2417,ear, you
+2418,grasshopper, grasshopper?
+2419,machine, machine.
+2420,two eggs, Two eggs.
+2421,coconut, Coconut.
+2422,sword, sword
+2423,ten, tent.
+2424,chair, Yeah.
+2425,one, One
+2426,two o clock, two o'clock.
+2427,hair, here.
+2428,spiderweb, Spiderweb
+2429,four eggs, four eggs.
+2430,skirt, Skirt
+2431,splash, Splash.
+2432,spaghetti, Be ready.
+2433,watermelon, Watermelon?
+2434,butterfly, Butterfly.
+2435,kangaroo, Kangaroo
+2436,jam, Jane.
+2437,wheel, Will!
+2438,butterfly, Butterfly.
+2439,kangaroo, kangaroo
+2440,chair, chair.
+2441,one egg, one egg.
+2442,boat, boat.
+2443,stethoscope, Which is the second?
+2444,spade, Bye.
+2445,cart, Cut.
+2446,watermelon, What a villain.
+2447,short, short.
+2448,australia, Australia.
+2449,binoculars, binoculars.
+2450,owl, Ow.
+2451,eight, 8
+2452,mountain, mountain
+2453,attack, Attack!
+2454,no, No.
+2455,shell, Shadow.
+2456,sausage, Sausage
+2457,ten, Thanks.
+2458,key, Key.
+2459,five, for.
+2460,dessert, This is it.
+2461,owl, L
+2462,that, that.
+2463,machine, machine
+2464,hippopotamus, Hippo Pachamus.
+2465,caterpillar, Catabilla?
+2466,feather, feather
+2467,two eggs, Two eggs.
+2468,five, five.
+2469,chair, chair
+2470,detective, protective.
+2471,cicada, Cicada
+2472,four cups, Four cups.
+2473,rhinoceros, Rhinoceros.
+2474,treasure, Thank you.
+2475,cloud, Cloud?
+2476,one, One.
+2477,ride, wide
+2478,sausage, So thin.
+2479,feather, FEDA
+2480,sausage, A sausage.
+2481,balloon, balloon.
+2482,story, Story
+2483,machine, machine.
+2484,light, light.
+2485,voice, Voice.
+2486,attack, Attack.
+2487,vanilla, VEDELLA!
+2488,caterpillar, Carefully
+2489,ball, ball.
+2490,bird, But
+2491,two cups, Two cuts.
+2492,two, Okay.
+2493,frog, From
+2494,nine, nine
+2495,boy, Bye!
+2496,one egg, one egg.
+2497,cart, God.
+2498,mountain, Mountain.
+2499,four cups, Four cups.
+2500,pie, Bye.
+2501,pig, pig
+2502,pull, Pull
+2503,bridge, Bye.
+2504,dinosaur, Thanks for watching.
+2505,seven," I'm going to say,"
+2506,bellybutton, That'll be better.
+2507,garden, Carlin
+2508,light, light.
+2509,one egg, One egg.
+2510,two, to
+2511,tail, tail
+2512,detective, Good captive.
+2513,one egg, one egg.
+2514,stethoscope, Stephux Girl
+2515,cow, cow
+2516,beard, beard.
+2517,dessert, dessert
+2518,drink, drink.
+2519,smile, Smile.
+2520,magician, magician.
+2521,tooth, Cheers.
+2522,kitchen, kitchen.
+2523,sword, Soar.
+2524,shell, show.
+2525,hill, Heel
+2526,cucumber, cucumber
+2527,yoyo, Yoyoyoy
+2528,two o clock, Two o'clock.
+2529,snake, Snake.
+2530,garden, Got him.
+2531,tooth, Peace.
+2532,spade, Spade.
+2533,chair, Cheer.
+2534,sword, sword
+2535,attack, Okay.
+2536,binoculars, Open up Clif.
+2537,bellybutton, Belly Button.
+2538,splash, Splash.
+2539,duck, stuck.
+2540,ear, ear.
+2541,hill, HIL.
+2542,cucumber, cucumber
+2543,ten, 10.
+2544,fur, Say
+2545,boat, Bye.
+2546,four, full
+2547,thumb, thumb
+2548,owl, Ow.
+2549,tooth, Cheers!
+2550,key, key.
+2551,cheese, Cheese.
+2552,treasure, Try this.
+2553,cub, cub
+2554,four, four.
+2555,girl, Ciao!
+2556,ride, ride.
+2557,yes, Yes.
+2558,crab, crub.
+2559,skirt, She's gonna
+2560,attack, attack.
+2561,crocodile, crocodile
+2562,garage, garage
+2563,no, No.
+2564,cloud, Cloud.
+2565,drink, drink.
+2566,pool, pool
+2567,thermometer," So, mama talk."
+2568,detective, detective.
+2569,hair, Hail.
+2570,mouth, mouth
+2571,straw, stroll.
+2572,two o clock, Two o'clock.
+2573,coconut, Kalkina
+2574,one egg, one egg.
+2575,four eggs, Four eggs.
+2576,banana, Banana.
+2577,spiderweb, Spot a web.
+2578,crocodile, Crocodile.
+2579,beard, Be safe.
+2580,wood, wood.
+2581,giraffe, Draw.
+2582,one, One.
+2583,jam, Damn!
+2584,four cups, four cups.
+2585,bridge, bridge.
+2586,cicada," I'm going to ask you to come over to the table and say,"
+2587,flowerpot, Flour
+2588,dinosaur, dinosaur
+2589,xylophone, Xylophone.
+2590,shell, Shell.
+2591,six, six.
+2592,one egg, One egg.
+2593,treasure, Tresha
+2594,one cup, One cup.
+2595,straw, straw.
+2596,fur, Thank you.
+2597,caterpillar, caterpillar.
+2598,cart, cart.
+2599,hair, Hey.
+2600,rhinoceros, Why not so with?
+2601,crab, clap
+2602,spaghetti, spaghetti.
+2603,leaf, leaf.
+2604,thumb, some.
+2605,four eggs, four eggs
+2606,shell, show.
+2607,doll, Joe.
+2608,wood, would.
+2609,martian, Masha.
+2610,food, See.
+2611,australia, Australia.
+2612,drink, Drink!
+2613,crab, Crab.
+2614,skirt, Skirt.
+2615,ear, E
+2616,hair, Hmm.
+2617,feather, forever
+2618,binoculars, binoculars.
+2619,breathe, Breathe.
+2620,garage, garage.
+2621,balloon, The learn.
+2622,four o clock, full o'clock.
+2623,smile, Smile.
+2624,pull, Hello.
+2625,tail, tail.
+2626,moustache, Bustosh.
+2627,pie, Bye.
+2628,watermelon, Watermelon?
+2629,pull, pool
+2630,sprout, Sprout.
+2631,eight, I
+2632,bridge, bridge.
+2633,hole, hold.
+2634,foot, Foot.
+2635,spaghetti, Spaghetti
+2636,ride, Ride.
+2637,sprout, Bye.
+2638,three, three.
+2639,vanilla, Vanilla.
+2640,beard, speed.
+2641,girl, Go.
+2642,pie, Bye.
+2643,flowerpot, Wow
+2644,grasshopper, Gas Hopper
+2645,four, Four.
+2646,spade, fade.
+2647,cloud, cloud.
+2648,giraffe, Just a little.
+2649,skirt, Skirt!
+2650,ball, Bull
+2651,mountain, Mountain.
+2652,banana, banana
+2653,yoyo," Yeah, yeah."
+2654,cucumber," Thank you, Kamba."
+2655,elephant, Elephant.
+2656,zoo, soon.
+2657,three, free
+2658,carpet, carpet.
+2659,carpet, Cop it.
+2660,coconut, Kaikinaa.
+2661,head, Head?
+2662,moustache, Moustache.
+2663,foot, foot.
+2664,sword, salt.
+2665,hair, Hair?
+2666,banana, banana
+2667,mouth, Now.
+2668,thumb, some.
+2669,wheel, wheel.
+2670,stethoscope, Let's go
+2671,kitchen, Kitchen.
+2672,straw, Store?
+2673,pull, poll.
+2674,story, Story?
+2675,story, Sto-V
+2676,coconut, Coconut.
+2677,ten, 10
+2678,snake, Snipe.
+2679,crab, crab.
+2680,attack, Attack!
+2681,thumb, thumb
+2682,attack, Attack.
+2683,beard, beard.
+2684,australia, Australia.
+2685,duck, duck.
+2686,bag, bag.
+2687,yes, Yes.
+2688,giraffe, Cure off.
+2689,machine, Machine.
+2690,martian, maximum.
+2691,cub, Cub.
+2692,spaghetti, Pick a B.
+2693,dinosaur, dinosaur
+2694,drink, drink.
+2695,circus, Socus.
+2696,three, three
+2697,giraffe, Bye!
+2698,kitchen, kitchen
+2699,jam, Jam.
+2700,tomato, tomato
+2701,banana, banana
+2702,elephant, elephant
+2703,pie, Bye.
+2704,that, that
+2705,circus, circus
+2706,head, head.
+2707,play, play.
+2708,canoe, canoe.
+2709,tomato, tomato
+2710,swing, Swing.
+2711,duck, duck
+2712,sword, So
+2713,gorilla, Gorilla
+2714,ten, 10.
+2715,thumb, thumb.
+2716,yoyo, Yo yo!
+2717,grasshopper, Cross-upper.
+2718,six, Six.
+2719,head, head.
+2720,eight, 8.
+2721,key, key.
+2722,grasshopper, glass up
+2723,rhinoceros," Oh, I know."
+2724,vegemite, Vegemite.
+2725,circus," So, kiss."
+2726,snake, Snipe.
+2727,food, Fiend.
+2728,cub, Cub
+2729,three o clock, three o'clock.
+2730,hill, Hill
+2731,short, short.
+2732,boy, boy.
+2733,key, key.
+2734,six, Six.
+2735,one egg, one egg.
+2736,two o clock, 2 o'clock.
+2737,hole, home.
+2738,shell, share
+2739,martian, Martian.
+2740,cicada, Scala
+2741,treasure, to
+2742,four, Four.
+2743,spade, Bye!
+2744,carpet, Cop it.
+2745,moustache, mustache
+2746,magician, Like this.
+2747,wood, Wood.
+2748,butterfly, Butterfly.
+2749,duck, duck.
+2750,binoculars," Bye, knockers."
+2751,dessert, Dessert.
+2752,canoe, Can you?
+2753,wood, would.
+2754,dessert, Did that.
+2755,elephant, Elephant
+2756,clown, plan.
+2757,ten, 10
+2758,ten, 10.
+2759,pig, Pig.
+2760,banana, banana
+2761,sprout, Sprout?
+2762,beard, bead.
+2763,crab, Crab.
+2764,snake, Snake.
+2765,nine, 9
+2766,hill, He'll
+2767,hippopotamus, Hippopotamus.
+2768,wheel, Will you?
+2769,bird, Bye!
+2770,jam, Gem.
+2771,nose, No.
+2772,one egg, one egg.
+2773,sword, sword
+2774,tooth, Two.
+2775,skirt, Skit.
+2776,thermometer, The momara.
+2777,moustache, Mustache?
+2778,bag, back
+2779,kangaroo, Kangaroo.
+2780,play, Play.
+2781,detective, Detective.
+2782,ball, pool.
+2783,caterpillar, Pedipilla
+2784,vanilla, vanilla
+2785,vanilla, Vineyard.
+2786,six, six
+2787,garden, Garden.
+2788,moustache, Mustache
+2789,three eggs, Three eggs.
+2790,kitchen, K10.
+2791,dessert, is it
+2792,four cups, four cups.
+2793,bridge, bridge.
+2794,one egg, wanted.
+2795,garage, Go watch.
+2796,moustache, Mustache.
+2797,giraffe, Draw.
+2798,nose, No.
+2799,thermometer, Small letter.
+2800,nine, nine
+2801,pie, Bye.
+2802,foot, foot
+2803,four cups, Four cat.
+2804,five, fun.
+2805,that, that.
+2806,dessert, dessert
+2807,leaf, Leaf.
+2808,ball, bowl.
+2809,gorilla, Gorilla
+2810,bridge, bridge.
+2811,two eggs, two eggs
+2812,no, nine.
+2813,three, three
+2814,frog, Fog.
+2815,three cups, Three cups.
+2816,hill, He'll
+2817,doll, Don't.
+2818,chair, Che?
+2819,cucumber, Keep coming.
+2820,that, that.
+2821,seven, Seven.
+2822,tail, Tile
+2823,nine, Nine.
+2824,head, head.
+2825,kitchen," That's it, honey."
+2826,head, head.
+2827,duck, Thank you.
+2828,hippopotamus," Hippo, poromas."
+2829,watermelon, watermelon
+2830,australia, Australia.
+2831,tooth, Tooth.
+2832,short, short
+2833,stethoscope, This is script.
+2834,three cups, Three cups.
+2835,hippopotamus, Prennally.
+2836,zoo, Noo
+2837,wheel, We'll
+2838,zoo, Z.
+2839,one," One, two, three, four, five, six, seven, eight, nine, ten, ten, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven, eleven,"
+2840,elephant, elephant.
+2841,tomato, tomato.
+2842,spade, Spain.
+2843,sprout, Sprout.
+2844,crocodile, Crocodile.
+2845,eight, Bye.
+2846,doll, Go!
+2847,spade, Spade.
+2848,sword, thought.
+2849,drink, drink.
+2850,boy, Boy.
+2851,light, light
+2852,elephant, elephant.
+2853,dessert, dessert.
+2854,cart, Cut.
+2855,bellybutton, Belly button.
+2856,bird, But...
+2857,one, one.
+2858,one," One, two, three, four, five, six, seven, eight, nine, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 41, 41, 42, 43, 44, 45, 46, 47, 47, 47, 47, 47, 48, 49, 49, 49, 50, 51, 51, 52, 51, 52, 51, 52, 51, 52, 51, 52, 52, 51, 52, 52, 52, 52, 52, 53, 52, 52, 52, 52, 52, 53, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52, 52,"
+2859,cheese, cheese.
+2860,mouth, mouth.
+2861,caterpillar, Caterpill.
+2862,bird, bird.
+2863,treasure, Treasure.
+2864,pie, Bye.
+2865,seven, seven
+2866,pull, Four.
+2867,elephant, Elephant
+2868,cheese, Chase.
+2869,beard, Beep
+2870,key, key.
+2871,xylophone, SILIFONE
+2872,four, Bye!
+2873,spaghetti, spaghetti
+2874,shell, Shell
+2875,eight, Aye!
+2876,two eggs, Two eggs.
+2877,head, Hope.
+2878,giraffe, Draw off.
+2879,breathe, BLEEVE
+2880,spade, Spade.
+2881,tomato, The mother.
+2882,nine, 9
+2883,gorilla, gorilla
+2884,snake, Snake.
+2885,owl, Al.
+2886,boat, boat.
+2887,jam, Jim?
+2888,elephant, and a safe
+2889,one, One.
+2890,sausage, sausage
+2891,one cup, One cup.
+2892,girl, Go!
+2893,carpet, Cop it.
+2894,light, Light.
+2895,doll, dough.
+2896,dessert, déjà
+2897,jam, game.
+2898,three cups, We're going to be cats.
+2899,gorilla, Gorilla
+2900,food, food.
+2901,voice, voice.
+2902,cub, cub
+2903,two, Thank you.
+2904,ball, Bull
+2905,four cups, Four cops.
+2906,butterfly, Butterfly.
+2907,binoculars," Bye, knockers."
+2908,four o clock, four o'clock.
+2909,boat, Bye.
+2910,bird, bed
+2911,balloon," Bye, Loon!"
+2912,boat, boat.
+2913,ball, 4.
+2914,hole, Ho.
+2915,spade, Spade.
+2916,canoe, Hello.
+2917,elephant, elephant
+2918,giraffe, Bye!
+2919,garage, garage.
+2920,four, for.
+2921,play, Play.
+2922,skirt, Good.
+2923,nine, died.
+2924,skirt, That's good.
+2925,australia, Australia.
+2926,ear, Yeah.
+2927,one o clock, One o'clock.
+2928,that, that.
+2929,pool, pool.
+2930,pig, pink.
+2931,one cup, One cup.
+2932,stethoscope, Stethoscope
+2933,australia, Australia.
+2934,three, three
+2935,splash, Splash.
+2936,detective, detective.
+2937,ride, or HOD.
+2938,straw, straw
+2939,drink, Jean.
+2940,six, six.
+2941,spiderweb, Spurro M.
+2942,sausage, sausage
+2943,sausage, sausage
+2944,smile, Smile.
+2945,girl, Go.
+2946,machine, machine.
+2947,frog, frog
+2948,garden, Garden?
+2949,cheese, Cheese.
+2950,stethoscope, Let's go
+2951,one o clock, One o'clock.
+2952,pie, Pie.
+2953,card, card.
+2954,no, No.
+2955,one egg, One egg.
+2956,treasure, treasure
+2957,giraffe, Draw.
+2958,drink, drink.
+2959,boy, boy.
+2960,play, play.
+2961,doll, dull
+2962,four, for
+2963,crocodile, crocodile
+2964,three eggs, Three eggs.
+2965,drink, Drink.
+2966,four o clock, Four cock.
+2967,car, Call.
+2968,pool, pool.
+2969,dinosaur, Dinosaur!
+2970,detective, detective.
+2971,pool, Pull.
+2972,thermometer, The moment
+2973,six, 6
+2974,hippopotamus, Hipopotamus.
+2975,four cups, four cops.
+2976,carpet, carpet
+2977,vanilla, Fina?
+2978,circus, Circuit.
+2979,one, What?
+2980,seven, Seven.
+2981,thermometer, The moment.
+2982,ride, ride
+2983,potato, Potato?
+2984,balloon, Blin.
+2985,leaf, Peace.
+2986,girl, Kill.
+2987,voice, voice.
+2988,cow, cow.
+2989,short, Sure!
+2990,wheel, Will.
+2991,vanilla, vanilla
+2992,caterpillar, Cut the call.
+2993,flowerpot, flower pot.
+2994,six, Hey.
+2995,wheel, We'll.
+2996,two o clock, to work look.
+2997,crocodile, crocodile
+2998,snake, Snipe!
+2999,sausage, Sausage.
+3000,tomato, Tomorrow.
+3001,shell, Shell?
+3002,wood, We will.
+3003,stethoscope, Stethoscope?
+3004,binoculars, I'm gonna kill you.
+3005,voice, voice.
+3006,drink, drink.
+3007,kangaroo, Tengoo!
+3008,pie, Bye.
+3009,yoyo, Yo yo
+3010,magician, Magician!
+3011,breathe, Breathe.
+3012,bag, back
+3013,straw, Let's do...
+3014,bridge, bitch
+3015,mouth, math.
+3016,carpet, carpet.
+3017,story, Story!
+3018,martian, Martian.
+3019,hill, you
+3020,one egg, one egg
+3021,eight, Thanks.
+3022,nine, Bye.
+3023,six, six
+3024,cloud, Wow.
+3025,clown, clown
+3026,frog, frog
+3027,voice, voice.
+3028,vanilla, vanilla.
+3029,spaghetti, spaghetti.
+3030,one o clock, one o'clock.
+3031,treasure, Choo choo!
+3032,girl, girl
+3033,bellybutton, Belly Button.
+3034,five, five
+3035,pig, pig.
+3036,cub, Come.
+3037,pull, pool.
+3038,gorilla, Good Willa!
+3039,dinosaur, Dinosaur.
+3040,vegemite, Vegemite.
+3041,watch, watch.
+3042,treasure, Treasure.
+3043,play, play.
+3044,no, No.
+3045,bellybutton, Belly Button.
+3046,rhinoceros, Rhinoceros
+3047,sausage, I'm so rich.
+3048,drink, Drink.
+3049,treasure, treasure
+3050,ten, 10.
+3051,kangaroo," Okay, go!"
+3052,elephant, elephant
+3053,leaf, No!
+3054,vegemite, Thank you.
+3055,machine, machine
+3056,nose, Nose.
+3057,stethoscope, Death is clutch.
+3058,garden, Got it?
+3059,tail, child
+3060,story, story.
+3061,flowerpot, flower pot.
+3062,three o clock, So you're quack.
+3063,one o clock, one o'clock.
+3064,drink, drink.
+3065,cheese, Cheese.
+3066,owl, Ow.
+3067,hole, Ho!
+3068,attack, Attack.
+3069,crab, crab.
+3070,butterfly, butterfly
+3071,eight, and
+3072,watch, Watch.
+3073,cicada," So cool, eh?"
+3074,yoyo, Yay!
+3075,circus, Circus.
+3076,straw, straw
+3077,card, Cod.
+3078,banana, banana
+3079,one, Wow.
+3080,spade, Spide.
+3081,two cups, Two cups.
+3082,cheese, Cheese.
+3083,three cups, three cups.
+3084,snake, Snake.
+3085,wood, Wood.
+3086,five, five.
+3087,seven, Salad!
+3088,circus, Suckers.
+3089,doll, dull
+3090,nine, nine
+3091,butterfly, Gotta fly.
+3092,four cups, four cups.
+3093,elephant, elephant
+3094,gorilla, Gorilla
+3095,wheel, wheel.
+3096,food, Food.
+3097,shell, Shell.
+3098,vanilla, vanilla
+3099,car, car
+3100,treasure, treasure.
+3101,one egg, One egg.
+3102,food, Food.
+3103,nine, 9
+3104,pull, pool.
+3105,two, Tch.
+3106,caterpillar, Caterpillar.
+3107,cheese, Peace.
+3108,watch, Watch.
+3109,butterfly," Bye, bye."
+3110,tonight, tonight
+3111,sprout, sprout.
+3112,eight, 8
+3113,attack, Attack.
+3114,car, car
+3115,martian, Master.
+3116,martian, M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-M-
+3117,stethoscope, Stealth is good.
+3118,hole, How?
+3119,ball, ball.
+3120,ear, Mmm.
+3121,three, Please.
+3122,ear, E
+3123,three o clock, It's very cool.
+3124,detective, Detective.
+3125,mountain, Mountain.
+3126,foot, foot.
+3127,fur, Si
+3128,food, Food?
+3129,coconut, coconut
+3130,crocodile, Crocodile.
+3131,sausage, That's a big...
+3132,boat, by it.
+3133,three o clock, three o'clock.
+3134,spade, spade.
+3135,garden, Garden.
+3136,sausage, So sick.
+3137,dinosaur, That is all.
+3138,owl, out.
+3139,martian, Ma Xian.
+3140,potato, Potatoes!
+3141,xylophone, Xylophone?
+3142,one o clock, wanna cook
+3143,splash, Splash.
+3144,duck, duck?
+3145,cicada, Sikara.
+3146,pull, Pull.
+3147,swing, Swing.
+3148,machine, machine.
+3149,garden, Garden.
+3150,coconut, I cannot.
+3151,doll, dull
+3152,shell, So
+3153,story, It's toy.
+3154,canoe, Can you?
+3155,crab, Crap.
+3156,wood, What?
+3157,treasure, Chua Sha
+3158,ear, Ewww.
+3159,leaf, Leaf.
+3160,australia, Australia.
+3161,dinosaur, Dinosaur.
+3162,potato, potato
+3163,splash, Splash.
+3164,feather, ever
+3165,vanilla, vanilla.
+3166,one, one
+3167,three cups, three cups.
+3168,that, that.
+3169,key, key.
+3170,straw, straw.
+3171,rhinoceros, Why not the one?
+3172,caterpillar, Caterpillar?
+3173,hill, Help.
+3174,drink, Drake.
+3175,coconut, coconut
+3176,yes, Yes.
+3177,frog, frog
+3178,attack, Attack.
+3179,two, to
+3180,five, Bye.
+3181,attack, Attack!
+3182,moustache, M'Stash.
+3183,cloud, Cloud.
+3184,sprout, Sprout.
+3185,ten, 10.
+3186,sword, sword.
+3187,banana," But no, no."
+3188,balloon, Blowing.
+3189,boy, boy.
+3190,one o clock, When the clock
+3191,boy, Boy.
+3192,cloud, Cloud.
+3193,australia, Australia.
+3194,watch, watch
+3195,fish, six
+3196,watermelon," Oh, my lord."
+3197,doll, dull
+3198,two eggs, 2X
+3199,zoo, you
+3200,pie, pie.
+3201,five, Thank you.
+3202,watermelon, Ward melon.
+3203,flowerpot, Whatever put
+3204,flowerpot, flower boy?
+3205,ball, bowl.
+3206,crab, Crab.
+3207,three eggs, Three eggs.
+3208,mountain," I'm out, kid."
+3209,mouth, mouth.
+3210,two eggs, two eggs.
+3211,mouth, Now.
+3212,cow, Cal.
+3213,four, full.
+3214,treasure, treasure.
+3215,head, head.
+3216,attack, Attack!
+3217,five, Five.
+3218,moustache, Moustache.
+3219,duck, duck
+3220,four cups, Four cups.
+3221,cub, cup
+3222,yes, Yes.
+3223,fish, FACE.
+3224,tooth, tooth.
+3225,pool, pulled.
+3226,owl, Ow.
+3227,food, Food.
+3228,circus," So, okay."
+3229,four eggs, Full eggs.
+3230,moustache, Mustache.
+3231,four, and the city of New York City.
+3232,vegemite, I'll see you later.
+3233,tonight, tonight.
+3234,two o clock, 2 o'clock.
+3235,four eggs, 4 eggs.
+3236,cicada, Cicada?
+3237,ear, Yeah.
+3238,hippopotamus, Hypopotamus.
+3239,thermometer, Samamitah
+3240,frog, Frog?
+3241,canoe, Can you?
+3242,machine, machine.
+3243,wheel, wheel.
+3244,treasure, Tresa
+3245,five, five.
+3246,garage, Go watch.
+3247,crab, Lab.
+3248,cub, cub.
+3249,fur, Say
+3250,owl, Ow.
+3251,voice, voice.
+3252,no, No.
+3253,one, one.
+3254,drink, enjoyed.
+3255,head, head.
+3256,one egg, One egg
+3257,four o clock, for a cloak.
+3258,cub, CUB.
+3259,one, one.
+3260,bellybutton, Belly Button
+3261,nine, nine
+3262,pie, pie.
+3263,thumb, thumb
+3264,card, card.
+3265,frog, Fung.
+3266,clown, Cloud!
+3267,voice, voice.
+3268,two cups, two cups.
+3269,canoe, Can I?
+3270,swing, swing
+3271,seven, seven
+3272,three o clock, 3 o'clock
+3273,spaghetti, spaghetti
+3274,duck, duck.
+3275,rhinoceros, Why no?
+3276,one cup, one cup.
+3277,two eggs, towards.
+3278,ride, Why?
+3279,frog, frog.
+3280,one egg, one eggs.
+3281,potato, Potato
+3282,cloud, Cloud.
+3283,voice, Flee!
+3284,hill, Heal.
+3285,cart, can't.
+3286,two, Okay.
+3287,two, Okay.
+3288,potato, Potatoes
+3289,eight, 8
+3290,card, God.
+3291,kitchen, kitchen.
+3292,tail, Tired
+3293,four eggs, for eggs.
+3294,bridge, Weed.
+3295,ride, wide
+3296,watermelon, Watermelon.
+3297,ball, bowl.
+3298,binoculars, binoculars?
+3299,attack, Attack!
+3300,spade, ride.
+3301,doll, Go!
+3302,bag, bag.
+3303,play, play.
+3304,chair, Che.
+3305,carpet, cop it.
+3306,thermometer," So, Sramata"
+3307,wood, would.
+3308,wheel, We'll
+3309,snake, Snake!
+3310,drink, Boing!
+3311,owl, Ow.
+3312,flowerpot, Flower pot.
+3313,wheel, Well
+3314,pull, pool
+3315,story, Sturvy!
+3316,duck, Thank you.
+3317,four eggs, Fulix.
+3318,hippopotamus, Hippopotamus.
+3319,splash, Splash.
+3320,two o clock, two o'clock.
+3321,four eggs, for eggs.
+3322,ten, 10.
+3323,chair, Yeah
+3324,six, six
+3325,two, Tink
+3326,five, Five
+3327,leaf, life.
+3328,bellybutton, belly button.
+3329,cucumber, Cheekambo.
+3330,girl, Go.
+3331,elephant, I love you.
+3332,machine, machine.
+3333,bellybutton, belly voted
+3334,straw, Pitchon!
+3335,light, Light.
+3336,attack, attack.
+3337,cicada, Cicada.
+3338,boat, Bye.
+3339,jam, Jam.
+3340,three, Three.
+3341,chair, Chair.
+3342,jam, Jam.
+3343,pie, Bye.
+3344,treasure, treasure.
+3345,cow," Okay, I'll..."
+3346,cicada, Cicada
+3347,kangaroo, Kangaroo?
+3348,four cups, Four cups.
+3349,pie, Bye.
+3350,three o clock, three o'clock.
+3351,bellybutton, belly button.
+3352,treasure, Try to get it.
+3353,three eggs, three eggs.
+3354,one egg, one egg.
+3355,boat, Bye.
+3356,girl, Go.
+3357,jam, Jam.
+3358,australia," Or for Ellie, y'all."
+3359,cicada, Cicada.
+3360,dessert, did it.
+3361,bag, bag
+3362,banana, banana.
+3363,jam, Jam?
+3364,sword, Sword.
+3365,breathe, Breathe.
+3366,swing, Fling!
+3367,kitchen, kitchen.
+3368,four eggs, Full eggs.
+3369,potato, Potato.
+3370,play, play.
+3371,tonight, tonight.
+3372,three eggs, Three eggs.
+3373,foot, foot.
+3374,sausage, sausage
+3375,one o clock, 1 o'clock
+3376,four eggs, for eggs.
+3377,girl, Go.
+3378,straw, straw
+3379,play, Play!
+3380,four o clock, Full clock.
+3381,two o clock, two o'clock.
+3382,skirt, Skrrt
+3383,crab, clad
+3384,mountain, mountain.
+3385,moustache, Mustache
+3386,cheese, Cheese!
+3387,butterfly, by your fly.
+3388,hair, hair.
+3389,two o clock, two o'clock.
+3390,spiderweb, Spider web.
+3391,fur, So
+3392,garage, garage.
+3393,yes, Yes.
+3394,binoculars, Nucleus.
+3395,smile, Smile.
+3396,head, Head.
+3397,card, God.
+3398,two cups, Two cups.
+3399,pig, Peak.
+3400,vanilla, Benila.
+3401,five, Bye.
+3402,duck, Thank you.
+3403,splash, Splash?
+3404,cart, cut
+3405,kangaroo, Hangaroo.
+3406,crocodile, crocodile
+3407,wheel, We you.
+3408,watermelon, More melon.
+3409,beard, bead.
+3410,doll, dull.
+3411,boat, boat.
+3412,wood, wood.
+3413,voice, voice.
+3414,cucumber, Cue Combo.
+3415,two eggs, two eggs.
+3416,hole, Home.
+3417,three, Thanks.
+3418,circus, Sure kiss!
+3419,one egg, one egg.
+3420,bird, third
+3421,sausage, I'm so sick!
+3422,drink, Drink.
+3423,one o clock, one o'clock.
+3424,rhinoceros, Rhinoceros.
+3425,cloud, Cloud.
+3426,short, So
+3427,ear, E
+3428,voice, voice.
+3429,yoyo, Yo yo
+3430,two cups, Two cups.
+3431,swing, swing
+3432,giraffe, Giraffe.
+3433,pig, pig.
+3434,two eggs, two eggs.
+3435,potato, Potatoes.
+3436,watch, What?
+3437,that, that.
+3438,cart, cut
+3439,hippopotamus, Hip-Hop
+3440,potato, Potato
+3441,breathe, grief.
+3442,giraffe, giraffe.
+3443,hole, whole.
+3444,seven, seven
+3445,one o clock, Wanna call?
+3446,two o clock, two o'clock
+3447,boat, boat
+3448,rhinoceros, rhinoceros.
+3449,bag, bag.
+3450,garage, gosh
+3451,vegemite," Thank you, mate."
+3452,splash, Fly. Excellent.
+3453,vanilla, vanilla.
+3454,bellybutton, Valley of the Town
+3455,spiderweb, spiderweb.
+3456,attack, Attempt.
+3457,drink, Drink.
+3458,feather, feather.
+3459,shell, Shell.
+3460,gorilla, girl
+3461,xylophone, Styler phone.
+3462,ten, 10.
+3463,magician, magician
+3464,yes, Yes!
+3465,dinosaur, Dinosaur?
+3466,leaf, me.
+3467,ten, 10.
+3468,card, card.
+3469,sprout, sprout.
+3470,two cups, two cups.
+3471,kangaroo, Kangaroo
+3472,fur, fur
+3473,wheel, wheel.
+3474,clown, Clown.
+3475,skirt, Skull
+3476,snake, Snake.
+3477,fish, fish.
+3478,crocodile, Crocodile.
+3479,australia, Australia.
+3480,banana, VADADA
+3481,straw, Still.
+3482,tomato, Tomorrow.
+3483,three cups, Three cups.
+3484,balloon, below.
+3485,banana, banana
+3486,short, short.
+3487,yes, Yes.
+3488,pie, pie.
+3489,cheese, Tcheeeeee!
+3490,cicada, Sicado.
+3491,xylophone, Xolophone.
+3492,potato, potato.
+3493,bridge, Bridge?
+3494,xylophone, Phylafé.
+3495,story, story.
+3496,vanilla, vanilla.
+3497,ride, Right.
+3498,jam, Gem?
+3499,drink, Drink?
+3500,tooth, Okay.
+3501,cicada, Sikata.
+3502,crab, Crap.
+3503,moustache, Mustache.
+3504,tail, tail.
+3505,clown, clown.
+3506,hill, Heal.
+3507,fish, Peace.
+3508,leaf, Leaf.
+3509,dinosaur, Dinosaur.
+3510,spade, spade
+3511,two eggs, Two eggs.
+3512,six, six
+3513,fur, Sir.
+3514,light, lot.
+3515,voice, voice.
+3516,binoculars, binoculars.
+3517,yes, Yes.
+3518,that, that.
+3519,thumb, some.
+3520,detective, Detective.
+3521,giraffe, off.
+3522,four o clock, four o'clock.
+3523,snake, Snake.
+3524,short, So
+3525,hair, Yeah.
+3526,martian, Martian?
+3527,tooth, tooth.
+3528,sword, sword.
+3529,bird, bird
+3530,yoyo, Yo yo
+3531,dinosaur, Dinosaur.
+3532,cheese, Cheese!
+3533,cart, Cut.
+3534,three, three
+3535,bag, bag.
+3536,coconut, I can't
+3537,three cups, Free cups.
+3538,fish, fish.
+3539,circus, Circus.
+3540,smile, Smile.
+3541,cow, cow
+3542,cloud, loud.
+3543,sprout, Sprat.
+3544,zoo, Ju.
+3545,three eggs, Three eggs.
+3546,spaghetti, Spaghetti
+3547,dinosaur, Thanks!
+3548,pie, Bye.
+3549,three eggs, free egg.
+3550,car, Ka!
+3551,two eggs, Two eggs.
+3552,ball, Bull
+3553,cub, Cup?
+3554,six, six
+3555,attack, attack
+3556,caterpillar, That's been a lot.
+3557,sausage, search engine
+3558,watermelon, watermelon.
+3559,banana, banana.
+3560,bird, But...
+3561,ten, and the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state of the state
+3562,card, Cod!
+3563,gorilla, Gorilla
+3564,food, See you.
+3565,snake, snake.
+3566,two, to.
+3567,rhinoceros, Rhinoceros.
+3568,hair, Hey.
+3569,coconut, Coconut
+3570,hole, health.
+3571,bridge, bridge.
+3572,dessert, Zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+3573,garage, God.
+3574,vegemite, Vegemont.
+3575,crocodile, crocodile.
+3576,owl, Ow.
+3577,clown, clown
+3578,straw, I'm not sure.
+3579,light, light.
+3580,sword, So Lord
+3581,five, Bye.
+3582,carpet, Cop it!
+3583,garage, garage.
+3584,elephant, Elephant.
+3585,one cup, one cup.
+3586,circus, Socus.
+3587,swing, Swing?
+3588,seven, seven
+3589,one," One, two, three."
+3590,cart, cut.
+3591,owl, Ow.
+3592,nine, nine
+3593,coconut, Coconut
+3594,that, da
+3595,two eggs, to eggs.
+3596,cart, part
+3597,two, Okay.
+3598,chair, Che
+3599,straw, Let's do it!
+3600,kangaroo, I can do it!
+3601,spaghetti, spaghetti
+3602,two eggs, to excel.
+3603,skirt, Skutt.
+3604,one, One.
+3605,six, Six.
+3606,pool, Cool!
+3607,crab, Crab.
+3608,yoyo," Yeah, yeah."
+3609,four eggs, four eggs.
+3610,carpet, happy.
+3611,clown, Clown.
+3612,giraffe, D'aw.
+3613,chair, Cheers.
+3614,machine, machine
+3615,bag, back
+3616,giraffe, D'aw.
+3617,butterfly, Butterfly.
+3618,xylophone, Zala phone.
+3619,rhinoceros, Why not a wish?
+3620,pool, cool
+3621,shell, Shell.
+3622,one o clock, One minute.
+3623,thermometer, from Mowatah.
+3624,doll, Done.
+3625,skirt, Good
+3626,bellybutton, Bailey Button.
+3627,leaf, Leaf.
+3628,smile, Smile.
+3629,four o clock, four o'clock.
+3630,three cups, Flute cups.
+3631,nose, No.
+3632,magician, Magician.
+3633,feather, Fever
+3634,grasshopper, Grasshopper.
+3635,that, that.
+3636,skirt, Skit.
+3637,four cups, Four cups.
+3638,bag, bag
+3639,drink, Drink.
+3640,sausage, Shushage.
+3641,sword, Sure.
+3642,cart, Cut.
+3643,tail, tail
+3644,feather, Is that the...
+3645,cart, cut.
+3646,four o clock, 4 o'clock.
+3647,yes, Yes.
+3648,skirt, skit.
+3649,crocodile, Cooked Eye
+3650,binoculars, binoculars.
+3651,mountain, Mountain.
+3652,zoo, See you.
+3653,play, play.
+3654,that, Wow.
+3655,one cup, one cup.
+3656,hippopotamus, He will put it next.
+3657,one, one
+3658,bag, bag.
+3659,yoyo, Yo yo
+3660,tail, tail.
+3661,crab, Yeah.
+3662,smile, Smile.
+3663,hill, He'll
+3664,splash, Splash.
+3665,thumb, Fum.
+3666,clown, clown
+3667,elephant, Elephant.
+3668,ride, Ride.
+3669,wood, would.
+3670,frog, Folk!
+3671,bellybutton, belly button.
+3672,short, Thought.
+3673,vegemite, I wish you might.
+3674,one egg, one egg.
+3675,flowerpot, flower pot.
+3676,spiderweb, Spiderweb.
+3677,three o clock, 3 a clock
+3678,girl, Go.
+3679,cart, Cut.
+3680,spaghetti, spaghetti.
+3681,three o clock, Cree cook.
+3682,potato, potato
+3683,boy, Boy!
+3684,sprout, Sprout.
+3685,pig, Pink!
+3686,breathe, Breathe.
+3687,machine, Machine.
+3688,bag, bag.
+3689,rhinoceros, Why not so it's
+3690,fur, fur?
+3691,owl, Ow.
+3692,smile, smile.
+3693,play, Play?
+3694,rhinoceros, where I know.
+3695,treasure, Treasure.
+3696,watermelon, Watermelon
+3697,four cups, four cups.
+3698,watch, once.
+3699,yes, Yes.
+3700,cucumber, Keep on walking.
+3701,dessert, Is it?
+3702,tomato, tomato.
+3703,cheese, Cheese.
+3704,garage, Kellogg's.
+3705,spaghetti, spaghetti
+3706,four, for
+3707,girl, go.
+3708,bellybutton, belly button.
+3709,balloon, Bye!
+3710,spiderweb, Spilance.
+3711,cub, Cub.
+3712,that, that.
+3713,story, Story?
+3714,yoyo, Yo yo
+3715,ride, Why?
+3716,stethoscope, Stifascope.
+3717,treasure, Treasure.
+3718,thumb, fun.
+3719,circus, Circus
+3720,attack, Attack.
+3721,eight, 8
+3722,one cup, One cup.
+3723,grasshopper, Grasshopper.
+3724,rhinoceros, Buenos dias
+3725,detective, Detective?
+3726,kangaroo, Kangol?
+3727,sausage, sausage
+3728,binoculars, the nucleus.
+3729,boy, Boy!
+3730,xylophone, telephone.
+3731,nine, Bye.
+3732,elephant, Elephant
+3733,spade, It's paid.
+3734,four cups, Four cups.
+3735,cow, Cow.
+3736,boy, Boy.
+3737,two eggs, Two weeks.
+3738,dessert, This is...
+3739,two eggs, two eight
+3740,thumb, fun.
+3741,xylophone, Zala phone.
+3742,bag, But
+3743,garden, Got it?
+3744,giraffe, Draw.
+3745,clown, clown
+3746,chair, chair
+3747,ten, pun
+3748,hole, whole.
+3749,pool, pool.
+3750,zoo, ZOO!
+3751,frog, frog
+3752,three o clock, three o'clock.
+3753,martian, Marcy.
+3754,magician, This is interesting.
+3755,spade, Spade.
+3756,three, Please?
+3757,thumb, some
+3758,garage, garage.
+3759,kangaroo, Kangaroo.
+3760,four eggs, four eggs.
+3761,one, One.
+3762,caterpillar, Caterpillar
+3763,mountain, Mountain.
+3764,three o clock, Three Cook
+3765,cloud, cloud.
+3766,sprout, Sprat.
+3767,watch, Watch.
+3768,breathe, breathe.
+3769,canoe, Can you?
+3770,banana, Na na.
+3771,yoyo, Here you
+3772,pull, pull
+3773,cucumber, cucumber
+3774,kangaroo, Kangler.
+3775,gorilla, Gorilla.
+3776,that, that.
+3777,shell, show.
+3778,voice, voice.
+3779,circus, Circus.
+3780,flowerpot, flower pot.
+3781,sword, sword
+3782,three, Please.
+3783,coconut, Coconut
+3784,splash, Splash.
+3785,rhinoceros, Minusaurus.
+3786,doll, Dole.
+3787,ten, 10.
+3788,flowerpot, Flour put.
+3789,three cups, Free cops.
+3790,play, Play.
+3791,attack, Attack!
+3792,ten, 10.
+3793,grasshopper, Go ahead and open it.
+3794,binoculars, binoculars.
+3795,binoculars, I'm gonna kill you.
+3796,short, short
+3797,yes, Yes.
+3798,cucumber, King Cumber
+3799,three, three
+3800,snake, Snake.
+3801,two cups, two cups.
+3802,feather, Feather?
+3803,jam, Jan.
+3804,play, Play.
+3805,garage, garage.
+3806,balloon, Pull in.
+3807,machine, machine.
+3808,card, God!
+3809,magician, My niche in
+3810,head, Hig.
+3811,moustache, Mustache.
+3812,zoo, Soon!
+3813,no, No.
+3814,beard, be it.
+3815,fur, Sir.
+3816,car, Huh.
+3817,boat, But
+3818,watch, Watch.
+3819,girl, Go.
+3820,yes, Yes.
+3821,bird, But
+3822,feather, further.
+3823,vanilla, Friendly.
+3824,vanilla, Vanilla.
+3825,dinosaur, dinosaur.
+3826,watch, Watch.
+3827,six, Six!
+3828,zoo, zoo.
+3829,bird, Good.
+3830,leaf, relief.
+3831,three eggs, Free Yikes!
+3832,sausage, sausage
+3833,sprout, Blout.
+3834,ear, the next video. Thank you so much for watching. We'll see you in the next video. Thank you.
+3835,feather, Feather?
+3836,tomato, Tomato.
+3837,carpet, carpet
+3838,cow, Cow.
+3839,nose, nose
+3840,shell, So...
+3841,frog, Fog.
+3842,banana, Banana
+3843,one o clock, one o'clock.
+3844,kangaroo, kangaroo
+3845,spaghetti, spaghetti
+3846,giraffe, Draw.
+3847,four o clock, four o'clock.
+3848,one, One.
+3849,machine, machine
+3850,six, 6
+3851,nine, on
+3852,caterpillar, Calipedo.
+3853,tail, KAYO!
+3854,two cups, two cups.
+3855,four cups, Four cups.
+3856,tooth, tooth.
+3857,doll, dull
+3858,giraffe, Giraffe.
+3859,tomato, Tomatoes.
+3860,zoo, Z.
+3861,tooth, tooth
+3862,sword, sword.
+3863,martian, Martian.
+3864,play, play.
+3865,tonight, to not.
+3866,girl, girl.
+3867,jam, Yeah.
+3868,kitchen, kitchen.
+3869,australia, Australia?
+3870,tonight, Tonight!
+3871,dinosaur, dinosaur.
+3872,cheese, Cheese!
+3873,balloon, balloon
+3874,hair, Hey.
+3875,spaghetti, Spaghetti
+3876,spiderweb," It's fine, Webb."
+3877,potato, potato
+3878,hair, Hey.
+3879,straw, Store.
+3880,gorilla, Go Willa!
+3881,one cup, one cup.
+3882,sword, Sood!
+3883,garden, got it.
+3884,yoyo," Yo, yo."
+3885,three cups, Three cups.
+3886,vegemite, They do not.
+3887,cloud, Cloud.
+3888,butterfly, Butterfly.
+3889,leaf, Leaf.
+3890,eight, 8
+3891,kitchen, kitchen.
+3892,clown, clown
+3893,no, No.
+3894,four, for
+3895,mouth, mouth.
+3896,fish, Thank you.
+3897,two eggs, two eggs.
+3898,boy, boy.
+3899,tonight, tonight.
+3900,eight, 8
+3901,two cups, Two cups.
+3902,thumb, Some.
+3903,martian, Martian.
+3904,tail, Tayu
+3905,key, Okay.
+3906,hair, Huh.
+3907,straw, Stroll
+3908,fish, Fish.
+3909,key, key.
+3910,play, play
+3911,watch, Watch.
+3912,stethoscope, Stifoscope.
+3913,magician, I'm just...
+3914,rhinoceros, Why not so much?
+3915,cucumber, KewKamBah!
+3916,crocodile, crocodile
+3917,boat, boat.
+3918,owl, Ow!
+3919,story, story.
+3920,watermelon, What's wrong?
+3921,spade, Bye.
+3922,kangaroo, Kangaroo
+3923,voice, voice.
+3924,five, five
+3925,cicada, It's a car.
+3926,caterpillar, Kayla Pila.
+3927,pull, pool.
+3928,five, Bye.
+3929,pig, P.
+3930,thermometer, What the?
+3931,sprout, Sprout.
+3932,caterpillar, Catapult?
+3933,swing, Swing!
+3934,vegemite, Veggie Mara
+3935,tonight, to not.
+3936,detective, Detective.
+3937,leaf, leaf.
+3938,dinosaur, dinosaur
+3939,stethoscope, Stethoscope
+3940,fish, Peace.
+3941,tail, Tau.
+3942,one o clock, One o'clock.
+3943,ear, Yeah.
+3944,garden, God.
+3945,grasshopper, Grasshopper.
+3946,four o clock, Four o'clock.
+3947,smile, Smile.
+3948,two cups, Two cups.
+3949,crab, Crab.
+3950,xylophone, Sky's horn.
+3951,splash, Splash.
+3952,grasshopper, Quasi Pa
+3953,crab, Crab.
+3954,bird, bird.
+3955,food, Food.
+3956,beard, speed.
+3957,clown, clown
+3958,five, Bye.
+3959,circus, Showcase.
+3960,bridge, bridge.
+3961,voice, oi
+3962,short, Should
+3963,sprout, Splout.
+3964,one egg, one egg
+3965,hole, home.
+3966,garden, Tired.
+3967,mouth, No.
