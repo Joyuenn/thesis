@@ -1,0 +1,19 @@
+hulk was riding backwards on a skateboard and he hits an egg
+	p( hulk | <s> ) 	= [1gram] 2.173252e-07 [ -6.66289 ]
+	p( was | hulk ...) 	= [2gram] 0.01802229 [ -1.74419 ]
+	p( riding | was ...) 	= [2gram] 0.0001196961 [ -3.92192 ]
+	p( backwards | riding ...) 	= [1gram] 7.527212e-06 [ -5.123366 ]
+	p( on | backwards ...) 	= [2gram] 0.00979242 [ -2.00911 ]
+	p( a | on ...) 	= [2gram] 0.06985863 [ -1.15578 ]
+	p( skateboard | a ...) 	= [3gram] 0.0001502207 [ -3.82327 ]
+	p( and | skateboard ...) 	= [2gram] 0.1201238 [ -0.920371 ]
+	p( he | and ...) 	= [2gram] 0.007061776 [ -2.151086 ]
+	p( hits | he ...) 	= [3gram] 0.0004493866 [ -3.34738 ]
+	p( an | hits ...) 	= [2gram] 0.002309283 [ -2.636523 ]
+	p( egg | an ...) 	= [2gram] 0.001020612 [ -2.991139 ]
+	p( </s> | egg ...) 	= [3gram] 0.147095 [ -0.832402 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -37.31943 ppl= 742.549 ppl1= 1288.108
+
+file /srv/scratch/z5313567/thesis/JupyterLab/Language_model/AusKidTalk_spontaneous_transcription.txt: 1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -37.31943 ppl= 742.549 ppl1= 1288.108

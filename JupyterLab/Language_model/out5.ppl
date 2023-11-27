@@ -1,0 +1,1397 @@
+hulk was riding backwards on a skateboard and he hits an egg
+	p( hulk | <s> ) 	= [1gram] 2.173252e-07 [ -6.66289 ]
+	p( was | hulk ...) 	= [2gram] 0.01802229 [ -1.74419 ]
+	p( riding | was ...) 	= [2gram] 0.0001196961 [ -3.92192 ]
+	p( backwards | riding ...) 	= [1gram] 7.527212e-06 [ -5.123366 ]
+	p( on | backwards ...) 	= [2gram] 0.00979242 [ -2.00911 ]
+	p( a | on ...) 	= [2gram] 0.06985863 [ -1.15578 ]
+	p( skateboard | a ...) 	= [3gram] 0.0001502207 [ -3.82327 ]
+	p( and | skateboard ...) 	= [2gram] 0.1201238 [ -0.920371 ]
+	p( he | and ...) 	= [2gram] 0.007061776 [ -2.151086 ]
+	p( hits | he ...) 	= [3gram] 0.0004493866 [ -3.34738 ]
+	p( an | hits ...) 	= [2gram] 0.002309283 [ -2.636523 ]
+	p( egg | an ...) 	= [2gram] 0.001020612 [ -2.991139 ]
+	p( </s> | egg ...) 	= [3gram] 0.147095 [ -0.832402 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -37.31943 ppl= 742.549 ppl1= 1288.108
+
+he's curious to see what's inside the egg and listens to the egg
+	p( he's | <s> ) 	= [2gram] 6.427027e-05 [ -4.19199 ]
+	p( curious | he's ...) 	= [2gram] 4.765743e-05 [ -4.321869 ]
+	p( to | curious ...) 	= [2gram] 0.04932079 [ -1.30697 ]
+	p( see | to ...) 	= [3gram] 0.3624591 [ -0.440741 ]
+	p( what's | see ...) 	= [3gram] 0.003328642 [ -2.477733 ]
+	p( inside | what's ...) 	= [3gram] 0.01530559 [ -1.81515 ]
+	p( the | inside ...) 	= [3gram] 0.2260799 [ -0.645738 ]
+	p( egg | the ...) 	= [3gram] 0.0009093477 [ -3.04127 ]
+	p( and | egg ...) 	= [3gram] 0.1169222 [ -0.932103 ]
+	p( listens | and ...) 	= [2gram] 1.448477e-05 [ -4.839088 ]
+	p( to | listens ...) 	= [3gram] 0.6835134 [ -0.165253 ]
+	p( the | to ...) 	= [3gram] 0.1844073 [ -0.734222 ]
+	p( egg | the ...) 	= [2gram] 6.051821e-05 [ -4.218114 ]
+	p( </s> | egg ...) 	= [3gram] 0.1223466 [ -0.912408 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -30.04265 ppl= 139.9276 ppl1= 204.6318
+
+the egg starts cracking near the top and hulk is scared by this
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( egg | the ...) 	= [3gram] 0.000111815 [ -3.9515 ]
+	p( starts | egg ...) 	= [1gram] 3.360673e-05 [ -4.473574 ]
+	p( cracking | starts ...) 	= [1gram] 3.177326e-06 [ -5.497938 ]
+	p( near | cracking ...) 	= [1gram] 0.0001185179 [ -3.926216 ]
+	p( the | near ...) 	= [2gram] 0.2932372 [ -0.532781 ]
+	p( top | the ...) 	= [3gram] 0.04777932 [ -1.32076 ]
+	p( and | top ...) 	= [3gram] 0.02337201 [ -1.631304 ]
+	p( hulk | and ...) 	= [1gram] 2.560595e-07 [ -6.591659 ]
+	p( is | hulk ...) 	= [2gram] 0.03620762 [ -1.4412 ]
+	p( scared | is ...) 	= [2gram] 4.572145e-05 [ -4.33988 ]
+	p( by | scared ...) 	= [2gram] 0.009871065 [ -2.005636 ]
+	p( this | by ...) 	= [2gram] 0.005398808 [ -2.267702 ]
+	p( </s> | this ...) 	= [3gram] 0.06170211 [ -1.2097 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -40.25934 ppl= 751.047 ppl1= 1249.891
+
+a dinosaur jumps out and hulk is scared
+	p( a | <s> ) 	= [2gram] 0.01575578 [ -1.80256 ]
+	p( dinosaur | a ...) 	= [2gram] 7.248229e-05 [ -4.139768 ]
+	p( jumps | dinosaur ...) 	= [1gram] 1.103433e-05 [ -4.957254 ]
+	p( out | jumps ...) 	= [2gram] 0.05513661 [ -1.25856 ]
+	p( and | out ...) 	= [3gram] 0.06418004 [ -1.1926 ]
+	p( hulk | and ...) 	= [1gram] 2.044333e-07 [ -6.689448 ]
+	p( is | hulk ...) 	= [2gram] 0.03620762 [ -1.4412 ]
+	p( scared | is ...) 	= [2gram] 4.572145e-05 [ -4.33988 ]
+	p( </s> | scared ...) 	= [2gram] 0.07245645 [ -1.139923 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -26.96119 ppl= 990.1207 ppl1= 2345.034
+
+the dinosaur tries to play with hulk but hulk is very scared
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( tries | dinosaur ...) 	= [1gram] 2.818549e-05 [ -4.549974 ]
+	p( to | tries ...) 	= [2gram] 0.7105375 [ -0.148413 ]
+	p( play | to ...) 	= [3gram] 0.005593066 [ -2.25235 ]
+	p( with | play ...) 	= [3gram] 0.07672732 [ -1.11505 ]
+	p( hulk | with ...) 	= [1gram] 2.439246e-07 [ -6.612744 ]
+	p( but | hulk ...) 	= [2gram] 0.02969477 [ -1.52732 ]
+	p( hulk | but ...) 	= [1gram] 4.32904e-07 [ -6.363608 ]
+	p( is | hulk ...) 	= [2gram] 0.03620762 [ -1.4412 ]
+	p( very | is ...) 	= [2gram] 0.009762254 [ -2.01045 ]
+	p( scared | very ...) 	= [2gram] 0.000152426 [ -3.816941 ]
+	p( </s> | scared ...) 	= [3gram] 0.2086066 [ -0.680672 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -35.84503 ppl= 571.887 ppl1= 970.7024
+
+hulk tries to hide from the dinosaur and is still very scared
+	p( hulk | <s> ) 	= [1gram] 2.173252e-07 [ -6.66289 ]
+	p( tries | hulk ...) 	= [1gram] 4.563629e-05 [ -4.34069 ]
+	p( to | tries ...) 	= [2gram] 0.7105375 [ -0.148413 ]
+	p( hide | to ...) 	= [3gram] 0.004428739 [ -2.35372 ]
+	p( from | hide ...) 	= [3gram] 0.05053706 [ -1.29639 ]
+	p( the | from ...) 	= [3gram] 0.2828036 [ -0.548515 ]
+	p( dinosaur | the ...) 	= [2gram] 2.265699e-05 [ -4.644798 ]
+	p( and | dinosaur ...) 	= [2gram] 0.02005244 [ -1.697833 ]
+	p( is | and ...) 	= [2gram] 0.003996199 [ -2.398353 ]
+	p( still | is ...) 	= [3gram] 0.01529854 [ -1.81535 ]
+	p( very | still ...) 	= [3gram] 0.0248276 [ -1.605065 ]
+	p( scared | very ...) 	= [2gram] 0.0001721051 [ -3.764206 ]
+	p( </s> | scared ...) 	= [3gram] 0.2086066 [ -0.680672 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -31.95689 ppl= 287.2253 ppl1= 460.3356
+
+the dinosaur is looking around for hulk and he can't find hulk
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( is | dinosaur ...) 	= [3gram] 0.02499252 [ -1.60219 ]
+	p( looking | is ...) 	= [2gram] 0.001113666 [ -2.953245 ]
+	p( around | looking ...) 	= [2gram] 0.004129894 [ -2.384061 ]
+	p( for | around ...) 	= [3gram] 0.08720873 [ -1.05944 ]
+	p( hulk | for ...) 	= [1gram] 2.154038e-07 [ -6.666747 ]
+	p( and | hulk ...) 	= [2gram] 0.07676442 [ -1.11484 ]
+	p( he | and ...) 	= [2gram] 0.007627285 [ -2.11763 ]
+	p( can't | he ...) 	= [3gram] 0.002585771 [ -2.58741 ]
+	p( find | can't ...) 	= [3gram] 0.01276733 [ -1.8939 ]
+	p( hulk | find ...) 	= [1gram] 4.162537e-07 [ -6.380642 ]
+	p( </s> | hulk ...) 	= [2gram] 0.1007099 [ -0.996928 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -35.08334 ppl= 499.7107 ppl1= 838.7102
+
+the dinosaur is sad
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( is | dinosaur ...) 	= [3gram] 0.02499252 [ -1.60219 ]
+	p( sad | is ...) 	= [2gram] 8.776777e-05 [ -4.056665 ]
+	p( </s> | sad ...) 	= [3gram] 0.2285378 [ -0.641042 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -11.62621 ppl= 211.4664 ppl1= 806.4023
+
+hulk looks at the dinosaur and feels bad about this
+	p( hulk | <s> ) 	= [1gram] 2.173252e-07 [ -6.66289 ]
+	p( looks | hulk ...) 	= [1gram] 0.0001867798 [ -3.72867 ]
+	p( at | looks ...) 	= [2gram] 0.06910986 [ -1.16046 ]
+	p( the | at ...) 	= [3gram] 0.3289448 [ -0.482877 ]
+	p( dinosaur | the ...) 	= [3gram] 4.018368e-05 [ -4.39595 ]
+	p( and | dinosaur ...) 	= [2gram] 0.01392035 [ -1.85635 ]
+	p( feels | and ...) 	= [2gram] 9.521762e-05 [ -4.021283 ]
+	p( bad | feels ...) 	= [2gram] 0.002927319 [ -2.53353 ]
+	p( about | bad ...) 	= [3gram] 0.1344494 [ -0.871441 ]
+	p( this | about ...) 	= [3gram] 0.02710441 [ -1.56696 ]
+	p( </s> | this ...) 	= [3gram] 0.1009483 [ -0.995901 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -28.27631 ppl= 372.0264 ppl1= 672.4054
+
+hulk feeds the dinosaur the milk
+	p( hulk | <s> ) 	= [1gram] 2.173252e-07 [ -6.66289 ]
+	p( feeds | hulk ...) 	= [1gram] 1.996872e-05 [ -4.69965 ]
+	p( the | feeds ...) 	= [2gram] 0.1074415 [ -0.968828 ]
+	p( dinosaur | the ...) 	= [2gram] 4.834451e-05 [ -4.315653 ]
+	p( the | dinosaur ...) 	= [2gram] 0.008480221 [ -2.071593 ]
+	p( milk | the ...) 	= [2gram] 0.0001262189 [ -3.898875 ]
+	p( </s> | milk ...) 	= [3gram] 0.1286462 [ -0.890603 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -23.50809 ppl= 2281.912 ppl1= 8279.714
+
+laughing while the dinosuar is drinking the milk
+	p( laughing | <s> ) 	= [2gram] 1.099386e-05 [ -4.95885 ]
+	p( while | laughing ...) 	= [2gram] 0.002242145 [ -2.649336 ]
+	p( the | while ...) 	= [2gram] 0.1130741 [ -0.946637 ]
+	p( <unk> | the ...) 	= [3gram] 0.01323397 [ -1.87831 ]
+	p( is | <unk> ...) 	= [2gram] 0.01725401 [ -1.76311 ]
+	p( drinking | is ...) 	= [2gram] 2.667363e-05 [ -4.573918 ]
+	p( the | drinking ...) 	= [2gram] 0.01977258 [ -1.703937 ]
+	p( milk | the ...) 	= [3gram] 0.01094334 [ -1.96085 ]
+	p( </s> | milk ...) 	= [3gram] 0.1286462 [ -0.890603 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -21.32555 ppl= 234.1562 ppl1= 463.1203
+
+the green skined baby is riding a skateboard holding a bottle of milk
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( <unk> | green ...) 	= [3gram] 0.009538939 [ -2.0205 ]
+	p( baby | <unk> ...) 	= [2gram] 0.0001382834 [ -3.85923 ]
+	p( is | baby ...) 	= [2gram] 0.01990307 [ -1.70108 ]
+	p( riding | is ...) 	= [2gram] 2.687025e-05 [ -4.570728 ]
+	p( a | riding ...) 	= [2gram] 0.04754391 [ -1.322905 ]
+	p( skateboard | a ...) 	= [2gram] 1.706933e-05 [ -4.767784 ]
+	p( holding | skateboard ...) 	= [1gram] 7.756216e-05 [ -4.11035 ]
+	p( a | holding ...) 	= [2gram] 0.1084606 [ -0.964728 ]
+	p( bottle | a ...) 	= [3gram] 0.002735332 [ -2.56299 ]
+	p( of | bottle ...) 	= [3gram] 0.5539556 [ -0.256525 ]
+	p( milk | of ...) 	= [3gram] 0.005416951 [ -2.266245 ]
+	p( </s> | milk ...) 	= [3gram] 0.2048444 [ -0.688576 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -33.43615 ppl= 244.5099 ppl1= 373.2601
+
+the green skined baby is bouncing off the dinosaur egg holding the bottle of milk
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( <unk> | green ...) 	= [3gram] 0.009538939 [ -2.0205 ]
+	p( baby | <unk> ...) 	= [2gram] 0.0001382834 [ -3.85923 ]
+	p( is | baby ...) 	= [2gram] 0.01990307 [ -1.70108 ]
+	p( bouncing | is ...) 	= [2gram] 1.192867e-05 [ -4.923408 ]
+	p( off | bouncing ...) 	= [2gram] 0.09281753 [ -1.03237 ]
+	p( the | off ...) 	= [3gram] 0.4625312 [ -0.334859 ]
+	p( dinosaur | the ...) 	= [2gram] 2.094088e-05 [ -4.679005 ]
+	p( egg | dinosaur ...) 	= [2gram] 0.001862891 [ -2.729813 ]
+	p( holding | egg ...) 	= [1gram] 3.141283e-05 [ -4.502893 ]
+	p( the | holding ...) 	= [2gram] 0.1154498 [ -0.937607 ]
+	p( bottle | the ...) 	= [3gram] 0.002705079 [ -2.56782 ]
+	p( of | bottle ...) 	= [2gram] 0.09542673 [ -1.02033 ]
+	p( milk | of ...) 	= [3gram] 0.006102532 [ -2.21449 ]
+	p( </s> | milk ...) 	= [3gram] 0.2048444 [ -0.688576 ]
+1 sentences, 15 words, 0 OOVs
+0 zeroprobs, logprob= -37.55649 ppl= 222.4747 ppl1= 318.9819
+
+the green baby is holding the bottle of milk while listening inside the dinosaur egg
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( is | baby ...) 	= [2gram] 0.01723486 [ -1.763592 ]
+	p( holding | is ...) 	= [2gram] 0.0002052637 [ -3.687688 ]
+	p( the | holding ...) 	= [3gram] 0.1234704 [ -0.908437 ]
+	p( bottle | the ...) 	= [3gram] 0.002589366 [ -2.586807 ]
+	p( of | bottle ...) 	= [2gram] 0.09542673 [ -1.02033 ]
+	p( milk | of ...) 	= [3gram] 0.006102532 [ -2.21449 ]
+	p( while | milk ...) 	= [1gram] 0.0001897467 [ -3.721826 ]
+	p( listening | while ...) 	= [2gram] 0.002167954 [ -2.66395 ]
+	p( inside | listening ...) 	= [2gram] 0.0001147443 [ -3.940269 ]
+	p( the | inside ...) 	= [2gram] 0.242345 [ -0.615566 ]
+	p( dinosaur | the ...) 	= [2gram] 3.184123e-05 [ -4.49701 ]
+	p( egg | dinosaur ...) 	= [2gram] 0.001862891 [ -2.729813 ]
+	p( </s> | egg ...) 	= [3gram] 0.3260213 [ -0.486754 ]
+1 sentences, 15 words, 0 OOVs
+0 zeroprobs, logprob= -38.93141 ppl= 271.1523 ppl1= 393.9377
+
+the green baby is holding the bottle of milk while the dinosaur egg is hatching
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( is | baby ...) 	= [2gram] 0.01723486 [ -1.763592 ]
+	p( holding | is ...) 	= [2gram] 0.0002052637 [ -3.687688 ]
+	p( the | holding ...) 	= [3gram] 0.1234704 [ -0.908437 ]
+	p( bottle | the ...) 	= [3gram] 0.002589366 [ -2.586807 ]
+	p( of | bottle ...) 	= [2gram] 0.09542673 [ -1.02033 ]
+	p( milk | of ...) 	= [3gram] 0.006102532 [ -2.21449 ]
+	p( while | milk ...) 	= [1gram] 0.0001897467 [ -3.721826 ]
+	p( the | while ...) 	= [2gram] 0.1130741 [ -0.946637 ]
+	p( dinosaur | the ...) 	= [2gram] 3.860166e-05 [ -4.413394 ]
+	p( egg | dinosaur ...) 	= [2gram] 0.001862891 [ -2.729813 ]
+	p( is | egg ...) 	= [2gram] 0.01252702 [ -1.902152 ]
+	p( hatching | is ...) 	= [2gram] 1.313082e-06 [ -5.881708 ]
+	p( </s> | hatching ...) 	= [2gram] 0.1156112 [ -0.937 ]
+1 sentences, 15 words, 0 OOVs
+0 zeroprobs, logprob= -40.80876 ppl= 355.2607 ppl1= 525.5133
+
+the green baby is holding the bottle of milk while the dinosaur is poking his head out of the egg
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( is | baby ...) 	= [2gram] 0.01723486 [ -1.763592 ]
+	p( holding | is ...) 	= [2gram] 0.0002052637 [ -3.687688 ]
+	p( the | holding ...) 	= [3gram] 0.1234704 [ -0.908437 ]
+	p( bottle | the ...) 	= [3gram] 0.002589366 [ -2.586807 ]
+	p( of | bottle ...) 	= [2gram] 0.09542673 [ -1.02033 ]
+	p( milk | of ...) 	= [3gram] 0.006102532 [ -2.21449 ]
+	p( while | milk ...) 	= [1gram] 0.0001897467 [ -3.721826 ]
+	p( the | while ...) 	= [2gram] 0.1130741 [ -0.946637 ]
+	p( dinosaur | the ...) 	= [2gram] 3.860166e-05 [ -4.413394 ]
+	p( is | dinosaur ...) 	= [3gram] 0.02499252 [ -1.60219 ]
+	p( poking | is ...) 	= [2gram] 1.027768e-05 [ -4.988105 ]
+	p( his | poking ...) 	= [2gram] 0.01342765 [ -1.872 ]
+	p( head | his ...) 	= [3gram] 0.4610033 [ -0.336296 ]
+	p( out | head ...) 	= [4gram] 0.2593391 [ -0.586132 ]
+	p( of | out ...) 	= [4gram] 0.3556485 [ -0.448979 ]
+	p( the | of ...) 	= [4gram] 0.4757239 [ -0.322645 ]
+	p( egg | the ...) 	= [3gram] 9.337407e-05 [ -4.029774 ]
+	p( </s> | egg ...) 	= [4gram] 0.1934029 [ -0.713537 ]
+1 sentences, 20 words, 0 OOVs
+0 zeroprobs, logprob= -44.25774 ppl= 128.0889 ppl1= 163.2627
+
+the green baby is holding the bottle of milk while the green dinosaur has jumped out of the egg
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( is | baby ...) 	= [2gram] 0.01723486 [ -1.763592 ]
+	p( holding | is ...) 	= [2gram] 0.0002052637 [ -3.687688 ]
+	p( the | holding ...) 	= [3gram] 0.1234704 [ -0.908437 ]
+	p( bottle | the ...) 	= [3gram] 0.002589366 [ -2.586807 ]
+	p( of | bottle ...) 	= [2gram] 0.09542673 [ -1.02033 ]
+	p( milk | of ...) 	= [3gram] 0.006102532 [ -2.21449 ]
+	p( while | milk ...) 	= [1gram] 0.0001897467 [ -3.721826 ]
+	p( the | while ...) 	= [2gram] 0.1130741 [ -0.946637 ]
+	p( green | the ...) 	= [3gram] 0.0007809083 [ -3.1074 ]
+	p( dinosaur | green ...) 	= [2gram] 9.295182e-05 [ -4.031742 ]
+	p( has | dinosaur ...) 	= [2gram] 0.004316482 [ -2.36487 ]
+	p( jumped | has ...) 	= [2gram] 0.0001875383 [ -3.72691 ]
+	p( out | jumped ...) 	= [2gram] 0.07641927 [ -1.116797 ]
+	p( of | out ...) 	= [3gram] 0.480348 [ -0.318444 ]
+	p( the | of ...) 	= [4gram] 0.3711351 [ -0.430468 ]
+	p( egg | the ...) 	= [3gram] 9.337407e-05 [ -4.029774 ]
+	p( </s> | egg ...) 	= [4gram] 0.1934029 [ -0.713537 ]
+1 sentences, 19 words, 0 OOVs
+0 zeroprobs, logprob= -44.78463 ppl= 173.4729 ppl1= 227.5547
+
+the green baby is holding the bottle of milk and hiding behind the tree from the dinosaur
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( is | baby ...) 	= [2gram] 0.01723486 [ -1.763592 ]
+	p( holding | is ...) 	= [2gram] 0.0002052637 [ -3.687688 ]
+	p( the | holding ...) 	= [3gram] 0.1234704 [ -0.908437 ]
+	p( bottle | the ...) 	= [3gram] 0.002589366 [ -2.586807 ]
+	p( of | bottle ...) 	= [2gram] 0.09542673 [ -1.02033 ]
+	p( milk | of ...) 	= [3gram] 0.006102532 [ -2.21449 ]
+	p( and | milk ...) 	= [3gram] 0.1270542 [ -0.896011 ]
+	p( hiding | and ...) 	= [2gram] 2.193248e-05 [ -4.658912 ]
+	p( behind | hiding ...) 	= [2gram] 0.07914868 [ -1.101556 ]
+	p( the | behind ...) 	= [3gram] 0.2626352 [ -0.580647 ]
+	p( tree | the ...) 	= [3gram] 0.00130873 [ -2.88315 ]
+	p( from | tree ...) 	= [3gram] 0.005960326 [ -2.22473 ]
+	p( the | from ...) 	= [3gram] 0.2304661 [ -0.637393 ]
+	p( dinosaur | the ...) 	= [2gram] 2.503308e-05 [ -4.601486 ]
+	p( </s> | dinosaur ...) 	= [2gram] 0.06546018 [ -1.184023 ]
+1 sentences, 17 words, 0 OOVs
+0 zeroprobs, logprob= -39.04413 ppl= 147.6109 ppl1= 198.0221
+
+the green dinosaur is looking for the green baby
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( dinosaur | green ...) 	= [2gram] 9.295182e-05 [ -4.031742 ]
+	p( is | dinosaur ...) 	= [2gram] 0.01165333 [ -1.93355 ]
+	p( looking | is ...) 	= [2gram] 0.001113666 [ -2.953245 ]
+	p( for | looking ...) 	= [3gram] 0.2952752 [ -0.529773 ]
+	p( the | for ...) 	= [3gram] 0.08374449 [ -1.077044 ]
+	p( green | the ...) 	= [3gram] 0.0003771687 [ -3.423464 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( </s> | baby ...) 	= [2gram] 0.07472356 [ -1.126542 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -23.17024 ppl= 207.5029 ppl1= 375.3802
+
+the green dinosaur is on the ground being sad
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( dinosaur | green ...) 	= [2gram] 9.295182e-05 [ -4.031742 ]
+	p( is | dinosaur ...) 	= [2gram] 0.01165333 [ -1.93355 ]
+	p( on | is ...) 	= [2gram] 0.004644136 [ -2.333095 ]
+	p( the | on ...) 	= [3gram] 0.4236098 [ -0.373034 ]
+	p( ground | the ...) 	= [4gram] 0.01669937 [ -1.7773 ]
+	p( being | ground ...) 	= [3gram] 0.0006615277 [ -3.179452 ]
+	p( sad | being ...) 	= [2gram] 0.0002211821 [ -3.65525 ]
+	p( </s> | sad ...) 	= [3gram] 0.1943896 [ -0.711327 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -22.33926 ppl= 171.3665 ppl1= 303.4869
+
+the green baby has second thoughts about playing with the dinosaur
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( has | baby ...) 	= [2gram] 0.004485259 [ -2.348212 ]
+	p( second | has ...) 	= [2gram] 2.986867e-05 [ -4.524784 ]
+	p( thoughts | second ...) 	= [3gram] 0.2221989 [ -0.653258 ]
+	p( about | thoughts ...) 	= [3gram] 0.2690339 [ -0.570193 ]
+	p( playing | about ...) 	= [2gram] 0.0004096916 [ -3.387543 ]
+	p( with | playing ...) 	= [3gram] 0.0843626 [ -1.07385 ]
+	p( the | with ...) 	= [3gram] 0.1660512 [ -0.779758 ]
+	p( dinosaur | the ...) 	= [2gram] 2.767768e-05 [ -4.55787 ]
+	p( </s> | dinosaur ...) 	= [2gram] 0.06546018 [ -1.184023 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -27.17437 ppl= 183.8786 ppl1= 295.3912
+
+the green baby goes over to the green dinosaur and comforts him
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( goes | baby ...) 	= [2gram] 0.0004072936 [ -3.390092 ]
+	p( over | goes ...) 	= [2gram] 0.004480197 [ -2.348703 ]
+	p( to | over ...) 	= [3gram] 0.06086254 [ -1.21565 ]
+	p( the | to ...) 	= [3gram] 0.2683682 [ -0.571269 ]
+	p( green | the ...) 	= [3gram] 0.0004242209 [ -3.372408 ]
+	p( dinosaur | green ...) 	= [2gram] 8.609416e-05 [ -4.065026 ]
+	p( and | dinosaur ...) 	= [2gram] 0.02391773 [ -1.62128 ]
+	p( comforts | and ...) 	= [2gram] 2.968021e-06 [ -5.527533 ]
+	p( him | comforts ...) 	= [1gram] 0.0001113221 [ -3.953419 ]
+	p( </s> | him ...) 	= [2gram] 0.1253271 [ -0.901955 ]
+1 sentences, 12 words, 0 OOVs
+0 zeroprobs, logprob= -35.06222 ppl= 497.8444 ppl1= 835.3172
+
+the green baby stuffs his bottle of milk into the green dinosaur's mouth
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( stuffs | baby ...) 	= [1gram] 5.772798e-07 [ -6.238614 ]
+	p( his | stuffs ...) 	= [2gram] 0.03646028 [ -1.43818 ]
+	p( bottle | his ...) 	= [2gram] 7.754759e-05 [ -4.110432 ]
+	p( of | bottle ...) 	= [3gram] 0.336266 [ -0.473317 ]
+	p( milk | of ...) 	= [3gram] 0.006102532 [ -2.21449 ]
+	p( into | milk ...) 	= [2gram] 0.004600882 [ -2.337159 ]
+	p( the | into ...) 	= [2gram] 0.1850984 [ -0.7325973 ]
+	p( green | the ...) 	= [3gram] 0.000591807 [ -3.22782 ]
+	p( <unk> | green ...) 	= [3gram] 0.009103777 [ -2.040778 ]
+	p( mouth | <unk> ...) 	= [2gram] 0.000193843 [ -3.71255 ]
+	p( </s> | mouth ...) 	= [3gram] 0.3026133 [ -0.519112 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -35.13993 ppl= 323.59 ppl1= 504.7445
+
+the green baby is laughing while the green dinosaur has a bottle of milk in his mouth
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( green | the ...) 	= [3gram] 0.0005308601 [ -3.27502 ]
+	p( baby | green ...) 	= [2gram] 0.0001776756 [ -3.750372 ]
+	p( is | baby ...) 	= [2gram] 0.01723486 [ -1.763592 ]
+	p( laughing | is ...) 	= [2gram] 3.629289e-05 [ -4.440178 ]
+	p( while | laughing ...) 	= [2gram] 0.001899262 [ -2.721415 ]
+	p( the | while ...) 	= [2gram] 0.1130741 [ -0.946637 ]
+	p( green | the ...) 	= [3gram] 0.0007809083 [ -3.1074 ]
+	p( dinosaur | green ...) 	= [2gram] 9.295182e-05 [ -4.031742 ]
+	p( has | dinosaur ...) 	= [2gram] 0.004316482 [ -2.36487 ]
+	p( a | has ...) 	= [2gram] 0.06589765 [ -1.18113 ]
+	p( bottle | a ...) 	= [2gram] 0.0001965188 [ -3.706596 ]
+	p( of | bottle ...) 	= [3gram] 0.5539556 [ -0.256525 ]
+	p( milk | of ...) 	= [3gram] 0.005416951 [ -2.266245 ]
+	p( in | milk ...) 	= [3gram] 0.03171393 [ -1.49875 ]
+	p( his | in ...) 	= [2gram] 0.007292075 [ -2.137149 ]
+	p( mouth | his ...) 	= [3gram] 0.005313736 [ -2.2746 ]
+	p( </s> | mouth ...) 	= [4gram] 0.3469549 [ -0.459727 ]
+1 sentences, 17 words, 0 OOVs
+0 zeroprobs, logprob= -41.25144 ppl= 195.7702 ppl1= 267.027
+
+he's skateboarding
+	p( he's | <s> ) 	= [2gram] 6.427027e-05 [ -4.19199 ]
+	p( skateboarding | he's ...) 	= [1gram] 5.939349e-07 [ -6.226261 ]
+	p( </s> | skateboarding ...) 	= [2gram] 0.136519 [ -0.864807 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -11.28306 ppl= 5767.922 ppl1= 438055.4
+
+and then he finds an egg
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( he | then ...) 	= [4gram] 0.03687737 [ -1.43324 ]
+	p( finds | he ...) 	= [3gram] 0.001285325 [ -2.890987 ]
+	p( an | finds ...) 	= [2gram] 0.006006008 [ -2.221414 ]
+	p( egg | an ...) 	= [2gram] 0.001290848 [ -2.889125 ]
+	p( </s> | egg ...) 	= [3gram] 0.147095 [ -0.832402 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -13.11506 ppl= 74.74458 ppl1= 153.4062
+
+he bumps into the egg and feels sad
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( bumps | he ...) 	= [2gram] 4.898509e-06 [ -5.309936 ]
+	p( into | bumps ...) 	= [3gram] 0.3974258 [ -0.400744 ]
+	p( the | into ...) 	= [2gram] 0.1968855 [ -0.7057862 ]
+	p( egg | the ...) 	= [3gram] 0.0003636553 [ -3.43931 ]
+	p( and | egg ...) 	= [3gram] 0.1169222 [ -0.932103 ]
+	p( feels | and ...) 	= [2gram] 7.179132e-05 [ -4.143928 ]
+	p( sad | feels ...) 	= [2gram] 0.000617675 [ -3.20924 ]
+	p( </s> | sad ...) 	= [2gram] 0.09576791 [ -1.01878 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -20.76921 ppl= 203.0905 ppl1= 394.5944
+
+he hears what's inside the egg
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( hears | he ...) 	= [3gram] 0.0001446771 [ -3.8396 ]
+	p( what's | hears ...) 	= [1gram] 5.983478e-05 [ -4.223046 ]
+	p( inside | what's ...) 	= [2gram] 0.006971081 [ -2.1567 ]
+	p( the | inside ...) 	= [3gram] 0.2260799 [ -0.645738 ]
+	p( egg | the ...) 	= [3gram] 0.0009093477 [ -3.04127 ]
+	p( </s> | egg ...) 	= [3gram] 0.1223466 [ -0.912408 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -16.42814 ppl= 222.2683 ppl1= 547.0458
+
+the egg was cracking
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( egg | the ...) 	= [3gram] 0.000111815 [ -3.9515 ]
+	p( was | egg ...) 	= [3gram] 0.01177693 [ -1.928968 ]
+	p( cracking | was ...) 	= [2gram] 2.949889e-05 [ -4.530194 ]
+	p( </s> | cracking ...) 	= [2gram] 0.08695209 [ -1.06072 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -12.54087 ppl= 322.2363 ppl1= 1365.268
+
+he was surprised because the dinosaur came out
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( was | he ...) 	= [3gram] 0.104317 [ -0.981645 ]
+	p( surprised | was ...) 	= [3gram] 0.0007129825 [ -3.146921 ]
+	p( because | surprised ...) 	= [3gram] 0.02001957 [ -1.698545 ]
+	p( the | because ...) 	= [2gram] 0.06382312 [ -1.195022 ]
+	p( dinosaur | the ...) 	= [2gram] 3.727321e-05 [ -4.428603 ]
+	p( came | dinosaur ...) 	= [1gram] 0.0002291687 [ -3.639845 ]
+	p( out | came ...) 	= [2gram] 0.07957561 [ -1.09922 ]
+	p( </s> | out ...) 	= [3gram] 0.07174804 [ -1.14419 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -18.94337 ppl= 127.2973 ppl1= 233.3036
+
+he was sad that there was a dinosaur
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( was | he ...) 	= [3gram] 0.104317 [ -0.981645 ]
+	p( sad | was ...) 	= [3gram] 0.0001355186 [ -3.868001 ]
+	p( that | sad ...) 	= [3gram] 0.06875431 [ -1.1627 ]
+	p( there | that ...) 	= [3gram] 0.01672207 [ -1.77671 ]
+	p( was | there ...) 	= [3gram] 0.1394315 [ -0.855639 ]
+	p( a | was ...) 	= [4gram] 0.3218926 [ -0.492289 ]
+	p( dinosaur | a ...) 	= [2gram] 5.037048e-05 [ -4.297824 ]
+	p( </s> | dinosaur ...) 	= [3gram] 0.1554673 [ -0.808361 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -15.85255 ppl= 57.72904 ppl1= 95.84481
+
+he hide behind the tree
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( hide | he ...) 	= [2gram] 2.70635e-06 [ -5.567616 ]
+	p( behind | hide ...) 	= [2gram] 0.04725959 [ -1.32551 ]
+	p( the | behind ...) 	= [3gram] 0.3353335 [ -0.474523 ]
+	p( tree | the ...) 	= [3gram] 0.001231494 [ -2.909568 ]
+	p( </s> | tree ...) 	= [3gram] 0.1577001 [ -0.802168 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -12.68876 ppl= 130.2549 ppl1= 344.9474
+
+the dinosaur looks around for human feel sad
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( looks | dinosaur ...) 	= [2gram] 0.00155549 [ -2.808133 ]
+	p( around | looks ...) 	= [2gram] 0.003351351 [ -2.47478 ]
+	p( for | around ...) 	= [3gram] 0.03019535 [ -1.52006 ]
+	p( human | for ...) 	= [2gram] 0.000610142 [ -3.214569 ]
+	p( feel | human ...) 	= [1gram] 2.648092e-05 [ -4.577067 ]
+	p( sad | feel ...) 	= [2gram] 0.001817941 [ -2.74042 ]
+	p( </s> | sad ...) 	= [3gram] 0.2051876 [ -0.687849 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -23.34919 ppl= 392.9653 ppl1= 829.1794
+
+the dinosaur lies on the floor
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( lies | dinosaur ...) 	= [1gram] 4.964725e-05 [ -4.304105 ]
+	p( on | lies ...) 	= [2gram] 0.03376214 [ -1.47157 ]
+	p( the | on ...) 	= [3gram] 0.4490575 [ -0.347698 ]
+	p( floor | the ...) 	= [4gram] 0.05184537 [ -1.28529 ]
+	p( </s> | floor ...) 	= [4gram] 0.2513831 [ -0.599664 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -13.33464 ppl= 80.34302 ppl1= 166.8935
+
+the baby feel sad
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( baby | the ...) 	= [3gram] 0.0004828252 [ -3.31621 ]
+	p( feel | baby ...) 	= [1gram] 3.353552e-05 [ -4.474495 ]
+	p( sad | feel ...) 	= [2gram] 0.001817941 [ -2.74042 ]
+	p( </s> | sad ...) 	= [3gram] 0.2051876 [ -0.687849 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -12.28846 ppl= 286.8751 ppl1= 1180.636
+
+the baby wants to pet him
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( baby | the ...) 	= [3gram] 0.0004828252 [ -3.31621 ]
+	p( wants | baby ...) 	= [2gram] 0.0001305347 [ -3.884274 ]
+	p( to | wants ...) 	= [2gram] 0.5203661 [ -0.283691 ]
+	p( pet | to ...) 	= [2gram] 1.14978e-05 [ -4.939385 ]
+	p( him | pet ...) 	= [3gram] 0.029913 [ -1.52414 ]
+	p( </s> | him ...) 	= [3gram] 0.3016942 [ -0.520433 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -15.53762 ppl= 165.829 ppl1= 388.6905
+
+and then he feeds him his milk
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( he | then ...) 	= [4gram] 0.03687737 [ -1.43324 ]
+	p( feeds | he ...) 	= [2gram] 2.50283e-05 [ -4.601569 ]
+	p( him | feeds ...) 	= [2gram] 0.004800925 [ -2.318675 ]
+	p( his | him ...) 	= [2gram] 0.003477741 [ -2.458703 ]
+	p( milk | his ...) 	= [2gram] 6.230457e-05 [ -4.20548 ]
+	p( </s> | milk ...) 	= [2gram] 0.1298817 [ -0.886452 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -18.75201 ppl= 220.801 ppl1= 477.3736
+
+the baby feel happy
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( baby | the ...) 	= [3gram] 0.0004828252 [ -3.31621 ]
+	p( feel | baby ...) 	= [1gram] 3.353552e-05 [ -4.474495 ]
+	p( happy | feel ...) 	= [2gram] 0.002819617 [ -2.54981 ]
+	p( </s> | happy ...) 	= [3gram] 0.1693047 [ -0.771331 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -12.18134 ppl= 273.0657 ppl1= 1110.028
+
+he was on a skateboard
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( was | he ...) 	= [3gram] 0.104317 [ -0.981645 ]
+	p( on | was ...) 	= [4gram] 0.009317514 [ -2.0307 ]
+	p( a | on ...) 	= [4gram] 0.1137606 [ -0.944008 ]
+	p( skateboard | a ...) 	= [3gram] 0.0001380594 [ -3.859934 ]
+	p( </s> | skateboard ...) 	= [2gram] 0.1403321 [ -0.852843 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -10.27851 ppl= 51.65175 ppl1= 113.6847
+
+he bumped into a egg
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( bumped | he ...) 	= [2gram] 1.036965e-05 [ -4.984236 ]
+	p( into | bumped ...) 	= [2gram] 0.3894108 [ -0.409592 ]
+	p( a | into ...) 	= [3gram] 0.1620526 [ -0.790344 ]
+	p( egg | a ...) 	= [1gram] 1.22797e-06 [ -5.910812 ]
+	p( </s> | egg ...) 	= [2gram] 0.0893573 [ -1.04887 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -14.75323 ppl= 287.6553 ppl1= 892.5793
+
+the egg is hatching
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( egg | the ...) 	= [3gram] 0.000111815 [ -3.9515 ]
+	p( is | egg ...) 	= [4gram] 0.1371065 [ -0.862942 ]
+	p( hatching | is ...) 	= [2gram] 1.313082e-06 [ -5.881708 ]
+	p( </s> | hatching ...) 	= [2gram] 0.1156112 [ -0.937 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -12.70264 ppl= 347.1587 ppl1= 1498.511
+
+there's a dinosaur
+	p( there's | <s> ) 	= [2gram] 0.0001876031 [ -3.72676 ]
+	p( a | there's ...) 	= [3gram] 0.354508 [ -0.450374 ]
+	p( dinosaur | a ...) 	= [2gram] 7.056385e-05 [ -4.151418 ]
+	p( </s> | dinosaur ...) 	= [3gram] 0.1554673 [ -0.808361 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -9.136913 ppl= 192.4102 ppl1= 1110.804
+
+there's a dinosaur near him
+	p( there's | <s> ) 	= [2gram] 0.0001876031 [ -3.72676 ]
+	p( a | there's ...) 	= [3gram] 0.354508 [ -0.450374 ]
+	p( dinosaur | a ...) 	= [2gram] 7.056385e-05 [ -4.151418 ]
+	p( near | dinosaur ...) 	= [1gram] 8.941616e-05 [ -4.048584 ]
+	p( him | near ...) 	= [2gram] 0.004460669 [ -2.3506 ]
+	p( </s> | him ...) 	= [3gram] 0.3113938 [ -0.50669 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.23443 ppl= 345.9959 ppl1= 1114
+
+he went away and hinding
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( went | he ...) 	= [3gram] 0.007605013 [ -2.1189 ]
+	p( away | went ...) 	= [3gram] 0.007277914 [ -2.137993 ]
+	p( and | away ...) 	= [3gram] 0.119189 [ -0.923764 ]
+	p( <unk> | and ...) 	= [2gram] 0.003115658 [ -2.50645 ]
+	p( </s> | <unk> ...) 	= [2gram] 0.1300634 [ -0.885845 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -10.18233 ppl= 49.78006 ppl1= 108.7593
+
+he's hiding behind a tree
+	p( he's | <s> ) 	= [2gram] 6.427027e-05 [ -4.19199 ]
+	p( hiding | he's ...) 	= [2gram] 0.0003902753 [ -3.408629 ]
+	p( behind | hiding ...) 	= [2gram] 0.07169654 [ -1.144502 ]
+	p( a | behind ...) 	= [3gram] 0.1945347 [ -0.711003 ]
+	p( tree | a ...) 	= [3gram] 0.008520007 [ -2.06956 ]
+	p( </s> | tree ...) 	= [3gram] 0.1625927 [ -0.788899 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -12.31458 ppl= 112.8315 ppl1= 290.3465
+
+he's sad
+	p( he's | <s> ) 	= [2gram] 6.427027e-05 [ -4.19199 ]
+	p( sad | he's ...) 	= [2gram] 0.0001218347 [ -3.914229 ]
+	p( </s> | sad ...) 	= [2gram] 0.09576791 [ -1.01878 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -9.124999 ppl= 1100.693 ppl1= 36517.36
+
+he's lonely
+	p( he's | <s> ) 	= [2gram] 6.427027e-05 [ -4.19199 ]
+	p( lonely | he's ...) 	= [1gram] 3.237715e-06 [ -5.489761 ]
+	p( </s> | lonely ...) 	= [2gram] 0.07030561 [ -1.15301 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -10.83476 ppl= 4088.717 ppl1= 261445.2
+
+the boy said that he made him sad
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( boy | the ...) 	= [3gram] 0.000451284 [ -3.34555 ]
+	p( said | boy ...) 	= [3gram] 0.03653366 [ -1.437307 ]
+	p( that | said ...) 	= [2gram] 0.01573798 [ -1.803051 ]
+	p( he | that ...) 	= [3gram] 0.04934918 [ -1.30672 ]
+	p( made | he ...) 	= [3gram] 0.004643249 [ -2.333178 ]
+	p( him | made ...) 	= [2gram] 0.004329425 [ -2.36357 ]
+	p( sad | him ...) 	= [3gram] 0.001567906 [ -2.80468 ]
+	p( </s> | sad ...) 	= [2gram] 0.08595096 [ -1.065749 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -17.52929 ppl= 88.65423 ppl1= 155.2966
+
+he's calm making him calm down
+	p( he's | <s> ) 	= [2gram] 6.427027e-05 [ -4.19199 ]
+	p( calm | he's ...) 	= [2gram] 0.0001366159 [ -3.864499 ]
+	p( making | calm ...) 	= [1gram] 0.0001636775 [ -3.786011 ]
+	p( him | making ...) 	= [2gram] 0.004992751 [ -2.30166 ]
+	p( calm | him ...) 	= [2gram] 8.530809e-05 [ -4.06901 ]
+	p( down | calm ...) 	= [3gram] 0.2045856 [ -0.689125 ]
+	p( </s> | down ...) 	= [3gram] 0.2348194 [ -0.629266 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -19.53156 ppl= 616.9116 ppl1= 1799.949
+
+put his bottle in his mouth
+	p( put | <s> ) 	= [2gram] 0.0003480327 [ -3.45838 ]
+	p( his | put ...) 	= [2gram] 0.004242326 [ -2.372396 ]
+	p( bottle | his ...) 	= [2gram] 4.858423e-05 [ -4.313505 ]
+	p( in | bottle ...) 	= [2gram] 0.0137746 [ -1.860921 ]
+	p( his | in ...) 	= [3gram] 0.04343602 [ -1.36215 ]
+	p( mouth | his ...) 	= [3gram] 0.005313736 [ -2.2746 ]
+	p( </s> | mouth ...) 	= [4gram] 0.3469549 [ -0.459727 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -16.10168 ppl= 199.6364 ppl1= 482.6287
+
+he's laughing
+	p( he's | <s> ) 	= [2gram] 6.427027e-05 [ -4.19199 ]
+	p( laughing | he's ...) 	= [2gram] 0.0002101267 [ -3.677519 ]
+	p( </s> | laughing ...) 	= [2gram] 0.1607841 [ -0.793757 ]
+1 sentences, 2 words, 0 OOVs
+0 zeroprobs, logprob= -8.663266 ppl= 772.2453 ppl1= 21460.16
+
+there was a dinosaur
+	p( there | <s> ) 	= [2gram] 0.01603984 [ -1.7948 ]
+	p( was | there ...) 	= [3gram] 0.1032015 [ -0.986314 ]
+	p( a | was ...) 	= [4gram] 0.3156705 [ -0.500766 ]
+	p( dinosaur | a ...) 	= [2gram] 5.037048e-05 [ -4.297824 ]
+	p( </s> | dinosaur ...) 	= [3gram] 0.1554673 [ -0.808361 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -8.388065 ppl= 47.60066 ppl1= 125.0306
+
+he was on the skateboard
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( was | he ...) 	= [3gram] 0.104317 [ -0.981645 ]
+	p( on | was ...) 	= [4gram] 0.009317514 [ -2.0307 ]
+	p( the | on ...) 	= [4gram] 0.378555 [ -0.421871 ]
+	p( skateboard | the ...) 	= [3gram] 6.680619e-06 [ -5.175183 ]
+	p( </s> | skateboard ...) 	= [2gram] 0.1245853 [ -0.9045332 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -11.12331 ppl= 71.43078 ppl1= 167.75
+
+he was listening to the egg
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( was | he ...) 	= [3gram] 0.104317 [ -0.981645 ]
+	p( listening | was ...) 	= [3gram] 0.000273917 [ -3.562381 ]
+	p( to | listening ...) 	= [3gram] 0.6452752 [ -0.190255 ]
+	p( the | to ...) 	= [4gram] 0.2203626 [ -0.656862 ]
+	p( egg | the ...) 	= [2gram] 5.398589e-05 [ -4.26772 ]
+	p( </s> | egg ...) 	= [3gram] 0.1223466 [ -0.912408 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -12.18065 ppl= 54.96585 ppl1= 107.1787
+
+the egg was cracking
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( egg | the ...) 	= [3gram] 0.000111815 [ -3.9515 ]
+	p( was | egg ...) 	= [3gram] 0.01177693 [ -1.928968 ]
+	p( cracking | was ...) 	= [2gram] 2.949889e-05 [ -4.530194 ]
+	p( </s> | cracking ...) 	= [2gram] 0.08695209 [ -1.06072 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -12.54087 ppl= 322.2363 ppl1= 1365.268
+
+the dinosaur poked out his head
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( poked | dinosaur ...) 	= [1gram] 3.112256e-06 [ -5.506925 ]
+	p( out | poked ...) 	= [2gram] 0.05129322 [ -1.28994 ]
+	p( his | out ...) 	= [2gram] 0.003657212 [ -2.43685 ]
+	p( head | his ...) 	= [2gram] 0.004933824 [ -2.306816 ]
+	p( </s> | head ...) 	= [3gram] 0.1662245 [ -0.779305 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -17.64615 ppl= 331.8012 ppl1= 873.0203
+
+the dinosaur was about to lick him
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( was | dinosaur ...) 	= [3gram] 0.03773201 [ -1.42329 ]
+	p( about | was ...) 	= [3gram] 0.04815152 [ -1.31739 ]
+	p( to | about ...) 	= [3gram] 0.1423243 [ -0.846721 ]
+	p( lick | to ...) 	= [2gram] 2.098366e-05 [ -4.678119 ]
+	p( him | lick ...) 	= [2gram] 0.005729292 [ -2.241899 ]
+	p( </s> | him ...) 	= [2gram] 0.1253271 [ -0.901955 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -16.73568 ppl= 123.5835 ppl1= 245.9303
+
+he was hiding
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( was | he ...) 	= [3gram] 0.104317 [ -0.981645 ]
+	p( hiding | was ...) 	= [3gram] 0.0003268879 [ -3.485601 ]
+	p( </s> | hiding ...) 	= [2gram] 0.04695725 [ -1.328297 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -7.404924 ppl= 70.99551 ppl1= 293.9733
+
+the dinosaur was sad
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( was | dinosaur ...) 	= [3gram] 0.03773201 [ -1.42329 ]
+	p( sad | was ...) 	= [2gram] 0.0001251208 [ -3.902671 ]
+	p( </s> | sad ...) 	= [3gram] 0.1381834 [ -0.859544 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -11.51181 ppl= 200.6148 ppl1= 755.0117
+
+and the dinosaur was lying down
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( the | and ...) 	= [3gram] 0.06629642 [ -1.17851 ]
+	p( dinosaur | the ...) 	= [2gram] 2.330463e-05 [ -4.632558 ]
+	p( was | dinosaur ...) 	= [3gram] 0.03773201 [ -1.42329 ]
+	p( lying | was ...) 	= [2gram] 0.0003565246 [ -3.447911 ]
+	p( down | lying ...) 	= [3gram] 0.04913603 [ -1.3086 ]
+	p( </s> | down ...) 	= [3gram] 0.2238907 [ -0.649964 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -14.05379 ppl= 101.7852 ppl1= 219.9372
+
+and he was looking at the dinosaur
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( he | and ...) 	= [3gram] 0.0211919 [ -1.67383 ]
+	p( was | he ...) 	= [4gram] 0.1112418 [ -0.953732 ]
+	p( looking | was ...) 	= [3gram] 0.004677537 [ -2.329983 ]
+	p( at | looking ...) 	= [4gram] 0.2067526 [ -0.684549 ]
+	p( the | at ...) 	= [3gram] 0.2298331 [ -0.6385874 ]
+	p( dinosaur | the ...) 	= [3gram] 3.807219e-05 [ -4.419392 ]
+	p( </s> | dinosaur ...) 	= [2gram] 0.04544229 [ -1.34254 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -13.45557 ppl= 48.07803 ppl1= 83.60355
+
+he was touching the dinosaur
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( was | he ...) 	= [3gram] 0.104317 [ -0.981645 ]
+	p( touching | was ...) 	= [3gram] 0.0001465375 [ -3.834051 ]
+	p( the | touching ...) 	= [3gram] 0.2144366 [ -0.668701 ]
+	p( dinosaur | the ...) 	= [2gram] 4.181133e-05 [ -4.378706 ]
+	p( </s> | dinosaur ...) 	= [2gram] 0.06546018 [ -1.184023 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -12.65651 ppl= 128.6523 ppl1= 339.8609
+
+and he feed the dinosaur his milk
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( he | and ...) 	= [3gram] 0.0211919 [ -1.67383 ]
+	p( feed | he ...) 	= [1gram] 1.097666e-06 [ -5.95953 ]
+	p( the | feed ...) 	= [2gram] 0.07541539 [ -1.12254 ]
+	p( dinosaur | the ...) 	= [2gram] 3.275696e-05 [ -4.484696 ]
+	p( his | dinosaur ...) 	= [1gram] 0.0004818318 [ -3.317105 ]
+	p( milk | his ...) 	= [2gram] 7.915164e-05 [ -4.10154 ]
+	p( </s> | milk ...) 	= [2gram] 0.1298817 [ -0.886452 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -22.95865 ppl= 741.0229 ppl1= 1904.617
+
+and then he laugh
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( he | then ...) 	= [4gram] 0.03687737 [ -1.43324 ]
+	p( laugh | he ...) 	= [1gram] 9.247014e-07 [ -6.033998 ]
+	p( </s> | laugh ...) 	= [2gram] 0.1931283 [ -0.714154 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -11.02928 ppl= 160.641 ppl1= 571.9007
+
+he is riding his skateboard
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( is | he ...) 	= [3gram] 0.03890452 [ -1.41 ]
+	p( riding | is ...) 	= [2gram] 1.351083e-05 [ -4.869318 ]
+	p( his | riding ...) 	= [2gram] 0.008479006 [ -2.071655 ]
+	p( skateboard | his ...) 	= [2gram] 1.255434e-05 [ -4.901206 ]
+	p( </s> | skateboard ...) 	= [2gram] 0.1403321 [ -0.852843 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.7144 ppl= 415.9748 ppl1= 1389.57
+
+he crashes into the egg the dinosaur egg
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( crashes | he ...) 	= [2gram] 1.170857e-05 [ -4.931496 ]
+	p( into | crashes ...) 	= [2gram] 0.02794603 [ -1.55368 ]
+	p( the | into ...) 	= [3gram] 0.4686374 [ -0.329163 ]
+	p( egg | the ...) 	= [3gram] 0.0003380201 [ -3.471057 ]
+	p( the | egg ...) 	= [2gram] 0.007764169 [ -2.109905 ]
+	p( dinosaur | the ...) 	= [2gram] 5.175525e-05 [ -4.286046 ]
+	p( egg | dinosaur ...) 	= [2gram] 0.001862891 [ -2.729813 ]
+	p( </s> | egg ...) 	= [3gram] 0.3260213 [ -0.486754 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -21.50729 ppl= 245.301 ppl1= 487.9909
+
+and then he got upset
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( he | then ...) 	= [4gram] 0.03687737 [ -1.43324 ]
+	p( got | he ...) 	= [4gram] 0.02262351 [ -1.64544 ]
+	p( upset | got ...) 	= [3gram] 0.00105557 [ -2.976513 ]
+	p( </s> | upset ...) 	= [2gram] 0.1278894 [ -0.8931655 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -9.796248 ppl= 42.92478 ppl1= 91.04366
+
+then he listened to the egg when he fell off
+	p( then | <s> ) 	= [2gram] 0.004056954 [ -2.3918 ]
+	p( he | then ...) 	= [3gram] 0.06084992 [ -1.21574 ]
+	p( listened | he ...) 	= [2gram] 0.0001000078 [ -3.999966 ]
+	p( to | listened ...) 	= [3gram] 0.7081333 [ -0.149885 ]
+	p( the | to ...) 	= [4gram] 0.2262487 [ -0.645414 ]
+	p( egg | the ...) 	= [2gram] 5.744246e-05 [ -4.240767 ]
+	p( when | egg ...) 	= [1gram] 0.000620346 [ -3.207366 ]
+	p( he | when ...) 	= [2gram] 0.05002994 [ -1.30077 ]
+	p( fell | he ...) 	= [3gram] 0.001449806 [ -2.83869 ]
+	p( off | fell ...) 	= [2gram] 0.02363442 [ -1.626455 ]
+	p( </s> | off ...) 	= [3gram] 0.1378745 [ -0.860516 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -22.47737 ppl= 110.5089 ppl1= 176.9037
+
+and the egg started hatching
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( the | and ...) 	= [3gram] 0.06629642 [ -1.17851 ]
+	p( egg | the ...) 	= [3gram] 9.406349e-05 [ -4.026579 ]
+	p( started | egg ...) 	= [1gram] 8.045514e-05 [ -4.094446 ]
+	p( hatching | started ...) 	= [2gram] 4.133807e-05 [ -4.38365 ]
+	p( </s> | hatching ...) 	= [2gram] 0.1156112 [ -0.937 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -16.03314 ppl= 470.1006 ppl1= 1609.27
+
+it started cracking and then
+	p( it | <s> ) 	= [2gram] 0.05046612 [ -1.297 ]
+	p( started | it ...) 	= [3gram] 0.00131774 [ -2.88017 ]
+	p( cracking | started ...) 	= [2gram] 6.286425e-05 [ -4.201596 ]
+	p( and | cracking ...) 	= [2gram] 0.04974048 [ -1.30329 ]
+	p( then | and ...) 	= [2gram] 0.01287591 [ -1.890222 ]
+	p( </s> | then ...) 	= [3gram] 0.01503661 [ -1.82285 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -13.39513 ppl= 170.8132 ppl1= 477.5575
+
+he was shocked
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( was | he ...) 	= [3gram] 0.104317 [ -0.981645 ]
+	p( shocked | was ...) 	= [3gram] 0.0006070842 [ -3.216751 ]
+	p( </s> | shocked ...) 	= [3gram] 0.1418398 [ -0.848202 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -6.655978 ppl= 46.13118 ppl1= 165.4472
+
+and then a little like dinosaur popped out of it
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( a | then ...) 	= [4gram] 0.01854727 [ -1.73172 ]
+	p( little | a ...) 	= [3gram] 0.0167384 [ -1.776286 ]
+	p( like | little ...) 	= [3gram] 0.005279961 [ -2.277369 ]
+	p( dinosaur | like ...) 	= [2gram] 2.381934e-05 [ -4.62307 ]
+	p( popped | dinosaur ...) 	= [1gram] 9.46054e-06 [ -5.024084 ]
+	p( out | popped ...) 	= [2gram] 0.1518899 [ -0.818471 ]
+	p( of | out ...) 	= [3gram] 0.2984517 [ -0.525126 ]
+	p( it | of ...) 	= [3gram] 0.02314734 [ -1.635499 ]
+	p( </s> | it ...) 	= [4gram] 0.3563773 [ -0.44809 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -21.70761 ppl= 94.06297 ppl1= 148.1701
+
+scared and worried and he was confused
+	p( scared | <s> ) 	= [2gram] 9.425403e-06 [ -5.0257 ]
+	p( and | scared ...) 	= [2gram] 0.04912438 [ -1.308703 ]
+	p( worried | and ...) 	= [3gram] 0.004251381 [ -2.37147 ]
+	p( and | worried ...) 	= [3gram] 0.03694792 [ -1.43241 ]
+	p( he | and ...) 	= [2gram] 0.006256149 [ -2.203693 ]
+	p( was | he ...) 	= [3gram] 0.1125605 [ -0.948614 ]
+	p( confused | was ...) 	= [3gram] 0.0001530795 [ -3.815083 ]
+	p( </s> | confused ...) 	= [3gram] 0.1664501 [ -0.778716 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -17.88439 ppl= 172.008 ppl1= 358.8498
+
+and then the dinosaur just were hopped out of the egg
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( the | then ...) 	= [4gram] 0.06477091 [ -1.18862 ]
+	p( dinosaur | the ...) 	= [2gram] 3.634003e-05 [ -4.439615 ]
+	p( just | dinosaur ...) 	= [1gram] 0.0006059062 [ -3.217595 ]
+	p( were | just ...) 	= [2gram] 0.0002728412 [ -3.56409 ]
+	p( hopped | were ...) 	= [1gram] 5.782891e-07 [ -6.237855 ]
+	p( out | hopped ...) 	= [2gram] 0.06973486 [ -1.15655 ]
+	p( of | out ...) 	= [3gram] 0.4364967 [ -0.360019 ]
+	p( the | of ...) 	= [3gram] 0.2620698 [ -0.581583 ]
+	p( egg | the ...) 	= [3gram] 9.337407e-05 [ -4.029774 ]
+	p( </s> | egg ...) 	= [4gram] 0.1934029 [ -0.713537 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -28.33713 ppl= 229.8409 ppl1= 376.7927
+
+the boy's like startled to the ground
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( boy's | the ...) 	= [3gram] 2.574363e-05 [ -4.58933 ]
+	p( like | boy's ...) 	= [1gram] 0.001191018 [ -2.924082 ]
+	p( startled | like ...) 	= [1gram] 2.186869e-06 [ -5.660177 ]
+	p( to | startled ...) 	= [2gram] 0.06143416 [ -1.21159 ]
+	p( the | to ...) 	= [2gram] 0.02175319 [ -1.662477 ]
+	p( ground | the ...) 	= [3gram] 0.00390733 [ -2.40812 ]
+	p( </s> | ground ...) 	= [4gram] 0.3131382 [ -0.504264 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -20.02953 ppl= 318.927 ppl1= 726.7105
+
+and he ran and hid from the dinosaur
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( he | and ...) 	= [3gram] 0.0211919 [ -1.67383 ]
+	p( ran | he ...) 	= [3gram] 0.001701767 [ -2.7691 ]
+	p( and | ran ...) 	= [3gram] 0.01918669 [ -1.717 ]
+	p( hid | and ...) 	= [3gram] 0.03316882 [ -1.47927 ]
+	p( from | hid ...) 	= [2gram] 0.02516985 [ -1.599119 ]
+	p( the | from ...) 	= [3gram] 0.3097847 [ -0.50894 ]
+	p( dinosaur | the ...) 	= [2gram] 2.119809e-05 [ -4.673703 ]
+	p( </s> | dinosaur ...) 	= [2gram] 0.06546018 [ -1.184023 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -17.01795 ppl= 77.78267 ppl1= 134.0427
+
+cuz he thought the dinosaur would eat him
+	p( cuz | <s> ) 	= [2gram] 1.735521e-06 [ -5.76057 ]
+	p( he | cuz ...) 	= [2gram] 0.02666306 [ -1.57409 ]
+	p( thought | he ...) 	= [2gram] 0.003370001 [ -2.47237 ]
+	p( the | thought ...) 	= [3gram] 0.05304568 [ -1.27535 ]
+	p( dinosaur | the ...) 	= [2gram] 4.271181e-05 [ -4.369452 ]
+	p( would | dinosaur ...) 	= [2gram] 0.002928852 [ -2.533303 ]
+	p( eat | would ...) 	= [2gram] 0.0002596176 [ -3.585666 ]
+	p( him | eat ...) 	= [2gram] 0.0008797177 [ -3.055657 ]
+	p( </s> | him ...) 	= [3gram] 0.4839004 [ -0.315244 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -24.9417 ppl= 590.6091 ppl1= 1311.332
+
+but the dinosaur looked around and then he got sad that the guy left
+	p( but | <s> ) 	= [2gram] 0.03982171 [ -1.39988 ]
+	p( the | but ...) 	= [3gram] 0.09470218 [ -1.02364 ]
+	p( dinosaur | the ...) 	= [2gram] 2.595433e-05 [ -4.58579 ]
+	p( looked | dinosaur ...) 	= [2gram] 0.001781137 [ -2.749303 ]
+	p( around | looked ...) 	= [2gram] 0.01017115 [ -1.99263 ]
+	p( and | around ...) 	= [3gram] 0.2142841 [ -0.66901 ]
+	p( then | and ...) 	= [3gram] 0.01453721 [ -1.837519 ]
+	p( he | then ...) 	= [3gram] 0.02191695 [ -1.65922 ]
+	p( got | he ...) 	= [4gram] 0.02262351 [ -1.64544 ]
+	p( sad | got ...) 	= [2gram] 4.030909e-05 [ -4.394597 ]
+	p( that | sad ...) 	= [2gram] 0.031947 [ -1.49557 ]
+	p( the | that ...) 	= [3gram] 0.07650856 [ -1.11629 ]
+	p( guy | the ...) 	= [3gram] 0.0007573037 [ -3.12073 ]
+	p( left | guy ...) 	= [2gram] 0.0003034582 [ -3.517901 ]
+	p( </s> | left ...) 	= [2gram] 0.06419186 [ -1.19252 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -32.40004 ppl= 144.5449 ppl1= 206.2
+
+and that's him lying on the groung like being upset because
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( that's | and ...) 	= [3gram] 0.01543583 [ -1.81147 ]
+	p( him | that's ...) 	= [3gram] 0.0001224819 [ -3.911928 ]
+	p( lying | him ...) 	= [2gram] 0.0002365893 [ -3.626005 ]
+	p( on | lying ...) 	= [3gram] 0.3515604 [ -0.454 ]
+	p( the | on ...) 	= [3gram] 0.5366301 [ -0.270325 ]
+	p( <unk> | the ...) 	= [3gram] 0.003325776 [ -2.478107 ]
+	p( like | <unk> ...) 	= [2gram] 0.001681358 [ -2.77434 ]
+	p( being | like ...) 	= [2gram] 0.00169474 [ -2.770897 ]
+	p( upset | being ...) 	= [2gram] 0.0001418277 [ -3.848239 ]
+	p( because | upset ...) 	= [2gram] 0.02966744 [ -1.52772 ]
+	p( </s> | because ...) 	= [2gram] 0.006069215 [ -2.216867 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -27.10286 ppl= 181.3725 ppl1= 291.0021
+
+he can't find his friend
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( can't | he ...) 	= [3gram] 0.001703845 [ -2.76857 ]
+	p( find | can't ...) 	= [3gram] 0.01276733 [ -1.8939 ]
+	p( his | find ...) 	= [3gram] 0.006112799 [ -2.21376 ]
+	p( friend | his ...) 	= [3gram] 0.006866573 [ -2.16326 ]
+	p( </s> | friend ...) 	= [3gram] 0.1319277 [ -0.879664 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -11.52853 ppl= 83.44923 ppl1= 202.1654
+
+and then the boy felt sorry
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( the | then ...) 	= [4gram] 0.06477091 [ -1.18862 ]
+	p( boy | the ...) 	= [3gram] 0.0008294976 [ -3.081185 ]
+	p( felt | boy ...) 	= [1gram] 2.868822e-05 [ -4.542296 ]
+	p( sorry | felt ...) 	= [2gram] 0.004784429 [ -2.32017 ]
+	p( </s> | sorry ...) 	= [2gram] 0.02602466 [ -1.584615 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -15.56478 ppl= 167.3168 ppl1= 392.7619
+
+well he was hiding because the dinosaur was sad
+	p( well | <s> ) 	= [2gram] 0.002316541 [ -2.63516 ]
+	p( he | well ...) 	= [3gram] 0.01388257 [ -1.85753 ]
+	p( was | he ...) 	= [4gram] 0.09951074 [ -1.00213 ]
+	p( hiding | was ...) 	= [3gram] 0.0004074963 [ -3.389876 ]
+	p( because | hiding ...) 	= [2gram] 0.00590694 [ -2.228637 ]
+	p( the | because ...) 	= [2gram] 0.07542235 [ -1.1225 ]
+	p( dinosaur | the ...) 	= [2gram] 3.727321e-05 [ -4.428603 ]
+	p( was | dinosaur ...) 	= [3gram] 0.03773201 [ -1.42329 ]
+	p( sad | was ...) 	= [2gram] 0.0001251208 [ -3.902671 ]
+	p( </s> | sad ...) 	= [3gram] 0.1381834 [ -0.859544 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -22.84994 ppl= 192.7499 ppl1= 345.8457
+
+and so he went over and petted the dinosaur
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( so | and ...) 	= [3gram] 0.02774789 [ -1.55677 ]
+	p( he | so ...) 	= [4gram] 0.01950518 [ -1.70985 ]
+	p( went | he ...) 	= [3gram] 0.0144768 [ -1.839328 ]
+	p( over | went ...) 	= [3gram] 0.009926968 [ -2.003183 ]
+	p( and | over ...) 	= [3gram] 0.05871647 [ -1.23124 ]
+	p( petted | and ...) 	= [2gram] 6.433854e-07 [ -6.191529 ]
+	p( the | petted ...) 	= [2gram] 0.1393795 [ -0.855801 ]
+	p( dinosaur | the ...) 	= [2gram] 4.803836e-05 [ -4.318412 ]
+	p( </s> | dinosaur ...) 	= [2gram] 0.06546018 [ -1.184023 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -22.3031 ppl= 169.9454 ppl1= 300.6919
+
+and gave the dinosaur some of his milk
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( gave | and ...) 	= [2gram] 0.0001274172 [ -3.894772 ]
+	p( the | gave ...) 	= [3gram] 0.08309023 [ -1.08045 ]
+	p( dinosaur | the ...) 	= [2gram] 3.912277e-05 [ -4.40757 ]
+	p( some | dinosaur ...) 	= [1gram] 0.0004770735 [ -3.321415 ]
+	p( of | some ...) 	= [2gram] 0.1356957 [ -0.867434 ]
+	p( his | of ...) 	= [3gram] 0.02038074 [ -1.69078 ]
+	p( milk | his ...) 	= [2gram] 4.287725e-05 [ -4.367773 ]
+	p( </s> | milk ...) 	= [2gram] 0.1298817 [ -0.886452 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -21.92961 ppl= 273.2895 ppl1= 551.0624
+
+he started laughing
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( started | he ...) 	= [3gram] 0.002927319 [ -2.53353 ]
+	p( laughing | started ...) 	= [3gram] 0.004207371 [ -2.375989 ]
+	p( </s> | laughing ...) 	= [3gram] 0.2859368 [ -0.54373 ]
+1 sentences, 3 words, 0 OOVs
+0 zeroprobs, logprob= -7.062629 ppl= 58.29849 ppl1= 226.0527
+
+because the dinosaur looked funny
+	p( because | <s> ) 	= [2gram] 0.002923816 [ -2.53405 ]
+	p( the | because ...) 	= [3gram] 0.1110839 [ -0.954349 ]
+	p( dinosaur | the ...) 	= [2gram] 3.623043e-05 [ -4.440927 ]
+	p( looked | dinosaur ...) 	= [2gram] 0.001781137 [ -2.749303 ]
+	p( funny | looked ...) 	= [2gram] 0.0004119458 [ -3.38516 ]
+	p( </s> | funny ...) 	= [2gram] 0.1109563 [ -0.954848 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.01864 ppl= 318.4975 ppl1= 1008.619
+
+baby hulk was riding on a skateboard and then he crashed into an egg
+	p( baby | <s> ) 	= [2gram] 5.254726e-05 [ -4.27945 ]
+	p( hulk | baby ...) 	= [1gram] 1.085861e-06 [ -5.964226 ]
+	p( was | hulk ...) 	= [2gram] 0.01802229 [ -1.74419 ]
+	p( riding | was ...) 	= [2gram] 0.0001196961 [ -3.92192 ]
+	p( on | riding ...) 	= [3gram] 0.1652833 [ -0.781771 ]
+	p( a | on ...) 	= [3gram] 0.1505972 [ -0.822183 ]
+	p( skateboard | a ...) 	= [3gram] 0.000139224 [ -3.856286 ]
+	p( and | skateboard ...) 	= [2gram] 0.1201238 [ -0.920371 ]
+	p( then | and ...) 	= [2gram] 0.01240949 [ -1.906246 ]
+	p( he | then ...) 	= [3gram] 0.02191695 [ -1.65922 ]
+	p( crashed | he ...) 	= [2gram] 2.405255e-05 [ -4.618839 ]
+	p( into | crashed ...) 	= [2gram] 0.1086268 [ -0.964063 ]
+	p( an | into ...) 	= [3gram] 0.0205466 [ -1.68726 ]
+	p( egg | an ...) 	= [3gram] 0.004792157 [ -2.319469 ]
+	p( </s> | egg ...) 	= [3gram] 0.147095 [ -0.832402 ]
+1 sentences, 14 words, 0 OOVs
+0 zeroprobs, logprob= -36.2779 ppl= 262.1358 ppl1= 390.1919
+
+he hurt the egg
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( hurt | he ...) 	= [2gram] 2.679253e-05 [ -4.571986 ]
+	p( the | hurt ...) 	= [2gram] 0.04483436 [ -1.348389 ]
+	p( egg | the ...) 	= [2gram] 0.0001008756 [ -3.996214 ]
+	p( </s> | egg ...) 	= [3gram] 0.1223466 [ -0.912408 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -12.43838 ppl= 307.3799 ppl1= 1287.047
+
+he put his ear up to it
+	p( he | <s> ) 	= [2gram] 0.02458216 [ -1.60938 ]
+	p( put | he ...) 	= [3gram] 0.001856479 [ -2.73131 ]
+	p( his | put ...) 	= [4gram] 0.1278984 [ -0.893135 ]
+	p( ear | his ...) 	= [3gram] 0.002073959 [ -2.6832 ]
+	p( up | ear ...) 	= [1gram] 0.0002435421 [ -3.613426 ]
+	p( to | up ...) 	= [2gram] 0.08381467 [ -1.07668 ]
+	p( it | to ...) 	= [3gram] 0.008712243 [ -2.05987 ]
+	p( </s> | it ...) 	= [4gram] 0.4018528 [ -0.395933 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -15.06293 ppl= 76.36014 ppl1= 141.856
+
+the egg started cracking
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( egg | the ...) 	= [3gram] 0.000111815 [ -3.9515 ]
+	p( started | egg ...) 	= [1gram] 7.130435e-05 [ -4.146884 ]
+	p( cracking | started ...) 	= [2gram] 0.0001686592 [ -3.77299 ]
+	p( </s> | cracking ...) 	= [2gram] 0.08695209 [ -1.06072 ]
+1 sentences, 4 words, 0 OOVs
+0 zeroprobs, logprob= -14.00158 ppl= 631.4177 ppl1= 3165.162
+
+and the egg cracked and the dino baby dinosaur came out
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( the | and ...) 	= [3gram] 0.06629642 [ -1.17851 ]
+	p( egg | the ...) 	= [3gram] 9.406349e-05 [ -4.026579 ]
+	p( cracked | egg ...) 	= [3gram] 0.000481859 [ -3.31708 ]
+	p( and | cracked ...) 	= [2gram] 0.06294336 [ -1.20105 ]
+	p( the | and ...) 	= [3gram] 0.1085963 [ -0.964185 ]
+	p( dino | the ...) 	= [2gram] 1.640531e-06 [ -5.785016 ]
+	p( baby | dino ...) 	= [1gram] 9.91773e-05 [ -4.003588 ]
+	p( dinosaur | baby ...) 	= [2gram] 0.000376383 [ -3.42437 ]
+	p( came | dinosaur ...) 	= [1gram] 0.000273343 [ -3.563292 ]
+	p( out | came ...) 	= [2gram] 0.07957561 [ -1.09922 ]
+	p( </s> | out ...) 	= [3gram] 0.07174804 [ -1.14419 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -31.12004 ppl= 392.0456 ppl1= 674.6748
+
+the baby dinosaur was excited when a
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( baby | the ...) 	= [3gram] 0.0004828252 [ -3.31621 ]
+	p( dinosaur | baby ...) 	= [2gram] 0.0001772621 [ -3.751384 ]
+	p( was | dinosaur ...) 	= [2gram] 0.01328618 [ -1.8766 ]
+	p( excited | was ...) 	= [2gram] 0.0001581246 [ -3.801001 ]
+	p( when | excited ...) 	= [3gram] 0.03512691 [ -1.45436 ]
+	p( a | when ...) 	= [2gram] 0.01386219 [ -1.858168 ]
+	p( </s> | a ...) 	= [2gram] 0.001112692 [ -2.953625 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -20.08084 ppl= 323.6717 ppl1= 739.0794
+
+and went up to baby hulk but he was scared
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( went | and ...) 	= [2gram] 0.0002128618 [ -3.671902 ]
+	p( up | went ...) 	= [3gram] 0.01821084 [ -1.73967 ]
+	p( to | up ...) 	= [4gram] 0.3298542 [ -0.481678 ]
+	p( baby | to ...) 	= [2gram] 1.366404e-05 [ -4.864421 ]
+	p( hulk | baby ...) 	= [1gram] 1.07294e-06 [ -5.969425 ]
+	p( but | hulk ...) 	= [2gram] 0.02969477 [ -1.52732 ]
+	p( he | but ...) 	= [3gram] 0.08639925 [ -1.06349 ]
+	p( was | he ...) 	= [3gram] 0.08692627 [ -1.060849 ]
+	p( scared | was ...) 	= [3gram] 0.0006968077 [ -3.156887 ]
+	p( </s> | scared ...) 	= [4gram] 0.2857972 [ -0.543942 ]
+1 sentences, 10 words, 0 OOVs
+0 zeroprobs, logprob= -25.49254 ppl= 207.7323 ppl1= 354.2048
+
+so he ran and hid behind a tree
+	p( so | <s> ) 	= [2gram] 0.01623678 [ -1.7895 ]
+	p( he | so ...) 	= [3gram] 0.01597166 [ -1.79665 ]
+	p( ran | he ...) 	= [3gram] 0.001453764 [ -2.837506 ]
+	p( and | ran ...) 	= [3gram] 0.01918669 [ -1.717 ]
+	p( hid | and ...) 	= [3gram] 0.03316882 [ -1.47927 ]
+	p( behind | hid ...) 	= [2gram] 0.03705446 [ -1.431159 ]
+	p( a | behind ...) 	= [3gram] 0.1951727 [ -0.709581 ]
+	p( tree | a ...) 	= [3gram] 0.007868707 [ -2.104097 ]
+	p( </s> | tree ...) 	= [3gram] 0.1625927 [ -0.788899 ]
+1 sentences, 8 words, 0 OOVs
+0 zeroprobs, logprob= -14.65366 ppl= 42.48002 ppl1= 67.87468
+
+and the baby dinosaur didn't know where he was
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( the | and ...) 	= [3gram] 0.06629642 [ -1.17851 ]
+	p( baby | the ...) 	= [3gram] 0.0005155978 [ -3.287689 ]
+	p( dinosaur | baby ...) 	= [2gram] 0.0002141894 [ -3.669202 ]
+	p( didn't | dinosaur ...) 	= [1gram] 0.0001524572 [ -3.816852 ]
+	p( know | didn't ...) 	= [2gram] 0.05137597 [ -1.28924 ]
+	p( where | know ...) 	= [3gram] 0.0394312 [ -1.40416 ]
+	p( he | where ...) 	= [4gram] 0.07452638 [ -1.12769 ]
+	p( was | he ...) 	= [4gram] 0.1755788 [ -0.755528 ]
+	p( </s> | was ...) 	= [4gram] 0.04577306 [ -1.33939 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -19.28122 ppl= 84.74657 ppl1= 138.7899
+
+and then he was sad
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( he | then ...) 	= [4gram] 0.03687737 [ -1.43324 ]
+	p( was | he ...) 	= [3gram] 0.04831068 [ -1.315957 ]
+	p( sad | was ...) 	= [3gram] 0.0001642346 [ -3.784535 ]
+	p( </s> | sad ...) 	= [3gram] 0.1381834 [ -0.859544 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -10.24117 ppl= 50.91679 ppl1= 111.7463
+
+the baby dino being sad made baby hulk sad
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( baby | the ...) 	= [3gram] 0.0004828252 [ -3.31621 ]
+	p( dino | baby ...) 	= [1gram] 5.767331e-07 [ -6.239025 ]
+	p( being | dino ...) 	= [1gram] 0.0005855337 [ -3.232448 ]
+	p( sad | being ...) 	= [2gram] 0.0002211821 [ -3.65525 ]
+	p( made | sad ...) 	= [1gram] 0.0001626612 [ -3.788716 ]
+	p( baby | made ...) 	= [1gram] 2.446093e-05 [ -4.611527 ]
+	p( hulk | baby ...) 	= [1gram] 1.314314e-06 [ -5.881301 ]
+	p( sad | hulk ...) 	= [1gram] 2.543433e-05 [ -4.59458 ]
+	p( </s> | sad ...) 	= [2gram] 0.09576791 [ -1.01878 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -37.40733 ppl= 5504.688 ppl1= 14334.07
+
+so he went up to the dinosaur and petted him on the head
+	p( so | <s> ) 	= [2gram] 0.01623678 [ -1.7895 ]
+	p( he | so ...) 	= [3gram] 0.01597166 [ -1.79665 ]
+	p( went | he ...) 	= [4gram] 0.02310202 [ -1.63635 ]
+	p( up | went ...) 	= [3gram] 0.01656749 [ -1.780743 ]
+	p( to | up ...) 	= [4gram] 0.3094354 [ -0.50943 ]
+	p( the | to ...) 	= [4gram] 0.2284957 [ -0.641122 ]
+	p( dinosaur | the ...) 	= [2gram] 1.95311e-05 [ -4.709273 ]
+	p( and | dinosaur ...) 	= [2gram] 0.02005244 [ -1.697833 ]
+	p( petted | and ...) 	= [2gram] 1.389016e-06 [ -5.857293 ]
+	p( him | petted ...) 	= [2gram] 0.03681629 [ -1.43396 ]
+	p( on | him ...) 	= [2gram] 0.01442979 [ -1.84074 ]
+	p( the | on ...) 	= [3gram] 0.3486607 [ -0.457597 ]
+	p( head | the ...) 	= [4gram] 0.01850291 [ -1.73276 ]
+	p( </s> | head ...) 	= [4gram] 0.1452981 [ -0.83774 ]
+1 sentences, 13 words, 0 OOVs
+0 zeroprobs, logprob= -26.72099 ppl= 81.02932 ppl1= 113.6216
+
+then gave him his bottle
+	p( then | <s> ) 	= [2gram] 0.004056954 [ -2.3918 ]
+	p( gave | then ...) 	= [2gram] 0.0002743235 [ -3.561737 ]
+	p( him | gave ...) 	= [2gram] 0.03901153 [ -1.408807 ]
+	p( his | him ...) 	= [3gram] 0.02611199 [ -1.58316 ]
+	p( bottle | his ...) 	= [3gram] 0.001942629 [ -2.71161 ]
+	p( </s> | bottle ...) 	= [2gram] 0.0789547 [ -1.102622 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -12.75974 ppl= 133.8513 ppl1= 356.4078
+
+and then he found it funny
+	p( and | <s> ) 	= [2gram] 0.03864025 [ -1.41296 ]
+	p( then | and ...) 	= [3gram] 0.03673415 [ -1.43493 ]
+	p( he | then ...) 	= [4gram] 0.03687737 [ -1.43324 ]
+	p( found | he ...) 	= [3gram] 0.003966461 [ -2.401597 ]
+	p( it | found ...) 	= [3gram] 0.05388031 [ -1.26857 ]
+	p( funny | it ...) 	= [3gram] 0.004001472 [ -2.39778 ]
+	p( </s> | funny ...) 	= [3gram] 0.302 [ -0.519993 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -10.86907 ppl= 35.70461 ppl1= 64.79055
+
+the boy is on skateboard
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( boy | the ...) 	= [3gram] 0.000451284 [ -3.34555 ]
+	p( is | boy ...) 	= [4gram] 0.06174901 [ -1.20937 ]
+	p( on | is ...) 	= [2gram] 0.00413093 [ -2.383952 ]
+	p( skateboard | on ...) 	= [1gram] 1.759211e-07 [ -6.754682 ]
+	p( </s> | skateboard ...) 	= [2gram] 0.1403321 [ -0.852843 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.61589 ppl= 400.5418 ppl1= 1327.937
+
+the boy snare a dinosaur egg
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( boy | the ...) 	= [3gram] 0.000451284 [ -3.34555 ]
+	p( snare | boy ...) 	= [1gram] 6.324287e-07 [ -6.198988 ]
+	p( a | snare ...) 	= [2gram] 0.03387115 [ -1.47017 ]
+	p( dinosaur | a ...) 	= [2gram] 0.0001413481 [ -3.84971 ]
+	p( egg | dinosaur ...) 	= [3gram] 0.01079469 [ -1.96679 ]
+	p( </s> | egg ...) 	= [3gram] 0.3260213 [ -0.486754 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -18.38745 ppl= 423.4274 ppl1= 1160.314
+
+the boy's touching the dinosaur egg
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( boy's | the ...) 	= [3gram] 2.574363e-05 [ -4.58933 ]
+	p( touching | boy's ...) 	= [1gram] 2.097192e-05 [ -4.678362 ]
+	p( the | touching ...) 	= [2gram] 0.1489649 [ -0.826916 ]
+	p( dinosaur | the ...) 	= [2gram] 4.181133e-05 [ -4.378706 ]
+	p( egg | dinosaur ...) 	= [2gram] 0.001862891 [ -2.729813 ]
+	p( </s> | egg ...) 	= [3gram] 0.3260213 [ -0.486754 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -18.75937 ppl= 478.531 ppl1= 1338.326
+
+the dinosaur egg is cracking open
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( egg | dinosaur ...) 	= [2gram] 0.001862891 [ -2.729813 ]
+	p( is | egg ...) 	= [2gram] 0.01252702 [ -1.902152 ]
+	p( cracking | is ...) 	= [2gram] 1.266228e-05 [ -4.897488 ]
+	p( open | cracking ...) 	= [2gram] 0.02374379 [ -1.62445 ]
+	p( </s> | open ...) 	= [2gram] 0.03560665 [ -1.448469 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -17.92868 ppl= 364.1164 ppl1= 973.0018
+
+the dinosaur egg is opened
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( egg | dinosaur ...) 	= [2gram] 0.001862891 [ -2.729813 ]
+	p( is | egg ...) 	= [2gram] 0.01252702 [ -1.902152 ]
+	p( opened | is ...) 	= [2gram] 7.377034e-05 [ -4.132118 ]
+	p( </s> | opened ...) 	= [3gram] 0.1216116 [ -0.915025 ]
+1 sentences, 5 words, 0 OOVs
+0 zeroprobs, logprob= -15.00542 ppl= 316.886 ppl1= 1002.498
+
+the boy is hiding behind a tree
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( boy | the ...) 	= [3gram] 0.000451284 [ -3.34555 ]
+	p( is | boy ...) 	= [4gram] 0.06174901 [ -1.20937 ]
+	p( hiding | is ...) 	= [2gram] 5.246724e-05 [ -4.280112 ]
+	p( behind | hiding ...) 	= [2gram] 0.07459881 [ -1.127268 ]
+	p( a | behind ...) 	= [3gram] 0.1945347 [ -0.711003 ]
+	p( tree | a ...) 	= [3gram] 0.008520007 [ -2.06956 ]
+	p( </s> | tree ...) 	= [3gram] 0.1625927 [ -0.788899 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -14.60125 ppl= 66.85848 ppl1= 121.869
+
+dinosaur is in there by himself
+	p( dinosaur | <s> ) 	= [2gram] 8.669823e-06 [ -5.06199 ]
+	p( is | dinosaur ...) 	= [2gram] 0.01094167 [ -1.960916 ]
+	p( in | is ...) 	= [2gram] 0.01258564 [ -1.900125 ]
+	p( there | in ...) 	= [3gram] 0.004197107 [ -2.37705 ]
+	p( by | there ...) 	= [3gram] 0.001520657 [ -2.817969 ]
+	p( himself | by ...) 	= [3gram] 0.01153878 [ -1.93784 ]
+	p( </s> | himself ...) 	= [3gram] 0.3466953 [ -0.460052 ]
+1 sentences, 6 words, 0 OOVs
+0 zeroprobs, logprob= -16.51594 ppl= 228.7811 ppl1= 565.7922
+
+the dinosaur is still there by himself but on the floor
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( dinosaur | the ...) 	= [3gram] 5.535792e-05 [ -4.25682 ]
+	p( is | dinosaur ...) 	= [3gram] 0.02499252 [ -1.60219 ]
+	p( still | is ...) 	= [2gram] 0.007639853 [ -2.116915 ]
+	p( there | still ...) 	= [3gram] 0.02920452 [ -1.53455 ]
+	p( by | there ...) 	= [2gram] 0.0006301023 [ -3.200589 ]
+	p( himself | by ...) 	= [3gram] 0.01153878 [ -1.93784 ]
+	p( but | himself ...) 	= [2gram] 0.005316099 [ -2.274407 ]
+	p( on | but ...) 	= [2gram] 0.003669514 [ -2.435391 ]
+	p( the | on ...) 	= [3gram] 0.3990644 [ -0.398957 ]
+	p( floor | the ...) 	= [3gram] 0.006411489 [ -2.193041 ]
+	p( </s> | floor ...) 	= [4gram] 0.2513831 [ -0.599664 ]
+1 sentences, 11 words, 0 OOVs
+0 zeroprobs, logprob= -23.61985 ppl= 92.96537 ppl1= 140.3652
+
+the boy is hiding behind a tree
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( boy | the ...) 	= [3gram] 0.000451284 [ -3.34555 ]
+	p( is | boy ...) 	= [4gram] 0.06174901 [ -1.20937 ]
+	p( hiding | is ...) 	= [2gram] 5.246724e-05 [ -4.280112 ]
+	p( behind | hiding ...) 	= [2gram] 0.07459881 [ -1.127268 ]
+	p( a | behind ...) 	= [3gram] 0.1945347 [ -0.711003 ]
+	p( tree | a ...) 	= [3gram] 0.008520007 [ -2.06956 ]
+	p( </s> | tree ...) 	= [3gram] 0.1625927 [ -0.788899 ]
+1 sentences, 7 words, 0 OOVs
+0 zeroprobs, logprob= -14.60125 ppl= 66.85848 ppl1= 121.869
+
+the boy is pet the dinosaur on the head
+	p( the | <s> ) 	= [2gram] 0.08521382 [ -1.06949 ]
+	p( boy | the ...) 	= [3gram] 0.000451284 [ -3.34555 ]
+	p( is | boy ...) 	= [4gram] 0.06174901 [ -1.20937 ]
+	p( pet | is ...) 	= [1gram] 3.196305e-06 [ -5.495352 ]
+	p( the | pet ...) 	= [2gram] 0.01218316 [ -1.91424 ]
+	p( dinosaur | the ...) 	= [2gram] 5.117174e-05 [ -4.29097 ]
+	p( on | dinosaur ...) 	= [3gram] 0.01025321 [ -1.98914 ]
+	p( the | on ...) 	= [2gram] 0.1852344 [ -0.7322784 ]
+	p( head | the ...) 	= [3gram] 0.001486517 [ -2.82783 ]
+	p( </s> | head ...) 	= [4gram] 0.1452981 [ -0.83774 ]
+1 sentences, 9 words, 0 OOVs
+0 zeroprobs, logprob= -23.71196 ppl= 235.0694 ppl1= 431.1836
+
+file /srv/scratch/z5313567/thesis/JupyterLab/Language_model/AusKidTalk_spontaneous_transcription.txt: 110 sentences, 845 words, 0 OOVs
+0 zeroprobs, logprob= -2216.711 ppl= 209.49 ppl1= 420.0748
