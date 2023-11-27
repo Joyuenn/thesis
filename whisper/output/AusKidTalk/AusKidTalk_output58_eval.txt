@@ -1,0 +1,211 @@
+Sun Oct 15 18:33:41 AEDT 2023
+Found cached dataset csv (/srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1)
+Running:  /srv/scratch/z5313567/thesis/whisper/code/1_whisper_eval_AusKidTalk_scripted.py
+Started: 15/10/2023 18:33:42
+
+------> IMPORTING PACKAGES.... ---------------------------------------
+
+-->Importing datasets...
+-->Importing jiwer...
+-->Importing random...
+-->Importing pandas & numpy...
+-->Importing re...
+-->Importing json...
+-->Importing num2words...
+-->Importing string...
+-->Importing Whisper Packages...
+-->Importing soundfile...
+-->Importing librosa...
+-->Importing torch, dataclasses & typing...
+-->Importing from transformers for training...
+-->Importing pyarrow for loading dataset...
+-->SUCCESS! All packages imported.
+
+------> EXPERIMENT ARGUMENTS ----------------------------------------- 
+
+base_fp: /srv/scratch/z5313567/thesis/
+model: whisper
+dataset_name: AusKidTalk
+experiment_id: whisper_eval_AusKidTalk_spontaneous_full_20231015_2
+cache_name: AusKidTalk-eval
+training: False
+use_checkpoint: True
+checkpoint: /srv/scratch/z5313567/thesis/whisper/model/AusKidTalk/whisper_medium_en_finetune_AusKidTalk_freeze_encoder_lowercase_20231014
+use_pretrained_tokenizer: True
+pretrained_tokenizer: openai/whisper-tiny.en
+eval_pretrained: True
+eval_model: /srv/scratch/z5313567/thesis/whisper/model/AusKidTalk/whisper_medium_en_finetune_AusKidTalk_freeze_encoder_lowercase_20231014
+baseline_model: openai/whisper-tiny.en
+eval_baseline: True
+
+------> TRAINING ARGUMENTS... ----------------------------------------
+
+learning_rate: 1e-05
+per_device_train_batch_size: 8
+per_device_eval_batch_size: 32
+seed: 42
+adam_beta1: 0.9
+adam_beta2: 0.999
+adam_epsilon: 1e-08
+lr_scheduler_type: linear
+warmup_steps: 500
+max_steps: 5500
+gradient_accumulation_steps: 1
+gradient_checkpointing: True
+fp16: True
+evaluation_strategy: steps
+predict_with_generate: True
+generation_max_length: 225
+save_steps: 1000
+eval_steps: 1000
+logging_steps: 500
+load_best_model_at_end: True
+metric_for_best_model: wer
+greater_is_better: False
+group_by_length: True
+
+------> GENERATING FILEPATHS... --------------------------------------
+
+--> data_train_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_test.csv
+--> data_test_fp: /srv/scratch/z5313567/thesis/AusKidTalk_local/AusKidTalk_spontaneous_only_transcription_filepath.csv
+--> data_cache_fp: /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval
+--> model_cache_fp: /srv/scratch/z5313567/thesis/cache
+--> vocab_fp: /srv/scratch/z5313567/thesis/whisper/vocab/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_vocab.json
+--> model_fp: /srv/scratch/z5313567/thesis/whisper/model/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2
+--> baseline_results_fp: /srv/scratch/z5313567/thesis/whisper/baseline_result/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_baseline_result.csv
+--> baseline_alignment_results_fp: /srv/scratch/z5313567/thesis/whisper/baseline_result/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_baseline_result.txt
+--> finetuned_results_fp: /srv/scratch/z5313567/thesis/whisper/finetuned_result/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_finetuned_result.csv
+--> finetuned_alignment_results_fp: /srv/scratch/z5313567/thesis/whisper/finetuned_result/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_finetuned_result.txt
+--> pretrained_mod: /srv/scratch/z5313567/thesis/whisper/model/AusKidTalk/whisper_medium_en_finetune_AusKidTalk_freeze_encoder_lowercase_20231014
+--> pretrained_tokenizer: openai/whisper-tiny.en
+
+------> PREPARING DATASET... ------------------------------------
+
+  0%|          | 0/2 [00:00<?, ?it/s]100%|██████████| 2/2 [00:00<00:00, 22.01it/s]
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-dc713f55183e398f.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-42a6bd10fc4d6a5d.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-4065487296728b03_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-8cf7ad05ce3f7289_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-f9050f39ea5d6384_*_of_00004.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-58252cf87f129cbe_*_of_00004.arrow
+/srv/scratch/z5313567/thesis/whisper/code/1_whisper_eval_AusKidTalk_scripted.py:464: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  wer_metric = load_metric("wer")
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-aeda55229e3b15e0.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-3455e796ff11b418.arrow
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-67ba0977ca69ee80.arrow
+Loading cached processed dataset at /srv/scratch/chacmod/.cache/huggingface/datasets/AusKidTalk-eval/csv/default-6c46ed926f912d82/0.0.0/6954658bab30a358235fa864b05cf819af0e179325c740e4bc853bcc7ec513e1/cache-43f20ac519e61d37.arrow
+/home/z5313567/.local/lib/python3.10/site-packages/transformers/generation/utils.py:1346: UserWarning: Using `max_length`'s default (448) to control the generation length. This behaviour is deprecated and will be removed from the config in v5 of Transformers -- we recommend using `max_new_tokens` to control the maximum length of the generation.
+  warnings.warn(
+--> dataset...
+DatasetDict({
+    train: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 10
+    })
+    test: Dataset({
+        features: ['filepath', 'transcription_clean'],
+        num_rows: 110
+    })
+})
+--> Printing some random samples...
+                                            filepath                transcription_clean
+0  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+1  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+2  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+3  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+4  /srv/scratch/chacmod/CU_2/corpus/data/train-pa...  BI BUBBLES BIG WHY ARE SOME SMALL
+SUCCESS: Prepared dataset.
+
+------> PROCESSING TRANSCRIPTION... ---------------------------------------
+
+
+------> Defining feature extractor... ---------------------------------------
+
+SUCCESS: Feature extractor defined.
+
+------> Defining tokenizer... ---------------------------------------
+
+SUCCESS: Tokenizer defined.
+
+------> Preparaing processor... ---------------------------------------
+
+SUCCESS: Processor defined.
+
+------> PRE-PROCESSING DATA... ----------------------------------------- 
+
+--> Verifying data with a random sample...
+Target text: bi bubbles big why are some small
+Input array shape: (46881,)
+Sampling rate: 16000
+SUCCESS: Data ready for training and evaluation.
+
+------> PREPARING FOR TRAINING & EVALUATION... ----------------------- 
+
+--> Defining data collator...
+SUCCESS: Data collator defined.
+--> Defining evaluation metric...
+SUCCESS: Defined WER evaluation metric.
+--> Loading pre-trained checkpoint...
+
+------> Training finished... ------------------------------------------ 
+
+
+------> EVALUATING MODEL... ------------------------------------------ 
+
+Saved results to: /srv/scratch/z5313567/thesis/whisper/finetuned_result/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_finetuned_result.csv
+--> Getting fine-tuned test results...
+Fine-tuned Test WER: 0.289
+Fine-tuned Test CER: 0.205
+
+
+--> Getting finetuned alignment output...
+Saved Alignment output to: /srv/scratch/z5313567/thesis/whisper/finetuned_result/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_finetuned_result.txt
+
+
+--> Showing some fine-tuned prediction errors...
+                                         target_text                                           pred_str
+0    well he was hiding because the dinosaur was sad   while he was hiding because the dinosaur was sad
+1  the green baby is holding the bottle of milk w...  the green baby is holding the bottle of milk w...
+2            a dinosaur jumps out and hulk is scared              dinosaur jumps out and hulk is scared
+3     and the baby dinosaur didn't know where he was       and the babydinosaur didnt know where he was
+4                          the baby wants to pet him                          the baby wants to pat him
+5                            he hide behind the tree                            he hide behind the tree
+6                               the egg was cracking                               the egg was cracking
+7  the green baby is holding the bottle of milk a...  the green baby is holding a bottle of milk and...
+8  the green baby is holding the bottle of milk w...  the green baby is holding the bottle of milk w...
+9  baby hulk was riding on a skateboard and then ...  baby hawk was riding on the skateboard and the...
+--> Taking a deeper look...
+<|startoftranscript|> <|notimestamps|> hole k Ġwas Ġriding Ġbackwards Ġon Ġthe Ġskate board Ġand Ġhe Ġhits Ġan Ġegg <|endoftext|>
+
+------> EVALUATING BASELINE MODEL... ------------------------------------------ 
+
+Saved results to: /srv/scratch/z5313567/thesis/whisper/baseline_result/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_baseline_result.csv
+--> Getting baseline test results...
+Baseline Test WER: 0.214
+Baseline Test CER: 0.117
+
+
+--> Getting baseline alignment output...
+Saved Alignment output to: /srv/scratch/z5313567/thesis/whisper/baseline_result/AusKidTalk/whisper_eval_AusKidTalk_spontaneous_full_20231015_2_baseline_result.txt
+
+
+--> Showing some baseline prediction errors...
+                                         target_text                                           pred_str
+0                  the dinosaur egg is cracking open                    the done so ad is clacking open
+1                           and then he finds an egg                           and then he finds a name
+2   the green dinosaur is looking for the green baby   the green done saw us looking for the green baby
+3            a dinosaur jumps out and hulk is scared       i dinosaur grumps out and how it gets scared
+4  hulk tries to hide from the dinosaur and is st...  how it tries to hide from the dinosaur and its...
+5                            he hide behind the tree                             he hid behind the tree
+6                 and he was looking at the dinosaur                 and he was looking at the dinosaur
+7  and that's him lying on the groung like being ...  and thats him lying on the ground like being u...
+8                    the boy is hiding behind a tree                 the boy is haunted by haunted tree
+9                           then gave him his bottle                           then gave him his bottle
+--> Taking a deeper look...
+<|startoftranscript|> <|notimestamps|> ĠHulk Ġwas Ġriding Ġbackwards Ġon Ġthe Ġskate board Ġand Ġhe Ġhits Ġan Ġegg . <|endoftext|>
+
+------> SUCCESSFULLY FINISHED ---------------------------------------- 
+
+Finished: 15/10/2023 18:34:27
