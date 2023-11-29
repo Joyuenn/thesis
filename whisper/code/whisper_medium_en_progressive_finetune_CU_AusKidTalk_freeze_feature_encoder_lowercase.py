@@ -1,6 +1,5 @@
 #----------------------------------------------------------
-# run_finetune_kids.py
-# Purpose: Uses wav2vec2 to fine tune for kids speech
+# Purpose: Uses whisper to fine tune for kids speech
 #          with children's speech corpus.
 # Based on source:
 # https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_tuning_Wav2Vec2_for_English_ASR.ipynb
@@ -9,6 +8,14 @@
 # Author: Renee Lu, 2021
 # Moddified: Jordan Chan, 2023
 #----------------------------------------------------------
+
+# ------------------------------------------
+#      Install packages if needed
+# ------------------------------------------
+#pip install datasets==1.8.0
+#pip install transformers
+#pip install soundfile
+#pip install jiwer
 
 # ------------------------------------------
 #       Import required packages
@@ -54,6 +61,8 @@ print("-->Importing num2words...")
 from num2words import num2words
 print("-->Importing string...")
 import string
+print('Importing partial')
+from functools import partial
 # Use models and tokenizers
 print("-->Importing Whisper Packages...")
 from transformers import WhisperTokenizer
@@ -234,7 +243,7 @@ print("--> data_test_fp:", data_test_fp)
 data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/' + cache_name
 print("--> data_cache_fp:", data_cache_fp)
 
-# Path to model cache
+# Path to pretrained model cache
 model_cache_fp = '/srv/scratch/z5313567/thesis/cache'
 print("--> model_cache_fp:", model_cache_fp)
 
@@ -242,20 +251,23 @@ print("--> model_cache_fp:", model_cache_fp)
 vocab_fp =  base_fp + model + '/vocab/' + dataset_name + '/' + experiment_id + '_vocab.json'
 print("--> vocab_fp:", vocab_fp)
 
-# Path to save model output
+# Path to save model
 model_fp = base_fp + model + '/model/' + dataset_name + '/' + experiment_id
 print("--> model_fp:", model_fp)
 
-# Path to save results output
+# Path to save baseline results output
 baseline_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.csv'
 print("--> baseline_results_fp:", baseline_results_fp)
 
+# Path to save baseline alignments between model predictions and references
 baseline_alignment_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.txt'
 print("--> baseline_alignment_results_fp:", baseline_alignment_results_fp)
 
+# Path to save finetuned results output
 finetuned_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.csv'
 print("--> finetuned_results_fp:", finetuned_results_fp)
 
+# Path to save finetuned alignments between model predictions and references
 finetuned_alignment_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.txt'
 print("--> finetuned_alignment_results_fp:", finetuned_alignment_results_fp)
 
@@ -614,6 +626,10 @@ def post_process(results):
     # replace "10" with "ten"
     pred_str = pred_str.replace("10", "ten")
     
+    # remove 'hmm', 'mm', 'mhm', 'mmm', 'uh'    
+    pattern = r'\b(hmm|mm|mhn|un|um)\b'
+    pred_str = re.sub(pattern, '', pred_str)
+  
     results['pred_str'] = pred_str
     return results
     

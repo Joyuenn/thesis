@@ -1,6 +1,5 @@
 #----------------------------------------------------------
-# run_finetune_kids.py
-# Purpose: Uses wav2vec2 to fine tune for kids speech
+# Purpose: Uses whisper to fine tune for kids speech
 #          with children's speech corpus.
 # Based on source:
 # https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_tuning_Wav2Vec2_for_English_ASR.ipynb
@@ -41,6 +40,9 @@ print("-->Importing datasets...")
 from datasets import load_dataset, load_metric, ClassLabel
 # Convert pandas dataframe to DatasetDict
 from datasets import Dataset
+# Generate alignment for OOV check
+print("-->Importing jiwer...")
+import jiwer
 # Generate random numbers
 print("-->Importing random...")
 import random
@@ -54,6 +56,13 @@ import re
 # Read, Write, Open json files
 print("-->Importing json...")
 import json
+# Convert numbers to words
+print("-->Importing num2words...")
+from num2words import num2words
+print("-->Importing string...")
+import string
+print('Importing partial')
+from functools import partial
 # Use models and tokenizers
 print("-->Importing Whisper Packages...")
 from transformers import WhisperTokenizer
@@ -234,7 +243,7 @@ print("--> data_test_fp:", data_test_fp)
 data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/' + cache_name
 print("--> data_cache_fp:", data_cache_fp)
 
-# Path to model cache
+# Path to pretrained model cache
 model_cache_fp = '/srv/scratch/z5313567/thesis/cache'
 print("--> model_cache_fp:", model_cache_fp)
 
@@ -242,20 +251,23 @@ print("--> model_cache_fp:", model_cache_fp)
 vocab_fp =  base_fp + model + '/vocab/' + dataset_name + '/' + experiment_id + '_vocab.json'
 print("--> vocab_fp:", vocab_fp)
 
-# Path to save model output
+# Path to save model
 model_fp = base_fp + model + '/model/' + dataset_name + '/' + experiment_id
 print("--> model_fp:", model_fp)
 
-# Path to save results output
+# Path to save baseline results output
 baseline_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.csv'
 print("--> baseline_results_fp:", baseline_results_fp)
 
+# Path to save baseline alignments between model predictions and references
 baseline_alignment_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.txt'
 print("--> baseline_alignment_results_fp:", baseline_alignment_results_fp)
 
+# Path to save finetuned results output
 finetuned_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.csv'
 print("--> finetuned_results_fp:", finetuned_results_fp)
 
+# Path to save finetuned alignments between model predictions and references
 finetuned_alignment_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.txt'
 print("--> finetuned_alignment_results_fp:", finetuned_alignment_results_fp)
 
@@ -593,7 +605,33 @@ def map_to_result(batch):
     batch["pred_str"] = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
     return batch
 
+def post_process(results):
+    pred_str = results['pred_str']
+    
+    # convert numerical numbers to English characters
+    pred_str = ' '.join([num2words(word) if word.isdigit() else word for word in pred_str.split()])
+    
+    # make all the characters lowercase
+    pred_str = pred_str.lower()
+    
+    # remoce symbols and punctuation
+    pred_str = pred_str.translate(str.maketrans('', '', string.punctuation))
+    
+    # replace "oclock" with "o clock"
+    pred_str = pred_str.replace("oclock", "o clock")
+    
+    # replace "10" with "ten"
+    pred_str = pred_str.replace("10", "ten")
+    
+    # remove 'hmm', 'mm', 'mhm', 'mmm', 'uh'    
+    pattern = r'\b(hmm|mm|mhn|un|um)\b'
+    pred_str = re.sub(pattern, '', pred_str)
+  
+    results['pred_str'] = pred_str
+    return results
+    
 results = data["test"].map(map_to_result)
+results = results.map(post_process)
 # Save results to csv
 results_df = results.to_pandas()
 results_df = results_df.drop(columns=['speech', 'sampling_rate'])
@@ -631,6 +669,7 @@ predicted_ids = model.generate(input_features)
 # convert ids to tokens
 print(" ".join(processor.tokenizer.convert_ids_to_tokens(predicted_ids[0].tolist())))
 
+
 # Evaluate baseline model on test set if eval_baseline = True
 if eval_baseline:
     print("\n------> EVALUATING BASELINE MODEL... ------------------------------------------ \n")
@@ -646,8 +685,9 @@ if eval_baseline:
     # to this issue (https://github.com/pytorch/fairseq/issues/3227). Since 
     # padded inputs don't yield the exact same output as non-padded inputs, 
     # a better WER can be achieved by not padding the input at all.
-
     results = data["test"].map(map_to_result)
+    results = results.map(post_process)
+    
     # Saving results to csv
     results_df = results.to_pandas()
     results_df = results_df.drop(columns=['speech', 'sampling_rate'])
@@ -669,7 +709,7 @@ if eval_baseline:
     with open(baseline_alignment_results_fp, 'w') as output_file:
         output_file.write(output_text)
     print("Saved Alignment output to:", baseline_alignment_results_fp)
-    print('\n')    
+    print('\n')
     
     # Showing prediction errors
     print("--> Showing some baseline prediction errors...")

@@ -1,12 +1,12 @@
 #----------------------------------------------------------
-# run_finetune_kids.py
-# Purpose: Uses wav2vec2 to fine tune for kids speech
+# Purpose: Uses whisper to fine tune for kids speech
 #          with children's speech corpus.
 # Based on source:
 # https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_tuning_Wav2Vec2_for_English_ASR.ipynb
 # https://colab.research.google.com/github/sanchit-gandhi/notebooks/blob/main/fine_tune_whisper.ipynb#scrollTo=34d4360d-5721-426e-b6ac-178f833fedeb
 # https://huggingface.co/openai/whisper-large-v2
 # Author: Renee Lu, 2021
+# Moddified: Jordan Chan, 2023
 #----------------------------------------------------------
 
 # ------------------------------------------
@@ -61,6 +61,8 @@ print("-->Importing num2words...")
 from num2words import num2words
 print("-->Importing string...")
 import string
+print('Importing partial')
+from functools import partial
 # Use models and tokenizers
 print("-->Importing Whisper Packages...")
 from transformers import WhisperTokenizer
@@ -241,7 +243,7 @@ print("--> data_test_fp:", data_test_fp)
 data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/' + cache_name
 print("--> data_cache_fp:", data_cache_fp)
 
-# Path to model cache
+# Path to pretrained model cache
 model_cache_fp = '/srv/scratch/z5313567/thesis/cache'
 print("--> model_cache_fp:", model_cache_fp)
 
@@ -249,20 +251,23 @@ print("--> model_cache_fp:", model_cache_fp)
 vocab_fp =  base_fp + model + '/vocab/' + dataset_name + '/' + experiment_id + '_vocab.json'
 print("--> vocab_fp:", vocab_fp)
 
-# Path to save model output
+# Path to save model
 model_fp = base_fp + model + '/model/' + dataset_name + '/' + experiment_id
 print("--> model_fp:", model_fp)
 
-# Path to save results output
+# Path to save baseline results output
 baseline_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.csv'
 print("--> baseline_results_fp:", baseline_results_fp)
 
+# Path to save baseline alignments between model predictions and references
 baseline_alignment_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.txt'
 print("--> baseline_alignment_results_fp:", baseline_alignment_results_fp)
 
+# Path to save finetuned results output
 finetuned_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.csv'
 print("--> finetuned_results_fp:", finetuned_results_fp)
 
+# Path to save finetuned alignments between model predictions and references
 finetuned_alignment_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.txt'
 print("--> finetuned_alignment_results_fp:", finetuned_alignment_results_fp)
 
@@ -618,7 +623,6 @@ def post_process(results):
     
 results = data["test"].map(map_to_result)
 results = results.map(post_process)
-
 # Save results to csv
 results_df = results.to_pandas()
 results_df = results_df.drop(columns=['speech', 'sampling_rate'])
@@ -655,6 +659,7 @@ input_features = processor(data["test"][0]["speech"], sampling_rate=data["test"]
 predicted_ids = model.generate(input_features)
 # convert ids to tokens
 print(" ".join(processor.tokenizer.convert_ids_to_tokens(predicted_ids[0].tolist())))
+
 
 # Evaluate baseline model on test set if eval_baseline = True
 if eval_baseline:

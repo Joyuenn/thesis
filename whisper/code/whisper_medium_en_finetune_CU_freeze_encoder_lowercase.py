@@ -1,6 +1,5 @@
 #----------------------------------------------------------
-# run_finetune_kids.py
-# Purpose: Uses wav2vec2 to fine tune for kids speech
+# Purpose: Uses whisper to fine tune for kids speech
 #          with children's speech corpus.
 # Based on source:
 # https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_tuning_Wav2Vec2_for_English_ASR.ipynb
@@ -244,7 +243,7 @@ print("--> data_test_fp:", data_test_fp)
 data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/' + cache_name
 print("--> data_cache_fp:", data_cache_fp)
 
-# Path to model cache
+# Path to pretrained model cache
 model_cache_fp = '/srv/scratch/z5313567/thesis/cache'
 print("--> model_cache_fp:", model_cache_fp)
 
@@ -252,20 +251,23 @@ print("--> model_cache_fp:", model_cache_fp)
 vocab_fp =  base_fp + model + '/vocab/' + dataset_name + '/' + experiment_id + '_vocab.json'
 print("--> vocab_fp:", vocab_fp)
 
-# Path to save model output
+# Path to save model
 model_fp = base_fp + model + '/model/' + dataset_name + '/' + experiment_id
 print("--> model_fp:", model_fp)
 
-# Path to save results output
+# Path to save baseline results output
 baseline_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.csv'
 print("--> baseline_results_fp:", baseline_results_fp)
 
+# Path to save baseline alignments between model predictions and references
 baseline_alignment_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.txt'
 print("--> baseline_alignment_results_fp:", baseline_alignment_results_fp)
 
+# Path to save finetuned results output
 finetuned_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.csv'
 print("--> finetuned_results_fp:", finetuned_results_fp)
 
+# Path to save finetuned alignments between model predictions and references
 finetuned_alignment_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.txt'
 print("--> finetuned_alignment_results_fp:", finetuned_alignment_results_fp)
 
@@ -576,164 +578,6 @@ if training:
 print("\n------> Training finished... ------------------------------------------ \n")
 
 # ------------------------------------------
-#            Evaluation
-# ------------------------------------------
-# Evaluate fine-tuned model on test set.
-print("\n------> EVALUATING MODEL... ------------------------------------------ \n")
-torch.cuda.empty_cache()
-
-if eval_pretrained:
-    processor = WhisperProcessor.from_pretrained(eval_model, cache_dir=model_cache_fp)
-    model = WhisperForConditionalGeneration.from_pretrained(eval_model, cache_dir=model_cache_fp)
-else:
-    processor = WhisperProcessor.from_pretrained(model_fp, cache_dir=model_cache_fp)
-    model = WhisperForConditionalGeneration.from_pretrained(model_fp, cache_dir=model_cache_fp)
-model.config.forced_decoder_ids = None
-# Now, we will make use of the map(...) function to predict 
-# the transcription of every test sample and to save the prediction 
-# in the dataset itself. We will call the resulting dictionary "results".
-# Note: we evaluate the test data set with batch_size=1 on purpose due 
-# to this issue (https://github.com/pytorch/fairseq/issues/3227). Since 
-# padded inputs don't yield the exact same output as non-padded inputs, 
-# a better WER can be achieved by not padding the input at all.
-def map_to_result(batch):
-    model.to("cuda")
-    input_features = processor(
-        batch["speech"], 
-        sampling_rate=batch["sampling_rate"], 
-        return_tensors="pt"
-    ).input_features.to("cuda")
-
-    with torch.no_grad():
-        # generate token ids
-        predicted_ids = model.generate(input_features.to("cuda"))
-    batch["pred_str"] = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
-    return batch
-
-def post_process(results):
-    pred_str = results['pred_str']
-    
-    # make all the characters lowercase
-    pred_str = pred_str.lower()
-    
-    # remoce symbols and punctuation
-    chars_to_ignore_regex = '[\,\?\.\!\-\;\:\"]'
-    pred_str = re.sub(chars_to_ignore_regex, "", pred_str)
-    
-    # add a whitespace before each number
-    pred_str = re.sub(r'(\d)', r' \1', pred_str)
-    
-    #convert numerical numbers to English characters
-    pred_str = ' '.join([num2words(word) if word.isdigit() else word for word in pred_str.split()])
-    
-    # remove extra whitespace between words
-    pred_str = re.sub(r'\s+', ' ', pred_str)
-    
-    # remove leading and trailing whitespaces
-    pred_str = pred_str.strip()
-    
-    results['pred_str'] = pred_str
-    return results
-    
-results = data["test"].map(map_to_result)
-results = results.map(post_process)
-
-# Save results to csv
-results_df = results.to_pandas()
-results_df = results_df.drop(columns=['speech', 'sampling_rate'])
-results_df.to_csv(finetuned_results_fp)
-print("Saved results to:", finetuned_results_fp)
-
-# Getting the WER and CER
-print("--> Getting fine-tuned test results...")
-print("Fine-tuned Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
-      references=results["target_text"])))
-print("Fine-tuned Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
-      references=results["target_text"])))
-print('\n')
-
-print("--> Getting finetuned alignment output...")
-word_output = jiwer.process_words(results["target_text"], results["pred_str"])
-alignment = jiwer.visualize_alignment(word_output)
-output_text = "--> Getting the finetuned alignment result...\n\n" + alignment + '\n\n\n'
-
-with open(finetuned_alignment_results_fp, 'w') as output_file:
-    output_file.write(output_text)
-print("Saved Alignment output to:", finetuned_alignment_results_fp)
-print('\n')
-
-# Showing prediction errors
-print("--> Showing some fine-tuned prediction errors...")
-show_random_elements(results.remove_columns(["speech", "sampling_rate"]))
-# Deeper look into model: running the first test sample through the model, 
-# take the predicted ids and convert them to their corresponding tokens.
-print("--> Taking a deeper look...")
-model.to("cuda")
-input_features = processor(data["test"][0]["speech"], sampling_rate=data["test"][0]["sampling_rate"], return_tensors="pt").input_features.to("cuda")
-# generate token ids
-predicted_ids = model.generate(input_features)
-# convert ids to tokens
-print(" ".join(processor.tokenizer.convert_ids_to_tokens(predicted_ids[0].tolist())))
-
-# Evaluate baseline model on test set if eval_baseline = True
-if eval_baseline:
-    print("\n------> EVALUATING BASELINE MODEL... ------------------------------------------ \n")
-    torch.cuda.empty_cache()
-    processor = WhisperProcessor.from_pretrained(baseline_model, cache_dir=model_cache_fp)
-    model = WhisperForConditionalGeneration.from_pretrained(baseline_model, cache_dir=model_cache_fp)
-    tokenizer = WhisperTokenizer.from_pretrained(baseline_model, cache_dir=model_cache_fp)
-
-    # Now, we will make use of the map(...) function to predict 
-    # the transcription of every test sample and to save the prediction 
-    # in the dataset itself. We will call the resulting dictionary "results".
-    # Note: we evaluate the test data set with batch_size=1 on purpose due 
-    # to this issue (https://github.com/pytorch/fairseq/issues/3227). Since 
-    # padded inputs don't yield the exact same output as non-padded inputs, 
-    # a better WER can be achieved by not padding the input at all.
-    results = data["test"].map(map_to_result)
-    results = results.map(post_process)
-    
-    # Saving results to csv
-    results_df = results.to_pandas()
-    results_df = results_df.drop(columns=['speech', 'sampling_rate'])
-    results_df.to_csv(baseline_results_fp)
-    print("Saved results to:", baseline_results_fp)
-    # Getting the WER
-    print("--> Getting baseline test results...")
-    print("Baseline Test WER: {:.3f}".format(wer_metric.compute(predictions=results["pred_str"], 
-          references=results["target_text"])))
-    print("Baseline Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
-          references=results["target_text"])))
-    print('\n')
-    
-    print("--> Getting baseline alignment output...")
-    word_output = jiwer.process_words(results["target_text"], results["pred_str"])
-    alignment = jiwer.visualize_alignment(word_output)
-    output_text = "--> Getting the baseline alignment result...\n\n" + alignment + '\n\n\n'
-
-    with open(baseline_alignment_results_fp, 'w') as output_file:
-        output_file.write(output_text)
-    print("Saved Alignment output to:", baseline_alignment_results_fp)
-    print('\n')
-    
-    # Showing prediction errors
-    print("--> Showing some baseline prediction errors...")
-    show_random_elements(results.remove_columns(["speech", "sampling_rate"]))
-    # Deeper look into model: running the first test sample through the model, 
-    # take the predicted ids and convert them to their corresponding tokens.
-    print("--> Taking a deeper look...")
-    model.to("cuda")
-    input_features = processor(data["test"][0]["speech"], sampling_rate=data["test"][0]["sampling_rate"], return_tensors="pt").input_features.to("cuda")
-    # generate token ids
-    predicted_ids = model.generate(input_features)
-    # convert ids to tokens
-    print(" ".join(processor.tokenizer.convert_ids_to_tokens(predicted_ids[0].tolist())))
-
-print("\n------> SUCCESSFULLY FINISHED ---------------------------------------- \n")
-now = datetime.now()
-# dd/mm/YY H:M:S
-dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-print("Finished:", dt_string)# ------------------------------------------
 #            Evaluation
 # ------------------------------------------
 # Evaluate fine-tuned model on test set.

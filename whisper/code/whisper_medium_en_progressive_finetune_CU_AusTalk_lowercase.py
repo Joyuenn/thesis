@@ -1,6 +1,5 @@
 #----------------------------------------------------------
-# run_finetune_kids.py
-# Purpose: Uses wav2vec2 to fine tune for kids speech
+# Purpose: Uses whisper to fine tune for kids speech
 #          with children's speech corpus.
 # Based on source:
 # https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_tuning_Wav2Vec2_for_English_ASR.ipynb
@@ -62,6 +61,8 @@ print("-->Importing num2words...")
 from num2words import num2words
 print("-->Importing string...")
 import string
+print('Importing partial')
+from functools import partial
 # Use models and tokenizers
 print("-->Importing Whisper Packages...")
 from transformers import WhisperTokenizer
@@ -605,20 +606,15 @@ def map_to_result(batch):
 def post_process(results):
     pred_str = results['pred_str']
     
-    # convert numerical numbers to English characters
-    pred_str = ' '.join([num2words(word) if word.isdigit() else word for word in pred_str.split()])
-    
     # make all the characters lowercase
     pred_str = pred_str.lower()
     
     # remoce symbols and punctuation
-    pred_str = pred_str.translate(str.maketrans('', '', string.punctuation))
+    chars_to_ignore_regex = '[\,\?\.\!\-\;\:\"]'
+    pred_str = re.sub(chars_to_ignore_regex, "", pred_str)
     
-    # replace "oclock" with "o clock"
-    pred_str = pred_str.replace("oclock", "o clock")
-    
-    # replace "10" with "ten"
-    pred_str = pred_str.replace("10", "ten")
+    # convert numerical numbers to English characters
+    pred_str = ' '.join([num2words(word) if word.isdigit() else word for word in pred_str.split()])
     
     results['pred_str'] = pred_str
     return results

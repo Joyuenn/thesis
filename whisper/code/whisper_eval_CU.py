@@ -1,12 +1,12 @@
 #----------------------------------------------------------
-# run_finetune_kids.py
-# Purpose: Uses wav2vec2 to fine tune for kids speech
+# Purpose: Uses whisper to fine tune for kids speech
 #          with children's speech corpus.
 # Based on source:
 # https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_tuning_Wav2Vec2_for_English_ASR.ipynb
 # https://colab.research.google.com/github/sanchit-gandhi/notebooks/blob/main/fine_tune_whisper.ipynb#scrollTo=34d4360d-5721-426e-b6ac-178f833fedeb
 # https://huggingface.co/openai/whisper-large-v2
 # Author: Renee Lu, 2021
+# Moddified: Jordan Chan, 2023
 #----------------------------------------------------------
 
 # ------------------------------------------
@@ -40,6 +40,9 @@ print("-->Importing datasets...")
 from datasets import load_dataset, load_metric, ClassLabel
 # Convert pandas dataframe to DatasetDict
 from datasets import Dataset
+# Generate alignment for OOV check
+print("-->Importing jiwer...")
+import jiwer
 # Generate random numbers
 print("-->Importing random...")
 import random
@@ -53,6 +56,13 @@ import re
 # Read, Write, Open json files
 print("-->Importing json...")
 import json
+# Convert numbers to words
+print("-->Importing num2words...")
+from num2words import num2words
+print("-->Importing string...")
+import string
+print('Importing partial')
+from functools import partial
 # Use models and tokenizers
 print("-->Importing Whisper Packages...")
 from transformers import WhisperTokenizer
@@ -229,20 +239,33 @@ print("--> data_test_fp:", data_test_fp)
 data_cache_fp = '/srv/scratch/chacmod/.cache/huggingface/datasets/' + cache_name
 print("--> data_cache_fp:", data_cache_fp)
 
+# Path to pretrained model cache
+model_cache_fp = '/srv/scratch/z5313567/thesis/cache'
+print("--> model_cache_fp:", model_cache_fp)
+
 # Path to save vocab.json
 vocab_fp =  base_fp + model + '/vocab/' + dataset_name + '/' + experiment_id + '_vocab.json'
 print("--> vocab_fp:", vocab_fp)
 
-# Path to save model output
+# Path to save model
 model_fp = base_fp + model + '/model/' + dataset_name + '/' + experiment_id
 print("--> model_fp:", model_fp)
 
-# Path to save results output
+# Path to save baseline results output
 baseline_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.csv'
 print("--> baseline_results_fp:", baseline_results_fp)
 
+# Path to save baseline alignments between model predictions and references
+baseline_alignment_results_fp = base_fp + model + '/baseline_result/' + dataset_name + '/'  + experiment_id + '_baseline_result.txt'
+print("--> baseline_alignment_results_fp:", baseline_alignment_results_fp)
+
+# Path to save finetuned results output
 finetuned_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.csv'
 print("--> finetuned_results_fp:", finetuned_results_fp)
+
+# Path to save finetuned alignments between model predictions and references
+finetuned_alignment_results_fp = base_fp + model + '/finetuned_result/' + dataset_name + '/'  + experiment_id + '_finetuned_result.txt'
+print("--> finetuned_alignment_results_fp:", finetuned_alignment_results_fp)
 
 # Pre-trained checkpoint model
 # For 1) Fine-tuning or
@@ -550,11 +573,11 @@ print("\n------> EVALUATING MODEL... ------------------------------------------ 
 torch.cuda.empty_cache()
 
 if eval_pretrained:
-    processor = WhisperProcessor.from_pretrained(eval_model)
-    model = WhisperForConditionalGeneration.from_pretrained(eval_model)
+    processor = WhisperProcessor.from_pretrained(eval_model, cache_dir=model_cache_fp)
+    model = WhisperForConditionalGeneration.from_pretrained(eval_model, cache_dir=model_cache_fp)
 else:
-    processor = WhisperProcessor.from_pretrained(model_fp)
-    model = WhisperForConditionalGeneration.from_pretrained(model_fp)
+    processor = WhisperProcessor.from_pretrained(model_fp, cache_dir=model_cache_fp)
+    model = WhisperForConditionalGeneration.from_pretrained(model_fp, cache_dir=model_cache_fp)
 model.config.forced_decoder_ids = None
 # Now, we will make use of the map(...) function to predict 
 # the transcription of every test sample and to save the prediction 
@@ -577,7 +600,34 @@ def map_to_result(batch):
     batch["pred_str"] = processor.batch_decode(predicted_ids, skip_special_tokens=True)[0]
     return batch
 
+def post_process(results):
+    pred_str = results['pred_str']
+    
+    # make all the characters lowercase
+    pred_str = pred_str.lower()
+    
+    # remoce symbols and punctuation
+    chars_to_ignore_regex = '[\,\?\.\!\-\;\:\"]'
+    pred_str = re.sub(chars_to_ignore_regex, "", pred_str)
+    
+    # add a whitespace before each number
+    pred_str = re.sub(r'(\d)', r' \1', pred_str)
+    
+    #convert numerical numbers to English characters
+    pred_str = ' '.join([num2words(word) if word.isdigit() else word for word in pred_str.split()])
+    
+    # remove extra whitespace between words
+    pred_str = re.sub(r'\s+', ' ', pred_str)
+    
+    # remove leading and trailing whitespaces
+    pred_str = pred_str.strip()
+    
+    results['pred_str'] = pred_str
+    return results
+    
 results = data["test"].map(map_to_result)
+results = results.map(post_process)
+
 # Save results to csv
 results_df = results.to_pandas()
 results_df = results_df.drop(columns=['speech', 'sampling_rate'])
@@ -591,6 +641,17 @@ print("Fine-tuned Test WER: {:.3f}".format(wer_metric.compute(predictions=result
 print("Fine-tuned Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
       references=results["target_text"])))
 print('\n')
+
+print("--> Getting finetuned alignment output...")
+word_output = jiwer.process_words(results["target_text"], results["pred_str"])
+alignment = jiwer.visualize_alignment(word_output)
+output_text = "--> Getting the finetuned alignment result...\n\n" + alignment + '\n\n\n'
+
+with open(finetuned_alignment_results_fp, 'w') as output_file:
+    output_file.write(output_text)
+print("Saved Alignment output to:", finetuned_alignment_results_fp)
+print('\n')
+
 # Showing prediction errors
 print("--> Showing some fine-tuned prediction errors...")
 show_random_elements(results.remove_columns(["speech", "sampling_rate"]))
@@ -608,9 +669,9 @@ print(" ".join(processor.tokenizer.convert_ids_to_tokens(predicted_ids[0].tolist
 if eval_baseline:
     print("\n------> EVALUATING BASELINE MODEL... ------------------------------------------ \n")
     torch.cuda.empty_cache()
-    processor = WhisperProcessor.from_pretrained(baseline_model)
-    model = WhisperForConditionalGeneration.from_pretrained(baseline_model)
-    tokenizer = WhisperTokenizer.from_pretrained(baseline_model)
+    processor = WhisperProcessor.from_pretrained(baseline_model, cache_dir=model_cache_fp)
+    model = WhisperForConditionalGeneration.from_pretrained(baseline_model, cache_dir=model_cache_fp)
+    tokenizer = WhisperTokenizer.from_pretrained(baseline_model, cache_dir=model_cache_fp)
 
     # Now, we will make use of the map(...) function to predict 
     # the transcription of every test sample and to save the prediction 
@@ -619,8 +680,9 @@ if eval_baseline:
     # to this issue (https://github.com/pytorch/fairseq/issues/3227). Since 
     # padded inputs don't yield the exact same output as non-padded inputs, 
     # a better WER can be achieved by not padding the input at all.
-
     results = data["test"].map(map_to_result)
+    results = results.map(post_process)
+    
     # Saving results to csv
     results_df = results.to_pandas()
     results_df = results_df.drop(columns=['speech', 'sampling_rate'])
@@ -633,6 +695,17 @@ if eval_baseline:
     print("Baseline Test CER: {:.3f}".format(cer_metric.compute(predictions=results["pred_str"], 
           references=results["target_text"])))
     print('\n')
+    
+    print("--> Getting baseline alignment output...")
+    word_output = jiwer.process_words(results["target_text"], results["pred_str"])
+    alignment = jiwer.visualize_alignment(word_output)
+    output_text = "--> Getting the baseline alignment result...\n\n" + alignment + '\n\n\n'
+
+    with open(baseline_alignment_results_fp, 'w') as output_file:
+        output_file.write(output_text)
+    print("Saved Alignment output to:", baseline_alignment_results_fp)
+    print('\n')
+    
     # Showing prediction errors
     print("--> Showing some baseline prediction errors...")
     show_random_elements(results.remove_columns(["speech", "sampling_rate"]))

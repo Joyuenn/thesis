@@ -1,12 +1,12 @@
 #----------------------------------------------------------
-# run_finetune_kids.py
-# Purpose: Uses wav2vec2 to fine tune for kids speech
+# Purpose: Uses whisper to fine tune for kids speech
 #          with children's speech corpus.
 # Based on source:
 # https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_tuning_Wav2Vec2_for_English_ASR.ipynb
 # https://colab.research.google.com/github/sanchit-gandhi/notebooks/blob/main/fine_tune_whisper.ipynb#scrollTo=34d4360d-5721-426e-b6ac-178f833fedeb
 # https://huggingface.co/openai/whisper-large-v2
 # Author: Renee Lu, 2021
+# Moddified: Jordan Chan, 2023
 #----------------------------------------------------------
 
 # ------------------------------------------
@@ -61,6 +61,8 @@ print("-->Importing num2words...")
 from num2words import num2words
 print("-->Importing string...")
 import string
+print('Importing partial')
+from functools import partial
 # Use models and tokenizers
 print("-->Importing Whisper Packages...")
 from transformers import WhisperTokenizer
