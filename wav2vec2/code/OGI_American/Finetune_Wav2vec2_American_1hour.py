@@ -1,3 +1,12 @@
+#----------------------------------------------------------
+# Purpose: Uses wav2vec2 to fine tune for kids speech
+#          with children's speech corpus.
+# Based on source:
+# https://colab.research.google.com/github/patrickvonplaten/notebooks/blob/master/Fine_tuning_Wav2Vec2_for_English_ASR.ipynb
+# Author: Renee Lu, 2021
+# Moddified: Jordan Chan, 2023
+#----------------------------------------------------------
+
 # pip install datasets
 # pip install transformers==4.29.2
 # pip install jiwer
